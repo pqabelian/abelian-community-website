@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: "/Abelian-Community/",
+  outDir: '../public',
   ignoreDeadLinks: true,
   
   locales: {
