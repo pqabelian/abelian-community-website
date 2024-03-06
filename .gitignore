@@ -10,8 +10,6 @@
 .cache
 .temp
 cache
-dist
-dist-ssr
 node_modules
 tmp
 logs
