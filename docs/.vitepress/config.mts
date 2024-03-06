@@ -3,7 +3,8 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: "/Abelian-Community/",
-
+  ignoreDeadLinks: true,
+  
   locales: {
     root: {
       label: 'English',
