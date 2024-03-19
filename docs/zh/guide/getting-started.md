@@ -3,12 +3,12 @@ title: Get Started
 outline: deep
 ---
 
-# Get Started
+# 开始
 
-## 1. Installation
-There are three pieces of software: **abec**, **abewallet** and **abectl**. They are downloaded in two compressed files, something like **abec-macos-amd64-v0.11.0.tar.gz** and **abewallet-macos-amd64-v0.11.0.tar.gz** for macOS running on an x86 architecture (e.g. Intel chips). More information can be found in the Discord.
+## 1. 安装
+有三个软件：** abec **，** abewallet **和** abectl **。它们在两个压缩文件中下载，类似于** abec-macos-amd64-v0.11.11.11.0.tar.gz **和** ** abewallet-macos-amd64-v0.11.11.11.11.tar.gz **，用于MacOS在MacOS上X86体系结构（例如英特尔芯片）。更多信息可以在不和谐中找到。
 
-Unzip both files, you will get two folders, something like **abec-macos-amd64-v0.11.0/** and **abewallet-macos-amd64-v0.11.0/**. To ease the description below, let's put these two folders under a folder called **abel/** under **Documents**. Something like:
+解开两个文件，您将获得两个文件夹，例如** Abec-Macos-AMD64-V0.11.0/**和** Abewallet-Macos-Amd64-V0.11.11.0/**。为了简化下面的描述，让我们将这两个文件夹放在一个名为** Abel/**的文件夹下，**文件** **。就像是：
 
 ```shell
 1. ~/Documents/abel/abec-macos-amd64-v0.11.0/
@@ -17,9 +17,9 @@ Unzip both files, you will get two folders, something like **abec-macos-amd64-v0
 
 **abec** and **abectl** are in ```~/Documents/abel/abec-macos-amd64-v0.11.0/``` and ***abewallet*** is in ```~/Documents/abel/abewallet-macos-amd64-v0.11.0/```.
 
-To run these software, we use Terminal (for macOS and Linux) or PowerShell (for Windows).
+要运行这些软件，我们使用终端（用于MACOS和Linux）或PowerShell（用于Windows）。
 
-Open a Terminal / PowerShell, go to ```~/Documents/abel/abec-macos-amd64-v0.11.1/```, and run
+打开终端 / powershell， go to ```~/Documents/abel/abec-macos-amd64-v0.11.1/```, and run
 
 ```shell
 # macOS and Linux
@@ -28,13 +28,13 @@ Open a Terminal / PowerShell, go to ```~/Documents/abel/abec-macos-amd64-v0.11.1
 abec
 ```
 
-Then press control+C. By doing this, we create a **configuration folder** located at:
+然后按Control+c。通过这样做，我们创建一个位于以下位置的**配置文件夹**
 
 - Windows: C:\\Users\\[username]\\AppData\\Local\\Abec
 - macOS: /Users/[username]/Library/Application Support/Abec
 - Linux: /home/[username]/.abec
 
-Next, open another Terminal / PowerShell, go to ```~/Documents/abel/abewallet-macos-amd64-v0.11.0/```, and run
+接下来，打开另一个终端 / powershell， go to ```~/Documents/abel/abewallet-macos-amd64-v0.11.0/```, and run
 
 ```shell
 # macOS and Linux
@@ -43,7 +43,7 @@ Next, open another Terminal / PowerShell, go to ```~/Documents/abel/abewallet-ma
 abewallet --create
 ```
 
-Then press control+C. By doing this, we create a **configuration folder** located at:
+然后按Control+c。通过这样做，我们创建一个位于以下位置的**配置文件夹**
 
 - Windows: C:\\Users\\username\\AppData\\Local\\Abewallet
 - macOS: /Users/username/Library/Application Support/Abewallet
@@ -93,101 +93,101 @@ Please remember the initial address:
 00000000005a38589d86427698e3ec735335b368899ed6e0239c4285bbc4e370f4ea4e6d2ac1f1555b53f8df7c30e13d4bccc3b6d56763ec279620d9f131fb68089cb8ef18885950f84e56bf78d1780a5cac57d0888dabd669f86f85e7055afabae6a332fa000b3c6ee6a09751ce41ad7de4e...
 ```
 
-The **public passphrase** will be used when running abewallet, and the **private passphrase** will be used for unlocking the wallet (so to spend transfer ABEL tokens). These passphrases should be different and kept strictly safe.
+在运行AbeWallet时，将使用**公共密码**，并且**私有密码**将用于解锁钱包（因此要花费转移Abel代币）。这些密码应不同，并严格安全。
 
-**Important:** Keep the **crypto version** and  **mnemonic list** in a safe place, and also remember the number of times that you have recovered the same wallet. The mnemonic list can be used for recovering the wallet in the future in case you lose your wallet, install another mining machine while using the same wallet, or upgrade the mining software.
+**重要：**保留**加密版**和** mnemonic列表**在安全的地方，还要记住您恢复了同一钱包的次数。助记符列表将来可以用于恢复钱包，以防您丢失钱包，在使用同一钱包时安装另一台采矿机，或升级采矿软件。
 
-The **initial address** will be used as your mining address or payment address later.
+**初始地址**将稍后用作您的采矿地址或付款地址。
 
-**Important:** All these information should be copied down, namely, public passphrase, private passphrase, crypto version, mnemonic list, initial address, and the number of times that the same wallet has been recovered.
+**重要：**所有这些信息都应被复制，即公共密码，私人密码，加密版，助记符列表，初始地址以及相同钱包已恢复的次数。
 
-## 3. Configuration - abec
-Go to the configuration folder of abec and make changes as below in the configuration file **abec.conf**.
+## 3. 配置 -  ABEC
+转到ABEC的配置文件夹，然后在配置文件** abec.conf **中进行更改。
 
-### 3.1 Listen to a Specific Port
-The default listen port of an Abelian node (i.e. abec) is 8666. If you would like to use some other port (in the range [1025-65535]), for example 18666, you can specify it by adding the following into abec.conf.
+### 3.1 听特定的端口
+Abelian节点的默认收听端口（即ABEC）为8666。如果您想使用其他端口（例如[1025-65535]在[1025-65535]中），例如18666，则可以通过将以下内容添加到ABEC中来指定它。conf。
 
 ```
 listen=:18666
 ```
 
-### 3.2 Broadcast Your (Mining) Node
-You can let other Abelian nodes on the mainnet know your presence through broadcasting your IP address. This works if you have a public IP or have some IP forwarding already set at your router. To do so, you can specify your external IP (e.g. 1.2.3.4) in abec.conf:
+### 3.2 广播您的（采矿）节点
+您可以通过广播您的IP地址来使Mainnet上的其他Abelian节点知道您的存在。如果您有公共IP或在路由器上已经设置了一些IP转发，则可以使用。为此，您可以在Abec.conf中指定外部IP（例如1.2.3.4）：
 
 ```
 externalip=1.2.3.4
 ```
 
-If you are using some other listenting port (e.g. 18666) rather than the default port (8666), you need to specify the port as well:
+如果您使用的是其他一些清单端口（例如18666）而不是默认端口（8666），则需要指定端口：
 
 ```
 externalip=1.2.3.4:18666
 ```
 
-If your node sits behind a router, you may also enable UPnP by adding the following in abec.conf.
+如果您的节点位于路由器后面，则可以通过在Abec.conf中添加以下内容启用UPNP。
 
 ```
 upnp=1
 ```
 
-### 3.3 RPC Values
+### 3.3 RPC 值
 
-To let your ABEL wallet, namely, abewallet, connect to abec, you need to know the values of rpcuser and rpcpass, which are in abec.conf.
+要让您的亚伯钱包，即Abewallet，连接到ABEC，您需要知道Abec.conf中的rpcuser和rpcpass的值。
 
 ```
 rpcuser = [rpcuser]
 rpcpass = [rpcpass]
 ```
 
-You may keep these automatically generated rpcuser and rpcpass values unchanged.
+您可以将这些自动生成的RPCUSER和RPCPASS值保持不变。
 
-### 3.4 Mining Address
+### 3.4 采矿地址
 
-If you want to run a full node and also as a mining node (which I think you do), you need to include the initial address of your wallet to the miningaddr option in abec.conf.
+如果您想运行一个完整的节点，也想作为采矿节点（我认为您这样做），则需要将钱包的初始地址包括在Abec.conf中的MiningAddr选项中。
 
 ```
 miningaddr = [your initial address]
 ```
 
-## 4. Configuration - abewallet
-Your ABEL wallet (abewallet) needs to connect to one of the full nodes (abec). Configure the following options in *abewallet.conf* which is located in the configuration folder of abewallet:
+## 4. 配置 -  abewallet
+您的亚伯钱包（Abewallet）需要连接到一个完整节点之一（ABEC）。在 * abewallet.conf *中配置以下选项，该选项位于Abewallet的配置文件夹中：
 
 ```
 abecrpcuser= [rpcuser in abec.conf]
 abecrpcpass= [rpcpass in abec.conf]
 ```
 
-`[rpcuser in abec.conf]` and `[rpcpass in abec.conf]` are the rpcuser and rpcpass values, respecitvely, from abec.conf. This allows abewallet to connect to abec.
+`[rpcuser in abec.conf]` and `[rpcpass in abec.conf]` 来自Abec.conf的RPCUSER和RPCPASS值。这允许Abewallet连接到ABEC。
 
-In addition, in order to let ***abectl*** (abewallet control console) interact with abewallet later, we need to set the following options in abewallet.conf.
+此外，为了让*** Abectl ***（AbeWallet Control Console）稍后与Abewallet进行交互，我们需要在abewallet.conf中设置以下选项。
 
 ```
 rpcuser= [username]
 rpcpass= [password]
 ```
 
-***Note:*** In other words, abecrpcuser / abecrpcpass (in abewallet.conf) correspond to rpcuser / rpcpassword (in abec.conf), respecitvely, and are used for establishing a secure RPC communication channel between abec and abewallet. While rpcuser / rpcpass (in abewallet.conf) will be used for establishing a secure RPC communication channel between abectl (to be introduced) and abewallet.
+***注意：***换句话说，abecrpcuser / abecrpcpass（在abewallet.conf中）对应于rpcuser / rpcpassword（在abec.conf中），并使用，并用于在Abec和Abewet之间建立安全的RPC通信通道。而RPCUSER / RPCPASS（在Abewallet.conf中）将用于在Abectl（待引入）和Abewallet之间建立安全的RPC通信通道。
 
-Besides the configuration above, you need to do a few more configurations as follows if you are running abec and abewallet at different machines.
+除了上面的配置外，如果您在不同的计算机上运行ABEC和ABEWALLET，则需要进行更多配置。
 
 
-### 4.1 abec and abewallet are running on different machines
+### 4.1 abec 和 abewallet 在不同的机器上运行
 
-Add the following option in *abec.conf*:
+在 *abec.conf *中添加以下选项：
 
 ```
 rpclisten=[IP:PORT]
 ```
 
-If there is only one local net IP, or for simplicity, it can be 0.0.0.0, which means listening to PORT of all IPs.
+如果只有一个本地净IP或为简单起见，则可以是0.0.0.0，这意味着聆听所有IPS的端口。
 
-Next, add the following option in *abewallet.conf* for specifying the IP address and PORT of the remote full node (abec).
+接下来，在 * abewallet.conf *中添加以下选项，以指定远程完整节点（ABEC）的IP地址和端口。
 
 ```
 rpcconnect=[IP:PORT]
 ```
 
-IP and PORT are the IP address and listening port of abec, respectively. If a port is not specified, the default port (8667) will be used.
+IP和端口分别是ABEC的IP地址和侦听端口。如果未指定端口，则将使用默认端口（8667）。
 
 Finally, copy *rpc.cert* from the configuration folder of the remote full node, abec, and store the file as ```~/Documents/abel/rpc.cert``` and set the cafile option in *abewallet.conf* as
 
@@ -205,7 +205,7 @@ Go to ```~/Documents/abel/abec-macos-amd64-v0.11.1/``` and run a full node (abec
 abec --generate
 ```
 
-The above command also makes abec start mining. If you do not want to mine, and instead, just run abec as a full node:
+上述命令还使ABEC开始采矿。如果您不想开采，而只需以一个完整的节点运行ABEC：
 
 ```shell
 # macOS and Linux
@@ -214,7 +214,7 @@ The above command also makes abec start mining. If you do not want to mine, and 
 abec
 ```
 
-Example:
+例子：
 
 ```shell
 ./start_abec.sh --generate
@@ -232,7 +232,7 @@ Example:
 2022-08-08 12:08:50.120 [INF] CMGR: Server listening on [::]:8666
 ```
 
-## 6. Running a Wallet - abewallet
+## 6. 运行钱包 -  abewallet
 Go to ```~/Documents/abel/abewallet-macos-amd64-v0.11.1/```  and run the wallet (abewallet):
 
 ```shell
@@ -263,15 +263,15 @@ Example:
 2022-08-08 12:36:25.184 [INF] TMGR: Current sync height 8
 ```
 
-***Note:*** **One wallet is enough.** You only need to add the mining address of the same wallet to the abec.conf of each of your mining machines and connect abewallet to just **one** of them. The total balance of your ABEL wallet will be automatically tallied from the Abelian blockchain.
+***Note:*** **One wallet is enough.** 您只需要将同一钱包的采矿地址添加到每台采矿机的ABEC.conf中，然后将Abewallet连接到其中一个**。亚伯钱包的总余额将自动从阿贝里安区块链中分配。
 
-## 7. Use abectl (wallet control console) to Operate abewallet
+## 7. 使用Abectl（钱包控制控制台）进行操作
 
-In the abec folder, there is another executable called start_abectl.sh (macOS and Linux) or abectl (Windows). This executable can be used for checking the balance of your wallet, make fund transfer, and so on.
+在ABEC文件夹中，还有另一个可执行文件称为start_abectl.sh（MacOS和Linux）或Abectl（Windows）。该可执行文件可用于检查钱包的余额，进行资金转让等等。
 
-### 7.1 Check balance
+### 7.1 查看余额
 
-Run the following to check the balance of your wallet where *username* and *password* should be the same as the options *rpcuser* and *rpcpass* we configured in *abewallet.conf*, respecitvely.
+运行以下操作以检查钱包的余额，其中 *用户名 *和 *密码 *应该与我们在 *abewallet.conf *（respecitvely）中配置的选项 *rpcuser *和 *rpcpass *相同。
 
 ```shell
 # macOS and Linux
@@ -280,15 +280,15 @@ Run the following to check the balance of your wallet where *username* and *pass
 abectl --rpcuser=[username] --rpcpass=[password] --wallet getbalancesabe
 ```
 
-Example:
+例子：
 
 ```shell
 ./start_abectl.sh --rpcuser=abewalletrpcuser --rpcpass=abewalletrpcpass --wallet getbalancesabe
 {"current_time":"2022-05-26 23:08:07.730291 +0800 HKT m=+10.601777429","current_height":12051,"current_block_hash":"00000000734e4c08b4422954da4df52c42fa1b3466e340ac332ad037f9a15ad5","total_balance":103424,"spendable_balance":102400,"freeze_balance":1024}
 ```
 
-### 7.2 If Abectl and Abewallet are on different machines
-When running abectl, we need to specify the IP address and port of the remote abewallet. To do so, we use parameter `--rpcserver=[IP:PORT]`.
+### 7.2 如果Abectl和Abewallet在不同的机器上
+运行ABECTL时，我们需要指定远程Abewallet的IP地址和端口。为此，我们使用参数 `--rpcserver=[IP:PORT]`.
 
 To get the RPC certificate of the remote abewallet, you need to copy the file *rpc.cert* from the configuration folder of abewallet, and paste it in any place in the machine which runs abectl, and add parameter  `--rpccert=[location of cert]` while running abectl.
 
@@ -306,9 +306,9 @@ Example:
 {"current_time":"2022-05-26 23:08:07.730291 +0800 HKT m=+10.601777429","current_height":12051,"current_block_hash":"00000000734e4c08b4422954da4df52c42fa1b3466e340ac332ad037f9a15ad5","total_balance":103424,"spendable_balance":102400,"freeze_balance":1024}
 ```
 
-### 7.3 Unlock 
+### 7.3 解锁 
 
-Before you send transactions or generate a new address, you should unlock the wallet first.
+在发送交易或生成新地址之前，应首先解锁钱包。
 
 ```shell
 # macOS and Linux
@@ -317,7 +317,7 @@ Before you send transactions or generate a new address, you should unlock the wa
 abectl --rpcuser=[rpc username] --rpcpass=[rpc password] --wallet unlockwallet [private passphrase] [timeout]
 ```
 
-**NOTE**: The unit of timeout is in seconds.
+**注意**：超时单位为几秒钟。
 
 Example:
 
@@ -325,7 +325,7 @@ Example:
 ./start_abectl.sh --rpcuser=abewalletrpcuser --rpcpass=abewalletrpcpass --wallet unlockwallet 123456 240
 ```
 
-This means unlock the wallet with passphrase 123456 for 240 seconds.
+这意味着用密码123456解锁240秒的钱包。
 
 ### 7.4 Generate a new address
 

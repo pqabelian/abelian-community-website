@@ -20,7 +20,7 @@ hero:
       link: /faq/
     - theme: alt
       text: Correction/Submission
-      link: https://github.com/pqabelian/abelian-community-faq/issues/new
+      link: https://github.com/pqabelian/abelian-community/issues/new
     - theme: alt
       text: View on GitHub
       link: https://github.com/pqabelian/abelian-miner-gpu
