@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/abelian-community-website/",
+  // base: "/abelian-community-website/",
   ignoreDeadLinks: true,
   
   locales: {
