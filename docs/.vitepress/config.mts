@@ -130,14 +130,14 @@ export default defineConfig({
       description: "Abelian 知识社区 - 致力于为 Abelian 区块链集文档库、问答、教程和用户经验分享为一体的综合型社区。",
       themeConfig: {
         nav: [
-          { text: '由此开始', link: '/guide/getting-started' },
-          { text: 'API', link: '/apis/core-api' },
-          { text: '问答', link: '/faq/' },
+          { text: '由此开始', link: '/zh/guide/getting-started' },
+          { text: 'API', link: '/zh/apis/core-api' },
+          { text: '问答', link: '/zh/faq/' },
           { text: '下载',
             items: [
               { text: 'Abelian 下载', link: 'https://www.abelian.info/downloads/' },
-              { text: 'Abelian 主网数据', link: '/downloads/mainnet-db' },
-              { text: 'Abelian 生态工具', link: '/downloads/ecosystem-tools' }
+              { text: 'Abelian 主网数据', link: '/zh/downloads/mainnet-db' },
+              { text: 'Abelian 生态工具', link: '/zh/downloads/ecosystem-tools' }
             ]
           },
           {
