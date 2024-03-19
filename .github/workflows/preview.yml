@@ -1,0 +1,41 @@
+name: preview
+
+on:
+  push:
+    branches:
+      - current
+
+jobs:
+  Build-and-Deploy:
+    runs-on: test
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Check current branch
+        run: git branch
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build
+        run: npm run docs:build
+
+      - name: Check file existence
+        id: check_files
+        uses: andstor/file-existence-action@v2
+        with:
+          files: "/var/www/html/abelcommunity"
+
+      - name: Backup old files
+        if: steps.check_files.outputs.files_exists == 'true'
+        run: mv /var/www/html/abelcommunity /var/www/html/abelcommunity.$(date +%s)
+
+      - name: Copy new files
+        run: cp -r docs/.vitepress/dist /var/www/html/abelcommunity
