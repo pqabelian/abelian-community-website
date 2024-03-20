@@ -5,6 +5,10 @@ export default defineConfig({
   // base: "/abelian-community-website/",
   ignoreDeadLinks: true,
   lastUpdated: true,
+
+  head: [
+    ['link', { rel: "icon", href: "/favicon.ico"}]
+  ],
   
   locales: {
     root: {
