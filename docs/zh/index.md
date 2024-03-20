@@ -13,11 +13,11 @@ hero:
 
   actions:
     - theme: brand
-      text: 介绍
-      link: /zh/intro/
-    - theme: brand
-      text: 技术论文
-      link: /zh/technical-papers/
+      text: 由此开始
+      link: /zh/guide/getting-started
+    - theme: alt
+      text: 问答
+      link: /zh/faq/
     - theme: alt
       text: 纠错/投稿
       link: https://github.com/pqabelian/abelian-community/issues/new

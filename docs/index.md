@@ -13,11 +13,11 @@ hero:
 
   actions:
     - theme: brand
-      text: Introduction
-      link: /intro/
-    - theme: brand
-      text: Technical Papers
-      link: /technical-papers/
+      text: Get Started
+      link: /guide/getting-started
+    - theme: alt
+      text: FAQ
+      link: /faq/
     - theme: alt
       text: Correction/Submission
       link: https://github.com/pqabelian/abelian-community/issues/new

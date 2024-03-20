@@ -43,15 +43,15 @@ export default defineConfig({
               collapsed: false,
               items: [
                 { text: 'What is Abelian', link: '/guide/what-is-abelian'},
-                { text: 'Introduction', 
-                  collapsed: true,
-                  items: [
-                    { text: 'Post-Quantum Blockchain Safe', link: '/intro/post-quantum-blockchain-safe' },
-                    { text: 'Abelian Core Team', link: '/intro/core-team' },
-                    { text: 'Anti-Quantum Encryption', link: '/intro/anti-quantum-encryption' },
-                    { text: 'Digital Gold 2.0', link: '/intro/digital-gold-2' }
-                  ]
-                },
+                // { text: 'Introduction', 
+                  // collapsed: true,
+                  // items: [
+                    // { text: 'Post-Quantum Blockchain Safe', link: '/intro/post-quantum-blockchain-safe' },
+                    // { text: 'Abelian Core Team', link: '/intro/core-team' },
+                    // { text: 'Anti-Quantum Encryption', link: '/intro/anti-quantum-encryption' },
+                    // { text: 'Digital Gold 2.0', link: '/intro/digital-gold-2' }
+                  // ]
+                // },
                 { text: 'ABEL Tokenomics', link: '/guide/abel-tokenomics'},
                 { text: 'Getting Started', link: '/guide/getting-started'},
                 { text: 'Abelian Wallet',
@@ -171,15 +171,15 @@ export default defineConfig({
               collapsed: false,
               items: [
                 { text: 'Abelian 是什么', link: '/zh/guide/what-is-abelian'},
-                { text: 'Abelian 介绍', 
-                  collapsed: true,
-                  items: [
-                    { text: 'Post-Quantum Blockchain Safe', link: '/zh/intro/post-quantum-blockchain-safe' },
-                    { text: 'Abelian Core Team', link: '/zh/intro/core-team' },
-                    { text: 'Anti-Quantum Encryption', link: '/zh/intro/anti-quantum-encryption' },
-                    { text: 'Digital Gold 2.0', link: '/zh/intro/digital-gold-2' }
-                  ]
-                },
+                // { text: 'Abelian 介绍', 
+                  // collapsed: true,
+                  // items: [
+                    // { text: 'Post-Quantum Blockchain Safe', link: '/zh/intro/post-quantum-blockchain-safe' },
+                    // { text: 'Abelian Core Team', link: '/zh/intro/core-team' },
+                    // { text: 'Anti-Quantum Encryption', link: '/zh/intro/anti-quantum-encryption' },
+                    // { text: 'Digital Gold 2.0', link: '/zh/intro/digital-gold-2' }
+                  // ]
+                // },
                 { text: 'ABEL 经济学', link: '/zh/guide/abel-tokenomics'},
                 { text: '由此开始', link: '/zh/guide/getting-started'},
                 { text: 'Abelian 钱包',
