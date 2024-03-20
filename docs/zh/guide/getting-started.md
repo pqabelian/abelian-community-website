@@ -142,7 +142,6 @@ Please remember the initial address:
 
 **初始地址**将来会被用作你的挖矿地址或支付地址。
 
-**Important:** All these information should be copied down, namely, public passphrase, private passphrase, crypto version, mnemonic list, initial address, and the number of times that the same wallet has been recovered.
 **重要提示**：所有这些信息都应该记录下来，即公钥、私钥、加密版本、助记词列表、初始地址，以及同一个钱包被恢复的次数。
 
 ## 3. 配置全节点 - abec
@@ -150,7 +149,7 @@ Please remember the initial address:
 进入 abec 的配置文件夹，并按照下面的说明修改配置文件 **abec.conf**。
 
 ### 3.1 监听指定端口
-The default listen port of an Abelian node (i.e. abec) is 8666. If you would like to use some other port (in the range [1025-65535]), for example 18666, you can specify it by adding the following into abec.conf.
+
 Abelian 全节点（即 abec）的默认监听端口是 8666。如果您希望使用其他端口（范围在[1025-65535]之间），例如18666，您可以通过在 abec.conf 中添加以下内容来指定它。
 
 ```txt
@@ -329,7 +328,6 @@ abewallet --walletpass=[您的公钥]
 
 ## 7. 使用 abectl（控制台钱包）操作 abewallet
 
-In the abec folder, there is another executable called start_abectl.sh (macOS and Linux) or abectl (Windows). This executable can be used for checking the balance of your wallet, make fund transfer, and so on.
 在 abec 文件夹中，还有另一个可执行文件名为 start_abectl.sh（macOS 和 Linux）或 abectl（Windows）。这个可执行文件可以用来检查您的钱包余额，进行转账等操作。
 
 ### 7.1 检查余额
