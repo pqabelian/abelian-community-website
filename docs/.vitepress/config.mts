@@ -2,8 +2,9 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/abelian-community-website/",
+  // base: "/abelian-community-website/",
   ignoreDeadLinks: true,
+  lastUpdated: true,
   
   locales: {
     root: {
@@ -13,6 +14,7 @@ export default defineConfig({
       description: "Abelian-Community-FAQ is committed to integrating mining tutorials and Q&A for the Abelian Community Document repository.",
       themeConfig: {
         nav: [
+          { text: 'Home', link: '/' },
           { text: 'Get Started', link: '/guide/getting-started' },
           { text: 'API', link: '/apis/core-api' },
           { text: 'FAQ', link: '/faq/' },
@@ -37,12 +39,21 @@ export default defineConfig({
         sidebar: {
           '/guide/': [
             {
-              text: 'Introduction',
+              text: 'Guide',
               collapsed: false,
               items: [
                 { text: 'What is Abelian', link: '/guide/what-is-abelian'},
+                { text: 'Introduction', 
+                  collapsed: true,
+                  items: [
+                    { text: 'Post-Quantum Blockchain Safe', link: '/intro/post-quantum-blockchain-safe' },
+                    { text: 'Abelian Core Team', link: '/intro/core-team' },
+                    { text: 'Anti-Quantum Encryption', link: '/intro/anti-quantum-encryption' },
+                    { text: 'Digital Gold 2.0', link: '/intro/digital-gold-2' }
+                  ]
+                },
+                { text: 'ABEL Tokenomics', link: '/guide/abel-tokenomics'},
                 { text: 'Getting Started', link: '/guide/getting-started'},
-                { text: 'Abelian Full Node', link: '/guide/full-node/'},
                 { text: 'Abelian Wallet',
                   collapsed: false,  
                   items: [
@@ -56,16 +67,7 @@ export default defineConfig({
                   collapsed: false, 
                   items: [
                     { text: 'Join GPU Pool', link: '/guide/mining/gpu-pool' },
-                    { text: 'Join CPU Pool', link: '/guide/mining/cpu-pool' },
-                    { text: 'Pool Service',
-                      collapsed: false,
-                      items: [
-                        { text: 'Full node [abec]',link: '/guide/mining/pool/abec' },
-                        { text: 'Wallet [abewallet]',link: '/guide/mining/pool/abewallet' },
-                        { text: 'Pool',link: '/guide/mining/pool/pool' },
-                        { text: 'Portal',link: '/guide/mining/pool/portal' }
-                      ]
-                    }
+                    { text: 'Join CPU Pool', link: '/guide/mining/cpu-pool' }
                   ]
                 }
               ]
@@ -119,9 +121,19 @@ export default defineConfig({
               ]
             }
           ]
+        },
+
+        editLink: {
+          pattern: 'https://github.com/pqabelian/abelian-community-website/edit/main/docs/:path',
+          text: 'Edit this page on GitHub'
+        },
+    
+        footer: {
+          copyright: '© 2024 Abelian Foundation | All rights reserved'
         }
       }
     },
+
     zh: {
       label: '简体中文',
       lang: 'zh',
@@ -130,6 +142,7 @@ export default defineConfig({
       description: "Abelian 知识社区 - 致力于为 Abelian 区块链集文档库、问答、教程和用户经验分享为一体的综合型社区。",
       themeConfig: {
         nav: [
+          { text: '首页', link: '/zh/' },
           { text: '由此开始', link: '/zh/guide/getting-started' },
           { text: 'API', link: '/zh/apis/core-api' },
           { text: '问答', link: '/zh/faq/' },
@@ -152,43 +165,43 @@ export default defineConfig({
         ],
 
         sidebar: {
-          '/guide/': [
+          '/zh/guide/': [
             {
-              text: '简介',
+              text: '指南',
               collapsed: false,
               items: [
-                { text: 'Abelian 是什么', link: '/guide/what-is-abelian'},
-                { text: '由此开始', link: '/guide/getting-started'},
-                { text: 'Abelian 全节点', link: '/guide/full-node/'},
+                { text: 'Abelian 是什么', link: '/zh/guide/what-is-abelian'},
+                { text: 'Abelian 介绍', 
+                  collapsed: true,
+                  items: [
+                    { text: 'Post-Quantum Blockchain Safe', link: '/zh/intro/post-quantum-blockchain-safe' },
+                    { text: 'Abelian Core Team', link: '/zh/intro/core-team' },
+                    { text: 'Anti-Quantum Encryption', link: '/zh/intro/anti-quantum-encryption' },
+                    { text: 'Digital Gold 2.0', link: '/zh/intro/digital-gold-2' }
+                  ]
+                },
+                { text: 'ABEL 经济学', link: '/zh/guide/abel-tokenomics'},
+                { text: '由此开始', link: '/zh/guide/getting-started'},
                 { text: 'Abelian 钱包',
                   collapsed: false,  
                   items: [
-                    { text: '移动钱包', link: '/guide/wallet/mobile-wallet' },
-                    { text: '桌面钱包', link: '/guide/wallet/desktop-wallet' },
-                    { text: '钱包 CLI', link: '/guide/wallet/wallet-cli' },
-                    { text: '钱包 CLI 简化版', link: '/guide/wallet/wallet-cli-lite' }
+                    { text: '移动钱包', link: '/zh/guide/wallet/mobile-wallet' },
+                    { text: '桌面钱包', link: '/zh/guide/wallet/desktop-wallet' },
+                    { text: '钱包 CLI', link: '/zh/guide/wallet/wallet-cli' },
+                    { text: '钱包 CLI 简化版', link: '/zh/guide/wallet/wallet-cli-lite' }
                   ]
                 },
                 { text: '矿池指南',
                   collapsed: false, 
                   items: [
-                    { text: '加入显卡矿池', link: '/guide/mining/gpu-pool' },
-                    { text: '加入CPU矿池', link: '/guide/mining/cpu-pool' },
-                    { text: '矿池服务',
-                      collapsed: false,
-                      items: [
-                        { text: '全节点 [abec]',link: '/guide/mining/pool/abec' },
-                        { text: '钱包 [abewallet]',link: '/guide/mining/pool/abewallet' },
-                        { text: '矿池',link: '/guide/mining/pool/pool' },
-                        { text: '入口',link: '/guide/mining/pool/portal' }
-                      ]
-                    }
+                    { text: '加入显卡矿池', link: '/zh/guide/mining/gpu-pool' },
+                    { text: '加入CPU矿池', link: '/zh/guide/mining/cpu-pool' }
                   ]
                 }
               ]
             }
           ],
-          '/faq/': [
+          '/zh/faq/': [
             {
               text: '问答',
               collapsed: false,
@@ -196,47 +209,80 @@ export default defineConfig({
                 { text: '软件问题',
                   collapsed: false,
                   items: [
-                    { text: '钱包问题', link: '/faq/software-issues/wallet'},
-                    { text: 'Miner 问题', link: '/faq/software-issues/miner'},
-                    { text: '全节点问题', link: '/faq/software-issues/fullnode'}
+                    { text: '钱包问题', link: '/zh/faq/software-issues/wallet'},
+                    { text: 'Miner 问题', link: '/zh/faq/software-issues/miner'},
+                    { text: '全节点问题', link: '/zh/faq/software-issues/fullnode'}
                   ]
                 },
                 { text: '硬件问题',
                   collapsed: false,
                   items: [
-                    { text: 'AMD 显卡问题', link: '/faq/hardware-issues/amd' },
-                    { text: 'NVIDIA 显卡问题', link: '/faq/hardware-issues/nvidia'}
+                    { text: 'AMD 显卡问题', link: '/zh/faq/hardware-issues/amd' },
+                    { text: 'NVIDIA 显卡问题', link: '/zh/faq/hardware-issues/nvidia'}
                   ]
                 },
-                { text: '基础教程', link: '/faq/basic-tutorial/' },
-                { text: '进阶教程', link: '/faq/advanced-tutorial/' },
-                { text: '社区精选', link: '/faq/community/' }
+                { text: '基础教程', link: '/zh/faq/basic-tutorial/' },
+                { text: '进阶教程', link: '/zh/faq/advanced-tutorial/' },
+                { text: '社区精选', link: '/zh/faq/community/' }
               ]
             }
           ],
-          '/apis/': [
+          '/zh/apis/': [
             {
               text: 'API',
               collapsed: false,
               items: [
-                { text: '核心 API', link: '/apis/core-api'},
-                { text: '钱包 API', link: '/apis/wallet-api' },
-                { text: 'Ans API', link: '/apis/ans-api' }
+                { text: '核心 API', link: '/zh/apis/core-api'},
+                { text: '钱包 API', link: '/zh/apis/wallet-api' },
+                { text: 'Ans API', link: '/zh/apis/ans-api' }
               ]
             }
           ],
-          '/downloads/': [
+          '/zh/downloads/': [
             {
               text: '下载',
               collapsed: false,
               items: [
-                { text: 'Abelian 文档', link: '/downloads/abelian-documents'},
-                { text: '主网数据', link: '/downloads/mainnet-db'},
-                { text: '生态工具', link: '/downloads/ecosystem-tools' }
+                { text: 'Abelian 文档', link: '/zh/downloads/abelian-documents'},
+                { text: '主网数据', link: '/zh/downloads/mainnet-db'},
+                { text: '生态工具', link: '/zh/downloads/ecosystem-tools' }
               ]
             }
           ]
-        }
+        },
+
+        editLink: {
+          pattern: 'https://github.com/pqabelian/abelian-community-website/edit/main/docs/:path',
+          text: '在 GitHub 上编辑此页面'
+        },
+    
+        footer: {
+          copyright: `© 2024 Abelian 基金会 | 版权所有`
+        },
+    
+        docFooter: {
+          prev: '上一页',
+          next: '下一页'
+        },
+    
+        outline: {
+          label: '页面导航'
+        },
+    
+        lastUpdated: {
+          text: '最后更新于',
+          formatOptions: {
+            dateStyle: 'short',
+            timeStyle: 'medium'
+          }
+        },
+
+        langMenuLabel: '多语言',
+        returnToTopLabel: '回到顶部',
+        sidebarMenuLabel: '菜单',
+        darkModeSwitchLabel: '主题',
+        lightModeSwitchTitle: '切换到浅色模式',
+        darkModeSwitchTitle: '切换到深色模式'
       }
     }
   },
@@ -273,10 +319,6 @@ export default defineConfig({
           }
         }
       }
-    },
-
-    footer: {
-      copyright: 'Copyright © 2024 | Abelian Foundation'
     },
 
     socialLinks: [

@@ -1,41 +1,40 @@
 ---
 layout: doc
-title: What is Abelian
+title: Abelian 是什么
 outline: deep
 ---
 
-# What is Abelian
+# Abelian 是什么
 
-Abelian is a **quantum-resistant** blockchain infrastructure which enables digital gold 2.0 and empowers the post-quantum crypto ecosystem.
+Abelian 是一个**抗量子**区块链基础设施，它能够实现数字黄金2.0，并为后量子加密生态系统提供支持。
 
-### Cryptographically proven to be quantum-resistant {### Cryptographically proven to be quantum-resistant}
+### 加密学证明的抗量子特性
 
-Abelian is intricately designed, mathematically proven and carefully reviewed to be secure against attacks from quantum computers.
-It applies post-quantum cryptographic algorithms to ensure long-term security and privacy of your digital gold, ABEL.
+Abelian 经过精心设计、数学证明和仔细审查，确保其能够抵抗来自量子计算机的攻击。
+它应用了后量子加密算法，以确保您的数字黄金ABEL的长期安全和隐私。
 
-### Privacy enhancing — wallet address and amount hiding
+### 增强隐私 —— 钱包地址和金额隐藏
 
-Abelian ensures that your wallet address is hidden and untraceable, while also securing that the amount in your transactions is hidden by using lattice-based linkable ring signature schemes.
+Abelian 确保您的钱包地址隐藏且无法追踪，同时通过使用基于格的可链接环签名方案，确保您交易中的金额也被隐藏。
 
-### Industry leading encryption
+### 行业领先的加密技术
 
-Everything going on in Abelian is encrypted. Just like how you don't always want anyone to know the amount of money you have in each of your bank accounts, or how you don't always want anyone to know your monetary transactions.
+Abelian 中的所有操作都是加密的。就像您不总是希望任何人都知道您每个银行账户中的金额，或者您不总是希望任何人都知道您的金融交易一样。
 
-### Privacy Preservation
+### 隐私保护
 
-On Abelian, your wallet address is hidden among a set of wallet addresses in every transaction you make, bringing about a new level of privacy preservation to the blockchain.
+在 Abelian 上，您的钱包地址在您进行的每一笔交易中都隐藏在一组钱包地址中，为区块链带来了新的隐私保护水平。
 
-### Security and true ownership to your ABEL
+### 安全性和对您的ABEL的真正所有权
 
-Your Abelian wallet address changes every time you use it, bringing your privacy to the next level of untraceability and unlinkability; on Bitcoin network, prying eyes can always trace and link your transactions.
+您的 Abelian 钱包地址每次使用时都会更改，将您的隐私提升到新的不可追踪和不可链接的水平；在比特币网络上，窥探者总是可以追踪和链接您的交易。
 
-### Secure ecosystem driven by community
+### 由社区驱动的安全生态系统
 
-Abelian is open source, and community driven. In addition to designing, developing and deploying the Abelian platform, we are building up an open community for Abelian. It is a journey that we collaboratively use as a truly decentralized and quantum-resistant Blockchain ecosystem with privacy-preserving functionalities.
+Abelian 是开源的，并由社区驱动。除了设计、开发和部署Abelian平台外，我们还在建设一个开放的Abelian社区。这是一次我们共同使用的真正去中心化且抗量子的区块链生态系统的旅程，具有隐私保护功能。
 
-Side chains, smart contracts, and inter-operability will be developed for supporting
-various DeFi, Metaverse, web3 applications and initiatives.
+将为支持各种 DeFi、元宇宙、web3 应用和倡议开发侧链、智能合约和互操作性。
 
-## Set up your Abelian node in 10 minutes
+## 在10分钟内设置您的Abelian节点
 
-Please follow our [installation guide](/guide/getting-started) to start your Abelian journey. It would be easy and fun!
+请按照我们的[安装指南](/zh/guide/getting-started)开始您的 Abelian 之旅。这将是简单而有趣的！

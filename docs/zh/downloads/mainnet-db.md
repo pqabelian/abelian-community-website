@@ -1,6 +1,6 @@
-# Abelian Mainnet Database
+# Abelian主网数据
 
-## Mainnet Data Directory Default Path
+## Mainnet 数据目录默认位置
 
 ::: code-group
 
@@ -17,37 +17,40 @@ C:\Users\<USER_NAME>\AppData\Roaming\Abelian Wallet\Abec\mainnet
 ```
 :::
 
-## Mainnet Data Download Links
-* [Dropbox](https://www.dropbox.com/scl/fo/y9im4ncjq3mwceu826hvg/h?rlkey=s39gx7imp8f30knqdhaous8rd&dl=0) (02/01/2024)
-* [Mega](https://mega.nz/folder/gydxkZgS#GNDGHyBlGOJzo_G27b9V9w) (02/01/2024)
+## Mainnet 数据包下载地址
+* [Dropbox](https://www.dropbox.com/scl/fo/y9im4ncjq3mwceu826hvg/h?rlkey=s39gx7imp8f30knqdhaous8rd&dl=0) （03/03/2024）
+* [Mega](https://mega.nz/folder/gydxkZgS#GNDGHyBlGOJzo_G27b9V9w)（03/03/2024）
+* [Terabox](https://teraboxapp.com/s/1Dge3NT_4zoLMteg8IXygqw)（03/03/2024）
 
-Files list:（A total of 8 zip archives）
+文件列表：（共12个分卷zip压缩包）
 > mainnet.zip
-> 
+>
 > mainnet.z01
-> 
+>
 > mainnet.z02
-> 
+>
 > ......
+> 
+> mainnet.z11
 
-## Extract Mainnet Data zip files
-**Abelian Desktop Wallet for Windows**
-1. Close and exit Windows Desktop Wallet Client;
-2. Place the downloaded 8 files in the same directory;
-3. Double-click the left mouse button to open the mainnet.zip file, Extract the mainnet directory and overwrite it to the default path;
-4. Restart Windows Desktop Wallet Client，Click "sync Mainnet".
+## 解压缩 mainnet 数据包
+**Abelian Windows 桌面钱包**
+1. 关闭并退出 Windows 桌面钱包；
+2. 将下载的8个文件放在同一目录下；
+3. 鼠标左键双击打开 mainnet.zip 文件，复制或解压缩 mainnet 覆盖至**默认位置**；
+4. 重新运行 Windows 桌面钱包，点击同步（sync Mainnet）。
 
-**Abelian Desktop Wallet for MacOS**
- - Refer to the steps for Windows version above
+**Abelian MacOS 桌面钱包**
+ - 参考上面 Windows 版本的步骤
 
 **Abelian Full Node for Linux**
-1. Stop full node process `abec` or `abectl`
-2. Place the downloaded 8 files in the same directory, and execute the extract command:
+1. 停止全节点进程 `abec`或 `abectl`
+2. 将下载的8个文件放在同一目录下，执行解压缩操作：
 ```
 $ unzip mainnet.zip
 ```
-3. Move the mainnet directory and overwrite it to the default path:
+3. 移动解压缩得到的 mainnet 目录并覆盖至**默认位置**
 ```
 mv -f mainnet ~/.abec/data/
 ```
-4. restart full node.
+4. 重新运行全节点

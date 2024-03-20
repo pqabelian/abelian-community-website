@@ -34,3 +34,11 @@ That's mainnet database corruption. You need to delete the "C:\Users\\[username]
 
 Or [View this page](/downloads/mainnet-db) and follow the steps to download the latest mainnet data, Then resync again.
 :::
+
+---
+
+### <Badge type="warning" text="QUESTION" /> Is there a solution to ABEL only transferring in small amounts?
+
+::: info <Badge type="tip" text="ANSWER" />
+You're basically allowed to combine up to 5 "received" transactions into 1 "send" transaction, so if you've received many small amounts, you will only be able to send a small amount each transaction.
+:::
