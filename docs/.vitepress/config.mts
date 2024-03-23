@@ -33,9 +33,9 @@ export default defineConfig({
           {
             text: 'Pools',
             items: [
-              { text: 'MabelPools', link: 'https://pool.abelian.info/' },
-              { text: 'AbelPool', link: 'https://www.abelpool.io/' },
-              { text: 'zkProvers', link: 'https://www.zkprovers.com/' }
+              { text: 'Foundation (Official)', link: 'https://pool.abelian.info/' },
+              { text: 'AbelPool (Community)', link: 'https://www.abelpool.io/' },
+              { text: 'zkProvers (Community)', link: 'https://www.zkprovers.com/' }
             ]
           },
           { text: 'Explorer', link: 'https://explorer.abelian.info/' }
@@ -98,6 +98,7 @@ export default defineConfig({
                     { text: 'NVIDIA graphics card', link: '/faq/hardware-issues/nvidia'}
                   ]
                 },
+                { text: 'Pool Issues', link: '/faq/pool-issues' },
                 { text: 'Basic Tutorial', link: '/faq/basic-tutorial/' },
                 { text: 'Advanced Tutorial', link: '/faq/advanced-tutorial/' },
                 { text: 'Community Highlights', link: '/faq/community/' }
@@ -162,9 +163,9 @@ export default defineConfig({
           {
             text: '矿池',
             items: [
-              { text: 'MabelPools', link: 'https://pool.abelian.info/' },
-              { text: 'AbelPool', link: 'https://www.abelpool.io/' },
-              { text: 'zkProvers', link: 'https://www.zkprovers.com/' }
+              { text: 'Foundation（官方）', link: 'https://pool.abelian.info/' },
+              { text: 'AbelPool（社区）', link: 'https://www.abelpool.io/' },
+              { text: 'zkProvers（社区）', link: 'https://www.zkprovers.com/' }
             ]
           },
           { text: '浏览器', link: 'https://explorer.abelian.info/' }
@@ -227,6 +228,7 @@ export default defineConfig({
                     { text: 'NVIDIA 显卡问题', link: '/zh/faq/hardware-issues/nvidia'}
                   ]
                 },
+                { text: '矿池问题', link: '/zh/faq/pool-issues' },
                 { text: '基础教程', link: '/zh/faq/basic-tutorial/' },
                 { text: '进阶教程', link: '/zh/faq/advanced-tutorial/' },
                 { text: '社区精选', link: '/zh/faq/community/' }

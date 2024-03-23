@@ -1,12 +1,13 @@
-# Frequently Asked Questions Navigation
+# 常见问题导航
 
-- **Software Issues**
+- **软件问题**
     - [钱包相关问题](/zh/faq/software-issues/wallet)
     - [矿工程序相关问题](/zh/faq/software-issues/miner)
     - [全节点相关问题](/zh/faq/software-issues/fullnode)
-- **Hardware Issues**
+- **硬件问题**
     - [AMD 显卡相关问题](/zh/faq/hardware-issues/amd)
     - [NVIDIA 显卡相关问题](/zh/faq/hardware-issues/nvidia)
+- [**矿池问题**](/zh/faq/pool-issues)
 - [**基础教程**](/zh/faq/basic-tutorial/)
 - [**进阶教程**](/zh/faq/advanced-tutorial/)
 - [**社区精华**](/zh/faq/community/)
