@@ -15,23 +15,23 @@ outline: deep
 
 ## 您需要准备
 
-1. Abelian Lite 钱包 CLI v0.12.5（备注：低版本不支持下面的一些命令）
-   - 下载：请访问官方网站 [Abelian 下载页面](https://www.abelian.info/downloads#6-abelian-lite-wallet-cli)
-   - 教程：请查看  [Abelian 钱包简化版（CLI）手册](https://download.abelian.info/release/docs/Abelian%20Lite%20CLI%20Wallet%20Manual.pdf)
+1. Abelian 轻量钱包（CLI） v0.12.5（备注：低版本不支持下面的一些命令）
+   - 下载：请访问官方网站 [Abelian 下载页面](https://foundation.abelian.info/cn/downloads/#latest-release)
+   - 教程：请查看  [Abelian 轻量钱包（CLI） 手册](/zh/guide/wallet/wallet-cli-lite)
 
 2. Abelian 移动应用
 
 ## 从桌面钱包迁移到移动应用
 
-### 步骤 1：运行 Abelian 钱包简化版（CLI）
+### 步骤 1：运行 Abelian 轻量钱包（CLI）
 
-使用 24 词助记词列表运行 Abelian 钱包简化版（CLI） 来导入您的钱包账户。
+使用 24 词助记词列表运行 Abelian 轻量钱包（CLI）来导入您的钱包账户。
 
 输入恢复钱包地址的最大数量的正确数字很重要。如果您忘记了这个数字，可以打开桌面钱包，让 **abec** 完成同步，然后进行一次向您自己的钱包地址的转账交易。进行转账后，打开 **abewallet** 服务日志窗口并阅读日志。日志中应该有一行提到了钱包地址数量。通常，每次恢复账户时，都会创建一个新的钱包地址，因此，恢复的最大地址数量会增加一。同样，每次进行转账交易时，都会创建一个新的钱包地址，因此，恢复的最大地址数量也会增加一。但每次接收一些代币时，不会创建新的钱包地址，因此地址数量不会增加。
 
 例如：当我们创建一个新的钱包账户时，地址数量是 1。然后，如果我恢复这个钱包账户两次，并且还进行了 3 次转账，则钱包地址的数量是 1+2+3=6。
 
-以下是运行 Abelian 钱包简化版（CLI）的示例（以 macOS 版本为例）：
+以下是运行 Abelian 轻量钱包（CLI）的示例（以 macOS 版本为例）：
 
 ```shell
 ./start_abewallet.sh -A /Users/abelian/Documents/wallet_migrate --walletpass=MYPUBLICPASSPHRASE

@@ -63,6 +63,7 @@ export default defineConfig({
                   collapsed: false,  
                   items: [
                     { text: 'Mobile Wallet', link: '/guide/wallet/mobile-wallet' },
+                    { text: 'Mobile Wallet Pro', link: '/guide/wallet/mobile-wallet-pro' },
                     { text: 'Desktop Wallet', link: '/guide/wallet/desktop-wallet' },
                     { text: 'Wallet CLI', link: '/guide/wallet/wallet-cli' },
                     { text: 'Wallet CLI Lite', link: '/guide/wallet/wallet-cli-lite' }
@@ -193,9 +194,10 @@ export default defineConfig({
                   collapsed: false,  
                   items: [
                     { text: '移动钱包', link: '/zh/guide/wallet/mobile-wallet' },
+                    { text: '移动钱包 Pro', link: '/zh/guide/wallet/mobile-wallet-pro' },
                     { text: '桌面钱包', link: '/zh/guide/wallet/desktop-wallet' },
-                    { text: '钱包 CLI', link: '/zh/guide/wallet/wallet-cli' },
-                    { text: '钱包 CLI 简化版', link: '/zh/guide/wallet/wallet-cli-lite' }
+                    { text: '钱包（CLI）', link: '/zh/guide/wallet/wallet-cli' },
+                    { text: '轻量钱包（CLI）', link: '/zh/guide/wallet/wallet-cli-lite' }
                   ]
                 },
                 { text: '矿池指南',
