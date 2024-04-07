@@ -52,7 +52,6 @@ C:\\Users\\[username]\\AppData\\Local\\Abec
 
 ::: 
 
-Next, open another Terminal / PowerShell, go to ```~/Documents/abel/abewallet-macos-amd64-v0.11.0/```, and run
 接下来，打开另一个 “终端” 或 “PowerShell”，进入 ~/Documents/abel/abewallet-macos-amd64-v0.11.0/ 目录，然后运行
 
 ::: code-group
@@ -67,7 +66,6 @@ abewallet --create
 
 ::: 
 
-Then press control+C. By doing this, we create a **configuration folder** located at:
 然后按 control+C。我们通过此操作创建 **配置目录** 的位置到：
 
 ::: code-group

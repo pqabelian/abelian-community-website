@@ -89,7 +89,7 @@ C:\\Users\\username\\AppData\\Local\\Abewallet
 
 :::
 
-These folders are called **configuration folders**.
+这些文件夹被称为 **配置文件夹**。
 
 From https://www.abelian.info/downloads#6-abelian-lite-wallet-cli, you can download a pre-configured **abewallet.conf**. Below are the details of configuring **abewallet.conf**.
 

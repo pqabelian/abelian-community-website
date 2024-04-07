@@ -43,3 +43,15 @@ Failed calling RPC: serviceGroup=abewallet, accountName=brac, networkName=mainne
 ::: info <Badge type="tip" text="ANSWER" />
 请尝试减少转账的 ABEL 数量，直到不出现次错误信息为止。
 :::
+
+---
+
+## 移动钱包(Pro) 相关问题
+
+### <Badge type="warning" text="QUESTION" /> 移动钱包 Pro 通过助记词导入账户后余额为零或者余额数字不对
+
+::: info <Badge type="tip" text="ANSWER" />
+因为移动钱包 Pro 版本默认导入的钱包地址数量为 5 个，但是桌面钱包可能已经产生了多笔交易，地址数量已经超过了5个。
+推荐解决方法：
+将桌面钱包的余额转账到移动钱包。
+:::

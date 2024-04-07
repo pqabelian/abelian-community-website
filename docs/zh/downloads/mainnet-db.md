@@ -18,26 +18,25 @@ C:\Users\<USER_NAME>\AppData\Roaming\Abelian Wallet\Abec\mainnet
 :::
 
 ## Mainnet 数据包下载地址
-* [Dropbox](https://www.dropbox.com/scl/fo/y9im4ncjq3mwceu826hvg/h?rlkey=s39gx7imp8f30knqdhaous8rd&dl=0) （03/03/2024）
-* [Mega](https://mega.nz/folder/gydxkZgS#GNDGHyBlGOJzo_G27b9V9w)（03/03/2024）
-* [Terabox](https://teraboxapp.com/s/1Dge3NT_4zoLMteg8IXygqw)（03/03/2024）
+* [Mega](https://mega.nz/folder/gydxkZgS#GNDGHyBlGOJzo_G27b9V9w)（04/05/2024）
+* [Terabox](https://teraboxapp.com/s/1Dge3NT_4zoLMteg8IXygqw)（04/05/2024）
 
 文件列表：（共12个分卷zip压缩包）
-> mainnet.zip
+> mainnet.zip.001
 >
-> mainnet.z01
+> mainnet.zip.002
 >
-> mainnet.z02
+> mainnet.zip.003
 >
 > ......
 > 
-> mainnet.z11
+> mainnet.zip.012
 
 ## 解压缩 mainnet 数据包
 **Abelian Windows 桌面钱包**
 1. 关闭并退出 Windows 桌面钱包；
 2. 将下载的8个文件放在同一目录下；
-3. 鼠标左键双击打开 mainnet.zip 文件，复制或解压缩 mainnet 覆盖至**默认位置**；
+3. 鼠标左键双击打开 mainnet.zip 文件，使用 7zip 软件解压缩 mainnet 覆盖至**默认位置**；
 4. 重新运行 Windows 桌面钱包，点击同步（sync Mainnet）。
 
 **Abelian MacOS 桌面钱包**
@@ -45,9 +44,12 @@ C:\Users\<USER_NAME>\AppData\Roaming\Abelian Wallet\Abec\mainnet
 
 **Abelian Full Node for Linux**
 1. 停止全节点进程 `abec`或 `abectl`
-2. 将下载的8个文件放在同一目录下，执行解压缩操作：
+2. 将下载的12个文件放在同一目录下，执行解压缩操作：
 ```
-$ unzip mainnet.zip
+# Ubuntu 或 Debian 为例，安装 7zip
+$ apt install p7zip-full
+# 解压缩
+$ 7z x mainnet.zip.001
 ```
 3. 移动解压缩得到的 mainnet 目录并覆盖至**默认位置**
 ```

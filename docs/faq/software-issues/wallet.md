@@ -42,3 +42,15 @@ Or [View this page](/downloads/mainnet-db) and follow the steps to download the 
 ::: info <Badge type="tip" text="ANSWER" />
 You're basically allowed to combine up to 5 "received" transactions into 1 "send" transaction, so if you've received many small amounts, you will only be able to send a small amount each transaction.
 :::
+
+---
+
+## Mobile Wallet (Pro) FAQ
+
+### <Badge type="warning" text="QUESTION" /> Why is the balance zero or why doesn't the balance match after importing an account with a mnemonic phrase in Mobile Wallet Pro?
+
+::: info <Badge type="tip" text="ANSWER" />
+Because the default number of wallet addresses imported by Mobile Wallet Pro is 5, the desktop wallet may have already conducted numerous transactions, exceeding this number of addresses.
+Recommended solution:
+Transfer the balance from the desktop wallet to the mobile wallet.
+:::
