@@ -22,3 +22,17 @@ net.ipv4.ip_local_port_range = 1024 65535
 ```
 Then run `sysctl -p` and restart the system.
 :::
+
+### <Badge type="warning" text="QUESTION" /> Abelminer Error: This device hasn't enough memory available.
+
+Running abelmner on Linux reports an error that it cannot connect and exits. The log is:
+```text
+Epoch 50 requires 5.66 GB memory
+This device hasn't enough memory available. Mining suspended.
+```
+
+::: info <Badge type="tip" text="ANSWER" />
+Just as the first line of the log suggests, the Epoch 50 stage requires 5.66 GB of VRAM, plus system usage, a graphics card with 6GB of VRAM cannot participate in mining.
+
+For more detailed explanations, please view (AMD graphics cards issues)[/faq/hardware-issues/amd] or (NVIDIA graphics cards issues)[/faq/hardware-issues/nvidia]
+:::
