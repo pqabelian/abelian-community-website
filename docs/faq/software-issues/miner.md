@@ -34,5 +34,5 @@ This device hasn't enough memory available. Mining suspended.
 ::: info <Badge type="tip" text="ANSWER" />
 Just as the first line of the log suggests, the Epoch 50 stage requires 5.66 GB of VRAM, plus system usage, a graphics card with 6GB of VRAM cannot participate in mining.
 
-For more detailed explanations, please view (AMD graphics cards issues)[/faq/hardware-issues/amd] or (NVIDIA graphics cards issues)[/faq/hardware-issues/nvidia]
+For more detailed explanations, please view [AMD graphics cards issues](/faq/hardware-issues/amd) or [NVIDIA graphics cards issues](/faq/hardware-issues/nvidia)
 :::

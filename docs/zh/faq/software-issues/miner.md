@@ -34,5 +34,5 @@ This device hasn't enough memory available. Mining suspended.
 ::: info <Badge type="tip" text="ANSWER" />
 就如日志第一行的提示 Epoch 50 阶段需要 5.66 GB 的显存，加上系统的占用，6GB 显存的显卡无法参与挖矿。
 
-更详细的解释请参看 (AMD 显卡相关问题)[/faq/hardware-issues/amd] 或 (NVIDIA 显卡相关问题)[/faq/hardware-issues/nvidia]
+更详细的解释请参看 [AMD 显卡相关问题](/faq/hardware-issues/amd) 或 [NVIDIA 显卡相关问题](/faq/hardware-issues/nvidia)。
 :::
