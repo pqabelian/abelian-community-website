@@ -91,49 +91,54 @@ C:\\Users\\username\\AppData\\Local\\Abewallet
 
 这些文件夹被称为 **配置文件夹**。
 
-From https://www.abelian.info/downloads#6-abelian-lite-wallet-cli, you can download a pre-configured **abewallet.conf**. Below are the details of configuring **abewallet.conf**.
+您可以从 https://foundation.abelian.info/en/downloads/ 下载预配置文件 **abewallet.conf**。以下是配置文件 **abewallet.conf** 的详细信息。
 
-First, set **abecrpcuser** and **abecrpcpass** in **abewallet.conf**. For example, if you would like to connect to the Asia Site 1, you can set the following:
-```
+首先，在 **abewallet.conf** 中设置 **abecrpcuser** 和 **abecrpcpass**。例如，如果您想要连接到亚洲站点1，您可以进行如下设置：
+```text
 abecrpcuser=wgMURUUtK7o7pFgTg87D8GuSGg4=
 abecrpcpass=biPPQXARkhtzQw3wV1NWAxuS6Vg=
 ```
 
-If you would like to connect to other sites, you can set the following:
-```
+如果您想要连接到其他网站，您可以设置以下内容：
+```text
 abecrpcuser=derKuJLKM5inu5uDmC7jxuHX57w=
 abecrpcpass=ziUZ4ezY68ttB+9c7xBWmPQslVg=
 ```
-But remember that you can only connect to one site at a time. If you want to comment out any line in the configuration file, put a `;` symbol in the front of the line.
 
-Next, set **rpcuser** and **rpcpass** in **abewallet.conf**:
+但请记住，您一次只能连接到一个站点。如果您想要在配置文件中注释掉任何一行，请在该行前面加上`;`符号。
+
+接下来，在 **abewallet.conf** 中设置 **rpcuser** 和 **rpcpass**：
 ```
 rpcuser=XXX
 rpcpass=YYY
 ```
-where XXX and YYY are values chosen by you.
+其中 XXX 和 YYY 是由您填写自己的值。
 
-Then, set **rpcconnect** in **abewallet.conf** as follows.
-```
+然后，将 **abewallet.conf** 中的 **rpcconnect** 设置如下：
+
+```text
 rpcconnect=42.200.174.30
 ```
-for connecting to Asia Site 1.
 
-Please refer to the pre-configured **abewallet.conf** for other sites.
+连接到亚洲站点1。
 
-Finally, set the **cafile** in **abewallet.conf** by specifying the path of the full node RPC certificate **abec_rpc_tm.cert**.
-```
+请参考预配置的 **abewallet.conf** 以获取其他站点信息。
+
+最后，在 **abewallet.conf** 中通过指定全节点 RPC 证书 **abec_rpc_tm.cert** 的路径来设置 **cafile**。
+
+```text
 cafile=~/path/to/abec_rpc_tm.cert
 ```
 
-This full node RPC certificate can be downloaded from https://www.abelian.info/downloads#6-abelian-lite-wallet-cli. It is packed in a folder called **abec_certs/**. For example, we may put this folder in ```~/Documents/``` and set the **cafile** in **abewallet.conf** as
-```
+此全节点 RPC 证书可从 https://foundation.abelian.info/en/downloads 下载。它被打包在一个名为 **abec_certs/** 的文件夹中。例如，我们可以将这个文件夹放置在 ```~/Documents/``` 中，并将 **abewallet.conf** 中的 **cafile** 设置为
+
+```text
 cafile=~/Documents/abec_certs/abec_rpc_tm.cert
 ```
 
-At the above, ```abecrpcuser``` and ```abecrpcpass``` are used for establishing a secure RPC communication channel between your local **abewallet** with the remote full Abelian node with IP address specified in the parameter ```rpcconnect```. While ```rpcuser``` and ```rpcpass``` are used for establishing a local RPC communication channel between a wallet controller called **abewalletctl** (to be introduced) and this **abewallet**.
+在以上内容中，```abecrpcuser``` 和 ```abecrpcpass``` 用于建立您的本地 **abewallet** 与通过参数 ```rpcconnect``` 指定 IP 地址的远程完整 Abelian 节点之间的安全 RPC 通信渠道。而 ```rpcuser``` 和 ```rpcpass``` 则用于建立名为 **abewalletctl**（将介绍）的钱包控制器与此 **abewallet** 之间的本地 RPC 通信渠道。
 
-Currently, Abelian Foundation and their partners are running multiple full nodes (**abec**) and have them opened for everybody to connect to using their Abelian Lite CLI Wallet. Including the full node above, please find below the list of the full nodes with their IP addresses and the names of their RPC certificates. They all share the same ```abecrpcuser``` and ```abecrpcpass``` as above. You can choose one of them to connect to.
+目前，Abelian 基金会及其合作伙伴正在运行多个完整节点（**abec**），并且已经向所有人开放，以便使用他们的 Abelian 轻量钱包（CLI）进行连接。包括上述的完整节点，请在下面找到带有 IP 地址和 RPC 证书名称的完整节点列表。它们都共享相同的```abecrpcuser```和```abecrpcpass```如上所述。您可以选择其中一个进行连接。
 
 ```shell
 Asia Site 1: 42.200.174.30 abec_rpc_tm.cert
@@ -144,80 +149,102 @@ America Site 1: 3.132.2.26 abec_rpc_ohio2.cert
 America Site 2: 52.86.138.73 abec_rpc_nvir2.cert
 ```
 
-All these certificates are packed in the folder called **abec_certs/** and its compressed form can be downloaded from https://www.abelian.info/downloads#6-abelian-lite-wallet-cli.
+所有这些证书都被打包在名为 **abec_certs/** 的文件夹中，其压缩形式可以从 https://foundation.abelian.info/en/downloads/ 下载。
 
 
-### 2.2 Run a live wallet
-After finishing the configuration above, run **abewallet** as below on a dedicated Terminal (macOS / Linux) or PowerSheel (Windows). The purpose of running **abewallet** constantly is to sync up the blocks from the remote Abelian full node for discovering all transactions related to your wallet address(es).
+### 2.2 运行实时钱包
 
-```shell
-# macOS and Linux
-./start_abewallet.sh --walletpass=[your public passphrase]
-# Windows
+完成上述配置后，在专用终端（macOS / Linux）或 PowerShell（Windows）上运行 **abewallet**，如下所示。持续运行 **abewallet** 的目的是与远程 Abelian 全节点同步区块，以发现所有与您的钱包地址相关的交易。
+
+::: code-group
+
+```txt [Windows]
 abewallet --walletpass=[your public passphrase]
 ```
 
-where ```[your public passphrase]``` is the public passphrase you had chosen when you created the wallet in Sec. 1.
+```txt [macOS/Linux]
+./start_abewallet.sh --walletpass=[your public passphrase]
+```
 
-Synchronization may take a while depending on the number of blocks on the Abelian network and the connection between your computer and the remote Abelian full node (say, several hours to one or two days) before completion, and we can see the status on the Terminal window. To find out the current block height of the Abelian network, please visit ```https://explorer.abelian.info```.
+:::
 
 
-## 3. Check balance
+其中 ```[你的公钥]``` 是你在第 1 部分创建钱包时选择的公钥。
 
-After **abewallet** has completed the synchronization as described above, run the following:
+同步可能会根据 Abelian 网络上的区块数量以及您的计算机与远程 Abelian 全节点之间的连接（比如，几个小时到一两天）而需要一段时间才能完成，在终端窗口我们可以看到状态。要了解 Abelian 网络当前的区块高度，请访问 https://explorer.abelian.info。
 
-```shell
-# macOS and Linux
-./start_abewalletctl.sh --rpcuser=[rpcuser] --rpcpass=[rpcpass] --wallet getbalancesabe
-# Windows
+## 3. 查询余额
+
+在 **abewallet** 完成上述同步之后，运行以下内容：
+
+::: code-group
+
+```txt [Windows]
 abewalletctl --rpcuser=[rpcuser] --rpcpass=[rpcpass] --wallet getbalancesabe
 ```
 
-In the above, ```[rpcuser]``` and ```[rpcpass]``` are the values you chose when configuring the parameters **rpcuser** and **rpcpass**, respectively, in **abewallet.conf** in Sec. 2.1.
+```txt [macOS/Linux]
+./start_abewalletctl.sh --rpcuser=[rpcuser] --rpcpass=[rpcpass] --wallet getbalancesabe
+```
 
-Example:
+:::
+
+在以上内容中，```[rpcuser]``` 和 ```[rpcpass]``` 分别是你在第 2.1 部分的 **abewallet.conf** 中配置参数 **rpcuser** 和 **rpcpass** 的值。
+
+例如：
 
 ```shell
 ./start_abewalletctl.sh --rpcuser=XXX --rpcpass=YYY --wallet getbalancesabe
 {"current_time":"2022-05-26 23:08:07.730291 +0800 SGT m=+10.601777429","current_height":12051,"current_block_hash":"00000000734e4c08b4422954da4df52c42fa1b3466e340ac332ad037f9a15ad5","total_balance":103424,"spendable_balance":102400,"freeze_balance":1024}
 ```
 
-In the above, the field ```total_balance``` shows the balance of the wallet.
+在上面的命令行返回结果中，字段 ```total_balance``` 显示了钱包的余额。
 
 
-## 4 Create a new address instance for receiving ABELs
+## 4 为接收 ABEL 创建一个新的钱包地址
 
-For ehancing your privacy, you may consider generating a new wallet address instance from the same wallet every time for receiving ABELs.
+为了增强您的隐私，您可以考虑每次接收 ABEL 时都从同一个钱包生成一个新的钱包地址实例。
 
-### 4.1 Unlock 
-Before creating a new address instance, we need to make sure that **abewallet** is running properly as described in Sec. 2.2. Next, unlock the wallet:
+### 4.1 解锁
 
-```shell
-# macOS and Linux
-./start_abewalletctl.sh --rpcuser=[rpcuser] --rpcpass=[rpcpass] --wallet walletunlock [private passphrase] [timeout]
-# Windows
+在创建新地址实例之前，我们需要确保 **abewallet** 按照第 2.2 部分所述正常运行。接下来，解锁钱包：
+
+::: code-group
+
+```txt [Windows]
 abewalletctl --rpcuser=[rpcuser] --rpcpass=[rpcpass] --wallet walletunlock [private passphrase] [timeout]
 ```
 
-Example:
+```txt [macOS/Linux]
+./start_abewalletctl.sh --rpcuser=[rpcuser] --rpcpass=[rpcpass] --wallet walletunlock [private passphrase] [timeout]
+```
+
+:::
+
+例如：
 
 ```shell
 ./start_abewalletctl.sh --rpcuser=XXX --rpcpass=YYY --wallet walletunlock myprivatepassphrase 240
 ```
 
-This means unlocking the wallet with the private passphrase ```myprivatepassphrase``` for ```240``` seconds.
+这意味着使用私钥 ```myprivatepassphrase``` 解锁钱包 ```240``` 秒。
 
 
-### 4.2 Create a new address instance
+### 4.2 创建一个新的钱包地址
 
-```shell
-# macOS and Linux
-./start_abewalletctl.sh --rpcuser=[rpcuser] --rpcpass=[rpcpass] --wallet generateaddressabe
-# Windows
+::: code-group
+
+```txt [Windows]
 abewalletctl --rpcuser=[rpcuser] --rpcpass=[rpcpass] --wallet generateaddressabe
 ```
 
-Example:
+```txt [macOS/Linux]
+./start_abewalletctl.sh --rpcuser=[rpcuser] --rpcpass=[rpcpass] --wallet generateaddressabe
+```
+
+:::
+
+例如：
 
 ```shell
 # macOS and Linux
@@ -228,11 +255,11 @@ Example:
     "addr": "0000000000605660add742f3dcf88787a1618ecbc85289c188383d0df8ba292aa110b8592d3ef32da769bef62d707bad2dd870099fdd08cba30b52d6dcf4ca9c99834be04f2621b95ff8359ded46862fd229877a643951b66885fd3118c78b5d4773101a4e4a7e9a2c22780c15f29e1724edd9e9fa9c13c3d0483991b90fba4e9daeebeff42d0a4dcd93e4686cefceab6f5d07080ef1f77fdb9965354d48bbd82bfc7c47b8c295237b1ee88bd786b83931d7b74a8ba815ad14813d1f39b66a7c680bfdd77cce83aee4d018feac4928c0dc8f8774ee04ac60959be7f6a062f8c612c450b4957d5e1c48e3fa34a8bcdd6d93f1b70df0412dec32be232a5e54d4b0775ed031bc3dd585ad27e51b1e41662102ffc64e2b296224d8e4cf2cce9f26471b8b17bf26f9bc77985bc583098fe14c79473a3361866f513f43f859bc7492c4f6b6a7bcd2630a1669ba2e82e9ff93eecce1f4a77831f7742d12a966be4ad7f50b3313170465b649e5883861cda215d87ae801a1e11b5a5c...
 ```
 
-The value (a long string with 21,458 characters) is a new wallet address instance being created. You can send this new address instance to a sender for him to send ABELs to you.
+该值（包含 21,458 个字符的长字符串）是正在创建的新钱包地址实例。你可以将这个新地址实例发送给发送者，以便他向你转账 ABEL。
 
-**Note**: The command above also tells you **the total number of addresses** that you have created so far. This number is also shown in the terminal window of **abewallet**.
+**注意**：上述命令还会告诉你到目前为止你已经创建的地址总数。这个数字也会在 **abewallet** 的终端窗口中显示。
 
-Example:
+例如：
 
 ```shell
 2022-08-18 03:16:29.749 [INF] WLLT: The address with No. 2 is created.
@@ -240,18 +267,29 @@ Example:
 ```
 
 
-## 5. Transfer ABELs
-Please refer to Sec. 4.1 for instructions on temporarily unlocking the wallet first.
+## 5. 转账 ABEL
 
-As shown in Sec. 4.2, an ABEL wallet address instance is very long, and it's inconvenient to just directly copy and paste an address instance in the command line. As a result, what we are going to do is to create a file called **arg1** and store the file into a folder as below.
+请参考第 4.1 部分的方法，首先暂时解锁钱包。
 
+如第 4.2 部分所示，一个 ABEL 钱包地址非常长，在命令行中直接复制和粘贴长地址并不方便。因此，我们要做的是创建一个名为 **arg1** 的文件，并将该文件存储到下面的文件夹中。
+
+::: code-group
+
+```txt [Windows]
+C:\\Users\\username\\AppData\\Local\\Abec
 ```
-- Windows: C:\\Users\\username\\AppData\\Local\\Abec
-- macOS: /Users/username/Library/Application Support/Abec
-- Linux: /home/username/.abec
+
+```txt [macOS]
+/Users/username/Library/Application Support/Abec
 ```
 
-The content of **arg1* is as follows.
+```txt [Linux]
+/home/username/.abec
+```
+
+:::
+
+**arg1** 的内容如下：
 
 ```
 [
@@ -266,18 +304,23 @@ The content of **arg1* is as follows.
 ]
 ```
 
-Note that the unit of amount is **Neutrino**. (1 ABEL = 10,000,000 Neutrinos). According to the content of the **arg1** above, we plan to send one ABEL to a receiver with address instance ```receiver1_address``` and 2 ABELs to ```receiver2_address```.
+请注意，金额的单位是 **Neutrino**。（1 ABEL = 10,000,000 Neutrinos）。根据上述 **arg1** 的内容，我们计划向地址实例 ```receiver1_address``` 发送一个ABEL，并向 ```receiver2_address``` 发送两个 ABEL。
 
-After setting up the **arg1**, type the following to initiate a send transaction:
+在设置好 **arg1** 之后，输入以下内容以启动发送交易：
 
-```shell
-# macOS and Linux
-./start_abewalletctl.sh --rpcuser=[rpcuser] --rpcpass=[rpcpass] --wallet sendtoaddressesabe -
-# Windows
+::: code-group
+
+```txt [Windows]
 abewalletctl --rpcuser=[rpcuser] --rpcpass=[rpcpass] --wallet sendtoaddressesabe -
 ```
 
-Example (on macOS):
+```txt [macOS/Linux]
+./start_abewalletctl.sh --rpcuser=[rpcuser] --rpcpass=[rpcpass] --wallet sendtoaddressesabe -
+```
+
+:::
+
+例如 (macOS):
 
 ```shell
 $ cat /Users/username/Library/Application Support/Abec/arg1
@@ -287,43 +330,49 @@ $ ./start_abewalletctl.sh --rpcuser=XXX --rpcpass=YYY --wallet sendtoaddressesab
 ```
 
 
-## 6. Recover a wallet
-In case you need to run the wallet on another machine, you need to follow the instructions below to recover and set up your wallet on this new machine.
+## 6. 恢复钱包
 
-To recover a wallet, type
+如果您需要在另一台机器上运行钱包，您需要按照以下说明来恢复并在这台新机器上设置您的钱包。
 
-```shell
-# macOS and Linux
-./start_abewallet.sh --create
-# Windows
+恢复钱包，请输入
+
+::: code-group
+
+```txt [Windows]
 abewallet --create
 ```
 
-and after typing in **private passphrase**, **public passphrase**, type **yes** for the following question:
+```txt [macOS/Linux]
+./start_abewallet.sh --create
+```
+
+:::
+
+在输入 **私钥**、**公钥** 之后，对接下来的问题回答 **是**：
 
 ```shell
 Do you have an existing wallet seed you want to use? (n/no/y/yes) [no]: yes
 ```
 
-and type **0** for the following question:
+并在以下问题中输入 **0**：
 
 ```shell
 Enter the crypto version is: 0
 ```
 
-then enter your 24-word ```mnemonic list``` (a.k.a. recovery phrase) when the following prompt is out:
+然后在以下提示出现时输入您的24个单词的 ```助记词```（又称恢复密码）：
 
 ```shell
 Enter existing wallet mnemonic:quiz,always,announce,silver,social,buyer,return,crisp,rice,april,tobacco,rent,base,half,light,toward,wonder,aerobic,whip,physical,vocal,real,vocal,leg
 ```
 
-and finally enter **the total number of address instances to recover**. This is the total number of address instances for this particular address that have been created. Note that this number is the summation of the number you entered last time when recovering the wallet through the mnemonic list and the number of times that you have transferred ABELs out from this wallet since the last time that you have recovered the wallet. For example, if you entered ***1*** last time you recover your wallet through the mnemonic list and you made ***19*** ABEL transfers from this wallet. Then the total number of address instances to recover that you enter should be ***20*** here. Example:
+最后输入 **要恢复的地址总数**。这是为这个特定地址创建的地址实例的总数。请注意，这个数字是您上次通过助记词列表恢复钱包时输入的数字与自那以后您从这个钱包转出 ABEL 的次数之和。例如，如果上次通过助记词列表恢复钱包时您输入了 ***1***，并且从这个钱包进行了 ***19*** 次 ABEL 转账。那么此处您应该输入的要恢复的地址实例总数应该是 ***20***。示例：
 
 ```shell
 Please input the max No. of address to recover : 20
 ```
 
-Here is an example.
+下面是一个举例：
 
 ```shell
 ./start_abewallet.sh --create
@@ -342,15 +391,18 @@ Creating the wallet...
 The wallet has been created successfully.
 ```
 
-We understand that keeping track of this number can be troublesome. The Abelian team is now working hard on improving this privacy-preserving mechanism with the objective of eliminating this address instance concept altogether so that we no longer need to keep track of the total number of address instances to recover in the near future.
+我们明白，追踪这个数字可能会带来麻烦。Abelian 团队目前正在努力改进这种隐私保护机制，目标是彻底消除这一地址概念，以便我们在不久的将来不再需要跟踪要恢复的地址总数。
 
-For the timebeing, there is one command which can help us find out the current total number of wallet address instances:
+目前，有一个命令可以帮助我们找出当前钱包地址实例的总数：
 
-```shell
-# macOS and Linux
-./start_abewalletctl.sh --rpcuser=[rpcuser] --rpcpass=[rpcpass] --wallet addressmaxsequencenumber
-# Windows
+::: code-group
+
+```txt [Windows]
 abewalletctl --rpcuser=[rpcuser] --rpcpass=[rpcpass] --wallet addressmaxsequencenumber
 ```
 
-下载 PDF: [Abelian 控制台钱包简化版手册](https://download.abelian.info/release/docs/Abelian%20Lite%20CLI%20Wallet%20Manual.pdf)
+```txt [macOS/Linux]
+./start_abewalletctl.sh --rpcuser=[rpcuser] --rpcpass=[rpcpass] --wallet addressmaxsequencenumber
+```
+
+:::

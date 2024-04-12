@@ -76,7 +76,7 @@ Before running a wallet, we need to change some of the settings in a configurati
 
 These folders are called **configuration folders**.
 
-From https://www.abelian.info/downloads#6-abelian-lite-wallet-cli, you can download a pre-configured **abewallet.conf**. Below are the details of configuring **abewallet.conf**.
+From https://foundation.abelian.info/en/downloads/, you can download a pre-configured **abewallet.conf**. Below are the details of configuring **abewallet.conf**.
 
 First, set **abecrpcuser** and **abecrpcpass** in **abewallet.conf**. For example, if you would like to connect to the Asia Site 1, you can set the following:
 ```
@@ -111,7 +111,7 @@ Finally, set the **cafile** in **abewallet.conf** by specifying the path of the 
 cafile=~/path/to/abec_rpc_tm.cert
 ```
 
-This full node RPC certificate can be downloaded from https://www.abelian.info/downloads#6-abelian-lite-wallet-cli. It is packed in a folder called **abec_certs/**. For example, we may put this folder in ```~/Documents/``` and set the **cafile** in **abewallet.conf** as
+This full node RPC certificate can be downloaded from https://foundation.abelian.info/en/downloads/. It is packed in a folder called **abec_certs/**. For example, we may put this folder in ```~/Documents/``` and set the **cafile** in **abewallet.conf** as
 ```
 cafile=~/Documents/abec_certs/abec_rpc_tm.cert
 ```
@@ -129,7 +129,7 @@ America Site 1: 3.132.2.26 abec_rpc_ohio2.cert
 America Site 2: 52.86.138.73 abec_rpc_nvir2.cert
 ```
 
-All these certificates are packed in the folder called **abec_certs/** and its compressed form can be downloaded from https://www.abelian.info/downloads#6-abelian-lite-wallet-cli.
+All these certificates are packed in the folder called **abec_certs/** and its compressed form can be downloaded from https://foundation.abelian.info/en/downloads/.
 
 
 ### 2.2 Run a live wallet
@@ -337,5 +337,3 @@ For the timebeing, there is one command which can help us find out the current t
 # Windows
 abewalletctl --rpcuser=[rpcuser] --rpcpass=[rpcpass] --wallet addressmaxsequencenumber
 ```
-
-Download PDF: [Abelian Lite CLI Wallet Manual](https://download.abelian.info/release/docs/Abelian%20Lite%20CLI%20Wallet%20Manual.pdf)
