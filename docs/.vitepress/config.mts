@@ -341,6 +341,7 @@ export default defineConfig({
       },
       { icon: 'discord', link: 'https://discord.gg/Rrb33mC3Kc' },
       { icon: 'x', link: 'https://twitter.com/PQabelian' },
+      { icon: 'youtube', link: 'https://www.youtube.com/@AbelianFoundation' },
       { icon: 'github', link: 'https://github.com/pqabelian' }
     ],
   }
