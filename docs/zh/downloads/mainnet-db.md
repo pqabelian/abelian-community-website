@@ -36,7 +36,7 @@ C:\Users\<USER_NAME>\AppData\Roaming\Abelian Wallet\Abec\mainnet
 **Abelian Windows 桌面钱包**
 1. 关闭并退出 Windows 桌面钱包；
 2. 将下载的8个文件放在同一目录下；
-3. 鼠标左键双击打开 mainnet.zip 文件，使用 7zip 软件解压缩 mainnet 覆盖至**默认位置**；
+3. 使用 7zip 软件打开 mainnet.zip.001 文件，解压缩 mainnet 覆盖至**默认位置**；
 4. 重新运行 Windows 桌面钱包，点击同步（sync Mainnet）。
 
 **Abelian MacOS 桌面钱包**

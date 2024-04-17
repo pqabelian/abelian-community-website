@@ -36,7 +36,7 @@ Files list:（A total of 12 zip archives）
 **Abelian Desktop Wallet for Windows**
 1. Close and exit Windows Desktop Wallet Client;
 2. Place the downloaded 8 files in the same directory;
-3. Double-click the left mouse button to open the mainnet.zip file, Extract the mainnet directory and overwrite it to the **default path**;
+3. Use 7zip software to open the mainnet.zip.001 file, Extract the mainnet directory and overwrite it to the **default path**;
 4. Restart Windows Desktop Wallet Client，Click "sync Mainnet".
 
 **Abelian Desktop Wallet for MacOS**
