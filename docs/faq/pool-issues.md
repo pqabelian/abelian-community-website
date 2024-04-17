@@ -43,5 +43,33 @@ Verify the mining pool configuration file format to see if it's registered. If e
 ### <Badge type="warning" text="QUESTION" /> How to mine ABEL on HiveOS?
 
 ::: info <Badge type="tip" text="ANSWER" />
-You can view to our [official mining pool website](https://pool.abelian.info/), which includes Ubuntu/Debian/HiveOS mining manuals and helper scripts. For specific Chinese video tutorials, please visit our [YouTube channel](https://www.youtube.com/@AbelianFoundation).
+You can view to our [official mining pool website](https://pool.abelian.info/), which includes Ubuntu/Debian/HiveOS mining manuals and helper scripts.
+For specific Chinese video tutorials, please visit our [YouTube channel](https://www.youtube.com/@AbelianFoundation).
+:::
+
+---
+
+### <Badge type="warning" text="QUESTION" /> I am registered to all 4 official pools. but unable sign in to some of the pools on dashboard.
+
+::: info <Badge type="tip" text="ANSWER" />
+Could try changing the DNS settings to 8.8.8.8 or 1.1.1.1, and clear the browser and system DNS cache.
+
+This will help verify if the DNS change has taken effect and what IP address the user's device is using.
+
+Open the "Terminal" application in Windows, and enter the following command to clear the DNS cache:
+
+```text
+ipconfig /flushdns
+```
+
+If user using macOS or Linux, Please use the curl command to check if the connection is normal. Example: Test access "Alicia" pool. Remember to replace USERNAME and PASSWORD with your actual credentials.
+
+```bash
+curl --location 'https://pool-alicia.abelian.info/v1/pool/signin' \
+--header 'Content-Type: application/json' \
+--data '{
+    "username":"USERNAME",
+    "password":"PASSWORD"
+}'
+```
 :::
