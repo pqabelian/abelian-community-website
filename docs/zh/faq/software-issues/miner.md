@@ -23,6 +23,8 @@ net.ipv4.ip_local_port_range = 1024 65535
 然后执行 `sysctl -p` 并重启系统。
 :::
 
+---
+
 ### <Badge type="warning" text="QUESTION" /> Abelminer 报错：This device hasn't enough memory available.
 
 在 Linux 运行 abelminer 提示无法连接并退出。日志如下：

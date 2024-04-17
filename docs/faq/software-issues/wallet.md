@@ -45,12 +45,22 @@ You're basically allowed to combine up to 5 "received" transactions into 1 "send
 
 ---
 
-## Mobile Wallet (Pro) FAQ
+### <Badge type="warning" text="QUESTION" /> The desktop wallet is reporting an error: “missing address manager namespace”
+
+::: info <Badge type="tip" text="ANSWER" />
+Regarding the namespace issue. For our team testing (Windows 10 & Ubuntu 22.04) the issue only appears on vms not on physical (bare metal) systems.
+
+SSE4 and AVX2 extensions are required on you CPU. If you're using vms makes sure to pass the host instruction set through. 
+:::
+
+---
+
+## Mobile Wallet (Pro) Issues
 
 ### <Badge type="warning" text="QUESTION" /> Why is the balance zero or why doesn't the balance match after importing an account with a mnemonic phrase in Mobile Wallet Pro?
 
 ::: info <Badge type="tip" text="ANSWER" />
 Because the default number of wallet addresses imported by Mobile Wallet Pro is 5, the desktop wallet may have already conducted numerous transactions, exceeding this number of addresses.
-Recommended solution:
-Transfer the balance from the desktop wallet to the mobile wallet.
+
+Recommended solution: Transfer the balance from the desktop wallet to the mobile wallet.
 :::

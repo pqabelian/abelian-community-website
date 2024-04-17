@@ -46,12 +46,23 @@ Failed calling RPC: serviceGroup=abewallet, accountName=brac, networkName=mainne
 
 ---
 
+### <Badge type="warning" text="QUESTION" /> 运行桌面钱包报错：“missing address manager namespace”
+
+::: info <Badge type="tip" text="ANSWER" />
+关于命名空间问题。根据我们团队的测试（Windows 10 和 Ubuntu 22.04），这个问题只出现在虚拟机上，而不是物理（裸机）系统上。
+
+你的 CPU 需要支持 SSE4 和 AVX2 扩展。如果你正在使用虚拟机，请确保传递宿主指令集。
+
+:::
+
+---
+
 ## 移动钱包(Pro) 相关问题
 
 ### <Badge type="warning" text="QUESTION" /> 移动钱包 Pro 通过助记词导入账户后余额为零或者余额数字不对
 
 ::: info <Badge type="tip" text="ANSWER" />
 因为移动钱包 Pro 版本默认导入的钱包地址数量为 5 个，但是桌面钱包可能已经产生了多笔交易，地址数量已经超过了5个。
-推荐解决方法：
-将桌面钱包的余额转账到移动钱包。
+
+推荐解决方法：将桌面钱包的余额转账到移动钱包。
 :::
