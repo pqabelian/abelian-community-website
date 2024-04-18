@@ -64,3 +64,25 @@ Because the default number of wallet addresses imported by Mobile Wallet Pro is 
 
 Recommended solution: Transfer the balance from the desktop wallet to the mobile wallet.
 :::
+
+---
+
+## For Other Wallet Issues
+
+### <Badge type="warning" text="QUESTION" /> How to get the long address of the wallet (for ABEL mining)?
+
+::: info <Badge type="tip" text="ANSWER" />
+For the mobile wallet, tap the three dots in the top right corner to open the menu, then select "**Export Long Address**"
+
+For the mobile wallet Pro, tap on the profile icon in the top right corner, Tap on "**Account Details**," and on this page, the long address will be displayed.
+
+Steps to get the long address in the desktop wallet:
+
+1. Click to synchronize **abec** and **abewallet**;
+
+2. Click on the **RECEIVE** tab;
+
+3. Click on the **...** (three dots icon) in the interface, and select "**Add address**" from the drop-down menu (this step is required for newly created wallets, otherwise skip this step);
+
+4. After clicking on the **...**, click on the "**book page**" icon, select an existing wallet address from the drop-down menu, and the string of characters starting with **00000000** below the line "**Address:**" is the long address.
+:::

@@ -66,3 +66,22 @@ Failed calling RPC: serviceGroup=abewallet, accountName=brac, networkName=mainne
 
 推荐解决方法：将桌面钱包的余额转账到移动钱包。
 :::
+
+---
+
+## For Other Wallet Issues
+
+### <Badge type="warning" text="QUESTION" /> 如何获取钱包长地址？（用于 ABEL m挖矿）
+
+::: info <Badge type="tip" text="ANSWER" />
+移动钱包点右上角三点会弹出菜单，选择 **导出长地址**。
+
+移动钱包 Pro 点击右上角头像，再点击 **账户详情**，此页面有显示长地址。
+
+桌面钱包获取长地址步骤：
+
+1. 点击 **abec** 和 **abewallet** 同步；
+2. 点击 **RECEIVE** 标签页；
+3. 点击界面中 **...** （三个点图标），在下拉菜单中选择 **Add address**（新创建的钱包需要执行此步骤，否则跳过此步骤）；
+4. 点击 **...** 之后的 **书页** 图标，在下拉菜单中选择已有的钱包地址，下面一行 **Adress:** 后面以 **00000000** 开头的这串字符就是长地址。
+:::
