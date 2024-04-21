@@ -17,7 +17,7 @@ outline: deep
 ::: info <Badge type="tip" text="ANSWER" />
 驱动器C盘上的空间是否已满？
 
-请[查看此页面](/faq/software-issues/fullnode.html#how-to-move-mainnet-data-to-another-location)，然后按照步骤将 miannet 数据移动到另一个位置。
+请[查看此页面](/zh/faq/software-issues/fullnode.html#如何将-mainnet-数据移至另一个位置)，然后按照步骤将 miannet 数据移动到另一个位置。
 :::
 
 ---
@@ -32,7 +32,7 @@ outline: deep
 ::: info <Badge type="tip" text="ANSWER" />
 这是 mainnet 数据库损坏。您需要删除 "C:\Users\\[用户名]\AppData\Roaming\Abelian Wallet\Abec\mainnet" 文件夹，然后重新同步。
 
-请[查看此页面](/downloads/mainnet-db)，按照步骤下载最新的主网数据，然后重新同步。
+请[查看此页面](/zh/downloads/mainnet-db)，按照步骤下载最新的主网数据，然后重新同步。
 :::
 
 ### <Badge type="warning" text="QUESTION" /> 转账时报错："allowed max number 5"
