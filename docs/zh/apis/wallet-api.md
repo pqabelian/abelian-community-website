@@ -2,11 +2,11 @@
 outline: deep
 ---
 
-# API for Abelian Wallet
+# Abelian 钱包 API
 
-## 1. Query wallet status and blockchain information
+## 1. 查询钱包状态和区块链信息
 
-Wallet provides the following APIs for querying wallet status and blockchain information:
+钱包提供以下 API 用于查询钱包状态和区块链信息：
 
 | Name                  | Paramters | Description                                                     |
 | --------------------- | --------- | --------------------------------------------------------------- |
@@ -22,28 +22,29 @@ Wallet provides the following APIs for querying wallet status and blockchain inf
 | listunconfirmedtxs    | null      | print all unconfirmed transaction which consumes txos of wallet |
 | listinvalidtxs        | null      | print all invalid transaction which consumes txos of wallet     |
 
-When accessing the above wallet APIs, rpcuser and rpcpass should be provided.
+在访问上述钱包API时，应提供 rpcuser 和 rpcpass。
 
-For example, `abectl --rpcuser=[rpcuser in abewallet.conf] --rpcpass=[rpcpass in abewallet.conf] --wallet getbalancesabe`
+例如： `abectl --rpcuser=[rpcuser in abewallet.conf] --rpcpass=[rpcpass in abewallet.conf] --wallet getbalancesabe`
 
-## 2. Create Transfer Transactions
+## 2. 创建转账交易
 
-When a wallet is running, the owner can unlock the wallet using private passphrase and then use the following API to create a transfer transaction, which is automatically sent to the connected ABEC node, and then is broadcast to Abelian network.
+当钱包运行时，所有者可以使用私密密码短语解锁钱包，然后使用以下API创建转账交易，该交易会自动发送到连接的 ABEC 节点，并随后广播到 Abelian 网络。
 
-**Note: during the transaction generation, a new address may be generated to store change. When the transaction is created successfully, the _max index number_ of address in the wallet would be returned.**
+**注意：在交易生成期间，可能会生成一个新地址来存储零钱。当交易成功创建后，钱包中地址的最大索引号将被返回。**
 
 | Name               | Paramaters                                                                                                                                             | Description                                                    |
 | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------- |
 | sendtoaddressesabe | `[{"address":"address string","amount":value},`<br/>...<br/>`{"address":"address string","amount":value}]` <br/> scaleToFeeSatPerKb <br/> feeSpecified | create a transaction with assigned pairs of address and amount |
 
-NOTE: "scaleToFeeSatPerKb" can be left unset and will be given a default value of 1.0. Similarly, "feeSpecified" can also be left unset, and will be given a default value of 100.
-These two parameters can not be set at the same time, but if the next parameter is set, the previous parameter must be set, you can use 1.0.
+注意："scaleToFeeSatPerKb" 可以不设置，将默认赋值为 1.0。同样地，"feeSpecified" 也可以不设置，将默认赋值为 100。
 
-In current version, because limit of command line length, the wallet uses a file named "arg1" in abec's directory such as `~/Library/Application Support/Abec/arg1` to store parameters, which means the command to creating transfer transaction would become as follows:
+这两个参数不能同时设置，但如果下一个参数被设置了，前一个参数必须被设置，你可以使用 1.0。
+
+在当前版本中，由于命令行长度的限制，钱包使用一个名为 “arg1” 的文件存储参数，该文件位于 abec 的目录下，例如 `~/Library/Application Support/Abec/arg1`。这意味着创建转账交易的命令将变为如下所示：
 
 `abectl --rpcuser=[rpcuser in abewallet.conf] --rpcpass=[rpcpass in abewallet.conf] --wallet sendtoaddressesabe -`
 
-An example of the file "arg1" is as follows:
+“arg1” 文件的一个示例如下：
 
 ```json
 [
