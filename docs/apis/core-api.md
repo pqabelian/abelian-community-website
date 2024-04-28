@@ -4,63 +4,28 @@ outline: deep
 
 # API for Abelian Core
 
-## Table of Contents
-1. [Overview](#Overview)<br />
-2. [HTTP POST Versus Websockets](#HttpPostVsWebsockets)<br />
-3. [Authentication](#Authentication)<br />
-3.1.  [Overview](#AuthenticationOverview)<br />
-3.2.  [HTTP Basic Access Authentication](#HTTPAuth)<br />
-3.3.  [JSON-RPC Authenticate Command (Websocket-specific)](#JSONAuth)<br />
-4. [Command-line Utility](#CLIUtil)<br />
-5. [Standard Methods](#Methods)<br />
-5.1. [Method Overview](#MethodOverview)<br />
-5.2. [Method Details](#MethodDetails)<br />
-6. [Example Code](#ExampleCode)<br />
-6.1. [Go](#ExampleGoApp)<br />
-6.2. [node.js](#ExampleNodeJsCode)<br />
-
-<a name="Overview" />
-
 ## 1. Overview
 
-abec provides a [JSON-RPC](http://json-rpc.org/wiki/specification) API.  There are some features in abec
-how RPCs are serviced:
-* abec is secure by default which means that the RPC connection is TLS-enabled
-  by default
-* abec provides access to the API through both
-  [HTTP POST](http://en.wikipedia.org/wiki/POST_%28HTTP%29) requests and
-  [Websockets](http://en.wikipedia.org/wiki/WebSocket)
+abec provides a JSON-RPC API.  There are some features in abec how RPCs are serviced:
 
-Websockets are the preferred transport for abec RPC and are used by applications
-such as [abewallet](https://github.com/abesuite/abewallet) for inter-process
-communication with abec.  The websocket connection endpoint for abec is
-`wss://your_ip_or_domain:8667/ws`.
+- abec is secure by default which means that the RPC connection is TLS-enabled by default
+- abec provides access to the API through both HTTP POST requests and Websockets
 
-In addition to the [standard API](#Methods), an [extension API](#WSExtMethods) is developping that is exclusive to clients using Websockets. In its current
-state, this API attempts to cover features found missing in the standard API
+Websockets are the preferred transport for abec RPC and are used by applications such as abewallet for inter-process communication with abec.  The websocket connection endpoint for abec is `wss://your_ip_or_domain:8667/ws`.
+
+In addition to the standard API, an extension API is developping that is exclusive to clients using Websockets. In its current state, this API attempts to cover features found missing in the standard API
 during the development of abewallet.
 
-It should be pointed out that the current API list is not stable, while the [standard API](#Methods) is designed as stable, the
-[Websocket extension API](#WSExtMethods) should be considered a work in
-progress, incomplete, and susceptible to changes (both additions and removals). 
-
-
-<a name="HttpPostVsWebsockets" />
+It should be pointed out that the current API list is not stable, while the standard API is designed as stable, the Websocket extension API should be considered a work in progress, incomplete, and susceptible to changes (both additions and removals). 
 
 ## 2. HTTP POST Versus Websockets
 
-The abec RPC server supports both [HTTP POST](http://en.wikipedia.org/wiki/POST_%28HTTP%29)
-requests and the preferred [Websockets](http://en.wikipedia.org/wiki/WebSocket).
-All of the [standard](#Methods) and [extension](#ExtensionMethods) methods
-described in this documentation can be accessed through both.  As the name
-indicates, the [Websocket-specific extension](#WSExtMethods) methods can only be
-accessed when connected via Websockets.
+The abec RPC server supports both HTTP POST requests and the preferred Websockets. All of the standard and extension methods described in this documentation can be accessed through both.  As the name
+indicates, the Websocket-specific extension methods can only be accessed when connected via Websockets.
 
-As mentioned in the [overview](#Overview), the websocket connection endpoint for
-abec is `wss://your_ip_or_domain:8667/ws`.
+As mentioned in the overview, the websocket connection endpoint for abec is `wss://your_ip_or_domain:8667/ws`.
 
-The most important differences between the two transports as it pertains to the
-JSON-RPC API are:
+The most important differences between the two transports as it pertains to the JSON-RPC API are:
 
 |   |HTTP POST Requests|Websockets|
 |---|------------------|----------|
@@ -68,13 +33,9 @@ JSON-RPC API are:
 |Supports asynchronous notifications|No|Yes|
 |Scales well with large numbers of requests|No|Yes|
 
-<a name="Authentication" />
-
 ## 3. Authentication
 
-<a name="AuthenticationOverview" />
-
-**3.1 Authentication Overview**<br />
+### 3.1 Authentication Overview
 
 The following authentication details are needed before establishing a connection
 to a abec RPC server:
@@ -84,60 +45,36 @@ to a abec RPC server:
 * **rpclimituser** is the limited username configured for the abec RPC server
 * **rpclimitpass** is the limited password configured for the abec RPC server
 * **rpccert** is the PEM-encoded X.509 certificate (public key) that the abec
-  server is configured with.  It is automatically generated by abec and placed
-  in the abec home directory (which is typically `%LOCALAPPDATA%\abed` on
-  Windows and `~/.abec` on POSIX-like OSes)
 
-**NOTE:** As mentioned above, abec is secure by default which means the RPC
-server is not running unless configured with a **rpcuser** and **rpcpass**
-and/or a **rpclimituser** and **rpclimitpass**, and uses TLS authentication for
-all connections.
+  server is configured with.  It is automatically generated by abec and placed   in the abec home directory (which is typically `%LOCALAPPDATA%\abed` on   Windows and `~/.abec` on POSIX-like OSes)
 
-Depending on which connection transaction you are using, you can choose one of
-two, mutually exclusive, methods.
-- [Use HTTP Authorization Header](#HTTPAuth) - HTTP POST requests and Websockets
-- [Use the JSON-RPC "authenticate" command](#JSONAuth) - Websockets only
+**NOTE:** As mentioned above, abec is secure by default which means the RPC server is not running unless configured with a **rpcuser** and **rpcpass** and/or a **rpclimituser** and **rpclimitpass**, and uses TLS authentication for all connections.
 
-<a name="HTTPAuth" />
+Depending on which connection transaction you are using, you can choose one of two, mutually exclusive, methods.
 
-**3.2 HTTP Basic Access Authentication**<br />
+- Use HTTP Authorization Header - HTTP POST requests and Websockets
+- Use the JSON-RPC "authenticate" command - Websockets only
 
-The abec RPC server uses HTTP [basic access authentication](http://en.wikipedia.org/wiki/Basic_access_authentication) with the **rpcuser**
-and **rpcpass** detailed above.  If the supplied credentials are invalid, you
+### 3.2 HTTP Basic Access Authentication
+
+The abec RPC server uses HTTP basic access authentication with the **rpcuser** and **rpcpass** detailed above.  If the supplied credentials are invalid, you
 will be disconnected immediately upon making the connection.
 
-<a name="JSONAuth" />
+### 3.3 JSON-RPC Authenticate Command (Websocket-specific)
 
-**3.3 JSON-RPC Authenticate Command (Websocket-specific)**<br />
+While the HTTP basic access authentication method is the preferred method, the ability to set HTTP headers from websockets is not always available.  In that case, you will need to use the authenticate JSON-RPC method.
 
-While the HTTP basic access authentication method is the preferred method, the
-ability to set HTTP headers from websockets is not always available.  In that
-case, you will need to use the [authenticate](#authenticate) JSON-RPC method.
-
-The [authenticate](#authenticate) command must be the first command sent after
-connecting to the websocket.  Sending any other commands before authenticating,
-supplying invalid credentials, or attempting to authenticate again when already
-authenticated will cause the websocket to be closed immediately.
-
-
-<a name="CLIUtil" />
+The authenticate command must be the first command sent after connecting to the websocket.  Sending any other commands before authenticating, supplying invalid credentials, or attempting to authenticate again when already authenticated will cause the websocket to be closed immediately.
 
 ## 4. Command-line Utility
 
-abec comes with a separate utility named `abectl` which can be used to issue
-these RPC commands via HTTP POST requests to abec after configuring it with the
-information in the [Authentication](#Authentication) section above. 
-
-<a name="Methods" />
+abec comes with a separate utility named `abectl` which can be used to issue these RPC commands via HTTP POST requests to abec after configuring it with the information in the Authentication section above. 
 
 ## 5. Standard Methods
 
-<a name="MethodOverview" />
+### 5.1 Method Overview
 
-**5.1 Method Overview**<br />
-
-The following is an overview of the RPC methods and their current status.  Click
-the method name for further details such as parameter and return information.
+The following is an overview of the RPC methods and their current status.  Click the method name for further details such as parameter and return information.
 
 |#|Method|Safe for limited user?| Description                                                                                                                                                                                                                                                                             |
 |---|------|----------------|--------------------------------------------------------------|
@@ -158,14 +95,7 @@ the method name for further details such as parameter and return information.
 |15| [setgenerate](#setgenerate) |N| Set the server to generate coins (mine) or not.<br/>NOTE: Since abedabec does not have the wallet integrated to provide payment addresses, abedabec must be configured via the `--miningaddr` option to provide which payment addresses to pay created blocks to for this RPC to function.                                                                                                                                                                                                                                  |
 |16| [stop](#stop)|N| Shutdown abec.                                                                                                                              
 
-
-<a name="MethodDetails" />
-
-**5.2 Method Details**<br />
-
-<a name="addnode"/>
-
-<a name="getbestblockhash"/>
+### 5.2 Method Details
 
 |   |   |
 |---|---|
@@ -174,10 +104,8 @@ the method name for further details such as parameter and return information.
 |Description|Returns the hash of the of the best (most recent) block in the longest block chain.|
 |Returns|string|
 |Example Return|`0000000000000001f356adc6b29ab42b59f913a396e170f80190dba615bd1e60`|
-[Return to Overview](#MethodOverview)<br />
 
 ***
-<a name="getblock"/>
 
 |   |   |
 |---|---|
@@ -189,10 +117,8 @@ the method name for further details such as parameter and return information.
 |Returns (verbosity=2)|`{ (json object)`<br />&nbsp;&nbsp;`"hash": "blockhash",  (string) the hash of the block (same as provided)`<br />&nbsp;&nbsp;`"confirmations": n,  (numeric) the number of confirmations`<br />&nbsp;&nbsp;`"size", n (numeric) the size of the block without witness data`<br />&nbsp;&nbsp;`"fullsize": n,  (numeric) the size of the block`<br />&nbsp;&nbsp;`"weight": n, (numeric) value of the weight metric`<br />&nbsp;&nbsp;`"height": n,  (numeric) the height of the block in the block chain`<br />&nbsp;&nbsp;`"version": n,  (numeric) the block version`<br />&nbsp;&nbsp;`"versionHex": n,  (hexadecimal) the block version`<br />&nbsp;&nbsp;`"merkleroot": "hash",  (string) root hash of the merkle tree`<br />&nbsp;&nbsp;`"rawtx": [ (array of json objects) the transactions as json objects`<br />&nbsp;&nbsp;&nbsp;&nbsp;`(see getrawtransaction json object details)`<br />&nbsp;&nbsp;`]`<br />&nbsp;&nbsp;`"time": n,  (numeric) the block time in seconds since 1 Jan 1970 GMT`<br />&nbsp;&nbsp;`"nonce": n,  (numeric) the block nonce`<br />&nbsp;&nbsp;`"bits", n,  (numeric) the bits which represent the block difficulty`<br />&nbsp;&nbsp;`difficulty: n.nn,  (numeric) the proof-of-work difficulty as a multiple of the minimum difficulty`<br />&nbsp;&nbsp;`"previousblockhash": "hash",  (string) the hash of the previous block`<br />&nbsp;&nbsp;`"nextblockhash": "hash",  (string) the hash of the next block`<br />`}`|
 |Example Return (verbosity=0)|`"010000000000000000000000000000000000000000000000000000000000000000000000`<br />`3ba3edfd7a7b12b27ac72c3e67768f617fc81bc3888a51323a9fb8aa4b1e5e4a29ab5f49`<br />`ffff001d1dac2b7c01010000000100000000000000000000000000000000000000000000`<br />...<br />`00000000000000000000ffffffff4d04ffff001d0104455468652054696d65732030332f`<br />`4a616e2f32303039204368616e63656c6c6f72206f6e206272696e6b206f66207365636f`<br />`6e64206261696c6f757420666f722062616e6b73ffffffff0100f2052a01000000434104`<br />`678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f`<br />`4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5fac00000000"`<br /><font color="orange">**Newlines added for display purposes.  The actual return does not contain newlines.**</font>|
 |Example Return (verbosity=1)|`{`<br />&nbsp;&nbsp;`"hash": "1db9b31bc22479d4e4f7c80b2b43767031d62a6eee992801c950389e8557f8de",`<br />&nbsp;&nbsp;`"confirmations": 277113,`<br />&nbsp;&nbsp;`"size": 20799,`<br />&nbsp;&nbsp;`"height": 80039,`<br />&nbsp;&nbsp;`"version": 268435456,`<br />&nbsp;&nbsp;`"versionHex": 10000000,`<br />&nbsp;&nbsp;`"merkleroot": "a96353f19793ba890a3d7aa31ed6bb101dbe36941d224af8b0af37ca9dd585ff",`<br />&nbsp;&nbsp;`"tx": [`<br />&nbsp;&nbsp;&nbsp;&nbsp;`"59a2a33c282bada2dc4b612979178e5f924d30c7ca4dbab4fac0960454e938ec"`<br />&nbsp;&nbsp;`],`<br />&nbsp;&nbsp;`"time": 1659858927,`<br />&nbsp;&nbsp;`"nonce": 0,`<br />&nbsp;&nbsp;`"bits": "207fffff",`<br />&nbsp;&nbsp;`"difficulty": 1,`<br />&nbsp;&nbsp;`"previousblockhash": "9fe1537074faaca21b2f8378be7eaf115cc20bc57ae140d2891c04f1a6e362f9",`<br />&nbsp;&nbsp;`"nextblockhash": "00000198246f79ebf50cfad8b13327d9568f9ea87c2c1a605aa7eaf3afb4f3ec"`<br />`}`|
-[Return to Overview](#MethodOverview)<br />
 
 ***
-<a name="getblockcount"/>
 
 |   |   |
 |---|---|
@@ -201,10 +127,8 @@ the method name for further details such as parameter and return information.
 |Description|Returns the number of blocks in the longest block chain.|
 |Returns|numeric|
 |Example Return|`276820`|
-[Return to Overview](#MethodOverview)<br />
 
 ***
-<a name="getblockhash"/>
 
 |   |   |
 |---|---|
@@ -213,10 +137,8 @@ the method name for further details such as parameter and return information.
 |Description|Returns hash of the block in best block chain at the given height.|
 |Returns|string|
 |Example Return|`00000198246f79ebf50cfad8b13327d9568f9ea87c2c1a605aa7eaf3afb4f3ec`|
-[Return to Overview](#MethodOverview)<br />
 
 ***
-<a name="getblockheader"/>
 
 |   |   |
 |---|---|
@@ -227,10 +149,8 @@ the method name for further details such as parameter and return information.
 |Returns (verbose=true)|`{ (json object)`<br />&nbsp;&nbsp;`"hash": "blockhash", (string) the hash of the block (same as provided)`<br />&nbsp;&nbsp;`"confirmations": n,  (numeric) the number of confirmations`<br />&nbsp;&nbsp;`"height": n, (numeric) the height of the block in the block chain`<br />&nbsp;&nbsp;`"version": n,  (numeric) the block version`<br />&nbsp;&nbsp;`"versionHex": n,  (hexadecimal) the block version`<br />&nbsp;&nbsp;`"merkleroot": "hash",  (string) root hash of the merkle tree`<br />&nbsp;&nbsp;`"time": n,  (numeric) the block time in seconds since 1 Jan 1970 GMT`<br />&nbsp;&nbsp;`"nonce": n,  (numeric) the block nonce`<br />&nbsp;&nbsp;`"bits": n,  (numeric) the bits which represent the block difficulty`<br />&nbsp;&nbsp;`"difficulty": n.nn,  (numeric) the proof-of-work difficulty as a multiple of the minimum difficulty`<br />&nbsp;&nbsp;`"previousblockhash": "hash",  (string) the hash of the previous block`<br />&nbsp;&nbsp;`"nextblockhash": "hash",  (string) the hash of the next block (only if there is one)`<br />`}`|
 |Example Return (verbose=false)|`"0200000035ab154183570282ce9afc0b494c9fc6a3cfea05aa8c1add2ecc564900000000`<br />`38ba3d78e4500a5a7570dbe61960398add4410d278b21cd9708e6d9743f374d544fc0552`<br />`27f1001c29c1ea3b"`<br /><font color="orange">**Newlines added for display purposes.  The actual return does not contain newlines.**</font>|
 |Example Return (verbose=true)|`{`<br />&nbsp;&nbsp;`"hash": "00000000009e2958c15ff9290d571bf9459e93b19765c6801ddeccadbb160a1e",`<br />&nbsp;&nbsp;`"confirmations": 392076,`<br />&nbsp;&nbsp;`"height": 100000,`<br />&nbsp;&nbsp;`"version": 268435456,`<br />&nbsp;&nbsp;`"versionHex": 10000000,`<br />&nbsp;&nbsp;`"merkleroot": "d574f343976d8e70d91cb278d21044dd8a396019e6db70755a0a50e4783dba38",`<br />&nbsp;&nbsp;`"time": 1376123972,`<br />&nbsp;&nbsp;`"nonce": 1005240617,`<br />&nbsp;&nbsp;`"bits": "1c00f127",`<br />&nbsp;&nbsp;`"difficulty": 271.75767393,`<br />&nbsp;&nbsp;`"previousblockhash": "1db9b31bc22479d4e4f7c80b2b43767031d62a6eee992801c950389e8557f8de",`<br />&nbsp;&nbsp;`"nextblockhash": "0000000000629d100db387f37d0f37c51118f250fb0946310a8c37316cbc4028"`<br />`}`|
-[Return to Overview](#MethodOverview)<br />
 
 ***
-<a name="getconnectioncount"/>
 
 |   |   |
 |---|---|
@@ -239,10 +159,8 @@ the method name for further details such as parameter and return information.
 |Description|Returns the number of active connections to other peers|
 |Returns|numeric|
 |Example Return|`8`|
-[Return to Overview](#MethodOverview)<br />
 
 ***
-<a name="getdifficulty"/>
 
 |   |   |
 |---|---|
@@ -251,10 +169,8 @@ the method name for further details such as parameter and return information.
 |Description|Returns the proof-of-work difficulty as a multiple of the minimum difficulty.|
 |Returns|numeric|
 |Example Return|`4329637.71098248`|
-[Return to Overview](#MethodOverview)<br />
 
 ***
-<a name="getgenerate"/>
 
 |   |   |
 |---|---|
@@ -262,10 +178,8 @@ the method name for further details such as parameter and return information.
 |Parameters|None|
 |Description|Return if the server is set to generate coins (mine) or not.|
 |Returns|`false` (boolean)|
-[Return to Overview](#MethodOverview)<br />
 
 ***
-<a name="gethashespersec"/>
 
 |   |   |
 |---|---|
@@ -273,10 +187,8 @@ the method name for further details such as parameter and return information.
 |Parameters|None|
 |Description|Returns a recent hashes per second performance measurement while generating coins (mining).|
 |Returns|`0` (numeric)|
-[Return to Overview](#MethodOverview)<br />
 
 ***
-<a name="getinfo"/>
 
 |   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |---|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -288,7 +200,6 @@ the method name for further details such as parameter and return information.
 |Example Return| `{`<br />&nbsp;&nbsp;`"version": 110000`<br />&nbsp;&nbsp;`"protocolversion": 70001,  `<br />&nbsp;&nbsp;`"blocks": 298963,`<br />&nbsp;&nbsp;`"timeoffset": 0,`<br />&nbsp;&nbsp;`"connections": 17,`<br />&nbsp;&nbsp;`"proxy": "",`<br />&nbsp;&nbsp;`"difficulty": 8000872135.97,`<br />&nbsp;&nbsp;`"testnet": false,`<br />&nbsp;&nbsp;`"relayfee": 0.00001,`<br />`}`                                                                                                                                                                                                                                                                                                                                                                                                                 
 
 ***
-<a name="getnetworkhashps"/>
 
 |   |   |
 |---|---|
@@ -297,11 +208,8 @@ the method name for further details such as parameter and return information.
 |Description|Returns the estimated network hashes per second for the block heights provided by the parameters.|
 |Returns|numeric|
 |Example Return|`11341`|
-[Return to Overview](#MethodOverview)<br />
-
 
 ***
-<a name="getrawtransaction"/>
 
 |   |   |
 |---|---|
@@ -312,10 +220,8 @@ the method name for further details such as parameter and return information.
 |Returns (verbose=1)|`{ (json object)`<br />&nbsp;&nbsp;`"hex": "data",  (string) hex-encoded transaction`<br />&nbsp;&nbsp;`"txid": "hash",  (string) the hash of the transaction`<br />&nbsp;&nbsp;`"hash": n, (string) the hash of the transaction`<br />&nbsp;&nbsp;`"size": n,  (numeric) the size of transaction`<br />&nbsp;&nbsp;`"fullsize": n,  (numeric) the full size of transaction`<br />&nbsp;&nbsp;`"version": (numeric) the version of the transaction`<br />&nbsp;&nbsp;`"vin": [  (array of json objects) the transaction inputs as json objects`<br />&nbsp;&nbsp;`{ (json object)`<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`"serialnumber": "string", (string) the token of a transaction output`<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`"prevutxoring": { (json object) the data strcut of transaction output set`<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`"version":  (numeric) the version of ring data struct`<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`"blockhhashs": ["array of hash string",`<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `hash1`<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`hash2`<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`hash3`<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`] `<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`"outpoints":[ "array of json object",`<br />&nbsp;&nbsp;&nbsp;&nbsp;` (json object) `<br />&nbsp;&nbsp;&nbsp;&nbsp;`"txid":"hash",  (string) the hash of the transaction`<br />&nbsp;&nbsp;&nbsp;&nbsp;`"index":n, (numeric) the index of output in transaction`<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`}, ...`<br />&nbsp;&nbsp;&nbsp;&nbsp;`],`<br />&nbsp;&nbsp;`]`<br />&nbsp;&nbsp;`"vout": [  (array of json objects) the transaction outputs as json objects`<br />&nbsp;&nbsp;&nbsp;&nbsp;`{ (json object)`<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`"n": n, (numeric) the index of this transaction output`<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`"script": hex, (string) the script of address and value`<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`}, ...`<br />&nbsp;&nbsp;`]`<br />`"fee": n, fee of transaction,`<br />`"witness": hex, (string) witness for verify transaction,` <br />`"blockhash": hex,(string) hash of block which contain the transaction,`<br />`"confirmations": n, (numeric) the number of confirmations`<br />`"time": n, (numeric) the timestamp of transaction`<br />`"blocktime": n, (numeric) the timestamp of transaction`<br />`}`|
 |Example Return (verbose=0)|`"010000000104be666c7053ef26c6110597dad1c1e81b5e6be53d17a8b9d0b34772054bac60000000`<br />`008c493046022100cb42f8df44eca83dd0a727988dcde9384953e830b1f8004d57485e2ede1b9c8f`<br />`022100fbce8d84fcf2839127605818ac6c3e7a1531ebc69277c504599289fb1e9058df0141045a33`<br />`76eeb85e494330b03c1791619d53327441002832f4bd618fd9efa9e644d242d5e1145cb9c2f71965`<br />`656e276633d4ff1a6db5e7153a0a9042745178ebe0f5ffffffff0280841e00000000001976a91406`<br />`...`<br />`f1b6703d3f56427bfcfd372f952d50d04b64bd88ac4dd52700000000001976a9146b63f291c295ee`<br />`abd9aee6be193ab2d019e7ea7088ac00000000`<br /><font color="orange">**Newlines added for display purposes.  The actual return does not contain newlines.**</font>|
 |Example Return (verbose=1)|`{`<br />&nbsp;&nbsp;`"hex": "..."`<br />&nbsp;&nbsp;`"txid": "59a2a33c282bada2dc4b612979178e5f924d30c7ca4dbab4fac0960454e938ec",`<br />&nbsp;&nbsp;`"hash": "59a2a33c282bada2dc4b612979178e5f924d30c7ca4dbab4fac0960454e938ec",`<br />&nbsp;&nbsp;`"size": 20685,`<br />&nbsp;&nbsp;`"fullsize": 79958,`<br />&nbsp;&nbsp;`"version":1,`<br />&nbsp;&nbsp;`"vin": [ `<br />&nbsp;&nbsp;`{`<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`"serialnumber": "string", (string) the token of a transaction output`<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`"prevutxoring": { (json object) the data strcut of transaction output set`<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`"version":  0,`<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`"blockhhashs": ["array of hash string",`<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `"000000000000000000000000000000000000000000000000000000006a000000"`<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`"00000000000000000000000000000000000000000000000088ab5c62532a8a35"`<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`"0000000000000000000000000000000000000000000000000000000000000000"`<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`] `<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`"outpoints":[ `<br />&nbsp;&nbsp;&nbsp;&nbsp;`"txid":0000000000000000000000000000000000000000000000000000000000000000,`<br />&nbsp;&nbsp;&nbsp;&nbsp;`"index":0`<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`}, ...`<br />&nbsp;&nbsp;&nbsp;&nbsp;`],`<br />&nbsp;&nbsp;`]`<br />&nbsp;&nbsp;`"vout": [`<br />&nbsp;&nbsp;&nbsp;&nbsp;`{ (json object)`<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`"n": 0`<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`"script": ...`<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`}, ...`<br />&nbsp;&nbsp;`]`<br />`"fee": n, fee of transaction,`<br />`"witness": ...` <br />`"blockhash": 1db9b31bc22479d4e4f7c80b2b43767031d62a6eee992801c950389e8557f8de`<br />`"confirmations": 2,`<br />`"time": 1659858927,`<br />`"blocktime": 1659858927,`<br />`}`|
-[Return to Overview](#MethodOverview)<br />
 
 ***
-<a name="help"/>
 
 |   |   |
 |---|---|
@@ -324,20 +230,15 @@ the method name for further details such as parameter and return information.
 |Description|Returns a list of all commands or help for a specified command.<br />When no `command` parameter is specified, a list of avaialable commands is returned<br />When `command` is a valid method, the help text for that method is returned.|
 |Returns|string|
 |Example Return|getblockcount<br />Returns a numeric for the number of blocks in the longest block chain.|
-[Return to Overview](#MethodOverview)<br />
 
 ***
-<a name="ping"/>
 
 |   |   |
 |---|---|
 |Method|ping|
 |Parameters|None|
-|Description|Queues a ping to be sent to each connected peer.<br />Ping times are provided by [getpeerinfo](#getpeerinfo) via the `pingtime` and `pingwait` fields.|
+|Description|Queues a ping to be sent to each connected peer.<br />Ping times are provided by getpeerinfo via the `pingtime` and `pingwait` fields.|
 |Returns|Nothing|
-[Return to Overview](#MethodOverview)<br />
-
-
 
 
 ## 6. Example Code
@@ -345,29 +246,20 @@ the method name for further details such as parameter and return information.
 This section provides example code for interacting with the JSON-RPC API in
 various languages.
 
-* [Go](#ExampleGoApp)
-* [node.js](#ExampleNodeJsCode)
+* Go
+* node.js
 
-<a name="ExampleGoApp" />
+### 6.1 Go
 
-**6.1 Go**
+This section provides examples of using the RPC interface using Go and the rpcclient package.
 
-This section provides examples of using the RPC interface using Go and the
-[rpcclient](https://github.com/abesuite/abec/tree/master/rpcclient) package.
+* Using getblockcount to Retrieve the Current Block Height
+* Using getblock to Retrieve the Genesis Block
+* Using notifyblocks to Receive blockconnected and blockdisconnected Notifications (Websocket-specific)
 
-* [Using getblockcount to Retrieve the Current Block Height](#ExampleGetBlockCount)
-* [Using getblock to Retrieve the Genesis Block](#ExampleGetBlock)
-* [Using notifyblocks to Receive blockconnected and blockdisconnected Notifications (Websocket-specific)](#ExampleNotifyBlocks)
+#### 6.1.1 Using getblockcount to Retrieve the Current Block Height
 
-
-<a name="ExampleGetBlockCount" />
-
-**6.1.1 Using getblockcount to Retrieve the Current Block Height**<br />
-
-The following is an example Go application which uses the
-[rpcclient](https://github.com/abesuite/abec/tree/master/rpcclient) package to connect with
-a abec instance via Websockets, issues [getblockcount](#getblockcount) to
-retrieve the current block height, and displays it.
+The following is an example Go application which uses the rpcclient package to connect with a abec instance via Websockets, issues getblockcount to retrieve the current block height, and displays it.
 
 ```Go
 package main
@@ -422,14 +314,9 @@ Which results in:
 2018/08/27 11:17:27 Block count: 536027
 ```
 
-<a name="ExampleGetBlock" />
+#### 6.1.2 Using getblock to Retrieve the Genesis Block
 
-**6.1.2 Using getblock to Retrieve the Genesis Block**<br />
-
-The following is an example Go application which uses the
-[rpcclient](https://github.com/abesuite/abec/tree/master/rpcclient) package to connect with
-a abec instance via Websockets, issues [getblock](#getblock) to retrieve
-information about the Genesis block, and display a few details about it.
+The following is an example Go application which uses the rpcclient package to connect with a abec instance via Websockets, issues getblock to retrieve information about the Genesis block, and display a few details about it.
 
 ```Go
 package main
@@ -511,17 +398,9 @@ Size (in bytes): 285
 Num transactions: 1
 ```
 
-<a name="ExampleNotifyBlocks" />
+#### 6.1.3 Using notifyblocks to Receive blockconnected and blockdisconnected Notifications (Websocket-specific)
 
-**6.1.3 Using notifyblocks to Receive blockconnected and blockdisconnected
-Notifications (Websocket-specific)**<br />
-
-The following is an example Go application which uses the
-[rpcclient](https://github.com/abesuite/abec/tree/master/rpcclient) package to connect with
-a abec instance via Websockets and registers for
-[blockconnected](#blockconnected) and [blockdisconnected](#blockdisconnected)
-notifications with [notifyblocks](#notifyblocks).  It also sets up handlers for
-the notifications.
+The following is an example Go application which uses the rpcclient package to connect with a abec instance via Websockets and registers for blockconnected and blockdisconnected notifications with notifyblocks. It also sets up handlers for the notifications.
 
 ```Go
 package main
@@ -606,19 +485,11 @@ Example output:
 2018/08/27 10:35:53 Client shutdown complete.
 ```
 
-<a name="ExampleNodeJsCode" />
-
 ### 6.2. Example node.js Code
 
-<a name="ExampleNotifyBlocks" />
+#### 6.2.1 Using notifyblocks to be Notified of Block Connects and Disconnects
 
-**6.2.1 Using notifyblocks to be Notified of Block Connects and Disconnects**<br />
-
-The following is example node.js code which uses [ws](https://github.com/einaros/ws)
-(can be installed with `npm install ws`) to connect with a abec instance,
-issues [notifyblocks](#notifyblocks) to register for
-[blockconnected](#blockconnected) and [blockdisconnected](#blockdisconnected)
-notifications, and displays all incoming messages.
+The following is example node.js code which uses ws (can be installed with `npm install ws`) to connect with a abec instance, issues notifyblocks to register for blockconnected and blockdisconnected notifications, and displays all incoming messages.
 
 ```javascript
 var fs = require('fs');
