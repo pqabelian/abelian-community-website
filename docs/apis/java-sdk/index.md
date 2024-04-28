@@ -17,13 +17,13 @@ On macOS x86/arm86 platforms, the SDK only requires Java 8 or later. On Linux pl
 
 ## 2. Getting started with the SDK demo
 
-Before using the SDK in your own project, you can try the SDK demos to get a sense of how the SDK works. The SDK demos is packed as a standalone package containing all jar dependencies. You can download the demos package `abel4j-demo-x.y.z.zip` from the [release page](../../releases) of this repository.
+Before using the SDK in your own project, you can try the SDK demos to get a sense of how the SDK works. The SDK demos is packed as a standalone package containing all jar dependencies. You can download the demos package `abel4j-demo-x.y.z.zip` from the [release page](https://github.com/pqabelian/abelian-sdk-java/releases) of this repository.
 
-Please refer to the the document [*Understanding the Abelian Java SDK by Demos*](abel4j-demo/README.md) for more details.
+Please refer to the the document [*Understanding the Abelian Java SDK by Demos*](/apis/java-sdk/demo) for more details.
 
 ## 3. Using the SDK in your project
 
-To use the Abelian Java SDK in your project, you need to add the single JAR file `abel4j-x.y.z.jar` along with the required dependencies to your project. The SDK JAR file can be either downloaded from the [release page](../../releases) or built from the source code.
+To use the Abelian Java SDK in your project, you need to add the single JAR file `abel4j-x.y.z.jar` along with the required dependencies to your project. The SDK JAR file can be either downloaded from the [release page](https://github.com/pqabelian/abelian-sdk-java/releases) or built from the source code.
 
 The SDK requires the following dependencies:
 - `net.java.dev.jna:jna:5.13.0`

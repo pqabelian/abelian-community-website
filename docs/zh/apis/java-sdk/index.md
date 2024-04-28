@@ -19,7 +19,7 @@ Abelian Java SDK 支持以下平台：
 
 在您将 SDK 应用到自己的项目之前，您可以尝试 SDK 演示以了解 SDK 的工作方式。SDK 演示被打包为一个独立的包，包含了所有 jar 依赖。您可以从此仓库的 [发布页面](https://github.com/pqabelian/abelian-sdk-java/releases) 下载演示包 `abel4j-demo-x.y.z.zip`。
 
-请参阅文档 [*通过演示了解 Abelian Java SDK*](https://github.com/pqabelian/abelian-sdk-java/abel4j-demo/README.md) 以获取更多详情。
+请参阅文档 [*通过演示了解 Abelian Java SDK*](/zh/apis/java-sdk/demo) 以获取更多详情。
 
 ## 3. 在您的项目中使用 SDK
 
