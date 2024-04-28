@@ -1,6 +1,6 @@
-## Ans API Document
+# Ans API Document
 
-### Register abel address
+## Register abel address
 
 - URL
 
@@ -85,7 +85,7 @@ curl -X POST https://ans.abelian.info/ans/v1/register \
 }
 ```
 
-### Get abel address from short address
+## Get abel address from short address
 
 - URL
 

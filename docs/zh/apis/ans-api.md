@@ -1,6 +1,6 @@
-## Ans API 文档
+# Ans API 文档
 
-### 注册 abel 地址
+## 注册 abel 地址
 
 - URL
 
@@ -85,7 +85,7 @@ curl -X POST https://ans.abelian.info/ans/v1/register \
 }
 ```
 
-### 从短地址获取 able 地址
+## 从短地址获取 able 地址
 
 - URL
 
