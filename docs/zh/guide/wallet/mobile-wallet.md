@@ -67,7 +67,7 @@ abecrpcpass=biPPQXARkhtzQw3wV1NWAxuS6Vg=
 
 如果以上步骤顺利进行，我们将看到 6 组 **Rand Seed Keys**，每个密钥都是要导入到 Abelian 移动应用作为新账户的**私钥**。
 
-### Step 3: 导入私钥
+### 步骤3: 导入私钥
 
 将 **Rand Seeds** 作为新账户的**私钥**导入移动钱包应用程序。
 

@@ -113,7 +113,14 @@ export default defineConfig({
               items: [
                 { text: 'Core API', link: '/apis/core-api'},
                 { text: 'Wallet API', link: '/apis/wallet-api' },
-                { text: 'Ans API', link: '/apis/ans-api' }
+                { text: 'Ans API', link: '/apis/ans-api' },
+                { text: 'Java SDK',
+                  collapsed: false,
+                  items: [
+                    { text: 'Guide', link: '/apis/java-sdk/' },
+                    { text: 'Demo', link: '/apis/java-sdk/demo'}
+                  ]
+                }
               ]
             }
           ],
@@ -244,7 +251,14 @@ export default defineConfig({
               items: [
                 { text: '核心 API', link: '/zh/apis/core-api'},
                 { text: '钱包 API', link: '/zh/apis/wallet-api' },
-                { text: 'Ans API', link: '/zh/apis/ans-api' }
+                { text: 'Ans API', link: '/zh/apis/ans-api' },
+                { text: 'Java SDK',
+                  collapsed: false,
+                  items: [
+                    { text: '指引', link: '/zh/apis/java-sdk/' },
+                    { text: '演示', link: '/zh/apis/java-sdk/demo'}
+                  ]
+                }
               ]
             }
           ],

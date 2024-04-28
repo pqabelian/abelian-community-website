@@ -69,7 +69,7 @@ Failed calling RPC: serviceGroup=abewallet, accountName=brac, networkName=mainne
 
 ---
 
-## For Other Wallet Issues
+## 钱包其他问题
 
 ### <Badge type="warning" text="QUESTION" /> 如何获取钱包长地址？（用于 ABEL m挖矿）
 
