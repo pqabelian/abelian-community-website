@@ -6,7 +6,7 @@ outline: deep
 
 ## 1. 概览
 
-abec提供了一个 JSON-RPC API。在 abec 中，RPC 的服务方式有一些特点：
+abec 提供了一个 JSON-RPC API。在 abec 中，RPC 的服务方式有一些特点：
 
 - abec 默认是安全的，这意味着 RPC 连接默认启用了 TLS；
 - abec 通过 HTTP POST 请求和 Websockets 提供 API 访问权限。
