@@ -20,7 +20,7 @@ export default defineConfig({
         nav: [
           { text: 'Home', link: '/' },
           { text: 'Get Started', link: '/guide/getting-started' },
-          { text: 'API', link: '/apis/core-api' },
+          { text: 'API/SDK', link: '/apis/core-api' },
           { text: 'FAQ', link: '/faq/' },
           { text: 'Downloads',
             items: [
@@ -108,7 +108,7 @@ export default defineConfig({
           ],
           '/apis/': [
             {
-              text: 'API',
+              text: 'API/SDK',
               collapsed: false,
               items: [
                 { text: 'Core API', link: '/apis/core-api'},
@@ -158,7 +158,7 @@ export default defineConfig({
         nav: [
           { text: '首页', link: '/zh/' },
           { text: '由此开始', link: '/zh/guide/getting-started' },
-          { text: 'API', link: '/zh/apis/core-api' },
+          { text: 'API/SDK', link: '/zh/apis/core-api' },
           { text: '问答', link: '/zh/faq/' },
           { text: '下载',
             items: [
@@ -246,7 +246,7 @@ export default defineConfig({
           ],
           '/zh/apis/': [
             {
-              text: 'API',
+              text: 'API/SDK',
               collapsed: false,
               items: [
                 { text: '核心 API', link: '/zh/apis/core-api'},
