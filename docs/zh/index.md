@@ -9,7 +9,7 @@ hero:
   
   name: "Abelian 知识社区"
   # text: "Abelian Docs is committed to integrating mining tutorials and Q&A for the Abelian Document repository."
-  tagline: Abelian 知识社区 - 致力于为 Abelian 区块链集文档库、问答、教程和用户经验分享为一体的综合型社区。
+  tagline: Abelian 知识社区 - 致力于成为 Abelian 区块链集文档库、问答、教程和用户经验分享为一体的综合型社区。
 
   actions:
     - theme: brand
@@ -19,7 +19,7 @@ hero:
       text: 问答
       link: /zh/faq/
     - theme: alt
-      text: 纠错/投稿
+      text: 提问/纠错
       link: https://github.com/pqabelian/abelian-community/issues/new
     - theme: alt
       text: 访问 GitHub

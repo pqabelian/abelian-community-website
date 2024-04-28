@@ -19,7 +19,7 @@ hero:
       text: FAQ
       link: /faq/
     - theme: alt
-      text: Correction/Submission
+      text: Question/Correction
       link: https://github.com/pqabelian/abelian-community/issues/new
     - theme: alt
       text: View on GitHub
