@@ -4,4 +4,4 @@ outline: deep
 
 # Abelian Ecosystem Tools
 
-### [Hashrate Profit Calculator](https://www.abelpool.io/en/calculator)
+### [Hashrate Profit Calculator](https://hashrate.no/coins/ABEL/calculator)
