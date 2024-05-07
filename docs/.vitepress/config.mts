@@ -37,8 +37,7 @@ export default defineConfig({
               { text: 'AbelPool (Community)', link: 'https://www.abelpool.io/' },
               { text: 'zkProvers (Community)', link: 'https://www.zkprovers.com/' }
             ]
-          },
-          { text: 'Explorer', link: 'https://explorer.abelian.info/' }
+          }
         ],
 
         sidebar: {
@@ -175,8 +174,7 @@ export default defineConfig({
               { text: 'AbelPool（社区）', link: 'https://www.abelpool.io/' },
               { text: 'zkProvers（社区）', link: 'https://www.zkprovers.com/' }
             ]
-          },
-          { text: '浏览器', link: 'https://explorer.abelian.info/' }
+          }
         ],
 
         sidebar: {

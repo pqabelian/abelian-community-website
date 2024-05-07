@@ -22,8 +22,8 @@ hero:
       text: Question/Correction
       link: https://github.com/pqabelian/abelian-community/issues/new
     - theme: alt
-      text: View on GitHub
-      link: https://github.com/pqabelian
+      text: News
+      link: https://pqabelian.medium.com/
 
 features:
   - title: Documents Correction/Submission
