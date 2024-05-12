@@ -25,7 +25,6 @@ export default defineConfig({
           { text: 'Downloads',
             items: [
               { text: 'Download for Abelian', link: 'https://foundation.abelian.info/en/downloads/' },
-              //{ text: 'Abelian Documents', link: '/downloads/documents/' },
               { text: 'Mainet Dababase', link: '/downloads/mainnet-db' },
               { text: 'Ecosystem Tools', link: '/downloads/ecosystem-tools' }
             ]
@@ -47,16 +46,9 @@ export default defineConfig({
               collapsed: false,
               items: [
                 { text: 'What is Abelian', link: '/guide/what-is-abelian'},
-                // { text: 'Introduction', 
-                  // collapsed: true,
-                  // items: [
-                    // { text: 'Post-Quantum Blockchain Safe', link: '/intro/post-quantum-blockchain-safe' },
-                    // { text: 'Abelian Core Team', link: '/intro/core-team' },
-                    // { text: 'Anti-Quantum Encryption', link: '/intro/anti-quantum-encryption' },
-                    // { text: 'Digital Gold 2.0', link: '/intro/digital-gold-2' }
-                  // ]
-                // },
                 { text: 'ABEL Tokenomics', link: '/guide/abel-tokenomics'},
+                { text: 'ABEL Whitepaper', link: '/guide/abel-whitepaper'},
+                { text: 'ABEL Yellowpaper', link: '/guide/abel-yellowpaper'},
                 { text: 'Getting Started', link: '/guide/getting-started'},
                 { text: 'Abelian Wallet',
                   collapsed: false,  
@@ -128,7 +120,6 @@ export default defineConfig({
               text: 'Downloads',
               collapsed: false,
               items: [
-                //{ text: 'Abelian Documents', link: '/downloads/abelian-documents'},
                 { text: 'Mainnet Database', link: '/downloads/mainnet-db'},
                 { text: 'Ecosystem Tools', link: '/downloads/ecosystem-tools' }
               ]
@@ -162,7 +153,6 @@ export default defineConfig({
           { text: '下载',
             items: [
               { text: 'Abelian 下载', link: 'https://foundation.abelian.info/cn/downloads/' },
-              //{ text: 'Abelian 文档', link: '/zh/downloads/documents/' },
               { text: 'Abelian 主网数据', link: '/zh/downloads/mainnet-db' },
               { text: 'Abelian 生态工具', link: '/zh/downloads/ecosystem-tools' }
             ]
@@ -184,16 +174,9 @@ export default defineConfig({
               collapsed: false,
               items: [
                 { text: 'Abelian 是什么', link: '/zh/guide/what-is-abelian'},
-                // { text: 'Abelian 介绍', 
-                  // collapsed: true,
-                  // items: [
-                    // { text: 'Post-Quantum Blockchain Safe', link: '/zh/intro/post-quantum-blockchain-safe' },
-                    // { text: 'Abelian Core Team', link: '/zh/intro/core-team' },
-                    // { text: 'Anti-Quantum Encryption', link: '/zh/intro/anti-quantum-encryption' },
-                    // { text: 'Digital Gold 2.0', link: '/zh/intro/digital-gold-2' }
-                  // ]
-                // },
                 { text: 'ABEL 经济学', link: '/zh/guide/abel-tokenomics'},
+                { text: 'ABEL 白皮书', link: '/zh/guide/abel-whitepaper'},
+                { text: 'ABEL 黄皮书', link: '/zh/guide/abel-yellowpaper'},
                 { text: '由此开始', link: '/zh/guide/getting-started'},
                 { text: 'Abelian 钱包',
                   collapsed: false,  
@@ -265,7 +248,6 @@ export default defineConfig({
               text: '下载',
               collapsed: false,
               items: [
-                //{ text: 'Abelian 文档', link: '/zh/downloads/abelian-documents'},
                 { text: '主网数据', link: '/zh/downloads/mainnet-db'},
                 { text: '生态工具', link: '/zh/downloads/ecosystem-tools' }
               ]
