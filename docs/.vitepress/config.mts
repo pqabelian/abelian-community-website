@@ -19,7 +19,7 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: 'Home', link: '/' },
-          { text: 'Get Started', link: '/guide/getting-started' },
+          { text: 'Getting Started', link: '/guide/getting-started' },
           { text: 'API/SDK', link: '/apis/core-api' },
           { text: 'FAQ', link: '/faq/' },
           { text: 'Downloads',
