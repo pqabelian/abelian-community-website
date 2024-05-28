@@ -1,3 +1,12 @@
+---
+title: ABEL 代币经济学
+description: ABEL 是 Abelian 主网原生代币的符号，在每个区块的创建过程中被挖掘出来。
+head:
+  - - meta
+    - name: keywords
+      content: Abelian Tokenomics, ABEL Tokenomics, ABEL代币经济学
+---
+
 # ABEL 代币经济学
 
 Abelian 区块链的主网于 2022 年 3 月启动。ABEL 是 Abelian 主网原生代币的符号，在每个区块的创建过程中被挖掘出来。
