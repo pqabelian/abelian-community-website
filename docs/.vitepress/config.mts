@@ -32,8 +32,8 @@ export default defineConfig({
           {
             text: 'Pools',
             items: [
+              { text: 'MaxPool (Official/Recommended)', link: 'https://maxpool.org/' },
               { text: 'Foundation (Official)', link: 'https://pool.abelian.info/' },
-              { text: 'MaxPool (Official)', link: 'https://maxpool.org/' },
               { text: 'AbelPool (Community)', link: 'https://www.abelpool.io/' },
               { text: 'zkProvers (Community)', link: 'https://www.zkprovers.com/' }
             ]
@@ -161,8 +161,8 @@ export default defineConfig({
           {
             text: '矿池',
             items: [
+              { text: 'MaxPool（官方/推荐）', link: 'https://maxpool.org/' },
               { text: 'Foundation（官方）', link: 'https://pool.abelian.info/' },
-              { text: 'MaxPool（官方）', link: 'https://maxpool.org/' },
               { text: 'AbelPool（社区）', link: 'https://www.abelpool.io/' },
               { text: 'zkProvers（社区）', link: 'https://www.zkprovers.com/' }
             ]

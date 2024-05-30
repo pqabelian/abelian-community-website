@@ -17,7 +17,7 @@ outline: deep
 ### <Badge type="warning" text="QUESTION" /> 如何在 HiveOS 上挖 ABEL？
 
 ::: info <Badge type="tip" text="ANSWER" />
-可以参考我们的[官方矿池网站](https://pool.abelian.info/)，包含有 Ubuntu/Debian/HiveOS 挖矿手册和助手脚本，具体中文视频教程可以访问我们的 [Youtube 频道](https://www.youtube.com/@AbelianFoundation)
+可以参考我们的[官方矿池网站](https://maxpool.org/home/guide#hiveos)，包含有 Ubuntu/Debian/HiveOS 挖矿手册和助手脚本，视频教程可以访问我们的 [Youtube 频道](https://www.youtube.com/@AbelianFoundation)
 :::
 
 ---

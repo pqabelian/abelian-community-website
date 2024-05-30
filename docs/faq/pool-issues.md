@@ -43,8 +43,8 @@ Verify the mining pool configuration file format to see if it's registered. If e
 ### <Badge type="warning" text="QUESTION" /> How to mine ABEL on HiveOS?
 
 ::: info <Badge type="tip" text="ANSWER" />
-You can view to our [official mining pool website](https://pool.abelian.info/), which includes Ubuntu/Debian/HiveOS mining manuals and helper scripts.
-For specific Chinese video tutorials, please visit our [YouTube channel](https://www.youtube.com/@AbelianFoundation).
+You can view to our [official mining pool website](https://maxpool.org/home/guide#hiveos), which includes Ubuntu/Debian/HiveOS mining manuals and helper scripts.
+For video tutorials, please visit our [YouTube channel](https://www.youtube.com/@AbelianFoundation).
 :::
 
 ---
