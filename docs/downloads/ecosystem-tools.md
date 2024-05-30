@@ -6,4 +6,6 @@ outline: deep
 
 ### [Abelian Blockchain Explorer](https://explorer.abelian.info/)
 
-### [Hashrate Profit Calculator](https://hashrate.no/coins/ABEL/calculator)
+### Hashrate Profit Calculator
+- [MaxPool(Official)](https://maxpool.org/home/hash-rate-calculator)
+- [HashRate](https://hashrate.no/coins/ABEL/calculator)
