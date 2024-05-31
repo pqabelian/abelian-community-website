@@ -26,3 +26,22 @@ Abec, Abewallet, ans cache. json, config. json, state.json
 
 4. Restart the system
 :::
+
+---
+
+### <Badge type="warning" text="QUESTION" /> The error log is: "Database corruption detected"
+```txt
+ABEC: Version 0.12.6
+ABEC: Loading block database from '/root/.abec/data/mainnet/blocks_ffldb'
+ABDB: ***Database corruption detected***: metadata claims file 37, offset 176759509, but witness data is at file 0, offset 0
+ABEC: metadata claims file 37, offset 176759509, but witness data is at file 0, offset 0
+ABEC: Shutdown complete
+```
+
+::: info <Badge type="tip" text="ANSWER" />
+That's mainnet database corruption. You need to delete the "/[user_home_dir]/.abec/data/mainnet" folder, and start the resync again.
+
+Or [View this page](/downloads/mainnet-db) and follow the steps to download the latest mainnet data, Then resync again.
+:::
+
+---

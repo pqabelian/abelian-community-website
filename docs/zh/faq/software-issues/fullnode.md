@@ -23,3 +23,22 @@ outline: deep
 
 4. 重新启动系统
 :::
+
+---
+
+### <Badge type="warning" text="QUESTION" /> 日志显示错误信息为："Database corruption detected"
+```txt
+ABEC: Version 0.12.6
+ABEC: Loading block database from '/root/.abec/data/mainnet/blocks_ffldb'
+ABDB: ***Database corruption detected***: metadata claims file 37, offset 176759509, but witness data is at file 0, offset 0
+ABEC: metadata claims file 37, offset 176759509, but witness data is at file 0, offset 0
+ABEC: Shutdown complete
+```
+
+::: info <Badge type="tip" text="ANSWER" />
+这是 mainnet 数据库损坏。您需要删除 "/[用户目录]/.abec/data/mainnet/blocks_ffldb" 文件夹，然后重新同步。
+
+请[查看此页面](/zh/downloads/mainnet-db)，按照步骤下载最新的主网数据，然后重新同步。
+:::
+
+---
