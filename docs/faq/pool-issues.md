@@ -4,7 +4,7 @@ outline: deep
 
 # Pools FAQ
 
-## Abelian Foundation Pool Issues
+## Abelian Official Pool Issues
 
 ### <Badge type="warning" text="QUESTION" /> The official pool website is unable to load the dashboard.
 
@@ -14,10 +14,12 @@ Please clear your browser cache and then reopen the mining pool website.
 
 ---
 
-### <Badge type="warning" text="QUESTION" /> Has one or more of the official 4 mining pools registered but cannot log in?
+### <Badge type="warning" text="QUESTION" /> Has one or more of the official mining pools registered but cannot log in?
 
 ::: info <Badge type="tip" text="ANSWER" />
-First, you need to ensure that you have already registered the 4 pools using a command, for example:
+First, you need to ensure that you have registered with a mining pool:
+
+**(Abelian Foundation Pool)**
 
 `.\abelminer -P stratums://RegisteringAccountAbelMine:<password>@gpool-service-alicia.abelian.info:27778`
 
@@ -28,6 +30,15 @@ After registration, the following 4 files are generated in the abelminer directo
 > pool-service-alicia.abelian.info.account<br>
 > pool-service-baker.abelian.info.account<br>
 
+**(MaxPool)**
+
+You can only register on the Maxpool website: [https://maxpool.org/auth/register](https://maxpool.org/auth/register)
+
+Note: After registration, you need to manually create a mining pool configuration file in the abelminer directory for it to work properly:
+
+> emily-service.abelian.info.abelmine.account<br>
+> fiona-service.abelian.info.abelmine.account<br>
+
 With the format: `<long wallet address>`+`<username>`, for example:
 
 ```text
@@ -35,7 +46,7 @@ address=0000xx……(42925 characters)
 username=……(64 characters)
 ```
 
-Verify the mining pool configuration file format to see if it's registered. If everything looks good but you still get a `"failed"` login error, register on the mining pool's website or use the provided command.
+If everything looks good but you still get a `"failed"` login error, Please use the provided command in the foundation pool or complete registration on the Maxpool website.
 :::
 
 ---

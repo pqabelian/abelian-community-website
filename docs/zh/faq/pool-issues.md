@@ -4,12 +4,49 @@ outline: deep
 
 # 矿池常见问题解答
 
-## Abelian 基金会矿池常见问题解答
+## Abelian 官方矿池常见问题解答
 
-### <Badge type="warning" text="QUESTION" /> 无法打开官方矿池网站控制台？
+### <Badge type="warning" text="QUESTION" /> 无法打开矿池网站控制台？
 
 ::: info <Badge type="tip" text="ANSWER" />
 请清除浏览器缓存，然后再重新打开网站。
+:::
+
+---
+
+### <Badge type="warning" text="QUESTION" /> 是否有一个或多个官方矿池已注册但无法登录？
+
+::: info <Badge type="tip" text="ANSWER" />
+首先，您需要确保已经使用注册了矿池：
+
+**(Abelian 基金会矿池)**
+
+`.\abelminer -P stratums://RegisteringAccountAbelMine:<password>@gpool-service-alicia.abelian.info:27778`
+
+注册后，abelminer 目录中会生成以下 4 个文件：
+
+> gpool-service-charlie.abelian.info.account<br>
+> gpool-service-dior.abelian.info.account<br>
+> pool-service-alicia.abelian.info.account<br>
+> pool-service-baker.abelian.info.account<br>
+
+**(MaxPool)**
+
+您只能在 Maxpool 网站上注册： [https://maxpool.org/auth/register](https://maxpool.org/auth/register)
+
+注意：注册后，您需要在 abelminer 目录中手动创建矿池配置文件才能正常工作：
+
+> emily-service.abelian.info.abelmine.account<br>
+> fiona-service.abelian.info.abelmine.account<br>
+
+内容的格式为：`<长钱包地址>`+`<用户名>`，例如：
+
+```text
+address=0000xx……(42925 characters)
+username=……(64 characters)
+```
+
+如果一切看起来都正常但仍然收到 `失败` 的登录错误，请在基金会矿池使用提供的命令或在 Maxpool 网站完成注册。
 :::
 
 ---
