@@ -64,8 +64,8 @@ export default defineConfig({
                 { text: 'Pool Mining',
                   collapsed: false, 
                   items: [
-                    { text: 'Join GPU Pool', link: '/guide/mining/gpu-pool' },
-                    { text: 'Join CPU Pool', link: '/guide/mining/cpu-pool' }
+                    { text: 'Join GPU Pool', link: '/guide/mining/gpu-pool' }
+                    //{ text: 'Join CPU Pool', link: '/guide/mining/cpu-pool' }
                   ]
                 }
               ]
@@ -193,8 +193,8 @@ export default defineConfig({
                 { text: '矿池指南',
                   collapsed: false, 
                   items: [
-                    { text: '加入显卡矿池', link: '/zh/guide/mining/gpu-pool' },
-                    { text: '加入CPU矿池', link: '/zh/guide/mining/cpu-pool' }
+                    { text: '加入显卡矿池', link: '/zh/guide/mining/gpu-pool' }
+                    //{ text: '加入CPU矿池', link: '/zh/guide/mining/cpu-pool' }
                   ]
                 }
               ]
