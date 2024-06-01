@@ -34,7 +34,7 @@ After registration, the following 4 files are generated in the abelminer directo
 
 You can only register on the Maxpool website: [https://maxpool.org/auth/register](https://maxpool.org/auth/register)
 
-Note: After registration, you need to manually create a mining pool configuration file in the abelminer directory for it to work properly:
+Note: After registration, If you are not use the abelminingscript.sh script for mining, You also need to manually create a mining pool configuration file in the abelminer directory for it to work properly:
 
 > emily-service.abelian.info.abelmine.account<br>
 > fiona-service.abelian.info.abelmine.account<br>

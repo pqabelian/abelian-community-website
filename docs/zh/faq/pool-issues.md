@@ -34,7 +34,7 @@ outline: deep
 
 您只能在 Maxpool 网站上注册： [https://maxpool.org/auth/register](https://maxpool.org/auth/register)
 
-注意：注册后，您需要在 abelminer 目录中手动创建矿池配置文件才能正常工作：
+注意：注册后，如果没有使用 abelminingscript.sh 脚本进行挖矿，您需要在 abelminer 目录中手动创建矿池配置文件才能正常工作：
 
 > emily-service.abelian.info.abelmine.account<br>
 > fiona-service.abelian.info.abelmine.account<br>
