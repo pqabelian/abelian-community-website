@@ -61,6 +61,8 @@ Failed calling RPC: serviceGroup=abewallet, accountName=brac, networkName=mainne
 
 ::: info <Badge type="tip" text="ANSWER" />
 因为重新导入钱包账号时没有填写正确的地址数导致余额为零，请在导入时填写大于交易次数的数值，如果不清楚交易次数，请填写一个比较大的数值。（例如：100）
+
+注意：余额只有在切换钱包中的标签时才会更新。
 :::
 
 ---
