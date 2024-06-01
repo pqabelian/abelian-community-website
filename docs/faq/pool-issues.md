@@ -14,7 +14,7 @@ Please clear your browser cache and then reopen the mining pool website.
 
 ---
 
-### <Badge type="warning" text="QUESTION" /> Has one or more of the official mining pools registered but cannot log in?
+### <Badge type="warning" text="QUESTION" /> Has one or more of the official mining pools registered but cannot log in or work?
 
 ::: info <Badge type="tip" text="ANSWER" />
 First, you need to ensure that you have registered with a mining pool:

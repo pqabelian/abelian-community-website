@@ -14,7 +14,7 @@ outline: deep
 
 ---
 
-### <Badge type="warning" text="QUESTION" /> 是否有一个或多个官方矿池已注册但无法登录？
+### <Badge type="warning" text="QUESTION" /> 是否有一个或多个官方矿池已注册但无法登录或工作？
 
 ::: info <Badge type="tip" text="ANSWER" />
 首先，您需要确保已经使用注册了矿池：
