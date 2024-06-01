@@ -9,6 +9,8 @@ head:
 
 # ABEL Tokenomics
 
+## ABEL Tokenomics
+
 The Mainnet of Abelian Blockchain was launched in March 2022. ABEL is the symbol of the native token of the Abelian Mainnet,
 and is mined during the creation of each block.
 
