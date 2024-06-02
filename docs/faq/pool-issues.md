@@ -51,15 +51,6 @@ If everything looks good but you still get a `"failed"` login error, Please use 
 
 ---
 
-### <Badge type="warning" text="QUESTION" /> How to mine ABEL on HiveOS?
-
-::: info <Badge type="tip" text="ANSWER" />
-You can view to our [official mining pool website](https://maxpool.org/home/guide#hiveos), which includes Ubuntu/Debian/HiveOS mining manuals and helper scripts.
-For video tutorials, please visit our [YouTube channel](https://www.youtube.com/@AbelianFoundation).
-:::
-
----
-
 ### <Badge type="warning" text="QUESTION" /> I am registered to all 4 official pools. but unable sign in to some of the pools on dashboard.
 
 ::: info <Badge type="tip" text="ANSWER" />

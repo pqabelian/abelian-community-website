@@ -51,14 +51,6 @@ username=……(64 characters)
 
 ---
 
-### <Badge type="warning" text="QUESTION" /> 如何在 HiveOS 上挖 ABEL？
-
-::: info <Badge type="tip" text="ANSWER" />
-可以参考我们的[官方矿池网站](https://maxpool.org/home/guide#hiveos)，包含有 Ubuntu/Debian/HiveOS 挖矿手册和助手脚本，视频教程可以访问我们的 [Youtube 频道](https://www.youtube.com/@AbelianFoundation)
-:::
-
----
-
 ### <Badge type="warning" text="QUESTION" /> 我注册了所有官方 4 个矿池，但在矿池面板无法登录其中部分矿池
 
 ::: info <Badge type="tip" text="ANSWER" />

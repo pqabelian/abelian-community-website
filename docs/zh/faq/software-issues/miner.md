@@ -38,3 +38,11 @@ This device hasn't enough memory available. Mining suspended.
 
 更详细的解释请参看 [AMD 显卡相关问题](/faq/hardware-issues/amd) 或 [NVIDIA 显卡相关问题](/faq/hardware-issues/nvidia)。
 :::
+
+---
+
+### <Badge type="warning" text="QUESTION" /> 如何在 HiveOS 上挖 ABEL？
+
+::: info <Badge type="tip" text="ANSWER" />
+可以参考我们的[官方矿池网站](https://maxpool.org/home/guide#hiveos)，包含有 Ubuntu/Debian/HiveOS 挖矿手册和助手脚本，视频教程可以访问我们的 [Youtube 频道](https://www.youtube.com/@AbelianFoundation)
+:::
