@@ -16,7 +16,7 @@ POST
 | :----------- | :--------------- |
 | Content-Type | application/json |
 
-- Request Body
+- 请求内容
 
 | Key          | Type   | Require | Describe     |
 | :----------- | :----- | :------ | :----------- |
