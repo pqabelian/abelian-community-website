@@ -55,10 +55,12 @@ SSE4 and AVX2 extensions are required on you CPU. If you're using vms makes sure
 
 ---
 
-### <Badge type="warning" text="QUESTION" /> Why is the balance of the desktop wallet zero?
+### <Badge type="warning" text="QUESTION" /> Why is the balance in my desktop wallet incorrect (or showing as zero)?
 
 ::: info <Badge type="tip" text="ANSWER" />
-Because the correct address count was not entered when re-importing the wallet account, resulting in a zero balance, please enter a number greater than the transaction count during import. If you are unsure of the transaction count, please enter a relatively large number (e.g., 100).
+Because the correct address count was not entered when re-importing the wallet account, This results in the balance being incorrect (or showing as zero).
+
+Please enter a number greater than the transaction count during import. If you are unsure of the transaction count, please enter a relatively large number (e.g., 100).
 
 Note: Balance only updates when switching tabs in that wallet.
 :::
