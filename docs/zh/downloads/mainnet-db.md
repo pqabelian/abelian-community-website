@@ -18,8 +18,8 @@ C:\Users\<USER_NAME>\AppData\Roaming\Abelian Wallet\Abec\mainnet
 :::
 
 ## Mainnet 数据包下载地址
-* [Mega](https://mega.nz/folder/gydxkZgS#GNDGHyBlGOJzo_G27b9V9w)（07/05/2024）
-* [Terabox](https://teraboxapp.com/s/1Dge3NT_4zoLMteg8IXygqw)（07/05/2024）
+* [Mega](https://mega.nz/folder/gydxkZgS#GNDGHyBlGOJzo_G27b9V9w)（2024年6月3日）
+* [Terabox](https://teraboxapp.com/s/1Dge3NT_4zoLMteg8IXygqw)（2024年6月3日）
 
 文件列表：（共12个分卷zip压缩包）
 > mainnet.zip.001
