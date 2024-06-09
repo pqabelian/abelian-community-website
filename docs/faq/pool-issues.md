@@ -21,7 +21,7 @@ First, you need to ensure that you have registered with a mining pool:
 
 **(Abelian Foundation Pool)**
 
-`.\abelminer -P stratums://RegisteringAccountAbelMine:<password>@gpool-service-alicia.abelian.info:27778`
+`.\abelminer -P stratums://RegisteringAccountAbelMine:<password>@gpool-service-alicia.abelian.info:27778 -P stratums://RegisteringAccountAbelMine:<password>@gpool-service-dior.abelian.info:27778 -P stratums://RegisteringAccountAbelMine:<password>@pool-service-alicia.abelian.info:27778 -P stratums://RegisteringAccountAbelMine:<password>@pool-service-baker.abelian.info:27778`
 
 After registration, the following 4 files are generated in the abelminer directory:
 
@@ -30,15 +30,6 @@ After registration, the following 4 files are generated in the abelminer directo
 > pool-service-alicia.abelian.info.account<br>
 > pool-service-baker.abelian.info.account<br>
 
-**(MaxPool)**
-
-You can only register on the Maxpool website: [https://maxpool.org/auth/register](https://maxpool.org/auth/register)
-
-Note: After registration, If you are not use the abelminingscript.sh script for mining, You also need to manually create a mining pool configuration file in the abelminer directory for it to work properly:
-
-> emily-service.abelian.info.abelmine.account<br>
-> fiona-service.abelian.info.abelmine.account<br>
-
 With the format: `<long wallet address>`+`<username>`, for example:
 
 ```text
@@ -46,7 +37,16 @@ address=0000xx……(42925 characters)
 username=……(64 characters)
 ```
 
-If everything looks good but you still get a `"failed"` login error, Please use the provided command in the foundation pool or complete registration on the Maxpool website.
+**(MaxPool)**
+
+You can only register on the Maxpool website: [https://maxpool.org/auth/register](https://maxpool.org/auth/register)
+
+Note: After registration, If you are not use the abelminingscript.sh script for mining, Please remember the username and password in the user panel. The mining commands for Maxpool's two mining pools are:
+
+> emily-service.abelian.info.abelmine.account<br>
+> fiona-service.abelian.info.abelmine.account<br>
+
+If everything looks good but you still get a `"failed"` login error, Please use the provided user manual document in the Foundation Pools or complete registration on the Maxpool website and read the 'Quickstart Guide' section.
 :::
 
 ---
