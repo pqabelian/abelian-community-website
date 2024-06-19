@@ -77,3 +77,13 @@ curl --location 'https://pool-alicia.abelian.info/v1/pool/signin' \
 }'
 ```
 :::
+
+---
+
+### <Badge type="warning" text="QUESTION" /> Unable to log in to the original Abelian Foundation pool (pool.abelian.info)?
+
+::: info <Badge type="tip" text="ANSWER" />
+原 Abelian 基金会矿池 (pool.abelian.info) 当前仍然可以使用，但网址已经变更为：https://legacy.maxpool.org/home，请老矿工使用该网址访问。强烈推荐在硬分叉完成之前迁移到新的 Maxpool 矿池！！！
+:::
+
+---

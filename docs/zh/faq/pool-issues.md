@@ -77,3 +77,13 @@ curl --location 'https://pool-alicia.abelian.info/v1/pool/signin' \
 }'
 ```
 :::
+
+---
+
+### <Badge type="warning" text="QUESTION" /> 原 Abelian 基金会矿池 (pool.abelian.info) 无法登录？
+
+::: info <Badge type="tip" text="ANSWER" />
+The original Abelian Foundation mining pool (pool.abelian.info) is still available, but the URL has changed to: https://legacy.maxpool.org/home. Please use this URL for access. It is strongly recommended to migrate to the new Maxpool mining pool before the hard fork is completed!!!
+:::
+
+---
