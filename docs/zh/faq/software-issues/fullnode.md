@@ -4,7 +4,7 @@ outline: deep
 
 # Abelian 全节点常见问题解答
 
-## ABEC 相关问题
+## 全节点（ABEC）相关问题
 
 ### <Badge type="warning" text="QUESTION" /> 如何将 mainnet 数据移至另一个位置？
 
@@ -39,6 +39,14 @@ ABEC: Shutdown complete
 这是 mainnet 数据库损坏。您需要删除 "/[用户目录]/.abec/data/mainnet/blocks_ffldb" 文件夹，然后重新同步。
 
 请[查看此页面](/zh/downloads/mainnet-db)，按照步骤下载最新的主网数据，然后重新同步。
+:::
+
+---
+
+### <Badge type="warning" text="QUESTION" /> 运行全节点（ABEC）有什么硬件要求？
+
+::: info <Badge type="tip" text="ANSWER" />
+全节点（ABEC）目前发布了几乎所有常用硬件平台的版本，硬件要求也没有太多限制，但同步和读取主网数据速度和存储空间大小有最低要求，储存空间不小于150GB，推荐使用 240G 的固态硬盘。
 :::
 
 ---

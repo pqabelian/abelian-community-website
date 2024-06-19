@@ -45,3 +45,11 @@ Or [View this page](/downloads/mainnet-db) and follow the steps to download the 
 :::
 
 ---
+
+### <Badge type="warning" text="QUESTION" /> What are the hardware requirements for running a full node (ABEC)?
+
+::: info <Badge type="tip" text="ANSWER" />
+Full nodes (ABEC) have currently released versions for almost all commonly used hardware platforms, with minimal hardware requirements. However, there are minimum requirements for the speed of synchronizing and reading mainnet data as well as storage space size. The storage space should be no less than 150GB, and it is recommended to use a 240GB solid-state drive.
+:::
+
+---

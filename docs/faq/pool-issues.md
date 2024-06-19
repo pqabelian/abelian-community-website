@@ -43,8 +43,10 @@ You can only register on the Maxpool website: [https://maxpool.org/auth/register
 
 Note: After registration, If you are not use the abelminingscript.sh script for mining, Please remember the username and password in the user panel. The mining commands for Maxpool's two mining pools are:
 
-> emily-service.abelian.info.abelmine.account<br>
-> fiona-service.abelian.info.abelmine.account<br>
+```shell
+./abelminer -P stratums://<username>:<password>@emily-service.abelian.info:27778
+./abelminer -P stratums://<username>:<password>@fiona-service.abelian.info:27778
+```
 
 If everything looks good but you still get a `"failed"` login error, Please use the provided user manual document in the Foundation Pools or complete registration on the Maxpool website and read the 'Quickstart Guide' section.
 :::

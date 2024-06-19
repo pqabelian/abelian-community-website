@@ -43,8 +43,10 @@ username=……(64 characters)
 
 注意：注册后，如果没有使用 abelminingscript.sh 脚本进行挖矿，请记住用户面板中的用户名和密码，Maxpool 的两个矿池的挖矿命令为：
 
-> ./abelminer -P stratums://<用户名>:<密码>@emily-service.abelian.info:27778<br>
-> ./abelminer -P stratums://<用户名>:<密码>@fiona-service.abelian.info:27778<br>
+```shell
+./abelminer -P stratums://<用户名>:<密码>@emily-service.abelian.info:27778
+./abelminer -P stratums://<用户名>:<密码>@fiona-service.abelian.info:27778
+```
 
 如果一切看起来都正常但仍然收到 `失败` 的登录错误，请在基金会矿池使用提供的用户手册文档或在 Maxpool 网站完成注册并阅读用户快速指引部分。
 :::
