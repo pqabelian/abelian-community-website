@@ -21,7 +21,7 @@ C:\Users\<USER_NAME>\AppData\Roaming\Abelian Wallet\Abec\mainnet
 * [Mega](https://mega.nz/folder/gydxkZgS#GNDGHyBlGOJzo_G27b9V9w) (June 4, 2024)
 * [Terabox](https://teraboxapp.com/s/1Dge3NT_4zoLMteg8IXygqw) (June 4, 2024)
 
-Files list:（A total of 12 zip archives）
+Files list:（A total of 13 zip archives）
 > mainnet.zip.001
 >
 > mainnet.zip.002
