@@ -81,6 +81,18 @@ Failed calling RPC: serviceGroup=abewallet, accountName=brac, networkName=mainne
 
 ---
 
+### <Badge type="warning" text="QUESTION" /> 移动钱包 Pro 更新后底部导航栏消失，切换钱包帐号的列表是空的
+
+::: info <Badge type="tip" text="ANSWER" />
+如果更新移动钱包 Pro 后，发现导航栏不见了，并且无法切换账户（因为 bug 导致即使有账户也无法显示），可以进行以下操作：
+
+1. 先备份当前账户私钥；
+2. 然后创建一个新账户，这时列表中只剩下新账户，但这个时候底部导航栏会显示出来；
+3. 再点击底部导航栏 “设置 -> 网络” 切换到 “Testnet” 再切换回 “Mainnet” 就可以显示钱包帐户列表了。
+:::
+
+---
+
 ## 钱包其他问题
 
 ### <Badge type="warning" text="QUESTION" /> 如何获取钱包长地址？（用于 ABEL m挖矿）

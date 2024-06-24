@@ -9,5 +9,3 @@
     - [NVIDIA graphics card](/faq/hardware-issues/nvidia)
 - [**Pool Issues**](/faq/pool-issues)
 - [**Basic Tutorial**](/faq/basic-tutorial/)
-- [**Advanced Tutorial**](/faq/advanced-tutorial/)
-- [**Community Highlights**](/faq/community/)

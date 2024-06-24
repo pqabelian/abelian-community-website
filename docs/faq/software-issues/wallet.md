@@ -79,6 +79,18 @@ Recommended solution: Transfer the balance from the desktop wallet to the mobile
 
 ---
 
+### <Badge type="warning" text="QUESTION" /> After updated Mobile Wallet Pro, the bottom navigation bar is gone and the wallet switch list is empty.
+
+::: info <Badge type="tip" text="ANSWER" />
+If you find that the navigation bar is missing and you can't switch accounts after updating Mobile Wallet Pro (due to a bug causing accounts not to display), you can follow these steps:
+
+1. Backup your current account's private key;
+2. Create a new account. At this point, the list will only show the new account, but the bottom navigation bar will appear;
+3. Click on the bottom navigation bar and go to "Settings -> Network," switch to "Testnet," and then switch back to "Mainnet." This should display the wallet account list again.
+:::
+
+---
+
 ## For Other Wallet Issues
 
 ### <Badge type="warning" text="QUESTION" /> How to get the long address of the wallet (for ABEL mining)?

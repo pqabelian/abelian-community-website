@@ -93,8 +93,8 @@ export default defineConfig({
                 },
                 { text: 'Pool Issues', link: '/faq/pool-issues' },
                 { text: 'Basic Tutorial', link: '/faq/basic-tutorial/' },
-                { text: 'Advanced Tutorial', link: '/faq/advanced-tutorial/' },
-                { text: 'Community Highlights', link: '/faq/community/' }
+                //{ text: 'Advanced Tutorial', link: '/faq/advanced-tutorial/' },
+                //{ text: 'Community Highlights', link: '/faq/community/' }
               ]
             }
           ],
@@ -222,8 +222,8 @@ export default defineConfig({
                 },
                 { text: '矿池问题', link: '/zh/faq/pool-issues' },
                 { text: '基础教程', link: '/zh/faq/basic-tutorial/' },
-                { text: '进阶教程', link: '/zh/faq/advanced-tutorial/' },
-                { text: '社区精选', link: '/zh/faq/community/' }
+                //{ text: '进阶教程', link: '/zh/faq/advanced-tutorial/' },
+                //{ text: '社区精选', link: '/zh/faq/community/' }
               ]
             }
           ],
