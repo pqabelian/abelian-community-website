@@ -67,6 +67,16 @@ Note: Balance only updates when switching tabs in that wallet.
 
 ---
 
+### <Badge type="warning" text="QUESTION" /> How to solve the issue of the Windows version Desktop Wallet not running (abec and abelwallet programs do not exist, no logs)?
+
+::: info <Badge type="tip" text="ANSWER" />
+The program files (abec.exe, abelwallet.exe) maybe mistakenly identified as a virus by 'Windows Defender'.
+
+After installation, please go to 'Windows Security -> Virus & threat protection -> Protection history' to 'Allow' this threat. It is recommended to add the installation directory path in 'Virus & threat protection settings -> Exclusions -> Add or remove exclusions'.
+:::
+
+---
+
 ## Mobile Wallet (Pro) Issues
 
 ### <Badge type="warning" text="QUESTION" /> Why is the balance zero or why doesn't the balance match after importing an account with a mnemonic phrase in Mobile Wallet Pro?
