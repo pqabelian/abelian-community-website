@@ -69,7 +69,7 @@ Failed calling RPC: serviceGroup=abewallet, accountName=brac, networkName=mainne
 
 ---
 
-### <Badge type="warning" text="QUESTION" /> Windows 版本的桌面钱包无法运行（abec 和 abelwallet 程序不存在，没有日志）如何解决？
+### <Badge type="warning" text="QUESTION" /> Windows 版本的桌面钱包无法运行（abec 和 abelwallet 程序不存在，或者运行它们没有日志）如何解决？
 
 ::: info <Badge type="tip" text="ANSWER" />
 桌面钱包程序（abec.exe 和 abelwallet.exe）会被 Windows Defender 当作病毒误杀，请在安装完成之后，在 “Windows 安全中心 -> 病毒和威胁防护 -> 保护历史记录“ 中 “允许” 提示的威胁。

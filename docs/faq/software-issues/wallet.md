@@ -67,7 +67,7 @@ Note: Balance only updates when switching tabs in that wallet.
 
 ---
 
-### <Badge type="warning" text="QUESTION" /> How to solve the issue of the Windows version Desktop Wallet not running (abec and abelwallet programs do not exist, no logs)?
+### <Badge type="warning" text="QUESTION" /> How to resolve the issue of the Windows version desktop wallet not running (abec and abelwallet programs do not exist, or there are no logs when running them)?
 
 ::: info <Badge type="tip" text="ANSWER" />
 The program files (abec.exe, abelwallet.exe) maybe mistakenly identified as a virus by 'Windows Defender'.
