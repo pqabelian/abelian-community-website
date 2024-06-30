@@ -92,6 +92,8 @@ Recommended solution: Transfer the balance from the desktop wallet to the mobile
 ### <Badge type="warning" text="QUESTION" /> After updated Mobile Wallet Pro, the bottom navigation bar is gone and the wallet switch list is empty.
 
 ::: info <Badge type="tip" text="ANSWER" />
+This issue occurs in version v1.0.5. If the problem persists in later versions, you can refer to the following solution.
+
 If you find that the navigation bar is missing and you can't switch accounts after updating Mobile Wallet Pro (due to a bug causing accounts not to display), you can follow these steps:
 
 1. Backup your current account's private key;

@@ -94,6 +94,8 @@ Failed calling RPC: serviceGroup=abewallet, accountName=brac, networkName=mainne
 ### <Badge type="warning" text="QUESTION" /> 移动钱包 Pro 更新后底部导航栏消失，切换钱包帐号的列表是空的
 
 ::: info <Badge type="tip" text="ANSWER" />
+此问题发生在 v1.0.5 版本，如果此后的版本仍有此问题，可以参考下面的解决方法。
+
 如果更新移动钱包 Pro 后，发现导航栏不见了，并且无法切换账户（因为 bug 导致即使有账户也无法显示），可以进行以下操作：
 
 1. 先备份当前账户私钥；
