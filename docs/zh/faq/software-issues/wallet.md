@@ -123,7 +123,7 @@ Abec、Abewallet、ans-cache.json、config.json、state.json
 
 ## 钱包其他问题
 
-### <Badge type="warning" text="QUESTION" /> 如何获取钱包长地址？（用于 ABEL m挖矿）
+### <Badge type="warning" text="QUESTION" /> 如何获取钱包长地址？（用于 ABEL 挖矿）
 
 ::: info <Badge type="tip" text="ANSWER" />
 移动钱包点右上角三点会弹出菜单，选择 **导出长地址**。
