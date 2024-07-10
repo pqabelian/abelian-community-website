@@ -86,7 +86,7 @@ Follow these steps to change the storage location of desktop wallet data directo
 2. System Properties --> Advanced --> Environment Variables --> Add a new user environment variable:
     - Variable name: ABELWALLET_HOME
     - Variable value: (Enter the full path of a folder)
-3. Move the following files from C:\Users\<USERNAME>\AppData\Roaming\Abelian Wallet to the new path:
+3. Move the following files from `C:\Users\<USERNAME>\AppData\Roaming\Abelian Wallet` to the new path:
 Abec, Abewallet, ans-cache.json, config.json, state.json
 1. Restart your system and then run the desktop wallet again.
 :::

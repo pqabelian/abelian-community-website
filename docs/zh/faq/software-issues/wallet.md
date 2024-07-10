@@ -88,7 +88,7 @@ Failed calling RPC: serviceGroup=abewallet, accountName=brac, networkName=mainne
 2. 系统属性 --> 高级 --> 环境变量 --> 新增用户环境变量：
     - 变量名: ABELWALLET_HOME
     - 变量值: (输入某个文件夹的完整路径)
-3. 将C:\Users\<USERNAME>\AppData\Roaming\Abelian Wallet路径下的以下文件移动到新路径
+3. 将 `C:\Users\<USERNAME>\AppData\Roaming\Abelian Wallet` 路径下的以下文件移动到新路径：
 Abec、Abewallet、ans-cache.json、config.json、state.json
 4. 重启系统再运行桌面钱包
 :::
