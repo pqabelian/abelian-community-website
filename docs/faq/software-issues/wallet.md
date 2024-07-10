@@ -77,6 +77,22 @@ After installation, please go to 'Windows Security -> Virus & threat protection 
 
 ---
 
+### <Badge type="warning" text="QUESTION" /> Can the data directory for the Windows desktop wallet be changed?
+
+::: info <Badge type="tip" text="ANSWER" />
+Follow these steps to change the storage location of desktop wallet data directory:
+
+1. Close the desktop wallet.
+2. System Properties --> Advanced --> Environment Variables --> Add a new user environment variable:
+    - Variable name: ABELWALLET_HOME
+    - Variable value: (Enter the full path of a folder)
+3. Move the following files from C:\Users\<USERNAME>\AppData\Roaming\Abelian Wallet to the new path:
+Abec, Abewallet, ans-cache.json, config.json, state.json
+1. Restart your system and then run the desktop wallet again.
+:::
+
+---
+
 ## Mobile Wallet (Pro) Issues
 
 ### <Badge type="warning" text="QUESTION" /> Why is the balance zero or why doesn't the balance match after importing an account with a mnemonic phrase in Mobile Wallet Pro?

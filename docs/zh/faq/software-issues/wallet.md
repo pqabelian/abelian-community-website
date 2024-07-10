@@ -79,6 +79,22 @@ Failed calling RPC: serviceGroup=abewallet, accountName=brac, networkName=mainne
 
 ---
 
+### <Badge type="warning" text="QUESTION" /> Windows 版本的桌面钱包能否修改数据目录到其他位置？
+
+::: info <Badge type="tip" text="ANSWER" />
+按照下面的步骤修改桌面钱包数据的存储位置：
+
+1. 关闭桌面钱包
+2. 系统属性 --> 高级 --> 环境变量 --> 新增用户环境变量：
+    - 变量名: ABELWALLET_HOME
+    - 变量值: (输入某个文件夹的完整路径)
+3. 将C:\Users\<USERNAME>\AppData\Roaming\Abelian Wallet路径下的以下文件移动到新路径
+Abec、Abewallet、ans-cache.json、config.json、state.json
+4. 重启系统再运行桌面钱包
+:::
+
+---
+
 ## 移动钱包(Pro) 相关问题
 
 ### <Badge type="warning" text="QUESTION" /> 移动钱包 Pro 通过助记词导入账户后余额为零或者余额数字不对
