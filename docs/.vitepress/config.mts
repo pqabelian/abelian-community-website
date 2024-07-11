@@ -15,7 +15,8 @@ export default defineConfig({
       label: 'English',
       lang: 'en',
       title: "Abelian-Community-FAQ",
-      description: "Abelian-Community-FAQ is committed to integrating mining tutorials and Q&A for the Abelian Community Document repository.",
+      description: "Abelian is a quantum resistant blockchain ecosystem with layer 1 being GPU-based POW and layer 2 being EVM-compatible. Abelian-Community-FAQ is committed to integrating mining tutorials and Q&A for the Abelian Community Document repository.",
+      keywords: ['quantum resistant blockchain', 'post quantum', 'quantum resistant', 'quantum safe', 'privacy coin', 'zero knowledge', 'EVM compatible', 'QDAY', 'Abelian', 'Abelian Foundation', 'ABEL'],
       themeConfig: {
         nav: [
           { text: 'Home', link: '/' },
@@ -50,6 +51,7 @@ export default defineConfig({
                 { text: 'ABEL Tokenomics', link: '/guide/abel-tokenomics'},
                 { text: 'ABEL Whitepaper', link: '/guide/abel-whitepaper'},
                 { text: 'ABEL Yellowpaper', link: '/guide/abel-yellowpaper'},
+                { text: 'ABEL DSA Whitepaper', link: '/guide/abel-dsa-whitepaper'},
                 { text: 'Getting Started', link: '/guide/getting-started'},
                 { text: 'Abelian Wallet',
                   collapsed: false,  
@@ -179,6 +181,7 @@ export default defineConfig({
                 { text: 'ABEL 经济学', link: '/zh/guide/abel-tokenomics'},
                 { text: 'ABEL 白皮书', link: '/zh/guide/abel-whitepaper'},
                 { text: 'ABEL 黄皮书', link: '/zh/guide/abel-yellowpaper'},
+                { text: 'ABEL 难度调整白皮书', link: '/zh/guide/abel-dsa-whitepaper'},
                 { text: '由此开始', link: '/zh/guide/getting-started'},
                 { text: 'Abelian 钱包',
                   collapsed: false,  

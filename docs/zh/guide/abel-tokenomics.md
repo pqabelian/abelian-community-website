@@ -4,7 +4,7 @@ description: ABEL 是 Abelian 主网原生代币的符号，在每个区块的�
 head:
   - - meta
     - name: keywords
-      content: Abelian Tokenomics, ABEL Tokenomics, ABEL代币经济学
+      content: Abelian Tokenomics, ABEL Tokenomics, ABEL 代币经济学, quantum resistant blockchain, 抗量子区块链, 后量子时代, 抗量子技术, 量子安全
 ---
 
 # ABEL 代币经济学

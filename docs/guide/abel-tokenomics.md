@@ -4,7 +4,7 @@ description: ABEL is the symbol of the native token of the Abelian Mainnet, and 
 head:
   - - meta
     - name: keywords
-      content: Abelian Tokenomics, ABEL Tokenomics
+      content: Abelian Tokenomics, ABEL Tokenomics, quantum resistant blockchain, post quantum, quantum resistant, quantum safe
 ---
 
 # ABEL Tokenomics
