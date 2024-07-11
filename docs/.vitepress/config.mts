@@ -147,6 +147,8 @@ export default defineConfig({
       link: '/zh/',
       title: "Abelian 知识社区",
       description: "Abelian 知识社区 - 致力于为 Abelian 区块链集文档库、问答、教程和用户经验分享为一体的综合型社区。",
+      description: "Abelian 是一个抗量子计算的区块链生态系统，Layer 1 基于 GPU 的 POW，Layer 2 兼容 EVM。 Abelian-Community-FAQ is committed to integrating mining tutorials and Q&A for the Abelian Community Document repository.",
+      keywords: ['quantum resistant blockchain', 'post quantum', 'quantum resistant', 'quantum safe', 'privacy coin', 'zero knowledge', 'EVM compatible', 'QDAY', 'Abelian', 'Abelian Foundation', 'ABEL'],
       themeConfig: {
         nav: [
           { text: '首页', link: '/zh/' },
