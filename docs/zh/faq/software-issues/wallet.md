@@ -99,6 +99,28 @@ Failed calling RPC: serviceGroup=abewallet, accountName=brac, networkName=mainne
 
 ---
 
+### <Badge type="warning" text="QUESTION" /> 为什么桌面钱包升级后 abec 和 abewallet 还是旧版本？
+
+::: info <Badge type="tip" text="ANSWER" />
+这是桌面钱包的一个历史bug，将会在 4.1.0 版本修复。
+
+临时解决方法：
+
+- 请先删除下面的目录：
+```
+# Windows:
+C:\Users\<USERNAME>\AppData\Roaming\Abelian Wallet\dist
+# Linux:
+~/.config/Abelian Wallet/dist
+# macOS:
+~/Library/Application Support/Abelian Wallet/dist
+```
+
+- 再重新安装新版本的桌面钱包。
+:::
+
+---
+
 ## 移动钱包(Pro) 相关问题
 
 ### <Badge type="warning" text="QUESTION" /> 移动钱包 Pro 通过助记词导入账户后余额为零或者余额数字不对

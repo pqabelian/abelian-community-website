@@ -97,6 +97,29 @@ Follow these steps to change the storage location of desktop wallet data directo
 
 ---
 
+### <Badge type="warning" text="QUESTION" /> Why are abec and abewallet still the old versions after the desktop wallet upgrade?
+
+::: info <Badge type="tip" text="ANSWER" />
+This is a historical bug in the desktop wallet, which will be fixed in version 4.1.0.
+
+**Temporary solution:**
+
+- Please delete the following directory first:
+
+```
+# Windows:
+C:\Users\<USERNAME>\AppData\Roaming\Abelian Wallet\dist
+# Linux:
+~/.config/Abelian Wallet/dist
+# macOS:
+~/Library/Application Support/Abelian Wallet/dist
+```
+
+- Reinstall the new version of the desktop wallet.
+:::
+
+---
+
 ## Mobile Wallet (Pro) Issues
 
 ### <Badge type="warning" text="QUESTION" /> Why is the balance zero or why doesn't the balance match after importing an account with a mnemonic phrase in Mobile Wallet Pro?
