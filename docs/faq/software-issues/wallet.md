@@ -112,7 +112,7 @@ C:\Users\<USERNAME>\AppData\Roaming\Abelian Wallet\dist
 # Linux:
 ~/.config/Abelian Wallet/dist
 # macOS:
-~/Library/Application Support/Abelian Wallet/dist
+/Users/<USER_NAME>/Library/Application Support/Abelian Wallet/dist
 ```
 
 - Reinstall the new version of the desktop wallet.

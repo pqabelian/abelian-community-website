@@ -113,7 +113,7 @@ C:\Users\<USERNAME>\AppData\Roaming\Abelian Wallet\dist
 # Linux:
 ~/.config/Abelian Wallet/dist
 # macOS:
-~/Library/Application Support/Abelian Wallet/dist
+/Users/<USER_NAME>/Library/Application Support/Abelian Wallet/dist
 ```
 
 - 再重新安装新版本的桌面钱包。
