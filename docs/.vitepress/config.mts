@@ -34,7 +34,6 @@ export default defineConfig({
             text: 'Pools',
             items: [
               { text: 'MaxPool (Official)', link: 'https://maxpool.org/' },
-              // { text: 'Foundation (Official)', link: 'https://pool.abelian.info/' },
               { text: 'AbelPool (Community)', link: 'https://www.abelpool.io/' },
               { text: 'zkProvers (Community)', link: 'https://www.zkprovers.com/' }
             ]
@@ -53,6 +52,16 @@ export default defineConfig({
                 { text: 'ABEL Yellowpaper', link: '/guide/abel-yellowpaper'},
                 { text: 'ABEL DSA Whitepaper', link: '/guide/abel-dsa-whitepaper'},
                 { text: 'Getting Started', link: '/guide/getting-started'},
+                //{ text: 'Qday Testnet User Guide',
+                  //collapsed: false,
+                  //items: [
+                    //{ text: 'Qday Testnet Introduction', link: '/guide/qday-testnet/index' },
+                    //{ text: 'MetaMask Wallet', link: '/guide/qday-testnet/metamask' },
+                    //{ text: 'Qday SWAP', link: '/guide/qday-testnet/swap' },
+                    //{ text: 'Qday DApp', link: '/guide/qday-testnet/dapp' },
+                    //{ text: 'ABEL Staking', link: '/guide/qday-testnet/abel-staking' },
+                  //]
+                //},
                 { text: 'Abelian Wallet',
                   collapsed: false,  
                   items: [
@@ -94,9 +103,7 @@ export default defineConfig({
                   ]
                 },
                 { text: 'Pool Issues', link: '/faq/pool-issues' },
-                { text: 'Basic Tutorial', link: '/faq/basic-tutorial/' },
-                //{ text: 'Advanced Tutorial', link: '/faq/advanced-tutorial/' },
-                //{ text: 'Community Highlights', link: '/faq/community/' }
+                //{ text: 'Basic Tutorial', link: '/faq/basic-tutorial/' },
               ]
             }
           ],
@@ -166,7 +173,6 @@ export default defineConfig({
             text: '矿池',
             items: [
               { text: 'MaxPool（官方）', link: 'https://maxpool.org/' },
-              // { text: 'Foundation（官方）', link: 'https://pool.abelian.info/' },
               { text: 'AbelPool（社区）', link: 'https://www.abelpool.io/' },
               { text: 'zkProvers（社区）', link: 'https://www.zkprovers.com/' }
             ]
@@ -185,6 +191,16 @@ export default defineConfig({
                 { text: 'ABEL 黄皮书', link: '/zh/guide/abel-yellowpaper'},
                 { text: 'ABEL 难度调整白皮书', link: '/zh/guide/abel-dsa-whitepaper'},
                 { text: '由此开始', link: '/zh/guide/getting-started'},
+                //{ text: 'Qday 测试网用户指引',
+                  //collapsed: false,
+                  //items: [
+                    //{ text: 'Qday 测试网简介', link: '/zh/guide/qday-testnet/index' },
+                    //{ text: 'MetaMask 钱包账户', link: '/zh/guide/qday-testnet/metamask' },
+                    //{ text: 'Qday SWAP', link: '/zh/guide/qday-testnet/swap' },
+                    //{ text: 'Qday DApp', link: '/zh/guide/qday-testnet/dapp' },
+                    //{ text: 'ABEL 质押', link: '/zh/guide/qday-testnet/abel-staking' }
+                  //]
+                //},
                 { text: 'Abelian 钱包',
                   collapsed: false,  
                   items: [
@@ -226,9 +242,7 @@ export default defineConfig({
                   ]
                 },
                 { text: '矿池问题', link: '/zh/faq/pool-issues' },
-                { text: '基础教程', link: '/zh/faq/basic-tutorial/' },
-                //{ text: '进阶教程', link: '/zh/faq/advanced-tutorial/' },
-                //{ text: '社区精选', link: '/zh/faq/community/' }
+                { text: '基础教程', link: '/zh/faq/basic-tutorial/' }
               ]
             }
           ],

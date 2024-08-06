@@ -17,11 +17,11 @@ C:\Users\<USER_NAME>\AppData\Roaming\Abelian Wallet\Abec\mainnet
 ```
 :::
 
-## Mainnet Data Download Links (Height: 291547)
-* [Mega](https://mega.nz/folder/gydxkZgS#GNDGHyBlGOJzo_G27b9V9w) (July 4, 2024)
-* [Terabox](https://teraboxapp.com/s/1Dge3NT_4zoLMteg8IXygqw) (July 4, 2024)
+## Mainnet Data Download Links (Height: 300264)
+* [Mega](https://mega.nz/folder/gydxkZgS#GNDGHyBlGOJzo_G27b9V9w) (August 4, 2024)
+* [Terabox](https://teraboxapp.com/s/1Dge3NT_4zoLMteg8IXygqw) (August 4, 2024)
 
-Files list:（A total of 13 zip archives）
+Files list:（A total of 14 zip archives）
 > mainnet.zip.001
 >
 > mainnet.zip.002
@@ -30,7 +30,7 @@ Files list:（A total of 13 zip archives）
 >
 > ......
 > 
-> mainnet.zip.013
+> mainnet.zip.014
 
 ## Extract Mainnet Data zip files
 **Abelian Desktop Wallet for Windows**
