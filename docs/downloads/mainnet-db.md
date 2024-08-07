@@ -19,7 +19,7 @@ C:\Users\<USER_NAME>\AppData\Roaming\Abelian Wallet\Abec\mainnet
 
 ## Mainnet Data Download Links (Height: 300264)
 * [Mega](https://mega.nz/folder/gydxkZgS#GNDGHyBlGOJzo_G27b9V9w) (August 4, 2024)
-* [Terabox](https://teraboxapp.com/s/1Dge3NT_4zoLMteg8IXygqw) (August 4, 2024)
+* [Terabox](https://terabox.com/s/1ZlaKraNi5VFLF1173MPyLA) (August 4, 2024)
 
 Files list:（A total of 14 zip archives）
 > mainnet.zip.001
