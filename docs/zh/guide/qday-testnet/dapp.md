@@ -67,7 +67,7 @@ outline: deep
   ![Metamask 确认授权](/qday-testnet/dapp/metamask-confirm-authorized-veqday1.png)
 - 继续点击 “Approve” 按钮进行授权，完成授权质押操作；
   ![Metamask 同意授权](/qday-testnet/dapp/metamask-confirm-authorized-veqday2.png)
-- 成功授权后，您将在 “汇总” 部分的 “我的veQday” 下看到授权的 veQday 金额，再执行第 1 步质押 veQday 操作，就可以在 “我的质押veQday” 下看到质押的 veQday 金额。
+- 成功授权后，您将在 “汇总” 部分的 “我的veQday” 下看到授权的 veQday 金额。
 
 
 ### 3. weQday 质押
