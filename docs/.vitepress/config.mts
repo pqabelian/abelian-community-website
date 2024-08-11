@@ -53,9 +53,10 @@ export default defineConfig({
                 { text: 'ABEL DSA Whitepaper', link: '/guide/abel-dsa-whitepaper'},
                 { text: 'Getting Started', link: '/guide/getting-started'},
                 //{ text: 'Qday Testnet User Guide',
-                  //collapsed: false,
+                  //collapsed: true,
                   //items: [
-                    //{ text: 'Qday Testnet Introduction', link: '/guide/qday-testnet/index' },
+                    //{ text: 'Qday Testnet Introduction', link: '/guide/qday-testnet/' },
+                    //{ text: 'Qday Explorer', link: '/guide/qday-testnet/explorer' },
                     //{ text: 'MetaMask Wallet', link: '/guide/qday-testnet/metamask' },
                     //{ text: 'Qday SWAP', link: '/guide/qday-testnet/swap' },
                     //{ text: 'Qday DApp', link: '/guide/qday-testnet/dapp' },
@@ -63,7 +64,7 @@ export default defineConfig({
                   //]
                 //},
                 { text: 'Abelian Wallet',
-                  collapsed: false,  
+                  collapsed: true,  
                   items: [
                     { text: 'Mobile Wallet', link: '/guide/wallet/mobile-wallet' },
                     { text: 'Mobile Wallet Pro', link: '/guide/wallet/mobile-wallet-pro' },
@@ -73,7 +74,7 @@ export default defineConfig({
                   ]
                 },
                 { text: 'Pool Mining',
-                  collapsed: false, 
+                  collapsed: true, 
                   items: [
                     { text: 'Join GPU Pool', link: '/guide/mining/gpu-pool' }
                     //{ text: 'Join CPU Pool', link: '/guide/mining/cpu-pool' }
@@ -102,8 +103,7 @@ export default defineConfig({
                     { text: 'NVIDIA graphics card', link: '/faq/hardware-issues/nvidia'}
                   ]
                 },
-                { text: 'Pool Issues', link: '/faq/pool-issues' },
-                //{ text: 'Basic Tutorial', link: '/faq/basic-tutorial/' },
+                { text: 'Pool Issues', link: '/faq/pool-issues' }
               ]
             }
           ],
@@ -153,8 +153,7 @@ export default defineConfig({
       lang: 'zh',
       link: '/zh/',
       title: "Abelian 知识社区",
-      description: "Abelian 知识社区 - 致力于为 Abelian 区块链集文档库、问答、教程和用户经验分享为一体的综合型社区。",
-      description: "Abelian 是一个抗量子计算的区块链生态系统，Layer 1 基于 GPU 的 POW，Layer 2 兼容 EVM。 Abelian-Community-FAQ is committed to integrating mining tutorials and Q&A for the Abelian Community Document repository.",
+      description: "Abelian 是一个抗量子计算的区块链生态系统，Layer 1 基于 GPU 的 POW，Layer 2 兼容 EVM。 Abelian 知识社区 - 致力于为 Abelian 区块链集文档库、问答、教程和用户经验分享为一体的综合型社区。",
       keywords: ['quantum resistant blockchain', 'post quantum', 'quantum resistant', 'quantum safe', 'privacy coin', 'zero knowledge', 'EVM compatible', 'QDAY', 'Abelian', 'Abelian Foundation', 'ABEL'],
       themeConfig: {
         nav: [
@@ -191,18 +190,21 @@ export default defineConfig({
                 { text: 'ABEL 黄皮书', link: '/zh/guide/abel-yellowpaper'},
                 { text: 'ABEL 难度调整白皮书', link: '/zh/guide/abel-dsa-whitepaper'},
                 { text: '由此开始', link: '/zh/guide/getting-started'},
-                //{ text: 'Qday 测试网用户指引',
-                  //collapsed: false,
-                  //items: [
-                    //{ text: 'Qday 测试网简介', link: '/zh/guide/qday-testnet/index' },
-                    //{ text: 'MetaMask 钱包账户', link: '/zh/guide/qday-testnet/metamask' },
-                    //{ text: 'Qday SWAP', link: '/zh/guide/qday-testnet/swap' },
-                    //{ text: 'Qday DApp', link: '/zh/guide/qday-testnet/dapp' },
-                    //{ text: 'ABEL 质押', link: '/zh/guide/qday-testnet/abel-staking' }
-                  //]
-                //},
+                { text: 'Qday 测试网用户指引',
+                  collapsed: true,
+                  items: [
+                    { text: 'Qday 测试网简介', link: '/zh/guide/qday-testnet/' },
+                    { text: 'Qday 浏览器', link: '/zh/guide/qday-testnet/explorer' },
+                    { text: 'MetaMask 钱包', link: '/zh/guide/qday-testnet/metamask' },
+                    { text: 'Qday 水龙头', link: '/zh/guide/qday-testnet/qday-faucet' },
+                    { text: 'Qday DEX', link: '/zh/guide/qday-testnet/dex' },
+                    { text: 'ABEL 水龙头', link: '/zh/guide/qday-testnet/abel-faucet' },
+                    { text: 'Qday DApp', link: '/zh/guide/qday-testnet/dapp' }
+
+                  ]
+                },
                 { text: 'Abelian 钱包',
-                  collapsed: false,  
+                  collapsed: true,  
                   items: [
                     { text: '移动钱包', link: '/zh/guide/wallet/mobile-wallet' },
                     { text: '移动钱包 Pro', link: '/zh/guide/wallet/mobile-wallet-pro' },
@@ -212,9 +214,9 @@ export default defineConfig({
                   ]
                 },
                 { text: '矿池指南',
-                  collapsed: false, 
+                  collapsed: true,
                   items: [
-                    { text: '加入显卡矿池', link: '/zh/guide/mining/gpu-pool' }
+                    { text: '加入显卡矿池', link: '/zh/guide/mining/gpu-pool' },
                     //{ text: '加入CPU矿池', link: '/zh/guide/mining/cpu-pool' }
                   ]
                 }
