@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-# Qday Testnet dapp 使用指南
+# Qday Testnet DApp 使用指南
 
 打开 Qday Testnet 质押服务网址：[Qday Staking](https://testnet-defi.qday.info/QdayStaking) 或 [Qday Staking 2](https://testnet-defi.abelqday.io/QdayStaking)。
 

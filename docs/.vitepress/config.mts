@@ -200,7 +200,6 @@ export default defineConfig({
                     { text: 'Qday DEX', link: '/zh/guide/qday-testnet/dex' },
                     { text: 'ABEL 水龙头', link: '/zh/guide/qday-testnet/abel-faucet' },
                     { text: 'Qday DApp', link: '/zh/guide/qday-testnet/dapp' }
-
                   ]
                 },
                 { text: 'Abelian 钱包',
