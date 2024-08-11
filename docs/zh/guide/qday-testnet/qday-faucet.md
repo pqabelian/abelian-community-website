@@ -22,7 +22,7 @@ outline: deep
 
 本示例将帮助你使用 MetaMask 钱包在 QDAY Testnet 网络上进行 QDAY 代币的转账操作，请按照以下步骤进行操作：
 
-### 前提条件
+**前提条件**
 
 在开始之前，请确保你已经完成以下准备工作：
 
@@ -32,14 +32,12 @@ outline: deep
 
 如果你尚未完成上述步骤，请参考 [Qday 测试网用户指引](/zh/guide/qday-testnet/metamask) 前面关于 MetaMask 钱包的章节。
 
-### 转账 QDAY
-
-#### 1. 打开 MetaMask
+### 1. 打开 MetaMask
 
 1. 点击浏览器右上角的 MetaMask 图标打开 MetaMask 扩展程序。
 2. 确保你已经切换到 QDAY Testnet 网络。
 
-#### 2. 开始转账
+### 2. 开始转账
 
 - 确保 MetaMask 页面顶部中间的账户为 “Account1”，点击 “Send” 按钮；
    ![点击 Send 按钮](/qday-testnet/qday-faucet/transaction-send-qday.png)
