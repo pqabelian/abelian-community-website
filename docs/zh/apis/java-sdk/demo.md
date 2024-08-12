@@ -593,7 +593,7 @@ F99C8BD32950DFB4C27651B8B1D85519|494436|3596512|0
 bin/abel4j-demo SubmitSignedRawTx F99C8BD32950DFB4C27651B8B1D85519
 ```
 
-如果交易成功提交，请记录输出中的 `txid` 值，并在 [Abelian Explorer](https://explorer.abelian.info) 上搜索它，看看是否得到确认。您还可以检查 `tx` 表，看看交易的 `isSubmitted` 字段是否被设置为 `1`（`true`）。
+如果交易成功提交，请记录输出中的 `txid` 值，并在 [Abelian Explorer](https://explorer.pqabelian.io) 上搜索它，看看是否得到确认。您还可以检查 `tx` 表，看看交易的 `isSubmitted` 字段是否被设置为 `1`（`true`）。
 
 如果交易提交失败，请检查输出中的错误信息。最常见的错误是输入中的一个或多个币在提交交易前已被花费。如果您知道币在哪个区块高度被花费，您可以运行 `TrackSpentCoins` 演示来更新热钱包数据库中币的 `isSpent` 字段，并尝试再次制作另一个未签名的原始交易，签名并提交。
 

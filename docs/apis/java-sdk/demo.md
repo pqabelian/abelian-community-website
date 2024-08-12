@@ -593,7 +593,7 @@ The last step is to broadcast the signed raw transaction to the Abelian network.
 bin/abel4j-demo SubmitSignedRawTx F99C8BD32950DFB4C27651B8B1D85519
 ```
 
-If the transaction is successfully submitted, please record the value of `txid` in the output and search it on the [Abelian Explorer](https://explorer.abelian.info) to see if it is confirmed. You may also check the `tx` table to see if the `isSubmitted` field of the transaction is set to `1`(`true`).
+If the transaction is successfully submitted, please record the value of `txid` in the output and search it on the [Abelian Explorer](https://explorer.pqabelian.io) to see if it is confirmed. You may also check the `tx` table to see if the `isSubmitted` field of the transaction is set to `1`(`true`).
 
 If the transaction fails to be submitted, please check the error message in the output. The most common error is that one or more coins in the inputs are spent before the transaction is submitted. If you know at which block height the coins are spent, you can run the `TrackSpentCoins` demo to update the `isSpent` field of the coins in the hot wallet database and try to make another unsigned raw transaction, sign it and submit it again.
 

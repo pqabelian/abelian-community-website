@@ -4,7 +4,7 @@ outline: deep
 
 # Abelian 生态相关工具
 
-### [Abelian 区块链浏览器](https://explorer.abelian.info/)
+### [Abelian 区块链浏览器](https://explorer.pqabelian.io/)
 
 ### 算力收益计算器
 - [MaxPool（官方）](https://maxpool.org/home/hash-rate-calculator)

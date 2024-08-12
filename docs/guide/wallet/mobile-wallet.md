@@ -16,7 +16,7 @@ Difficulty Level: Advanced
 ## What you need
 
 1. Abelian Lite Wallet CLI v0.12.5 (remark: lower version does not support some of the commands below)
-   - Download: Please go to the official [Abelian Downloads Page](https://foundation.abelian.info/en/downloads/#latest-release)
+   - Download: Please go to the official [Abelian Downloads Page](https://pqabelian.io/download#desktop)
    - Tutorial: Please check out the [Abelian Lite CLI Wallet Manual](/guide/wallet/wallet-cli-lite)
 
 2. Abelian Mobile App

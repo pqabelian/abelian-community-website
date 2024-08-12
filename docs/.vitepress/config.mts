@@ -25,7 +25,7 @@ export default defineConfig({
           { text: 'FAQ', link: '/faq/' },
           { text: 'Downloads',
             items: [
-              { text: 'Download for Abelian', link: 'https://foundation.abelian.info/en/downloads/' },
+              { text: 'Download for Abelian', link: 'https://pqabelian.io/download/' },
               { text: 'Mainet Dababase', link: '/downloads/mainnet-db' },
               { text: 'Ecosystem Tools', link: '/downloads/ecosystem-tools' }
             ]
@@ -163,7 +163,7 @@ export default defineConfig({
           { text: '问答', link: '/zh/faq/' },
           { text: '下载',
             items: [
-              { text: 'Abelian 下载', link: 'https://foundation.abelian.info/cn/downloads/' },
+              { text: 'Abelian 下载', link: 'https://pqabelian.io/download/' },
               { text: 'Abelian 主网数据', link: '/zh/downloads/mainnet-db' },
               { text: 'Abelian 生态工具', link: '/zh/downloads/ecosystem-tools' }
             ]

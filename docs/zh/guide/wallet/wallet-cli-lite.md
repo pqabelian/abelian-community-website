@@ -12,7 +12,7 @@ Abelian 轻量钱包（CLI） 基本上是 Abelian 钱包（CLI）（abelwallet�
 
 使用 Abelian 轻量钱包（CLI）而不是本地运行完整钱包，即 abec 和 abelwallet 的一个明显的优势是可以节省本地磁盘存储空间，以及等待本地 abec 进行同步的时间。粗略估计当前可以节省超过 100GB 的存储空间，省去了在本地运行 abec 全节点。
 
-获取 [Abelian 轻量钱包（CLI）](https://foundation.abelian.info/cn/downloads/#latest-release) 程序压缩包并解压。以下命令都可以在终端（macOS / Linux）或 PowerShell（Windows）中输入并执行。
+获取 [Abelian 轻量钱包（CLI）](https://pqabelian.io/download#desktop) 程序压缩包并解压。以下命令都可以在终端（macOS / Linux）或 PowerShell（Windows）中输入并执行。
 
 
 ## 1. 创建钱包
@@ -91,7 +91,7 @@ C:\\Users\\username\\AppData\\Local\\Abewallet
 
 这些文件夹被称为 **配置文件夹**。
 
-您可以从 https://foundation.abelian.info/en/downloads/ 下载预配置文件 **abewallet.conf**。以下是配置文件 **abewallet.conf** 的详细信息。
+您可以从 https://pqabelian.io/download 下载预配置文件 **abewallet.conf**。以下是配置文件 **abewallet.conf** 的详细信息。
 
 首先，在 **abewallet.conf** 中设置 **abecrpcuser** 和 **abecrpcpass**。例如，如果您想要连接到亚洲站点1，您可以进行如下设置：
 ```text
@@ -130,7 +130,7 @@ rpcconnect=42.200.174.30
 cafile=~/path/to/abec_rpc_tm.cert
 ```
 
-此全节点 RPC 证书可从 https://foundation.abelian.info/en/downloads 下载。它被打包在一个名为 **abec_certs/** 的文件夹中。例如，我们可以将这个文件夹放置在 ```~/Documents/``` 中，并将 **abewallet.conf** 中的 **cafile** 设置为
+此全节点 RPC 证书可从 https://pqabelian.io/download 下载。它被打包在一个名为 **abec_certs/** 的文件夹中。例如，我们可以将这个文件夹放置在 ```~/Documents/``` 中，并将 **abewallet.conf** 中的 **cafile** 设置为
 
 ```text
 cafile=~/Documents/abec_certs/abec_rpc_tm.cert
@@ -149,7 +149,7 @@ America Site 1: 3.132.2.26 abec_rpc_ohio2.cert
 America Site 2: 52.86.138.73 abec_rpc_nvir2.cert
 ```
 
-所有这些证书都被打包在名为 **abec_certs/** 的文件夹中，其压缩形式可以从 https://foundation.abelian.info/en/downloads/ 下载。
+所有这些证书都被打包在名为 **abec_certs/** 的文件夹中，其压缩形式可以从 https://pqabelian.io/download 下载。
 
 
 ### 2.2 运行实时钱包
@@ -171,7 +171,7 @@ abewallet --walletpass=[your public passphrase]
 
 其中 ```[你的公钥]``` 是你在第 1 部分创建钱包时选择的公钥。
 
-同步可能会根据 Abelian 网络上的区块数量以及您的计算机与远程 Abelian 全节点之间的连接（比如，几个小时到一两天）而需要一段时间才能完成，在终端窗口我们可以看到状态。要了解 Abelian 网络当前的区块高度，请访问 https://explorer.abelian.info。
+同步可能会根据 Abelian 网络上的区块数量以及您的计算机与远程 Abelian 全节点之间的连接（比如，几个小时到一两天）而需要一段时间才能完成，在终端窗口我们可以看到状态。要了解 Abelian 网络当前的区块高度，请访问 https://explorer.pqabelian.io。
 
 ## 3. 查询余额
 
