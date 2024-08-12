@@ -13,7 +13,7 @@ outline: deep
 
 2. **找到搜索栏**：
    在页面顶部，您会看到一个搜索框。
-   ![Qday Testnet 区块链浏览器](/qday-testnet/explorer/search.png)"
+   ![Qday Testnet 区块链浏览器](/qday-testnet/explorer/search.png)
 
 3. **输入区块高度**：
    在搜索栏中输入您想要查询的区块高度，例如 `39`：
