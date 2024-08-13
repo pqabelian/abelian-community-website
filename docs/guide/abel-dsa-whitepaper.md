@@ -9,4 +9,4 @@ head:
 
 # Abelian Difficulty Smoothing Algorithm Whitepaper
 
-Download PDF: [Abelian Difficulty Smoothing Algorithm Whitepaper](https://download.abelian.info/release/docs/abelian_difficulty_smoothing_algorithm_whitepaper.pdf)
+Download PDF: [Abelian Difficulty Smoothing Algorithm Whitepaper](https://download.pqabelian.io/release/docs/abelian_difficulty_smoothing_algorithm_whitepaper.pdf)

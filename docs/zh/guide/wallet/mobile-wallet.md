@@ -37,7 +37,7 @@ outline: deep
 ./start_abewallet.sh -A /Users/abelian/Documents/wallet_migrate --walletpass=MYPUBLICPASSPHRASE
 ```
 
-在这个示例中，我将以下的 **abewallet.conf** 文件放置在 **/Users/abelian/Documents/wallet_migrate** 下。我连接的远程 **abec** 位于亚洲。如果这个 **abec** 对您不起作用，您可以参考[手册](https://download.abelian.info/release/docs/Abelian%20Lite%20CLI%20Wallet%20Manual.pdf)，并相应地更改 **abewallet.conf** 中的远程 **abec** 设置。
+在这个示例中，我将以下的 **abewallet.conf** 文件放置在 **/Users/abelian/Documents/wallet_migrate** 下。我连接的远程 **abec** 位于亚洲。如果这个 **abec** 对您不起作用，您可以参考[手册](https://download.pqabelian.io/release/docs/Abelian%20Lite%20CLI%20Wallet%20Manual.pdf)，并相应地更改 **abewallet.conf** 中的远程 **abec** 设置。
 
 **修改 /Users/abelian/Documents/wallet_migrate/abewallet.conf 文件的内容**
 

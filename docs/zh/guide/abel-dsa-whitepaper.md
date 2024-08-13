@@ -9,4 +9,4 @@ head:
 
 # Abelian 难度平滑调整算法白皮书
 
-下载 PDF 文档: [Abelian 度平滑调整算法白皮书](https://download.abelian.info/release/docs/abelian_difficulty_smoothing_algorithm_whitepaper.pdf)
+下载 PDF 文档: [Abelian 度平滑调整算法白皮书](https://download.pqabelian.io/release/docs/abelian_difficulty_smoothing_algorithm_whitepaper.pdf)

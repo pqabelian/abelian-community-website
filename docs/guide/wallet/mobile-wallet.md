@@ -37,7 +37,7 @@ Here is an example on running this Abelian Lite Wallet CLI (macOS version as an 
 ./start_abewallet.sh -A /Users/abelian/Documents/wallet_migrate --walletpass=MYPUBLICPASSPHRASE
 ```
 
-In this example, I put the following **abewallet.conf** under **/Users/abelian/Documents/wallet_migrate**. The remote **abec** I connect to is located in Asia. If this **abec** does not work for you, you can refer to the [manual](https://download.abelian.info/release/docs/Abelian%20Lite%20CLI%20Wallet%20Manual.pdf) and change the remote *abec** settings in the **abewallet.conf** accordingly.
+In this example, I put the following **abewallet.conf** under **/Users/abelian/Documents/wallet_migrate**. The remote **abec** I connect to is located in Asia. If this **abec** does not work for you, you can refer to the [manual](https://download.pqabelian.io/release/docs/Abelian%20Lite%20CLI%20Wallet%20Manual.pdf) and change the remote *abec** settings in the **abewallet.conf** accordingly.
 
 **The contents of /Users/abelian/Documents/wallet_migrate/abewallet.conf**
 
