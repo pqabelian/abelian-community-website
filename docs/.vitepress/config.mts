@@ -197,9 +197,10 @@ export default defineConfig({
                     { text: 'Qday 浏览器', link: '/zh/guide/qday-testnet/explorer' },
                     { text: 'MetaMask 钱包', link: '/zh/guide/qday-testnet/metamask' },
                     { text: 'Qday 水龙头', link: '/zh/guide/qday-testnet/qday-faucet' },
-                    { text: 'Qday DEX', link: '/zh/guide/qday-testnet/dex' },
+                    { text: 'Qday 质押', link: '/zh/guide/qday-testnet/qday-staking' },
                     { text: 'ABEL 水龙头', link: '/zh/guide/qday-testnet/abel-faucet' },
-                    { text: 'Qday 质押', link: '/zh/guide/qday-testnet/qday-staking' }
+                    { text: 'ABEL 质押', link: '/zh/guide/qday-testnet/abel-staking' },
+                    { text: 'Qday DEX', link: '/zh/guide/qday-testnet/dex' }
                   ]
                 },
                 { text: 'Abelian 钱包',

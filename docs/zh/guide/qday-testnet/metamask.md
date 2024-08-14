@@ -68,6 +68,11 @@ outline: deep
 4. 在 “网络添加成功！” 提示框中点击 “切换至 Qday Testnet”，或者在 MetaMask 左上角的网络列表选择器中选择并切换到 “Qday Testnet”。
    ![MetaMask 切换 Qday Testnet 网络](/qday-testnet/metamask/switch-metamask-qday-testnet-network.png)
 
+## 获取钱包地址
+
+在浏览器工具栏中点击 MetaMask 扩展程序图标，弹出窗口中点击顶部中间的 “Account1” 地址后面的复制图标，并保存到本地（后续操作需要用到）。
+![获取 MetaMask 钱包地址](/qday-testnet/metamask/get-metamask-address.png)
+
 ## 添加 Qday ERC20 token（pqUSD）到 MetaMask
 
 1. 在浏览器工具栏中点击 MetaMask 扩展程序图标，在主界面的 “Tokens” 标签页中点击 “Import tokens”；
@@ -77,8 +82,3 @@ outline: deep
 3. 稍等一会会自动加载 pqUSD Token 的信息（Token symbol 和 Token decimal），点击 “Next” 按钮完成导入。
 4. MetaMask 主界面的 Tokens 标签页可以看到已经显示了 pqUSD Token 的余额。
    ![MetaMask pqUSD Token](/qday-testnet/metamask/pqusd-tokens.png)
-
-## 获取钱包地址
-
-在浏览器工具栏中点击 MetaMask 扩展程序图标，弹出窗口中点击顶部中间的 “Account1” 地址后面的复制图标：
-![获取 MetaMask 钱包地址](/qday-testnet/metamask/get-metamask-address.png)
