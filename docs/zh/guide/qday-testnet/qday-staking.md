@@ -6,6 +6,15 @@ outline: deep
 
 打开 Qday Testnet 质押服务网址：[Qday Staking](https://testnet-defi.qday.info/QdayStaking) 或 [Qday Staking 2](https://testnet-defi.abelqday.io/QdayStaking)。
 
+## 连接钱包
+
+- 点击 Qday Testnet 质押页面右上角的 “Connect” 按钮，选择 MetaMask 开始连接；
+  ![Qday 质押页面连接 MetaMask](/qday-testnet/abel-faucet/connect-metamask-wallet1.png)
+- 在弹出的 MetaMask 窗口中选择需要连接的 MetaMask 钱包账户，点击 “Next” 按钮，在授权页中点击 “Confirm” 按钮；
+  ![MetaMask 确认连接钱包](/qday-testnet/abel-faucet/connect-metamask-wallet2.png)
+- Qday Testnet 质押页面右上角将显示已连接的钱包地址，现在可以继续进行质押操作了。
+  ![Qday 质押页面已连接 MetaMask](/qday-testnet/abel-faucet/connect-metamask-wallet3.png)
+
 ## 质押页面各栏说明
 
 ### 1. 汇总
@@ -41,7 +50,7 @@ outline: deep
 - **金额**：您操作的 wAbel 数量。
 - **到期日期**：显示 wAbel 的到期日期。若无数据，表示您当前没有有效的 wAbel 记录。
 
-## 操作示例
+## Qday 质押操作示例
 
 ### 1. Qday 质押
 
