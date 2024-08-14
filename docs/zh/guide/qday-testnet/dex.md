@@ -6,7 +6,7 @@ outline: deep
 
 ## Qday Testnet DEX
 
-Qday Testnet DEX（去中心化交易所）是一个去中心化的交易平台，允许用户在以太坊网络上交换各种加密货币。
+Qday Testnet DEX 是一个高效、安全的去中心化交易平台，支持用户在量子安全环境中进行资产交换。
 
 打开 QDAY Testnet DEX 网址：[testnet-swap.qday.info](https://testnet-swap.qday.info/) 或  [testnet-swap.abelqday.io](https://testnet-swap.abelqday.io)。
 
