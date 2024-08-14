@@ -58,9 +58,11 @@ export default defineConfig({
                     //{ text: 'Qday Testnet Introduction', link: '/guide/qday-testnet/' },
                     //{ text: 'Qday Explorer', link: '/guide/qday-testnet/explorer' },
                     //{ text: 'MetaMask Wallet', link: '/guide/qday-testnet/metamask' },
-                    //{ text: 'Qday SWAP', link: '/guide/qday-testnet/swap' },
-                    //{ text: 'Qday DApp', link: '/guide/qday-testnet/dapp' },
+                    //{ text: 'Qday Faucet', link: '/guide/qday-testnet/qday-faucet' },
+                    //{ text: 'Qday Staking', link: '/guide/qday-testnet/qday-staking' },
+                    //{ text: 'ABEL Faucet', link: '/guide/qday-testnet/abel-faucet' },
                     //{ text: 'ABEL Staking', link: '/guide/qday-testnet/abel-staking' },
+                    //{ text: 'Qday DEX', link: '/guide/qday-testnet/dex' }
                   //]
                 //},
                 { text: 'Abelian Wallet',

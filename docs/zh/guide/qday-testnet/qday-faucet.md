@@ -73,13 +73,13 @@ outline: deep
 - 检查所有转账信息是否正确，包括收款地址和转账金额。
 - 确认无误后，点击 “Next” 按钮。
 
-### 步骤 6：提交转账
+### 6：提交转账
 
 - 在弹出的确认窗口中，检查交易详情。
 - 确认无误后，点击“Confirm”按钮提交转账。
   ![确认转账](/qday-testnet/qday-faucet/transaction-confirm.png)
 
-### 步骤 7：查看交易状态
+### 7：查看交易状态
 
 1. 转账提交后，你可以在 MetaMask 的 “Acivity” 标签页查看交易状态。
 2. 点击这笔交易可以进入交易详情页，点击 “View on block explorer” 在 QDAY Testnet 区块浏览器上查看详细信息。

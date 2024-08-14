@@ -49,8 +49,8 @@ outline: deep
 
 ## 添加 Qday Testnet 到 MetaMask
 
-### 区块链浏览器添加 Qday Testnet 到 MetaMask 网络列表
-(此功能稍后推出)
+### 自动添加 Qday Testnet 至 MetaMask 网络列表
+(区块链浏览器自动添加 Qday Testnet 至 MetaMask 网络功能稍后推出)
 
 ### 手动添加 Qday Testnet 到 MetaMask 网络列表
 
