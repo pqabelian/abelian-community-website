@@ -59,7 +59,7 @@ outline: deep
 8. **生成 QR 码 (Generate QR Code for Abelian Pro)**
 - 点击此选项可生成一个 QR 码，用于方便您使用 Abelian Mobile Wallet Pro 扫码功能来转账 ABEL 代币。
 
-### ABEL 质押兑换 wAbel 步骤
+### ABEL 质押兑换 wAbel
 
 #### 1. 连接钱包
 - 点击页面右上角的 “Connect” 按钮，选择 MetaMask 开始连接；
@@ -91,3 +91,7 @@ outline: deep
 #### 6. 等待交易完成
 交易提交后，点击 “Back to home” 回到主界面，在 “Transactions” 部分查看最近的交易，点击这笔交易进入 “Transaction Details” 页面查看交易状态，也可以点击 “View on AbelScan” 访问 Abelian 区块浏览器查看交易状态。
 ![查看交易状态](/qday-testnet/abel-faucet/abel-staking-transaction-detail.png)
+
+#### wAbel 质押
+
+测试网第一轮质押测试已经结束，如需实际体验本文档描述的功能，请等待我们再次开放测试。
