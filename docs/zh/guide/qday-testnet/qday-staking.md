@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-# Qday Testnet DApp 使用指南
+# Qday Testnet 质押服务指南
 
 打开 Qday Testnet 质押服务网址：[Qday Staking](https://testnet-defi.qday.info/QdayStaking) 或 [Qday Staking 2](https://testnet-defi.abelqday.io/QdayStaking)。
 
@@ -85,3 +85,10 @@ outline: deep
 - MetaMask 弹窗提示解除质押操作，点击 “Comfirm” 进行解除质押。
   ![Metamask 确认解除质押](/qday-testnet/dapp/metamask-confirm-unStaking.png)
 - 成功解除质押后，您将在 “汇总” 部分的 “我的质押veQday” 下将减去解除质押的 veQday 金额。
+
+
+---
+
+感谢您阅读 Qday Testnet 用户指引文档！我们希望本文能够帮助您更好地理解和使用 Qday 测试网。随着区块链技术的不断发展，Qday 致力于为用户提供量子安全、高效且可持续的去中心化交易体验。
+
+请随时关注我们的官方网站和社区，以获取最新的更新和支持。如果您有任何问题或反馈，欢迎与我们联系！
