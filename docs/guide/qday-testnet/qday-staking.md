@@ -38,17 +38,17 @@ In the summary section, you will see your staking information and the overall ne
 In the VeQDay section, you can perform the following operations:
 ![Qday Staking Page VeQDay](/qday-testnet/dapp/qday-staking-veqday.png)
 
-- **Authorization**: Here, you need to authorize the system to use your QDAY for staking.
-- **QDay Staking**: Select the amount of QDAY you wish to stake, enter it, and confirm the staking operation.
-- **Unstake**: If you need to unstake QDAY, enter the amount you wish to unstake and confirm the operation.
-- **Exchange for VeQday**: This option allows you to exchange QDAY for veQday. Follow the system prompts to complete the operation.
+- **Authorization (授权)**: Here, you need to authorize the system to use your QDAY for staking.
+- **QDay Staking (QDay质押)**: Select the amount of QDAY you wish to stake, enter it, and confirm the staking operation.
+- **Unstake (解除质押)**: If you need to unstake QDAY, enter the amount you wish to unstake and confirm the operation.
+- **Exchange VeQday (兑换VeQday)**: This option allows you to exchange QDAY for veQday. Follow the system prompts to complete the operation.
 
 ### 3. WAbel
 
 In the WAbel section, you can view and manage your wAbel:
 
-- **Amount**: The amount of wAbel you are operating with.
-- **Maturity Date**: Displays the maturity date of wAbel. If there is no data, it means you currently have no valid wAbel records.
+- **Amount (金额)**: The amount of wAbel you are operating with.
+- **Maturity Date (到期日期)**: Displays the maturity date of wAbel. If there is no data, it means you currently have no valid wAbel records.
 
 ## Qday Staking Operation Examples
 

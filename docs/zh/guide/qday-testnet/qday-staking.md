@@ -39,7 +39,7 @@ outline: deep
 ![Qday 质押页面 VeQDay](/qday-testnet/dapp/qday-staking-veqday.png)
 
 - **授权**：在此您需要进行授权操作，以允许系统使用您的 QDAY 进行质押。
-- **QDay 质押**：选择您希望质押的 QDAY 数量，输入后确认质押操作。
+- **QDay质押**：选择您希望质押的 QDAY 数量，输入后确认质押操作。
 - **解除质押**：如果您需要解除已质押的 QDAY，请在此输入您希望解除的数量，并确认操作。
 - **兑换 VeQday**：此选项允许您将 QDAY 兑换为 veQday，请按照系统提示进行操作。
 
