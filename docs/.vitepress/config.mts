@@ -52,19 +52,19 @@ export default defineConfig({
                 { text: 'ABEL Yellowpaper', link: '/guide/abel-yellowpaper'},
                 { text: 'ABEL DSA Whitepaper', link: '/guide/abel-dsa-whitepaper'},
                 { text: 'Getting Started', link: '/guide/getting-started'},
-                //{ text: 'Qday Testnet User Guide',
-                  //collapsed: true,
-                  //items: [
-                    //{ text: 'Qday Testnet Introduction', link: '/guide/qday-testnet/' },
-                    //{ text: 'Qday Explorer', link: '/guide/qday-testnet/explorer' },
-                    //{ text: 'MetaMask Wallet', link: '/guide/qday-testnet/metamask' },
-                    //{ text: 'Qday Faucet', link: '/guide/qday-testnet/qday-faucet' },
-                    //{ text: 'Qday Staking', link: '/guide/qday-testnet/qday-staking' },
-                    //{ text: 'ABEL Faucet', link: '/guide/qday-testnet/abel-faucet' },
-                    //{ text: 'ABEL Staking', link: '/guide/qday-testnet/abel-staking' },
-                    //{ text: 'Qday DEX', link: '/guide/qday-testnet/dex' }
-                  //]
-                //},
+                { text: 'Qday Testnet User Guide',
+                  collapsed: true,
+                  items: [
+                    { text: 'Qday Testnet Introduction', link: '/guide/qday-testnet/' },
+                    { text: 'Qday Explorer', link: '/guide/qday-testnet/explorer' },
+                    { text: 'MetaMask Wallet', link: '/guide/qday-testnet/metamask' },
+                    { text: 'Qday Faucet', link: '/guide/qday-testnet/qday-faucet' },
+                    { text: 'Qday Staking', link: '/guide/qday-testnet/qday-staking' },
+                    { text: 'ABEL Faucet', link: '/guide/qday-testnet/abel-faucet' },
+                    { text: 'ABEL Staking', link: '/guide/qday-testnet/abel-staking' },
+                    { text: 'Qday DEX', link: '/guide/qday-testnet/dex' }
+                  ]
+                },
                 { text: 'Abelian Wallet',
                   collapsed: true,  
                   items: [

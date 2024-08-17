@@ -9,9 +9,9 @@ outline: deep
 ## 连接钱包
 
 - 点击 Qday Testnet 质押页面右上角的 “Connect” 按钮，选择 MetaMask 开始连接；
-  ![Qday 质押页面连接 MetaMask](/qday-testnet/abel-faucet/connect-metamask-wallet1.png)
+  ![Qday 质押页面连接 MetaMask](/qday-testnet/abel-faucet/connect-metamask-wallet1.png)<br>
 - 在弹出的 MetaMask 窗口中选择需要连接的 MetaMask 钱包账户，点击 “Next” 按钮，在授权页中点击 “Confirm” 按钮；
-  ![MetaMask 确认连接钱包](/qday-testnet/abel-faucet/connect-metamask-wallet2.png)
+  ![MetaMask 确认连接钱包](/qday-testnet/abel-faucet/connect-metamask-wallet2.png)<br>
 - Qday Testnet 质押页面右上角将显示已连接的钱包地址，现在可以继续进行质押操作了。
   ![Qday 质押页面已连接 MetaMask](/qday-testnet/abel-faucet/connect-metamask-wallet3.png)
 
@@ -54,45 +54,45 @@ outline: deep
 
 ### 1. Qday 质押
 
-- 输入质押 Qday 数量，点击 “Qday 质押” 按钮；
-  ![veQday 质押](/qday-testnet/dapp/qday-staking-input-qday.png)
+- 输入质押 Qday 数量，点击 “Qday质押” 按钮；
+  ![veQday 质押](/qday-testnet/dapp/qday-staking-input-qday.png)<br>
 - Metamask 弹窗提示质押操作，点击 “Comfirm” 进行质押。
-  ![Metamask 确认质押](/qday-testnet/dapp/metamask-confirm-qday-staking.png)
+  ![Metamask 确认质押](/qday-testnet/dapp/metamask-confirm-qday-staking.png)<br>
 - 成功质押后，您将在 “汇总” 部分的 “我的质押veQday” 下看到质押的 veQday 金额。
 
 ### 2. 兑换 veQday
 
 - 输入兑换 veQDAY 数量，点击 “兑换 VeQday” 按钮；
-  ![veQday 兑换](/qday-testnet/dapp/qday-staking-exchange-veqday.png)
+  ![veQday 兑换](/qday-testnet/dapp/qday-staking-exchange-veqday.png)<br>
 - Metamask 弹窗提示兑换操作，点击 “Comfirm” 进行兑换。
-  ![Metamask 确认兑换](/qday-testnet/dapp/metamask-confirm-veqday-exchange.png)
+  ![Metamask 确认兑换](/qday-testnet/dapp/metamask-confirm-veqday-exchange.png)<br>
 - 成功兑换后，您将在 “汇总” 部分的 “我的 VeQday” 下看到兑换的 veQDAY 金额。
 
 ### 3. 授权质押
 
 - 输入授权质押 veQday 数量，点击 “授权” 按钮；
-  ![veQday 授权质押](/qday-testnet/dapp/qday-staking-input-authorized-veqday.png)
+  ![veQday 授权质押](/qday-testnet/dapp/qday-staking-input-authorized-veqday.png)<br>
 - MetaMask 弹窗提示授权操作，修改 “Custom spending cap” 栏的数值（点击 MAX 即为授权质押的数值），点击 “Next” 进入下一步；
-  ![Metamask 确认授权](/qday-testnet/dapp/metamask-confirm-authorized-veqday1.png)
+  ![Metamask 确认授权](/qday-testnet/dapp/metamask-confirm-authorized-veqday1.png)<br>
 - 继续点击 “Approve” 按钮进行授权，完成授权质押操作；
-  ![Metamask 同意授权](/qday-testnet/dapp/metamask-confirm-authorized-veqday2.png)
+  ![Metamask 同意授权](/qday-testnet/dapp/metamask-confirm-authorized-veqday2.png)<br>
 - 成功授权后，您将在 “汇总” 部分的 “我的veQday” 下看到授权的 veQday 金额。
 
 
 ### 3. weQday 质押
 
-- 在授权质押操作后，相同位置的输入框中输入质押 weQday 数量，点击 “weQday 质押” 按钮；
-  ![weQday 质押](/qday-testnet/dapp/qday-staking-input-weqday.png)
+- 在授权质押操作后，相同位置的输入框中输入质押 weQday 数量，点击 “weQday质押” 按钮；
+  ![weQday 质押](/qday-testnet/dapp/qday-staking-input-weqday.png)<br>
 - MetaMask 弹窗提示质押操作，点击 “Comfirm” 进行质押;
-  ![Metamask 确认质押](/qday-testnet/dapp/metamask-confirm-weqday-staking.png)
+  ![Metamask 确认质押](/qday-testnet/dapp/metamask-confirm-weqday-staking.png)<br>
 - 成功质押后，您将在 “汇总” 部分的 “我的质押weQday” 下看到质押的 weQday 金额。
 
 ### 4. 解除质押
 
 - 输入解除质押 veQday 数量，点击 “解除质押” 按钮；
-  ![veQday 解除质押](/qday-testnet/dapp/qday-staking-input-unStaking.png)
+  ![veQday 解除质押](/qday-testnet/dapp/qday-staking-input-unStaking.png)<br>
 - MetaMask 弹窗提示解除质押操作，点击 “Comfirm” 进行解除质押。
-  ![Metamask 确认解除质押](/qday-testnet/dapp/metamask-confirm-unStaking.png)
+  ![Metamask 确认解除质押](/qday-testnet/dapp/metamask-confirm-unStaking.png)<br>
 - 成功解除质押后，您将在 “汇总” 部分的 “我的质押veQday” 下将减去解除质押的 veQday 金额。
 
 ### 5. 提取奖励

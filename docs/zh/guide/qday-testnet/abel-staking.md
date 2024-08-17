@@ -36,15 +36,15 @@ ABEL Testnet 质押服务允许用户通过质押 wAbel 代币，参与网络安
 如果您已经在前面 Qday 质押页面连接了 MetaMask 钱包，请跳过此步骤。
 
 - 点击页面右上角的 “Connect” 按钮，选择 MetaMask 开始连接；
-    ![连接钱包](/qday-testnet/abel-faucet/connect-metamask-wallet1.png)
+    ![连接钱包](/qday-testnet/abel-faucet/connect-metamask-wallet1.png)<br>
 - 在弹出窗口中选择需要连接的钱包，并授权。
-    ![授权连接](/qday-testnet/abel-faucet/connect-metamask-wallet2.png)
+    ![授权连接](/qday-testnet/abel-faucet/connect-metamask-wallet2.png)<br>
 - 连接后页面右上角会显示当前已连接的钱包地址。
     ![已连接钱包](/qday-testnet/abel-faucet/connect-metamask-wallet3.png)
 
 #### 2. 填写转账钱包地址
 - 在 “From Address” 栏中输入 ABEL 钱包地址，在 “To Address” 栏会自动选择当前已经连接的 MetaMask 钱包地址;
-  ![填写转账钱包地址](/qday-testnet/abel-faucet/abel-staking-input-address.png)
+  ![填写转账钱包地址](/qday-testnet/abel-faucet/abel-staking-input-address.png)<br>
 - 如果需要切换钱包地址，点击浏览器工具栏中的 MetaMask 图标，在弹出窗口中点击顶部中间位置账号名称后的下拉图标进入账户列表，点击列表中的任一钱包账户切换到该钱包地址。
   ![切换钱包地址](/qday-testnet/abel-faucet/metamask-switch-wallet-address.png)
 

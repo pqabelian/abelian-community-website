@@ -11,11 +11,11 @@ outline: deep
 2. 选择适合你浏览器的扩展程序并安装：
 
    - 对于 Chrome 浏览器，点击 “[Install MetaMask for Chrome](https://chrome.google.com/webstore/detail/nkbihfbeogaeaoehlefnkodbefgpgknn)”。
-   ![Chrome 浏览器安装 MetaMask 扩展程序](/qday-testnet/metamask/chrome-metamask-install.png)
+   ![Chrome 浏览器安装 MetaMask 扩展程序](/qday-testnet/metamask/chrome-metamask-install.png)<br>
    - 对于 Firefox 浏览器，点击 “[Install MetaMask for Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/ether-metamask/)”。
-   ![Firefox 浏览器安装 MetaMask 扩展程序](/qday-testnet/metamask/firefox-metamask-install.png)
+   ![Firefox 浏览器安装 MetaMask 扩展程序](/qday-testnet/metamask/firefox-metamask-install.png)<br>
    - 对于 Microsoft Edge 浏览器，点击 “[Install MetaMask for Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/metamask/ejbalbakoplchlghecdalmeeeajnimhm)”。
-   ![Microsoft Edge 浏览器安装 MetaMask 扩展程序](/qday-testnet/metamask/edge-metamask-install.png)
+   ![Microsoft Edge 浏览器安装 MetaMask 扩展程序](/qday-testnet/metamask/edge-metamask-install.png)<br>
 3. 点击添加扩展程序后会弹出 MetaMask 安装页面，点击 “Add Extension” 或 “Install”。
    ![MetaMask 安装页面](/qday-testnet/metamask/add-to-edge.png)
 4. 安装完成后，会打开一个 MetaMask 设置页面，或者点击浏览器右上角的扩展图标，在下拉菜单中选择 MetaMask 图标，开始设置。
@@ -57,13 +57,14 @@ outline: deep
 1. 打开 MetaMask，点击左上角的网络列表选择器（默认显示 “Ethereum Mainnet”），选择 “显示测试网络” ，然后点击 “添加网络” 按钮；
    ![MetaMask 添加网络](/qday-testnet/metamask/add-metamask-network1.png)
 2. 在弹出的添加网络页面页面中，点击页面底部的 “手动添加网络”；
+   ![手动添加 Qday Testnet 网络](/qday-testnet/metamask/add-metamask-network2.png)
 3. 在手动添加网络页面，填写以下信息：
    - **网络名称**: Qday Testnet
    - **新的 RPC URL**: `https://testnet-rpc-00.qday.info` 或 `https://testnet-rpc-01.qday.info`
    - **链 ID**: 1001
    - **货币符号**: QDAY
    - **区块浏览器 URL（可选）**: `https://testnet-explorer.qday.info`
-   ![手动添加 Qday Testnet 网络](/qday-testnet/metamask/add-metamask-network2.png)
+   ![手动添加 Qday Testnet 网络](/qday-testnet/metamask/add-metamask-network3.png)
    点击 “保存” 按钮完成添加。
 4. 在 “网络添加成功！” 提示框中点击 “切换至 Qday Testnet”，或者在 MetaMask 左上角的网络列表选择器中选择并切换到 “Qday Testnet”。
    ![MetaMask 切换 Qday Testnet 网络](/qday-testnet/metamask/switch-metamask-qday-testnet-network.png)

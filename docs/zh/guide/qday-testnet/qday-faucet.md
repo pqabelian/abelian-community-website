@@ -9,24 +9,27 @@ outline: deep
 ## 获取 QDAY 测试币（水龙头）
 
 - 访问 [Qday Testnet 水龙头](https://testnet-faucet.qday.info/) 页面；
-  ![Qday Testnet 水龙头](/qday-testnet/qday-faucet/qday-faucet-page.png)
+  ![Qday Testnet 水龙头](/qday-testnet/qday-faucet/qday-faucet-page.png)<br>
 - 点击 “CONNECT WALLET” 按钮，在弹出窗口中点击 “MetaMask” 按钮；
-  ![连接钱包](/qday-testnet/qday-faucet/connect-wallet.png)
+  ![连接钱包](/qday-testnet/qday-faucet/connect-wallet.png)<br>
 - 在弹出的 MetaMask 扩展程序面板中选择需要连接的钱包 “Account1” 和 “Account2”，点击 “Next” 按钮进入授权页面，再点击 “Confirm” 按钮确认；
-  ![选择连接 MetaMask 账户](/qday-testnet/qday-faucet/connect-metamask-accounts.png)
+  ![选择连接 MetaMask 账户](/qday-testnet/qday-faucet/connect-metamask-accounts.png)<br>
 - 点击 “CLAIM QDAY” 按钮，可获取 1 个 QDAY 测试币（示例使用的是 Account1 账户地址接收）;
-  ![获取 Qday Testnet 测试币](/qday-testnet/qday-faucet/claim-qday.png)
+  ![获取 Qday Testnet 测试币](/qday-testnet/qday-faucet/claim-qday.png)<br>
 - MetaMask 弹出签名窗口，点击 “Sign” 按钮进行签名；
-  ![MetaMask 签名](/qday-testnet/qday-faucet/metamask-sign.png)
-- 签名成功后，MetaMask 的 Account1 账户将到账 1 枚 QDAY 测试币。
+  ![MetaMask 签名](/qday-testnet/qday-faucet/metamask-sign.png)<br>
+- 签名成功后，稍等一会 MetaMask 的 Account1 账户将到账 100 枚 QDAY 测试币，最多可领取10次，总计 1000 QDAY 测试币。
   ![QDAY 到账](/qday-testnet/qday-faucet/metamask-qday-balance.png)
+  (此图余额为领取了两次的结果)
 
 ## 社区申请 QDAY 测试币流程
 
 请加入 pqAbelian 官方 [Discord 频道](https://discord.gg/Rrb33mC3Kc)；并提交 Ticket 申请获取 QDAY 代币。
 
-- 在频道左侧子频道菜单中最底部找到 “||SUPPORT||”，点击后面的 + 号，展开下级菜单点击 “Support-Ticket”，发起一个 Ticket，第一行内容为：`QDAY Testnet Faucet`；
-- 后面的内容请描述您申请 QDAY 测试币的目的，如需测试大额测试代币，描述越详细越容易通过审核；
+- 在频道左侧子频道菜单中最底部找到 “||SUPPORT||”，点击后面的 + 号，展开下级菜单点击 “Support-Ticket”，发起一个 Ticket；
+  ![Discord 创建 Ticket](/qday-testnet/qday-faucet/discord-create-ticket.png)<br>
+- 申请内容第一行为：`QDAY Testnet Faucet`；
+- 之后的内容请描述您申请 QDAY 测试币的目的，如需测试大额测试代币，描述越详细越容易通过审核；
 - 最后请留下 Qday Testnet 的 MetaMask 钱包地址（接收 QDAY 测试币）。
 
 根据之前的创建 MetaMask 钱包账户示例，申请 QDAY 默认使用 “Account1” 的地址，QDAY 测试币到账后如图：
@@ -59,7 +62,7 @@ outline: deep
 ### 3. 填写转账信息
 
 - **填写接收地址**：在 “Send to” 字段中输入你要转账到的 QDAY 地址（这里直接选择 “Your accounts” 下面的 “Account2”）；
-  ![填写接收地址](/qday-testnet/qday-faucet/transaction-send-to.png)
+  ![填写接收地址](/qday-testnet/qday-faucet/transaction-send-to.png)<br>
 - **填写转账数量**：在 “Amount:” 字段中输入你希望转账的 QDAY 数量。
   ![填写转账数量](/qday-testnet/qday-faucet/transaction-send-amount.png)
   （示例数量为 100）

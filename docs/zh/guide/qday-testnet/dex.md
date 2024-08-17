@@ -15,9 +15,9 @@ Qday Testnet DEX 是一个高效、安全的去中心化交易平台，支持用
 在开始交易之前，您需要连接之前创建的 MetaMask 钱包账户。
 
 1. 点击页面右上角的 **“Connect to a wallet”** 按钮；
-   ![连接钱包](/qday-testnet/swap/connect-wallet.png)
+   ![连接钱包](/qday-testnet/swap/connect-wallet.png)<br>
 2. 在列表中选择 MetaMask 钱包；
-   ![选择 MetaMask](/qday-testnet/swap/select-metamask.png)
+   ![选择 MetaMask](/qday-testnet/swap/select-metamask.png)<br>
 3. 根据钱包的提示选择需要连接的钱包，再选择下一步并授权完成连接，示例中选择 Acount1 和 Acount2 两个测试账户。
    ![授权连接](/qday-testnet/swap/connect-authorize.png)
 
@@ -26,7 +26,7 @@ Qday Testnet DEX 是一个高效、安全的去中心化交易平台，支持用
 在连接钱包后，在 “Swap” 选项卡中选择要交易的代币：
 
 1. 在 **“From”** 部分，选择您要出售的代币，示例中选择默认代币：QDAY）。
-   ![选择交易对](/qday-testnet/swap/select-pair.png)
+   ![选择交易对](/qday-testnet/swap/select-pair.png)<br>
 2. 在 **“To”** 部分，选择您要购买的代币。可以点击 "Select a token" 来浏览可用的代币列表。
    ![选择 token](/qday-testnet/swap/select-token.png)
    这里选择之前添加到 MetaMask 的 ERC20 token（pqUSD）
@@ -48,14 +48,14 @@ Qday Testnet DEX 是一个高效、安全的去中心化交易平台，支持用
 
 1. 点击 “Swap” 按钮；
 2. 确认交易细节后点击 “Confim Swap” 按钮；
-   ![确认交易](/qday-testnet/swap/confirm-swap.png)
+   ![确认交易](/qday-testnet/swap/confirm-swap.png)<br>
 3. 在弹出的 MetaMask 钱包中点击 “Confirm” 按钮进行确认。
    ![确认交易](/qday-testnet/swap/metamask-confirm.png)
 
 ### 7. 查看交易状态
 
 - 完成确认后，您可以在钱包中查看交易状态；
-   ![查看交易状态](/qday-testnet/swap/metamask-dex-transaction-status.png)
+   ![查看交易状态](/qday-testnet/swap/metamask-dex-transaction-status.png)<br>
 - 或者返回 DEX 点击右上角的钱包地址，在弹出的钱包详情中查看交易记录
    ![查看交易记录](/qday-testnet/swap/dex-transactions-list.png)
 
@@ -64,11 +64,11 @@ Qday Testnet DEX 是一个高效、安全的去中心化交易平台，支持用
 在 DEX 页面中切换到 “Pool” 选项卡操作添加流动性。
 
 1. 点击 “Add Liquidity” 按钮
-   ![添加流动性](/qday-testnet/swap/add-liquidity.png)
+   ![添加流动性](/qday-testnet/swap/add-liquidity.png)<br>
 2. 添加代币对，第一栏选择 QDAY，第二栏选择 pqUSD。并输入您希望添加的金额，并确认流动性提供的细节，点击 “Approve pqUSD” 继续。
-   ![输入代币金额](/qday-testnet/swap/input-liquidity-amount.png)
+   ![输入代币金额](/qday-testnet/swap/input-liquidity-amount.png)<br>
 3. 弹出 MetaMask 页面中确认 “Custom spending cap” 的 pqUSD 金额（默认可能会超过余额，适当改小数值），点击 “Confirm” 按钮进行确认。
-   ![MetaMask 确认金额](/qday-testnet/swap/metamask-confirm-liquidity.png)
+   ![MetaMask 确认金额](/qday-testnet/swap/metamask-confirm-liquidity.png)<br>
 4. 继续点击 “Appprove” 按钮进行确认，稍后完成流动性添加，查看交易状态和详情参考第 7 步。
    ![MetaMask 同意添加流动性](/qday-testnet/swap/metamask-approve-liquidity.png)
 
