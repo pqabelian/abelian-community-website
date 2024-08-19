@@ -1,3 +1,7 @@
+---
+outline: deep
+---
+
 # Abelian主网数据
 
 ## Mainnet 数据目录默认位置
@@ -9,7 +13,7 @@ C:\Users\<USER_NAME>\AppData\Roaming\Abelian Wallet\Abec\mainnet
 ```
 
 ```txt [MacOS]
-/Users/<USER_NAME>/Library/Application Support/Abelian Wallet/Abec/mainnet
+~/Library/Application Support/Abelian Wallet/Abec/mainnet
 ```
 
 ```txt [Linux]
@@ -33,18 +37,35 @@ C:\Users\<USER_NAME>\AppData\Roaming\Abelian Wallet\Abec\mainnet
 > mainnet.zip.014
 
 ## 解压缩 mainnet 数据包
-**Abelian Windows 桌面钱包**
+
+### Abelian Windows 桌面钱包
 1. 关闭并退出 Windows 桌面钱包；
-2. 将下载的8个文件放在同一目录下；
+2. 将下载的 14 个文件放在同一目录下；
 3. 使用 7zip 软件打开 mainnet.zip.001 文件，解压缩 mainnet 覆盖至**默认位置**；
 4. 重新运行 Windows 桌面钱包，点击同步（sync Mainnet）。
 
-**Abelian MacOS 桌面钱包**
- - 参考上面 Windows 版本的步骤
+---
 
-**Abelian Full Node for Linux**
+### Abelian MacOS 桌面钱包
+1. 关闭并退出 MacOS 桌面钱包；
+2. 将下载的 14 个文件放在同一目录下，执行解压缩操作：
+```
+# macOS 用brew下载安装 7zip
+$ brew install p7zip
+# 解压缩
+$ 7z x mainnet.zip.001
+```
+3. 移动解压缩得到的 mainnet 目录并覆盖至**默认位置**
+```
+mv -f mainnet ~/Library/Application\ Support/Abelian\ Wallet/Abec/
+```
+4. 重新运行 macOS 桌面钱包，点击同步（sync Mainnet）。
+
+---
+
+### Abelian Full Node for Linux
 1. 停止全节点进程 `abec`或 `abectl`
-2. 将下载的12个文件放在同一目录下，执行解压缩操作：
+2. 将下载的 14 个文件放在同一目录下，执行解压缩操作：
 ```
 # Ubuntu 或 Debian 为例，安装 7zip
 $ apt install p7zip-full

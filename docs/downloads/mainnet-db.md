@@ -1,3 +1,7 @@
+---
+outline: deep
+---
+
 # Abelian Mainnet Database
 
 ## Mainnet Data Directory Default Path
@@ -33,18 +37,35 @@ Files list:（A total of 14 zip archives）
 > mainnet.zip.014
 
 ## Extract Mainnet Data zip files
-**Abelian Desktop Wallet for Windows**
+
+### Abelian Desktop Wallet for Windows
 1. Close and exit Windows Desktop Wallet Client;
-2. Place the downloaded 8 files in the same directory;
-3. Use 7zip software to open the mainnet.zip.001 file, Extract the mainnet directory and overwrite it to the **default path**;
-4. Restart Windows Desktop Wallet Client，Click "sync Mainnet".
+2. Place the downloaded 14 files in the same directory;
+3. Use 7zip software to open the `mainnet.zip.001 file`, Extract the mainnet directory and overwrite it to the **default path**;
+4. Restart Windows Desktop Wallet Client，Click **"sync Mainnet"**.
 
-**Abelian Desktop Wallet for MacOS**
- - Refer to the steps for Windows version above
+---
 
-**Abelian Full Node for Linux**
+### Abelian macOS Desktop Wallet
+1. Close and exit the macOS desktop wallet;
+2. Place the 14 downloaded files in the same directory and perform the extraction:
+```
+# Install 7zip using brew on macOS
+$ brew install p7zip
+# Extract the files
+$ 7z x mainnet.zip.001
+```
+3. Move the extracted "mainnet" directory and overwrite it to the **default location**:
+```
+mv -f mainnet ~/Library/Application\ Support/Abelian\ Wallet/Abec/
+```
+4. Restart the macOS desktop wallet and click on "Sync Mainnet".
+
+---
+
+### Abelian Full Node for Linux
 1. Stop full node process `abec` or `abectl`
-2. Place the downloaded 12 files in the same directory, and execute the extract command:
+2. Place the downloaded 14 files in the same directory, and execute the extract command:
 ```
 # Taking Ubuntu or Debian as examples, to install 7zip
 $ apt install p7zip-full
