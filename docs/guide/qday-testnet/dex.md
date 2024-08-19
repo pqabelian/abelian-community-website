@@ -2,11 +2,11 @@
 outline: deep
 ---
 
-# Qday Testnet Decentralized Exchange (DEX)
+# QDay Testnet Decentralized Exchange (DEX)
 
-## Qday Testnet DEX
+## QDay Testnet DEX
 
-Qday Testnet DEX is an efficient and secure decentralized trading platform that supports asset exchange in a quantum-safe environment.
+QDay Testnet DEX is an efficient and secure decentralized trading platform that supports asset exchange in a quantum-safe environment.
 
 Open the QDAY Testnet DEX URL: [testnet-swap.qday.info](https://testnet-swap.qday.info/) or [testnet-swap.abelqday.io](https://testnet-swap.abelqday.io).
 
@@ -83,6 +83,6 @@ Switch to the “Pool” tab on the DEX page to add liquidity.
 
 ---
 
-Thank you for reading the Qday Testnet User Guide! We hope this document helps you better understand and use the Qday Testnet. As blockchain technology continues to evolve, Qday is committed to providing users with a quantum-safe, efficient, and sustainable decentralized trading experience.
+Thank you for reading the QDay Testnet User Guide! We hope this document helps you better understand and use the QDay Testnet. As blockchain technology continues to evolve, QDay is committed to providing users with a quantum-safe, efficient, and sustainable decentralized trading experience.
 
 Please stay tuned to our official website and community for the latest updates and support. If you have any questions or feedback, feel free to contact us!

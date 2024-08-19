@@ -15,7 +15,7 @@ Open the ABEL Testnet staking service URL on QDAY Testnet: [ABEL Staking](https:
 1. **From Network**
 - Select the blockchain network from which you want to withdraw ABEL tokens, default is “Abelian Testnetwork” (default and non-selectable).
 2. **To Network**
-- Select the target blockchain network for staking QDay tokens, default is “Qday Testnetwork” (default and non-selectable).
+- Select the target blockchain network for staking QDay tokens, default is “QDay Testnetwork” (default and non-selectable).
 3. **From Address**
 - Enter the wallet address where your ABEL tokens are stored on the selected network.
 4. **To Address**
@@ -33,7 +33,7 @@ Open the ABEL Testnet staking service URL on QDAY Testnet: [ABEL Staking](https:
 
 #### 1. Connect Wallet
 
-If you have already connected your MetaMask wallet on the previous Qday staking page, you can skip this step.
+If you have already connected your MetaMask wallet on the previous QDay staking page, you can skip this step.
 
 - Click the “Connect” button at the top right of the page and select MetaMask to start connecting;
     ![Connect Wallet](/qday-testnet/abel-faucet/connect-metamask-wallet1.png)<br>

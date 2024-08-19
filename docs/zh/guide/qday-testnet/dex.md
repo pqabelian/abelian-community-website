@@ -2,11 +2,11 @@
 outline: deep
 ---
 
-# Qday testnet 去中心化交易所（DEX）
+# QDay testnet 去中心化交易所（DEX）
 
-## Qday Testnet DEX
+## QDay Testnet DEX
 
-Qday Testnet DEX 是一个高效、安全的去中心化交易平台，支持用户在量子安全环境中进行资产交换。
+QDay Testnet DEX 是一个高效、安全的去中心化交易平台，支持用户在量子安全环境中进行资产交换。
 
 打开 QDAY Testnet DEX 网址：[testnet-swap.qday.info](https://testnet-swap.qday.info/) 或  [testnet-swap.abelqday.io](https://testnet-swap.abelqday.io)。
 
@@ -82,6 +82,6 @@ Qday Testnet DEX 是一个高效、安全的去中心化交易平台，支持用
 
 ---
 
-感谢您阅读 Qday Testnet 用户指引文档！我们希望本文能够帮助您更好地理解和使用 Qday 测试网。随着区块链技术的不断发展，Qday 致力于为用户提供量子安全、高效且可持续的去中心化交易体验。
+感谢您阅读 QDay Testnet 用户指引文档！我们希望本文能够帮助您更好地理解和使用 QDay 测试网。随着区块链技术的不断发展，QDay 致力于为用户提供量子安全、高效且可持续的去中心化交易体验。
 
 请随时关注我们的官方网站和社区，以获取最新的更新和支持。如果您有任何问题或反馈，欢迎与我们联系！

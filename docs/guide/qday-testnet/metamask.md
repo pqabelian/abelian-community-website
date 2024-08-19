@@ -47,34 +47,34 @@ outline: deep
 
 **Note**: The seed phrase and private key are the only backups for your wallet account, so be sure to keep them secure and do not share them with anyone.
 
-## Add Qday Testnet to MetaMask
+## Add QDay Testnet to MetaMask
 
-### Automatically Add Qday Testnet to MetaMask Network List
-(The blockchain explorer's automatic addition of Qday Testnet to the MetaMask network will be available later)
+### Automatically Add QDay Testnet to MetaMask Network List
+(The blockchain explorer's automatic addition of QDay Testnet to the MetaMask network will be available later)
 
-### Manually Add Qday Testnet to MetaMask Network List
+### Manually Add QDay Testnet to MetaMask Network List
 
 1. Open MetaMask, click the network list selector in the upper left (default is “Ethereum Mainnet”), select “Show Test Networks,” then click the “Add Network” button;
    ![Add Network to MetaMask](/qday-testnet/metamask/add-metamask-network1-en.png)
 2. In the pop-up add network page, click “Add a network manually” at the bottom of the page;
-   ![Manually Add Qday Testnet Network](/qday-testnet/metamask/add-metamask-network2.png)
+   ![Manually Add QDay Testnet Network](/qday-testnet/metamask/add-metamask-network2.png)
 3. On the manual add network page, fill in the following information:
-   - **Network Name**: Qday Testnet
+   - **Network Name**: QDay Testnet
    - **New RPC URL**: `https://testnet-rpc-00.qday.info` or `https://testnet-rpc-01.qday.info`
    - **Chain ID**: 1001
    - **Currency Symbol**: QDAY
    - **Block Explorer URL (Optional)**: `https://testnet-explorer.qday.info`
-   ![Manually Add Qday Testnet Network](/qday-testnet/metamask/add-metamask-network3-en.png)
+   ![Manually Add QDay Testnet Network](/qday-testnet/metamask/add-metamask-network3-en.png)
    Click the “Save” button to complete the addition.
-4. In the “Network Added Successfully!” prompt box, click “Switch to Qday Testnet,” or select and switch to “Qday Testnet” from the MetaMask network list selector in the upper left.
-   ![Switch to Qday Testnet in MetaMask](/qday-testnet/metamask/switch-metamask-qday-testnet-network-en.png)
+4. In the “Network Added Successfully!” prompt box, click “Switch to QDay Testnet,” or select and switch to “QDay Testnet” from the MetaMask network list selector in the upper left.
+   ![Switch to QDay Testnet in MetaMask](/qday-testnet/metamask/switch-metamask-qday-testnet-network-en.png)
 
 ## Obtain Wallet Address
 
 Click the MetaMask extension icon in the browser toolbar, then click the copy icon next to the “Account1” address at the top center of the pop-up window, and save it locally (it will be needed for subsequent operations).
 ![Get MetaMask Wallet Address](/qday-testnet/metamask/get-metamask-address.png)
 
-## Add Qday ERC20 token (pqUSD) to MetaMask
+## Add QDay ERC20 token (pqUSD) to MetaMask
 
 1. Click the MetaMask extension icon in the browser toolbar, then click “Import tokens” in the “Tokens” tab of the main interface;
    ![Import Token in MetaMask](/qday-testnet/metamask/import-tokens1.png)

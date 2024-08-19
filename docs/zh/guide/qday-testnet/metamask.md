@@ -47,34 +47,34 @@ outline: deep
 
 **注意**：助记词和私钥是你钱包账户的唯一备份，务必妥善保管，不要与他人分享。
 
-## 添加 Qday Testnet 到 MetaMask
+## 添加 QDay Testnet 到 MetaMask
 
-### 自动添加 Qday Testnet 至 MetaMask 网络列表
-(区块链浏览器自动添加 Qday Testnet 至 MetaMask 网络功能稍后推出)
+### 自动添加 QDay Testnet 至 MetaMask 网络列表
+(区块链浏览器自动添加 QDay Testnet 至 MetaMask 网络功能稍后推出)
 
-### 手动添加 Qday Testnet 到 MetaMask 网络列表
+### 手动添加 QDay Testnet 到 MetaMask 网络列表
 
 1. 打开 MetaMask，点击左上角的网络列表选择器（默认显示 “Ethereum Mainnet”），选择 “显示测试网络” ，然后点击 “添加网络” 按钮；
    ![MetaMask 添加网络](/qday-testnet/metamask/add-metamask-network1.png)
 2. 在弹出的添加网络页面页面中，点击页面底部的 “手动添加网络”；
-   ![手动添加 Qday Testnet 网络](/qday-testnet/metamask/add-metamask-network2.png)
+   ![手动添加 QDay Testnet 网络](/qday-testnet/metamask/add-metamask-network2.png)
 3. 在手动添加网络页面，填写以下信息：
-   - **网络名称**: Qday Testnet
+   - **网络名称**: QDay Testnet
    - **新的 RPC URL**: `https://testnet-rpc-00.qday.info` 或 `https://testnet-rpc-01.qday.info`
    - **链 ID**: 1001
    - **货币符号**: QDAY
    - **区块浏览器 URL（可选）**: `https://testnet-explorer.qday.info`
-   ![手动添加 Qday Testnet 网络](/qday-testnet/metamask/add-metamask-network3.png)
+   ![手动添加 QDay Testnet 网络](/qday-testnet/metamask/add-metamask-network3.png)
    点击 “保存” 按钮完成添加。
-4. 在 “网络添加成功！” 提示框中点击 “切换至 Qday Testnet”，或者在 MetaMask 左上角的网络列表选择器中选择并切换到 “Qday Testnet”。
-   ![MetaMask 切换 Qday Testnet 网络](/qday-testnet/metamask/switch-metamask-qday-testnet-network.png)
+4. 在 “网络添加成功！” 提示框中点击 “切换至 QDay Testnet”，或者在 MetaMask 左上角的网络列表选择器中选择并切换到 “QDay Testnet”。
+   ![MetaMask 切换 QDay Testnet 网络](/qday-testnet/metamask/switch-metamask-qday-testnet-network.png)
 
 ## 获取钱包地址
 
 在浏览器工具栏中点击 MetaMask 扩展程序图标，弹出窗口中点击顶部中间的 “Account1” 地址后面的复制图标，并保存到本地（后续操作需要用到）。
 ![获取 MetaMask 钱包地址](/qday-testnet/metamask/get-metamask-address.png)
 
-## 添加 Qday ERC20 token（pqUSD）到 MetaMask
+## 添加 QDay ERC20 token（pqUSD）到 MetaMask
 
 1. 在浏览器工具栏中点击 MetaMask 扩展程序图标，在主界面的 “Tokens” 标签页中点击 “Import tokens”；
    ![MetaMask 导入 Token](/qday-testnet/metamask/import-tokens1.png)

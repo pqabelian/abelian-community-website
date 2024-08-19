@@ -8,14 +8,14 @@ ABEL Testnet 质押服务允许用户通过质押 wAbel 代币，参与网络安
 
 ## ABEL 质押 wAbel 测试币
 
-打开 QDAY Testnet 的 ABEL 测试币质押 Qday Testnet weAbel 测试币服务网址：[ABEL Staking](https://testnet-defi.qday.info/ABELStaking) 或 [ABEL Staking 2](https://testnet-defi.abelqday.io/ABELStaking)。
+打开 QDAY Testnet 的 ABEL 测试币质押 QDay Testnet weAbel 测试币服务网址：[ABEL Staking](https://testnet-defi.qday.info/ABELStaking) 或 [ABEL Staking 2](https://testnet-defi.abelqday.io/ABELStaking)。
 
 ### ABEL 质押页面各栏说明
 
 1. **从网络 (From Network)**
 - 选择您要从中提取 ABEL 代币的区块链网络，默认为 “Abelian Testnetwork”（默认不可选）。
 2. **到网络 (To Network)**
-- 选择您希望质押的目标 QDay 代币的区块链网络，默认为 “Qday Testnetwork”（默认不可选）。
+- 选择您希望质押的目标 QDay 代币的区块链网络，默认为 “QDay Testnetwork”（默认不可选）。
 3. **从地址 (From Address)**
 - 输入您在选择的网络上存放 ABEL 代币的钱包地址。
 4. **到地址 (To Address)**
@@ -33,7 +33,7 @@ ABEL Testnet 质押服务允许用户通过质押 wAbel 代币，参与网络安
 
 #### 1. 连接钱包
 
-如果您已经在前面 Qday 质押页面连接了 MetaMask 钱包，请跳过此步骤。
+如果您已经在前面 QDay 质押页面连接了 MetaMask 钱包，请跳过此步骤。
 
 - 点击页面右上角的 “Connect” 按钮，选择 MetaMask 开始连接；
     ![连接钱包](/qday-testnet/abel-faucet/connect-metamask-wallet1.png)<br>

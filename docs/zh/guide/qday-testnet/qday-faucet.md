@@ -2,20 +2,20 @@
 outline: deep
 ---
 
-# Qday Testnet 测试币
+# QDay Testnet 测试币
 
-通过 Qday Testnet 水龙头或者 Discord 社区申请两种方式可以获取 QDAY 测试币。
+通过 QDay Testnet 水龙头或者 Discord 社区申请两种方式可以获取 QDAY 测试币。
 
 ## 获取 QDAY 测试币（水龙头）
 
-- 访问 [Qday Testnet 水龙头](https://testnet-faucet.qday.info/) 页面；
-  ![Qday Testnet 水龙头](/qday-testnet/qday-faucet/qday-faucet-page.png)<br>
+- 访问 [QDay Testnet 水龙头](https://testnet-faucet.qday.info/) 页面；
+  ![QDay Testnet 水龙头](/qday-testnet/qday-faucet/qday-faucet-page.png)<br>
 - 点击 “CONNECT WALLET” 按钮，在弹出窗口中点击 “MetaMask” 按钮；
   ![连接钱包](/qday-testnet/qday-faucet/connect-wallet.png)<br>
 - 在弹出的 MetaMask 扩展程序面板中选择需要连接的钱包 “Account1” 和 “Account2”，点击 “Next” 按钮进入授权页面，再点击 “Confirm” 按钮确认；
   ![选择连接 MetaMask 账户](/qday-testnet/qday-faucet/connect-metamask-accounts.png)<br>
 - 点击 “CLAIM QDAY” 按钮，可获取 1 个 QDAY 测试币（示例使用的是 Account1 账户地址接收）;
-  ![获取 Qday Testnet 测试币](/qday-testnet/qday-faucet/claim-qday.png)<br>
+  ![获取 QDay Testnet 测试币](/qday-testnet/qday-faucet/claim-qday.png)<br>
 - MetaMask 弹出签名窗口，点击 “Sign” 按钮进行签名；
   ![MetaMask 签名](/qday-testnet/qday-faucet/metamask-sign.png)<br>
 - 签名成功后，稍等一会 MetaMask 的 Account1 账户将到账 100 枚 QDAY 测试币，最多可领取10次，总计 1000 QDAY 测试币。
@@ -30,10 +30,10 @@ outline: deep
   ![Discord 创建 Ticket](/qday-testnet/qday-faucet/discord-create-ticket.png)<br>
 - 申请内容第一行为：`QDAY Testnet Faucet`；
 - 之后的内容请描述您申请 QDAY 测试币的目的，如需测试大额测试代币，描述越详细越容易通过审核；
-- 最后请留下 Qday Testnet 的 MetaMask 钱包地址（接收 QDAY 测试币）。
+- 最后请留下 QDay Testnet 的 MetaMask 钱包地址（接收 QDAY 测试币）。
 
 根据之前的创建 MetaMask 钱包账户示例，申请 QDAY 默认使用 “Account1” 的地址，QDAY 测试币到账后如图：
-![Qday 余额](/qday-testnet/qday-faucet/qday-balance.png)
+![QDay 余额](/qday-testnet/qday-faucet/qday-balance.png)
 
 ## MetaMask 转账 QDAY
 
@@ -47,7 +47,7 @@ outline: deep
 - 已添加 QDAY Testnet 到 MetaMask。
 - 已获取了一些 QDAY 测试币。
 
-如果你尚未完成上述步骤，请参考 [Qday 测试网用户指引](/zh/guide/qday-testnet/metamask) 前面关于 MetaMask 钱包的章节。
+如果你尚未完成上述步骤，请参考 [QDay 测试网用户指引](/zh/guide/qday-testnet/metamask) 前面关于 MetaMask 钱包的章节。
 
 ### 1. 打开 MetaMask
 

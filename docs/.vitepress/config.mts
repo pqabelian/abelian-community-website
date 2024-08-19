@@ -52,17 +52,17 @@ export default defineConfig({
                 { text: 'ABEL Yellowpaper', link: '/guide/abel-yellowpaper'},
                 { text: 'ABEL DSA Whitepaper', link: '/guide/abel-dsa-whitepaper'},
                 { text: 'Getting Started', link: '/guide/getting-started'},
-                { text: 'Qday Testnet User Guide',
+                { text: 'QDay Testnet User Guide',
                   collapsed: true,
                   items: [
-                    { text: 'Qday Testnet Introduction', link: '/guide/qday-testnet/' },
-                    { text: 'Qday Explorer', link: '/guide/qday-testnet/explorer' },
+                    { text: 'QDay Testnet Introduction', link: '/guide/qday-testnet/' },
+                    { text: 'QDay Explorer', link: '/guide/qday-testnet/explorer' },
                     { text: 'MetaMask Wallet', link: '/guide/qday-testnet/metamask' },
-                    { text: 'Qday Faucet', link: '/guide/qday-testnet/qday-faucet' },
-                    { text: 'Qday Staking', link: '/guide/qday-testnet/qday-staking' },
+                    { text: 'QDay Faucet', link: '/guide/qday-testnet/qday-faucet' },
+                    { text: 'QDay Staking', link: '/guide/qday-testnet/qday-staking' },
                     { text: 'ABEL Faucet', link: '/guide/qday-testnet/abel-faucet' },
                     { text: 'ABEL Staking', link: '/guide/qday-testnet/abel-staking' },
-                    { text: 'Qday DEX', link: '/guide/qday-testnet/dex' }
+                    { text: 'QDay DEX', link: '/guide/qday-testnet/dex' }
                   ]
                 },
                 { text: 'Abelian Wallet',
@@ -192,17 +192,17 @@ export default defineConfig({
                 { text: 'ABEL 黄皮书', link: '/zh/guide/abel-yellowpaper'},
                 { text: 'ABEL 难度调整白皮书', link: '/zh/guide/abel-dsa-whitepaper'},
                 { text: '由此开始', link: '/zh/guide/getting-started'},
-                { text: 'Qday 测试网用户指引',
+                { text: 'QDay 测试网用户指引',
                   collapsed: true,
                   items: [
-                    { text: 'Qday 测试网简介', link: '/zh/guide/qday-testnet/' },
-                    { text: 'Qday 浏览器', link: '/zh/guide/qday-testnet/explorer' },
+                    { text: 'QDay 测试网简介', link: '/zh/guide/qday-testnet/' },
+                    { text: 'QDay 浏览器', link: '/zh/guide/qday-testnet/explorer' },
                     { text: 'MetaMask 钱包', link: '/zh/guide/qday-testnet/metamask' },
-                    { text: 'Qday 水龙头', link: '/zh/guide/qday-testnet/qday-faucet' },
-                    { text: 'Qday 质押', link: '/zh/guide/qday-testnet/qday-staking' },
+                    { text: 'QDay 水龙头', link: '/zh/guide/qday-testnet/qday-faucet' },
+                    { text: 'QDay 质押', link: '/zh/guide/qday-testnet/qday-staking' },
                     { text: 'ABEL 水龙头', link: '/zh/guide/qday-testnet/abel-faucet' },
                     { text: 'ABEL 质押', link: '/zh/guide/qday-testnet/abel-staking' },
-                    { text: 'Qday DEX', link: '/zh/guide/qday-testnet/dex' }
+                    { text: 'QDay DEX', link: '/zh/guide/qday-testnet/dex' }
                   ]
                 },
                 { text: 'Abelian 钱包',

@@ -2,20 +2,20 @@
 outline: deep
 ---
 
-# Qday Testnet Test Tokens
+# QDay Testnet Test Tokens
 
-You can obtain QDAY test tokens through the Qday Testnet faucet or by applying in the Discord community.
+You can obtain QDAY test tokens through the QDay Testnet faucet or by applying in the Discord community.
 
 ## Obtaining QDAY Test Tokens (Faucet)
 
-- Visit the [Qday Testnet Faucet](https://testnet-faucet.qday.info/) page;
-  ![Qday Testnet Faucet](/qday-testnet/qday-faucet/qday-faucet-page.png)<br>
+- Visit the [QDay Testnet Faucet](https://testnet-faucet.qday.info/) page;
+  ![QDay Testnet Faucet](/qday-testnet/qday-faucet/qday-faucet-page.png)<br>
 - Click the “CONNECT WALLET” button, and in the pop-up window, click the “MetaMask” button;
   ![Connect Wallet](/qday-testnet/qday-faucet/connect-wallet.png)<br>
 - In the MetaMask extension panel that pops up, select the wallet accounts “Account1” and “Account2” you want to connect, click the “Next” button to proceed to the authorization page, then click the “Confirm” button to confirm;
   ![Select MetaMask Accounts](/qday-testnet/qday-faucet/connect-metamask-accounts.png)<br>
 - Click the “CLAIM QDAY” button to receive 1 QDAY test token (the example uses the Account1 address to receive);
-  ![Claim Qday Test Tokens](/qday-testnet/qday-faucet/claim-qday.png)<br>
+  ![Claim QDay Test Tokens](/qday-testnet/qday-faucet/claim-qday.png)<br>
 - MetaMask will pop up a signature window, click the “Sign” button to sign;
   ![MetaMask Signature](/qday-testnet/qday-faucet/metamask-sign.png)<br>
 - After a successful signature, the Account1 account in MetaMask will receive 100 QDAY test tokens, you can claim up to 10 times, totaling 1000 QDAY test tokens.
@@ -30,10 +30,10 @@ Please join the official pqAbelian [Discord Channel](https://discord.gg/Rrb33mC3
   ![Create Support Ticket](/qday-testnet/qday-faucet/discord-create-ticket.png)<br>
 - The first line should be: `QDAY Testnet Faucet`;
 - In the following content, describe the purpose of your QDAY test token application. The more detailed your description, the easier it will be to get approved, especially for large amounts of test tokens;
-- Finally, leave your MetaMask wallet address for the Qday Testnet (to receive QDAY test tokens).
+- Finally, leave your MetaMask wallet address for the QDay Testnet (to receive QDAY test tokens).
 
 Based on the previous example of creating a MetaMask wallet account, the default address for applying for QDAY is the “Account1” address. After receiving QDAY test tokens, it will look like this:
-![Qday Balance](/qday-testnet/qday-faucet/qday-balance.png)
+![QDay Balance](/qday-testnet/qday-faucet/qday-balance.png)
 
 ## Transferring QDAY with MetaMask
 
@@ -47,7 +47,7 @@ Before starting, please ensure you have completed the following:
 - Added QDAY Testnet to MetaMask.
 - Obtained some QDAY test tokens.
 
-If you have not completed the above steps, please refer to the [Qday Testnet User Guide](/zh/guide/qday-testnet/metamask) for the MetaMask wallet sections.
+If you have not completed the above steps, please refer to the [QDay Testnet User Guide](/zh/guide/qday-testnet/metamask) for the MetaMask wallet sections.
 
 ### 1. Open MetaMask
 
