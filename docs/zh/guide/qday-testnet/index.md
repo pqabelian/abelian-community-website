@@ -25,7 +25,7 @@ QDay 通过利用 Abelian 区块链的量子安全算法，将安全措施提升
 
 - **区块链浏览器**：访问 QDay Testnet 的浏览器，你可以搜索区块高度、交易哈希或地址，查看详细信息。
 - **MetaMask**：使用 MetaMask 钱包连接 QDay Testnet 网络，添加 QDay ERC20 token 进行钱包管理和交易操作。
-- **Faucet**：领取 QDay 代币（水龙头）。
+- **Faucet**：领取 QDay 代币（Testnet）。
 - **DEX**：探索去中心化交易所，体验 QDay 的金融生态系统。
 - **DApp**：在 QDay Testnet 上体验使用 QDay 代币参与质押、获取奖励，跨链桥交易等金融化产品。
 

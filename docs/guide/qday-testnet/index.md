@@ -25,7 +25,7 @@ Users can participate in the QDay Testnet and experience the following features:
 
 - **Blockchain Explorer**: Access the QDay Testnet explorer to search for block heights, transaction hashes, or addresses and view detailed information.
 - **MetaMask**: Connect to the QDay Testnet network using the MetaMask wallet, add QDay ERC20 tokens for wallet management and transaction operations.
-- **Faucet**: Claim QDay tokens (faucet).
+- **Faucet**: Claim QDay tokens (Testnet).
 - **DEX**: Explore decentralized exchanges and experience QDay's financial ecosystem.
 - **DApp**: Experience using QDay tokens on the QDay Testnet for staking, earning rewards, cross-chain bridge transactions, and other financial products.
 
