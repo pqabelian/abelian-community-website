@@ -38,7 +38,7 @@ Files list:（A total of 14 zip archives）
 
 ## Extract Mainnet Data zip files
 
-### Abelian Desktop Wallet for Windows
+### Desktop Wallet for Windows
 1. Close and exit Windows Desktop Wallet Client;
 2. Place the downloaded 14 files in the same directory;
 3. Use 7zip software to open the `mainnet.zip.001 file`, Extract the mainnet directory and overwrite it to the **default path**;
@@ -46,7 +46,7 @@ Files list:（A total of 14 zip archives）
 
 ---
 
-### Abelian macOS Desktop Wallet
+### Desktop Wallet for macOS
 1. Close and exit the macOS desktop wallet;
 2. Place the 14 downloaded files in the same directory and perform the extraction:
 ```
@@ -63,7 +63,7 @@ mv -f mainnet ~/Library/Application\ Support/Abelian\ Wallet/Abec/
 
 ---
 
-### Abelian Full Node for Linux
+### Full Node for Linux
 1. Stop full node process `abec` or `abectl`
 2. Place the downloaded 14 files in the same directory, and execute the extract command:
 ```
