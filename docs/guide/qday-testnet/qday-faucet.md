@@ -14,7 +14,7 @@ You can obtain QDAY test tokens through the QDay Testnet faucet or by applying i
   ![Connect Wallet](/qday-testnet/qday-faucet/connect-wallet.png)<br>
 - In the MetaMask extension panel that pops up, select the wallet accounts “Account1” and “Account2” you want to connect, click the “Next” button to proceed to the authorization page, then click the “Confirm” button to confirm;
   ![Select MetaMask Accounts](/qday-testnet/qday-faucet/connect-metamask-accounts.png)<br>
-- Click the “CLAIM QDAY” button to receive 1 QDAY test token (the example uses the Account1 address to receive);
+- Click the “CLAIM QDAY” button to receive 100 QDAY test token (the example uses the Account1 address to receive);
   ![Claim QDay Test Tokens](/qday-testnet/qday-faucet/claim-qday.png)<br>
 - MetaMask will pop up a signature window, click the “Sign” button to sign;
   ![MetaMask Signature](/qday-testnet/qday-faucet/metamask-sign.png)<br>

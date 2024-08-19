@@ -14,7 +14,7 @@ outline: deep
   ![连接钱包](/qday-testnet/qday-faucet/connect-wallet.png)<br>
 - 在弹出的 MetaMask 扩展程序面板中选择需要连接的钱包 “Account1” 和 “Account2”，点击 “Next” 按钮进入授权页面，再点击 “Confirm” 按钮确认；
   ![选择连接 MetaMask 账户](/qday-testnet/qday-faucet/connect-metamask-accounts.png)<br>
-- 点击 “CLAIM QDAY” 按钮，可获取 1 个 QDAY 测试币（示例使用的是 Account1 账户地址接收）;
+- 点击 “CLAIM QDAY” 按钮，可获取 100 个 QDAY 测试币（示例使用的是 Account1 账户地址接收）;
   ![获取 QDay Testnet 测试币](/qday-testnet/qday-faucet/claim-qday.png)<br>
 - MetaMask 弹出签名窗口，点击 “Sign” 按钮进行签名；
   ![MetaMask 签名](/qday-testnet/qday-faucet/metamask-sign.png)<br>
