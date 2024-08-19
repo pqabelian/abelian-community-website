@@ -13,7 +13,7 @@ C:\Users\<USER_NAME>\AppData\Roaming\Abelian Wallet\Abec\mainnet
 ```
 
 ```txt [MacOS]
-/Users/<USER_NAME>/Library/Application Support/Abelian Wallet/Abec/mainnet
+~/Library/Application Support/Abelian Wallet/Abec/mainnet
 ```
 
 ```txt [Linux]
