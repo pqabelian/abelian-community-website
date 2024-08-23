@@ -68,10 +68,10 @@ export default defineConfig({
                 { text: 'Abelian Wallet',
                   collapsed: true,  
                   items: [
-                    { text: 'Mobile Wallet', link: '/guide/wallet/mobile-wallet' },
-                    { text: 'Mobile Wallet Pro', link: '/guide/wallet/mobile-wallet-pro' },
+                    //{ text: 'Mobile Wallet Pro', link: '/guide/wallet/mobile-wallet-pro' },
                     { text: 'Desktop Wallet', link: '/guide/wallet/desktop-wallet' },
-                    { text: 'Wallet CLI', link: '/guide/wallet/wallet-cli' },
+                    { text: 'MLP Wallet CLI', link: '/guide/wallet/mlp-wallet-cli' },
+                    { text: 'Legacy Wallet CLI', link: '/guide/wallet/legacy-wallet-cli' },
                     { text: 'Wallet CLI Lite', link: '/guide/wallet/wallet-cli-lite' }
                   ]
                 },
@@ -208,10 +208,10 @@ export default defineConfig({
                 { text: 'Abelian 钱包',
                   collapsed: true,  
                   items: [
-                    { text: '移动钱包', link: '/zh/guide/wallet/mobile-wallet' },
-                    { text: '移动钱包 Pro', link: '/zh/guide/wallet/mobile-wallet-pro' },
+                    //{ text: '移动钱包 Pro', link: '/zh/guide/wallet/mobile-wallet-pro' },
                     { text: '桌面钱包', link: '/zh/guide/wallet/desktop-wallet' },
-                    { text: '钱包（CLI）', link: '/zh/guide/wallet/wallet-cli' },
+                    { text: '多层隐私钱包 CLI', link: '/zh/guide/wallet/mlp-wallet-cli' },
+                    { text: '传统钱包（CLI）', link: '/zh/guide/wallet/legacy-wallet-cli' },
                     { text: '轻量钱包（CLI）', link: '/zh/guide/wallet/wallet-cli-lite' }
                   ]
                 },
