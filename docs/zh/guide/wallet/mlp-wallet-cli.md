@@ -8,7 +8,7 @@ outline: deep
 
 所有操作都通过命令行界面（CLI）进行。在 Linux 或 macOS 上，请打开终端；在 Windows 上，请打开 PowerShell 或任何你喜欢的 shell 应用程序。
 
-官方 Abelian 下载页面位于 [下载页面](https://pqabelian.io/download)。要与其他矿工、开发者和用户互动，请访问官方 Discord 服务器 [Discord 频道](https://discord.gg/cPUhCmsw)。
+官方 Abelian 下载页面位于 [下载页面](https://pqabelian.io/download)。要与其他矿工、开发者和用户互动，请访问官方 [Discord 频道](https://discord.gg/cPUhCmsw)。
 
 ## 安装
 

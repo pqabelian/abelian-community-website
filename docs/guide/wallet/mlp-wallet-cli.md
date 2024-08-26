@@ -9,7 +9,7 @@ This document describes how to run an Abelian Multi-layer Privacy Wallet CLI (ab
 All the operations are carried out via the Command Line Interface (CLI). For Linux or macOS, open Terminal; and for Windows, open PowerShell or any of your favorite shell application.
 
 The official Abelian download page is located at [Download Page](https://pqabelian.io/download). To interact with
-other miners, developers and users, visit the official Discord server at [Discord Channel](https://discord.gg/cPUhCmsw).
+other miners, developers and users, visit the official [Discord Channel](https://discord.gg/cPUhCmsw).
 
 ## Installation
 
