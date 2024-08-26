@@ -177,8 +177,8 @@ $ .\abewallet.exe --rpcuser=[rpcuser] --rpcpass=[rpcpass] --walletpass=[your pub
 
 Note:
 1. The purpose of the `--rpcuser=[rpcuser]` and `--rpcpass=[rpcpass]` parameters:
-  - rpcuser: abec username, used to access the abec RPC interface
-  - rpcpass: abec password, used to access the abec RPC interface
+  - rpcuser: The RPC connection username for abec, used for proper wallet verification and connecting to abec.
+  - rpcpass: The RPC connection password for abec is used to correctly verify and connect the wallet to abec.
 
 2. Analyze the operation wallet logs:
 ```text

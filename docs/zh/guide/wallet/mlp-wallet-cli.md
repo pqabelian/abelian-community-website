@@ -173,8 +173,8 @@ $ .\abewallet.exe --rpcuser=[rpcuser] --rpcpass=[rpcpass] --walletpass=[your pub
 
 注意：
 1. `--rpcuser=[rpcuser]` 和 `--rpcpass=[rpcpass]` 参数的作用：
-  - rpcuser：abec 用户名，用于访问 abec RPC 接口
-  - rpcpass：abec 密码，用于访问 abec RPC 接口
+  - rpcuser：abec 的 RPC 连接用户名，使用参数用于钱包正确验证并连接 abec。
+  - rpcpass：abec 的 RPC 连接密码，使用参数用于钱包正确验证并连接 abec。
 
 2. 分析操作钱包的日志：
 ```text
