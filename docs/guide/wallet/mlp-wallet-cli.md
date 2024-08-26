@@ -4,7 +4,7 @@ outline: deep
 
 # Abelian Multi-layer Privacy Wallet CLI Manual
 
-This document describles how to run an Abelian Multi-layer Privacy Wallet CLI (abewalletmlp).
+This document describes how to run an Abelian Multi-layer Privacy Wallet CLI (abewalletmlp).
 
 All the operations are carried out via the Command Line Interface (CLI). For Linux or macOS, open Terminal; and for Windows, open PowerShell or any of your favorite shell application.
 
@@ -13,7 +13,7 @@ other miners, developers and users, visit the official Discord server at [Discor
 
 ## Installation
 
-Download latest released pre-compiled binary on the [Download Page](https://pqabelian.io/download), at the time of writing, The latest abec version is 1.0.0, while the latest abewalletmlp version is 1.0.1. The download url for different platforms as following:
+Download latest released pre-compiled binary on the [Download Page](https://pqabelian.io/download), at the time of writing, The latest abec version is 1.0.0, while the latest abewalletmlp version is 1.0.1. The download url for different platforms as following (Please refer to the latest version on the pqabelian.io download page; the example is for reference only.):
 
 - Windows:<br>
   [abec-windows-amd64-v1.0.0.zip](https://download.pqabelian.io/release/abec/abec-windows-amd64-v1.0.0.zip),<br>
@@ -155,7 +155,7 @@ The wallet has been created successfully.
 The `public passphrase` will be used when running abewalletmlp, and the `private passphrase` will be
 used to unlock the wallet for generating new address or transferring ABEL tokens.
 
-Note that differ from `abewalletlegacy`, there is no initial address generated, and we'll explain how to generate one as mining address or payee address later.
+Note that compared to `abewalletlegacy`, there is no initial address generated, and we'll explain how to generate one as mining address or payee address later.
 
 ***VERY IMPORTANT: keep the mnemonic list in a safe place. The mnemonic list can be used for recovering
 the wallet, install another machine while using the same wallet.***
@@ -175,6 +175,28 @@ $ .\abewallet.exe --rpcuser=[rpcuser] --rpcpass=[rpcpass] --walletpass=[your pub
 ```
 :::
 
+Note:
+1. The purpose of the `--rpcuser=[rpcuser]` and `--rpcpass=[rpcpass]` parameters:
+  - rpcuser: abec username, used to access the abec RPC interface
+  - rpcpass: abec password, used to access the abec RPC interface
+
+2. Analyze the operation wallet logs:
+```text
+[INF] ABEW: Version 1.0.1
+[INF] RPCS: Listening on 127.0.0.1:18665
+[INF] ABEW: Chain server RPC TLS is disabled
+[INF] ABEW: Attempting RPC client connection to localhost:18667
+[INF] RPCS: Listening on [::1]:18665
+[INF] CHNS: Established connection to RPC server localhost:18667
+[INF] WLLT: Opened wallet
+[INF] WLLT: Catching up block hashes to height 388630, this might take a while
+[INF] WLLT: Done catching up block hashes
+[INF] TMGR: Current sync height 388631, hash 46de0ac172d8b8f136db543edf412365c218ad7492628642c06dbe2ddfaf9d0e
+```
+- `Established connection to RPC server` means that a connection has been established to the abec RPC interface;
+- `Opened wallet` means that the wallet is now running;
+- `Current sync height 388631` indicates that the wallet has started syncing blocks and shows the current sync height.
+
 Then unlock wallet via **private** passphrase:
 
 ```shell
@@ -183,15 +205,16 @@ $ sh start_abewalletmlpctl.sh --rpcuser=[rpcuser] --rpcpass=[rpcpass] walletunlo
 
 # generate one address with full-privacy level
 $ sh start_abewalletmlpctl.sh --rpcuser=[rpcuser] --rpcpass=[rpcpass] generateaddressabe 1 1
+# Output generated wallet address (JSON format)
 [
   {
     "addr": "0001000000010104eeb57aa5e203bd1794c3661114de89a1b9506f5db14e0cab9831f9c944427c97dbddf31e97bc604f7220077ab7b01d01d9e5d943f136964803838784aea5c76efe141585d239c1f8123b68a1b2f9d7e52fdc9fd566e65d9e96bf8b3d4d527947d26c7b2639febacbc463083dc34d68e2d09e56b64f7e411ebb3b585bda06d00b7be7c2219..."
   }
 ]
 
-
 # generate one address with pseudonymous level
 $ sh start_abewalletmlpctl.sh --rpcuser=[rpcuser] --rpcpass=[rpcpass] generateaddressabe 1 2
+# Output generated wallet address (JSON format)
 [
   {
     "addr": "0001000000020209099f1427fe710ed6bb8905b87f8722b69d735c0bf6ab088da1e4b439db0ea95045ccb57a13fb9f4c09b2b820f6abb3a6636c146e00bb3a4cd4ecb5b1f6c81c60893c6104a94ba2fa864655126d7e02466302b37603af606aa4ff62b81b182fd25c94aad20dde997fcbbdd044a8c04d50e40f8a18179de74ed0419e5de6355f759450e962..."
@@ -279,15 +302,15 @@ Go to `~/abel/abewalletmlp-macos-amd64-v1.0.1` and run as follow:
 ::: code-group
 
 ```txt [macOS and Linux]
-$ sh start_abewalletmlp.sh --rpcuser=[whatever_username] --rpcpass=[whatever_password] --walletpass=[your public passphrase]
+$ sh start_abewalletmlp.sh --rpcuser=[rpcuser] --rpcpass=[rpcpass] --walletpass=[your public passphrase]
 ```
 
 ```txt [Windows]
-$ .\abewalletmlp.exe --rpcuser=[whatever_username] --rpcpass=[whatever_password] --walletpass=[your public passphrase]
+$ .\abewalletmlp.exe --rpcuser=[rpcuser] --rpcpass=[rpcpass] --walletpass=[your public passphrase]
 ```
 :::
 
-Note: The following assumes that the run command is `sh start_abewalletmlp.sh --rpcuser=rpcuser --rpcpass=rpcpass --walletpass=[your public passphrase]`, but you can actually set it up as desired
+Note: The following assumes that the run command is `sh start_abewalletmlp.sh --rpcuser=[rpcuser] --rpcpass=[rpcpass] --walletpass=[your public passphrase]`, but you can actually set it up as desired
 
 ## Operations on Wallet
 
@@ -300,11 +323,11 @@ Run the following to check the balance of your wallet:
 ::: code-group
 
 ```txt [macOS and Linux]
-$ sh start_abewalletmlpctl.sh --rpcuser=rpcuser --rpcpass=rpcpass getbalancesabe
+$ sh start_abewalletmlpctl.sh --rpcuser=[rpcuser] --rpcpass=[rpcpass] getbalancesabe
 ```
 
 ```txt [Windows]
-$ .\abewalletmlpctl.exe --rpcuser=rpcuser --rpcpass=rpcpass getbalancesabe
+$ .\abewalletmlpctl.exe --rpcuser=[rpcuser] --rpcpass=[rpcpass] getbalancesabe
 ```
 :::
 
@@ -315,11 +338,11 @@ As shown in [Generate Address](#3-generate-address), when sensitive operations o
 ::: code-group
 
 ```txt [macOS and Linux]
-$ sh start_abewalletmlpctl.sh --rpcuser=rpcuser --rpcpass=rpcpass walletunlock [your private passphrase] [expire time in second]
+$ sh start_abewalletmlpctl.sh --rpcuser=[rpcuser] --rpcpass=[rpcpass] walletunlock [your private passphrase] [expire time in second]
 ```
 
 ```txt [Windows]
-$ .\abewalletmlpctl.exe --rpcuser=rpcuser --rpcpass=rpcpass walletunlock [your private passphrase] [expire time in second]
+$ .\abewalletmlpctl.exe --rpcuser=[rpcuser] --rpcpass=[rpcpass] walletunlock [your private passphrase] [expire time in second]
 ```
 :::
 
@@ -327,7 +350,7 @@ $ .\abewalletmlpctl.exe --rpcuser=rpcuser --rpcpass=rpcpass walletunlock [your p
 
 As you saw in [Generate Address](#generate-address), the fully-privacy address will be very long, which will make it exceed the length limit of the command line if directly put address in it.
 
-Instead, you are expected to create a file called `arg1` in the configuration folder of `abec` and put the receivers' address and amount into it. The format would be as follows:
+Instead, you are expected to create a file called `arg1` in the configuration folder of `abec` and put one or two receivers' address and amount into it. The format would be as follows:
 
 ```text
 [
@@ -349,11 +372,11 @@ Then, you can make a transfer by following command:
 ::: code-group
 
 ```txt [macOS and Linux]
-$ sh start_abewalletmlpctl.sh --rpcuser=rpcuser --rpcpass=rpcpass sendtoaddressesabe -
+$ DYLD_LIBRARY_PATH="./lib" ./abewalletmlpctl --rpcuser=[rpcuser] --rpcpass=[rpcpass] sendtoaddressesabe -
 ```
 
 ```txt [Windows]
-$ .\abewalletmlpctl.exe --rpcuser=rpcuser --rpcpass=rpcpass sendtoaddressesabe -
+$ .\abewalletmlpctl.exe --rpcuser=[rpcuser] --rpcpass=[rpcpass] sendtoaddressesabe -
 ```
 :::
 
@@ -362,11 +385,11 @@ This command support customization requirements with specific pattern, such as:
 ::: code-group
 
 ```txt [macOS and Linux]
-$ sh start_abewalletmlpctl.sh sendtoaddressesabe - 0 1 1000 "" true true
+$ DYLD_LIBRARY_PATH="./lib" ./abewalletmlpctl --rpcuser=[rpcuser] --rpcpass=[rpcpass] sendtoaddressesabe - 0 1 1000 ""  true true
 ```
 
 ```txt [Windows]
-$ .\abewalletmlpctl.exe sendtoaddressesabe - 0 1 1000 "" true true
+$ .\abewalletmlpctl.exe --rpcuser=[rpcuser] --rpcpass=[rpcpass] sendtoaddressesabe - 0 1 1000 "" true true
 ```
 :::
 
@@ -384,10 +407,26 @@ Before you recover wallet, please first prepare the information as following:
 
 - Mnemonic list for current wallet
 - Check the balance of the current wallet
-- Backup configuration folder when current wallet is closed. Please copy the folder to somewhere else which is also safe. This, together with the public and private passphrase, may help rollback to the current wallet in case your mnemonics are not as you expected.
+- Backup **configuration folder** when current wallet is closed. Please copy the folder to somewhere else which is also safe. This, together with the public and private passphrase, may help rollback to the current wallet in case your mnemonics are not as you expected.
 
-After finishing the preparation, delete `logs/` and `mainnet/` folders in the configuration folder
-of abewalletmlp, and run:
+**configuration folder** path:
+
+::: code-group
+
+```txt [Windows]
+C:\Users\<USER_NAME>\AppData\Local\Abewallet
+```
+
+```txt [MacOS]
+~/Library/Application Support/Abewallet
+```
+
+```txt [Linux]
+~/.abewallet
+```
+:::
+
+After finishing the preparation, delete `logs/` and `mainnet/` folders in the **configuration folder** of abewalletmlp, and run:
 
 ::: code-group
 
