@@ -191,7 +191,7 @@ $ .\abewallet.exe --rpcuser=[rpcuser] --rpcpass=[rpcpass] --walletpass=[your pub
 ```
 - `Established connection to RPC server` 表示已连接到 abec RPC 接口；
 - `Opened wallet` 表示钱包已运行；
-- `Current sync height 388631` 表示钱包已开始同步区块，并显示当前同步高度。
+- `Current sync height` 表示钱包已开始同步区块，并显示当前同步高度。
 
 然后通过**私有**密码短语解锁钱包：
 

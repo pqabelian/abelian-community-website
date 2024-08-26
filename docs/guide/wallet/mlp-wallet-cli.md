@@ -195,7 +195,7 @@ Note:
 ```
 - `Established connection to RPC server` means that a connection has been established to the abec RPC interface;
 - `Opened wallet` means that the wallet is now running;
-- `Current sync height 388631` indicates that the wallet has started syncing blocks and shows the current sync height.
+- `Current sync height` indicates that the wallet has started syncing blocks and shows the current sync height.
 
 Then unlock wallet via **private** passphrase:
 
