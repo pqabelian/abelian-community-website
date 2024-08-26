@@ -8,6 +8,3 @@
     - [AMD 显卡相关问题](/zh/faq/hardware-issues/amd)
     - [NVIDIA 显卡相关问题](/zh/faq/hardware-issues/nvidia)
 - [**矿池相关问题**](/zh/faq/pool-issues)
-- [**基础教程**](/zh/faq/basic-tutorial/)
-// - [**进阶教程**](/zh/faq/advanced-tutorial/)
-// - [**社区精华**](/zh/faq/community/)
