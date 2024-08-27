@@ -35,7 +35,7 @@ Unzip them and move them into the folder `~/abel/`:
 
 ```shell
 $ ls ~/abel
-abec-macos-amd64-v1.0.0 abewallet-macos-amd64-v1.0.1
+abec-macos-amd64-v1.0.0 abewalletmlp-macos-amd64-v1.0.1
 $ ls ~/abel/abec-macos-amd64-v1.0.0
 abec abectl start_abec.sh start_abectl.sh ...
 $ ls ~/abel/abewalletmlp-macos-amd64-v1.0.1
@@ -171,7 +171,7 @@ $ sh start_abewalletmlp.sh --rpcuser=[rpcuser] --rpcpass=[rpcpass] --walletpass=
 ```
 
 ```txt [Windows]
-$ .\abewallet.exe --rpcuser=[rpcuser] --rpcpass=[rpcpass] --walletpass=[your public passphrase]
+$ .\abewalletmlp.exe --rpcuser=[rpcuser] --rpcpass=[rpcpass] --walletpass=[your public passphrase]
 ```
 :::
 
