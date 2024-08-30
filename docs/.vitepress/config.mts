@@ -20,7 +20,7 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: 'Home', link: '/' },
-          { text: 'Getting Started', link: '/guide/getting-started' },
+          { text: 'Get Started', link: '/guide/get-started' },
           { text: 'API/SDK', link: '/apis/core-api' },
           { text: 'FAQ', link: '/faq/' },
           { text: 'Downloads',
@@ -51,7 +51,7 @@ export default defineConfig({
                 { text: 'ABEL Whitepaper', link: '/guide/abel-whitepaper'},
                 { text: 'ABEL Yellowpaper', link: '/guide/abel-yellowpaper'},
                 { text: 'ABEL DSA Whitepaper', link: '/guide/abel-dsa-whitepaper'},
-                { text: 'Getting Started', link: '/guide/getting-started'},
+                { text: 'Get Started', link: '/guide/get-started'},
                 { text: 'QDay Testnet User Guide',
                   collapsed: true,
                   items: [
@@ -160,7 +160,7 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: '首页', link: '/zh/' },
-          { text: '由此开始', link: '/zh/guide/getting-started' },
+          { text: '由此开始', link: '/zh/guide/get-started' },
           { text: 'API/SDK', link: '/zh/apis/core-api' },
           { text: '问答', link: '/zh/faq/' },
           { text: '下载',
@@ -191,7 +191,7 @@ export default defineConfig({
                 { text: 'ABEL 白皮书', link: '/zh/guide/abel-whitepaper'},
                 { text: 'ABEL 黄皮书', link: '/zh/guide/abel-yellowpaper'},
                 { text: 'ABEL 难度调整白皮书', link: '/zh/guide/abel-dsa-whitepaper'},
-                { text: '由此开始', link: '/zh/guide/getting-started'},
+                { text: '由此开始', link: '/zh/guide/get-started'},
                 { text: 'QDay 测试网用户指引',
                   collapsed: true,
                   items: [

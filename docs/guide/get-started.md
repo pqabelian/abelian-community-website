@@ -1,9 +1,8 @@
 ---
-title: Getting Started
 outline: deep
 ---
 
-# Getting Started
+# Get Started
 
 ## 1. Installation
 There are three pieces of software: **abec**, **abewallet** and **abectl**. They are downloaded in two compressed files, something like **abec-macos-amd64-v0.11.0.tar.gz** and **abewallet-macos-amd64-v0.11.0.tar.gz** for macOS running on an x86 architecture (e.g. Intel chips). More information can be found in the Discord.
