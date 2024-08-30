@@ -5,20 +5,20 @@ outline: deep
 # Get Started
 
 ## 1. Installation
-There are three pieces of software: **abec**, **abewallet** and **abectl**. They are downloaded in two compressed files, something like **abec-macos-amd64-v0.11.0.tar.gz** and **abewallet-macos-amd64-v0.11.0.tar.gz** for macOS running on an x86 architecture (e.g. Intel chips). More information can be found in the Discord.
+There are three pieces of software: **abec**, **abewallet** and **abectl**. They are downloaded in two compressed files, something like **abec-macos-amd64-v1.0.0.tar.gz** and **abewalletmlp-macos-amd64-v1.0.1.tar.gz** for macOS running on an x86 architecture (e.g. Intel chips). More information can be found in the Discord.
 
-Unzip both files, you will get two folders, something like **abec-macos-amd64-v0.11.0/** and **abewallet-macos-amd64-v0.11.0/**. To ease the description below, let's put these two folders under a folder called **abel/** under **Documents**. Something like:
+Unzip both files, you will get two folders, something like **abec-macos-amd64-v1.0.0/** and **abewalletmlp-macos-amd64-v1.0.1/**. To ease the description below, let's put these two folders under a folder called **abel/** under **Documents**. Something like:
 
 ```shell
-1. ~/Documents/abel/abec-macos-amd64-v0.11.0/
-2. ~/Documents/abel/abewallet-macos-amd64-v0.11.0/
+1. ~/Documents/abel/abec-macos-amd64-v1.0.0/
+2. ~/Documents/abel/abewalletmlp-macos-amd64-v1.0.1/
 ```
 
-**abec** and **abectl** are in ```~/Documents/abel/abec-macos-amd64-v0.11.0/``` and ***abewallet*** is in ```~/Documents/abel/abewallet-macos-amd64-v0.11.0/```.
+**abec** and **abectl** are in ```~/Documents/abel/abec-macos-amd64-v1.0.0/``` and ***abewallet*** is in ```~/Documents/abel/abewalletmlp-macos-amd64-v1.0.1/```.
 
 To run these software, we use Terminal (for macOS and Linux) or PowerShell (for Windows).
 
-Open a Terminal / PowerShell, go to ```~/Documents/abel/abec-macos-amd64-v0.11.1/```, and run
+Open a Terminal / PowerShell, go to ```~/Documents/abel/abec-macos-amd64-v1.0.0/```, and run
 
 ```shell
 # macOS and Linux
@@ -33,7 +33,7 @@ Then press control+C. By doing this, we create a **configuration folder** locate
 - macOS: /Users/[username]/Library/Application Support/Abec
 - Linux: /home/[username]/.abec
 
-Next, open another Terminal / PowerShell, go to ```~/Documents/abel/abewallet-macos-amd64-v0.11.0/```, and run
+Next, open another Terminal / PowerShell, go to ```~/Documents/abel/abewalletmlp-macos-amd64-v1.0.1/```, and run
 
 ```shell
 # macOS and Linux
@@ -56,7 +56,7 @@ Then press control+C. By doing this, we create a **configuration folder** locate
 **Note**: On macOS, if it says ```'xxx' cannot be opened because the developer cannot be verified```, go to ```System Preferences -> Security & Privacy -> General``` and click ```allow anyway```. 
 
 ## 2. Create a wallet
-To create a wallet, go to ```~/Documents/abel/abewallet-macos-amd64-v0.11.1/``` and run
+To create a wallet, go to ```~/Documents/abel/abewalletmlp-macos-amd64-v1.0.1/``` and run
 
 ```shell
 # macOS and Linux
@@ -195,7 +195,7 @@ cafile=~/Documents/abel/rpc.cert
 ```
 
 ## 5. Running a Full (Mining) Node - abec
-Go to ```~/Documents/abel/abec-macos-amd64-v0.11.1/``` and run a full node (abec):
+Go to ```~/Documents/abel/abec-macos-amd64-v1.0.0/``` and run a full node (abec):
 
 ```shell
 # macOS and Linux
@@ -232,7 +232,7 @@ Example:
 ```
 
 ## 6. Running a Wallet - abewallet
-Go to ```~/Documents/abel/abewallet-macos-amd64-v0.11.1/```  and run the wallet (abewallet):
+Go to ```~/Documents/abel/abewalletmlp-macos-amd64-v1.0.1/```  and run the wallet (abewallet):
 
 ```shell
 # macOS and Linux
@@ -375,13 +375,13 @@ If you already have a version of the mining software suite running (say v0.10.1)
 
 Stop running both abec and abewallet of the old version.
 
-Download and unzip the two compressed files, e.g. **abec-macos-amd64-v0.11.0.tar.gz** and **abewallet-macos-amd64-v0.11.0.tar.gz** for macOS running on an x86 architecture (e.g. Intel chips).
+Download and unzip the two compressed files, e.g. **abec-macos-amd64-v1.0.0.tar.gz** and **abewalletmlp-macos-amd64-v1.0.1.tar.gz** for macOS running on an x86 architecture (e.g. Intel chips).
 
 To ease the description below, let's put these two folders under a folder called **abel/** under **Documents**. Something like:
 
 ```shell
-1. ~/Documents/abel/abec-macos-amd64-v0.11.0/
-2. ~/Documents/abel/abewallet-macos-amd64-v0.11.0/
+1. ~/Documents/abel/abec-macos-amd64-v1.0.0/
+2. ~/Documents/abel/abewalletmlp-macos-amd64-v1.0.1/
 ```
 
 ### 8.1 Run the new version of abec
@@ -401,7 +401,7 @@ Comment out all the addpeer options in abec.conf. For example:
 ;addpeer = 3.120.150.60:8666
 ```
 
-Go to ```~/Documents/abel/abec-macos-amd64-v0.11.1/```, and run
+Go to ```~/Documents/abel/abec-macos-amd64-v1.0.0/```, and run
 
 ```shell
 # macOS and Linux
@@ -419,7 +419,7 @@ Remove the abewallet configuration folder:
 - macOS: /Users/username/Library/Application Support/Abewallet
 - Linux: /home/username/.abewallet
 
-Go to ```~/Documents/abel/abewallet-macos-amd64-v0.11.0/```, and run:
+Go to ```~/Documents/abel/abewalletmlp-macos-amd64-v1.0.1/```, and run:
 
 ```shell
 # macOS and Linux
@@ -448,7 +448,7 @@ rpcpass= [password]
 
 ***Note:*** In other words, abecrpcuser / abecrpcpass (in abewallet.conf) correspond to rpcuser / rpcpassword (in abec.conf), respecitvely, and are used for establishing a secure RPC communication channel between abec and abewallet. While rpcuser / rpcpass (in abewallet.conf) will be used for establishing a secure RPC communication channel between abectl (to be introduced) and abewallet.
 
-Next, go to ```~/Documents/abel/abewallet-macos-amd64-v0.11.0/```, and recover the wallet:
+Next, go to ```~/Documents/abel/abewalletmlp-macos-amd64-v1.0.1/```, and recover the wallet:
 
 ```shell
 # macOS and Linux
@@ -509,7 +509,7 @@ Example:
 ```
 
 ## 8.3 Run the new version of abectl
-Go to ```~/Documents/abel/abec-macos-amd64-v0.11.1/```, and run the following to check the balance:
+Go to ```~/Documents/abel/abec-macos-amd64-v1.0.0/```, and run the following to check the balance:
 
 ```shell
 # macOS and Linux

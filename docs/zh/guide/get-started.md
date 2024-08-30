@@ -7,20 +7,20 @@ outline: deep
 
 ## 1. 安装
 
-有三个软件组件：**abec**、**abewallet** 和 **abectl**。它们被打包成两个压缩文件下载，例如对于运行在 x86 架构上的 macOS（例如 Intel 芯片），文件名类似于 **abec-macos-amd64-v0.11.0.tar.gz** 和 **abewallet-macos-amd64-v0.11.0.tar.gz**。更多信息可以在 Discord 中找到。
+有三个软件组件：**abec**、**abewallet** 和 **abectl**。它们被打包成两个压缩文件下载，例如对于运行在 x86 架构上的 macOS（例如 Intel 芯片），文件名类似于 **abec-macos-amd64-v1.0.0.tar.gz** 和 **abewalletmlp-macos-amd64-v1.0.1.tar.gz**。更多信息可以在 Discord 中找到。
 
-解压这两个文件，你将得到两个文件夹，类似于 **abec-macos-amd64-v0.11.0/** 和 **abewallet-macos-amd64-v0.11.0/**。为了简化下面的描述，让我们将这两个文件夹放在名为 **abel/** 下的 **Documents** 文件夹中。类似于：
+解压这两个文件，你将得到两个文件夹，类似于 **abec-macos-amd64-v1.0.0/** 和 **abewalletmlp-macos-amd64-v1.0.1/**。为了简化下面的描述，让我们将这两个文件夹放在名为 **abel/** 下的 **Documents** 文件夹中。类似于：
 
 ```txt
-1. ~/Documents/abel/abec-macos-amd64-v0.11.0/
-2. ~/Documents/abel/abewallet-macos-amd64-v0.11.0/
+1. ~/Documents/abel/abec-macos-amd64-v1.0.0/
+2. ~/Documents/abel/abewalletmlp-macos-amd64-v1.0.1/
 ```
 
-**abec** 和 **abectl** 位于 ```~/Documents/abel/abec-macos-amd64-v0.11.0/```，而 **abewallet** 位于 ```~/Documents/abel/abewallet-macos-amd64-v0.11.0/```。
+**abec** 和 **abectl** 位于 ```~/Documents/abel/abec-macos-amd64-v1.0.0/```，而 **abewallet** 位于 ```~/Documents/abel/abewalletmlp-macos-amd64-v1.0.1/```。
 
 要运行这些软件，我们使用终端（适用于 macOS 和 Linux）或 PowerShell（适用于 Windows）。
 
-打开一个“终端”或“PowerShell”，进入 ~/Documents/abel/abec-macos-amd64-v0.11.1/ 文件夹，然后运行
+打开一个“终端”或“PowerShell”，进入 ~/Documents/abel/abec-macos-amd64-v1.0.0/ 文件夹，然后运行
 
 ::: code-group
 
@@ -52,7 +52,7 @@ C:\\Users\\[username]\\AppData\\Local\\Abec
 
 ::: 
 
-接下来，打开另一个 “终端” 或 “PowerShell”，进入 ~/Documents/abel/abewallet-macos-amd64-v0.11.0/ 目录，然后运行
+接下来，打开另一个 “终端” 或 “PowerShell”，进入 ~/Documents/abel/abewalletmlp-macos-amd64-v1.0.1/ 目录，然后运行
 
 ::: code-group
 
@@ -93,7 +93,7 @@ C:\\Users\\username\\AppData\\Local\\Abewallet
 
 ## 2. 创建钱包
 
-要创建钱包，请前往 ```~/Documents/abel/abewallet-macos-amd64-v0.11.1/``` 并运行
+要创建钱包，请前往 ```~/Documents/abel/abewalletmlp-macos-amd64-v1.0.1/``` 并运行
 
 ::: code-group
 
@@ -238,8 +238,8 @@ cafile=~/Documents/abel/rpc.cert
 ```
 
 ## 5. 运行（挖矿）全节点 - abec
-Go to ```~/Documents/abel/abec-macos-amd64-v0.11.1/``` and run a full node (abec):
-进入 ```~/Documents/abel/abec-macos-amd64-v0.11.1/``` 并运行一个全节点（abec）：
+Go to ```~/Documents/abel/abec-macos-amd64-v1.0.0/``` and run a full node (abec):
+进入 ```~/Documents/abel/abec-macos-amd64-v1.0.0/``` 并运行一个全节点（abec）：
 
 ::: code-group
 
@@ -286,8 +286,8 @@ abec
 ```
 
 ## 6. 运行钱包 - abewallet
-Go to ```~/Documents/abel/abewallet-macos-amd64-v0.11.1/```  and run the wallet (abewallet):
-进入 ```~/Documents/abel/abewallet-macos-amd64-v0.11.1/``` 并运行钱包（abewallet）：
+Go to ```~/Documents/abel/abewalletmlp-macos-amd64-v1.0.1/```  and run the wallet (abewallet):
+进入 ```~/Documents/abel/abewalletmlp-macos-amd64-v1.0.1/``` 并运行钱包（abewallet）：
 
 ::: code-group
 
@@ -462,14 +462,14 @@ The wallet has been created successfully.
 
 停止运行旧版本的 abec 和 abewallet。
 
-下载并解压两个压缩文件，例如针对运行在 x86 架构（比如 Intel 芯片 macOS 的 **abec-macos-amd64-v0.11.0.tar.gz** 和 **abewallet-macos-amd64-v0.11.0.tar.gz**。
+下载并解压两个压缩文件，例如针对运行在 x86 架构（比如 Intel 芯片 macOS 的 **abec-macos-amd64-v1.0.0.tar.gz** 和 **abewalletmlp-macos-amd64-v1.0.1.tar.gz**。
 
 To ease the description below, let's put these two folders under a folder called **abel/** under **Documents**. Something like:
 为了简化以下描述，让我们将这两个文件夹放在 Documents 下命名为 **abel/** 的文件夹中。像这样：
 
 ```txt
-1. ~/Documents/abel/abec-macos-amd64-v0.11.0/
-2. ~/Documents/abel/abewallet-macos-amd64-v0.11.0/
+1. ~/Documents/abel/abec-macos-amd64-v1.0.0/
+2. ~/Documents/abel/abewalletmlp-macos-amd64-v1.0.1/
 ```
 
 ### 8.1 运行新版本的 abec
@@ -500,7 +500,7 @@ C:\\Users\\[username]\\AppData\\Local\\Abec
 ;addpeer = 3.120.150.60:8666
 ```
 
-进入 ```~/Documents/abel/abec-macos-amd64-v0.11.1/```，并运行：
+进入 ```~/Documents/abel/abec-macos-amd64-v1.0.0/```，并运行：
 
 ::: code-group
 
@@ -535,7 +535,7 @@ C:\\Users\\username\\AppData\\Local\\Abewallet
 
 :::
 
-进入 ```~/Documents/abel/abewallet-macos-amd64-v0.11.0/```，并运行：
+进入 ```~/Documents/abel/abewalletmlp-macos-amd64-v1.0.1/```，并运行：
 
 ::: code-group
 
@@ -569,7 +569,7 @@ rpcpass= [password]
 
 ***注意***：换句话说，abewallet.conf 中的 abecrpcuser / abecrpcpass 对应于 abec.conf 中的 rpcuser / rpcpassword，分别用于在 abec 和a bewallet 之间建立安全的 RPC 通信渠道。而 abewallet.conf 中的rpcuser / rpcpass 将用于在 abectl（将要介绍）和 abewallet 之间建立安全的 RPC 通信渠道。
 
-接下来，进入 ```~/Documents/abel/abewallet-macos-amd64-v0.11.0/```，并恢复钱包：
+接下来，进入 ```~/Documents/abel/abewalletmlp-macos-amd64-v1.0.1/```，并恢复钱包：
 
 ::: code-group
 
@@ -641,7 +641,7 @@ abewallet --walletpass=[您的公钥]
 
 ## 8.3 运行新版本的 abectl
 
-进入 ```~/Documents/abel/abec-macos-amd64-v0.11.1/```，并运行以下命令以检查余额：
+进入 ```~/Documents/abel/abec-macos-amd64-v1.0.0/```，并运行以下命令以检查余额：
 
 ::: code-group
 

@@ -37,4 +37,4 @@ Abelian 是开源的，并由社区驱动。除了设计、开发和部署Abelia
 
 ## 在10分钟内设置您的Abelian节点
 
-请按照我们的[安装指南](/zh/guide/getting-started)开始您的 Abelian 之旅。这将是简单而有趣的！
+请按照我们的[安装指南](/zh/guide/get-started)开始您的 Abelian 之旅。这将是简单而有趣的！

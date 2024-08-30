@@ -38,4 +38,4 @@ various DeFi, Metaverse, web3 applications and initiatives.
 
 ## Set up your Abelian node in 10 minutes
 
-Please follow our [installation guide](/guide/getting-started) to start your Abelian journey. It would be easy and fun!
+Please follow our [installation guide](/guide/get-started) to start your Abelian journey. It would be easy and fun!
