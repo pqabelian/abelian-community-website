@@ -26,8 +26,7 @@ With abewalletmlp, enjoy enhanced privacy, faster transactions, lower gas fees, 
 
 All the operations are carried out via the Command Line Interface (CLI). For Linux or macOS, open Terminal; and for Windows, open PowerShell or any of your favorite shell application.
 
-The official Abelian download page is located at [Download Page](https://pqabelian.io/download). To interact with
-other miners, developers and users, visit the official [Discord Channel](https://discord.gg/cPUhCmsw).
+The official Abelian download page is located at [Download Page](https://pqabelian.io/download). For engagement with fellow miners, developers and users, please visit the official [Discord Channel](https://discord.gg/Rrb33mC3Kc).
 
 ## Operational Steps
 
@@ -607,7 +606,3 @@ For a seamless migration, it is recommended to use two computers, referred to as
     Note that the amount of tokens consumed is equal to the transaction fee plus the amount of tokens generated i.e. `15000000 = 14500000 + 500000`.
 
 6. Please allow some time for the transaction to be incorporated into a block. Subsequently, verify on `PC2` that the balance of `abewalletmlp` reflects the anticipated amount.
-
----
-
-For engagement with fellow miners, developers and users, please visit the official [Discord Channel](https://discord.gg/Rrb33mC3Kc).
