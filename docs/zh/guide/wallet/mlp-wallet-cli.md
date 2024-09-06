@@ -3,16 +3,26 @@ outline: deep
 ---
 
 # Abelian 多层隐私钱包 CLI 手册
+## 简介
+本文档旨在提供全面的安装步骤，以便成功安装和配置Abelian多层隐私钱包（abewalletmlp），这是一个新的命令行界面（CLI）钱包。
 
-本文档描述了如何运行 Abelian 多层隐私钱包 CLI（abewalletmlp）。
+此钱包为您提供了前所未有的交易隐私和安全性控制。它具有两种创新类型的钱包地址：
+1.**全隐私地址**：此功能确保您的交易无法追踪，您的钱包余额保持机密，提供最大的安全性和匿名性
+2.**伪匿名地址**：类似于比特币的隐私模型，此选项允许公开可见的币值和可追踪的交易，但具有更低的交易费用和更快的交易速度
 
-所有操作都通过命令行界面（CLI）进行。在 Linux 或 macOS 上，请打开终端；在 Windows 上，请打开 PowerShell 或任何你喜欢的 shell 应用程序。
+告别传统钱包中的“可恢复钱包的最大数量”限制，通过使用abewalletmlp，您可以仅使用您的24个词的助记词列表恢复所有钱包地址，简化了钱包管理。此外，abewalletmlp引入了一系列旨在进一步增强您体验的关键特性。
+**关键特性：**
+- **灵活的隐私级别**：根据您的隐私需求可选择全隐私和伪匿名钱包地址
+- **简化恢复**：通过助记词恢复所有钱包地址，不再有限制
+- **无缝转账**：轻松在全隐私和伪匿名钱包之间转账ABELs
+使用abewalletmlp，享受增强的隐私、更快的交易、更低的gas费用，并灵活管理您的隐私。
 
-官方 Abelian 下载页面位于 [下载页面](https://pqabelian.io/download)。要与其他矿工、开发者和用户互动，请访问官方 [Discord 频道](https://discord.gg/cPUhCmsw)。
+Abelian官方下载页面位于[下载页面](https://pqabelian.io/download)。若要与矿工、开发者和用户互动，请访问官方[Discord 频道](https://discord.gg/cPUhCmsw)。
 
-## 安装
-
-在 [下载页面](https://pqabelian.io/download) 下载最新发布的预编译二进制文件，截至本文撰写时，最新的 abec 版本是 1.0.0，而最新的 abewalletmlp 版本是 1.0.1。不同平台的下载链接如下（请以 pqabelian.io 下载页面最新版本为准，示例仅为参考）：
+# 操作步骤
+## 前提条件
+1.所有操作都通过命令行界面（CLI）执行。对于Linux或macOS，请打开终端；对于Windows，请打开PowerShell或您喜欢的任何shell应用程序
+2.Abec全节点（软件包 abec-v1.0.0）已安装，并且最新的区块链数据已同步。此外，请下载最新的阿贝尔多层隐私钱包（CLI）（软件包 abewalletmlp-v1.0.1）。不同平台的下载链接如下（请以 pqabelian.io 下载页面最新版本为准，示例仅为参考）：
 
 - Windows：<br>
   [abec-windows-amd64-v1.0.0.zip](https://download.pqabelian.io/release/abec/abec-windows-amd64-v1.0.0.zip)，<br>
@@ -30,7 +40,8 @@ outline: deep
   [abec-linux-arm64-v1.0.0.tar.gz](https://download.pqabelian.io/release/abec/abec-linux-arm64-v1.0.0.tar.gz)，<br>
   [abewalletmlp-linux-arm64-v1.0.1.tar.gz](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-arm64-v1.0.1.tar.gz)
 
-解压它们并移动到文件夹 `~/abel/` 中：
+## 安装
+请将前提条件中下载的两个软件包（abec 和 abewalletmlp）内容解压缩并移动到指定目录`~/abel/` 中：
 
 ```shell
 $ ls ~/abel
@@ -41,7 +52,7 @@ $ ls ~/abel/abewalletmlp-macos-amd64-v1.0.1
 abewalletmlp abewalletmlpctl start_abecwalletmlp.sh start_abewalletmlpctl.sh ...
 ```
 
-然后进入 `~/abel/abec-macos-amd64-v1.0.0` 并运行
+然后进入目录 `~/abel/abec-macos-amd64-v1.0.0` 并运行一下命令：
 
 ::: code-group
 
@@ -54,7 +65,7 @@ $ .\abec.exe
 ```
 :::
 
-然后按 control+C 停止它。通过这样做，我们创建了一个 `abec` 的配置文件夹，位置如下：
+随后请按 Control+C 键以终止命令的执行。通过此操作，我们创建了一个 `abec` 的配置文件夹，其位置如下：
 
 ::: code-group
 
@@ -71,7 +82,7 @@ C:\Users\<USER_NAME>\AppData\Local\Abec
 ```
 :::
 
-然后进入 `~/abel/abewalletmlp-macos-amd64-v1.0.1` 并运行
+同样的，请进入目录 `~/abel/abewalletmlp-macos-amd64-v1.0.1` 并运行命令：
 
 ::: code-group
 
@@ -84,7 +95,7 @@ $ .\abewalletmlp.exe --create
 ```
 :::
 
-然后按 control+C 停止它。通过这样做，我们创建了一个 `abewalletmlp` 的配置文件夹，位置如下：
+随后请按 Control+C 键以终止命令的执行。通过此操作，我们创建了一个 `abewalletmlp`  的配置文件夹，其位置如下：
 
 ::: code-group
 
@@ -101,13 +112,17 @@ C:\Users\<USER_NAME>\AppData\Local\Abewallet
 ```
 :::
 
-如果你在 macOS 上运行上述命令时，出现“‘xxx’已损坏，无法打开”的提示，请运行以下命令：
-
+如果您在macOS系统上运行上述命令时，遇到“‘xxx’已损坏，无法打开”的弹窗提示，请执行以下命令：
 ```shell
 $ xattr -d com.apple.quarantine /path/to/xxx
 ```
 
-如果出现“‘xxx’无法打开，因为无法验证开发者”的提示，请前往 `系统偏好设置 -> 安全性与隐私 -> 通用` 并点击 `仍然允许`。
+如果出现“‘xxx’无法打开，因为无法验证开发者”的弹窗提示，请进行如下设置：
+1)前往 `系统偏好设置`
+2)选择 `安全性与隐私`
+3)点击 `通用` tab
+4)找到有关未验证应用程序的选项，然后点击`允许打开`以继续打开`xxx`
+
 
 ## 创建钱包
 
