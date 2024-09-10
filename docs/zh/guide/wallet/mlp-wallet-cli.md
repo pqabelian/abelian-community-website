@@ -7,22 +7,29 @@ outline: deep
 本文档旨在提供全面的安装步骤，以便成功安装和配置Abelian多层隐私钱包（abewalletmlp），这是一个新的命令行界面（CLI）钱包。
 
 此钱包为您提供了前所未有的交易隐私和安全性控制。它具有两种创新类型的钱包地址：
+
 1.**全隐私地址**：此功能确保您的交易无法追踪，您的钱包余额保持机密，提供最大的安全性和匿名性
+
 2.**伪匿名地址**：类似于比特币的隐私模型，此选项允许公开可见的币值和可追踪的交易，但具有更低的交易费用和更快的交易速度
 
 告别传统钱包中的“可恢复钱包的最大数量”限制，通过使用abewalletmlp，您可以仅使用您的24个词的助记词列表恢复所有钱包地址，简化了钱包管理。此外，abewalletmlp引入了一系列旨在进一步增强您体验的关键特性。
+
 **关键特性：**
+
 - **灵活的隐私级别**：根据您的隐私需求可选择全隐私和伪匿名钱包地址
 - **简化恢复**：通过助记词恢复所有钱包地址，不再有限制
 - **无缝转账**：轻松在全隐私和伪匿名钱包之间转账ABELs
 使用abewalletmlp，享受增强的隐私、更快的交易、更低的gas费用，并灵活管理您的隐私。
 
-Abelian官方下载页面位于[下载页面](https://pqabelian.io/download)。若要与矿工、开发者和用户互动，请访问官方[Discord 频道](https://discord.gg/cPUhCmsw)。
+Abelian官方下载页面位于[下载页面](https://pqabelian.io/download)。同时，若与矿工、开发者和用户互动，请访问官方[Discord 频道](https://discord.gg/cPUhCmsw)。
 
 # 操作步骤
 ## 前提条件
 1.所有操作都通过命令行界面（CLI）执行。对于Linux或macOS，请打开终端；对于Windows，请打开PowerShell或您喜欢的任何shell应用程序
-2.Abec全节点（软件包 abec-v1.0.0）已安装，并且最新的区块链数据已同步。此外，请下载最新的阿贝尔多层隐私钱包（CLI）（软件包 abewalletmlp-v1.0.1）。不同平台的下载链接如下（请以 pqabelian.io 下载页面最新版本为准，示例仅为参考）：
+
+2.Abec全节点（软件包 abec-v1.0.0）已安装，并且最新的区块链数据已同步。此外，请下载最新的阿贝尔多层隐私钱包（CLI）（软件包 abewalletmlp-v1.0.1）。
+
+不同平台的下载链接如下（请以 pqabelian.io 下载页面最新版本为准，示例仅为参考）：
 
 - Windows：<br>
   [abec-windows-amd64-v1.0.0.zip](https://download.pqabelian.io/release/abec/abec-windows-amd64-v1.0.0.zip)，<br>
@@ -41,7 +48,7 @@ Abelian官方下载页面位于[下载页面](https://pqabelian.io/download)。�
   [abewalletmlp-linux-arm64-v1.0.1.tar.gz](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-arm64-v1.0.1.tar.gz)
 
 ## 安装
-请将前提条件中下载的两个软件包（abec 和 abewalletmlp）内容解压缩并移动到指定目录`~/abel/` 中：
+请将已载的两个软件包（abec 和 abewalletmlp）解压缩并移动到指定目录`~/abel/` 中：
 
 ```shell
 $ ls ~/abel
@@ -112,21 +119,25 @@ C:\Users\<USER_NAME>\AppData\Local\Abewallet
 ```
 :::
 
-如果您在macOS系统上运行上述命令时，遇到“‘xxx’已损坏，无法打开”的弹窗提示，请执行以下命令：
+如果您在macOS系统上运行上述命令时，遇到`‘xxx’已损坏，无法打开`的弹窗提示，请执行以下命令：
 ```shell
 $ xattr -d com.apple.quarantine /path/to/xxx
 ```
 
-如果出现“‘xxx’无法打开，因为无法验证开发者”的弹窗提示，请进行如下设置：
+如果出现`‘xxx’无法打开，因为无法验证开发者`的弹窗提示，请进行如下设置：
+
 1)前往 `系统偏好设置`
+
 2)选择 `安全性与隐私`
-3)点击 `通用` tab
+
+3)点击 `通用` 标签
+
 4)找到有关未验证应用程序的选项，然后点击`允许打开`以继续打开`xxx`
 
 
 ## 创建钱包
 
-接下来，我们将介绍如何创建钱包，进入 `~/abel/abewalletmlp-macos-amd64-v1.0.1` 并运行
+接下来，我们将介绍如何创建钱包，进入目录 `~/abel/abewalletmlp-macos-amd64-v1.0.1` 并运行命令：
 
 ::: code-group
 
@@ -139,7 +150,7 @@ $ .\abewalletmlp.exe --create
 ```
 :::
 
-请按照提示输入并记录助记词，以下是一个示例：
+接着请按照提示，输入并记录助记词，以下是一个示例：
 
 ```text
 Enter the private passphrase for your new wallet: 
@@ -165,15 +176,16 @@ Creating the wallet...
 The wallet has been created successfully.
 ```
 
-`公共密码短语`将在运行 abewalletmlp 时使用，而 `私有密码短语`将用于解锁钱包以生成新地址或转移 ABEL 代币。
+`公共密码短语`将在启动`abewalletmlp`时被使用，`私有密码短语`则用于解锁钱包，以便生成新的地址或转移ABEL代币。。
 
-请注意，相比于 `abewalletlegacy`，没有生成初始地址，我们稍后将解释如何生成一个作为挖矿地址或收款地址。
+请注意，与`abewalletlegacy`不同，系统不会自动生成初始地址。我们将在后续内容中解释如何手动创建一个地址，该地址可以作为挖矿地址或收款地址使用。
 
 ***非常重要：请将助记词列表保存在安全的地方。助记词列表可以用于恢复钱包，在使用相同钱包时安装到另一台机器上。***
 
+
 ## 生成地址
 
-进入 `~/abel/abewalletmlp-macos-amd64-v1.0.1` 并运行 abewalletmlp：
+首先，请进入目录 `~/abel/abewalletmlp-macos-amd64-v1.0.1` 以便运行程序 abewalletmlp：
 
 ::: code-group
 
@@ -186,12 +198,12 @@ $ .\abewalletmlp.exe --rpcuser=[rpcuser] --rpcpass=[rpcpass] --walletpass=[your 
 ```
 :::
 
-注意：
+**注意：**
 1. `--rpcuser=[rpcuser]` 和 `--rpcpass=[rpcpass]` 参数的作用：
-  - rpcuser：abec 的 RPC 连接用户名，使用参数用于钱包正确验证并连接 abec。
-  - rpcpass：abec 的 RPC 连接密码，使用参数用于钱包正确验证并连接 abec。
+ ** - rpcuser：** 作为与Abec的RPC连接的用户名，您需要使用此参数来确保钱包能够正确验证并连接到abec
+**  - rpcpass：** 作为与Abec的RPC连接的密码，您需要使用此参数来确保钱包能够正确验证并连接到Abec
 
-2. 分析操作钱包的日志：
+2. 钱包操作的日志分析：
 ```text
 [INF] ABEW: Version 1.0.1
 [INF] RPCS: Listening on 127.0.0.1:18665
@@ -204,11 +216,11 @@ $ .\abewalletmlp.exe --rpcuser=[rpcuser] --rpcpass=[rpcpass] --walletpass=[your 
 [INF] WLLT: Done catching up block hashes
 [INF] TMGR: Current sync height 388631, hash 46de0ac172d8b8f136db543edf412365c218ad7492628642c06dbe2ddfaf9d0e
 ```
-- `Established connection to RPC server` 表示已连接到 abec RPC 接口；
-- `Opened wallet` 表示钱包已运行；
-- `Current sync height` 表示钱包已开始同步区块，并显示当前同步高度。
+- `Established connection to RPC server` 表示已连接到 Abec RPC 接口
+- `Opened wallet` 表示钱包在运行中
+- `Current sync height` 表示钱包已开始同步区块，并显示当前同步高度
 
-然后通过**私有**密码短语解锁钱包：
+然后，通过**私有**密码短语解锁钱包：
 
 ```shell
 # 解锁钱包
@@ -236,7 +248,7 @@ $ sh start_abewalletmlpctl.sh --rpcuser=[rpcuser] --rpcpass=[rpcpass] generatead
 
 ## 配置
 
-打开 `abec` 的配置文件，默认位置如下：
+请打开 `abec` 的配置文件，默认目录文件位置如下：
 
 ::: code-group
 
@@ -253,19 +265,22 @@ C:\Users\<USER_NAME>\AppData\Local\Abec\abec.conf
 ```
 :::
 
-并根据需要进行以下更改：
+请根据本身需求配置如下内容：
 
-- 设置 `rpclisten=1.2.3.4:8667`，这将指示 `abec` 监听所有接口上的 8667 端口。
-- 设置 `externalip=1.2.3.4`，这将广播你的 IP 地址（例如 1.2.3.4），以便其他 Abel 节点找到并连接你。这需要你知道你的公共 IP，如果你在内网，还需要在路由器中配置端口转发。
-- 设置 `enablegetwork=1` 和 `rpclistengetwork=:8668`，这将允许 GPU 客户端 `abelminer` 连接到你的节点。
-- 设置 `miningaddr=0001000000010104eeb57aa5e203bd1794c3661114de89a1b9506f5db14e0cab9831f9c944427c97dbddf31e97bc604f7220077ab7b01d01d9e5d943f136964803838784aea5c76efe141585d239c1f8123b68a1b2f9d7e52fdc9fd566e65d9e96bf8b3d4d527947d26c7b2639febacbc463083dc34d68e2d09e56b64f7e411ebb3b585bda06d00b7be7c2219...`，如果你是矿工，这将允许挖矿补贴被挖到指定地址。
+- 设置RPC监听本地IP地址及端口：设置`rpclisten=xxx.xxx.xxx.xxx:8667`为您**本地IP地址及端口为8667**，例如设置rpclisten=192.168.1.1:8667，这将指导`abec`在网络接口上监听所有的8667端口。
+  _备注：可以通过访问在线服务来查询您的本地IP地址，例如在浏览器中访问 http://ifconfig.me 或 http://icanhazip.com_
+- 设置外部访问地址为公网地址：设置 `externalip=xxx.xxx.xxx.xxx`，这将广播您的公网IP地址（例如设置为我的公网IP地址192.168.1.1），以便其他 `abec`节点找到并连接。
+  _备注：若查询你的公网IP地址，请咨询您的ISP和路由器厂商_
+- 设置 `enablegetwork=1` 和 `rpclistengetwork=:8668`，这将允许 GPU 客户端 `abelminer` 连接到您的节点。
+- 若您是矿工，可设置`miningaddr`为您的钱包地址，例如`miningaddr=0001000000010104eeb57aa5e203bd1794c3661114de89a1b9506f5db14e0cab9831f9c944427c97dbddf31e97bc604f7220077ab7b01d01d9e5d943f136964803838784aea5c76efe141585d239c1f8123b68a1b2f9d7e52fdc9fd566e65d9e96bf8b3d4d527947d26c7b2639febacbc463083dc34d68e2d09e56b64f7e411ebb3b585bda06d00b7be7c2219...`，这将确保挖矿所得的补贴自动转入您指定的地址。
 
-此时，节点已准备好访问 Abelian 网络。此外，可以从配置文件中获取本地节点的端点，这将被 `abewalletmlp` 使用：
+
+此时，节点已具备访问 Abelian 网络的准备。此外，您也可以从配置文件中获取本地节点的登录用户名`rpcuser`和密码`rpcpass`，这将用于 `abewalletmlp` 的登录：
 
 - `rpcuser=[rpcuser]`
 - `rpcpass=[rpcpass]`
 
-然后，打开 `abewalletmlp` 的配置文件，默认位置如下：
+然后，请打开 `abewalletmlp` 的配置文件，其默认目录为：
 
 ::: code-group
 
@@ -282,15 +297,15 @@ C:\Users\<USER_NAME>\AppData\Local\Abewallet\abewallet.conf
 ```
 :::
 
-并根据需要进行以下更改：
+同时，若需设置您的钱包连接到`abec`，以便同步最新区块高度，请配置如下：
 
-- 设置 `rpcconnect=[abec.conf 中的 rpclisten]`
-- 设置 `abecrpcuser=[abec.conf 中的 rpcuser]`
-- 设置 `abecrpcpass=[abec.conf 中的 rpcpass]`
+- 设置 `rpcconnect=[abec.conf 文件中的 rpclisten]`
+- 设置 `abecrpcuser=[abec.conf 文件中的 rpcuser]`
+- 设置 `abecrpcpass=[abec.conf 文件中的 rpcpass]`
 
 ## 运行 Abelian 节点
 
-进入 `~/abel/abec-macos-amd64-v1.0.0` 并运行如下命令：
+请进入目录 `~/abel/abec-macos-amd64-v1.0.0` 以便执行如下命令：
 
 ::: code-group
 
@@ -303,11 +318,11 @@ $ .\abec.exe
 ```
 :::
 
-上述命令将使本地节点连接到 Abelian 网络并开始同步区块链数据。同步过程可能需要一些时间。
+上述命令的目的是将使本地节点连接到 Abelian 网络并同步区块链数据，而这过程需要一些时间，请耐心等待。
 
 ## 运行钱包
 
-进入 `~/abel/abewalletmlp-macos-amd64-v1.0.1` 并运行如下命令：
+当 `abec` 同步最高的区块链数据后，请进入目录 `~/abel/abewalletmlp-macos-amd64-v1.0.1` 并执行如下命令：
 
 ::: code-group
 
@@ -320,15 +335,15 @@ $ .\abewalletmlp.exe --rpcuser=[rpcuser] --rpcpass=[rpcpass] --walletpass=[your 
 ```
 :::
 
-注意：以下假设运行命令为 `sh start_abewalletmlp.sh --rpcuser=[rpcuser] --rpcpass=[rpcpass] --walletpass=[your public passphrase]`，但你可以根据需要进行设置。
+注意：接下来的命令执行示例将统一展示为： `sh start_abewalletmlp.sh --rpcuser=rpcuser --rpcpass=rpcpass --walletpass=your public passphrase`，请您根据实际情况设置账号密码。
 
 ## 钱包操作
 
-在 `~/abel/abewalletmlp-macos-amd64-v1.0.1` 文件夹中有一个名为 `start_abewalletmlpctl.sh` 的脚本文件，它封装了可执行文件 `abewalletmlpctl`，你可以使用它与钱包进行交互。
+在 ~/abel/abewalletmlp-macos-amd64-v1.0.1 目录下，存在一个名为 `start_abewalletmlpctl.sh` 的脚本文件。该脚本封装了 `abewalletmlpctl` 可执行文件，主要用于实现与钱包的交互功能
 
 ### 1. 查询余额
 
-运行以下命令查询钱包余额：
+请进入目录`~/abel/abewalletmlp-macos-amd64-v1.0.1` ，然后执行以下命令以查询您的钱包余额：
 
 ::: code-group
 
@@ -343,7 +358,7 @@ $ .\abewalletmlpctl.exe --rpcuser=[rpcuser] --rpcpass=[rpcpass] getbalancesabe
 
 ### 2. 解锁钱包
 
-如在[生成地址](#生成地址)中所示，当需要对钱包进行敏感操作时，你需要先解锁钱包。运行以下命令解锁钱包：
+如在[生成地址](#生成地址)中所示，进行转账、恢复钱包等操作前，您需要先解锁钱包。请按照以下步骤执行命令以便解锁钱包：：
 
 ::: code-group
 
@@ -358,9 +373,8 @@ $ .\abewalletmlpctl.exe --rpcuser=[rpcuser] --rpcpass=[rpcpass] walletunlock [yo
 
 ### 3. 转账
 
-如在[生成地址](#生成地址)中所见，完全隐私地址会非常长，如果直接将地址放入命令行会超过长度限制。
+如在[生成地址](#生成地址)中所展示的，完全隐私的地址通常非常长，如果直接在命令行中使用这些地址，可能会超出命令行的长度限制。因此，您需要在 `abec` 的配置文件夹中创建一个名为 `arg1` 的文件，并将一个或多个接收者的地址及相应的金额写入该文件中。具体的格式如下所示：
 
-相反，你需要在 `abec` 的配置文件夹中创建一个名为 `arg1` 的文件，并将一个或两个接收者的地址和金额放入其中。格式如下：
 
 ```text
 [
@@ -375,9 +389,9 @@ $ .\abewalletmlpctl.exe --rpcuser=[rpcuser] --rpcpass=[rpcpass] walletunlock [yo
 ]
 ```
 
-注意：金额的单位是 Neutrino（1 ABE = 10,000,000 Neutrino）。
+注意：金额的单位是 Neutrino（1 ABE 等于 10,000,000 Neutrinos）。
 
-然后，你可以通过以下命令进行转账：
+接着，您可以通过执行以下命令来完成转账操作：
 
 ::: code-group
 
@@ -390,7 +404,7 @@ $ .\abewalletmlpctl.exe --rpcuser=[rpcuser] --rpcpass=[rpcpass] sendtoaddressesa
 ```
 :::
 
-此命令支持特定模式的自定义需求，例如：
+此命令支持按照特定模式定制化需求，例如：
 
 ::: code-group
 
@@ -403,21 +417,22 @@ $ .\abewalletmlpctl.exe --rpcuser=[rpcuser] --rpcpass=[rpcpass] sendtoaddressesa
 ```
 :::
 
-上述命令将指示 `abewalletmlp` 创建一个交易，其中交易费用将指定为 1000 Neutrino，消耗假名地址上的代币，并在有找零时将假名地址设为找零地址。
+上述命令例子为 `abewalletmlp` 创建一个交易，其中交易费用将指定为 1,000 Neutrinos，消耗假名地址上的代币，并在有找零时将假名地址设为找零地址，同时：
 
-通过将第三个参数设置为 `1`，可以允许使用第四个参数指定交易费用，以上示例将交易费用设置为 1000 Neutrino。
+-当设置第三个参数为 `1`时，您可以使用第四个参数来指定交易费用。以上示例中，交易费用被设定为 1,000 Neutrinos。
 
-通过将第五个参数设置为 `true`，将指示钱包在创建交易时消耗假名地址上的代币。当设置为 `false` 时，将消耗完全隐私地址上的代币。如果没有设置，可能会消耗任何代币。
+-当设置第五个参数为 `true`时，这表示在创建交易时，钱包将使用假名地址上的代币。如果设置为 `false`，则表示将使用完全隐私地址上的代币。如果未设置此参数，钱包将默认使用任何一个地址上的代币。
 
-通过将第六个参数设置为 `true`，将指示钱包使用假名地址作为找零地址，当设置为 `false` 时，将使用完全隐私地址作为找零地址，这也是默认设置。
+-当设置第六个参数设置为 `true`时，这表示在交易中将使用假名地址作为找零地址。如果设置为 `false`，则表示将使用完全隐私地址作为找零地址，这也是默认的设置。
+
 
 ## 恢复钱包
 
-在恢复钱包之前，请先准备以下信息：
+在进行钱包恢复操作之前，请确保您已经准备好以下必要的信息：
 
-- 当前钱包的助记词列表
-- 查询当前钱包的余额
-- 在当前钱包关闭时备份**配置文件夹**。请将文件夹复制到其他安全的地方。这与公共和私有密码短语一起，可以在助记词不如预期时帮助回滚到当前钱包。
+-您当前钱包的助记词列表
+-查询并记录当前钱包的余额
+-在关闭当前钱包之前，对整个**配置文件夹**进行备份。请将该文件夹复制并保存到一个安全的位置。备份的配置文件夹，连同您的公共和私有密码短语，可以在助记词无法如预期工作时，帮助您恢复到当前的钱包状态
 
 **配置文件夹**路径：
 
@@ -436,7 +451,7 @@ C:\Users\<USER_NAME>\AppData\Local\Abewallet
 ```
 :::
 
-完成准备工作后，删除 abewalletmlp 配置文件夹中的 `logs/` 和 `mainnet/` 文件夹，并运行：
+完成所有准备工作后，删除 `abewalletmlp` 配置文件夹中的 `logs/` 和 `mainnet/` 文件夹，然后，执行以下操作：
 
 ::: code-group
 
@@ -465,18 +480,19 @@ Creating the wallet...
 The wallet has been created successfully.
 ```
 
-恢复钱包后，请检查是否按预期恢复：
+钱包恢复操作完成后，请进行以下检查以确认钱包是否已按预期成功恢复:
 
-1. 配置钱包并将其连接到 abec 节点，以便它可以同步 Abelian 网络中的所有资产。
-2. 同步完成后，查询并检查余额是否符合预期。
+1. 配置钱包并将其连接到 `abec` 节点，以确保它能够同步 Abelian 网络中的所有资产。
+2. 同步过程完成后，查询并核实余额是否与您的预期相符。
+
 
 ## 从 Abelian CLI 钱包 (abewalletlegacy) 迁移
 
-**请注意，迁移过程并非无损。此过程将创建多个交易，这意味着您需要支付相应的交易费用。**
+**请注意，此迁移过程并非无损，并将创建多个交易，这意味着您需要支付相应的交易费用。**
 
-为了本节的目的，假设您使用[**abewalletlegacy 版本 1.0.0**](https://pqabelian.io/download) 并拥有资产，并且已阅读 [abewalletlegacy 手册](https://download.pqabelian.io/release/docs/Abelian%20CLI%20Wallet%20Manual.pdf)。
+本迁移操作指南，假设您已使用[**abewalletlegacy 版本 1.0.0**](https://pqabelian.io/download) 并拥有资产，按照 [abewalletlegacy 手册](https://download.pqabelian.io/release/docs/Abelian%20CLI%20Wallet%20Manual.pdf)进行`abewalletlegacy`使用
 
-基于上述假设，您应该知道 `abewalletlegacy` 的配置文件夹：
+基于上述假设，您应该知道 `abewalletlegacy` 的配置文件夹位于：
 
 ::: code-group
 
@@ -493,17 +509,17 @@ C:\Users\<USER_NAME>\AppData\Local\Abewallet
 ```
 :::
 
-这与 `abewalletmlp` 使用的配置文件夹相同。
+这与 `abewalletmlp` 所使用的配置文件夹相同。
 
-为了顺利迁移，我们假设用户使用两台电脑（分别命名为 PC1 和 PC2）执行以下步骤，路径以 MacOS 为例：
+本次钱包迁移，我们是假设用户在两台电脑上操作（分别命名为 PC1 和 PC2），以下以MacOS 操作系统为例进行说明：
 
-1. 在一台电脑（称为 `PC1`）上，使用 `abewalletlegacy` 恢复钱包并同步数据，如 [abewalletlegacy 手册](https://download.pqabelian.io/release/docs/Abelian%20CLI%20Wallet%20Manual.pdf) 中所述，然后将配置文件夹备份到其他安全的地方。这与公共和私有密码短语一起，可以在助记词不如预期时帮助回滚到当前钱包。
+1. 在一台电脑（我们称之为`PC1`）上，按照 [abewalletlegacy 手册](https://download.pqabelian.io/release/docs/Abelian%20CLI%20Wallet%20Manual.pdf) 中所说的，使用 `abewalletlegacy` 恢复您的钱包并同步数据。完成同步后，请将配置文件夹备份到一个安全的位置。备份的配置文件夹，连同您的公共和私有密码短语，可以在助记词无法如预期工作时，帮助您恢复到当前的钱包状态。
 
-2. 在另一台电脑（称为 `PC2`）上，[安装](#安装) 并 [创建](#创建钱包) 一个新的 `abewalletmlp` 钱包，然后按照 [生成地址](#生成地址) 中的描述生成地址。此步骤生成的地址将用作后续迁移的接收地址。
+2. 在另一台电脑（我们称之为 `PC2`）上，首先[安装](#安装) 并 [创建](#创建钱包) 一个新的 `abewalletmlp` 钱包，然后根据 [生成地址](#生成地址) 中的指导生成地址。此步骤中生成的地址将作为后续迁移过程中的接收地址。
 
-    您可以生成多个地址，尤其是选择完全隐私地址时，多个地址将有助于提高您的隐私。
-
-    例如，通过 `sh start_abewalletmlpctl.sh --rpcuser=[rpcuser] --rpcpass=[rpcpass] generateaddressabe 5 1` 生成 5 个完全隐私地址：
+   您可以选择生成多个地址，特别是当您选择使用完全隐私地址时，这样做将有助于增强您的隐私保护。
+   
+   例如，可通过命令 `sh start_abewalletmlpctl.sh --rpcuser=[rpcuser] --rpcpass=[rpcpass] generateaddressabe 5 1` 一次性生成 5 个完全隐私地址：
 
     ```json
     [
@@ -525,7 +541,7 @@ C:\Users\<USER_NAME>\AppData\Local\Abewallet
     ]
     ```
 
-3. 在 `PC1` 上，通过 `sh start_abewalletlegacyctl.sh --rpcuser=[rpcuser] --rpcpass=[rpcpass] listmaturetxoabe` 查询所有可花费的币。例如，结果如下：
+3. 在 `PC1` 上，可执行命令 `sh start_abewalletlegacyctl.sh --rpcuser=[rpcuser] --rpcpass=[rpcpass] listmaturetxoabe` 查询所有可花费的币，例如，查询结果可能如下：
 
     ```json
     [
@@ -557,11 +573,21 @@ C:\Users\<USER_NAME>\AppData\Local\Abewallet
     ]
     ```
 
-4. 根据您的需求，使用前一步结果中的 `UTXOHashStr` 和 `Amount` 将币分组，每组不超过 5 个。例如，以下分组：
+**注意：**
+1）假设您查询到钱包中有20个可花费的交易输出（TXO），每个TXO都有其唯一的标识符（例如：UTXOStr01, ..., UTXOStr20）。
+
+2）由于每次交易只能使用5个TXO，因此需要将这20个TXO分成4组（Group 1, Group 2, Group 3, Group 4），以便后续创建4笔交易。【例如，Group 1 对应的TXO为UTXOStr01、UTXOStr02、UTXOStr03、UTXOStr04、UTXOStr05】。
+
+3）对于每一组的交易输出（TXO），需要将该组TXO的总金额一次性转移到一个新的钱包地址上。这要求您首先指定新交易的钱包接收地址和总金额，接着从钱包中选择对应组的TXO（例如：UTXOStr01, ..., UTXOStr20），最后执行交易命令，以便将这些TXO转移到新的接收地址上。
+例如，对于第一组（Group 1），您需要在arg1文件中指定新钱包的接收地址和总金额（总金额应为这5个TXO的总金额减去相应的交易费用）， 并在命令’sh start_abewalletlegacyctl.sh sendtoaddressesabe‘ 中指定 UTXOStr01,UTXOStr02,UTXOStr03,UTXOStr04,UTXOStr05 这5个交易输出（TXO）和交易费用。
+
+_请确保在执行这些操作时，正确无误地输入TXO的标识符和目标地址，并仔细核对交易金额和交易费用，以确保交易的准确性和安全性。_
+
+4. 接下来，根据步骤三查询结果的 `UTXOHashStr` 和 `Amount` 将币分组，每组不超过 5 个UTX。例如，分组如下：
 
     ```text
     Group1
-    Total Amount: 15000000
+    Total Amount: 15,000,000
     UTXOStr List: abe...abe01,abe...abe02,abe...abe03,abe...abe04,abe...abe05
 
     Group2
@@ -569,7 +595,7 @@ C:\Users\<USER_NAME>\AppData\Local\Abewallet
     UTXOStr List: abe...abe06,abe...abe07,abe...abe08,abe...abe09
     ```
 
-5. 在 `PC1` 上，**对于每个分组**，就像通常的转账一样，修改文件 `~/Library/Application Support/Abec/arg1` 以指定迁移地址和金额，并创建一个迁移交易。
+5. 在 `PC1` 上，**对于每个分组**，在转账前，需修改文件 `~/Library/Application Support/Abec/arg1` 来指定钱包的接收地址和转账金额，以便创建一个迁移交易。
 
     例如，对于前一步中的第一个分组，文件内容将更改为：
 
@@ -582,10 +608,10 @@ C:\Users\<USER_NAME>\AppData\Local\Abewallet
     ]
     ```
 
-    然后通过 `sh start_abewalletlegacyctl.sh sendtoaddressesabe - 0 1 500000 abe...abe01,abe...abe02,abe...abe03,abe...abe04,abe...abe05` 创建一个迁移交易。
+6. 此外，执行命令 `sh start_abewalletlegacyctl.sh sendtoaddressesabe - 0 1 500000 abe...abe01,abe...abe02,abe...abe03,abe...abe04,abe...abe05` 以创建一个迁移交易。
 
-    上述命令将指示 `abewalletlegacy` 创建一个交易，消耗第一个分组中的代币，生成一个币，生成的币地址指向 `abe...add1`，金额为 14500000，指定的交易费用为 500000。
+    通过上述命令，`abewalletlegacy` 创建一笔迁移交易，使用第一组中的代币，并生成新的代币。新生成的代币将发送到地址 abe...add1，金额为 1450,0000，交易中指定的交易费用为 50,0000。
 
-    注意，消耗的代币总额等于交易费用加上生成的代币金额，即 `15000000 = 14500000 + 500000`。
+    _注意，消耗的代币总金额等于生成的代币金额加上交易费用，即 `1500,0000 = 1450,0000 + 50,0000`。_
 
-6. 等待交易打包到区块中，然后在 `PC2` 上检查 `abewalletmlp` 的余额是否符合预期。
+7. 等待交易打包到区块之后，请在 `PC2` 上检查 `abewalletmlp` 钱包的余额是否与您的预期相符。
