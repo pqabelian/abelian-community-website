@@ -3,8 +3,11 @@ outline: deep
 ---
 
 # Abelian 多层隐私钱包 CLI 手册
+## 简介
 
 本文档的目的是提供一套详尽的安装步骤，以确保用户能够顺利安装并配置 Abilian 多层隐私钱包命令行界面（CLI）版本（abewalletmlp）。
+
+## 服务能力
 
 此钱包将为您提供前所未有的交易隐私和安全性控制，它具有两种创新型的钱包地址：
 
@@ -12,10 +15,11 @@ outline: deep
 
 2)**伪匿名地址**：类似于比特币的隐私模型，它允许公开可见的币值和可追踪的交易，同时具有更低的交易费用和更快的交易速度
 
-
 同时，告别传统钱包中的“可恢复钱包的最大数量”限制，通过使用abewalletmlp，您可以使用24个助记词恢复所有钱包地址，简化钱包管理。
 
-此外，abewalletmlp引入了一系列进一步增强您体验的关键特性。
+## 产品特性
+
+此外，abewalletmlp引入了一系列进一步增强体验的关键特性。
 
 **关键特性：**
 
@@ -28,13 +32,17 @@ outline: deep
 _Abelian官方下载页面位于[下载页面](https://pqabelian.io/download)。同时，若与矿工、开发者和用户进一步互动，可访问官方[Discord 频道](https://discord.gg/cPUhCmsw)。_
 
 
-
 ## 操作步骤
 
 ### 安装前提准备
+
 1.所有的操作都需通过命令行界面（CLI）执行。对于Linux或macOS，请打开终端；对于Windows，请打开PowerShell或您喜欢的任何shell应用程序
 
-2.Abec全节点（软件包 abec-v1.0.0）已安装，并且已同步最新的区块链数据。此外，请下载最新的Abelian多层隐私钱包（CLI）（软件包 abewalletmlp-v1.0.1）。以下为不同平台的软件包下载链接：
+2.Abec全节点（软件包 abec-v1.0.0）已安装成功，并且已同步最新的区块链数据。
+
+3.请下载最新的Abelian多层隐私钱包（CLI）（软件包 abewalletmlp-v1.0.1）。
+
+以下为不同平台的软件包下载链接：
 
 - Windows：<br>
   [abec-windows-amd64-v1.0.0.zip](https://download.pqabelian.io/release/abec/abec-windows-amd64-v1.0.0.zip)，<br>
