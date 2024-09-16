@@ -46,9 +46,9 @@ outline: deep
 
 1.所有的操作都需通过命令行界面（CLI）执行。对于Linux或macOS，请打开终端；对于Windows，请打开PowerShell或您喜欢的任何shell应用程序
 
-2.Abec全节点（软件包  [abec-v1.0.0](https://pqabelian.io/download))已安装成功，并已同步最新的区块链数据
+2.Abec全节点 (`abec`)（软件包  [abec-v1.0.0](https://pqabelian.io/download))已安装成功，并已同步最新的区块链数据
 
-3.请下载最新的Abelian多层隐私钱包（CLI）（软件包 [abewalletmlp-v1.0.1](https://pqabelian.io/download))
+3.请下载最新的Abelian多层隐私钱包（CLI）(`abecwalletmlp`)（软件包 [abewalletmlp-v1.0.1](https://pqabelian.io/download))
 
 
 以下为不同平台的软件包下载链接：
@@ -73,7 +73,7 @@ outline: deep
 
 
 ### 解压软件包
-请将已下载的两个软件包（abec 和 abewalletmlp）解压并移动到目录`~/abel/` 中：
+请确保已下载的两个软件包（`abec` 和 `abewalletmlp`）解压并移动到目录`~/abel/` 中：
 
 ```shell
 $ ls ~/abel
@@ -185,7 +185,7 @@ $ .\abewalletmlp.exe --create
 ```
 :::
 
-请按照提示，输入相关密码、记录您的助记词列表，以下是一个示例：
+请按照提示，进行密码输入、记录您的助记词列表等操作，以下是一个示例：
 
 ```text
 Enter the private passphrase for your new wallet: 
