@@ -586,7 +586,7 @@ _To enhance privacy, it is recommended to create multiple addresses, particularl
 
   For instance, to generate five fully-private addresses at once, execute the following command: `sh start_abewalletmlpctl.sh --rpcuser=[rpcuser] --rpcpass=[rpcpass] generateaddressabe 5 1`
 
-    ```json
+```json
     [
       {
         "addr":"abe...add1"
@@ -604,13 +604,13 @@ _To enhance privacy, it is recommended to create multiple addresses, particularl
         "addr":"abe...add5"
       }
     ]
-    ```
+```
 
-3. In `PC1`, query all spendable coin by command `sh start_abewalletlegacyctl.sh --rpcuser=[rpcuser] --rpcpass=[rpcpass] listmaturetxoabe`. 
+1. In `PC1`, query all spendable coin by command: `sh start_abewalletlegacyctl.sh --rpcuser=[rpcuser] --rpcpass=[rpcpass] listmaturetxoabe`. 
 
 Examples of the results are as follows:
 
-    ```json
+```json
     [
       {
         ...
@@ -638,7 +638,7 @@ Examples of the results are as follows:
         "UTXOStr":"abe...abe09",
       }
     ]
-    ```
+```
 
 Before proceeding with the subsequent migration stes, we will illustrate the reasons and purposes of the following operations through examples:
 
@@ -653,7 +653,7 @@ For example, for the first group (Group 1), you need to specify the new wallet's
 
 4. Based on your specific requirements, utilize the `UTXOHashStr` and `Amount` from the previous results to categorize the coins, ensuring that each group contains no more than five coins. For instance, consider the following example:
 
-    ```text
+```text
     Group1
     Total Amount: 15000000
     UTXOStr List: abe...abe01,abe...abe02,abe...abe03,abe...abe04,abe...abe05
@@ -661,23 +661,24 @@ For example, for the first group (Group 1), you need to specify the new wallet's
     Group2
     Total Amount: 30000000
     UTXOStr List: abe...abe06,abe...abe07,abe...abe08,abe...abe09
-    ```
+```
 
 5. In `PC1`, before the transaction, please modify the file located at `~/Library/Application Support/Abec/arg1` to specify the wallet's receiving address and transfer amount in order to create the migration transaction.
 
     For instance, following the initial grouping stage outlined previously, the file’s content should be modified as follows:
 
-    ```json
+```json
     [
       {
         "address":"abe...add1",
         "amount":14500000,
       }
     ]
-    ```
-_Note that the amount of generated tokens equals to the amount of consumed tokens minus the transaction fee,for example, `14,500,000 =15,000,000 - 500,000`_
+```
 
-6. Next, initiate the migration transaction by executing the following command: `sh start_abewalletlegacyctl.sh sendtoaddressesabe - 0 1 500000 abe...abe01,abe...abe02,abe...abe03,abe...abe04,abe...abe05`.
+Note that the amount of generated tokens equals to the amount of consumed tokens minus the transaction fee,for example, `14,500,000 =15,000,000 - 500,000`_
+
+1. Next, initiate the migration transaction by executing the following command: `sh start_abewalletlegacyctl.sh sendtoaddressesabe - 0 1 500000 abe...abe01,abe...abe02,abe...abe03,abe...abe04,abe...abe05`.
 
 The above command would instruct `abewalletlegacy` to create transaction which would consume the tokens in the first group, generate one coin, where the address of generated coin points to `abe...add1`, the amount is 14,500,000, and the specified transaction fee is 500,000.
 

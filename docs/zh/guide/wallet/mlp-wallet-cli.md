@@ -589,7 +589,7 @@ C:\Users\<USER_NAME>\AppData\Local\Abewallet
    
    例如，可通过命令 `sh start_abewalletmlpctl.sh --rpcuser=[rpcuser] --rpcpass=[rpcpass] generateaddressabe 5 1` 一次性生成 5 个完全隐私地址：
 
-    ```json
+```json
     [
       {
         "addr":"abe...add1"
@@ -607,13 +607,13 @@ C:\Users\<USER_NAME>\AppData\Local\Abewallet
         "addr":"abe...add5"
       }
     ]
-    ```
+```
 
 3. 在 `PC1` 上，可执行命令 `sh start_abewalletlegacyctl.sh --rpcuser=[rpcuser] --rpcpass=[rpcpass] listmaturetxoabe` 查询所有可花费的币
 
    例如，查询结果如下：
 
-    ```json
+```json
     [
       {
         ...
@@ -641,7 +641,7 @@ C:\Users\<USER_NAME>\AppData\Local\Abewallet
         "UTXOStr":"abe...abe09",
       }
     ]
-    ```
+```
 
 **在继续后续操作前，我们将通过示例阐述接下来操作的原因及目的**
 
@@ -659,7 +659,7 @@ C:\Users\<USER_NAME>\AppData\Local\Abewallet
 
 例如，分组如下：
 
-    ```text
+```text
     Group1
     Total Amount: 15,000,000
     UTXOStr List: abe...abe01,abe...abe02,abe...abe03,abe...abe04,abe...abe05
@@ -667,20 +667,20 @@ C:\Users\<USER_NAME>\AppData\Local\Abewallet
     Group2
     Total Amount: 30000000
     UTXOStr List: abe...abe06,abe...abe07,abe...abe08,abe...abe09
-    ```
+```
 
-5. 在 `PC1` 上，在转账前，需修改文件 `~/Library/Application Support/Abec/arg1` 指定钱包的接收地址和转账金额，以便创建迁移交易。
+1. 在 `PC1` 上，在转账前，需修改文件 `~/Library/Application Support/Abec/arg1` 指定钱包的接收地址和转账金额，以便创建迁移交易。
 
     例如，对于前一步中的第一个分组，文件接收地址和转账总金额可修改为：
 
-    ```json
+```json
     [
       {
         "address":"abe...add1",
         "amount":14500000,
       }
     ]
-    ```
+```
 
 _注意：生成的代币金额等于消耗的代币总金额减去交易费用，例如 `1450,0000 = 1500,0000 - 50,0000`_
 
