@@ -40,7 +40,7 @@ C:\Users\<USER_NAME>\AppData\Roaming\Abelian Wallet\Abec\mainnet
 
 ### Windows 桌面钱包
 1. 关闭并退出 Windows 桌面钱包；
-2. 将下载的 14 个文件放在同一目录下；
+2. 将下载的 12 个文件放在同一目录下；
 3. 使用 7zip 软件打开 mainnet.zip.001 文件，解压缩 mainnet 覆盖至**默认位置**；
 4. 重新运行 Windows 桌面钱包，点击同步（sync Mainnet）。
 
@@ -48,7 +48,7 @@ C:\Users\<USER_NAME>\AppData\Roaming\Abelian Wallet\Abec\mainnet
 
 ### macOS 桌面钱包
 1. 关闭并退出 MacOS 桌面钱包；
-2. 将下载的 14 个文件放在同一目录下，执行解压缩操作：
+2. 将下载的 12 个文件放在同一目录下，执行解压缩操作：
 ```
 # macOS 用brew下载安装 7zip
 $ brew install p7zip
@@ -65,7 +65,7 @@ mv -f mainnet ~/Library/Application\ Support/Abelian\ Wallet/Abec/
 
 ### Linux 全节点
 1. 停止全节点进程 `abec`或 `abectl`
-2. 将下载的 14 个文件放在同一目录下，执行解压缩操作：
+2. 将下载的 12 个文件放在同一目录下，执行解压缩操作：
 ```
 # Ubuntu 或 Debian 为例，安装 7zip
 $ apt install p7zip-full
