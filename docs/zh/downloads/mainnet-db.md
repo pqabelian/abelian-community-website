@@ -9,7 +9,7 @@ outline: deep
 ::: code-group
 
 ```txt [Windows]
-C:\Users\<USER_NAME>\AppData\Roaming\Abelian Wallet\Abec\mainnet
+%USERPROFILE%\AppData\Roaming\Abelian Wallet\Abec\mainnet
 ```
 
 ```txt [MacOS]

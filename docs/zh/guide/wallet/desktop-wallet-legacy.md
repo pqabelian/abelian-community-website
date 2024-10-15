@@ -23,6 +23,8 @@ Abelian 基金会开发了桌面版的 Abelian 钱包，通过易于使用的图
 
 - 如果您的计算机是 Linux，请确定您是否使用 Intel/AMD x86-64 CPU (amd64) 或 AMD ARM CPU (arm64)。根据处理器下载相应的安装包。要查看处理器及其系统类型，以 Ubuntu 桌面版为例，请点击桌面右上角的系统功能图标组，在下拉框中点击 “设置” 图标，在弹出的系统设置界面中选择 “关于” 标签，查看 “处理器/系统类型” 栏。
 
+---
+
 **本教程使用 Windows 4.2.0 版本为示例：**
 
 - 将 Abelian 桌面钱包安装包保存到桌面
@@ -50,9 +52,9 @@ Abelian 基金会开发了桌面版的 Abelian 钱包，通过易于使用的图
 - 为您的钱包命名（例如：“PQabel”①），然后点击 “**CREATE（创建）**”② 按钮
 ![钱包账户命名](/desktop-wallet/legacy/account-name.png)
 
-- 稍等片刻，显示 “**Done（完成）**” 按钮，点击它完成 ABEL 钱包账户创建
+- 稍等片刻，显示 “**Done（完成）**”① 按钮，点击它完成 ABEL 钱包账户创建
 ![创建账户成功](/desktop-wallet/legacy/create-account-success.png)
-（创建账户成功时，会显示 “**Account created.（账户已创建。）**” 消息）
+（创建账户成功时，会显示 “**Account created.（账户已创建。）**”② 消息）
 
 - 选择刚创建的桌面钱包账户
 ![选择钱包账户](/desktop-wallet/legacy/select-account.png)
@@ -77,16 +79,16 @@ Abelian 基金会开发了桌面版的 Abelian 钱包，通过易于使用的图
    ![关闭创建钱包地址](/desktop-wallet/legacy/close-create-address.png)<br>
   3. 点击书页图标的 “**Select address（选择地址）**”① 按钮，选择刚才创建的钱包地址②
    ![选择钱包地址](/desktop-wallet/legacy/select-address.png)<br>
-  4. “**Address**” 栏为**长地址**①，点击长地址的字符串会自动复制钱包长地址到剪贴板；点击 “**Short Address（短地址）**” 栏后面的 “**Click to reqister a unique short address.（点击注册一个独特的短地址。）**”② 按钮来生成钱包短地址
+  4. “**Address（地址）**” 栏为**长地址**①，点击长地址的字符串会自动复制钱包长地址到剪贴板；点击 “**Short Address（短地址）**” 栏后面的 “**Click to reqister a unique short address.（点击注册一个独特的短地址。）**”② 按钮来生成钱包短地址
    ![生成钱包短地址](/desktop-wallet/legacy/generate-short-address.png)<br>
-  5. 生成短地址后，点击 “Short Address（短地址）” 栏后面的字符串会自动复制钱包短地址到剪贴板
+  5. 生成短地址成功会提示 “**Registration succeeded. Click to continue.（注册成功，点击继续。）**”，然后点击 “**Short Address（短地址）**” 栏后面的字符串会自动复制钱包短地址到剪贴板
    ![复制钱包短地址](/desktop-wallet/legacy/copy-short-address.png)
 
 生成地址后，您可以使用长钱包地址或短地址进行交易（发送和接收 ABEL）。
 
 ## 发送 ABEL
 
-- 前往 **“SEND（发送）”** 标签页，并点击 “**PASTE FROM CLIPBOARD（从剪贴板粘贴）**” 或 “**IMPORT FROM FILE（从文件导入）**” 接收方钱包地址实例
+- 前往 **“SEND（发送）”** 标签页，并点击 “**PASTE FROM CLIPBOARD（从剪贴板粘贴）**”① 或 “**IMPORT FROM FILE（从文件导入）**”② 接收方钱包地址实例
 ![输入接收方钱包地址](/desktop-wallet/legacy/input-receiver-address.png)
 
 - 如果粘贴或者导入的是**短地址**②，会自动识别并解析为**长地址**③，解析成功会出现提示 “**Successfully get the full address.（成功获取完整地址。）**”①。
@@ -103,7 +105,7 @@ Abelian 基金会开发了桌面版的 Abelian 钱包，通过易于使用的图
 ## 导出 ABEL 钱包账户
 
 - 前往 “**SETTING（设置）**” ①标签页，输入**主密码**②，点击 “**REVEAL MNEMONICS（显示助记词）**”③
-  ![导出账户页](/desktop-wallet/legacy/export-account-page.png)
+  ![导出账户页](/desktop-wallet/legacy/export-account-page.png)<br>
 
 - 稍后会显示 24 个单词的钱包助记词（恢复短语），点击 “**Copy to Clipboard（复制到剪贴板）**” ，并粘贴到本地的文本文件中保存。
   ![复制钱包助记词](/desktop-wallet/legacy/copy-mnemonics.png)
@@ -121,7 +123,7 @@ Abelian 基金会开发了桌面版的 Abelian 钱包，通过易于使用的图
 3. 在弹出的恢复地址数对话框中，输入该钱包账户的 “**number of times to recover times（恢复次数）**”① 、“**number of times to send tokens（转账次数）**”②，点击 “**CONFIRM（确认）**”③ 按钮
 ![输入恢复地址数量](/desktop-wallet/legacy/input-recover-send-times.png)<br>
 
-4. 系统会自动生成对应的数字到恢复地址实例数量栏，点击 “**IMPORT（导入）**” 按钮，稍后会提示 “**Account imported.（账户已导入。）**”，点击 “**DONE**” 按钮完成钱包账户导入。
+4. 系统会自动生成对应的数字到恢复地址实例数量栏，点击 “**IMPORT（导入）**” 按钮，稍后会提示 “**Account imported.（账户已导入。）**”，点击 “**DONE（完成）**” 按钮完成钱包账户导入。
 ![导入钱包账户成功](/desktop-wallet/legacy/import-account-success.png)
 
 ## 迁移 ABEL 传统钱包至多层隐私钱包账户

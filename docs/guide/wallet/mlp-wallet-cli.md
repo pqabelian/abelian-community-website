@@ -10,13 +10,6 @@ This document is designed to provide IT professionals and advanced users with co
 
 With the increasing popularity of digital currencies, the demand for privacy protection among users is also growing. To meet this demand, we have specifically developed the Abilian Multi-Layer Privacy Wallet (CLI version)- Your Gateway to Enhanced Privacy and Flexibility!
 
-This wallet adopts advanced multi-layer privacy technology, aiming to offer you unprecedented control over your transaction privacy and security. It features two innovative types of wallet addresses:
-
-
-   1.**Fully-Private Address**: Your transactions are encrypted and untraceable, ensuring maximum security and anonymity.
-
-  2.**Pseudonymous Address**: Enjoy a Bitcoin-like privacy level with publicly visible coin values and traceable transactions, all while benefiting from lower fees and increased throughput.
-
 Why Should You Upgrade?
 
 - Say goodbye to the "maximum recoverable number of wallets" requirement, as our new fully-private wallet is user-friendly and intuitive.
@@ -25,16 +18,23 @@ Why Should You Upgrade?
 
 - Miners and those who prioritize transaction speed and cost-effectiveness can opt for a pseudonymous wallet, offering a more accessible alternative to the fully-private option.
 
+## Service Capabilities
+
+This wallet adopts advanced multi-layer privacy technology, aiming to offer you unprecedented control over your transaction privacy and security. It features two innovative types of wallet addresses:
+
+  1.**Fully-Private Address**: Your transactions are encrypted and untraceable, ensuring maximum security and anonymity.
+
+  2.**Pseudonymous Address**: Enjoy a Bitcoin-like privacy level with publicly visible coin values and traceable transactions, all while benefiting from lower fees and increased throughput.
+
 Furthermore, The abewalletmlp introduces a suite of key features designed to enhance your experience.
 
-**Key Features**:
-- **Flexible Privacy Levels**: Choose between Fully-Private and Pseudonymous wallet addresses based on your privacy needs.
-- **Simplified Recovery**: Recover all wallet addresses with mnemonic words, no more limitations.
-- **Seamless Transfers**: Transfer ABELs between Fully-Private and Pseudonymous Wallets effortlessly.
+## Product Features
 
 With abewalletmlp, enjoy enhanced privacy, faster transactions, lower gas fees, and the flexibility to manage your privacy on your terms.
 
-
+- **Flexible Privacy Levels**: Choose between Fully-Private and Pseudonymous wallet addresses based on your privacy needs.
+- **Simplified Recovery**: Recover all wallet addresses with mnemonic words, no more limitations.
+- **Seamless Transfers**: Transfer ABELs between Fully-Private and Pseudonymous Wallets effortlessly.
 
 ## Operational Steps
 

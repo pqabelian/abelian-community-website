@@ -23,6 +23,10 @@ Go to the [Abelian official website download page](https://pqabelian.io/download
 
 - If your computer is running Linux, ensure you are using an Intel/AMD x86-64 CPU (amd64) or AMD ARM CPU (arm64). Download the corresponding installation package based on the processor. To check the processor and system type, for example on Ubuntu Desktop, click the system function icon group in the top right corner of the desktop, click the "Settings" icon in the dropdown menu, and select the "About" tab to view the "Processor/System Type" field.
 
+---
+
+**This tutorial uses version 4.2.0 of Windows as an example:**
+
 - Save the Abelian desktop wallet installation package to the desktop.
 ![Download the installation package to your computer's desktop](/desktop-wallet/legacy/download.png)
 
