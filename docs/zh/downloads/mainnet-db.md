@@ -21,9 +21,9 @@ outline: deep
 ```
 :::
 
-## Mainnet 数据包下载地址（高度：317124）
-* [Mega](https://mega.nz/folder/gydxkZgS#GNDGHyBlGOJzo_G27b9V9w)（2024年10月2日）
-* [Terabox](https://terabox.com/s/1ZlaKraNi5VFLF1173MPyLA)（2024年10月2日）
+## Mainnet 数据包下载地址（高度：327801）
+* [Mega](https://mega.nz/folder/gydxkZgS#GNDGHyBlGOJzo_G27b9V9w)（2024年11月2日）
+* [Terabox](https://terabox.com/s/1iUvqrwCJC3_HABMkatFXlw)（2024年11月2日）
 
 文件列表：（共12个分卷zip压缩包）
 > mainnet.zip.001
