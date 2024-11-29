@@ -78,13 +78,13 @@ In the WAbel section, you can view and manage your wAbel:
   ![MetaMask Approve Authorization](/qday-testnet/dapp/metamask-confirm-authorized-veqday2.png)<br>
 - After successful authorization, you will see the authorized veQDay amount under “My veQDay (我的 veQDay)” in the “Summary (汇总)” section.
 
-### 4. weQDay Staking
+### 4. veQDay Staking
 
-- After the authorization operation, enter the amount of weQDay to stake in the same input field, and click the “weQDay Staking (weQDay质押)” button;
-  ![weQDay Staking](/qday-testnet/dapp/qday-staking-input-weqday.png)<br>
+- After the authorization operation, enter the amount of veQDay to stake in the same input field, and click the “veQDay Staking (veQDay质押)” button;
+  ![veQDay Staking](/qday-testnet/dapp/qday-staking-input-weqday.png)<br>
 - MetaMask will pop up a window prompting the staking operation. Click “Confirm” to stake;
   ![MetaMask Confirm Staking](/qday-testnet/dapp/metamask-confirm-weqday-staking.png)<br>
-- After successful staking, you will see the staked weQDay amount under “My Staked weQDay (我的质押veQDay)” in the “Summary (汇总)” section.
+- After successful staking, you will see the staked veQDay amount under “My Staked veQDay (我的质押veQDay)” in the “Summary (汇总)” section.
 
 ### 5. Unstake
 
