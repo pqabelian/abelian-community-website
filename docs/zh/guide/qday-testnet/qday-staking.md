@@ -79,13 +79,13 @@ outline: deep
 - 成功授权后，您将在 “汇总” 部分的 “我的veQDay” 下看到授权的 veQDay 金额。
 
 
-### 3. weQDay 质押
+### 3. veQDay 质押
 
-- 在授权质押操作后，相同位置的输入框中输入质押 weQDay 数量，点击 “weQDay质押” 按钮；
-  ![weQDay 质押](/qday-testnet/dapp/qday-staking-input-weqday.png)<br>
+- 在授权质押操作后，相同位置的输入框中输入质押 veQDay 数量，点击 “veQDay质押” 按钮；
+  ![veQDay 质押](/qday-testnet/dapp/qday-staking-input-weqday.png)<br>
 - MetaMask 弹窗提示质押操作，点击 “Comfirm” 进行质押;
   ![Metamask 确认质押](/qday-testnet/dapp/metamask-confirm-weqday-staking.png)<br>
-- 成功质押后，您将在 “汇总” 部分的 “我的质押weQDay” 下看到质押的 weQDay 金额。
+- 成功质押后，您将在 “汇总” 部分的 “我的质押veQDay” 下看到质押的 veQDay 金额。
 
 ### 4. 解除质押
 
