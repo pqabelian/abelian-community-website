@@ -180,7 +180,7 @@ The Desktop Wallet Pro does not support importing mnemonics from **Abelian Legac
 :::
 
 3. After the message "**Account imported.**" appears, click the "**DONE**" button to complete the wallet account import.
-![Wallet account import successful](/desktop-wallet/pro/import-account-success.png)
+![Wallet account import successful](/desktop-wallet/legacy/import-account-success.png)
 
 ---
 
