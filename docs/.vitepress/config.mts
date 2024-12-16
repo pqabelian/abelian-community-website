@@ -58,10 +58,10 @@ export default defineConfig({
                     { text: 'Abelian Apps Basics', link: '/guide/index' },
                     //{ text: 'Desktop Wallet Pro (MLP)', link: '/guide/wallet/desktop-wallet-pro' },
                     //{ text: 'Desktop Wallet Legacy', link: '/guide/wallet/desktop-wallet-legacy' },
-                    { text: 'Full Node CLI', link: '/guide/full-node-cli' },
-                    { text: 'CLI Wallet (MLP)', link: '/guide/wallet/mlp-wallet-cli' },
-                    { text: 'Legacy Wallet CLI', link: '/guide/wallet/legacy-wallet-cli' },
-                    { text: 'Wallet CLI Lite', link: '/guide/wallet/wallet-cli-lite' },
+                    { text: 'CLI Full Node', link: '/guide/cli-full-node' },
+                    { text: 'CLI Wallet (MLP)', link: '/guide/wallet/cli-wallet-mlp' },
+                    { text: 'CLI Wallet Legacy', link: '/guide/wallet/cli-wallet-legacy' },
+                    { text: 'CLI Wallet Lite', link: '/guide/wallet/cli-wallet-lite' },
                     { text: 'GPU Mining', link: '/guide/mining/gpu-pool' }
                   ]
                 },
@@ -194,10 +194,10 @@ export default defineConfig({
                     { text: '应用程序常识', link: '/zh/guide/index' },
                     //{ text: '桌面钱包专业版 (MLP)', link: '/zh/guide/wallet/desktop-wallet-pro' },
                     //{ text: '桌面钱包传统版', link: '/zh/guide/wallet/desktop-wallet-legacy' },
-                    { text: '全节点 (CLI)', link: '/zh/guide/full-node-cli' },
-                    { text: '多层隐私钱包 (CLI)', link: '/zh/guide/wallet/mlp-wallet-cli' },
-                    { text: '传统钱包（CLI）', link: '/zh/guide/wallet/legacy-wallet-cli' },
-                    { text: '轻量钱包（CLI）', link: '/zh/guide/wallet/wallet-cli-lite' },
+                    { text: '全节点 (CLI)', link: '/zh/guide/cli-full-node' },
+                    { text: '多层隐私钱包 (CLI)', link: '/zh/guide/wallet/cli-wallet-mlp' },
+                    { text: '传统钱包（CLI）', link: '/zh/guide/wallet/cli-wallet-legacy' },
+                    { text: '轻量钱包（CLI）', link: '/zh/guide/wallet/cli-wallet-lite' },
                     { text: '显卡挖矿', link: '/zh/guide/mining/gpu-pool' }
                   ]
                 },
