@@ -2,11 +2,11 @@
 outline: deep
 ---
 
-# Abelian 桌面钱包专业版手册
+# Abelian 桌面钱包专业版（MLP）手册
 
 ## 简介
 
-本文档旨在为专业人士和高级用户提供全面的步骤，以成功安装和配置 Abelian 桌面钱包专业版，为您提供前所未有的交易隐私和安全性控制。
+本文档旨在为专业人士和高级用户提供全面的步骤，以成功安装和配置 Abelian 桌面钱包专业版（MLP），为您提供前所未有的交易隐私和安全性控制。
 
 **多层隐私：** 它支持两种创新的钱包地址类型
 
@@ -20,7 +20,7 @@ outline: deep
 
 - **无缝转账**：轻松地在全隐私和伪匿名钱包之间转账 ABEL。
 
-- **高效稳定的链访问**：通过使用超级节点访问，用户无需本地启动Abec，这消除了本地区块链同步所需的时间，使 Abec 服务的使用更加高效。
+- **高效稳定的链访问**：通过使用超级节点访问，用户无需本地启动 Abec，这消除了本地区块链同步所需的时间，使 Abec 服务的使用更加高效。
 
 
 使用 **Abelian 桌面钱包专业版**，享受增强的隐私保护、更快的交易速度、更低的手续费，以及按照您的条件管理隐私的灵活性。
@@ -32,7 +32,7 @@ outline: deep
 
 ### 下载和安装
 
-前往 [Abelian 官方网站下载页面](https://pqabelian.io/download#desktop)，下载 Abelian 桌面钱包 Pro 的安装包。
+前往 [Abelian 官方网站下载页面](https://pqabelian.io/download#desktop)，下载 Abelian 桌面钱包专业版（MLP）的安装包。
 ![访问 Abelian 官网下载页面](/desktop-wallet/pro/download-page.png)
 （根据您的操作系统和 CPU 架构下载 Abelian 桌面钱包专业版）
 

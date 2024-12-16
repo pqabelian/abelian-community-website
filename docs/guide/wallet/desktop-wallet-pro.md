@@ -2,11 +2,11 @@
 outline: deep
 ---
 
-# Abelian Desktop Wallet Pro Manual
+# Abelian Desktop Wallet Pro (MLP) Manual
 
 ## Introduction
 
-This document aims to provide professionals and advanced users with comprehensive steps to successfully install and configure the Abelian Desktop Wallet Pro, offering you unprecedented control over transaction privacy and security.
+This document aims to provide professionals and advanced users with comprehensive steps to successfully install and configure the Abelian Desktop Wallet Pro (MLP), offering you unprecedented control over transaction privacy and security.
 
 **Multi-layer Privacy:** It supports two innovative wallet address types:
 
@@ -30,7 +30,7 @@ With **Abelian Desktop Wallet Pro**, enjoy enhanced privacy protection, faster t
 
 ### Download and Installation
 
-Go to the [Abelian Official Website Download Page](https://pqabelian.io/download#desktop) to download the installation package for Abelian Desktop Wallet Pro.  
+Go to the [Abelian Official Website Download Page](https://pqabelian.io/download#desktop) to download the installation package for Abelian Desktop Wallet Pro (MLP).  
 ![Visit the Abelian official download page](/desktop-wallet/pro/download-page.png)
 (Download Abelian Desktop Wallet Pro according to your operating system and CPU architecture)
 
@@ -127,7 +127,7 @@ Abelian Desktop Wallet Pro supports multi-layer privacy transactions, allowing u
 ![Modify transaction information](/desktop-wallet/pro/edit-delete-transaction.png)
 
 5. In the "**Input**" section, you can view the available balance for transfers. By default, "**Spendable Pseudo-Private ABELs**"① and "**Spendable Fully-Private ABELs**"② are checked. Focus only on the "**Total Spendable ABELs**"③ value. The system will automatically transfer insufficient balances to the corresponding privacy address. 
-![View balance and select transfer address privacy type](/desktop-wallet/pro/confirm-transaction.png)
+![View balance and select transfer address privacy type](/desktop-wallet/pro/check-balance-select-address-privacy.png)
 
 :::tip
 Recently received ABEL tokens will have a few hours of locking period. These locked amounts will not appear in the available balance in the Input section.
