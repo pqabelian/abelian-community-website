@@ -56,10 +56,10 @@ export default defineConfig({
                   collapsed: true,  
                   items: [
                     { text: 'Abelian Apps Basics', link: '/guide/index' },
-                    //{ text: 'Desktop Wallet Pro', link: '/guide/wallet/desktop-wallet-pro' },
+                    //{ text: 'Desktop Wallet Pro (MLP)', link: '/guide/wallet/desktop-wallet-pro' },
                     //{ text: 'Desktop Wallet Legacy', link: '/guide/wallet/desktop-wallet-legacy' },
                     { text: 'Full Node CLI', link: '/guide/full-node-cli' },
-                    { text: 'MLP Wallet CLI', link: '/guide/wallet/mlp-wallet-cli' },
+                    { text: 'CLI Wallet (MLP)', link: '/guide/wallet/mlp-wallet-cli' },
                     { text: 'Legacy Wallet CLI', link: '/guide/wallet/legacy-wallet-cli' },
                     { text: 'Wallet CLI Lite', link: '/guide/wallet/wallet-cli-lite' },
                     { text: 'GPU Mining', link: '/guide/mining/gpu-pool' }
@@ -192,7 +192,7 @@ export default defineConfig({
                   collapsed: true,  
                   items: [
                     { text: '应用程序常识', link: '/zh/guide/index' },
-                    //{ text: '桌面钱包专业版', link: '/zh/guide/wallet/desktop-wallet-pro' },
+                    //{ text: '桌面钱包专业版 (MLP)', link: '/zh/guide/wallet/desktop-wallet-pro' },
                     //{ text: '桌面钱包传统版', link: '/zh/guide/wallet/desktop-wallet-legacy' },
                     { text: '全节点 (CLI)', link: '/zh/guide/full-node-cli' },
                     { text: '多层隐私钱包 (CLI)', link: '/zh/guide/wallet/mlp-wallet-cli' },
