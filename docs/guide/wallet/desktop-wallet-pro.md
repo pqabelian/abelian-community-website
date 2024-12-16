@@ -127,7 +127,7 @@ Abelian Desktop Wallet Pro supports multi-layer privacy transactions, allowing u
 ![Modify transaction information](/desktop-wallet/pro/edit-delete-transaction.png)
 
 5. In the "**Input**" section, you can view the available balance for transfers. By default, "**Spendable Pseudo-Private ABELs**"① and "**Spendable Fully-Private ABELs**"② are checked. Focus only on the "**Total Spendable ABELs**"③ value. The system will automatically transfer insufficient balances to the corresponding privacy address. 
-![View balance and select transfer address privacy type](/desktop-wallet/legacy/confirm-transaction.png)
+![View balance and select transfer address privacy type](/desktop-wallet/pro/confirm-transaction.png)
 
 :::tip
 Recently received ABEL tokens will have a few hours of locking period. These locked amounts will not appear in the available balance in the Input section.
