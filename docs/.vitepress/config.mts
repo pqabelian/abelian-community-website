@@ -52,6 +52,19 @@ export default defineConfig({
                 { text: 'ABEL Yellowpaper', link: '/guide/abel-yellowpaper'},
                 { text: 'ABEL DSA Whitepaper', link: '/guide/abel-dsa-whitepaper'},
                 { text: 'Get Started', link: '/guide/get-started'},
+                { text: 'Abelian User Guide',
+                  collapsed: true,  
+                  items: [
+                    { text: 'Abelian Apps Basics', link: '/guide/index' },
+                    //{ text: 'Desktop Wallet Pro', link: '/guide/wallet/desktop-wallet-pro' },
+                    //{ text: 'Desktop Wallet Legacy', link: '/guide/wallet/desktop-wallet-legacy' },
+                    { text: 'Full Node CLI', link: '/guide/full-node-cli' },
+                    { text: 'MLP Wallet CLI', link: '/guide/wallet/mlp-wallet-cli' },
+                    { text: 'Legacy Wallet CLI', link: '/guide/wallet/legacy-wallet-cli' },
+                    { text: 'Wallet CLI Lite', link: '/guide/wallet/wallet-cli-lite' },
+                    { text: 'GPU Mining', link: '/guide/mining/gpu-pool' }
+                  ]
+                },
                 { text: 'QDay Testnet User Guide',
                   collapsed: true,
                   items: [
@@ -63,23 +76,6 @@ export default defineConfig({
                     { text: 'ABEL Faucet', link: '/guide/qday-testnet/abel-faucet' },
                     { text: 'ABEL Staking', link: '/guide/qday-testnet/abel-staking' },
                     { text: 'QDay DEX', link: '/guide/qday-testnet/dex' }
-                  ]
-                },
-                { text: 'Abelian Wallet',
-                  collapsed: true,  
-                  items: [
-                    //{ text: 'Desktop Wallet Pro', link: '/guide/wallet/desktop-wallet-pro' },
-                    //{ text: 'Desktop Wallet Legacy', link: '/guide/wallet/desktop-wallet-legacy' },
-                    { text: 'MLP Wallet CLI', link: '/guide/wallet/mlp-wallet-cli' },
-                    { text: 'Legacy Wallet CLI', link: '/guide/wallet/legacy-wallet-cli' },
-                    { text: 'Wallet CLI Lite', link: '/guide/wallet/wallet-cli-lite' }
-                  ]
-                },
-                { text: 'Pool Mining',
-                  collapsed: true, 
-                  items: [
-                    { text: 'Join GPU Pool', link: '/guide/mining/gpu-pool' }
-                    //{ text: 'Join CPU Pool', link: '/guide/mining/cpu-pool' }
                   ]
                 }
               ]
@@ -192,7 +188,20 @@ export default defineConfig({
                 { text: 'ABEL 黄皮书', link: '/zh/guide/abel-yellowpaper'},
                 { text: 'ABEL 难度调整白皮书', link: '/zh/guide/abel-dsa-whitepaper'},
                 { text: '由此开始', link: '/zh/guide/get-started'},
-                { text: 'QDay 测试网用户指引',
+                { text: 'Abelian 用户指南',
+                  collapsed: true,  
+                  items: [
+                    { text: '应用程序常识', link: '/zh/guide/index' },
+                    //{ text: '桌面钱包专业版', link: '/zh/guide/wallet/desktop-wallet-pro' },
+                    //{ text: '桌面钱包传统版', link: '/zh/guide/wallet/desktop-wallet-legacy' },
+                    { text: '全节点 (CLI)', link: '/zh/guide/full-node-cli' },
+                    { text: '多层隐私钱包 (CLI)', link: '/zh/guide/wallet/mlp-wallet-cli' },
+                    { text: '传统钱包（CLI）', link: '/zh/guide/wallet/legacy-wallet-cli' },
+                    { text: '轻量钱包（CLI）', link: '/zh/guide/wallet/wallet-cli-lite' },
+                    { text: '显卡挖矿', link: '/zh/guide/mining/gpu-pool' }
+                  ]
+                },
+                { text: 'QDay 测试网用户指南',
                   collapsed: true,
                   items: [
                     { text: 'QDay 测试网简介', link: '/zh/guide/qday-testnet/' },
@@ -203,23 +212,6 @@ export default defineConfig({
                     { text: 'ABEL 水龙头', link: '/zh/guide/qday-testnet/abel-faucet' },
                     { text: 'ABEL 质押', link: '/zh/guide/qday-testnet/abel-staking' },
                     { text: 'QDay DEX', link: '/zh/guide/qday-testnet/dex' }
-                  ]
-                },
-                { text: 'Abelian 钱包',
-                  collapsed: true,  
-                  items: [
-                    //{ text: '桌面钱包专业版', link: '/zh/guide/wallet/desktop-wallet-pro' },
-                    //{ text: '桌面钱包传统版', link: '/zh/guide/wallet/desktop-wallet-legacy' },
-                    { text: '多层隐私钱包 CLI', link: '/zh/guide/wallet/mlp-wallet-cli' },
-                    { text: '传统钱包（CLI）', link: '/zh/guide/wallet/legacy-wallet-cli' },
-                    { text: '轻量钱包（CLI）', link: '/zh/guide/wallet/wallet-cli-lite' }
-                  ]
-                },
-                { text: '矿池指南',
-                  collapsed: true,
-                  items: [
-                    { text: '加入显卡矿池', link: '/zh/guide/mining/gpu-pool' },
-                    //{ text: '加入CPU矿池', link: '/zh/guide/mining/cpu-pool' }
                   ]
                 }
               ]

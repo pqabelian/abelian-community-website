@@ -42,9 +42,9 @@ With abewalletmlp, enjoy enhanced privacy, faster transactions, lower gas fees, 
 1. All operations are conducted through the Command Line Interface (CLI). On Linux or macOS systems, access the Terminal; whereas on Windows, launch PowerShell or your preferred shell application.
 
 
-2. “Abelian Full node”（`abec`)(package [abec-v1.0.0](https://pqabelian.io/download)) is installed and the latest blockchain data are synchronized in your computer. 
+2. “Abelian Full node”（`abec`)(package [abec-v1.0.0](https://pqabelian.io/download#desktop)) is installed and the latest blockchain data are synchronized in your computer. 
 
-3.Please download the latest Abelian Multi-layer Privacy Wallet(`abecwalletmlp`) (package [abewalletmlp-v1.0.1](https://pqabelian.io/download)) .
+3.Please download the latest Abelian Multi-layer Privacy Wallet(`abecwalletmlp`) (package [abewalletmlp-v1.0.1](https://pqabelian.io/download#desktop)).
 
 Here are the download link provided for illustrative purposes only:
 
@@ -65,7 +65,7 @@ Here are the download link provided for illustrative purposes only:
   [abewalletmlp-linux-arm64-v1.0.1.tar.gz](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-arm64-v1.0.1.tar.gz)
 
 
-_The official Abelian download page is located at [Download Page](https://pqabelian.io/download). For further engagement with fellow miners, developers and users, please visit the official [Discord Channel](https://discord.gg/Rrb33mC3Kc)_
+_The official Abelian download page is located at [Download Page](https://pqabelian.io/download#desktop). For further engagement with fellow miners, developers and users, please visit the [Official Discord Server](https://discord.com/invite/5rrDxP29hx)_
 
 ### Installation
 
@@ -98,7 +98,7 @@ Next, press control+C to terminate the process. This action will initiate the cr
 ::: code-group
 
 ```txt [Windows]
-C:\Users\<USER_NAME>\AppData\Local\Abec
+%USERPROFILE%\AppData\Local\Abec
 ```
 
 ```txt [MacOS]
@@ -128,7 +128,7 @@ Then again, press control+C to terminate the process. This action will initiate 
 ::: code-group
 
 ```txt [Windows]
-C:\Users\<USER_NAME>\AppData\Local\Abewallet
+%USERPROFILE%\AppData\Local\Abewallet
 ```
 
 ```txt [MacOS]
@@ -212,8 +212,7 @@ Note that, compared to `abewalletlegacy`, there is no initial address generated,
 
 ### Generate address
 
-Navigate to the directory at `~/abel/abewalletmlp-macos-amd64-v1.0.1` and execute
- the program `abewalletmlp`.
+Navigate to the directory at `~/abel/abewalletmlp-macos-amd64-v1.0.1` and execute the program `abewalletmlp`.
  
   The command parameters are set as follows:
 
@@ -551,7 +550,7 @@ _Please refer to the second part of the configuration in this guide to perform t
 
 **Please note that this migration process will create multiple transactions, which means you will need to pay the associated transaction fees**
 
-The following migration guide is based on the assumption you are using [**abewalletlegacy** with **version 1.0.0**](https://pqabelian.io/download), possess assets, and have also reviewed the [abewalletlegacy Manual](https://download.pqabelian.io/release/docs/Abelian%20CLI%20Wallet%20Manual.pdf).
+The following migration guide is based on the assumption you are using [**abewalletlegacy** with **version 1.0.0**](https://pqabelian.io/download#desktop), possess assets, and have also reviewed the [Abelian Legacy Wallet CLI Manual](/guide/wallet/legacy-wallet-cli).
 
 Based on the above assumptions, you should know the configuration folder for the `abewalletlegacy` as :
 
@@ -576,7 +575,7 @@ This is the same as the configuration folder used by `abewalletmlp`.
 
 In this wallet migration example, it is assumed that the user is operating on two computers (referred to as `PC1`and `PC2`. The following demonstration will use macOS as an example.
 
-1. On the first computer `PC1`: Recover the wallet using `abewalletlegacy` and synchronize the data as described in the [abewalletlegacy Manual](https://download.pqabelian.io/release/docs/Abelian%20CLI%20Wallet%20Manual.pdf). 
+1. On the first computer `PC1`: Recover the wallet using `abewalletlegacy` and synchronize the data as described in the [Abelian Legacy Wallet CLI Manual](/guide/wallet/legacy-wallet-cli). 
 
 **Please back up the configuration folder to a secure location. Retain both the public and private passphrases, as these will be essential for reverting to the current wallet in case the mnemonic phrases do not meet expectations**
 

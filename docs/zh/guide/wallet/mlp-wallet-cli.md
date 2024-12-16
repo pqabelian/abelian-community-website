@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-# Abelian 多层隐私钱包 CLI 手册
+# Abelian 多层隐私钱包（CLI）手册
 ## 简介
 
 本文档的目的是提供一套详尽的安装步骤，以确保用户能够顺利安装并配置 Abilian 多层隐私钱包命令行界面（CLI）版本（abewalletmlp）—您的增强隐私与灵活性之门！
@@ -43,9 +43,9 @@ outline: deep
 
 1.所有的操作都需通过命令行界面（CLI）执行。对于Linux或macOS，请打开终端；对于Windows，请打开PowerShell或您喜欢的任何shell应用程序
 
-2.Abec全节点 (`abec`)（软件包  [abec-v1.0.0](https://pqabelian.io/download))已安装成功，并已同步最新的区块链数据
+2.Abec全节点 (`abec`)（软件包 [abec-v1.0.0](https://pqabelian.io/download#desktop)）已安装成功，并已同步最新的区块链数据
 
-3.请下载最新的Abelian多层隐私钱包（CLI）(`abecwalletmlp`)（软件包 [abewalletmlp-v1.0.1](https://pqabelian.io/download))
+3.请下载最新的Abelian多层隐私钱包（CLI）(`abecwalletmlp`)（软件包 [abewalletmlp-v1.0.1](https://pqabelian.io/download#desktop)）
 
 
 以下为不同平台的软件包下载链接：
@@ -66,8 +66,7 @@ outline: deep
   [abec-linux-arm64-v1.0.0.tar.gz](https://download.pqabelian.io/release/abec/abec-linux-arm64-v1.0.0.tar.gz)，<br>
   [abewalletmlp-linux-arm64-v1.0.1.tar.gz](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-arm64-v1.0.1.tar.gz)
 
-
-
+_Abelian 官方网站下载页面位于[此处](https://pqabelian.io/download#desktop)。如需与其他矿工、开发者和用户进一步交流，请访问 [官方 Discord 服务器](https://discord.com/invite/5rrDxP29hx)。_
 
 ### 解压软件包
 请确保已下载的两个软件包（`abec` 和 `abewalletmlp`）解压并移动到目录`~/abel/` 中：
@@ -101,7 +100,7 @@ _注意：Control+C 键有且只可以按一次，请耐心等待命令执行完
 ::: code-group
 
 ```txt [Windows]
-C:\Users\<USER_NAME>\AppData\Local\Abec
+%USERPROFILE%\AppData\Local\Abec
 ```
 
 ```txt [MacOS]
@@ -131,7 +130,7 @@ $ .\abewalletmlp.exe --create
 ::: code-group
 
 ```txt [Windows]
-C:\Users\<USER_NAME>\AppData\Local\Abewallet
+%USERPROFILE%\AppData\Local\Abewallet
 ```
 
 ```txt [MacOS]
@@ -552,7 +551,7 @@ The wallet has been created successfully.
 
 **注意，此迁移过程将会创建多个交易，这意味着您需要支付因此产生的交易费用**
 
-接下来的迁移操作指南，是假设您已使用[**abewalletlegacy 版本 1.0.0**](https://pqabelian.io/download) 并拥有资产，且按照 [abewalletlegacy 手册](https://download.pqabelian.io/release/docs/Abelian%20CLI%20Wallet%20Manual.pdf)进行`abewalletlegacy`正常使用
+接下来的迁移操作指南，是假设您已使用[**abewalletlegacy 版本 1.0.0**](https://pqabelian.io/download#desktop) 并拥有资产，且按照 [Abelian 传统钱包 (CLI) 手册](/zh/guide/wallet/legacy-wallet-cli) 进行`abewalletlegacy`正常使用
 
 基于上述假设，您应该知道 `abewalletlegacy` 的配置文件夹位于：
 
@@ -575,7 +574,7 @@ C:\Users\<USER_NAME>\AppData\Local\Abewallet
 
 本次钱包迁移示例，假设用户在两台电脑上操作（分别命名为 PC1 和 PC2），以下以MacOS操作系统为例进行演示：
 
-1. 在一台电脑（我们称之为`PC1`）上，按照 [abewalletlegacy 手册](https://download.pqabelian.io/release/docs/Abelian%20CLI%20Wallet%20Manual.pdf) 中所说的，您已同步最新的区块高度并通过 `abewalletlegacy` 正常使用钱包。
+1. 在一台电脑（我们称之为`PC1`）上，按照 [Abelian 传统钱包 (CLI) 手册](/zh/guide/wallet/legacy-wallet-cli) 中所说的，您已同步最新的区块高度并通过 `abewalletlegacy` 正常使用钱包。
 
 **注意：请将`abewalletlegacy`的配置文件夹备份到一个安全的位置，以便用于日后钱包恢复**
 

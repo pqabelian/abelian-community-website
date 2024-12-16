@@ -91,7 +91,7 @@ C:\\Users\\username\\AppData\\Local\\Abewallet
 
 这些文件夹被称为 **配置文件夹**。
 
-您可以从 https://pqabelian.io/download 下载预配置文件 **abewallet.conf**。以下是配置文件 **abewallet.conf** 的详细信息。
+您可以从 [Abelian 轻量钱包 (CLI) 下载页面](https://pqabelian.io/download#desktop) 下载预配置文件 **abewallet.conf**。以下是配置文件 **abewallet.conf** 的详细信息。
 
 首先，在 **abewallet.conf** 中设置 **abecrpcuser** 和 **abecrpcpass**。例如，如果您想要连接到亚洲站点1，您可以进行如下设置：
 ```text
@@ -130,7 +130,7 @@ rpcconnect=42.200.174.30
 cafile=~/path/to/abec_rpc_tm.cert
 ```
 
-此全节点 RPC 证书可从 https://pqabelian.io/download 下载。它被打包在一个名为 **abec_certs/** 的文件夹中。例如，我们可以将这个文件夹放置在 ```~/Documents/``` 中，并将 **abewallet.conf** 中的 **cafile** 设置为
+此全节点 RPC 证书可从 [Abelian 轻量钱包 (CLI) 下载页面](https://pqabelian.io/download#desktop) 下载。它被打包在一个名为 **abec_certs/** 的文件夹中。例如，我们可以将这个文件夹放置在 ```~/Documents/``` 中，并将 **abewallet.conf** 中的 **cafile** 设置为
 
 ```text
 cafile=~/Documents/abec_certs/abec_rpc_tm.cert
@@ -149,7 +149,7 @@ America Site 1: 3.132.2.26 abec_rpc_ohio2.cert
 America Site 2: 52.86.138.73 abec_rpc_nvir2.cert
 ```
 
-所有这些证书都被打包在名为 **abec_certs/** 的文件夹中，其压缩形式可以从 https://pqabelian.io/download 下载。
+所有这些证书都被打包在名为 **abec_certs/** 的文件夹中，其压缩形式可以从 [Abelian 轻量钱包 (CLI) 下载页面](https://pqabelian.io/download#desktop) 下载。
 
 
 ### 2.2 运行实时钱包

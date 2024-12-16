@@ -2,21 +2,13 @@
 outline: deep
 ---
 
-# Abelian CLI Wallet
-
-Download PDF: [Abelian Legacy Wallet CLI Manual](https://download.pqabelian.io/release/docs/Abelian%20CLI%20Wallet%20Manual.pdf)
-
-
----
-
-
 # Abelian Legacy Wallet CLI Manual
 
 This document describes how to run an Abelian CLI wallet.
 
 Please refer to **Abelian Software Basics** to understand the software architecture first.
 
-The [Official Abelian Download Page](https://pqabelian.io/download). To interact with other miners, developers and users, visit the [Official Discord Channel] (https://discord.com/invite/5rrDxP29hx).
+The [Official Abelian Download Page](https://pqabelian.io/download#desktop). To interact with other miners, developers and users, visit the [Official Discord Server] (https://discord.com/invite/5rrDxP29hx).
 
 All the operations are carried out via the Command Line Interface (CLI). For Linux or macOS, open Terminal; and for Windows, open PowerShell or any of your favorite shell application.
 

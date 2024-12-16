@@ -2,19 +2,13 @@
 outline: deep
 ---
 
-# Abelian CLI Wallet
+# Abelian 传统钱包（CLI）手册
 
-下载 PDF: [Abelian Legacy Wallet CLI 手册](https://download.pqabelian.io/release/docs/Abelian%20CLI%20Wallet%20Manual.pdf)
-
----
-
-# Abelian Legacy Wallet CLI 手册
-
-本文档描述了如何运行 Abelian CLI 钱包。
+本文档描述了如何运行 Abelian 传统钱包（CLI）。
 
 请先参考 **Abelian 软件基础** 以了解软件架构。
 
-[官方 Abelian 下载页面](https://pqabelian.io/download)。如需与其他矿工、开发者和用户互动，请访问 [官方 Discord 频道](https://discord.com/invite/5rrDxP29hx)。
+[官方 Abelian 下载页面](https://pqabelian.io/download#desktop)。如需与其他矿工、开发者和用户互动，请访问 [官方 Discord 服务器](https://discord.com/invite/5rrDxP29hx)。
 
 所有操作均通过命令行界面（CLI）进行。在 Linux 或 macOS 上，打开终端；在 Windows 上，打开 PowerShell 或您喜欢的任何 shell 应用程序。
 
