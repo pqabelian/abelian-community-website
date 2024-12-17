@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-# Abelian Legacy Wallet CLI Manual
+# Abelian CLI Wallet Legacy Manual
 
 This document describes how to run an Abelian CLI wallet.
 

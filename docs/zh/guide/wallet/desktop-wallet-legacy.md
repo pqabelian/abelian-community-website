@@ -12,7 +12,7 @@ Abelian 基金会开发了桌面版的 Abelian 钱包，通过易于使用的图
 
 ## 下载与安装
 
-访问 [Abelian 官方网站下载页面](https://pqabelian.io/download#desktop) 并下载 Abelian 桌面钱包（传统版）/ Abelian Desktop Wallet (Legacy) 的安装包。
+访问 [Abelian 官方网站下载页面](https://pqabelian.io/download#desktop) 并下载 Abelian 桌面钱包（传统版）/ Abelian Desktop Wallet Legacy 的安装包。
 
 ![访问 Abelian 官网下载页面](/desktop-wallet/legacy/download-page.png)
 （根据操作系统和 CPU 架构下载 Abelian 桌面钱包传统版）
@@ -128,7 +128,7 @@ Abelian 基金会开发了桌面版的 Abelian 钱包，通过易于使用的图
 
 ## 迁移 ABEL 传统钱包至多层隐私钱包账户
 
-Abelian 基金会开发了多层隐私钱包（Abelian Multi-layer Privacy Wallet），它支持在桌面端创建多层隐私钱包账户，用户根据对隐私的强度选择对应的类型进行交易，但 Abelian 桌面钱包传统版不支持创建多层隐私钱包地址，因此需要将 Abelian 桌面钱包传统版迁移至 Abelian 多层隐私钱包，此操作将传统钱包中所有余额迁移至多层隐私钱包。
+Abelian 基金会开发了多层隐私钱包（Abelian Multi-layer Privacy Wallet），它支持在桌面端创建多层隐私钱包账户，用户根据对隐私的强度选择对应的类型进行交易，但 Abelian 桌面钱包传统版不支持创建多层隐私钱包地址，因此需要将 Abelian 桌面钱包传统版迁移至 Abelian 多层隐私钱包专业版（MLP），此操作将传统钱包中所有余额迁移至多层隐私钱包。
 
 按以下步骤将 Abelian 桌面钱包传统版迁移至 Abelian 多层隐私钱包：
 

@@ -2,17 +2,17 @@
 outline: deep
 ---
 
-# Abelian Desktop Wallet (Legacy) User Manual
+# Abelian Desktop Wallet Legacy User Manual
 
 Abelian is a quantum-resistant Blockchain project. Its native token, ABEL, is a privacy-preserving coin, which empowers users to send and receive ABELs anonymously and untraceably. Abelian uses lattice-based linkable ring signature, lattice-based commitment schemes, and lattice-based zero-knowledge proof systems to achieve security, quantum resistance, and untraceability. Abelian’s vision is to build a quantum-resistant Blockchain ecosystem supporting smart contracts and enhance other Blockchain networks through post-quantum cryptographic bridging technologies.
 
 The Abelian Foundation has developed a desktop version of the Abelian wallet. With an easy-to-use graphical interface, users can create an ABEL wallet account, export the 24-word wallet recovery phrase, import an existing ABEL wallet account, send or receive ABEL tokens, and manage multiple ABEL wallets within a single Abelian Desktop Wallet. The latest version supports the migration from the legacy desktop wallet to the professional version (Abelian Multi-layer Privacy Wallet).
 
-This guide provides a step-by-step tutorial for installing, configuring, and using the Abelian Desktop Wallet (Legacy).
+This guide provides a step-by-step tutorial for installing, configuring, and using the Abelian Desktop Wallet Legacy.
 
 ## Download and Installation
 
-Go to the [Abelian official website download page](https://pqabelian.io/download#desktop) and download the installation package for the Abelian Desktop Wallet (Legacy).
+Go to the [Abelian official website download page](https://pqabelian.io/download#desktop) and download the installation package for the Abelian Desktop Wallet Legacy.
 
 ![Abelian's official download page](/desktop-wallet/legacy/download-page.png)
 (Download the Abelian Desktop Wallet (Legacy) based on your operating system and CPU architecture)
@@ -128,17 +128,17 @@ Follow these steps to import an ABEL wallet created elsewhere:
 
 ## Migrate from Abelian Legacy Wallet to Multi-layer Privacy Wallet Account
 
-The Abelian Foundation has developed the Multi-layer Privacy Wallet, which supports creating multi-layer privacy wallet accounts on the desktop. Users can choose the corresponding type for transactions based on the desired privacy level. However, the Abelian Desktop Wallet (Legacy) does not support creating multi-layer privacy wallet addresses, so you need to migrate from the Abelian Desktop Wallet (Legacy) to the Abelian Multi-layer Privacy Wallet. This operation will migrate all balances from the legacy wallet to the multi-layer privacy wallet.
+The Abelian Foundation has developed the Multi-layer Privacy Wallet, which supports creating multi-layer privacy wallet accounts on the desktop. Users can choose the corresponding type for transactions based on the desired privacy level. However, the Abelian Desktop Wallet (Legacy) does not support creating multi-layer privacy wallet addresses, so you need to migrate from the Abelian Desktop Wallet Legacy to the Abelian Desktop Wallet Pro (MLP). This operation will migrate all balances from the legacy wallet to the multi-layer privacy wallet.
 
-Follow these steps to migrate from the Abelian Desktop Wallet (Legacy) to the Abelian Multi-layer Privacy Wallet:
+Follow these steps to migrate from the Abelian Desktop Wallet Legacy to the Abelian Wallet Pro (MLP):
 
 1. Go to the "**MIGRATION**"① tab, click "**PASTE FROM CLIPBOARD**" or "**IMPORT FROM FILE**"② to input the recipient's multi-layer privacy wallet address instance.
 ![Migrate wallet](/desktop-wallet/legacy/migrate-mlp-wallet.png)<br>
 
-2. Enter the **master password**①, then click the "**MIGRATION**" button② to start the migration. The "Spendable" field shows the available balance for this migration.
+1. Enter the **master password**①, then click the "**MIGRATION**" button② to start the migration. The "Spendable" field shows the available balance for this migration.
 ![Input the master password](/desktop-wallet/legacy/input-password-migration.png)<br>
 
-3. In the system's pop-up prompt, review the wallet address for this migration, and click the "**I CONFIRM THIS MIGRATION.**" button. Once the message "**1 Transaction submitted.**" appears, the wallet migration is complete.
+1. In the system's pop-up prompt, review the wallet address for this migration, and click the "**I CONFIRM THIS MIGRATION.**" button. Once the message "**1 Transaction submitted.**" appears, the wallet migration is complete.
 ![Migration confirmation](/desktop-wallet/legacy/migration-confirm.png)
 
-4. Go to the "**TXS**" tab to view the corresponding transaction record. When the final status is "**Confirmed**," the migration is successful.
+1. Go to the "**TXS**" tab to view the corresponding transaction record. When the final status is "**Confirmed**," the migration is successful.

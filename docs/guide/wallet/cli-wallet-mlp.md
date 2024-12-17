@@ -2,11 +2,11 @@
 outline: deep
 ---
 
-# Abelian Multi-layer Privacy Wallet (CLI) Manual
+# Abelian CLI Wallet (MLP) Manual
 
 ## Introduction
 
-This document is designed to provide IT professionals and advanced users with comprehensive steps for successfully installing and configuring the Abelian Multi-layer Privacy Walle(CLI) (abewalletmlp), a new command-line interface (CLI) wallet 
+This document is designed to provide IT professionals and advanced users with comprehensive steps for successfully installing and configuring the Abelian CLI Walle(MLP) (abewalletmlp), a new command-line interface (CLI) wallet 
 
 With the increasing popularity of digital currencies, the demand for privacy protection among users is also growing. To meet this demand, we have specifically developed the Abilian Multi-Layer Privacy Wallet (CLI version)- Your Gateway to Enhanced Privacy and Flexibility!
 
@@ -44,7 +44,7 @@ With abewalletmlp, enjoy enhanced privacy, faster transactions, lower gas fees, 
 
 2. “Abelian Full node”（`abec`)(package [abec-v1.0.0](https://pqabelian.io/download#desktop)) is installed and the latest blockchain data are synchronized in your computer. 
 
-3.Please download the latest Abelian Multi-layer Privacy Wallet(`abecwalletmlp`) (package [abewalletmlp-v1.0.1](https://pqabelian.io/download#desktop)).
+3.Please download the latest Abelian CLI Wallet (MLP) [`abecwalletmlp`] (package [abewalletmlp-v1.0.1](https://pqabelian.io/download#desktop)).
 
 Here are the download link provided for illustrative purposes only:
 
@@ -550,7 +550,7 @@ _Please refer to the second part of the configuration in this guide to perform t
 
 **Please note that this migration process will create multiple transactions, which means you will need to pay the associated transaction fees**
 
-The following migration guide is based on the assumption you are using [**abewalletlegacy** with **version 1.0.0**](https://pqabelian.io/download#desktop), possess assets, and have also reviewed the [Abelian Legacy Wallet CLI Manual](/guide/wallet/legacy-wallet-cli).
+The following migration guide is based on the assumption you are using [**abewalletlegacy** with **version 1.0.0**](https://pqabelian.io/download#desktop), possess assets, and have also reviewed the [Abelian CLI Wallet Legacy Manual](/guide/wallet/cli-wallet-legacy).
 
 Based on the above assumptions, you should know the configuration folder for the `abewalletlegacy` as :
 
@@ -575,7 +575,7 @@ This is the same as the configuration folder used by `abewalletmlp`.
 
 In this wallet migration example, it is assumed that the user is operating on two computers (referred to as `PC1`and `PC2`. The following demonstration will use macOS as an example.
 
-1. On the first computer `PC1`: Recover the wallet using `abewalletlegacy` and synchronize the data as described in the [Abelian Legacy Wallet CLI Manual](/guide/wallet/legacy-wallet-cli). 
+1. On the first computer `PC1`: Recover the wallet using `abewalletlegacy` and synchronize the data as described in the [Abelian CLI Wallet Legacy Manual](/guide/wallet/cli-wallet-legacy). 
 
 **Please back up the configuration folder to a secure location. Retain both the public and private passphrases, as these will be essential for reverting to the current wallet in case the mnemonic phrases do not meet expectations**
 
