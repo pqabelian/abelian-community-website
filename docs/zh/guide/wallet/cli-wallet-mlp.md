@@ -45,26 +45,26 @@ outline: deep
 
 2.Abec全节点 (`abec`)（软件包 [abec-v1.0.0](https://pqabelian.io/download#desktop)）已安装成功，并已同步最新的区块链数据
 
-3.请下载最新的Abelian多层隐私钱包（CLI）(`abecwalletmlp`)（软件包 [abewalletmlp-v1.0.1](https://pqabelian.io/download#desktop)）
+3.请下载最新的Abelian多层隐私钱包（CLI）(`abecwalletmlp`)（软件包 [abewalletmlp-v2.0.0](https://pqabelian.io/download#desktop)）
 
 
 以下为不同平台的软件包下载链接：
 
 - Windows：<br>
   [abec-windows-amd64-v1.0.0.zip](https://download.pqabelian.io/release/abec/abec-windows-amd64-v1.0.0.zip)，<br>
-  [abewalletmlp-windows-amd64-v1.0.1.zip](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-windows-amd64-v1.0.1.zip)
+  [abewalletmlp-windows-amd64-v2.0.0.zip](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-windows-amd64-v2.0.0.zip)
 - MacOS（Intel）：<br>
   [abec-macos-amd64-v1.0.0.tar.gz](https://download.pqabelian.io/release/abec/abec-macos-amd64-v1.0.0.tar.gz)，<br>
-  [abewalletmlp-macos-amd64-v1.0.1.tar.gz](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-macos-amd64-v1.0.1.tar.gz)
+  [abewalletmlp-macos-amd64-v2.0.0.tar.gz](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-macos-amd64-v2.0.0.tar.gz)
 - MacOS（Apple Silicon）：<br>
   [abec-macos-arm64-v1.0.0.tar.gz](https://download.pqabelian.io/release/abec/abec-macos-arm64-v1.0.0.tar.gz)，<br>
-  [abewalletmlp-macos-arm64-v1.0.1.tar.gz](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-macos-arm64-v1.0.1.tar.gz)
+  [abewalletmlp-macos-arm64-v2.0.0.tar.gz](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-macos-arm64-v2.0.0.tar.gz)
 - Linux（x86_64）：<br>
   [abec-linux-amd64-v1.0.0.tar.gz](https://download.pqabelian.io/release/abec/abec-linux-amd64-v1.0.0.tar.gz)，<br>
-  [abewalletmlp-linux-amd64-v1.0.1.tar.gz](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-amd64-v1.0.1.tar.gz)
+  [abewalletmlp-linux-amd64-v2.0.0.tar.gz](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-amd64-v2.0.0.tar.gz)
 - Linux（arm）：<br>
   [abec-linux-arm64-v1.0.0.tar.gz](https://download.pqabelian.io/release/abec/abec-linux-arm64-v1.0.0.tar.gz)，<br>
-  [abewalletmlp-linux-arm64-v1.0.1.tar.gz](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-arm64-v1.0.1.tar.gz)
+  [abewalletmlp-linux-arm64-v2.0.0.tar.gz](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-arm64-v2.0.0.tar.gz)
 
 _Abelian 官方网站下载页面位于[此处](https://pqabelian.io/download#desktop)。如需与其他矿工、开发者和用户进一步交流，请访问 [官方 Discord 服务器](https://discord.com/invite/5rrDxP29hx)。_
 
@@ -73,10 +73,10 @@ _Abelian 官方网站下载页面位于[此处](https://pqabelian.io/download#de
 
 ```shell
 $ ls ~/abel
-abec-macos-amd64-v1.0.0 abewalletmlp-macos-amd64-v1.0.1
+abec-macos-amd64-v1.0.0 abewalletmlp-macos-amd64-v2.0.0
 $ ls ~/abel/abec-macos-amd64-v1.0.0
 abec abectl start_abec.sh start_abectl.sh ...
-$ ls ~/abel/abewalletmlp-macos-amd64-v1.0.1
+$ ls ~/abel/abewalletmlp-macos-amd64-v2.0.0
 abewalletmlp abewalletmlpctl start_abecwalletmlp.sh start_abewalletmlpctl.sh ...
 ```
 
@@ -112,7 +112,7 @@ _注意：Control+C 键有且只可以按一次，请耐心等待命令执行完
 ```
 :::
 
-同样的，请进入目录 `~/abel/abewalletmlp-macos-amd64-v1.0.1` 并执行命令：
+同样的，请进入目录 `~/abel/abewalletmlp-macos-amd64-v2.0.0` 并执行命令：
 
 ::: code-group
 
@@ -168,7 +168,7 @@ _（若存在多次弹窗提示的情况，请继续按照如上步骤消除弹�
 
 接下来，我们将介绍如何创建钱包。
 
-请进入目录 `~/abel/abewalletmlp-macos-amd64-v1.0.1` ，执行命令：
+请进入目录 `~/abel/abewalletmlp-macos-amd64-v2.0.0` ，执行命令：
 
 ::: code-group
 
@@ -216,7 +216,7 @@ The wallet has been created successfully.
 
 ### 生成钱包地址
 
-首先，请进入目录 `~/abel/abewalletmlp-macos-amd64-v1.0.1` 以便运行程序`abewalletmlp`，命令参数设置如下：
+首先，请进入目录 `~/abel/abewalletmlp-macos-amd64-v2.0.0` 以便运行程序`abewalletmlp`，命令参数设置如下：
 
 ::: code-group
 
@@ -371,7 +371,7 @@ $ .\abec.exe
 
 ### 运行钱包
 
-当 `abec` 完成最新区块链数据同步后，请进入目录 `~/abel/abewalletmlp-macos-amd64-v1.0.1` ，并执行命令：
+当 `abec` 完成最新区块链数据同步后，请进入目录 `~/abel/abewalletmlp-macos-amd64-v2.0.0` ，并执行命令：
 
 ::: code-group
 
@@ -388,11 +388,11 @@ $ .\abewalletmlp.exe --rpcuser=[rpcuser] --rpcpass=[rpcpass] --walletpass=[your 
 
 ### 钱包操作
 
-在 `~/abel/abewalletmlp-macos-amd64-v1.0.1` 目录下，存在一个名为 `start_abewalletmlpctl.sh` 的脚本文件。该脚本封装了 `abewalletmlpctl` 可执行文件，用于实现与钱包的交互功能。
+在 `~/abel/abewalletmlp-macos-amd64-v2.0.0` 目录下，存在一个名为 `start_abewalletmlpctl.sh` 的脚本文件。该脚本封装了 `abewalletmlpctl` 可执行文件，用于实现与钱包的交互功能。
 
 #### 1. 查询余额
 
-请进入目录`~/abel/abewalletmlp-macos-amd64-v1.0.1`，执行命令以便查询钱包余额：
+请进入目录`~/abel/abewalletmlp-macos-amd64-v2.0.0`，执行命令以便查询钱包余额：
 
 ::: code-group
 
@@ -519,6 +519,19 @@ $ sh start_abewalletmlp.sh --create
 
 ```txt [Windows]
 $ .\abewalletmlp.exe --create
+```
+:::
+
+如果您需要导入由多层隐私钱包（CLI）1.0.1 版本创建的账户，请使用以下命令：（添加参数 `--fromcliwallet --cliwalletversion=1.0.1`）
+
+::: code-group
+
+```txt [macOS 和 Linux]
+$ sh start_abewalletmlp.sh --create --fromcliwallet --cliwalletversion=1.0.1
+```
+
+```txt [Windows]
+$ .\abewalletmlp.exe --create --fromcliwallet --cliwalletversion=1.0.1
 ```
 :::
 

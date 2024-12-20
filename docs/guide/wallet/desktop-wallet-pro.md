@@ -216,3 +216,7 @@ The Desktop Wallet Pro does not support importing 24-word wallet mnemonics from 
 If you are still using Abelian Desktop Wallet Legacy, you can migrate your legacy accounts to Abelian Desktop Wallet Pro (MLP) —unlock enhanced privacy and flexibility!  
 
 For detailed migration instructions, please refer to the **Migration Steps in the Desktop Wallet Legacy User Manual** , which will be updated with the coming release. Keep an eye out for the release and stay tuned for the updated manual.
+
+:::tip
+The Abelian Desktop Wallet Pro (MLP) is only compatible with the new version of the Abelian Desktop Wallet Legacy Edition for transfers and migrations. Currently, it does not support transfers using the Abelian Desktop Wallet Legacy Edition 4.1.1 or the Abelian Pro Mobile Wallet!
+:::

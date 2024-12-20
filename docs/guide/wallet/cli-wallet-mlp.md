@@ -44,25 +44,25 @@ With abewalletmlp, enjoy enhanced privacy, faster transactions, lower gas fees, 
 
 2. “Abelian Full node”（`abec`)(package [abec-v1.0.0](https://pqabelian.io/download#desktop)) is installed and the latest blockchain data are synchronized in your computer. 
 
-3.Please download the latest Abelian CLI Wallet (MLP) [`abecwalletmlp`] (package [abewalletmlp-v1.0.1](https://pqabelian.io/download#desktop)).
+3.Please download the latest Abelian CLI Wallet (MLP) [`abecwalletmlp`] (package [abewalletmlp-v2.0.0](https://pqabelian.io/download#desktop)).
 
 Here are the download link provided for illustrative purposes only:
 
 - Windows:<br>
   [abec-windows-amd64-v1.0.0.zip](https://download.pqabelian.io/release/abec/abec-windows-amd64-v1.0.0.zip),<br>
-  [abewalletmlp-windows-amd64-v1.0.1.zip](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-windows-amd64-v1.0.1.zip)
+  [abewalletmlp-windows-amd64-v2.0.0.zip](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-windows-amd64-v2.0.0.zip)
 - MacOS(Intel):<br>
   [abec-macos-amd64-v1.0.0.tar.gz](https://download.pqabelian.io/release/abec/abec-macos-amd64-v1.0.0.tar.gz),<br>
-  [abewalletmlp-macos-amd64-v1.0.1.tar.gz](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-macos-amd64-v1.0.1.tar.gz)
+  [abewalletmlp-macos-amd64-v2.0.0.tar.gz](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-macos-amd64-v2.0.0.tar.gz)
 - MacOS(Apple Silicon):<br>
   [abec-macos-arm64-v1.0.0.tar.gz](https://download.pqabelian.io/release/abec/abec-macos-arm64-v1.0.0.tar.gz),<br>
-  [abewalletmlp-macos-arm64-v1.0.1.tar.gz](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-macos-arm64-v1.0.1.tar.gz)
+  [abewalletmlp-macos-arm64-v2.0.0.tar.gz](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-macos-arm64-v2.0.0.tar.gz)
 - Linux(x86_64):<br>
   [abec-linux-amd64-v1.0.0.tar.gz](https://download.pqabelian.io/release/abec/abec-linux-amd64-v1.0.0.tar.gz),<br>
-  [abewalletmlp-linux-amd64-v1.0.1.tar.gz](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-amd64-v1.0.1.tar.gz)
+  [abewalletmlp-linux-amd64-v2.0.0.tar.gz](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-amd64-v2.0.0.tar.gz)
 - Linux(arm):<br>
   [abec-linux-arm64-v1.0.0.tar.gz](https://download.pqabelian.io/release/abec/abec-linux-arm64-v1.0.0.tar.gz),<br>
-  [abewalletmlp-linux-arm64-v1.0.1.tar.gz](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-arm64-v1.0.1.tar.gz)
+  [abewalletmlp-linux-arm64-v2.0.0.tar.gz](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-arm64-v2.0.0.tar.gz)
 
 
 _The official Abelian download page is located at [Download Page](https://pqabelian.io/download#desktop). For further engagement with fellow miners, developers and users, please visit the [Official Discord Server](https://discord.com/invite/5rrDxP29hx)_
@@ -73,10 +73,10 @@ Please extract the contents of the two packages (`abec` and `abewalletmlp`) and 
 
 ```shell
 $ ls ~/abel
-abec-macos-amd64-v1.0.0 abewalletmlp-macos-amd64-v1.0.1
+abec-macos-amd64-v1.0.0 abewalletmlp-macos-amd64-v2.0.0
 $ ls ~/abel/abec-macos-amd64-v1.0.0
 abec abectl start_abec.sh start_abectl.sh ...
-$ ls ~/abel/abewalletmlp-macos-amd64-v1.0.1
+$ ls ~/abel/abewalletmlp-macos-amd64-v2.0.0
 abewalletmlp abewalletmlpctl start_abecwalletmlp.sh start_abewalletmlpctl.sh ...
 ```
 
@@ -110,7 +110,7 @@ Next, press control+C to terminate the process. This action will initiate the cr
 ```
 :::
 
-Similarly, please change the directory to `~/abel/abewalletmlp-macos-amd64-v1.0.1` and execute the command as followings:
+Similarly, please change the directory to `~/abel/abewalletmlp-macos-amd64-v2.0.0` and execute the command as followings:
 
 ::: code-group
 
@@ -165,7 +165,7 @@ _(If multiple pop-up prompts occur, simply continue to follow the aforementioned
 
 Moving forward, we will outline the process of wallet creation. 
 
-Please proceed to the directory located at `~/abel/abewalletmlp-macos-amd64-v1.0.1` ,and then initiate the application by running the designated command:
+Please proceed to the directory located at `~/abel/abewalletmlp-macos-amd64-v2.0.0` ,and then initiate the application by running the designated command:
 
 ::: code-group
 
@@ -212,7 +212,7 @@ Note that, compared to `abewalletlegacy`, there is no initial address generated,
 
 ### Generate address
 
-Navigate to the directory at `~/abel/abewalletmlp-macos-amd64-v1.0.1` and execute the program `abewalletmlp`.
+Navigate to the directory at `~/abel/abewalletmlp-macos-amd64-v2.0.0` and execute the program `abewalletmlp`.
  
   The command parameters are set as follows:
 
@@ -371,7 +371,7 @@ The aforementioned command will facilitate your local node's connection to the A
 
 Once `abec` has completed synchronization with the latest blockchain data, you can proceed with the next steps -run your wallet.
 
-Navigate to the directory at `~/abel/abewalletmlp-macos-amd64-v1.0.1` and execute the command as follows:
+Navigate to the directory at `~/abel/abewalletmlp-macos-amd64-v2.0.0` and execute the command as follows:
 
 ::: code-group
 
@@ -388,7 +388,7 @@ Note: The following assumes that the run command is `sh start_abewalletmlp.sh --
 
 ### Operations on Wallet
 
-Located within the directory at `~/abel/abewalletmlp-macos-amd64-v1.0.1` ,there is a script file named `start_abewalletmlpctl.sh`. This script serves as an interface for the executable `abewalletmlpctl`, enabling you to engage with the wallet as outlined in the subsequent section.
+Located within the directory at `~/abel/abewalletmlp-macos-amd64-v2.0.0` ,there is a script file named `start_abewalletmlpctl.sh`. This script serves as an interface for the executable `abewalletmlpctl`, enabling you to engage with the wallet as outlined in the subsequent section.
 
 #### 1. Check balance
 
@@ -518,6 +518,19 @@ $ sh start_abewalletmlp.sh --create
 
 ```txt [Windows]
 $ .\abewalletmlp.exe --create
+```
+:::
+
+If you need to import an account created using the Multi-Layer Privacy Wallet (CLI) version 1.0.1, please use the following command (Add parameter `--fromcliwallet --cliwalletversion=1.0.1`):
+
+::: code-group
+
+```txt [macOS 和 Linux]
+$ sh start_abewalletmlp.sh --create --fromcliwallet --cliwalletversion=1.0.1
+```
+
+```txt [Windows]
+$ .\abewalletmlp.exe --create --fromcliwallet --cliwalletversion=1.0.1
 ```
 :::
 
