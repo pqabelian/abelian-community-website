@@ -8,6 +8,13 @@ Abelian is a quantum-resistant blockchain project, and its native token ABEL is 
 
 The Abelian Foundation has developed the desktop version of the Abelian wallet, which allows users to create ABEL wallet accounts through an easy-to-use graphical interface, export a 24-word mnemonic phrase for wallet recovery, import existing ABEL wallet accounts, send or receive ABEL tokens, and manage multiple ABEL wallet instances within a single Abelian desktop wallet.
 
+**What's New?**
+- One-Click Migration: We strongly recommend migrating from legacy wallets to MLP wallets. An MLP wallet no longer needs users to remember the maximum recoverable number of wallets. This enhances the usability greatly. Furthermore, we will only supports the brand-new MLP wallets and fades out the legacy wallet type.
+- You need to install the Desktop Wallet Pro v1.0.0 and create a new wallet (fully-private or pseudo-private type). Then, use the Abelian Desktop Wallet Legacy wallet and use the Migration function to transfer all the ABEL coins from each legacy wallet to the new MLP wallet.
+
+**Why Should You Upgrade? **
+- The MLP wallet address is significantly easier to use without remembering any sequence number (aka maximum recoverable number of wallets). Furthermore, for the first time, you can choose to create multiple MLP addresses, each with different privacy level, fully-private or pseudo-private.
+
 This user guide provides instructions for installing, configuring, and using the features of the Abelian Desktop Wallet (Legacy Version).
 
 ## Download and Installation
@@ -28,13 +35,13 @@ Please visit the [Abelian official website download page](https://pqabelian.io/d
 **This tutorial uses Windows version 4.2.0 as an example:**
 
 - Save the Abelian Desktop Wallet installation package to your desktop.
-![Download the installation package to your computer's desktop](/desktop-wallet/legacy/download.png)<br>
+![Download the installation package to your computer's desktop](/desktop-wallet/legacy/download.png)
 
 - Double-click the compressed file to launch the installation program for the Abelian Desktop Wallet Legacy.
-![Unzip the installation package](/desktop-wallet/legacy/installer.png)<br>
+![Unzip the installation package](/desktop-wallet/legacy/installer.png)
 
 - Double-clicking the installer will automatically install the desktop wallet for the current user and create a desktop shortcut, then it will automatically run the desktop wallet.
-![Install and run the Abelian Desktop Wallet (Legacy)](/desktop-wallet/legacy/runing.png)<br>
+![Install and run the Abelian Desktop Wallet (Legacy)](/desktop-wallet/legacy/runing.png)
 
 - Enter your master password twice and click the “**START**” button to launch the wallet (you will need to enter the master password for local verification each time you start the desktop wallet).
 ![Create a master password for the desktop wallet](/desktop-wallet/legacy/input-password.png)
@@ -42,22 +49,22 @@ Please visit the [Abelian official website download page](https://pqabelian.io/d
 ## Create an ABEL Wallet Account
 
 - Enter your master password and click the “**LOGIN**” button to log into the Abelian Desktop Wallet.
-![Enter the master password to log in to the Abelian Desktop Wallet](/desktop-wallet/legacy/login.png)<br>
+![Enter the master password to log in to the Abelian Desktop Wallet](/desktop-wallet/legacy/login.png)
 
 - To create an ABEL wallet account:
-![Create an ABEL wallet](/desktop-wallet/legacy/create-account.png)<br>
+![Create an ABEL wallet](/desktop-wallet/legacy/create-account.png)
   1. Click “**Select Account**” in the upper right corner.
   2. Choose “**Create Account**” from the dropdown menu.
 
 - Name your wallet (e.g., “PQabel”①) and click the “**CREATE**”② button.
-![Name the wallet account](/desktop-wallet/legacy/account-name.png)<br>
+![Name the wallet account](/desktop-wallet/legacy/account-name.png)
 
 - Wait a moment until the “**Done**”① button appears, then click it to complete the creation of the ABEL wallet account.
-![Account creation successful](/desktop-wallet/legacy/create-account-success.png)<br>
+![Account creation successful](/desktop-wallet/legacy/create-account-success.png)
 (When the account is successfully created, you will see the message “**Account created.**”②)
 
 - Select the newly created desktop wallet account:
-![Select the wallet account](/desktop-wallet/legacy/select-account.png)<br>
+![Select the wallet account](/desktop-wallet/legacy/select-account.png)
   1. Click “**Select Account**” in the upper right corner.
   2. Choose the “PQabel” account from the dropdown menu.
 
@@ -67,17 +74,17 @@ Please visit the [Abelian official website download page](https://pqabelian.io/d
 ## Receive ABELs
 
 - Ensure that the wallet synchronization service is active and that the synchronization status has reached 100%.
-![Check the synchronization status](/desktop-wallet/legacy/abewallet-synced.png)<br>
+![Check the synchronization status](/desktop-wallet/legacy/abewallet-synced.png)
 
 - Go to the “**RECEIVE**”① tab. If there are no wallet address instances, you need to create one first.
   1. Click the “**More...**”② button with three dots, and select “**Add address**”③ from the dropdown menu.
-   ![Create a wallet address](/desktop-wallet/legacy/create-wallet-address.png)<br>
+   ![Create a wallet address](/desktop-wallet/legacy/create-wallet-address.png)
   2. Wait for the wallet address instance to be generated until you see the message “**Successfully generated a new address.**” Then click the “**Close**” button.
-   ![Close the address creation window](/desktop-wallet/legacy/close-create-address.png)<br>
+   ![Close the address creation window](/desktop-wallet/legacy/close-create-address.png)
   3. Click the “**Select address**”① button (book icon) to choose the wallet address you just created②.
-   ![Select the wallet address](/desktop-wallet/legacy/select-address.png)<br>
+   ![Select the wallet address](/desktop-wallet/legacy/select-address.png)
   4. The “**Address**” field displays the **long address**①. Clicking the long address string will automatically copy the wallet long address to the clipboard; clicking the “**Short Address**” field and then the “**Click to register a unique short address.**”② button will generate a short wallet address.
-   ![Generate a short wallet address](/desktop-wallet/legacy/generate-short-address.png)<br>
+   ![Generate a short wallet address](/desktop-wallet/legacy/generate-short-address.png)
   5. After successfully generating the short address, you will see the message “**Registration succeeded. Click to continue.**” Then clicking the string in the “**Short Address**” field will automatically copy the wallet short address to the clipboard.
    ![Copy the short wallet address](/desktop-wallet/legacy/copy-short-address.png)
 
@@ -86,13 +93,13 @@ Once the address is generated, you can use either the long wallet address or the
 ## Send ABELs
 
 - Go to the “**SEND**” tab and click “**PASTE FROM CLIPBOARD**”① or “**IMPORT FROM FILE**”② to input the recipient's wallet address.
-![Input the receiver wallet address](/desktop-wallet/legacy/input-receiver-address.png)<br>
+![Input the receiver wallet address](/desktop-wallet/legacy/input-receiver-address.png)
 
 - If the pasted or imported address is a **short address**②, the system will automatically recognize and resolve it to a **long address**③. After successful resolution, you will see the message “**Successfully get the full address.**”①
-![Resolve short address to long address](/desktop-wallet/legacy/short-address-to-full-address.png)<br>
+![Resolve short address to long address](/desktop-wallet/legacy/short-address-to-full-address.png)
 
 - Enter the **amount**① and your **master password**②, then click the “**SEND**”③ button to submit.
-![Confirm the transaction](/desktop-wallet/legacy/confirm-transaction.png)<br>
+![Confirm the transaction](/desktop-wallet/legacy/confirm-transaction.png)
 
 - After submission, a transaction preview window will pop up, allowing you to review the sending wallet account①, transaction amount②, and recipient wallet address③. You can click the “**I WANT TO DOUBLE CHECK IT.**”④ button to return to the previous “**SEND**” page for modifications, or you can click the “**I CONFIRM THIS TRANSACTION.**”⑤ button to complete the transaction.
 ![Transaction preview](/desktop-wallet/legacy/preview-transaction.png)
@@ -105,7 +112,7 @@ Once the address is generated, you can use either the long wallet address or the
 ## Export ABEL Wallet Account
 
 - Go to the “**SETTING**”① tab, enter your **master password**②, and click the “**REVEAL MNEMONICS**”③ button.
-  ![Export account page](/desktop-wallet/legacy/export-account-page.png)<br>
+  ![Export account page](/desktop-wallet/legacy/export-account-page.png)
 
 - A list of 24 words representing your wallet mnemonic (recovery phrase) will appear. Click “**Copy to Clipboard**” and paste it into a local text file for safekeeping.
   ![Copy wallet mnemonics](/desktop-wallet/legacy/copy-mnemonics.png)
@@ -119,10 +126,10 @@ After upgrading the desktop wallet legacy version from 4.1.1 or earlier to versi
 Follow these steps to import an ABEL wallet created elsewhere:
 
 1. Click “**Select Account**” in the upper right corner, then select “**Import Account**.”
-![Select Import Wallet Account](/desktop-wallet/legacy/select-import-account.png)<br>
+![Select Import Wallet Account](/desktop-wallet/legacy/select-import-account.png)
 
 2. Enter the **wallet name**①, the **mnemonic phrase** of 24 words②, and click on the “**Number of Addresses to Recover**”③ field, which will pop up a dialog box. Click the “**OK**”④ button.
-![Input wallet name and mnemonic](/desktop-wallet/legacy/input-account-name-mnemonics.png)<br>
+![Input wallet name and mnemonic](/desktop-wallet/legacy/input-account-name-mnemonics.png)
 
 :::tip
 You need to estimate the number of addresses to recover. Here are three reference methods:
@@ -141,10 +148,10 @@ The Abelian Foundation has developed the Multi-layer Privacy Wallet (Abelian Mul
 Follow these steps to migrate the Abelian Desktop Wallet Legacy to the Abelian desktop wallet Pro (MLP):
 
 1. Go to the “**MIGRATION**”① tab and click “**PASTE FROM CLIPBOARD**” or “**IMPORT FROM FILE**”② to input the recipient's multi-layer privacy wallet address.
-![Migrate wallet](/desktop-wallet/legacy/migrate-mlp-wallet.png)<br>
+![Migrate wallet](/desktop-wallet/legacy/migrate-mlp-wallet.png)
 
 2. Enter your **master password**① and click the “**BEGIN**”② button to proceed with the migration. The line will show the “Spendable” amount for this migration.
-![Input the master password](/desktop-wallet/legacy/input-password-migration.png)<br>
+![Input the master password](/desktop-wallet/legacy/input-password-migration.png)
 
 3. A prompt will pop up to preview the **wallet account**① and the **target wallet address**② for the migration. You can click the “**I WANT TO DOUBLE CHECK IT.**”④ button to return to the previous “**MIGRATION**” page for modifications, or you can click the “**I CONFIRM THIS MIGRATION.**”⑤ button to submit.
 ![Migration confirmation](/desktop-wallet/legacy/migration-confirm.png)

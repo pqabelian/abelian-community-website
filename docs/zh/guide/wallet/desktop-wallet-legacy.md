@@ -8,6 +8,13 @@ Abelian 是一个抗量子攻击的区块链项目，其原生代币 ABEL 是一
 
 Abelian 基金会开发了桌面版的 Abelian 钱包，用户可以通过易于使用的图形界面创建 ABEL 钱包账户，导出用于恢复钱包的 24 个助记词短语，导入现有的 ABEL 钱包账户，发送或接收 ABEL 代币，并在一个 Abelian 桌面钱包中管理多个 ABEL 钱包实例。
 
+**更新内容：**  
+- **一键迁移：** 我们强烈建议用户从旧版钱包迁移至 MLP 钱包。MLP 钱包不再需要用户记住“最大可恢复钱包数量”，这大大提升了易用性。此外，我们将只支持全新的 MLP 钱包，并逐步淘汰旧版钱包类型。  
+- 您需要安装 Desktop Wallet Pro v1.0.0 并创建一个新钱包（完全隐私或伪隐私类型）。然后，使用 Abelian Desktop Wallet Legacy 钱包中的迁移功能，将每个旧版钱包中的 ABEL 代币转移到新的 MLP 钱包中。
+
+**为什么要升级？**  
+- MLP 钱包地址的使用显著简化，不再需要记住任何序列号（即“最大可恢复钱包数量”）。此外，用户首次可以选择创建多个 MLP 地址，每个地址都可以选择不同的隐私级别：完全隐私或伪隐私。
+
 本用户指南提供了 Abelian 桌面钱包传统版的安装、配置和功能使用教程。
 
 ## 下载与安装
@@ -28,13 +35,13 @@ Abelian 基金会开发了桌面版的 Abelian 钱包，用户可以通过易于
 **本教程以 Windows 4.2.0 版本为示例：**
 
 - 将 Abelian 桌面钱包安装包保存到桌面。
-![将安装包文件下载到计算机桌面](/desktop-wallet/legacy/download.png)<br>
+![将安装包文件下载到计算机桌面](/desktop-wallet/legacy/download.png)
 
 - 双击压缩包文件，启动 Abelian 桌面钱包传统版应用程序的安装程序。
-![解压缩安装包](/desktop-wallet/legacy/installer.png)<br>
+![解压缩安装包](/desktop-wallet/legacy/installer.png)
 
 - 双击安装程序将自动安装桌面钱包到当前用户，并创建桌面快捷方式，随后自动运行桌面钱包。
-![安装运行 Abelian 桌面钱包传统版](/desktop-wallet/legacy/runing.png)<br>
+![安装运行 Abelian 桌面钱包传统版](/desktop-wallet/legacy/runing.png)
 
 - 输入两遍主密码，点击 “**START**” 按钮启动钱包（每次启动桌面钱包时都需输入主密码进行本地验证）。
 ![创建桌面钱包主密码](/desktop-wallet/legacy/input-password.png)
@@ -42,22 +49,22 @@ Abelian 基金会开发了桌面版的 Abelian 钱包，用户可以通过易于
 ## 创建 ABEL 钱包账户
 
 - 输入主密码，点击 “**LOGIN**” 按钮登录 Abelian 桌面钱包。
-![输入主密码登录 Abelian 桌面钱包](/desktop-wallet/legacy/login.png)<br>
+![输入主密码登录 Abelian 桌面钱包](/desktop-wallet/legacy/login.png)
 
 - 创建一个 ABEL 钱包账户：
-![创建 ABEL 钱包](/desktop-wallet/legacy/create-account.png)<br>
+![创建 ABEL 钱包](/desktop-wallet/legacy/create-account.png)
    1. 点击右上角的 “**Select Account（选择账户）**”。
   2. 在下拉菜单中选择 “**Create Account（创建账户）**”。
 
 - 为您的钱包命名（例如：“PQabel”①），然后点击 “**CREATE（创建）**”② 按钮。
-![钱包账户命名](/desktop-wallet/legacy/account-name.png)<br>
+![钱包账户命名](/desktop-wallet/legacy/account-name.png)
 
 - 稍等片刻，显示 “**Done（完成）**”① 按钮，点击它完成 ABEL 钱包账户的创建。
-![创建账户成功](/desktop-wallet/legacy/create-account-success.png)<br>
+![创建账户成功](/desktop-wallet/legacy/create-account-success.png)
 （创建账户成功时，会显示 “**Account created.（账户已创建。）**”② 消息）
 
 - 选择刚创建的桌面钱包账户：
-![选择钱包账户](/desktop-wallet/legacy/select-account.png)<br>
+![选择钱包账户](/desktop-wallet/legacy/select-account.png)
   1. 点击右上角的 “**Select Account（选择账户）**”。
   2. 在下拉菜单中选择 “PQabel” 账户。
   
@@ -71,13 +78,13 @@ Abelian 基金会开发了桌面版的 Abelian 钱包，用户可以通过易于
 
 - 前往 “**RECEIVE（接收）**”① 标签页，如果没有钱包地址实例，请先创建一个。
   1. 点击三个点图标的 “**More...（更多）**”② 按钮，在下拉菜单中选择 “**Add address（添加地址）**”③。
-   ![创建钱包地址](/desktop-wallet/legacy/create-wallet-address.png)<br>
+   ![创建钱包地址](/desktop-wallet/legacy/create-wallet-address.png)
   2. 等待生成钱包地址实例，直到提示 “**Successfully generated a new address.（成功生成了一个新地址。）**”，然后点击 “**Close（关闭）**” 按钮。
-   ![关闭创建钱包地址](/desktop-wallet/legacy/close-create-address.png)<br>
+   ![关闭创建钱包地址](/desktop-wallet/legacy/close-create-address.png)
   3. 点击书页图标的 “**Select address（选择地址）**”① 按钮，选择刚才创建的钱包地址②。
-   ![选择钱包地址](/desktop-wallet/legacy/select-address.png)<br>
+   ![选择钱包地址](/desktop-wallet/legacy/select-address.png)
   4. “**Address（地址）**” 栏为**长地址**①，点击长地址字符串会自动复制钱包长地址到剪贴板；点击 “**Short Address（短地址）**” 栏后面的 “**Click to register a unique short address.（点击注册一个独特的短地址。）**”② 按钮生成钱包短地址。
-   ![生成钱包短地址](/desktop-wallet/legacy/generate-short-address.png)<br>
+   ![生成钱包短地址](/desktop-wallet/legacy/generate-short-address.png)
   5. 生成短地址成功后会提示 “**Registration succeeded. Click to continue.（注册成功，点击继续。）**”，然后点击 “**Short Address（短地址）**” 栏后面的字符串会自动复制钱包短地址到剪贴板。
    ![复制钱包短地址](/desktop-wallet/legacy/copy-short-address.png)
 
@@ -86,13 +93,13 @@ Abelian 基金会开发了桌面版的 Abelian 钱包，用户可以通过易于
 ## 发送 ABEL
 
 - 前往 “**SEND（发送）**” 标签页，并点击 “**PASTE FROM CLIPBOARD（从剪贴板粘贴）**”① 或 “**IMPORT FROM FILE（从文件导入）**”② 接收方钱包地址实例；
-![输入接收方钱包地址](/desktop-wallet/legacy/input-receiver-address.png)<br>
+![输入接收方钱包地址](/desktop-wallet/legacy/input-receiver-address.png)
 
 - 如果粘贴或导入的是**短地址**②，系统会自动识别并解析为**长地址**③，解析成功后会出现提示 “**Successfully get the full address.（成功获取完整地址。）**”①；
-![短地址解析为长地址](/desktop-wallet/legacy/short-address-to-full-address.png)<br>
+![短地址解析为长地址](/desktop-wallet/legacy/short-address-to-full-address.png)
 
 - 输入转账**金额**①和**主密码**②后，点击 “**SEND（发送）**”③ 按钮提交；
-![确认转账](/desktop-wallet/legacy/confirm-transaction.png)<br>
+![确认转账](/desktop-wallet/legacy/confirm-transaction.png)
 
 - 提交后会弹出交易预览界面，您可以查看发送钱包账户①、交易金额②和接收钱包地址③。您可点击 “**I WANT TO DOUBLE CHECK IT.（我想再确认一下。）**”④ 按钮返回之前的 “**SEND（发送）**” 页面进行修改；也可以点击 “**I CONFIRM THIS TRANSACTION.（我确认此交易。）**”⑤ 按钮完成此次转账交易。
 ![交易预览](/desktop-wallet/legacy/preview-transaction.png)
@@ -105,7 +112,7 @@ Abelian 基金会开发了桌面版的 Abelian 钱包，用户可以通过易于
 ## 导出 ABEL 钱包账户
 
 - 前往 “**SETTING（设置）**” ① 标签页，输入**主密码**②，点击 “**REVEAL MNEMONICS（显示助记词）**”③。
-  ![导出账户页](/desktop-wallet/legacy/export-account-page.png)<br>
+  ![导出账户页](/desktop-wallet/legacy/export-account-page.png)
 
 - 稍后会显示 24 个单词的钱包助记词（恢复短语），点击 “**Copy to Clipboard（复制到剪贴板）**”，并粘贴到本地的文本文件中保存。
   ![复制钱包助记词](/desktop-wallet/legacy/copy-mnemonics.png)
@@ -119,7 +126,7 @@ Abelian 基金会开发了桌面版的 Abelian 钱包，用户可以通过易于
 按以下步骤导入其他地方创建的 ABEL 钱包：
 
 1. 点击右上角的 “**Select Account（选择账户）**”，然后选择 “**Import Account（导入账户）**”。
-![选择导入钱包账户](/desktop-wallet/legacy/select-import-account.png)<br>
+![选择导入钱包账户](/desktop-wallet/legacy/select-import-account.png)
 
 2. 输入**钱包名称**①、24 个单词的**助记词**②，点击 “**Number of Addresses to Recover（恢复地址数量）**”③ 栏会弹出一个对话框，点击 “**OK**”④ 按钮。
 ![输入钱包名称和助记词](/desktop-wallet/legacy/input-account-name-mnemonics.png)
@@ -144,16 +151,16 @@ Abelian 基金会开发了多层隐私钱包（Abelian Multi-layer Privacy Walle
 按以下步骤将 Abelian 桌面钱包传统版迁移至 Abelian 多层隐私钱包：
 
 1. 前往 “**MIGRATION（迁移）**”① 标签页，点击 “**PASTE FROM CLIPBOARD（从剪贴板粘贴）**” 或 “**IMPORT FROM FILE（从文件导入）**”② 按钮，迁移接收方多层隐私钱包地址实例。
-![迁移钱包](/desktop-wallet/legacy/migrate-mlp-wallet.png)<br>
+![迁移钱包](/desktop-wallet/legacy/migrate-mlp-wallet.png)
 
 2. 输入**主密码**①，点击 “**BEGIN（开始）**” 按钮② 进行迁移，此行末尾显示此次迁移的 “Spendable（可用金额）”。
-![输入主密码](/desktop-wallet/legacy/input-password-migration.png)<br>
+![输入主密码](/desktop-wallet/legacy/input-password-migration.png)
 
 3. 在系统弹出提示框中预览此次迁移的 **钱包账户**① 和迁移 **目标钱包地址**②，您可以点击 “**I WANT TO DOUBLE CHECK IT.（我想再确认一下。）**”④ 按钮返回之前的 “**MIGRATION（迁移）**” 页面进行修改；也可以点击 “**I CONFIRM THIS MIGRATION.（我确认此次迁移。）**”⑤ 按钮提交。
-![迁移确认](/desktop-wallet/legacy/migration-confirm.png)<br>
+![迁移确认](/desktop-wallet/legacy/migration-confirm.png)
 
 4. 提交后会显示进度窗口，直到提示 “**1 Transactions submitted.（一笔交易已提交。）**” 则完成钱包迁移操作。
-![迁移进度](/desktop-wallet/legacy/migration-progress.png)<br>
+![迁移进度](/desktop-wallet/legacy/migration-progress.png)
 
 5. 前往 “**TXS（交易记录）**” 标签页，查看对应的交易记录，当最后状态为 “**Confirmed（已确认）**” 时表示此次迁移成功。
 
