@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-# Abelian 多层隐私钱包（CLI）手册
+# Abelian 多层隐私钱包（CLI）用户手册
 ## 简介
 
 本文档的目的是提供一套详尽的安装步骤，以确保用户能够顺利安装并配置 Abilian 多层隐私钱包命令行界面（CLI）版本（abewalletmlp）—您的增强隐私与灵活性之门！

@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-# Abelian 移动钱包
+# Abelian 移动钱包用户手册
 
 > [!NOTE]
 > Abelian 移动钱包的使用手册即将提供。此处我们提供了一份逐步指南，讲解如何将您的账户从 Abelian 桌面钱包迁移到 Abelian 移动钱包。

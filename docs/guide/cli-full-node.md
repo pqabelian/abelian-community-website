@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-# Abelian CLI Full Node Manual
+# Abelian CLI Full Node User Manual
 
 This document describes how to run an Abelian full node.
 

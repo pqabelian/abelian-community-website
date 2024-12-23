@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-# Abelian CLI Wallet (MLP) Manual
+# Abelian CLI Wallet (MLP) User Manual
 
 ## Introduction
 

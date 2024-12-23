@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-# Abelian 传统钱包（CLI）手册
+# Abelian 传统钱包（CLI）用户手册
 
 本文档描述了如何运行 Abelian 传统钱包（CLI）。
 

@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-# Abelian Mobile Wallet
+# Abelian Mobile Wallet User Manual
 
 > [!NOTE]
 > The manual for the Abelian Mobile Wallet will be available soon. Here we provide a step-by-step guide on how to migrate your accounts from the Abelian Desktop Wallet to the Abelian Mobile Wallet.

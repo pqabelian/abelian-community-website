@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-# Abelian 轻量钱包（CLI）版手册
+# Abelian 轻量钱包（CLI）用户手册
 
 我们将学习如何创建一个Abelian CLI（命令行界面）轻量级钱包，使用它来创建钱包地址、检查 ABEL 余额和转账。
 

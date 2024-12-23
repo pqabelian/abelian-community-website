@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-# Abelian 全节点（CLI）手册
+# Abelian 全节点（CLI）用户手册
 
 本文档描述了如何运行一个 Abelian 全节点。
 

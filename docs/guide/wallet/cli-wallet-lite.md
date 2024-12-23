@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-# Abelian CLI Wallet Lite Manual
+# Abelian CLI Wallet Lite User Manual
 
 We will learn how to create an Abelian CLI (Command-Line Interface) lightweight wallet, use it to create wallet addresses, check balances and transfer ABELs.
 
