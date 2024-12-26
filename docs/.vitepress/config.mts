@@ -129,6 +129,8 @@ export default defineConfig({
               text: 'Downloads',
               collapsed: false,
               items: [
+                { text: 'Abelian Applications', link: '/downloads/latest' },
+                { text: 'Abelian Release History', link: '/downloads/release-history' },
                 { text: 'Mainnet Database', link: '/downloads/mainnet-db'},
                 { text: 'Ecosystem Tools', link: '/downloads/ecosystem-tools' }
               ]
@@ -267,6 +269,8 @@ export default defineConfig({
               text: '下载',
               collapsed: false,
               items: [
+                { text: 'Abelian 应用程序', link: '/zh/downloads/latest' },
+                { text: 'Abelian 应用历史版本', link: '/zh/downloads/release-history' },
                 { text: '主网数据', link: '/zh/downloads/mainnet-db'},
                 { text: '生态工具', link: '/zh/downloads/ecosystem-tools' }
               ]

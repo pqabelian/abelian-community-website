@@ -29,7 +29,6 @@ outline: deep
 
 .button-container .btn:hover {
   background-color: #0056b3; /* 更深的蓝色 */
-  transform: scale(1.02); /* 放大效果 */
 }
 </style>
 
@@ -103,7 +102,7 @@ outline: deep
 </div>
 
 ::: warning 重要提示
-桌面钱包传统版由 4.1.1 或更早版本升级到 4.2.0 版本后，需要重新导入钱包账户。详细操作步骤请查看 [桌面钱包传统版用户手册](/zh/guide/desktop-wallet-legacy#导入-abel-钱包账户)。
+桌面钱包传统版由 4.1.1 或更早版本升级到 4.2.0 版本后，需要重新导入钱包账户。详细操作步骤请查看 [桌面钱包传统版用户手册](/zh/guide/wallet/desktop-wallet-legacy#导入-abel-钱包账户)。
 :::
 
 ::: info 发布说明
@@ -237,7 +236,7 @@ outline: deep
 自 2023-09-15版本起，Abelian 轻量钱包（CLI）不再提供独立软件包。它本质上是 Abelian 钱包（CLI）软件包，仅附带了一些证书，用于访问由 Abelian 基金会维护的现有全节点，通过默认配置文件，无需运行全节点即可连接到 Abelian 主网。
 :::
 
-## Abelian Abelian 应用程序历史版本
+## Abelian 应用程序历史版本
 
 查看更多历史版本下载地址, 请访问 [Abelian 应用程序历史版本](/zh/download/release-history) 页面。
 

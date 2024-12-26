@@ -29,7 +29,6 @@ outline: deep
 
 .button-container .btn:hover {
   background-color: #0056b3; /* 更深的蓝色 */
-  transform: scale(1.02); /* 放大效果 */
 }
 </style>
 
@@ -104,7 +103,7 @@ It is available on both iOS and Android platforms.
 </div>
 
 ::: warning
-After upgrading the desktop wallet legacy version from 4.1.1 or earlier to version 4.2.0, you will need to re-import wallet accounts. Starting from version 4.2.0. Please refer to the [Desktop Wallet Legacy User Manual](/guide/desktop-wallet-legacy#import-abel-wallet-account) for detailed operating steps.
+After upgrading the desktop wallet legacy version from 4.1.1 or earlier to version 4.2.0, you will need to re-import wallet accounts. Starting from version 4.2.0. Please refer to the [Desktop Wallet Legacy User Manual](/guide/wallet/desktop-wallet-legacy#import-abel-wallet-account) for detailed operating steps.
 :::
 
 ::: info Release Notes
