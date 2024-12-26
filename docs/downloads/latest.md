@@ -32,24 +32,137 @@ outline: deep
 }
 </style>
 
+<style>
+.download-wrapper {
+  padding: 32px;
+  width: 100%;
+  border-radius: 24px;
+  background-color: #e5edff66;
+  position: relative;
+  min-height: 240px;
+  max-width: 688px;
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+.dark .download-wrapper {
+  background-color: #000;
+  box-shadow: 0 0 1px 1px #2d2d3a;
+}
+.dark .download-wrapper .text-wrapper {
+  color: #d3d3d3;
+}
+.download-wrapper .bg-img {
+  position: absolute;
+  background: url("../public/img-phone.png") no-repeat center/contain;
+  height:240px;
+  width: 260px;
+  right:20px;
+  bottom: -9px;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.download-wrapper .text-wrapper {
+  display: flex;
+  flex-direction:column;
+  color: rgb(51,51,51);
+  margin-bottom: 56px;
+}
+.download-wrapper .text-wrapper span:nth-child(1) {
+  font-size: 20px;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+.download-wrapper .text-wrapper span:nth-child(2) {
+  font-size: 16px;
+  font-weight: 400;
+}
+.download-wrapper .btn-wrapper {
+  display: flex;
+  gap: 16px;
+  position: absolute;
+  z-index: 20;
+  align-items: end;
+}
+.download-wrapper .btn-apk {
+  border: 1px solid rgb(54, 56, 255);
+  color: rgb(54, 56, 255);
+  font-size: 20px;
+  font-weight: 500;
+  height: 52px;
+  width: 84px;
+  border-radius: 24px;
+  text-align: center;
+  line-height: 52px;
+  cursor: pointer;
+  transition: all ease .2s;
+  text-decoration: none;
+  background-color: #fff;
+}
+.download-wrapper .btn-apk:hover {
+  background-color: rgb(54, 56, 255);
+  color: #fff;
+}
+.download-wrapper .btn-base {
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.download-wrapper .btn-android {
+  background: #fff url("../public/android-download.svg") no-repeat center/contain;
+}
+.download-wrapper .btn-ios {
+  background: #fff url("../public/ios-download.svg") no-repeat center/contain;
+}
+
+@media screen and (max-width: 576px) {
+   .download-wrapper {
+      padding: 16px;
+      width: 100%;
+      height: calc(100vw * 0.7);
+      min-height: 320px;
+   }
+   .download-wrapper .bg-img {
+      right: 2px;
+   }
+  .download-wrapper .text-wrapper {
+    margin-bottom: 48px;
+  }
+  .download-wrapper .btn-wrapper {
+    flex-direction: column;
+    align-items: start;
+    gap: 8px;
+  }
+  .download-wrapper .btn-apk {
+    width: 58px;
+    height: 46px;
+    line-height: 46px;
+    font-size:16px;
+  }
+  .download-wrapper .btn-base {
+    width: 170px;
+    height: 56px;
+  }
+}
+</style>
+
 # Abelian Latest Applications
 
 ## Abelian Pro (Mobile)
-
 🔥 We are pleased to announce that the new mobile wallet, Abelian Pro, is now available for download.
 
-**Download Links:**
-
-- iOS
-<div class="button-container">
-  <a href="https://apps.apple.com/us/app/abelian-pro/id6475756639" class="btn">Download from App Store</a>
-</div>
-
-- Android
-<div class="button-container">
-  <a href="https://play.google.com/store/apps/details?id=info.abelian.walletpro" class="btn" style="background-color: #28A745;">Download from Play Store</a>
-  <a href="https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v1.0.9.apk" class="btn" style="background-color: #2DBD6E;">Download from APK file</a>
-</div>
+<section class="download-wrapper">
+    <div class="bg-img"></div>
+    <div class="text-wrapper">
+     <span>Abelian Pro Mobile App</span>
+     <span>Download our latest mobile wallet</span>
+    </div>
+    <div class="btn-wrapper">
+      <a href="https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v1.1.0.apk" class="btn-apk">APK</a>
+      <a href="https://play.google.com/store/apps/details?id=info.abelian.walletpro" class="btn-base btn-android"></a>
+      <a href="https://apps.apple.com/us/app/abelian-pro/id6475756639" class="btn-base btn-ios"></a>
+    </div>
+</section>
 
 ::: info Features
 The new mobile wallet is a complete rewrite of the previous mobile wallet and is designed to be more user-friendly and feature-rich.
