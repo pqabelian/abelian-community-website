@@ -48,7 +48,7 @@ outline: deep
 - Android
 <div class="button-container">
   <a href="https://play.google.com/store/apps/details?id=info.abelian.walletpro" class="btn" style="background-color: #28A745;">Download from Play Store</a>
-  <a href="https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v1.0.9.apk" class="btn" style="background-color: #2DBD6E;">Download from APK file</a>
+  <a href="https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v1.1.0.apk" class="btn" style="background-color: #2DBD6E;">Download from APK file</a>
 </div>
 
 ::: info Features
