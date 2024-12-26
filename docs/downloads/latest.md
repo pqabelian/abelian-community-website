@@ -30,9 +30,7 @@ outline: deep
 .button-container .btn:hover {
   background-color: #0056b3; /* 更深的蓝色 */
 }
-</style>
 
-<style>
 .download-wrapper {
   padding: 32px;
   width: 100%;
@@ -115,6 +113,14 @@ outline: deep
   background: #fff url("../public/ios-download.svg") no-repeat center/contain;
 }
 
+.btn-base {
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 1px solid #dadada;
+}
+
 @media screen and (max-width: 576px) {
    .download-wrapper {
       padding: 16px;
@@ -164,6 +170,10 @@ outline: deep
     </div>
 </section>
 
+::: warning
+The Abelian Pro mobile wallet currently does not support transactions with the Abelian Desktop Wallet Pro (MLP). This feature will be supported in future updates. If you need to perform transactions, please continue using the Desktop Wallet Legacy version.
+:::
+
 ::: info Features
 The new mobile wallet is a complete rewrite of the previous mobile wallet and is designed to be more user-friendly and feature-rich.
 It is available on both iOS and Android platforms.
@@ -184,6 +194,10 @@ It is available on both iOS and Android platforms.
   <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v1.0.0.zip" class="btn">Linux</a>
   <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v1.0.0.zip" class="btn">Linux (ARM)</a>
 </div>
+
+::: warning
+The Abelian Desktop Wallet Pro (MLP) currently does not support transactions with the Abelian Pro mobile wallet. Additionally, the Maxpool mining pool does not yet support MLP wallet addresses as payout addresses. These features will be supported in future updates. If you need to perform transactions, we recommend using the latest version of the Desktop Wallet Legacy.  
+:::
 
 ::: info Release Notes
 **What's New?**

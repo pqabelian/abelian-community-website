@@ -30,8 +30,7 @@ outline: deep
 .button-container .btn:hover {
   background-color: #0056b3; /* 更深的蓝色 */
 }
-</style>
-<style>
+
 .download-wrapper {
   padding: 32px;
   width: 100%;
@@ -114,6 +113,14 @@ outline: deep
   background: #fff url("../../public/ios-download.svg") no-repeat center/contain;
 }
 
+.btn-base {
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 1px solid #dadada;
+}
+
 @media screen and (max-width: 576px) {
    .download-wrapper {
       padding: 16px;
@@ -163,6 +170,10 @@ outline: deep
   </div>
 </section>
 
+::: warning 重要提示
+Abelian Pro 移动钱包暂不支持与 Abelian 桌面钱包专业版 (MLP) 转账交易，后续版本中将支持。如果您需要进行转账交易，请继续使用桌面钱包传统版 (Legacy)。
+:::
+
 ::: info 特点介绍
 新的移动钱包是对之前移动钱包的全面重写，旨在更加用户友好和功能丰富。它可在 iOS 和 Android 平台上使用。
 :::
@@ -182,6 +193,10 @@ outline: deep
   <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v1.0.0.zip" class="btn">Linux</a>
   <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v1.0.0.zip" class="btn">Linux (ARM)</a>
 </div>
+
+::: warning 重要提示
+Abelian 桌面钱包专业版 (MLP) 暂不支持移动钱包 Abelian Pro 转账交易，目前 Maxpool 矿池暂时也不支持 MLP 钱包地址作为收益地址，后续版本中将支持。如果您需要进行转账交易，推荐最新版本的桌面钱包传统版 (Legacy)。
+:::
 
 ::: info 发布说明
 **有什么新功能？**
