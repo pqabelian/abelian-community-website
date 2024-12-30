@@ -2,9 +2,9 @@
 outline: deep
 ---
 
-# Abelian Desktop Wallet (Legacy) User Manual
+# Abelian Desktop Wallet Legacy User Manual
 
-The Abelian Foundation has developed the desktop version of the Abelian wallet, which empowers users to create ABEL wallet accounts through an intuitive graphical interface. Additionally, users can export a 24-word mnemonic phrase for wallet recovery, import existing ABEL wallet accounts, send or receive ABEL tokens, and manage multiple ABEL wallet instances within a single Abelian desktop wallet.
+The Abelian Foundation has developed the desktop version of the Abelian wallet, which empowers users to create ABEL wallet accounts through an intuitive graphical interface. Additionally, users can export a 24-word mnemonic phrase for wallet recovery, import existing ABEL wallet accounts, send or receive ABEL tokens, and manage multiple ABEL wallet instances within a single Abelian Desktop Wallet Legacy.
 
 **What's New?**
 
@@ -15,11 +15,11 @@ The Abelian Foundation has developed the desktop version of the Abelian wallet, 
 
 - The MLP wallet address is significantly easier to use without remembering any sequence number (aka maximum recoverable number of wallets). Furthermore, for the first time, you can choose to create multiple MLP addresses, each with different privacy level, fully-private or pseudo-private.
 
-This user guide is designed to provide comprehensive instructions for the installation, configuration, and utilization of the features within the Abelian Desktop Wallet (Legacy).
+This user guide is designed to provide comprehensive instructions for the installation, configuration, and utilization of the features within the Abelian Desktop Wallet Legacy.
 
 ## Download and Installation
 
-Please visit the [Abelian official website download page](https://pqabelian.io/download#desktop) to obtain the installation package for the Abelian Desktop Wallet Legacy. It is essential to download the appropriate version based on your operating system and CPU architecture, as depicted in the figure below:
+Please visit the [Abelian official website download page](/downloads/latest#abelian-desktop-wallet-legacy) to obtain the installation package for the Abelian Desktop Wallet Legacy. It is essential to download the appropriate version based on your operating system and CPU architecture, as depicted in the figure below:
 
 ![Abelian's official download page](/desktop-wallet/legacy/download-page.png)
 
@@ -40,15 +40,15 @@ Please visit the [Abelian official website download page](https://pqabelian.io/d
 ![Unzip the installation package](/desktop-wallet/legacy/installer.png)
 
 - Double-clicking the installer will automatically install the desktop wallet for the current user and create a desktop shortcut, and subsequently run the desktop wallet, as depicted in the following image:
-![Install and run the Abelian Desktop Wallet (Legacy)](/desktop-wallet/legacy/runing.png)
+![Install and run the Abelian Desktop Wallet Legacy](/desktop-wallet/legacy/runing.png)
 
 - Enter your master password twice and click the “**START**” button to launch the wallet (you will need to enter the master password for local verification each time you start the desktop wallet).
 ![Create a master password for the desktop wallet](/desktop-wallet/legacy/input-password.png)
 
 ## Create an ABEL Wallet Account
 
-- Enter your master password and click the “**LOGIN**” button to access the Abelian Desktop Wallet, as shown as below:
-![Enter the master password to log in to the Abelian Desktop Wallet](/desktop-wallet/legacy/login.png)
+- Enter your master password and click the “**LOGIN**” button to access the Abelian Desktop Wallet Legacy, as shown as below:
+![Enter the master password to log in to the Abelian Desktop Wallet Legacy](/desktop-wallet/legacy/login.png)
 
 - To create an ABEL wallet account, follow these steps:
 ![Create an ABEL wallet](/desktop-wallet/legacy/create-account.png)

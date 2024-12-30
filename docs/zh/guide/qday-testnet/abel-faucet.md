@@ -7,7 +7,7 @@ outline: deep
 ## 获取 ABEL Testnet 钱包地址
 
 ### 1. 安装移动钱包应用
-访问 PQAbelian 官网下载并安装 [Abelian Mobile Wallet Pro](https://pqabelian.io/download#mobile) 应用程序。
+访问 PQAbelian 官网下载并安装 [Abelian Mobile Wallet Pro](/zh/downloads/latest#abelian-pro-移动应用) 应用程序。
 
 ### 2. 移动钱包设置测试网络
 打开 Abelian Mobile Wallet Pro 应用后，点击右下角的 “Setting” 按钮，在 “Network” 选项中选择 “Testnet”。

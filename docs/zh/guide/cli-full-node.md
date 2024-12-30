@@ -8,13 +8,13 @@ outline: deep
 
 请先参考 [Abelian 软件基础常识](/zh/guide/) 文档，以了解软件架构以及运行全节点的目的。
 
-请访问 Abelian 官方网站下载页面，下载 [Abelian 全节点](https://pqabelian.io/download#desktop)。要与其他矿工、开发者和用户互动，请访问 [官方 Discord 服务器](https://discord.com/invite/5rrDxP29hx)。
+请访问 Abelian 官方网站下载页面，下载 [Abelian 全节点](/zh/downloads/latest#abelian-全节点)。要与其他矿工、开发者和用户互动，请访问 [官方 Discord 服务器](https://discord.com/invite/5rrDxP29hx)。
 
 所有操作都通过命令行界面（CLI）进行。对于 Linux 或 macOS，打开终端；对于 Windows，打开 PowerShell 或任何你喜欢的 shell 应用程序。
 
 ## 1. 安装
 
-从 [官方下载页面](https://pqabelian.io/download#desktop) 的 Abelian 全节点部分下载一个压缩文件，例如用于 x86 架构（例如 Intel 芯片）的 Linux 系统的 abec-linux-amd64-v1.0.0.tar.gz。
+从 [官方下载页面](/zh/downloads/latest#abelian-全节点) 的 Abelian 全节点部分下载一个压缩文件，例如用于 x86 架构（例如 Intel 芯片）的 Linux 系统的 abec-linux-amd64-v1.0.0.tar.gz。
 
 解压并将其放在 ~/abel/ 文件夹下：
 

@@ -6,7 +6,7 @@ outline: deep
 
 ## Introduction
 
-This document aims to provide professionals and advanced users with comprehensive steps to successfully install and configure the Abelian Desktop Wallet Pro - Your Gateway to Enhanced Privacy and Customization!
+This document aims to provide professionals and advanced users with comprehensive steps to successfully install and configure the Abelian Desktop Wallet Pro (MLP) - Your Gateway to Enhanced Privacy and Customization!
 
 Elevate your crypto experience with the brand-new Desktop Wallet Pro (MLP) v1.0.0, a  desktop wallet designed to cater to your multi-layer privacy requirements. MLP stands for Multi-Layer Privacy.
 
@@ -44,7 +44,7 @@ Upgrade to the Desktop Wallet Pro (MLP) v1.0.0 today and create a new wallet now
 
 ### Download and Installation
 
-Navigate to the [Abelian Official Website Download Page](https://pqabelian.io/download#desktop) to acquire the installation package for Abelian Desktop Wallet Pro (MLP).  
+Navigate to the [Abelian Official Website Download Page](/downloads/latest#abelian-desktop-wallet-pro-mlp) to acquire the installation package for Abelian Desktop Wallet Pro (MLP).  
 ![Visit the Abelian official download page](/desktop-wallet/pro/download-page.png)
 (Download the Abelian Desktop Wallet Pro (MLP) according to your operating system and CPU architecture)
 
@@ -65,7 +65,7 @@ Navigate to the [Abelian Official Website Download Page](https://pqabelian.io/do
 ![Unzip the installation package](/desktop-wallet/pro/installer.png)
 
 3. Double-click the installer, which will automatically install the desktop wallet for the current user and create a desktop shortcut. After installation, the Abelian Desktop Wallet Pro (MLP) will automatically run.
-![Install and run Abelian Desktop Wallet Pro](/desktop-wallet/pro/runing.png)
+![Install and run Abelian Desktop Wallet Pro (MLP)](/desktop-wallet/pro/runing.png)
 
 4. Enter the master password twice and click the "**START**" button to launch the wallet (the master password is required for local verification each time the desktop wallet is started). 
 ![Create a master password for the desktop wallet](/desktop-wallet/pro/input-password.png)
@@ -75,7 +75,7 @@ Navigate to the [Abelian Official Website Download Page](https://pqabelian.io/do
 ### Create an ABEL Wallet Account
 
 1. To access your Abelian Desktop Wallet Pro (MLP), please enter your master password and then click on the "**LOGIN**" button tto authenticate and proceed with logging in.
-![Enter the master password to log in to the Abelian Desktop Wallet](/desktop-wallet/pro/login.png)
+![Enter the master password to log in to the Abelian Desktop Wallet Pro (MLP)](/desktop-wallet/pro/login.png)
 
 2. To create an ABEL wallet account:
 ![Create an ABEL wallet](/desktop-wallet/pro/create-account.png)
@@ -95,7 +95,7 @@ Navigate to the [Abelian Official Website Download Page](https://pqabelian.io/do
   - Click on the "**Select Account**" drop-down memu in the top right corner.
   - Select the newly created account (e.g., "PQabelPro") from the dropdown menu.
 
-6. **Click on the start button① to initiate the wallet synchronization service to download your ABEL wallet data.** Click the log button② to view the wallet synchronization logs. The progress bar③ will display the synchronization height and percentage progress in real time.
+6. Click on the **Start service**① button to initiate the wallet synchronization service to download your ABEL wallet data. Click the log button② to view the wallet synchronization logs. The progress bar③ will display the synchronization height and percentage progress in real time.
 ![Start the wallet synchronization service](/desktop-wallet/pro/start-abewallet-sync-service.png)
 
 (This brand new Desktop Wallet Pro (MLP) v1.0.0 takes only 45 minutes or less (depending on your network speed and bandwidth) to complete the one-time synchronization and less than 100MB of storage.)
@@ -131,7 +131,7 @@ Once an address is generated, you can use either the full address or the short a
 
 ### Send ABEL
 
-Abelian Desktop Wallet Pro (MLP) offers multi-layer privacy transactions, empowering users to select different levels of privacy based on their needs. The multi-layer privacy feature is designed to enhance transaction anonymity and security. When sending ABEL tokens, you can choose the desired privacy level. For additional features, refer to [this guide](/guide/wallet/mlp-wallet-cli#service-capabilities).
+Abelian Desktop Wallet Pro (MLP) offers multi-layer privacy transactions, empowering users to select different levels of privacy based on their needs. The multi-layer privacy feature is designed to enhance transaction anonymity and security. When sending ABEL tokens, you can choose the desired privacy level. For additional features, refer to [this guide](/guide/wallet/cli-mlp-wallet#service-capabilities).
 
 1. **Ensure the synchronization progress reaches to 100% in STATUS tab.**
 

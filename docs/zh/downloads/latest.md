@@ -50,7 +50,7 @@ outline: deep
 }
 .download-wrapper .bg-img {
   position: absolute;
-  background: url("../../public/img-phone.png") no-repeat center/contain;
+  background: url("/img-phone.png") no-repeat center/contain;
   height:240px;
   width: 260px;
   right:20px;
@@ -107,10 +107,10 @@ outline: deep
   border-radius: 8px;
 }
 .download-wrapper .btn-android {
-  background: #fff url("../../public/android-download.svg") no-repeat center/contain;
+  background: #fff url("/android-download.svg") no-repeat center/contain;
 }
 .download-wrapper .btn-ios {
-  background: #fff url("../../public/ios-download.svg") no-repeat center/contain;
+  background: #fff url("/ios-download.svg") no-repeat center/contain;
 }
 
 .btn-base {
@@ -210,7 +210,7 @@ Abelian 桌面钱包专业版 (MLP) 暂不支持移动钱包 Abelian Pro 转账�
 - 引入了 Memo 概念，使用户可以在后量子、不可变的 Abelian 账本上写消息。在 Abelian 上，我们首次可以将个人笔记永久写入账本。
 
 **为什么要升级？**
-- 强烈建议现有桌面钱包传统版用户立即迁移到这个全新的桌面钱包专业版（MLP），这样他们不再需要记住最大可恢复的钱包数量。要进行迁移，我们需要在桌面钱包专业版（MLP）中创建一个新钱包，然后使用桌面钱包传统版将所有 ABEL 币转移到新钱包中。
+- 强烈建议现有桌面钱包传统版（Legacy）用户立即迁移到这个全新的桌面钱包专业版（MLP），这样他们不再需要记住最大可恢复的钱包数量。要进行迁移，我们需要在桌面钱包专业版（MLP）中创建一个新钱包，然后使用桌面钱包传统版将所有 ABEL 币转移到新钱包中。
 - 您可以首次创建一些完全私密的钱包以及其他匿名私密的钱包。
 :::
 

@@ -8,7 +8,7 @@ outline: deep
 
 请先参考 Abelian 软件基础文档，以了解软件架构以及 SOLO 挖矿或矿池选择。
 
-请访问 Abelian 官方网站下载页面，下载 [Abelian GPU 挖矿池客户端](https://pqabelian.io/download#desktop)。要与其他矿工、开发者和用户互动，请访问 [官方 Discord 服务器](https://discord.com/invite/5rrDxP29hx)。
+请访问 Abelian 官方网站下载页面，下载 [Abelian GPU 挖矿池客户端](/zh/downloads/latest#abelian-显卡矿池客户端)。要与其他矿工、开发者和用户互动，请访问 [官方 Discord 服务器](https://discord.com/invite/5rrDxP29hx)。
 
 所有操作都通过命令行界面（CLI）进行。对于 Linux，打开终端；对于 Windows，打开 PowerShell 或任何你喜欢的 shell 应用程序。
 
@@ -26,7 +26,7 @@ outline: deep
 
 假设你已经使用移动钱包专业版创建了一个钱包账户。
 
-最简单的方法是从官方下载页面下载 [Abelian Pro](https://pqabelian.io/download#desktop)，并创建一个钱包。然后按照以下步骤获取你的钱包地址：
+最简单的方法是从官方下载页面下载 [Abelian Pro](/zh/downloads/latest#abelian-pro-移动应用)，并创建一个钱包。然后按照以下步骤获取你的钱包地址：
 
 1. 在 `Abelian Pro` 主界面中，点击右上角的 `个人资料` 图标。
 2. 导航到 `个人资料 -> 账户详情` 页面。
@@ -39,7 +39,7 @@ outline: deep
 
 - 原 Abelian 基金会矿池 (pool.abelian.info) 当前仍然可以使用，但网址已经变更为：[https://legacy.maxpool.org/home](https://legacy.maxpool.org/home)，请老矿工使用该网址访问。强烈推荐在硬分叉完成之前迁移到新的 Maxpool 矿池;
 
-- Maxpool 矿池需要更新客户端至 [Abelian GPU 挖矿池客户端 v2.0.3](https://pqabelian.io/download#desktop)
+- Maxpool 矿池需要更新客户端至 [Abelian GPU 挖矿池客户端 v2.0.3](/zh/downloads/latest#abelian-显卡矿池客户端)
 
 ## 运行 GPU 挖矿程序 - abelminer
 

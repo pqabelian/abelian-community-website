@@ -50,7 +50,7 @@ outline: deep
 }
 .download-wrapper .bg-img {
   position: absolute;
-  background: url("../public/img-phone.png") no-repeat center/contain;
+  background: url("/img-phone.png") no-repeat center/contain;
   height:240px;
   width: 260px;
   right:20px;
@@ -107,10 +107,10 @@ outline: deep
   border-radius: 8px;
 }
 .download-wrapper .btn-android {
-  background: #fff url("../public/android-download.svg") no-repeat center/contain;
+  background: #fff url("/android-download.svg") no-repeat center/contain;
 }
 .download-wrapper .btn-ios {
-  background: #fff url("../public/ios-download.svg") no-repeat center/contain;
+  background: #fff url("/ios-download.svg") no-repeat center/contain;
 }
 
 .btn-base {
@@ -357,11 +357,11 @@ Mining Pool Website: https://maxpool.org/
 </div>
 
 ::: warning FOR NEW USERS
-If you would like to try out Abelian Wallet (CLI) without having to download the full blockchain, please use the Abelian Lite Wallet (CLI). Check out the Abelian Lite CLI Wallet Manual for more details.
+If you would like to try out Abelian CLI Wallet Legacy without having to download the full blockchain, please use the Abelian CLI Wallet Lite. Check out the Abelian Lite CLI Wallet Manual for more details.
 :::
 
 ::: info Release Notes
-Since version 2023-09-15, there is no standalone package for Abelian Lite Wallet (CLI). It is essentially the Abelian Wallet (CLI) package coupled with a bunch of certificates to access existing full nodes maintained by Abelian Foundation and a default configuration file to connect to the Abelian Mainnet network without running a full node.
+Since version 2023-09-15, there is no standalone package for Abelian CLI Wallet Lite. It is essentially the Abelian CLI Wallet Legacy package coupled with a bunch of certificates to access existing full nodes maintained by Abelian Foundation and a default configuration file to connect to the Abelian Mainnet network without running a full node.
 :::
 
 ## Abelian Applications Release History

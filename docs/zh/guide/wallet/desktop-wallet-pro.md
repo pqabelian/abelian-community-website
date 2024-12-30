@@ -47,7 +47,7 @@ outline: deep
 
 ### 下载和安装
 
-前往 [Abelian 官方网站下载页面](https://pqabelian.io/download#desktop)，下载 Abelian 桌面钱包专业版（MLP）的安装包。
+前往 [Abelian 官方网站下载页面](/zh/downloads/latest#abelian-桌面钱包专业版-mlp)，下载 Abelian 桌面钱包专业版（MLP）的安装包。
 ![访问 Abelian 官网下载页面](/desktop-wallet/pro/download-page.png)
 （根据您的操作系统和 CPU 架构下载 Abelian 桌面钱包专业版）
 
@@ -97,7 +97,7 @@ outline: deep
   - 点击右上角的 “**Select Account（选择账户）**” 按钮。
   - 从下拉菜单中选择刚创建的账号，例如 “PQabelPro” 。
 
-6. **点击启动按钮，开始钱包区块数据同步服务① 以便下载您的 ABEL 钱包数据**；点击日志按钮② 可以查看钱包同步日志；进度栏③ 会实时显示同步的高度和百分比进度。
+6. 点击 “**启动服务（Start service）**”① 按钮，开始钱包区块数据同步服务 以便下载您的 ABEL 钱包数据；点击日志按钮② 可以查看钱包同步日志；进度栏③ 会实时显示同步的高度和百分比进度。
 ![启动钱包同步服务](/desktop-wallet/pro/start-abewallet-sync-service.png)
 
 ---
@@ -130,7 +130,7 @@ outline: deep
 
 ### 发送 ABEL
 
-Abelian 桌面钱包专业版（MLP）支持多层隐私交易，允许用户根据需求选择不同的隐私级别。这一多层隐私功能旨在提升交易的匿名性和安全性。在发送ABEL代币时，您可以选择适合的隐私层级。更多特性请参考 [这里](/zh/guide/wallet/mlp-wallet-cli#服务能力)。
+Abelian 桌面钱包专业版（MLP）支持多层隐私交易，允许用户根据需求选择不同的隐私级别。这一多层隐私功能旨在提升交易的匿名性和安全性。在发送ABEL代币时，您可以选择适合的隐私层级。更多特性请参考 [这里](/zh/guide/wallet/cli-wallet-mlp#服务能力)。
 
 1. **在STATUS选项卡中，请确保同步服务进度已达到 100%**
 

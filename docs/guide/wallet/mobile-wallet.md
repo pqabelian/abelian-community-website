@@ -15,23 +15,23 @@ Difficulty Level: Advanced
 
 ## What you need
 
-1. Abelian Lite Wallet CLI v0.12.5 (remark: lower version does not support some of the commands below)
-   - Download: Please go to the official [Abelian Downloads Page](https://pqabelian.io/download#desktop)
-   - Tutorial: Please check out the [Abelian Lite CLI Wallet Manual](/guide/wallet/wallet-cli-lite)
+1. Abelian CLI Wallet Lite v0.12.5 (remark: lower version does not support some of the commands below)
+   - Download: Please go to the official [Abelian Downloads Page](/downloads/latest#abelian-cli-wallet-lite)
+   - Tutorial: Please check out the [Abelian Lite CLI Wallet Manual](/guide/wallet/cli-wallet-lite)
 
 2. Abelian Mobile App
 
 ## Migration from Desktop Wallet to Mobile App
 
-### Step 1: Run the Abelian Lite CLI Wallet
+### Step 1: Run the Abelian CLI Wallet Lite
 
-Run the Abelian Lite Wallet CLI to import your wallet account using the 24-word mnemonic list.
+Run the Abelian CLI Wallet Lite to import your wallet account using the 24-word mnemonic list.
 
 It is important to enter the correct number for *the maximum number of wallet addresses to recover*. In case you forget about this number, you can open the Desktop Wallet, let **abec** complete the synchronisation and then make a transfer transaction to your own wallet address. After making the transfer, open the **abewallet** service log window and read the log. There should be a line in the log mentioning about the wallet *address number*. In general, every time when we recover the account, a new wallet address will be created and hence, *the maximum number of addresses of recover* increases by one. Also, every time when we make a transfer transaction, a new wallet address will be created, and hence, *the maximum number of addresses to recover* also increases by one. But every time when we receive some tokens, no new wallet address is created and hence, the address number does not increase.
 
 For example, when we create a new wallet account, the number of addresses is 1. Then if I recover this wallet account twice and also make 3 transfers, then the number of wallet addresses is 1+2+3=6.
 
-Here is an example on running this Abelian Lite Wallet CLI (macOS version as an example):
+Here is an example on running this Abelian CLI Wallet Lite (macOS version as an example):
 
 ```shell
 ./start_abewallet.sh -A /Users/abelian/Documents/wallet_migrate --walletpass=MYPUBLICPASSPHRASE

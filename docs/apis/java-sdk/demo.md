@@ -237,7 +237,7 @@ bin/abel4j-demo Account
 
 ### 2.3. Built-in accounts
 
-There are 10 built-in accounts that will be used in the following demos. Their addresses are exported to `$HOME/.abel4j/accounts` by the `Account` demo. The exported file for an account has an `.abeladdress` extension which can be loaded by the Abelian Desktop Wallet for specifying the receiver when sending ABELs. Each file contains two lines with the first line being the abel address and the second line being the short address.
+There are 10 built-in accounts that will be used in the following demos. Their addresses are exported to `$HOME/.abel4j/accounts` by the `Account` demo. The exported file for an account has an `.abeladdress` extension which can be loaded by the Abelian Desktop Wallet Legacy for specifying the receiver when sending ABELs. Each file contains two lines with the first line being the abel address and the second line being the short address.
 
 The built-in accounts will be used in the following demos illustrating the key functionalities required by a non-trivial application (e.g., an exchange wallet).
 

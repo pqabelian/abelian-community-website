@@ -8,13 +8,13 @@ This document describes how to run an Abelian full node.
 
 Please refer to [Abelian Applications Basics](/guide/) to understand the software architecture and the purpose of running a full node first.
 
-Please visit the Abeian official website download page to download [Abelian Full Node](https://pqabelian.io/download#desktop). To interact with other miners, developers and users, visit the [Official Discord Server](https://discord.com/invite/5rrDxP29hx).
+Please visit the Abeian official website download page to download [Abelian Full Node](/downloads/latest#abelian-full-node). To interact with other miners, developers and users, visit the [Official Discord Server](https://discord.com/invite/5rrDxP29hx).
 
 All the operations are carried out via the Command Line Interface (CLI). For Linux or macOS, open Terminal; and for Windows, open PowerShell or any of your favorite shell application.
 
 ## 1. Installation
 
-Download a compressed file, something like abec-linux-amd64-v1.0.0.tar.gz for Linux running on an x86 architecture (e.g. Intel chips), from the Section Abelian Full Node of the [Official Download Page](https://pqabelian.io/download#desktop).
+Download a compressed file, something like abec-linux-amd64-v1.0.0.tar.gz for Linux running on an x86 architecture (e.g. Intel chips), from the Section Abelian Full Node of the [Official Download Page](/downloads/latest#abelian-full-node).
 
 Unzip it and put it under the folder ~/abel/:
 

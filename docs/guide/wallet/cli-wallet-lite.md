@@ -12,7 +12,7 @@ Hence, you can make use of this Abelian Lite CLI Wallet to connect to any Abelia
 
 One obvious reason of using this Abelian Lite CLI Wallet instead of running the original pair locally, namely **abec** and **abewallet**, is the significant saving on disk storage and also the significant saving on time to wait for a local **abec** to do the synchronization. As of this writing, we can save more than 100GB of storage from running an **abec** normal node locally.
 
-After getting the Abelian Lite CLI Wallet (https://pqabelian.io/download#desktop) in compressed form, unzip it. All the commands below can be typed and executed in Terminal (macOS / Linux) or PowerShell (Windows).
+After getting the Abelian CLI Wallet Lite (/downloads/latest#abelian-cli-wallet-lite) in compressed form, unzip it. All the commands below can be typed and executed in Terminal (macOS / Linux) or PowerShell (Windows).
 
 
 ## 1. Create a wallet
@@ -76,7 +76,7 @@ Before running a wallet, we need to change some of the settings in a configurati
 
 These folders are called **configuration folders**.
 
-From [Abelian Lite Wallet Download Page](https://pqabelian.io/download#desktop), you can download a pre-configured **abewallet.conf**. Below are the details of configuring **abewallet.conf**.
+From [Abelian CLI Wallet Lite Download Page](/downloads/latest#abelian-cli-wallet-lite), you can download a pre-configured **abewallet.conf**. Below are the details of configuring **abewallet.conf**.
 
 First, set **abecrpcuser** and **abecrpcpass** in **abewallet.conf**. For example, if you would like to connect to the Asia Site 1, you can set the following:
 ```
@@ -111,7 +111,7 @@ Finally, set the **cafile** in **abewallet.conf** by specifying the path of the 
 cafile=~/path/to/abec_rpc_tm.cert
 ```
 
-This full node RPC certificate can be downloaded from [Abelian Lite Wallet Download Page](https://pqabelian.io/download#desktop). It is packed in a folder called **abec_certs/**. For example, we may put this folder in ```~/Documents/``` and set the **cafile** in **abewallet.conf** as
+This full node RPC certificate can be downloaded from [Abelian CLI Wallet Lite Download Page](/downloads/latest#abelian-cli-wallet-lite). It is packed in a folder called **abec_certs/**. For example, we may put this folder in ```~/Documents/``` and set the **cafile** in **abewallet.conf** as
 ```
 cafile=~/Documents/abec_certs/abec_rpc_tm.cert
 ```
@@ -129,7 +129,7 @@ America Site 1: 3.132.2.26 abec_rpc_ohio2.cert
 America Site 2: 52.86.138.73 abec_rpc_nvir2.cert
 ```
 
-All these certificates are packed in the folder called **abec_certs/** and its compressed form can be downloaded from [Abelian Lite Wallet Download Page](#abelian-lite-wallet-cli).
+All these certificates are packed in the folder called **abec_certs/** and its compressed form can be downloaded from [Abelian CLI Wallet Lite Download Page](/downloads/latest#abelian-cli-wallet-lite).
 
 
 ### 2.2 Run a live wallet

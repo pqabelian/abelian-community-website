@@ -6,13 +6,13 @@ outline: deep
 
 我们将学习如何创建一个Abelian CLI（命令行界面）轻量级钱包，使用它来创建钱包地址、检查 ABEL 余额和转账。
 
-Abelian 轻量钱包（CLI） 基本上是 Abelian 钱包（CLI）（abelwallet）的简化版，但不需要配置和运行本地 Abelian 全节点（abec）来通信，轻量钱包（CLI）只需要通过配置与 Abelian 基金会或其合作伙伴运行的一个 Abelian 全节点远程通信。
+Abelian 轻量钱包（CLI） 基本上是 Abelian 传统钱包（CLI）（abelwallet/abelwalletlegacy）的简化版，但不需要配置和运行本地 Abelian 全节点（abec）来通信，轻量钱包（CLI）只需要通过配置与 Abelian 基金会或其合作伙伴运行的一个 Abelian 全节点远程通信。
 
 因此，只要远程节点开放了某个适当的端口（默认端口：8667）并且您拥有远程全节点所需的 RPC 证书和私钥，您就可以使用 Abelian 轻量钱包（CLI）连接到任何 Abelian 全节点。
 
 使用 Abelian 轻量钱包（CLI）而不是本地运行完整钱包，即 abec 和 abelwallet 的一个明显的优势是可以节省本地磁盘存储空间，以及等待本地 abec 进行同步的时间。粗略估计当前可以节省超过 100GB 的存储空间，省去了在本地运行 abec 全节点。
 
-获取 [Abelian 轻量钱包（CLI）](https://pqabelian.io/download#desktop) 程序压缩包并解压。以下命令都可以在终端（macOS / Linux）或 PowerShell（Windows）中输入并执行。
+获取 [Abelian 轻量钱包（CLI）](/zh/downloads/latest#abelian-轻量钱包-cli) 程序压缩包并解压。以下命令都可以在终端（macOS / Linux）或 PowerShell（Windows）中输入并执行。
 
 
 ## 1. 创建钱包
@@ -91,7 +91,7 @@ C:\\Users\\username\\AppData\\Local\\Abewallet
 
 这些文件夹被称为 **配置文件夹**。
 
-您可以从 [Abelian 轻量钱包 (CLI) 下载页面](https://pqabelian.io/download#desktop) 下载预配置文件 **abewallet.conf**。以下是配置文件 **abewallet.conf** 的详细信息。
+您可以从 [Abelian 轻量钱包 (CLI) 下载页面](/zh/downloads/latest#abelian-轻量钱包-cli) 下载预配置文件 **abewallet.conf**。以下是配置文件 **abewallet.conf** 的详细信息。
 
 首先，在 **abewallet.conf** 中设置 **abecrpcuser** 和 **abecrpcpass**。例如，如果您想要连接到亚洲站点1，您可以进行如下设置：
 ```text
@@ -130,7 +130,7 @@ rpcconnect=42.200.174.30
 cafile=~/path/to/abec_rpc_tm.cert
 ```
 
-此全节点 RPC 证书可从 [Abelian 轻量钱包 (CLI) 下载页面](https://pqabelian.io/download#desktop) 下载。它被打包在一个名为 **abec_certs/** 的文件夹中。例如，我们可以将这个文件夹放置在 ```~/Documents/``` 中，并将 **abewallet.conf** 中的 **cafile** 设置为
+此全节点 RPC 证书可从 [Abelian 轻量钱包 (CLI) 下载页面](/zh/downloads/latest#abelian-轻量钱包-cli) 下载。它被打包在一个名为 **abec_certs/** 的文件夹中。例如，我们可以将这个文件夹放置在 ```~/Documents/``` 中，并将 **abewallet.conf** 中的 **cafile** 设置为
 
 ```text
 cafile=~/Documents/abec_certs/abec_rpc_tm.cert
@@ -149,7 +149,7 @@ America Site 1: 3.132.2.26 abec_rpc_ohio2.cert
 America Site 2: 52.86.138.73 abec_rpc_nvir2.cert
 ```
 
-所有这些证书都被打包在名为 **abec_certs/** 的文件夹中，其压缩形式可以从 [Abelian 轻量钱包 (CLI) 下载页面](https://pqabelian.io/download#desktop) 下载。
+所有这些证书都被打包在名为 **abec_certs/** 的文件夹中，其压缩形式可以从 [Abelian 轻量钱包 (CLI) 下载页面](/zh/downloads/latest#abelian-轻量钱包-cli) 下载。
 
 
 ### 2.2 运行实时钱包

@@ -16,8 +16,8 @@ outline: deep
 ## 您需要准备
 
 1. Abelian 轻量钱包（CLI） v0.12.5（备注：低版本不支持下面的一些命令）
-   - 下载：请访问官方网站 [Abelian 下载页面](https://pqabelian.io/download#desktop)
-   - 教程：请查看  [Abelian 轻量钱包（CLI） 手册](/zh/guide/wallet/wallet-cli-lite)
+   - 下载：请访问官方网站 [Abelian 下载页面](/zh/downloads/latest#abelian-轻量钱包-cli)
+   - 教程：请查看  [Abelian 轻量钱包（CLI） 手册](/zh/guide/wallet/cli-wallet-lite)
 
 2. Abelian 移动应用
 

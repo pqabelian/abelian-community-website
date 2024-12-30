@@ -42,30 +42,11 @@ With abewalletmlp, enjoy enhanced privacy, faster transactions, lower gas fees, 
 1. All operations are conducted through the Command Line Interface (CLI). On Linux or macOS systems, access the Terminal; whereas on Windows, launch PowerShell or your preferred shell application.
 
 
-2. “Abelian Full node”（`abec`)(package [abec-v1.0.0](https://pqabelian.io/download#desktop)) is installed and the latest blockchain data are synchronized in your computer. 
+2. “Abelian Full node”（`abec`)(package [abec-v1.0.0](/downloads/latest#abelian-full-node)) is installed and the latest blockchain data are synchronized in your computer. 
 
-3.Please download the latest Abelian CLI Wallet (MLP) [`abecwalletmlp`] (package [abewalletmlp-v2.0.0](https://pqabelian.io/download#desktop)).
+3.Please download the latest Abelian CLI Wallet (MLP) [`abecwalletmlp`] (package [abewalletmlp-v2.0.0](/downloads/latest#abelian-cli-wallet-mlp)).
 
-Here are the download link provided for illustrative purposes only:
-
-- Windows:<br>
-  [abec-windows-amd64-v1.0.0.zip](https://download.pqabelian.io/release/abec/abec-windows-amd64-v1.0.0.zip),<br>
-  [abewalletmlp-windows-amd64-v2.0.0.zip](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-windows-amd64-v2.0.0.zip)
-- MacOS(Intel):<br>
-  [abec-macos-amd64-v1.0.0.tar.gz](https://download.pqabelian.io/release/abec/abec-macos-amd64-v1.0.0.tar.gz),<br>
-  [abewalletmlp-macos-amd64-v2.0.0.tar.gz](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-macos-amd64-v2.0.0.tar.gz)
-- MacOS(Apple Silicon):<br>
-  [abec-macos-arm64-v1.0.0.tar.gz](https://download.pqabelian.io/release/abec/abec-macos-arm64-v1.0.0.tar.gz),<br>
-  [abewalletmlp-macos-arm64-v2.0.0.tar.gz](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-macos-arm64-v2.0.0.tar.gz)
-- Linux(x86_64):<br>
-  [abec-linux-amd64-v1.0.0.tar.gz](https://download.pqabelian.io/release/abec/abec-linux-amd64-v1.0.0.tar.gz),<br>
-  [abewalletmlp-linux-amd64-v2.0.0.tar.gz](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-amd64-v2.0.0.tar.gz)
-- Linux(arm):<br>
-  [abec-linux-arm64-v1.0.0.tar.gz](https://download.pqabelian.io/release/abec/abec-linux-arm64-v1.0.0.tar.gz),<br>
-  [abewalletmlp-linux-arm64-v2.0.0.tar.gz](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-arm64-v2.0.0.tar.gz)
-
-
-_The official Abelian download page is located at [Download Page](https://pqabelian.io/download#desktop). For further engagement with fellow miners, developers and users, please visit the [Official Discord Server](https://discord.com/invite/5rrDxP29hx)_
+_The official Abelian download page is located at [Download Page](/downloads/latest). For further engagement with fellow miners, developers and users, please visit the [Official Discord Server](https://discord.com/invite/5rrDxP29hx)_
 
 ### Installation
 
@@ -563,7 +544,7 @@ _Please refer to the second part of the configuration in this guide to perform t
 
 **Please note that this migration process will create multiple transactions, which means you will need to pay the associated transaction fees**
 
-The following migration guide is based on the assumption you are using [**abewalletlegacy** with **version 1.0.0**](https://pqabelian.io/download#desktop), possess assets, and have also reviewed the [Abelian CLI Wallet Legacy Manual](/guide/wallet/cli-wallet-legacy).
+The following migration guide is based on the assumption you are using [**abewalletlegacy** with **version 1.0.0**](/downloads/latest#abelian-cli-wallet-legacy), possess assets, and have also reviewed the [Abelian CLI Wallet Legacy Manual](/guide/wallet/cli-wallet-legacy).
 
 Based on the above assumptions, you should know the configuration folder for the `abewalletlegacy` as :
 

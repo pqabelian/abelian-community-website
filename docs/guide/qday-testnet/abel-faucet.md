@@ -7,7 +7,7 @@ outline: deep
 ## Obtaining an ABEL Testnet Wallet Address
 
 ### 1. Install the Mobile Wallet App
-Visit the PQAbelian official website to download and install the [Abelian Mobile Wallet Pro](https://pqabelian.io/download#mobile) App.
+Visit the PQAbelian official website to download and install the [Abelian Mobile Wallet Pro](/downloads/latest#abelian-pro-mobile) App.
 
 ### 2. Set the Mobile Wallet to Testnet
 Open the Abelian Mobile Wallet Pro app, click the “Setting” button at the bottom right, and select “Testnet” in the “Network” option.

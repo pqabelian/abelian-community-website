@@ -55,7 +55,7 @@ outline: deep
   [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v1.0.0.zip) | 
   [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v1.0.0.zip)
 
-## Abelian 桌面钱包传统版
+## Abelian 桌面钱包传统版（Legacy）
 `abelian-desktop-wallet / abelian-desktop-wallet-legacy`
 
 - **2024-12-26-v4.2.0**
@@ -434,7 +434,7 @@ outline: deep
 - [Abelian 桌面钱包专业版手册](/guide/wallet/desktop-wallet-pro)
 - [Abelian 桌面钱包 (传统版) 手册](/guide/wallet/desktop-wallet-legacy)
 - [Abelian 显卡挖矿手册](/guide/mining/gpu-pool)
-- [Abelian 全节点 (CLI) 手册](/guide/full-node-cli)
-- [Abelian 多层隐私钱包 (CLI) 手册](/guide/wallet/mlp-wallet-cli)
-- [Abelian 传统钱包 (CLI) 手册](/guide/wallet/legacy-wallet-cli)
-- [Abelian 轻量钱包 (CLI) 手册](/guide/wallet/wallet-cli-lite)
+- [Abelian 全节点 (CLI) 手册](/guide/cli-full-node)
+- [Abelian 多层隐私钱包 (CLI) 手册](/guide/wallet/cli-wallet-mlp)
+- [Abelian 传统钱包 (CLI) 手册](/guide/wallet/cli-wallet-legacy)
+- [Abelian 轻量钱包 (CLI) 手册](/guide/wallet/cli-wallet-lite)

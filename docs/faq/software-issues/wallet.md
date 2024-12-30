@@ -4,7 +4,91 @@ outline: deep
 
 # Abelian Wallet FAQ
 
-## Desktop Wallet Issues
+## Desktop Wallet Legacy Issues
+
+### <Badge type="warning" text="QUESTION" /> Error message during transfer: "allowed max number 5"
+
+::: info <Badge type="tip" text="ANSWER" />
+You're basically allowed to combine up to 5 "received" transactions into 1 "send" transaction, so if you've received many small amounts, you will only be able to send a small amount each transaction.
+:::
+
+---
+
+### <Badge type="warning" text="QUESTION" /> The desktop wallet is reporting an error: “missing address manager namespace”
+
+::: info <Badge type="tip" text="ANSWER" />
+Regarding the namespace issue. For our team testing (Windows 10 & Ubuntu 22.04) the issue only appears on vms not on physical (bare metal) systems.
+
+SSE4 and AVX2 extensions are required on you CPU. If you're using vms makes sure to pass the host instruction set through. 
+:::
+
+---
+
+### <Badge type="warning" text="QUESTION" /> Why is the balance in my desktop wallet incorrect (or showing as zero)?
+
+::: info <Badge type="tip" text="ANSWER" />
+Because the correct address count was not entered when re-importing the wallet account, This results in the balance being incorrect (or showing as zero).
+
+When importing, please enter a value greater than the number of transactions. If you're unsure about the transaction count, refer to the [User Guide](/guide/wallet/desktop-wallet-legacy#import-abel-wallet-account) for estimation methods, or simply input a relatively large number (e.g., 100).
+
+Note: Balance only updates when switching tabs in that wallet.
+:::
+
+---
+
+### <Badge type="warning" text="QUESTION" /> How to resolve the issue of the Windows version desktop wallet not running (abelwallet programs do not exist, or there are no logs when running them)?
+
+::: info <Badge type="tip" text="ANSWER" />
+The program files abelwallet.exe maybe mistakenly identified as a virus by 'Windows Defender'.
+
+After installation, please go to 'Windows Security -> Virus & threat protection -> Protection history' to 'Allow' this threat. It is recommended to add the installation directory path in 'Virus & threat protection settings -> Exclusions -> Add or remove exclusions'.
+:::
+
+---
+
+### <Badge type="warning" text="QUESTION" /> Can the data directory for the Windows desktop wallet be changed?
+
+::: info <Badge type="tip" text="ANSWER" />
+Follow these steps to change the storage location of desktop wallet data directory:
+
+1. Close the desktop wallet.
+2. System Properties --> Advanced --> Environment Variables --> Add a new user environment variable:
+    - Variable name: ABELWALLET_HOME
+    - Variable value: (Enter the full path of a folder)
+3. Move the following files from `C:\Users\<USERNAME>\AppData\Roaming\Abelian Wallet` to the new path:
+    - Abewallet
+    - ans-cache.json
+    - config.json
+    - state.json
+4. Restart your system and then run the desktop wallet again.
+:::
+
+---
+
+### <Badge type="warning" text="QUESTION" /> Why are abec and abewallet still the old versions after the desktop wallet upgrade?
+
+::: info <Badge type="tip" text="ANSWER" />
+This is a historical bug in the desktop wallet, which will be fixed in version 4.1.0.
+
+**Temporary solution:**
+
+- Please delete the following directory first:
+
+```
+# Windows:
+C:\Users\<USERNAME>\AppData\Roaming\Abelian Wallet\dist
+# Linux:
+~/.config/Abelian Wallet/dist
+# macOS:
+/Users/<USER_NAME>/Library/Application Support/Abelian Wallet/dist
+```
+
+- Reinstall the new version of the desktop wallet.
+:::
+
+---
+
+## Expired Desktop Wallet Legacy Issues
 
 ### <Badge type="warning" text="QUESTION" /> The Windows desktop wallet cannot start, and the log is:
 ```txt
@@ -37,36 +121,6 @@ Or [View this page](/downloads/mainnet-db) and follow the steps to download the 
 
 ---
 
-### <Badge type="warning" text="QUESTION" /> Is there a solution to ABEL only transferring in small amounts?
-
-::: info <Badge type="tip" text="ANSWER" />
-You're basically allowed to combine up to 5 "received" transactions into 1 "send" transaction, so if you've received many small amounts, you will only be able to send a small amount each transaction.
-:::
-
----
-
-### <Badge type="warning" text="QUESTION" /> The desktop wallet is reporting an error: “missing address manager namespace”
-
-::: info <Badge type="tip" text="ANSWER" />
-Regarding the namespace issue. For our team testing (Windows 10 & Ubuntu 22.04) the issue only appears on vms not on physical (bare metal) systems.
-
-SSE4 and AVX2 extensions are required on you CPU. If you're using vms makes sure to pass the host instruction set through. 
-:::
-
----
-
-### <Badge type="warning" text="QUESTION" /> Why is the balance in my desktop wallet incorrect (or showing as zero)?
-
-::: info <Badge type="tip" text="ANSWER" />
-Because the correct address count was not entered when re-importing the wallet account, This results in the balance being incorrect (or showing as zero).
-
-Please enter a number greater than the transaction count during import. If you are unsure of the transaction count, please enter a relatively large number (e.g., 100).
-
-Note: Balance only updates when switching tabs in that wallet.
-:::
-
----
-
 ### <Badge type="warning" text="QUESTION" /> How to resolve the issue of the Windows version desktop wallet not running (abec and abelwallet programs do not exist, or there are no logs when running them)?
 
 ::: info <Badge type="tip" text="ANSWER" />
@@ -77,45 +131,21 @@ After installation, please go to 'Windows Security -> Virus & threat protection 
 
 ---
 
-### <Badge type="warning" text="QUESTION" /> Can the data directory for the Windows desktop wallet be changed?
+## Desktop Wallet Pro Issues
+
+### <Badge type="warning" text="QUESTION" /> Does the wallet address generated by the Desktop Wallet Pro support Maxpool mining?
 
 ::: info <Badge type="tip" text="ANSWER" />
-Follow these steps to change the storage location of desktop wallet data directory:
-
-1. Close the desktop wallet.
-2. System Properties --> Advanced --> Environment Variables --> Add a new user environment variable:
-    - Variable name: ABELWALLET_HOME
-    - Variable value: (Enter the full path of a folder)
-3. Move the following files from `C:\Users\<USERNAME>\AppData\Roaming\Abelian Wallet` to the new path:
-    - Abec
-    - Abewallet
-    - ans-cache.json
-    - config.json
-    - state.json
-4. Restart your system and then run the desktop wallet again.
+The wallet addresses generated by the Desktop Wallet Pro (MLP) are currently not supported as mining addresses for the Maxpool mining pool. The pool will be upgraded to support the new address format in the future. Please stay tuned to announcements on the [official Discord channel](https://discord.gg/Rrb33mC3Kc) for updates.
 :::
 
 ---
 
-### <Badge type="warning" text="QUESTION" /> Why are abec and abewallet still the old versions after the desktop wallet upgrade?
-
+### <Badge type="warning" text="QUESTION" /> Does the Desktop Wallet Pro support transfers with mobile wallets and exchanges?
 ::: info <Badge type="tip" text="ANSWER" />
-This is a historical bug in the desktop wallet, which will be fixed in version 4.1.0.
+The Desktop Wallet Pro (MLP) currently cannot transfer with the mobile wallet (Abelian Pro). 
 
-**Temporary solution:**
-
-- Please delete the following directory first:
-
-```
-# Windows:
-C:\Users\<USERNAME>\AppData\Roaming\Abelian Wallet\dist
-# Linux:
-~/.config/Abelian Wallet/dist
-# macOS:
-/Users/<USER_NAME>/Library/Application Support/Abelian Wallet/dist
-```
-
-- Reinstall the new version of the desktop wallet.
+We’re working on upgrades with exchanges, and updates will be announced on the [official Discord](https://discord.gg/Rrb33mC3Kc) and the exchange.
 :::
 
 ---
@@ -165,3 +195,12 @@ Steps to get the long address in the desktop wallet:
 
 4. After clicking on the **...**, click on the "**book page**" icon, select an existing wallet address from the drop-down menu, and the string of characters starting with **00000000** below the line "**Address:**" is the long address.
 :::
+
+---
+
+### <Badge type="warning" text="QUESTION" /> What is the difference between wallet Legacy and MLP address formats?
+
+::: info <Badge type="tip" text="ANSWER" />
+The key difference between Legacy and MLP wallet long addresses is the number of characters. Short addresses consist of a prefix + the HASH of the long address, with the prefix making it easy to distinguish between them. See the table below for details:
+:::
+![wallet address format](/excel/address-format-differences.png)
