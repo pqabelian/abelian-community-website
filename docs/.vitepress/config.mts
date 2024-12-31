@@ -317,9 +317,9 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: {
-      light: '/logo-dark.png',
-      dark: '/logo-light.png',
-      alt: "Abelian-Community-FAQ"
+      light: '/logo.svg',
+      dark: '/logo.svg',
+      alt: "Abelian-Community-FAQ-Website"
     },
 
     siteTitle: false,
