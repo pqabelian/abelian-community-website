@@ -31,8 +31,6 @@ outline: deep
 
 如果你想运行一个基于 CLI 的钱包，你可以运行全节点（**abec**）和 CLI 钱包（**abewalletlegacy**/**abewalletmlp**）。运行这两个软件包的直接方式是将它们都运行在同一台机器上。然后你可以使用 **abewalletlegacy** 或 **abewalletmlp** 检查余额、进行资金转账等。详情请参考 [Abelian 经典钱包 (CLI) 手册](/zh/guide/wallet/cli-wallet-legacy) 或 [Abelian 多层隐私钱包 (CLI) 手册](/zh/guide/wallet/cli-wallet-mlp)。请同时注意上述的存储容量需求。
 
-你也可以考虑运行一个独立的 CLI 钱包 abewallet 而不运行全节点。这样，你就不再需要存储完整 Abelian 账本的存储容量需求。详情请阅读 [Abelian 轻量钱包（CLI）版手册](/zh/guide/wallet/cli-wallet-lite)。
-
 如果你是 GPU 挖矿者，请查阅 [Abelian GPU 挖矿手册](/zh/guide/mining/gpu-pool) 获取详细信息。这使你能够进行 SOLO 挖矿。
 
 如果你只有少量的 GPU 卡并且想加入 Abelian 基金会的官方挖矿池服务器，以便与其他矿工一起挖矿并分享 ABEL 奖励，请前往 [Abelian GPU 挖矿池客户端](/zh/downloads/latest#abelian-显卡矿池客户端) 部分获取挖矿池客户端软件及详细信息。

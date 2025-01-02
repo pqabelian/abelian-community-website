@@ -359,4 +359,3 @@ Abelian 桌面钱包专业版 (MLP) 暂不支持移动钱包 Abelian Pro 转账�
 - [Abelian 全节点用户手册](/guide/cli-full-node)
 - [Abelian 多层隐私钱包 (CLI) 用户手册](/guide/wallet/cli-wallet-mlp)
 - [Abelian 经典钱包 (CLI) 用户手册](/guide/wallet/cli-wallet-legacy)
-- [Abelian 轻量钱包 (CLI) 用户手册](/guide/wallet/cli-wallet-lite)

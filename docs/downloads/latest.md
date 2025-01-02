@@ -360,4 +360,3 @@ More documentation for both users and developers can be found at [Abelian Docume
 - [Abelian Full Node Manual](/guide/cli-full-node)
 - [Abelian CLI Wallet (MLP) Manual](/guide/wallet/cli-wallet-mlp)
 - [Abelian CLI Wallet Legacy Manual](/guide/wallet/cli-wallet-legacy)
-- [Abelian CLI Wallet Lite Manual](/guide/wallet/cli-wallet-lite)

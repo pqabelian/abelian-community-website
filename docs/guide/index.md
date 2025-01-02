@@ -31,8 +31,6 @@ If you just want to connect to the Abelian network as a full node so that you ca
 
 If you would like to run a CLI-based wallet, you can run a full node (**abec**) and a CLI wallet (**abewalletlegacy** / **abewalletmlp**).The straightforward way of running these two software packages is to run both of them on the same machine. Then you can use **abewalletlegacyctl** or **abewalletmlpctl** to check balance, make fund transfer, and so on. Please refer to the [Abelian CLI Wallet Legacy Manual](/guide/wallet/cli-wallet-legacy) or [Abelian CLI Wallet (MLP) Manual](/guide/wallet/cli-wallet-mlp) for details. Please also observe the storage capacity requirement above.
 
-You can also consider running a standalone CLI wallet abewallet WITHOUT running a full node. In this way, you no longer have the storage capacity requirement for storing the full Abelian ledger. Please read the [Abelian CLI Wallet Lite Manual](/guide/wallet/cli-wallet-lite) for details.
-
 If you are a GPU miner, please check out [Abelian GPU Mining Manual](/guide/mining/gpu-pool) for details. This enables you to do SOLO mining.
 
 If you only have a few GPU cards and would like to join the Abelian Foundation official mining pool server so that you can mine together with other miners and share the ABEL rewards, please go to the section [Abelian GPU Mining Pool Client](/downloads/latest#abelian-gpu-mining-pool-client) and get the mining pool client software as well as details.

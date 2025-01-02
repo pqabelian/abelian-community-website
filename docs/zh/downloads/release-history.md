@@ -402,4 +402,3 @@ outline: deep
 - [Abelian 全节点 (CLI) 手册](/guide/cli-full-node)
 - [Abelian 多层隐私钱包 (CLI) 手册](/guide/wallet/cli-wallet-mlp)
 - [Abelian 经典钱包 (CLI) 手册](/guide/wallet/cli-wallet-legacy)
-- [Abelian 轻量钱包 (CLI) 手册](/guide/wallet/cli-wallet-lite)
