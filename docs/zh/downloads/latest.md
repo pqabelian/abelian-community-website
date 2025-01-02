@@ -318,7 +318,7 @@ Abelian 桌面钱包专业版 (MLP) 暂不支持移动钱包 Abelian Pro 转账�
 - 统一钱包助记词：新的助记词可以在桌面钱包专业版 v1.0.0 和 多层隐私钱包 (CLI) v2.0.0 之间导入和导出。未来，它将进一步在所有 Abelian 产品中实现统一。
 
 **为什么要升级？**
-- 完全兼容性：用户可以继续使用 Abelian 多层隐私钱包 (CLI) v1.0.1，但所有后续的 Abelian 传统钱包 (CLI) 都将基于 Abelian 多层隐私钱包 (CLI) v2.0.0 的版本。
+- 完全兼容性：用户可以继续使用 Abelian 多层隐私钱包 (CLI) v1.0.1，但所有后续的 Abelian 经典钱包 (CLI) 都将基于 Abelian 多层隐私钱包 (CLI) v2.0.0 的版本。
 - 方便在桌面钱包专业版 v1.0.0 和 Abelian 多层隐私钱包 (CLI) v2.0.0 之间导入/导出助记词。
 
 **更多详情，请查看以下链接：**
@@ -327,7 +327,7 @@ Abelian 桌面钱包专业版 (MLP) 暂不支持移动钱包 Abelian Pro 转账�
 
 ---
 
-### Abelian 传统钱包 (CLI)
+### Abelian 经典钱包 (CLI)
 - **发布日期**： `2024-08-04`
 - **软件包**： `abewalletlegacy-v1.0.0`
 - **下载链接**：
@@ -377,5 +377,5 @@ Abelian 桌面钱包专业版 (MLP) 暂不支持移动钱包 Abelian Pro 转账�
 - [Abelian Abelian 矿池用户手册](/guide/mining/gpu-pool)
 - [Abelian 全节点用户手册](/guide/cli-full-node)
 - [Abelian 多层隐私钱包 (CLI) 用户手册](/guide/wallet/cli-wallet-mlp)
-- [Abelian 传统钱包 (CLI) 用户手册](/guide/wallet/cli-wallet-legacy)
+- [Abelian 经典钱包 (CLI) 用户手册](/guide/wallet/cli-wallet-legacy)
 - [Abelian 轻量钱包 (CLI) 用户手册](/guide/wallet/cli-wallet-lite)

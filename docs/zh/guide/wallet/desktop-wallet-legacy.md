@@ -143,11 +143,11 @@ Abelian 基金会推出的桌面版 Abelian 钱包，为用户提供了便捷的
 3. 系统会自动生成对应的数字到恢复地址实例数量栏，点击 “**IMPORT（导入）**” 按钮，稍后会提示 “**Account imported.（账户已导入。）**”，点击 “**DONE（完成）**” 按钮完成钱包账户导入。
 ![导入钱包账户成功](/desktop-wallet/legacy/import-account-success.png)
 
-## 迁移 ABEL 传统钱包至多层隐私钱包账户
+## 迁移 ABEL 经典钱包至多层隐私钱包账户
 
-Abelian 基金会开发了多层隐私钱包（Abelian Multi-layer Privacy Wallet），支持在桌面端创建多层隐私钱包账户。用户可根据隐私需求选择对应类型进行交易，但 Abelian 桌面钱包经典版不支持创建多层隐私钱包地址，因此需要传统钱包中所有余额迁移至多层隐私钱包中。
+Abelian 基金会开发了多层隐私钱包（Abelian Multi-layer Privacy Wallet），支持在桌面端创建多层隐私钱包账户。用户可根据隐私需求选择对应类型进行交易，但 Abelian 桌面钱包经典版不支持创建多层隐私钱包地址，因此需要经典钱包中所有余额迁移至多层隐私钱包中。
 
-按以下步骤将 Abelian 传统钱包迁移至 Abelian 多层隐私钱包：
+按以下步骤将 Abelian 经典钱包迁移至 Abelian 多层隐私钱包：
 
 1. 前往 “**MIGRATION（迁移）**”① 标签页，点击 “**PASTE FROM CLIPBOARD（从剪贴板粘贴）**” 或 “**IMPORT FROM FILE（从文件导入）**”② 按钮，迁移接收方多层隐私钱包地址实例。
 ![迁移钱包](/desktop-wallet/legacy/migrate-mlp-wallet.png)

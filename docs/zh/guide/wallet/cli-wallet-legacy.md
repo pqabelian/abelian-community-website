@@ -4,7 +4,7 @@ outline: deep
 
 # Abelian 轻量钱包（CLI）用户手册
 
-本文档描述了如何运行 Abelian 传统钱包（CLI）。
+本文档描述了如何运行 Abelian 经典钱包（CLI）。
 
 请先参考 **Abelian 软件基础** 以了解软件架构。
 

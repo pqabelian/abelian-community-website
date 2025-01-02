@@ -29,7 +29,7 @@ outline: deep
 
 如果你只想连接到 Abelian 网络运行全节点，以便获取账本的完整数据，你只需要运行 **abec**。这也有助于通过运行更多的全节点使 Abelian 网络更加去中心化。截至撰写本文时，全节点（Abelian 账本）的大小约为 120GB。我们建议运行 **abec** 的机器至少有 2TB 的存储空间和 8GB 的内存。详情请参考 [Abelian 全节点手册](/zh/guide/cli-full-node)。
 
-如果你想运行一个基于 CLI 的钱包，你可以运行全节点（**abec**）和 CLI 钱包（**abewalletlegacy**/**abewalletmlp**）。运行这两个软件包的直接方式是将它们都运行在同一台机器上。然后你可以使用 **abewalletlegacy** 或 **abewalletmlp** 检查余额、进行资金转账等。详情请参考 [Abelian 传统钱包 (CLI) 手册](/zh/guide/wallet/cli-wallet-legacy) 或 [Abelian 多层隐私钱包 (CLI) 手册](/zh/guide/wallet/cli-wallet-mlp)。请同时注意上述的存储容量需求。
+如果你想运行一个基于 CLI 的钱包，你可以运行全节点（**abec**）和 CLI 钱包（**abewalletlegacy**/**abewalletmlp**）。运行这两个软件包的直接方式是将它们都运行在同一台机器上。然后你可以使用 **abewalletlegacy** 或 **abewalletmlp** 检查余额、进行资金转账等。详情请参考 [Abelian 经典钱包 (CLI) 手册](/zh/guide/wallet/cli-wallet-legacy) 或 [Abelian 多层隐私钱包 (CLI) 手册](/zh/guide/wallet/cli-wallet-mlp)。请同时注意上述的存储容量需求。
 
 你也可以考虑运行一个独立的 CLI 钱包 abewallet 而不运行全节点。这样，你就不再需要存储完整 Abelian 账本的存储容量需求。详情请阅读 [Abelian 轻量钱包（CLI）版手册](/zh/guide/wallet/cli-wallet-lite)。
 

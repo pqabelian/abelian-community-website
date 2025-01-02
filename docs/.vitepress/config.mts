@@ -200,7 +200,7 @@ export default defineConfig({
                     { text: '桌面钱包经典版', link: '/zh/guide/wallet/desktop-wallet-legacy' },
                     { text: '全节点 (CLI)', link: '/zh/guide/cli-full-node' },
                     { text: '多层隐私钱包 (CLI)', link: '/zh/guide/wallet/cli-wallet-mlp' },
-                    { text: '传统钱包（CLI）', link: '/zh/guide/wallet/cli-wallet-legacy' },
+                    { text: '经典钱包（CLI）', link: '/zh/guide/wallet/cli-wallet-legacy' },
                     { text: '轻量钱包（CLI）', link: '/zh/guide/wallet/cli-wallet-lite' },
                     { text: '显卡挖矿', link: '/zh/guide/mining/gpu-pool' }
                   ]

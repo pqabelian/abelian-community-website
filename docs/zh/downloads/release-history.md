@@ -276,7 +276,7 @@ outline: deep
   [Linux](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-amd64-v1.0.1.tar.gz) | 
   [Linux (ARM)](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-arm64-v1.0.1.tar.gz)
 
-## Abelian 传统钱包 (CLI)
+## Abelian 经典钱包 (CLI)
 `abewallet / abewalletlegacy`
 
 - **2024-08-04-v1.0.0**
@@ -436,5 +436,5 @@ outline: deep
 - [Abelian 显卡挖矿手册](/guide/mining/gpu-pool)
 - [Abelian 全节点 (CLI) 手册](/guide/cli-full-node)
 - [Abelian 多层隐私钱包 (CLI) 手册](/guide/wallet/cli-wallet-mlp)
-- [Abelian 传统钱包 (CLI) 手册](/guide/wallet/cli-wallet-legacy)
+- [Abelian 经典钱包 (CLI) 手册](/guide/wallet/cli-wallet-legacy)
 - [Abelian 轻量钱包 (CLI) 手册](/guide/wallet/cli-wallet-lite)

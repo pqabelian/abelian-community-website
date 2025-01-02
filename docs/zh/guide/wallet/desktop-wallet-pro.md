@@ -192,7 +192,7 @@ Abelian 桌面钱包专业版（MLP）支持多层隐私交易，允许用户根
   **[可选项]** 如需导入 **Abelian 多层隐私钱包（CLI）(AbewalletMLP)** 的助记词，请点击 “**Advance Options（高级选项）**”③ 展开更多选项，以便选择 “**AbewalletMLP's Version（AbewalletMLP 版本）**”④中对应的版本号。
 
 :::tip 提示
-桌面钱包专业版不支持**Abelian 传统钱包（CLI）(AbewalletLLegacy)** 和 **桌面钱包经典版（Legacy）** 助记词的直接导入；
+桌面钱包专业版不支持**Abelian 经典钱包（CLI）(AbewalletLLegacy)** 和 **桌面钱包经典版（Legacy）** 助记词的直接导入；
 在导入 **Abelian 多层隐私钱包（CLI）(AbewalletMLP)** 的助记词之前，请先替换间隔符号 “**逗号（，）**” 为 “**空格（ ）**”。
 :::
 
@@ -205,7 +205,7 @@ Abelian 桌面钱包专业版（MLP）支持多层隐私交易，允许用户根
 
 如果您仍在使用 Abelian 桌面钱包经典版（Legacy），可将经典版的账户迁移到 Abelian 桌面钱包专业版 - 开启您的增强隐私与灵活性之门！。
 
-详细操作，请参阅 [Abelian 桌面钱包经典版 (Legacy) 用户手册中的迁移步骤](/zh/guide/wallet/desktop-wallet-legacy#迁移-abel-传统钱包至多层隐私钱包账户)。
+详细操作，请参阅 [Abelian 桌面钱包经典版 (Legacy) 用户手册中的迁移步骤](/zh/guide/wallet/desktop-wallet-legacy#迁移-abel-经典钱包至多层隐私钱包账户)。
 
 :::tip 提示
 Abelian 桌面钱包专业版（MLP）仅兼容最新版本的 Abelian 桌面钱包经典版（Legacy）进行转账和迁移操作。目前，尚未支持 Abelian 桌面钱包经典版（Legacy）4.1.1 或 Abelian Pro 移动钱包的转账功能！

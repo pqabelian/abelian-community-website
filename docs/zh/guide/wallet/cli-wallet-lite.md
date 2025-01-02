@@ -6,7 +6,7 @@ outline: deep
 
 我们将学习如何创建一个Abelian CLI（命令行界面）轻量级钱包，使用它来创建钱包地址、检查 ABEL 余额和转账。
 
-Abelian 轻量钱包（CLI） 基本上是 Abelian 传统钱包（CLI）（abelwallet/abelwalletlegacy）的简化版，但不需要配置和运行本地 Abelian 全节点（abec）来通信，轻量钱包（CLI）只需要通过配置与 Abelian 基金会或其合作伙伴运行的一个 Abelian 全节点远程通信。
+Abelian 轻量钱包（CLI） 基本上是 Abelian 经典钱包（CLI）（abelwallet/abelwalletlegacy）的简化版，但不需要配置和运行本地 Abelian 全节点（abec）来通信，轻量钱包（CLI）只需要通过配置与 Abelian 基金会或其合作伙伴运行的一个 Abelian 全节点远程通信。
 
 因此，只要远程节点开放了某个适当的端口（默认端口：8667）并且您拥有远程全节点所需的 RPC 证书和私钥，您就可以使用 Abelian 轻量钱包（CLI）连接到任何 Abelian 全节点。
 
