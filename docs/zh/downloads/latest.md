@@ -356,11 +356,11 @@ Abelian 桌面钱包专业版 (MLP) 暂不支持移动钱包 Abelian Pro 转账�
 </div>
 
 ::: warning 对于新用户
-如果您想尝试 Abelian 钱包（CLI），且不想下载完整的区块链数据，请使用 Abelian 轻量钱包（CLI）。更多详情请查看 Abelian 轻量 CLI 钱包手册。
+如果您想尝试 Abelian 经典钱包（CLI），且不想下载完整的区块链数据，请使用 Abelian 轻量钱包（CLI）。更多详情请查看 Abelian 轻量 CLI 钱包手册。
 :::
 
 ::: info 发布说明
-自 2023-09-15版本起，Abelian 轻量钱包（CLI）不再提供独立软件包。它本质上是 Abelian 钱包（CLI）软件包，仅附带了一些证书，用于访问由 Abelian 基金会维护的现有全节点，通过默认配置文件，无需运行全节点即可连接到 Abelian 主网。
+自 2023-09-15版本起，Abelian 轻量钱包（CLI）不再提供独立软件包。它本质上是 Abelian 经典钱包（CLI）软件包，仅附带了一些证书，用于访问由 Abelian 基金会维护的现有全节点，通过默认配置文件，无需运行全节点即可连接到 Abelian 主网。
 :::
 
 ## Abelian 应用程序历史版本
