@@ -171,7 +171,7 @@ outline: deep
 </section>
 
 ::: warning 重要提示
-Abelian Pro 移动钱包暂不支持与 Abelian 桌面钱包专业版 (MLP) 转账交易，后续版本中将支持。如果您需要进行转账交易，请继续使用桌面钱包传统版 (Legacy)。
+Abelian Pro 移动钱包暂不支持与 Abelian 桌面钱包专业版 (MLP) 转账交易，后续版本中将支持。如果您需要进行转账交易，请继续使用桌面钱包经典版 (Legacy)。
 :::
 
 ::: info 特点介绍
@@ -195,7 +195,7 @@ Abelian Pro 移动钱包暂不支持与 Abelian 桌面钱包专业版 (MLP) 转�
 </div>
 
 ::: warning 重要提示
-Abelian 桌面钱包专业版 (MLP) 暂不支持移动钱包 Abelian Pro 转账交易，目前 Maxpool 矿池暂时也不支持 MLP 钱包地址作为收益地址，后续版本中将支持。如果您需要进行转账交易，推荐最新版本的桌面钱包传统版 (Legacy)。
+Abelian 桌面钱包专业版 (MLP) 暂不支持移动钱包 Abelian Pro 转账交易，目前 Maxpool 矿池暂时也不支持 MLP 钱包地址作为收益地址，后续版本中将支持。如果您需要进行转账交易，推荐最新版本的桌面钱包经典版 (Legacy)。
 :::
 
 ::: info 发布说明
@@ -210,13 +210,13 @@ Abelian 桌面钱包专业版 (MLP) 暂不支持移动钱包 Abelian Pro 转账�
 - 引入了 Memo 概念，使用户可以在后量子、不可变的 Abelian 账本上写消息。在 Abelian 上，我们首次可以将个人笔记永久写入账本。
 
 **为什么要升级？**
-- 强烈建议现有桌面钱包传统版（Legacy）用户立即迁移到这个全新的桌面钱包专业版（MLP），这样他们不再需要记住最大可恢复的钱包数量。要进行迁移，我们需要在桌面钱包专业版（MLP）中创建一个新钱包，然后使用桌面钱包传统版将所有 ABEL 币转移到新钱包中。
+- 强烈建议现有桌面钱包经典版（Legacy）用户立即迁移到这个全新的桌面钱包专业版（MLP），这样他们不再需要记住最大可恢复的钱包数量。要进行迁移，我们需要在桌面钱包专业版（MLP）中创建一个新钱包，然后使用桌面钱包经典版将所有 ABEL 币转移到新钱包中。
 - 您可以首次创建一些完全私密的钱包以及其他匿名私密的钱包。
 :::
 
 ---
 
-### Abelian 桌面钱包传统版
+### Abelian 桌面钱包经典版
 - **发布日期**： `2024-12-26`
 - **软件包**： `abelian-desktop-wallet-legacy-v4.2.0`
 - **下载链接**：
@@ -229,13 +229,13 @@ Abelian 桌面钱包专业版 (MLP) 暂不支持移动钱包 Abelian Pro 转账�
 </div>
 
 ::: warning 重要提示
-桌面钱包传统版由 4.1.1 或更早版本升级到 4.2.0 版本后，需要重新导入钱包账户。详细操作步骤请查看 [桌面钱包传统版用户手册](/zh/guide/wallet/desktop-wallet-legacy#导入-abel-钱包账户)。
+桌面钱包经典版由 4.1.1 或更早版本升级到 4.2.0 版本后，需要重新导入钱包账户。详细操作步骤请查看 [桌面钱包经典版用户手册](/zh/guide/wallet/desktop-wallet-legacy#导入-abel-钱包账户)。
 :::
 
 ::: info 发布说明
 **有什么新功能？**
 - 一键迁移：我们强烈建议从旧版钱包迁移到 MLP 钱包。MLP 钱包不再需要用户记住最大可恢复的钱包数量，这大大提高了可用性。此外，我们将仅支持全新的 MLP 钱包，并逐步淘汰旧版钱包类型。
-- 您需要安装桌面钱包专业版 (MLP) v1.0.0 并创建一个新钱包（完全私密或匿名类型）。然后，使用桌面钱包传统版 4.2.0 的迁移功能，将每个旧版钱包中的所有 ABEL 币转移到新的 MLP 钱包。
+- 您需要安装桌面钱包专业版 (MLP) v1.0.0 并创建一个新钱包（完全私密或匿名类型）。然后，使用桌面钱包经典版 4.2.0 的迁移功能，将每个旧版钱包中的所有 ABEL 币转移到新的 MLP 钱包。
 
 **为什么要升级？**
 - MLP 钱包地址在无需记住任何序列号（即最大可恢复的钱包数量）的情况下显著更易于使用。此外，您可以首次选择创建多个具有不同隐私级别的 MLP 地址，包括完全私密或伪私密。
@@ -373,7 +373,7 @@ Abelian 桌面钱包专业版 (MLP) 暂不支持移动钱包 Abelian Pro 转账�
 
 - [Abelian 应用程序常识](/guide/index)
 - [Abelian 桌面钱包专业版用户手册](/guide/wallet/desktop-wallet-pro)
-- [Abelian 桌面钱包传统版用户手册](/guide/wallet/desktop-wallet-legacy)
+- [Abelian 桌面钱包经典版用户手册](/guide/wallet/desktop-wallet-legacy)
 - [Abelian Abelian 矿池用户手册](/guide/mining/gpu-pool)
 - [Abelian 全节点用户手册](/guide/cli-full-node)
 - [Abelian 多层隐私钱包 (CLI) 用户手册](/guide/wallet/cli-wallet-mlp)

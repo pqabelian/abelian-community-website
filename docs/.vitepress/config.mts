@@ -197,7 +197,7 @@ export default defineConfig({
                   items: [
                     { text: '应用程序常识', link: '/zh/guide/index' },
                     { text: '桌面钱包专业版 (MLP)', link: '/zh/guide/wallet/desktop-wallet-pro' },
-                    { text: '桌面钱包传统版', link: '/zh/guide/wallet/desktop-wallet-legacy' },
+                    { text: '桌面钱包经典版', link: '/zh/guide/wallet/desktop-wallet-legacy' },
                     { text: '全节点 (CLI)', link: '/zh/guide/cli-full-node' },
                     { text: '多层隐私钱包 (CLI)', link: '/zh/guide/wallet/cli-wallet-mlp' },
                     { text: '传统钱包（CLI）', link: '/zh/guide/wallet/cli-wallet-legacy' },

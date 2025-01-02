@@ -23,7 +23,7 @@ outline: deep
 
 ## 3. 你需要运行哪些应用
 
-如果你只是想运行一个安全且用户友好的 Abelian 钱包，并带有一个漂亮的用户界面，您可以直接访问 Abelian 官方下载页面，获取 [Abelian 桌面钱包传统版](/zh/downloads/latest#abelian-桌面钱包传统版) 安装包。
+如果你只是想运行一个安全且用户友好的 Abelian 钱包，并带有一个漂亮的用户界面，您可以直接访问 Abelian 官方下载页面，获取 [Abelian 桌面钱包经典版](/zh/downloads/latest#abelian-桌面钱包经典版) 安装包。
 
 如果你想尝试最新功能最强大带用户界面的 Abelian 钱包，您可以在 Abelian 官方下载页面中获取 [Abelian 桌面钱包专业版 (MLP)](/zh/downloads/latest#abelian-桌面钱包专业版-mlp) 安装包。
 

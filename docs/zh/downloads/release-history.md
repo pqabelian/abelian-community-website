@@ -36,7 +36,7 @@ outline: deep
 我们提供以前版本的软件包主要用于存档目的。请**务必**在生产环境中使用最新版本。
 :::
 
-## Abelian 移动钱包 (传统版)
+## Abelian 移动钱包 (经典版)
 
 - **2024-01-16-v1.02** <Badge type="danger" text="停止维护" />
 
@@ -55,7 +55,7 @@ outline: deep
   [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v1.0.0.zip) | 
   [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v1.0.0.zip)
 
-## Abelian 桌面钱包传统版（Legacy）
+## Abelian 桌面钱包经典版（Legacy）
 `abelian-desktop-wallet / abelian-desktop-wallet-legacy`
 
 - **2024-12-26-v4.2.0**
@@ -432,7 +432,7 @@ outline: deep
 
 - [Abelian 应用程序常识](/guide/index)
 - [Abelian 桌面钱包专业版手册](/guide/wallet/desktop-wallet-pro)
-- [Abelian 桌面钱包 (传统版) 手册](/guide/wallet/desktop-wallet-legacy)
+- [Abelian 桌面钱包 (经典版) 手册](/guide/wallet/desktop-wallet-legacy)
 - [Abelian 显卡挖矿手册](/guide/mining/gpu-pool)
 - [Abelian 全节点 (CLI) 手册](/guide/cli-full-node)
 - [Abelian 多层隐私钱包 (CLI) 手册](/guide/wallet/cli-wallet-mlp)

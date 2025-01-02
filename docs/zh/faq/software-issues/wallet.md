@@ -4,7 +4,7 @@ outline: deep
 
 # Abelian 钱包常见问题解答
 
-## 桌面钱包传统版问题
+## 桌面钱包经典版问题
 
 ### <Badge type="warning" text="QUESTION" /> 转账时报错："allowed max number 5"
 ```txt
@@ -69,7 +69,7 @@ Failed calling RPC: serviceGroup=abewallet, accountName=brac, networkName=mainne
 
 ---
 
-## 过期桌面钱包传统版问题
+## 过期桌面钱包经典版问题
 
 ### <Badge type="warning" text="QUESTION" /> Windows桌面钱包无法启动，日志是：
 ```txt
