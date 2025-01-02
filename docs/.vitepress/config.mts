@@ -62,7 +62,6 @@ export default defineConfig({
                     { text: 'CLI Full Node', link: '/guide/cli-full-node' },
                     { text: 'CLI Wallet (MLP)', link: '/guide/wallet/cli-wallet-mlp' },
                     { text: 'CLI Wallet Legacy', link: '/guide/wallet/cli-wallet-legacy' },
-                    { text: 'CLI Wallet Lite', link: '/guide/wallet/cli-wallet-lite' },
                     { text: 'GPU Mining', link: '/guide/mining/gpu-pool' }
                   ]
                 },
@@ -201,7 +200,6 @@ export default defineConfig({
                     { text: '全节点 (CLI)', link: '/zh/guide/cli-full-node' },
                     { text: '多层隐私钱包 (CLI)', link: '/zh/guide/wallet/cli-wallet-mlp' },
                     { text: '经典钱包（CLI）', link: '/zh/guide/wallet/cli-wallet-legacy' },
-                    { text: '轻量钱包（CLI）', link: '/zh/guide/wallet/cli-wallet-lite' },
                     { text: '显卡挖矿', link: '/zh/guide/mining/gpu-pool' }
                   ]
                 },

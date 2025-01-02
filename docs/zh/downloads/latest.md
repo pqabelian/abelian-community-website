@@ -344,25 +344,6 @@ Abelian 桌面钱包专业版 (MLP) 暂不支持移动钱包 Abelian Pro 转账�
 2. 我们建议所有现有的 `abewallet` 用户在安装新的 `abewalletlegacy` 后重新导入他们的所有账户。
 :::
 
----
-
-### Abelian 轻量钱包 (CLI)
-- **发布日期**： `2023-09-15`
-- **软件包**： `abewallet-lite-v0.11.13`
-- **下载链接**：
-<div class="button-container">
-  <a href="https://download.pqabelian.io/release/abewallet-lite/v0.12.5/abec_certs.zip" class="btn">证书文件</a>
-  <a href="https://download.pqabelian.io/release/abewallet-lite/v0.12.5/abewallet.conf" class="btn">配置文件</a>
-</div>
-
-::: warning 对于新用户
-如果您想尝试 Abelian 经典钱包（CLI），且不想下载完整的区块链数据，请使用 Abelian 轻量钱包（CLI）。更多详情请查看 Abelian 轻量 CLI 钱包手册。
-:::
-
-::: info 发布说明
-自 2023-09-15版本起，Abelian 轻量钱包（CLI）不再提供独立软件包。它本质上是 Abelian 经典钱包（CLI）软件包，仅附带了一些证书，用于访问由 Abelian 基金会维护的现有全节点，通过默认配置文件，无需运行全节点即可连接到 Abelian 主网。
-:::
-
 ## Abelian 应用程序历史版本
 
 查看更多历史版本下载地址, 请访问 [Abelian 应用程序历史版本](/zh/download/release-history) 页面。

@@ -345,25 +345,6 @@ Mining Pool Website: https://maxpool.org/
 2. We recommend all existing abewallet users to re-import all of their accounts after installed the new abewalletlegacy.
 :::
 
----
-
-### Abelian CLI Wallet Lite
-- **Release Date**: `2023-09-15`
-- **Package**: `abewallet-lite-v0.11.13`
-- **Download Links**:
-<div class="button-container">
-  <a href="https://download.pqabelian.io/release/abewallet-lite/v0.12.5/abec_certs.zip" class="btn">Certificate</a>
-  <a href="https://download.pqabelian.io/release/abewallet-lite/v0.12.5/abewallet.conf" class="btn">Configuration</a>
-</div>
-
-::: warning FOR NEW USERS
-If you would like to try out Abelian CLI Wallet Legacy without having to download the full blockchain, please use the Abelian CLI Wallet Lite. Check out the Abelian Lite CLI Wallet Manual for more details.
-:::
-
-::: info Release Notes
-Since version 2023-09-15, there is no standalone package for Abelian CLI Wallet Lite. It is essentially the Abelian CLI Wallet Legacy package coupled with a bunch of certificates to access existing full nodes maintained by Abelian Foundation and a default configuration file to connect to the Abelian Mainnet network without running a full node.
-:::
-
 ## Abelian Applications Release History
 
 More release history versions, Please visit [Abelian Applications Release History](/download/release-history) Page.

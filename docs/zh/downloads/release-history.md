@@ -391,41 +391,6 @@ outline: deep
   [Linux](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-amd64-v0.11.1.zip) | 
   [Linux (ARM)](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-arm64-v0.11.1.zip)
 
-## Abelian 轻量钱包 (CLI)
-`abewallet-lite`
-
-- **2023-09-15-v0.11.13**
-
-  [Windows](https://download.abelian.info/release/abewallet-lite/abewalletlite-windows-amd64-v0.11.13.zip) | 
-  [macOS](https://download.abelian.info/release/abewallet-lite/abewalletlite-macos-amd64-v0.11.13.zip) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet-lite/abewalletlite-macos-arm64-v0.11.13.zip) | 
-  [Linux](https://download.abelian.info/release/abewallet-lite/abewalletlite-linux-amd64-v0.11.13.zip) | 
-  [Linux (ARM)](https://download.abelian.info/release/abewallet-lite/abewalletlite-linux-arm64-v0.11.13.zip)
-
-- **2023-08-12-v0.11.12**
-
-  [Windows](https://download.abelian.info/release/abewallet-lite/abewalletlite-windows-amd64-v0.11.12.zip) | 
-  [macOS](https://download.abelian.info/release/abewallet-lite/abewalletlite-macos-amd64-v0.11.12.zip) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet-lite/abewalletlite-macos-arm64-v0.11.12.zip) | 
-  [Linux](https://download.abelian.info/release/abewallet-lite/abewalletlite-linux-amd64-v0.11.12.zip) | 
-  [Linux (ARM)](https://download.abelian.info/release/abewallet-lite/abewalletlite-linux-arm64-v0.11.12.zip)
-
-- **2023-06-23-v0.11.10**
-
-  [Windows](https://download.abelian.info/release/abewallet-lite/abewalletlite-windows-amd64-v0.11.10.zip) | 
-  [macOS](https://download.abelian.info/release/abewallet-lite/abewalletlite-macos-amd64-v0.11.10.zip) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet-lite/abewalletlite-macos-arm64-v0.11.10.zip) | 
-  [Linux](https://download.abelian.info/release/abewallet-lite/abewalletlite-linux-amd64-v0.11.10.zip) | 
-  [Linux (ARM)](https://download.abelian.info/release/abewallet-lite/abewalletlite-linux-arm64-v0.11.10.zip)
-
-- **2022-09-08-v0.11.1**
-
-  [Windows](https://download.abelian.info/release/abewallet-lite/abewalletlite-windows-amd64-v0.11.1.zip) | 
-  [macOS](https://download.abelian.info/release/abewallet-lite/abewalletlite-macos-amd64-v0.11.1.zip) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet-lite/abewalletlite-macos-arm64-v0.11.1.zip) | 
-  [Linux](https://download.abelian.info/release/abewallet-lite/abewalletlite-linux-amd64-v0.11.1.zip) | 
-  [Linux (ARM)](https://download.abelian.info/release/abewallet-lite/abewalletlite-linux-arm64-v0.11.1.zip)
-
 ## Abelian 手册
 
 用户和开发者都可以在 [Abelian 社区文档](/guide/get-started) 网站找到更多文档。
