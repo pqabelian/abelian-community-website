@@ -36,16 +36,16 @@ outline: deep
 我们提供以前版本的软件包主要用于存档目的。请**务必**在生产环境中使用最新版本。
 :::
 
-## Abelian 移动钱包 (经典版)
-
-- **2024-01-16-v1.02** <Badge type="danger" text="停止维护" />
-
-  [iOS](https://apps.apple.com/us/app/abelian/id6472198380) | 
-  [Android](https://play.google.com/store/apps/details?id=info.abelian.wallet) | 
-  [APK](https://download.abelian.info/release/android/abelian-mobile-wallet-v1.0.2.apk)
-
 ## Abelian 桌面钱包专业版 (MLP)
 `abelian-desktop-wallet-pro`
+
+- **2025-01-04-v1.0.1**
+
+  [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v1.0.1.zip) | 
+  [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v1.0.1.zip) | 
+  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v1.0.1.zip) | 
+  [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v1.0.1.zip) | 
+  [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v1.0.1.zip)
 
 - **2024-12-19-v1.0.0**
 
@@ -57,6 +57,14 @@ outline: deep
 
 ## Abelian 桌面钱包经典版（Legacy）
 `abelian-desktop-wallet / abelian-desktop-wallet-legacy`
+
+- **2025-01-04-v4.2.1**
+
+  [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v4.2.1.zip) | 
+  [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-amd64-v4.2.1.zip) | 
+  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-arm64-v4.2.1.zip) | 
+  [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-amd64-v4.2.1.zip) | 
+  [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-arm64-v4.2.1.zip)
 
 - **2024-12-26-v4.2.0**
 
@@ -390,6 +398,14 @@ outline: deep
   [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-arm64-v0.11.1.zip) | 
   [Linux](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-amd64-v0.11.1.zip) | 
   [Linux (ARM)](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-arm64-v0.11.1.zip)
+
+## Abelian 移动钱包 (经典版)
+
+- **2024-01-16-v1.02** <Badge type="danger" text="停止维护" />
+
+  [iOS](https://apps.apple.com/us/app/abelian/id6472198380) | 
+  [Android](https://play.google.com/store/apps/details?id=info.abelian.wallet) | 
+  [APK](https://download.abelian.info/release/android/abelian-mobile-wallet-v1.0.2.apk)
 
 ## Abelian 手册
 

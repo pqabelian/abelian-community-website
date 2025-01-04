@@ -36,16 +36,16 @@ outline: deep
 We provide the packages of previous versions mainly for archive purposes. Please **ALWAYS** use the latest version in a production environment.
 :::
 
-## Abelian Mobile Wallet Legacy
-
-- **2024-01-16-v1.02** <Badge type="danger" text="DISCONTINUED" />
-
-  [iOS](https://apps.apple.com/us/app/abelian/id6472198380) | 
-  [Android](https://play.google.com/store/apps/details?id=info.abelian.wallet) | 
-  [APK](https://download.abelian.info/release/android/abelian-mobile-wallet-v1.0.2.apk)
-
 ## Abelian Desktop Wallet Pro (MLP)
 `abelian-desktop-wallet-pro`
+
+- **2025-01-04-v1.0.1**
+
+  [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v1.0.1.zip) | 
+  [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v1.0.1.zip) | 
+  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v1.0.1.zip) | 
+  [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v1.0.1.zip) | 
+  [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v1.0.1.zip)
 
 - **2024-12-19-v1.0.0**
 
@@ -57,6 +57,14 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
 ## Abelian Desktop Wallet Legacy
 `abelian-desktop-wallet / abelian-desktop-wallet-legacy`
+
+- **2025-01-04-v4.2.1**
+
+  [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v4.2.1.zip) | 
+  [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-amd64-v4.2.1.zip) | 
+  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-arm64-v4.2.1.zip) | 
+  [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-amd64-v4.2.1.zip) | 
+  [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-arm64-v4.2.1.zip)
 
 - **2024-12-26-v4.2.0**
 
@@ -390,6 +398,14 @@ We provide the packages of previous versions mainly for archive purposes. Please
   [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewallet-macos-arm64-v0.11.1.tar.gz) | 
   [Linux](https://download.abelian.info/release/abewallet/abewallet-linux-amd64-v0.11.1.tar.gz) | 
   [Linux (ARM)](https://download.abelian.info/release/abewallet/abewallet-linux-arm64-v0.11.1.tar.gz)
+
+## Abelian Mobile Wallet Legacy
+
+- **2024-01-16-v1.02** <Badge type="danger" text="DISCONTINUED" />
+
+  [iOS](https://apps.apple.com/us/app/abelian/id6472198380) | 
+  [Android](https://play.google.com/store/apps/details?id=info.abelian.wallet) | 
+  [APK](https://download.abelian.info/release/android/abelian-mobile-wallet-v1.0.2.apk)
 
 ## Abelian Manuals
 
