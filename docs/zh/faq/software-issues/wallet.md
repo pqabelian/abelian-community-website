@@ -196,9 +196,9 @@ C:\Users\<USERNAME>\AppData\Roaming\Abelian Wallet\dist
 4. 点击 **...** 之后的 **书页** 图标，在下拉菜单中选择已有的钱包地址，下面一行 **Adress:** 后面以 **00000000** 开头的这串字符就是长地址。
 :::
 
-### <Badge type="warning" text="QUESTION" /> 钱包 Legacy 和 MLP 地址格式之间有何区别？
+### <Badge type="warning" text="QUESTION" /> 经典和MLP钱包地址的格式有何区别？
 
 ::: info <Badge type="tip" text="ANSWER" />
-传统（Legacy）和多层隐私（MLP）钱包的长地址主要区别为占用字符数不同，而短地址是由地址前缀+地址隐私类型+长地址 HASH 组成，通过前缀+隐私类型就能直观的做出区别，具体请参考下面的表格：
+经典（Legacy）和多层隐私（MLP）钱包的长地址主要区别为占用字符数不同，而短地址是由地址前缀+地址隐私类型+长地址 HASH 组成，通过前缀+隐私类型就能直观的做出区别，具体请参考下面的表格：
 :::
-![钱包地址格式](/zh/excel/address-format-differences.png)
+![钱包地址格式](/excel/address-format-differences-zh.png)
