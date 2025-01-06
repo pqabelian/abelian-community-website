@@ -21,11 +21,11 @@ outline: deep
 ```
 :::
 
-## Mainnet 数据包下载地址（高度：327801）
-* [Mega](https://mega.nz/folder/gydxkZgS#GNDGHyBlGOJzo_G27b9V9w)（2024年11月2日）
-* [Terabox](https://terabox.com/s/1iUvqrwCJC3_HABMkatFXlw)（2024年11月2日）
+## Mainnet 数据包下载地址（高度：348317）
+* [Mega](https://mega.nz/folder/gydxkZgS#GNDGHyBlGOJzo_G27b9V9w)（2024年01月02日）
+* [Terabox](https://terabox.com/s/1iUvqrwCJC3_HABMkatFXlw)（2024年01月02日）
 
-文件列表：（共12个分卷zip压缩包）
+文件列表：（共13个分卷zip压缩包）
 > mainnet.zip.001
 >
 > mainnet.zip.002
@@ -34,13 +34,13 @@ outline: deep
 >
 > ......
 > 
-> mainnet.zip.012
+> mainnet.zip.013
 
 ## 解压缩 mainnet 数据包
 
 ### Windows 桌面钱包
 1. 关闭并退出 Windows 桌面钱包；
-2. 将下载的 12 个文件放在同一目录下；
+2. 将下载的 13 个文件放在同一目录下；
 3. 使用 7zip 软件打开 mainnet.zip.001 文件，解压缩 mainnet 覆盖至**默认位置**；
 4. 重新运行 Windows 桌面钱包，点击同步（sync Mainnet）。
 

@@ -21,11 +21,11 @@ outline: deep
 ```
 :::
 
-## Mainnet Data Download Links (Height: 327801)
-* [Mega](https://mega.nz/folder/gydxkZgS#GNDGHyBlGOJzo_G27b9V9w) (November. 2, 2024)
-* [Terabox](https://terabox.com/s/1iUvqrwCJC3_HABMkatFXlw) (November. 2, 2024)
+## Mainnet Data Download Links (Height: 348317)
+* [Mega](https://mega.nz/folder/gydxkZgS#GNDGHyBlGOJzo_G27b9V9w) (January. 2, 2025)
+* [Terabox](https://terabox.com/s/1iUvqrwCJC3_HABMkatFXlw) (January. 2, 2025)
 
-Files list:（A total of 14 zip archives）
+Files list:（A total of 13 zip archives）
 > mainnet.zip.001
 >
 > mainnet.zip.002
@@ -34,13 +34,13 @@ Files list:（A total of 14 zip archives）
 >
 > ......
 > 
-> mainnet.zip.012
+> mainnet.zip.013
 
 ## Extract Mainnet Data zip files
 
 ### Desktop Wallet for Windows
 1. Close and exit Windows Desktop Wallet Client;
-2. Place the downloaded 12 files in the same directory;
+2. Place the downloaded 13 files in the same directory;
 3. Use 7zip software to open the `mainnet.zip.001 file`, Extract the mainnet directory and overwrite it to the **default path**;
 4. Restart Windows Desktop Wallet Client，Click **"sync Mainnet"**.
 
