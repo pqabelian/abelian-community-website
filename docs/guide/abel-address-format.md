@@ -30,7 +30,7 @@ Short addresses are derived from long addresses using the following components:
   -	**Legacy short Address (Mainnet)**: `abe0`
   -	**Legacy short Address (Testnet)**: `abe3`
   -	**MLP short Address (Mainnet)**: `abe010`
-  -	**V2 MLP short Address (Testnet)**: `abe012`
+  -	**MLP short Address (Testnet)**: `abe012`
 
 -	Privacy Type: A two-character identifier:
   -	**Fully-Private (MLP)**: `05`
