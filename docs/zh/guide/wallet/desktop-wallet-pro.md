@@ -17,7 +17,7 @@ outline: deep
 
 **全隐私地址：** 您的交易经过加密，无法追踪，钱包余额保持隐藏，确保最高级别的安全性和匿名性。
 
-**伪匿名地址：** 隐私级别与比特币相似，即公开可见的币值和可追踪的交易，同时享有更低的交易费用和更高的吞吐量。
+**伪隐私地址：** 隐私级别与比特币相似，即公开可见的币值和可追踪的交易，同时享有更低的交易费用和更高的吞吐量。
 
 **•支持多个收款人：**
 
@@ -106,14 +106,14 @@ outline: deep
 
 1. 确保已经启动了钱包区块同步服务，否则将无法创建钱包地址；
 
-2. 导航到 “**RECEIVE（接收）**”① 选项卡。如果没有钱包地址实例，选择隐私类型创建一个：“**Pseudo-Private（伪匿名）**”② 或 “**Fully-Private（全隐私）**”③ 选项，然后点击后面的 “**GENERATE A NEW ADDRESS（生成一个新地址）**”④ 按钮；
+2. 导航到 “**RECEIVE（接收）**”① 选项卡。如果没有钱包地址实例，选择隐私类型创建一个：“**Pseudo-Private（伪隐私）**”② 或 “**Fully-Private（全隐私）**”③ 选项，然后点击后面的 “**GENERATE A NEW ADDRESS（生成一个新地址）**”④ 按钮；
   ![创建钱包地址](/desktop-wallet/pro/create-wallet-address.png)<br>
 
 :::tip 提示
-伪匿名地址的隐私级别较全隐私地址低，但转账速度更快。全隐私地址则更注重隐私保护，但处理速度相对较慢。
+伪隐私地址的隐私级别较全隐私地址低，但转账速度更快。全隐私地址则更注重隐私保护，但处理速度相对较慢。
 :::
   
-3. 以创建 Pseudo-Private（伪匿名地址） 为例，等待钱包地址生成后，直到系统提示 “Generate a new Pseudo-Private address in this account（在此账户中生成一个新的伪私有地址）” 的状态为 “**Successfully（成功）**”，点击 “**Close（关闭）**” 按钮
+3. 以创建 Pseudo-Private（伪隐私地址） 为例，等待钱包地址生成后，直到系统提示 “Generate a new Pseudo-Private address in this account（在此账户中生成一个新的伪私有地址）” 的状态为 “**Successfully（成功）**”，点击 “**Close（关闭）**” 按钮
   ![关闭创建钱包地址](/desktop-wallet/pro/close-create-address.png)<br>
   
 4. 在 “**5 Most Recently Generated Addresses（5个最近生成的地址）**” 部分会显示已生成的地址列表，点击 “**Full Address（长地址）**”① 后面的字符串会自动复制钱包长地址到剪贴板；点击 “**Short Address（短地址）**”② 栏后面的 “**Click to reqister a unique short address.（点击注册一个独特的短地址。）**” 按钮来生成钱包短地址；
@@ -143,7 +143,7 @@ Abelian 桌面钱包专业版（MLP）支持多层隐私交易，允许用户根
 4. 保存后，您可以通过点击 “**修改**”① 按钮来修改这笔交易详情，或者点击 “删除”② 按钮来移除这笔交易。
 ![修改交易信息](/desktop-wallet/pro/edit-delete-transaction.png)
 
-5. 在 “**Input（输入）**” 您可以查看可用于转账的余额。系统默认选中了 “**Spendable Pseudo-Private ABELs（可花费的伪匿名代币）**”① 和 “**Spendable Fully-Private ABELs（可花费的全隐私代币）**”②。您只需关注 "**Total Spendable ABELs（可花费的总代币）**”③ 这一数值。系统会自动处理，将不足的余额转移到相应的隐私地址中，以确保交易的顺利进行。。
+5. 在 “**Input（输入）**” 您可以查看可用于转账的余额。系统默认选中了 “**Spendable Pseudo-Private ABELs（可花费的伪隐私代币）**”① 和 “**Spendable Fully-Private ABELs（可花费的全隐私代币）**”②。您只需关注 "**Total Spendable ABELs（可花费的总代币）**”③ 这一数值。系统会自动处理，将不足的余额转移到相应的隐私地址中，以确保交易的顺利进行。。
 ![查看余额并选择转账地址隐私类型](/desktop-wallet/pro/check-balance-select-address-privacy.png)
 
 :::tip 提示
