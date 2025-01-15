@@ -8,9 +8,9 @@ This document introduces the Legacy (ABEL Address v1) and Multi-Layer Privacy (M
 
 ## 1. What are the Legacy Address and the MLP Address?
 
-The Legacy Address is the original format for Abelian wallet addresses. It was designed for early adopters and basic privacy use cases.
+The **Legacy Address** is the original format for Abelian wallet addresses. It was designed for early adopters and basic privacy use cases.
 
-The MLP (Multi-Layer Privacy) Address is an upgraded format designed to enhance privacy and functionality. It supports multiple privacy layers, such as fully-private and pseudo-private modes.
+The **MLP (Multi-Layer Privacy) Address** is an upgraded format designed to enhance privacy and functionality. It supports multiple privacy layers, such as fully-private and pseudo-private modes.
 
 The key difference between the Legacy long address and the Multi-Layer Privacy (MLP) long address is the number of characters they occupy. Below is a summary of the character lengths for different versions:
 
