@@ -6,6 +6,8 @@ outline: deep
 
 ## Mainnet 数据目录默认位置
 
+- Abelian 桌面钱包经典版（Legacy） 4.1.1 中的 Abec 主网数据目录默认位置如下：
+
 ::: code-group
 
 ```txt [Windows]
@@ -19,6 +21,10 @@ outline: deep
 ```txt [Linux]
 ~/.abec/data/mainnet
 ```
+:::
+
+::: tip 注意事项
+Abelian 桌面钱包经典版（Legacy） 4.2.0 版本已经不使用 Abec 同步主网数据，不需要再下载此数据包。
 :::
 
 ## Mainnet 数据包下载地址（高度：348317）
@@ -48,7 +54,7 @@ outline: deep
 
 ### macOS 桌面钱包
 1. 关闭并退出 MacOS 桌面钱包；
-2. 将下载的 12 个文件放在同一目录下，执行解压缩操作：
+2. 将下载的 13 个文件放在同一目录下，执行解压缩操作：
 ```
 # macOS 用brew下载安装 7zip
 $ brew install p7zip
@@ -65,7 +71,7 @@ mv -f mainnet ~/Library/Application\ Support/Abelian\ Wallet/Abec/
 
 ### Linux 全节点
 1. 停止全节点进程 `abec`或 `abectl`
-2. 将下载的 12 个文件放在同一目录下，执行解压缩操作：
+2. 将下载的 13 个文件放在同一目录下，执行解压缩操作：
 ```
 # Ubuntu 或 Debian 为例，安装 7zip
 $ apt install p7zip-full
