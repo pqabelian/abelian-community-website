@@ -351,7 +351,7 @@ Mining Pool Website: https://maxpool.org/
 
 ## Abelian Applications Release History
 
-More release history versions, Please visit [Abelian Applications Release History](/download/release-history) Page.
+More release history versions, Please visit [Abelian Applications Release History](/downloads/release-history) Page.
 
 ## Abelian Manuals
 

@@ -350,7 +350,7 @@ Abelian 桌面钱包专业版 (MLP) 暂不支持移动钱包 Abelian Pro 转账�
 
 ## Abelian 应用程序历史版本
 
-查看更多历史版本下载地址, 请访问 [Abelian 应用程序历史版本](/zh/download/release-history) 页面。
+查看更多历史版本下载地址, 请访问 [Abelian 应用程序历史版本](/zh/downloads/release-history) 页面。
 
 ## Abelian 用户手册
 
