@@ -32,13 +32,13 @@ Short addresses are derived from long addresses using the following components:
   -	**MLP short Address (Mainnet)**: `abe010`
   -	**MLP short Address (Testnet)**: `abe012`
 
--	Privacy Type: A two-character identifier:
-  -	**Fully-Private (MLP)**: `05`
-  -	**Pseudo-Private (MLP)**: `06`
+- Privacy Type: A two-character identifier:
+  - **Fully-Private (MLP)**: `05`
+  - **Pseudo-Private (MLP)**: `06`
 
--	Long Address Hash: This includes:
-  -	**Fingerprint**: 64 characters
-  -	**Checksum**: 64 characters
+- Long Address Hash: This includes:
+  - **Fingerprint**: 64 characters
+  - **Checksum**: 64 characters
 
 ### Visual Representation
 
