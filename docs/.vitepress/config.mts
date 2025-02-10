@@ -55,10 +55,10 @@ export default defineConfig({
                     { text: 'Tokenomics', link: '/guide/abel-tokenomics'},
                     { text: 'Whitepaper', link: '/guide/abel-whitepaper'},
                     { text: 'PQZKBridge Yellowpaper', link: '/guide/abel-yellowpaper'},
-                    { text: 'Abelian Improvement Proposals (AIP)', link: 'https://github.com/pqabelian/aips'},
                     { text: 'POW Difficulty Smooth Algorithm (DSA)', link: '/guide/abel-dsa-whitepaper'},
                     //{ text: 'Abelian User Token (AUT) Protocol', link: '/guide/abel-user-token-protocol'},
-                    { text: 'ABEL Address Formart', link: '/guide/abel-address-format'}
+                    { text: 'ABEL Address Formart', link: '/guide/abel-address-format'},
+                    { text: 'Abelian Improvement Proposals (AIP)', link: 'https://github.com/pqabelian/aips'}
                   ]
                 },
                 { text: 'QDay Tech Docs',
@@ -207,10 +207,10 @@ export default defineConfig({
                     { text: '经济学', link: '/zh/guide/abel-tokenomics'},
                     { text: '白皮书', link: '/zh/guide/abel-whitepaper'},
                     { text: '后量子跨链桥黄皮书', link: '/zh/guide/abel-yellowpaper'},
-                    { text: 'Abelian 改进提案 (AIP)', link: 'https://github.com/pqabelian/aips'},
                     { text: 'POW 难度平滑算法 (DSA)', link: '/zh/guide/abel-dsa-whitepaper'},
                     //{ text: 'Abelian 用户代币(AUT)协议', link: '/zh/guide/abel-user-token-protocol'},
-                    { text: '地址格式', link: '/zh/guide/abel-address-format'}
+                    { text: '地址格式', link: '/zh/guide/abel-address-format'},
+                    { text: 'Abelian 改进提案 (AIP)', link: 'https://github.com/pqabelian/aips'}
                   ]
                 },
                 { text: 'QDay 技术文档',
