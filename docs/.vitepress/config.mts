@@ -48,12 +48,25 @@ export default defineConfig({
               collapsed: false,
               items: [
                 { text: 'What is Abelian', link: '/guide/what-is-abelian'},
-                { text: 'ABEL Tokenomics', link: '/guide/abel-tokenomics'},
-                { text: 'ABEL Whitepaper', link: '/guide/abel-whitepaper'},
-                { text: 'ABEL Yellowpaper', link: '/guide/abel-yellowpaper'},
-                { text: 'ABEL DSA Whitepaper', link: '/guide/abel-dsa-whitepaper'},
-                { text: 'ABEL Address Formart', link: '/guide/abel-address-format'},
                 { text: 'Get Started', link: '/guide/get-started'},
+                { text: 'Abelian Tech Docs',
+                  collapsed: false,
+                  items: [
+                    { text: 'Tokenomics', link: '/guide/abel-tokenomics'},
+                    { text: 'Whitepaper', link: '/guide/abel-whitepaper'},
+                    { text: 'PQZKBridge Yellowpaper', link: '/guide/abel-yellowpaper'},
+                    { text: 'Abelian Improvement Proposals (AIP)', link: 'https://github.com/pqabelian/aips'},
+                    { text: 'POW Difficulty Smooth Algorithm (DSA)', link: '/guide/abel-dsa-whitepaper'},
+                    //{ text: 'Abelian User Token (AUT) Protocol', link: '/guide/abel-user-token-protocol'},
+                    { text: 'ABEL Address Formart', link: '/guide/abel-address-format'}
+                  ]
+                },
+                { text: 'QDay Tech Docs',
+                  collapsed: false,
+                  items: [
+                    { text: 'Whitepaper', link: '/guide/qday-whitepaper'}
+                  ]
+                },
                 { text: 'Abelian User Guide',
                   collapsed: true,  
                   items: [
@@ -187,12 +200,25 @@ export default defineConfig({
               collapsed: false,
               items: [
                 { text: 'Abelian 是什么', link: '/zh/guide/what-is-abelian'},
-                { text: 'ABEL 经济学', link: '/zh/guide/abel-tokenomics'},
-                { text: 'ABEL 白皮书', link: '/zh/guide/abel-whitepaper'},
-                { text: 'ABEL 黄皮书', link: '/zh/guide/abel-yellowpaper'},
-                { text: 'ABEL 难度调整白皮书', link: '/zh/guide/abel-dsa-whitepaper'},
-                { text: 'ABEL 地址格式', link: '/zh/guide/abel-address-format'},
                 { text: '由此开始', link: '/zh/guide/get-started'},
+                { text: 'Abelian 技术文档',
+                  collapsed: false,
+                  items: [
+                    { text: '经济学', link: '/zh/guide/abel-tokenomics'},
+                    { text: '白皮书', link: '/zh/guide/abel-whitepaper'},
+                    { text: '后量子跨链桥黄皮书', link: '/zh/guide/abel-yellowpaper'},
+                    { text: 'Abelian 改进提案 (AIP)', link: 'https://github.com/pqabelian/aips'},
+                    { text: 'POW 难度平滑算法 (DSA)', link: '/zh/guide/abel-dsa-whitepaper'},
+                    //{ text: 'Abelian 用户代币(AUT)协议', link: '/zh/guide/abel-user-token-protocol'},
+                    { text: '地址格式', link: '/zh/guide/abel-address-format'}
+                  ]
+                },
+                { text: 'QDay 技术文档',
+                  collapsed: false,
+                  items: [
+                    { text: '白皮书', link: '/guide/qday-whitepaper'}
+                  ]
+                },
                 { text: 'Abelian 用户指南',
                   collapsed: true,  
                   items: [
