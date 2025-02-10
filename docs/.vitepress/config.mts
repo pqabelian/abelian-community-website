@@ -209,7 +209,7 @@ export default defineConfig({
                     { text: '后量子跨链桥黄皮书', link: '/zh/guide/abel-yellowpaper'},
                     { text: 'POW 难度平滑算法 (DSA)', link: '/zh/guide/abel-dsa-whitepaper'},
                     //{ text: 'Abelian 用户代币(AUT)协议', link: '/zh/guide/abel-user-token-protocol'},
-                    { text: '地址格式', link: '/zh/guide/abel-address-format'},
+                    { text: 'ABEL 地址格式', link: '/zh/guide/abel-address-format'},
                     { text: 'Abelian 改进提案 (AIP)', link: 'https://github.com/pqabelian/aips'}
                   ]
                 },
