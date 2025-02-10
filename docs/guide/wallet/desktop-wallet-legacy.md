@@ -132,7 +132,7 @@ To import an ABEL wallet created elsewhere, follow these steps:
 :::tip
 You need to estimate the number of addresses to recover. Here are three reference methods:
  
-  a. If the desktop wallet is version 4.1.1, you can refer to the steps for [Receiving ABELs](#接收-abels) to create a new address, then check the newly created address name suffix in the “Select address” dropdown menu. The suffix `wallet name#m number` indicates the number you should fill in for the number of addresses to recover.
+  a. If the desktop wallet is version 4.1.1, you can refer to the steps for [Receiving ABELs](#receive-abels) to create a new address, then check the newly created address name suffix in the “Select address” dropdown menu. The suffix `wallet name#m number` indicates the number you should fill in for the number of addresses to recover.
   
   b. If the desktop wallet is lower than version 4.1.1 and method a fails to create a new address, you can check the transaction count in the TXS tab. Multiply this number by 2, and if the wallet has been imported before, add the number of addresses filled in during the last recovery.
   
