@@ -62,9 +62,9 @@ export default defineConfig({
                   ]
                 },
                 { text: 'QDay Tech Docs',
-                  collapsed: ture,
+                  collapsed: false,
                   items: [
-                    //{ text: 'Whitepaper', link: '/guide/qday-whitepaper'}
+                    { text: 'Whitepaper', link: '/guide/qday-whitepaper'}
                   ]
                 },
                 { text: 'Abelian User Guide',
@@ -214,9 +214,9 @@ export default defineConfig({
                   ]
                 },
                 { text: 'QDay 技术文档',
-                  collapsed: true,
+                  collapsed: false,
                   items: [
-                    //{ text: '白皮书', link: '/guide/qday-whitepaper'}
+                    { text: '白皮书', link: '/zh/guide/qday-whitepaper'}
                   ]
                 },
                 { text: 'Abelian 用户指南',
