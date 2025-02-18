@@ -27,7 +27,7 @@ export default defineConfig({
             items: [
               { text: 'Abelian Applications', link: '/downloads/latest' },
               { text: 'Abelian Release History', link: '/downloads/release-history' },
-              { text: 'Abelian source codes', link: 'https://github.com/pqabelian' },
+              { text: 'Abelian Source Codes', link: 'https://github.com/pqabelian' },
               { text: 'Mainet Dababase', link: '/downloads/mainnet-db' },
               { text: 'Ecosystem Tools', link: '/downloads/ecosystem-tools' }
             ]
