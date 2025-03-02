@@ -25,8 +25,6 @@ outline: deep
 
 .button-container .btn:hover {
   background-color: #0056b3; /* 更深的蓝色 */
-  transform: scale(1.05); /* 放大效果 */
-  font-weight: bold; /* 字体变粗 */
 }
 </style>
 
@@ -38,6 +36,14 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
 ## Abelian Desktop Wallet Pro (MLP)
 `abelian-desktop-wallet-pro`
+
+- **2025-03-02-v1.0.2**
+
+  [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v1.0.2.zip) | 
+  [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v1.0.2.zip) | 
+  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v1.0.2.zip) | 
+  [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v1.0.2.zip) | 
+  [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v1.0.2.zip)
 
 - **2025-01-04-v1.0.1**
 
@@ -57,6 +63,14 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
 ## Abelian Desktop Wallet Legacy
 `abelian-desktop-wallet / abelian-desktop-wallet-legacy`
+
+- **2025-03-02-v4.2.2**
+
+  [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v4.2.2.zip) | 
+  [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-amd64-v4.2.2.zip) | 
+  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-arm64-v4.2.2.zip) | 
+  [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-amd64-v4.2.2.zip) | 
+  [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-arm64-v4.2.2.zip)
 
 - **2025-01-04-v4.2.1**
 
