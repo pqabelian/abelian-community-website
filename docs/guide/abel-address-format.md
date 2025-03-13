@@ -14,9 +14,9 @@ The **MLP (Multi-Layer Privacy) Address** is an upgraded format designed to enha
 
 The key difference between the Legacy long address and the Multi-Layer Privacy (MLP) long address is the number of characters they occupy. Below is a summary of the character lengths for different versions:
 
--	**Legacy Long Address**: 11,759 characters
--	**MLP Long Address (Fully-Private)**: 11,892 characters
--	**MLP Long Address (Pseudo-Private)**: 11,452 characters
+-	**Legacy Long Address**: 21,458 characters
+-	**MLP Long Address (Fully-Private)**: 21,718 characters
+-	**MLP Long Address (Pseudo-Private)**: 462 characters
 
 ### Composition of Short Addresses
 
@@ -33,6 +33,7 @@ Short addresses are derived from long addresses using the following components:
   -	**MLP short Address (Testnet)**: `abe012`
 
 - Privacy Type: A two-character identifier:
+  -	**Legacy**: `(NONE)`
   - **Fully-Private (MLP)**: `05`
   - **Pseudo-Private (MLP)**: `06`
 
