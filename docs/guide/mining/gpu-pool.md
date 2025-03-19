@@ -8,7 +8,7 @@ This document explains how to run the SOLO GPU mining software.
 
 Please refer to the Abelian Software Basics documentation to understand the software architecture and how to choose between SOLO mining or joining a mining pool.
 
-Visit the Abelian official website's download page to download the [Abelian GPU Mining Pool Client](/downloads/latest#abelian-gpu-mining-pool-client). To interact with other miners, developers, and users, join the [official Discord server](https://discord.com/invite/5rrDxP29hx).
+Visit the Abelian official website's download page to download the [Abelian GPU Mining Client](/downloads/latest#abelian-gpu-mining-pool-client). To interact with other miners, developers, and users, join the [official Discord server](https://discord.com/invite/5rrDxP29hx).
 
 All operations are performed via the Command Line Interface (CLI). For Linux, open the terminal; for Windows, open PowerShell or any shell application of your choice.
 
@@ -39,7 +39,7 @@ The easiest way is to download [Abelian Pro](/downloads/latest#abelian-pro-mobil
 
 - The original Abelian Foundation mining pool (pool.abelian.info) is still accessible, but its URL has changed to: [https://legacy.maxpool.org/home](https://legacy.maxpool.org/home). Existing miners are advised to use this URL. It is strongly recommended to migrate to the new Maxpool mining pool before the hard fork is complete.
 
-- The Maxpool mining pool requires an updated client, [Abelian GPU Mining Pool Client v2.0.3](/downloads/latest#abelian-gpu-mining-pool-client).
+- The Maxpool mining pool requires an updated client, [Abelian GPU Mining Client v2.0.3](/downloads/latest#abelian-gpu-mining-pool-client).
 
 ## Run the GPU Mining Program - abelminer
 

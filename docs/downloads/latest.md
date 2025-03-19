@@ -271,7 +271,7 @@ After upgrading the desktop wallet legacy version from 4.1.1 or earlier to versi
 
 ---
 
-### Abelian GPU Mining Pool Client
+### Abelian GPU Mining Client
 - **Release Date**: `2023-05-31`
 - **Package**: `abelminer-v2.0.3`
 - **Download Links**:
@@ -281,14 +281,15 @@ After upgrading the desktop wallet legacy version from 4.1.1 or earlier to versi
 </div>
 
 ::: info Guide for Miners:
-1. Mining Pool Website: https://maxpool.org/
-2. Please download the compressed package and then visit the mining pool website to read the [Quickstart Guide](https://maxpool.org/home/guide).
-3. Please join our [Discord Server](https://discord.com/invite/5rrDxP29hx) and go to the mining channel (under 'how-to-mine-abel' after 'verify-yourself') to get the latest guide for GPU miners.
+1. The Abelian graphics card mining client can be used for solo mining and pool mining.
+2. Mining Pool Website: https://maxpool.org/
+3. Please download the compressed package and then visit the mining pool website to read the [Quickstart Guide](https://maxpool.org/home/guide).
+4. Please join our [Discord Server](https://discord.com/invite/5rrDxP29hx) and go to the mining channel (under 'how-to-mine-abel' after 'verify-yourself') to get the latest guide for GPU solo mining.
 :::
 
 ---
 
-### Abelian CPU Mining Pool Client
+### Abelian CPU Mining Client
 - **Release Date**: `2023-05-28`
 - **Package**: `abe-miningpool-client-v0.13.0`
 - **Download Links**:
@@ -299,10 +300,6 @@ After upgrading the desktop wallet legacy version from 4.1.1 or earlier to versi
   <a href="https://download.pqabelian.io/release/pool/abe-miningpool-client-linux-amd64-v0.13.0.tar.gz" class="btn">Linux</a>
   <a href="https://download.pqabelian.io/release/pool/abe-miningpool-client-linux-arm64-v0.13.0.tar.gz" class="btn">Linux (ARM)</a>
 </div>
-
-::: info Guide for Miners:
-Mining Pool Website: https://maxpool.org/
-:::
 
 ---
 

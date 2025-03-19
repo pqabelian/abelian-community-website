@@ -235,7 +235,7 @@ outline: deep
   [macOS (Apple silicon)](https://download.abelian.info/release/abec/abec-macos-arm64-v0.11.1.tar.gz) | 
   [Linux](https://download.abelian.info/release/abec/abec-linux-amd64-v0.11.1.tar.gz)
 
-## Abelian GPU 矿池客户端
+## Abelian GPU 挖矿客户端
 `abelminer`
 
 - **2023-05-31-v2.0.3**
@@ -252,7 +252,7 @@ outline: deep
 
   [Linux](https://download.abelian.info/release/pool/abelminer-linux-amd64-v2.0.1.b.tar.gz)
 
-## Abelian CPU 矿池客户端
+## Abelian CPU 挖矿客户端
 `abe-miningpool-client`
 
 - **2024-05-28-v0.13.0**

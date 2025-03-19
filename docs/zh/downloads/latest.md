@@ -270,7 +270,7 @@ Abelian 桌面钱包专业版 (MLP) 暂不支持移动钱包 Abelian Pro 转账�
 
 ---
 
-### Abelian 显卡矿池客户端
+### Abelian 显卡挖矿客户端
 - **发布日期**： `2023-05-31`
 - **软件包**： `abelminer-v2.0.3`
 - **下载链接**：
@@ -280,14 +280,15 @@ Abelian 桌面钱包专业版 (MLP) 暂不支持移动钱包 Abelian Pro 转账�
 </div>
 
 ::: info 矿工指南
-1. 矿池网站：https://maxpool.org/
-2. 请下载压缩包，然后访问矿池网站阅读 [快速入门指南](https://maxpool.org/home/guide)。
-3. 请加入我们的 [Discord 服务器](https://discord.com/invite/5rrDxP29hx)，并前往挖矿频道（在 “verify-yourself” 之后前往 “how-to-mine-abel” 子频道）获取 GPU 矿工的最新指南。
+1. Abelian 显卡挖矿客户端可用于 Solo 挖矿和矿池挖矿。
+2. 矿池网站：https://maxpool.org/
+3. 请下载压缩包，然后访问矿池网站阅读 [快速入门指南](https://maxpool.org/home/guide)。
+4. 请加入我们的 [Discord 服务器](https://discord.com/invite/5rrDxP29hx)，并前往挖矿频道（在 “verify-yourself” 之后前往 “how-to-mine-abel” 子频道）获取 GPU Solo 挖矿的最新指南。
 :::
 
 ---
 
-### Abelian CPU 矿池客户端
+### Abelian CPU 挖矿客户端
 - **发布日期**： `2023-05-28`
 - **软件包**： `abe-miningpool-client-v0.13.0`
 - **下载链接**：
@@ -298,10 +299,6 @@ Abelian 桌面钱包专业版 (MLP) 暂不支持移动钱包 Abelian Pro 转账�
   <a href="https://download.pqabelian.io/release/pool/abe-miningpool-client-linux-amd64-v0.13.0.tar.gz" class="btn">Linux</a>
   <a href="https://download.pqabelian.io/release/pool/abe-miningpool-client-linux-arm64-v0.13.0.tar.gz" class="btn">Linux (ARM)</a>
 </div>
-
-::: info 矿工指南
-矿池网站：https://maxpool.org/
-:::
 
 ---
 

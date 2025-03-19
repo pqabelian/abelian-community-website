@@ -33,7 +33,7 @@ If you would like to run a CLI-based wallet, you can run a full node (**abec**) 
 
 If you are a GPU miner, please check out [Abelian GPU Mining Manual](/guide/mining/gpu-pool) for details. This enables you to do SOLO mining.
 
-If you only have a few GPU cards and would like to join the Abelian Foundation official mining pool server so that you can mine together with other miners and share the ABEL rewards, please go to the section [Abelian GPU Mining Pool Client](/downloads/latest#abelian-gpu-mining-pool-client) and get the mining pool client software as well as details.
+If you only have a few GPU cards and would like to join the Abelian Foundation official mining pool server so that you can mine together with other miners and share the ABEL rewards, please go to the section [Abelian GPU Mining Client](/downloads/latest#abelian-gpu-mining-pool-client) and get the mining client software as well as details.
 
 ## 4. Official Abelian Download Page
 

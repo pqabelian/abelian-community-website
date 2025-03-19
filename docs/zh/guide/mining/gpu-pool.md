@@ -8,7 +8,7 @@ outline: deep
 
 请先参考 Abelian 软件基础文档，以了解软件架构以及 SOLO 挖矿或矿池选择。
 
-请访问 Abelian 官方网站下载页面，下载 [Abelian GPU 挖矿池客户端](/zh/downloads/latest#abelian-显卡矿池客户端)。要与其他矿工、开发者和用户互动，请访问 [官方 Discord 服务器](https://discord.com/invite/5rrDxP29hx)。
+请访问 Abelian 官方网站下载页面，下载 [Abelian GPU 挖矿客户端](/zh/downloads/latest#abelian-显卡挖矿客户端)。要与其他矿工、开发者和用户互动，请访问 [官方 Discord 服务器](https://discord.com/invite/5rrDxP29hx)。
 
 所有操作都通过命令行界面（CLI）进行。对于 Linux，打开终端；对于 Windows，打开 PowerShell 或任何你喜欢的 shell 应用程序。
 
@@ -39,7 +39,7 @@ outline: deep
 
 - 原 Abelian 基金会矿池 (pool.abelian.info) 当前仍然可以使用，但网址已经变更为：[https://legacy.maxpool.org/home](https://legacy.maxpool.org/home)，请老矿工使用该网址访问。强烈推荐在硬分叉完成之前迁移到新的 Maxpool 矿池;
 
-- Maxpool 矿池需要更新客户端至 [Abelian GPU 挖矿池客户端 v2.0.3](/zh/downloads/latest#abelian-显卡矿池客户端)
+- Maxpool 矿池需要更新客户端至 [Abelian GPU 挖矿客户端 v2.0.3](/zh/downloads/latest#abelian-显卡挖矿客户端)
 
 ## 运行 GPU 挖矿程序 - abelminer
 

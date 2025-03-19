@@ -32,8 +32,8 @@ Error: No usable mining devices found
 **Windows**
 
 > 1. 前往 [AMD 官网网站](https://www.amd.com/zh-cn/support/download/drivers.html) 选择自己对应的操作系统和显卡型号来下载并安装驱动程序；
-> 2. 在矿池网站下载 Windows 安装程序，根据提示安装之后，在开始菜单中找到并运行 “Abelian GPU Mining Pool Client” -> “AMD graphics card Fix” 来修复；
-> 3. 运行桌面快捷方式 Abelian GPU Mining Pool Client（Abelminer_Launcher.exe） 来运行挖矿程序。
+> 2. 在矿池网站下载 Windows 安装程序，根据提示安装之后，在开始菜单中找到并运行 “Abelian GPU Mining Client” -> “AMD graphics card Fix” 来修复；
+> 3. 运行桌面快捷方式 Abelian GPU Mining Client（Abelminer_Launcher.exe） 来运行挖矿程序。
 
 **Linux**
 

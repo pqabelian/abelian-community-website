@@ -33,7 +33,7 @@ outline: deep
 
 如果你是 GPU 挖矿者，请查阅 [Abelian GPU 挖矿手册](/zh/guide/mining/gpu-pool) 获取详细信息。这使你能够进行 SOLO 挖矿。
 
-如果你只有少量的 GPU 卡并且想加入 Abelian 基金会的官方挖矿池服务器，以便与其他矿工一起挖矿并分享 ABEL 奖励，请前往 [Abelian GPU 挖矿池客户端](/zh/downloads/latest#abelian-显卡矿池客户端) 部分获取挖矿池客户端软件及详细信息。
+如果你只有少量的 GPU 卡并且想加入 Abelian 基金会的官方挖矿池服务器，以便与其他矿工一起挖矿并分享 ABEL 奖励，请前往 [Abelian GPU 挖矿客户端](/zh/downloads/latest#abelian-显卡挖矿客户端) 部分获取挖矿客户端软件及详细信息。
 
 ## 4. Abelian 官方下载页面
 

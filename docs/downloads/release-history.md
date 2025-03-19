@@ -235,7 +235,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
   [macOS (Apple silicon)](https://download.abelian.info/release/abec/abec-macos-arm64-v0.11.1.tar.gz) | 
   [Linux](https://download.abelian.info/release/abec/abec-linux-amd64-v0.11.1.tar.gz)
 
-## Abelian GPU Mining Pool Client
+## Abelian GPU Mining Client
 `abelminer`
 
 - **2023-05-31-v2.0.3**
@@ -252,7 +252,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Linux](https://download.abelian.info/release/pool/abelminer-linux-amd64-v2.0.1.b.tar.gz)
 
-## Abelian CPU Mining Pool Client
+## Abelian CPU Mining Client
 `abe-miningpool-client`
 
 - **2024-05-28-v0.13.0**

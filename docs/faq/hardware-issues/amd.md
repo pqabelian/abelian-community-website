@@ -32,8 +32,8 @@ This issue generally occurs because abelminer cannot find the OpenCL driver for 
 **Windows**
 
 > 1. Go to the [AMD official website](https://www.amd.com/zh-cn/support/download/drivers.html) and select your corresponding operating system and graphics card model to download and install the driver;
-> 2. Download the Windows installer from the mining pool website, follow the prompts to install it, then find and run "Abelian GPU Mining Pool Client" -> "AMD graphics card Fix" in the start menu to fix it;
-> 3. Run the desktop shortcut Abelian GPU Mining Pool Client (Abelminer_Launcher.exe) to start mining.
+> 2. Download the Windows installer from the mining pool website, follow the prompts to install it, then find and run "Abelian GPU Mining Client" -> "AMD graphics card Fix" in the start menu to fix it;
+> 3. Run the desktop shortcut Abelian GPU Mining Client (Abelminer_Launcher.exe) to start mining.
 
 **Linux**
 
