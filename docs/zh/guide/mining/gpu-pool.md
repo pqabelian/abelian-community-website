@@ -43,7 +43,7 @@ outline: deep
 
 ## 运行 GPU 挖矿程序 - abelminer
 
-Maxpool 用户指南包含了适用于各种平台的挖矿辅助脚本和程序。以下是运行 `abelminer` 二进制程序的简要介绍：
+`Abelminer` GPU 挖矿客户端作为 Solo 挖矿客户端和矿池挖矿客户端，Maxpool 用户指南包含了适用于各种平台的挖矿辅助脚本和程序。以下是运行 `abelminer` 二进制程序的简要介绍：
 
 进入 `~/abel/abelminer-linux-amd64-v2.0.3/` 并运行 GPU 挖矿客户端 (`abelminer`)：
 

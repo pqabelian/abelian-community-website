@@ -43,7 +43,7 @@ The easiest way is to download [Abelian Pro](/downloads/latest#abelian-pro-mobil
 
 ## Run the GPU Mining Program - abelminer
 
-The Maxpool user guide includes auxiliary scripts and programs for various platforms. Below is a brief introduction to running the `abelminer` binary program:
+`Abelminer` GPU mining client serves as both a solo mining client and a pool mining client. The Maxpool user guide includes auxiliary scripts and programs for various platforms. Below is a brief introduction to running the `abelminer` binary program:
 
 Navigate to `~/abel/abelminer-linux-amd64-v2.0.3/` and run the GPU mining client (`abelminer`):
 
