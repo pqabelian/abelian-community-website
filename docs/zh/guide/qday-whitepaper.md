@@ -703,3 +703,7 @@ QDay 结合了量子抗性、可扩展性和实用性，不仅代表了区块链
 \[10\] Ethereum 基金会. *ERC-20 标准* <https://ethereum.org/en/developers/docs/standards/tokens/erc-20/>
 
 \[11\] Ethereum 基金会. *去中心化应用程序（dApps）* <https://ethereum.org/en/dapps/>
+
+---
+
+[下载 QDay 白皮书日语版本 PDF 文档](https://download.pqabelian.io/release/docs/QDay_Whitepaper_Japanese.pdf)

@@ -707,3 +707,7 @@ By combining quantum resistance, scalability, and practical usability, QDay repr
 \[10\] Ethereum Foundation. *ERC-20 Standards.* <https://ethereum.org/en/developers/docs/standards/tokens/erc-20/>
 
 \[11\] Ethereum Foundation. *Decentralized Applications (dApps).* <https://ethereum.org/en/dapps/>
+
+---
+
+[Download the Japanese version of the QDay Whitepaper PDF document](https://download.pqabelian.io/release/docs/QDay_Whitepaper_Japanese.pdf)
