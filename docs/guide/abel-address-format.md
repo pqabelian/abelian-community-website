@@ -27,7 +27,7 @@ Short addresses are derived from long addresses using the following components:
 ```
 
 - Network Prefix: Identifies the type of address (e.g., Legacy, Fully-Private, Pseudo-Private).
-  -	**Legacy short Address (Mainnet)**: `abe0`
+  -	**Legacy short Address (Mainnet)**: `abe1`
   -	**Legacy short Address (Testnet)**: `abe3`
   -	**MLP short Address (Mainnet)**: `abe010`
   -	**MLP short Address (Testnet)**: `abe012`
