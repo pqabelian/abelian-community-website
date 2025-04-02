@@ -163,8 +163,19 @@ outline: deep
 ## Abelian 全节点
 `[abec]`
 
+- **2025-04-02-v2.0.1**
+  - 启用更新的代币释放计划
+  - 添加 300000、340000、360000 高度的检查点
+
+  [Windows](https://download.pqabelian.io/release/abec/abec-windows-amd64-v2.0.1.zip) | 
+  [macOS](https://download.pqabelian.io/release/abec/abec-macos-amd64-v2.0.1.tar.gz) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abec/abec-macos-arm64-v2.0.1.tar.gz) | 
+  [Linux](https://download.pqabelian.io/release/abec/abec-linux-amd64-v2.0.1.tar.gz) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abec/abec-linux-arm64-v2.0.1.tar.gz)
+
 - **2024-07-14-v1.0.0**
-  - 支持硬分叉。
+  - 针对 MLPAUT 的硬分叉：多级隐私（MLP）与 Abelian 用户令牌（AUT）将在高度 300000 启用。
+  - 高度 340000 之后，版本 1 的交易不再被打包进区块中。
 
   [Windows](https://download.pqabelian.io/release/abec/abec-windows-amd64-v1.0.0.zip) | 
   [macOS](https://download.pqabelian.io/release/abec/abec-macos-amd64-v1.0.0.tar.gz) | 

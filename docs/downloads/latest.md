@@ -249,20 +249,20 @@ After upgrading the desktop wallet legacy version from 4.1.1 or earlier to versi
 ---
 
 ### Abelian Full Node
-- **Release Date**: `2025-01-04`
-- **Package**: `abec-v1.0.0`
+- **Release Date**: `2025-04-02`
+- **Package**: `abec-v2.0.1`
 - **Download Links**:
 <div class="button-container">
-  <a href="https://download.pqabelian.io/release/abec/abec-windows-amd64-v1.0.0.zip" class="btn">Windows</a>
-  <a href="https://download.pqabelian.io/release/abec/abec-macos-amd64-v1.0.0.tar.gz" class="btn">macOS</a>
-  <a href="https://download.pqabelian.io/release/abec/abec-macos-arm64-v1.0.0.tar.gz" class="btn">macOS (Apple Silicon)</a>
-  <a href="https://download.pqabelian.io/release/abec/abec-linux-amd64-v1.0.0.tar.gz" class="btn">Linux</a>
-  <a href="https://download.pqabelian.io/release/abec/abec-linux-arm64-v1.0.0.tar.gz" class="btn">Linux (ARM)</a>
+  <a href="https://download.pqabelian.io/release/abec/abec-windows-amd64-v2.0.1.zip" class="btn">Windows</a>
+  <a href="https://download.pqabelian.io/release/abec/abec-macos-amd64-v2.0.1.tar.gz" class="btn">macOS</a>
+  <a href="https://download.pqabelian.io/release/abec/abec-macos-arm64-v2.0.1.tar.gz" class="btn">macOS (Apple Silicon)</a>
+  <a href="https://download.pqabelian.io/release/abec/abec-linux-amd64-v2.0.1.tar.gz" class="btn">Linux</a>
+  <a href="https://download.pqabelian.io/release/abec/abec-linux-arm64-v2.0.1.tar.gz" class="btn">Linux (ARM)</a>
 </div>
 
 ::: info Release Notes
-  1. Hard Fork for MLPAUT: Multi-Level Privacy(MLP) and Abelian User Token(AUT) would be enabled at height 300000.
-  2. Transactions with version 1 no longer are packaged to block after height 340000.
+1. Enable updated Token Release Schedule
+2. Add checkpoints with height 300000,340000,360000
 
 **For more details, Please view the link below:**
 - https://pqabelian.medium.com/abelian-network-hard-fork-introducing-multi-level-privacy-and-user-token-protocol-at-block-height-add96dacdcce

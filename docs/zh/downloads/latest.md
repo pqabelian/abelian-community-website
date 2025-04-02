@@ -248,20 +248,20 @@ Abelian 桌面钱包专业版 (MLP) 暂不支持移动钱包 Abelian Pro 转账�
 ---
 
 ### Abelian 全节点
-- **发布日期**： `2024-07-14`
-- **软件包**： `abec-v1.0.0`
+- **发布日期**： `2025-04-02`
+- **软件包**： `abec-v2.0.1`
 - **下载链接**：
 <div class="button-container">
-  <a href="https://download.pqabelian.io/release/abec/abec-windows-amd64-v1.0.0.zip" class="btn">Windows</a>
-  <a href="https://download.pqabelian.io/release/abec/abec-macos-amd64-v1.0.0.tar.gz" class="btn">macOS</a>
-  <a href="https://download.pqabelian.io/release/abec/abec-macos-arm64-v1.0.0.tar.gz" class="btn">macOS (Apple Silicon)</a>
-  <a href="https://download.pqabelian.io/release/abec/abec-linux-amd64-v1.0.0.tar.gz/" class="btn">Linux</a>
-  <a href="https://download.pqabelian.io/release/abec/abec-linux-arm64-v1.0.0.tar.gz" class="btn">Linux (ARM)</a>
+  <a href="https://download.pqabelian.io/release/abec/abec-windows-amd64-v2.0.1.zip" class="btn">Windows</a>
+  <a href="https://download.pqabelian.io/release/abec/abec-macos-amd64-v2.0.1.tar.gz" class="btn">macOS</a>
+  <a href="https://download.pqabelian.io/release/abec/abec-macos-arm64-v2.0.1.tar.gz" class="btn">macOS (Apple Silicon)</a>
+  <a href="https://download.pqabelian.io/release/abec/abec-linux-amd64-v2.0.1.tar.gz" class="btn">Linux</a>
+  <a href="https://download.pqabelian.io/release/abec/abec-linux-arm64-v2.0.1.tar.gz" class="btn">Linux (ARM)</a>
 </div>
 
 ::: info 发布说明
-1. MLPAUT 硬分叉：多级隐私（MLP）和 Abelian 用户代币（AUT）将在高度 300000 启用。
-2. 当高度达到 340000 之后，版本 1 的交易将不再被打包到区块中。
+1. 启用更新的代币释放计划
+2. 添加 300000、340000、360000 高度的检查点
 
 **了解更多详情，请查看以下链接：**
 - https://pqabelian.medium.com/abelian-network-hard-fork-introducing-multi-level-privacy-and-user-token-protocol-at-block-height-add96dacdcce

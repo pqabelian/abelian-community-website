@@ -163,8 +163,19 @@ We provide the packages of previous versions mainly for archive purposes. Please
 ## Abelian Full Node
 `[abec]`
 
+- **2025-04-02-v2.0.1**
+  - Enable updated Token Release Schedule
+  - Add checkpoints with height 300000,340000,360000
+
+  [Windows](https://download.pqabelian.io/release/abec/abec-windows-amd64-v2.0.1.zip) | 
+  [macOS](https://download.pqabelian.io/release/abec/abec-macos-amd64-v2.0.1.tar.gz) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abec/abec-macos-arm64-v2.0.1.tar.gz) | 
+  [Linux](https://download.pqabelian.io/release/abec/abec-linux-amd64-v2.0.1.tar.gz) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abec/abec-linux-arm64-v2.0.1.tar.gz)
+
 - **2024-07-14-v1.0.0**
-  - Support hard fork.
+  - For the MLPAUT hard fork: Multi-Level Privacy (MLP) and Abelian User Tokens (AUT) will be enabled at height 300000.
+  - After height 340000, version 1 transactions will no longer be included in blocks.
 
   [Windows](https://download.pqabelian.io/release/abec/abec-windows-amd64-v1.0.0.zip) | 
   [macOS](https://download.pqabelian.io/release/abec/abec-macos-amd64-v1.0.0.tar.gz) | 
