@@ -23,10 +23,15 @@ These tokens are for fundraising, community build-up, and marketing.
 
 The rest 204.6 million ABELs (90.86% of total supply) will all be mined by the community.
 - The block frequency is set to 256 seconds.
-- Each era is defined by 400,000 blocks and there are altogether 10 eras. Hence the total expected time to mine is 32.5 years.
+- There are a total of 10 epochs. The first epoch is defined by 400,000 blocks, while the remaining 9 epochs are defined by 800,000 blocks each. Hence the total expected time to mine is 61.66 years.
 - In the first era, each block reward is 256 ABELs. That means there will be 102.4 million ABELs created in the first era.
-- Halving happens after each era. In the final era, the block reward will be 0.5 ABEL.
+- Halving happens after each era. In the final era, the block reward will be 0.25 ABEL.
 - Every 4,000 blocks is one epoch. The POW difficulty is adjusted after each epoch according to the the actual computational power
   of the network in the last epoch.
 
 ![ABEL Supply Chart](/tokenomics/ABEL-Supply.png)
+
+## Reference link
+
+- [AIP0012 - Token Release Schedule](https://github.com/pqabelian/aips/blob/master/aips/aip0012/aip0012_v002.pdf)
+
