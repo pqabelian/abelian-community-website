@@ -164,18 +164,20 @@ outline: deep
     <span>下载我们最新的移动钱包</span>
   </div>
   <div class="btn-wrapper">
-    <a href="https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v1.2.0.apk" class="btn-apk">APK</a>
+    <a href="https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v2.0.0.apk" class="btn-apk">APK</a>
     <a href="https://play.google.com/store/apps/details?id=info.abelian.walletpro" class="btn-base btn-android"></a>
     <a href="https://apps.apple.com/us/app/abelian-pro/id6475756639" class="btn-base btn-ios"></a>
   </div>
 </section>
 
-::: warning 重要提示
-Abelian Pro 移动钱包暂不支持与 Abelian 桌面钱包专业版 (MLP) 转账交易，后续版本中将支持。如果您需要进行转账交易，请继续使用桌面钱包经典版 (Legacy)。
-:::
-
 ::: info 特点介绍
 新的移动钱包是对之前移动钱包的全面重写，旨在更加用户友好和功能丰富。它可在 iOS 和 Android 平台上使用。
+
+v2.0.0 特点：
+
+1. 同时支持钱包账户 Legacy 地址和新的 MLP 地址，MLP（多层隐私）账户的优势参考 [桌面钱包专业版 - 发布说明](/zh/downloads/latest#abelian-桌面钱包专业版-mlp)；
+2. 推荐升级到新版后创建新的钱包账户（MLP 地址），并在创建新的 MLP 钱包账户后，将所有旧账户的余额 ABEL 币从转账至 MLP 钱包账户；
+3. 创建新的钱包账户（MLP 地址）后，在 “账户资料” 中备份 24 个单词的助记词（恢复短语），可以使用桌面钱包专业版导入此助记词。
 :::
 
 ## Abelian 桌面应用程序
@@ -193,10 +195,6 @@ Abelian Pro 移动钱包暂不支持与 Abelian 桌面钱包专业版 (MLP) 转�
   <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v1.0.2.zip" class="btn">Linux</a>
   <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v1.0.2.zip" class="btn">Linux (ARM)</a>
 </div>
-
-::: warning 重要提示
-Abelian 桌面钱包专业版 (MLP) 暂不支持移动钱包 Abelian Pro 转账交易，目前 Maxpool 矿池暂时也不支持 MLP 钱包地址作为收益地址，后续版本中将支持。如果您需要进行转账交易，推荐最新版本的桌面钱包经典版 (Legacy)。
-:::
 
 ::: info 发布说明
 **有什么新功能？**
@@ -231,7 +229,9 @@ Abelian 桌面钱包专业版 (MLP) 暂不支持移动钱包 Abelian Pro 转账�
 </div>
 
 ::: warning 重要提示
-桌面钱包经典版由 4.1.1 或更早版本升级到 4.2.0 版本后，需要重新导入钱包账户。详细操作步骤请查看 [桌面钱包经典版用户手册](/zh/guide/wallet/desktop-wallet-legacy#导入-abel-钱包账户)。
+1. 桌面钱包经典版由 4.1.1 或更早版本升级到 4.2.0 版本后，需要重新导入钱包账户。详细操作步骤请查看 [桌面钱包经典版用户手册](/zh/guide/wallet/desktop-wallet-legacy#导入-abel-钱包账户)。
+
+2. Abelian 桌面钱包经典版不支持迁移到移动钱包 Abelian Pro （MLP账户地址），但可以进行转账。
 :::
 
 ::: info 发布说明

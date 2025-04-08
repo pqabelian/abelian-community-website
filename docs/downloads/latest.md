@@ -164,19 +164,21 @@ outline: deep
      <span>Download our latest mobile wallet</span>
     </div>
     <div class="btn-wrapper">
-      <a href="https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v1.2.0.apk" class="btn-apk">APK</a>
+      <a href="https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v2.0.0.apk" class="btn-apk">APK</a>
       <a href="https://play.google.com/store/apps/details?id=info.abelian.walletpro" class="btn-base btn-android"></a>
       <a href="https://apps.apple.com/us/app/abelian-pro/id6475756639" class="btn-base btn-ios"></a>
     </div>
 </section>
 
-::: warning
-The Abelian Pro mobile wallet currently does not support transactions with the Abelian Desktop Wallet Pro (MLP). This feature will be supported in future updates. If you need to perform transactions, please continue using the Desktop Wallet Legacy version.
-:::
-
 ::: info Features
 The new mobile wallet is a complete rewrite of the previous mobile wallet and is designed to be more user-friendly and feature-rich.
 It is available on both iOS and Android platforms.
+
+v2.0.0 Features:
+
+1. Supports both Legacy wallet addresses and new MLP addresses. For the advantages of MLP (Multi-Layer Privacy) accounts, refer to the [Desktop Wallet Pro - Release Notes](/downloads/latest#abelian-desktop-wallet-pro-mlp).
+2. It is recommended to create a new wallet account (MLP address) after upgrading, and transfer all ABEL balances from old accounts to the new MLP wallet account.
+3. After creating the new wallet account (MLP address), Backup the 24-word mnemonic (recovery phrase) in Account "Profile." This mnemonic can be imported using the Desktop Wallet Pro.
 :::
 
 ## Abelian Desktop Applications
@@ -194,10 +196,6 @@ It is available on both iOS and Android platforms.
   <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v1.0.2.zip" class="btn">Linux</a>
   <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v1.0.2.zip" class="btn">Linux (ARM)</a>
 </div>
-
-::: warning
-The Abelian Desktop Wallet Pro (MLP) currently does not support transactions with the Abelian Pro mobile wallet. Additionally, the Maxpool mining pool does not yet support MLP wallet addresses as payout addresses. These features will be supported in future updates. If you need to perform transactions, we recommend using the latest version of the Desktop Wallet Legacy.  
-:::
 
 ::: info Release Notes
 **What's New?**
@@ -232,7 +230,9 @@ The Abelian Desktop Wallet Pro (MLP) currently does not support transactions wit
 </div>
 
 ::: warning
-After upgrading the desktop wallet legacy version from 4.1.1 or earlier to version 4.2.0, you will need to re-import wallet accounts. Starting from version 4.2.0. Please refer to the [Desktop Wallet Legacy User Manual](/guide/wallet/desktop-wallet-legacy#import-abel-wallet-account) for detailed operating steps.
+- After upgrading the Desktop Wallet Legacy version from 4.1.1 or earlier to version 4.2.0, you will need to re-import wallet accounts. Starting from version 4.2.0. Please refer to the [Desktop Wallet Legacy User Manual](/guide/wallet/desktop-wallet-legacy#import-abel-wallet-account) for detailed operating steps.
+
+- The Abelian Desktop Wallet Legacy cannot migrate to the mobile wallet 'Abelian Pro' (MLP address), but transfers are allowed.
 :::
 
 ::: info Release Notes
