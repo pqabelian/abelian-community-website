@@ -14,14 +14,14 @@ All the operations are carried out via the Command Line Interface (CLI). For Lin
 
 ## 1. Installation
 
-Download a compressed file, something like abec-linux-amd64-v1.0.0.tar.gz for Linux running on an x86 architecture (e.g. Intel chips), from the Section Abelian Full Node of the [Official Download Page](/downloads/latest#abelian-full-node).
+Download a compressed file, something like abec-linux-amd64-v2.0.1.tar.gz for Linux running on an x86 architecture (e.g. Intel chips), from the Section Abelian Full Node of the [Official Download Page](/downloads/latest#abelian-full-node).
 
 Unzip it and put it under the folder ~/abel/:
 
 ```txt
-~/abel/abec-linux-amd64-v1.0.0/
+~/abel/abec-linux-amd64-v2.0.1/
 ```
-Go to ~/abel/abec-linux-amd64-v1.0.0/ , and run:
+Go to ~/abel/abec-linux-amd64-v2.0.1/ , and run:
 
 ::: code-group
 ```shell [Windows]
@@ -59,6 +59,36 @@ Security & Privacy -> General** and click **allow anyway**.
 
 Go to the configuration folder of `abec` and make changes as below in `abec.conf`.
 
+Node Type Configuration, Below are the storage and verification strategies for each node type. Users can choose the appropriate node type based on their actual needs:
+
+- **Full Node**
+  - **Definition**: A complete node that stores and verifies all data of the blockchain.
+  - **Functionality**:
+    - Stores the complete block (Content + Witness) data from the genesis block.
+    - Verifies the validity of each block (transaction validity, block validity).
+
+- **Semi-Full Node**
+  - **Definition**: A semi-complete node that optimizes storage requirements while maintaining high verification capability.
+  - **Functionality**:
+    - Stores block (Content) data from the genesis block up to the last checkpoint.
+    - Stores complete block (Content + Witness) data from the last checkpoint onward.
+    - Verifies the header information of each block (including PoW) before the last checkpoint.
+    - Verifies the validity of each block (transaction validity, block validity) from the last checkpoint onward.
+
+- **Normal Node**
+  - **Definition**: A normal node that further optimizes storage, suitable for resource-limited environments.
+  - **Functionality**:
+    - Stores block (Content) data from the genesis block to the reserved block.
+    - Stores complete block (Content + Witness) data starting from the reserved block.
+    - Verifies the header information of each block (including PoW) before the last checkpoint.
+    - Verifies the validity of each block (transaction validity, block validity) after the last checkpoint.
+
+The default parameter is `nodetype=semifullnode`, with other optional values: complete node as `fullnode`, and normal node as `normalnode`.
+
+```ini
+nodetype=semifullnode
+```
+
 You can let other Abelian nodes on the mainnet know your presence through broadcasting your IP address (e.g. 1.2.3.4). This works only if you have a public IP or have some IP forwarding configured at your router:
 
 ```ini
@@ -85,7 +115,7 @@ Set the initial address of your wallet to miningaddr:
 
 ## 3. Run a Full Node - abec
 
-Go to `~/abel/abec-linux-amd64-v1.0.0/` and run a full node (`abec`):
+Go to `~/abel/abec-linux-amd64-v2.0.1/` and run a full node (`abec`):
 
 ::: code-group
 ```shell [Windows]

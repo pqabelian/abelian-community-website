@@ -264,8 +264,9 @@ v2.0.0 特点：
 2. 添加 300000、340000、360000 高度的检查点
 
 **了解更多详情，请查看以下链接：**
-- https://pqabelian.medium.com/abelian-network-hard-fork-introducing-multi-level-privacy-and-user-token-protocol-at-block-height-add96dacdcce
-- https://community.pqabelian.io/guide/get-started.html
+- https://www.pqabelian.io/blog/abelian-network-hard-fork-introducing-multi-level-privacy-and-user-token-protocol-at-block-height-300-000
+- https://community.pqabelian.io/guide/get-started
+- https://community.pqabelian.io/guide/cli-full-node
 :::
 
 ---

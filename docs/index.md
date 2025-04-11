@@ -23,7 +23,7 @@ hero:
       link: https://github.com/pqabelian/abelian-community/issues/new
     - theme: alt
       text: News
-      link: https://pqabelian.medium.com/
+      link: https://www.pqabelian.io/articles
 
 features:
   - title: Documents Correction/Submission

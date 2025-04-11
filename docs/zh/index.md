@@ -22,8 +22,8 @@ hero:
       text: 提问/纠错
       link: https://github.com/pqabelian/abelian-community/issues/new
     - theme: alt
-      text: 新闻动态
-      link: https://pqabelian.medium.com/
+      text: 新闻
+      link: https://www.pqabelian.io/articles
 
 features:
   - title: 社区文档纠错/投稿
