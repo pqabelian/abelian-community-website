@@ -37,8 +37,22 @@ outline: deep
 ## Abelian 桌面钱包专业版 (MLP)
 `abelian-desktop-wallet-pro`
 
+- **2025-04-23-v1.0.3**
+
+  - 交易确认更快，一旦交易输出可用，就会被标记为可支配。
+  - 优化可支配金额显示，在发送页面，输入框会精确显示可用金额，以便最大化后续转账，并新增“最大”按钮，在转账给一个收款人时可以自动计算并扣除交易费用。
+  - 使用体验更友好直观，增加了更多提示信息。
+
+  [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v1.0.3.zip) | 
+  [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v1.0.3.zip) | 
+  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v1.0.3.zip) | 
+  [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v1.0.3.zip) | 
+  [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v1.0.3.zip)
+
 - **2025-03-02-v1.0.2**
 
+  - 仅更新专用应用图标。
+  
   [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v1.0.2.zip) | 
   [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v1.0.2.zip) | 
   [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v1.0.2.zip) | 
@@ -46,6 +60,15 @@ outline: deep
   [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v1.0.2.zip)
 
 - **2025-01-04-v1.0.1**
+
+  - 支持多层隐私：<br>
+    **a.** 完全私密地址：您的交易是加密且不可追踪的，钱包中的余额保持隐藏，确保最大程度的安全性和匿名性。<br>
+    **b.** 匿名地址：隐私级别与比特币相当，即公开可见的币值和可追踪的交易，同时享受更低的手续费和更高的吞吐量。
+  - 支持多个接收者：<br>
+    **a.** 完全私密接收者：允许最多5个接收者，确保安全和私人交易。<br>
+    **b.** 匿名接收者：允许最多100个接收者，其中最多50个为独特接收者，为较大规模交易提供灵活性。
+  - 速度和存储显著提升：旧版原始桌面钱包Legacy需要用户花费数百小时甚至几天时间来同步整个 Abelian 区块链，并占用超过 100GB 存储空间。而这个全新的桌面钱包专业版（MLP）v1.0.0 仅需45分钟或更少时间（取决于网络速度和带宽）即可完成一次性同步，占用不到100MB存储空间。
+  - 引入了 Memo 概念，使用户可以在后量子、不可变的 Abelian 账本上写消息。在 Abelian 上，我们首次可以将个人笔记永久写入账本。
 
   [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v1.0.1.zip) | 
   [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v1.0.1.zip) | 

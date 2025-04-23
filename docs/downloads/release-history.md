@@ -37,7 +37,21 @@ We provide the packages of previous versions mainly for archive purposes. Please
 ## Abelian Desktop Wallet Pro (MLP)
 `abelian-desktop-wallet-pro`
 
+- **2025-04-23-v1.0.3**
+
+  - Faster transaction confirmations: Outputs are marked as spendable once available.
+  - Optimized display of spendable amounts: The input field on the send page accurately shows available amounts to maximize subsequent transfers, with a new "MAX" button that automatically calculates and deducts transaction fees for a single recipient.
+  - More user-friendly experience: Added additional informative tips.
+
+  [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v1.0.3.zip) | 
+  [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v1.0.3.zip) | 
+  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v1.0.3.zip) | 
+  [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v1.0.3.zip) | 
+  [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v1.0.3.zip)
+
 - **2025-03-02-v1.0.2**
+
+  - Only updates dedicated app icons.
 
   [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v1.0.2.zip) | 
   [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v1.0.2.zip) | 
@@ -46,6 +60,15 @@ We provide the packages of previous versions mainly for archive purposes. Please
   [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v1.0.2.zip)
 
 - **2025-01-04-v1.0.1**
+
+  - Support for multi-layer privacy:<br>
+    **a.** Fully-Private Address: Your transactions are encrypted and untraceable, and balances in your wallets remain hidden, ensuring maximum security and anonymity.<br>
+    **b.** Pseudonymous Address: The privacy level is comparable to that of Bitcoin, namely, publicly visible coin values and traceable transactions, while benefiting from much lower gas fees and much increased throughput.
+  - Support for multiple recipients:<br>
+    **a.** Fully-Private Recipient: Allows up to 5 recipients, ensuring secure and private transactions.<br>
+    **b.** Pseudo-Private Recipient: Allows up to 100 recipients with a maximum of 50 unique recipients, providing flexibility for larger transactions.
+  - Significant improvement in both speed and storage: the old, original Desktop Wallet Legacy requires users to spend hundreds of hours and even days to sync up the entire Abelian block-chain when running the desktop application for the first time. It also takes over 100GB of storage space. This brand new Desktop Wallet Pro (MLP) v1.0.0 takes only 45 minutes or less (depending on your network speed and bandwidth) to complete the one-time synchronization and less than 100MB of storage.
+  - Introduced the concept Memo, which allows users to write messages onto the post-quantum and immutable Abelian ledger. For the first time on Abelian, we can now write our personal notes onto the ledger permanently.
 
   [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v1.0.1.zip) | 
   [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v1.0.1.zip) | 
