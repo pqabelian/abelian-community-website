@@ -74,7 +74,7 @@ curl --location 'https://pool-fiona.abelian.info/v1/pool/signin' \
 ### <Badge type="warning" text="QUESTION" /> Unable to log in to the original Abelian Foundation pool (pool.abelian.info)?
 
 ::: info <Badge type="tip" text="ANSWER" />
-The original Abelian Foundation mining pool (pool.abelian.info) has currently stopped providing services, but the website is still accessible, and the URL has changed to: https://legacy.maxpool.org/home. It is strongly recommended to migrate to the [Maxpool mining pool](https://maxpool.org/)!!!
+The original Abelian Foundation mining pool (pool.abelian.info) has currently stopped providing services, but the website is still accessible, and the URL has changed to: [https://legacy.maxpool.org/home](https://legacy.maxpool.org/home). It is strongly recommended to migrate to the [Maxpool mining pool](https://maxpool.org/)!!!
 :::
 
 ---

@@ -73,7 +73,7 @@ curl --location 'https://pool-fiona.abelian.info/v1/pool/signin' \
 ### <Badge type="warning" text="QUESTION" /> 原 Abelian 基金会矿池 (pool.abelian.info) 无法登录？
 
 ::: info <Badge type="tip" text="ANSWER" />
-原 Abelian 基金会矿池 (pool.abelian.info) 当前已经停止提供服务，但网站仍然可以访问，网址已经变更为：https://legacy.maxpool.org/home。强烈推荐在硬分叉完成之前迁移到新的 [Maxpool 矿池](https://maxpool.org)！！！
+原 Abelian 基金会矿池 (pool.abelian.info) 当前已经停止提供服务，但网站仍然可以访问，网址已经变更为：[https://legacy.maxpool.org/home](https://legacy.maxpool.org/home)。强烈推荐在硬分叉完成之前迁移到新的 [Maxpool 矿池](https://maxpool.org)！！！
 :::
 
 ---
