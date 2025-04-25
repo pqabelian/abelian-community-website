@@ -147,7 +147,7 @@ Abelian 桌面钱包专业版（MLP）支持多层隐私交易，允许用户根
 ![查看余额并选择转账地址隐私类型](/desktop-wallet/pro/check-balance-select-address-privacy.png)
 
 :::tip 提示
-近期收到的 ABEL 代币将有一个短暂的锁定期，通常为几个小时。在这段时间内，被锁定的金额不会在 Input 部分的可用转账余额③中，直到这些代币解锁后才能使用。
+近期收到的 ABEL 代币将有一个短暂的锁定期，通常需要等待增长20个区块高度。在这段时间内，被锁定的金额不会在 Input 部分的可用转账余额③中，直到这些代币解锁后才能使用。
 :::
 
 6. 在 “**UTXO Change（选择转账地址类型）**”④ 中，选择需要转账的隐私类型。接着，在 “**Master Password（主密码）**”⑤ 栏输入解锁桌面钱包专业版的密码，点击 “**PREVIEW（预览）**”⑥ 按钮查看此次交易的详情。
@@ -207,6 +207,8 @@ Abelian 桌面钱包专业版（MLP）支持多层隐私交易，允许用户根
 
 详细操作，请参阅 [Abelian 桌面钱包经典版 (Legacy) 用户手册中的迁移步骤](/zh/guide/wallet/desktop-wallet-legacy#迁移-abel-经典钱包至多层隐私钱包账户)。
 
-:::tip 提示
-Abelian 桌面钱包专业版（MLP）仅兼容最新版本的 Abelian 桌面钱包经典版（Legacy）进行转账和迁移操作。目前，尚未支持 Abelian 桌面钱包经典版（Legacy）4.1.1 或 Abelian Pro 移动钱包的转账功能！
+:::warning 注意：
+Abelian 桌面钱包专业版（MLP）目前已支持与最新版本的 Abelian 桌面钱包经典版（Legacy）互相转账！
+
+最新版本的移动钱包 Abelian Pro 已支持导入 Abelian 桌面钱包专业版（MLP）账户的助记词，实现跨平台无缝使用！
 :::

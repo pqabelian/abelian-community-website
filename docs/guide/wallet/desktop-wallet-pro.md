@@ -150,7 +150,7 @@ Abelian Desktop Wallet Pro (MLP) offers multi-layer privacy transactions, empowe
 ![View balance and select transfer address privacy type](/desktop-wallet/pro/check-balance-select-address-privacy.png)
 
 :::tip
-Newly acquired ABEL tokens are subject to a temporary lock-in period of a few hours. These locked amounts will not appear in the spendable balance③ in the **Input** section.
+Newly acquired ABEL tokens will have a short locking period, usually waiting for 20 block heights. These locked amounts will not appear in the spendable balance③ in the **Input** section.
 :::
 
 6. In the "**UTXO Change**"④ section, select the privacy type for the transfer address. Enter the "**Master Password**"⑤ to unlock the desktop wallet Pro, then click the "**PREVIEW**"⑥ button to view the transaction details.
@@ -217,6 +217,8 @@ If you are still using Abelian Desktop Wallet Legacy, you can migrate your legac
 
 For detailed migration instructions, please refer to the [Migration Steps in the Desktop Wallet Legacy User Manual](/guide/wallet/desktop-wallet-legacy#migration-from-legacy-wallet).
 
-:::tip
-The Abelian Desktop Wallet Pro (MLP) is only compatible with the new version of the Abelian Desktop Wallet Legacy Edition for transfers and migrations. Currently, it does not support transfers using the Abelian Desktop Wallet Legacy Edition 4.1.1 or the Abelian Pro Mobile Wallet!
+:::warning Important!
+The Abelian Desktop Wallet Pro (MLP) now supports transfers with the latest version of the Abelian Desktop Wallet (Legacy)!
+
+The latest version of the mobile wallet - Abelian Pro, has also added support for importing the mnemonic phrase of the Abelian Desktop Wallet Pro (MLP) account, enabling seamless cross-platform usage!
 :::

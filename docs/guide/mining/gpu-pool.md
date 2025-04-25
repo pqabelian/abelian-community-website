@@ -36,10 +36,8 @@ The easiest way is to download [Abelian Pro](/downloads/latest#abelian-pro-mobil
 ## Join the Official Mining Pool
 
 - Visit the official Maxpool mining pool and read the [Quick Start Guide](https://maxpool.org/home/guide).
-
-- The original Abelian Foundation mining pool (pool.abelian.info) is still accessible, but its URL has changed to: [https://legacy.maxpool.org/home](https://legacy.maxpool.org/home). Existing miners are advised to use this URL. It is strongly recommended to migrate to the new Maxpool mining pool before the hard fork is complete.
-
 - The Maxpool mining pool requires an updated client, [Abelian GPU Mining Client v2.0.3](/downloads/latest#abelian-gpu-mining-pool-client).
+- The original [Abelian Foundation Pool](https://legacy.maxpool.org/home) has ceased operations. Please migrate to the official new [Maxpool Pool](https://maxpool.org/) for all miners.
 
 ## Run the GPU Mining Program - abelminer
 
