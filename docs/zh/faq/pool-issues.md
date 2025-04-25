@@ -6,6 +6,16 @@ outline: deep
 
 ## Abelian 官方矿池常见问题解答
 
+### <Badge type="warning" text="QUESTION" /> Maxpool 矿池支持 MLP 地址吗？
+
+::: info <Badge type="tip" text="ANSWER" />
+Maxpool 网站后端已经增加了对多层隐私（MLP）钱包地址的支持，现在矿工可以将 MLP 钱包的全隐私地址或伪隐私地址作为自己的挖矿收益地址。
+
+提示：在更换收益钱包地址后，请确保挖矿客户端的命令也替换为相应的参数。
+:::
+
+---
+
 ### <Badge type="warning" text="QUESTION" /> 无法打开矿池网站控制台？
 
 ::: info <Badge type="tip" text="ANSWER" />

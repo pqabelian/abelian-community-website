@@ -6,6 +6,16 @@ outline: deep
 
 ## Abelian Official Pool Issues
 
+### <Badge type="warning" text="QUESTION" /> Does Maxpool support MLP addresses?
+
+::: info <Badge type="tip" text="ANSWER" />
+Maxpool now supports Multi-Layer Privacy (MLP) wallet addresses. Miners can use either the full-privacy or pseudo-privacy address as their payout address.
+
+Note: After changing the payout address, update the mining client command accordingly.
+:::
+
+---
+
 ### <Badge type="warning" text="QUESTION" /> The official pool website is unable to load the dashboard.
 
 ::: info <Badge type="tip" text="ANSWER" />
