@@ -28,8 +28,8 @@ export default defineConfig({
               { text: 'Abelian Applications', link: '/downloads/latest' },
               { text: 'Abelian Release History', link: '/downloads/release-history' },
               { text: 'Abelian Source Codes', link: 'https://github.com/pqabelian' },
-              { text: 'Mainet Dababase', link: '/downloads/mainnet-db' },
-              { text: 'Ecosystem Tools', link: '/downloads/ecosystem-tools' }
+              { text: 'Abelian Fullnode Dababase', link: '/downloads/fullnode-db' },
+              { text: 'Abelian Ecosystem Tools', link: '/downloads/ecosystem-tools' }
             ]
           },
           {
@@ -146,8 +146,8 @@ export default defineConfig({
                 { text: 'Abelian Applications', link: '/downloads/latest' },
                 { text: 'Abelian Release History', link: '/downloads/release-history' },
                 { text: 'Abelian Source Codes', link: 'https://github.com/pqabelian' },
-                { text: 'Mainnet Database', link: '/downloads/mainnet-db'},
-                { text: 'Ecosystem Tools', link: '/downloads/ecosystem-tools' }
+                { text: 'Abelian Fullnode Database', link: '/downloads/fullnode-db'},
+                { text: 'Abelian Ecosystem Tools', link: '/downloads/ecosystem-tools' }
               ]
             }
           ]
@@ -182,7 +182,7 @@ export default defineConfig({
               { text: 'Abelian 应用程序', link: '/zh/downloads/latest' },
               { text: 'Abelian 应用历史版本', link: '/zh/downloads/release-history' },
               { text: 'Abelian 开源代码', link: 'https://github.com/pqabelian' },
-              { text: 'Abelian 主网数据', link: '/zh/downloads/mainnet-db' },
+              { text: 'Abelian 全节点数据', link: '/zh/downloads/fullnode-db' },
               { text: 'Abelian 生态工具', link: '/zh/downloads/ecosystem-tools' }
             ]
           },
@@ -301,8 +301,8 @@ export default defineConfig({
                 { text: 'Abelian 应用程序', link: '/zh/downloads/latest' },
                 { text: 'Abelian 应用历史版本', link: '/zh/downloads/release-history' },
                 { text: 'Abelian 开源代码', link: 'https://github.com/pqabelian' },
-                { text: '主网数据', link: '/zh/downloads/mainnet-db'},
-                { text: '生态工具', link: '/zh/downloads/ecosystem-tools' }
+                { text: 'Abelian 全节点数据', link: '/zh/downloads/fullnode-db'},
+                { text: 'Abelian 生态工具', link: '/zh/downloads/ecosystem-tools' }
               ]
             }
           ]
