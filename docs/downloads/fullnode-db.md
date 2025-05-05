@@ -88,7 +88,7 @@ Developers or individual Solo mining users of Abelian need to download the Abec 
 ```
 :::
 
-#### （Testnet）
+#### (Testnet)
 
 ::: code-group
 
