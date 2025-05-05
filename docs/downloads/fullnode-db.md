@@ -45,7 +45,7 @@ Starting from version 4.2.0 of the Abelian Desktop Wallet Classic (Legacy), the 
 > 
 > Block height: 386062
 > 
-> Upload date: May 2, 2024
+> Upload date: May 2, 2025
 
 ### Extracting the Data Package
 
@@ -117,7 +117,7 @@ Developers or individual Solo mining users of Abelian need to download the Abec 
 > 
 > Block height: 385752
 > 
-> Upload date: April 8, 2025
+> Upload date: April 29, 2025
 
 #### (Testnet)
 
