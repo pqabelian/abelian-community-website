@@ -50,21 +50,20 @@ Starting from version 4.2.0 of the Abelian Desktop Wallet Classic (Legacy), the 
 ### Extracting the Data Package
 
 - Desktop Wallet for Windows
-  1. Close and exit the Windows Desktop Wallet.
-  2. Use extraction software to open the mainnet.zip file and extract the mainnet directory to the **default location**.
-  3. Restart the Windows Desktop Wallet and click sync (sync Mainnet).
+  1. Close and exit the Desktop Wallet Legacy 4.1.1 for Windows.
+  2. Use extraction software to open the mainnet.zip file and extract the mainnet directory to the [Default Location](#default-data-directory-location).
+  3. Restart the Desktop Wallet and click sync (sync Mainnet), Start synchronization and ensure it reaches 100% (latest block height).
 
 - Desktop Wallet for macOS
-  1. Close and exit the macOS Desktop Wallet.
+  1. Close and exit the Desktop Wallet Legacy 4.1.1 for macOS.
   2. Double-click the mainnet.zip file to automatically extract it.
-  3. Move the extracted mainnet directory to the **default location**.
-  4. Restart the macOS Desktop Wallet and click sync (sync Mainnet).
+  3. Move the extracted mainnet directory to the [Default Location](#default-data-directory-location).
+  4. Restart the Desktop Wallet and click sync (sync Mainnet), Start synchronization and ensure it reaches 100% (latest block height).
 
 - Desktop Wallet for Linux
-  1. Close and exit the macOS Desktop Wallet.
-  2. Double-click the mainnet.zip file to automatically extract it.
-  3. Move the extracted mainnet directory to the **default location**.
-  4. Restart the macOS Desktop Wallet and click sync (sync Mainnet).
+  1. Close and exit the Desktop Wallet Legacy 4.1.1 for Linux.
+  2. Use extraction software to open the mainnet.zip file and extract the mainnet directory to the [Default Location](#default-data-directory-location).
+  3. Restart the Desktop Wallet and click sync (sync Mainnet), Start synchronization and ensure it reaches 100% (latest block height).
 
 ## Normal-Full Node
 
@@ -136,19 +135,19 @@ Developers or individual Solo mining users of Abelian need to download the Abec 
 #### Windows Full Node
 
 1. Stop the full node process `start_abec.bat`.
-2. Extract the downloaded mainnet.zip or testnet.zip to the **default location**.
-3. Restart the full node.
+2. Extract the downloaded mainnet.zip or testnet.zip to the  [Default Location](#default-data-directory-location-1).
+3. Restart the full node, And ensure synchronization to the latest block height.
 
 #### macOS Full Node
 
 1. Stop the full node process `start_abec.sh`.
 2. Double-click the downloaded mainnet.zip or testnet.zip to extract it.
-3. Move the extracted mainnet or testnet directory to the **default location**.
-4. Restart the full node.
+3. Move the extracted mainnet or testnet directory to the  [Default Location](#default-data-directory-location-1).
+4. Restart the full node, And ensure synchronization to the latest block height.
 
 #### Linux Full Node
 
-1. Stop the full node process `abec` or `abectl`.
+1. Stop the full node process `start_abec.sh`.
 2. Execute the extraction command for the downloaded mainnet.zip or testnet.zip:
 
 ```bash
@@ -160,7 +159,7 @@ $ unzip mainnet.zip
 $ unzip testnet.zip
 ```
 
-3. Move the extracted mainnet or testnet directory to the **default location**:
+3. Move the extracted mainnet or testnet directory to the  [Default Location](#default-data-directory-location-1):
 ```bash
 # Move the mainnet data directory to ~/.abec/data/:
 $ mv -f mainnet ~/.abec/data/
@@ -168,7 +167,7 @@ $ mv -f mainnet ~/.abec/data/
 $ mv -f testnet ~/.abec/data/
 ```
 
-4. Restart the full node.
+4. Restart the full node, And ensure synchronization to the latest block height.
 
 ## Precautions
 

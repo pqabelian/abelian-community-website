@@ -50,21 +50,21 @@ Abelian 桌面钱包经典版（Legacy） 4.2.0 版本开始已经不使用 Abec
 ### 解压缩数据包
 
 - Windows 桌面钱包
-  1. 关闭并退出 Windows 桌面钱包；
-  2. 使用解压缩软件打开 mainnet.zip 文件，解压缩 mainnet 目录覆盖至**默认位置**；
-  3. 重新运行 Windows 桌面钱包，点击同步（sync Mainnet）。
+  1. 关闭并退出 Windows 桌面钱包（Legacy）v4.1.1；
+  2. 使用解压缩软件打开 mainnet.zip 文件，解压缩 mainnet 目录覆盖至 [数据默认位置](#数据目录默认位置)
+  3. 重新运行桌面钱包，点击同步（sync Mainnet），并确保同步完成 100%（到最新高度）
 
 - macOS 桌面钱包
-  1. 关闭并退出 MacOS 桌面钱包；
+  1. 关闭并退出 MacOS 桌面钱包（Legacy）v4.1.1；
   2. 双击 mainnet.zip 文件，系统自动执行解压缩；
-  3. 移动解压缩得到的 mainnet 目录并覆盖至**默认位置**；
-  4. 重新运行 macOS 桌面钱包，点击同步（sync Mainnet）。
+  3. 移动解压缩得到的 mainnet 目录并覆盖至 [数据默认位置](#数据目录默认位置)
+  4. 重新运行桌面钱包，点击同步（sync Mainnet），并确保同步完成 100%（到最新高度）
 
 - Linux 桌面钱包
-  1. 关闭并退出 MacOS 桌面钱包；
+  1. 关闭并退出 Linux 桌面钱包（Legacy）v4.1.1；
   2. 双击 mainnet.zip 文件，系统自动执行解压缩；
-  3. 移动解压缩得到的 mainnet 目录并覆盖至**默认位置**；
-  4. 重新运行 macOS 桌面钱包，点击同步（sync Mainnet）。
+  3. 移动解压缩得到的 mainnet 目录并覆盖至 [数据默认位置](#数据目录默认位置)
+  4. 重新运行桌面钱包，点击同步（sync Mainnet），并确保同步完成 100%（到最新高度）
 
 ## Normal-Full Node
 
@@ -136,14 +136,14 @@ Abelian 开发者或个人 Solo 挖矿的用户需要下载 Abec Mainnet/Testnet
 #### Windows 全节点
 
 1. 停止全节点进程 `start_abec.bat`
-2. 将下载的 mainnet.zip 或 testnet.zip 解压缩至**默认位置**；
+2. 将下载的 mainnet.zip 或 testnet.zip 解压缩至 [数据默认位置](#数据目录默认位置-1)
 3. 重新运行全节点
 
 #### MacOS 全节点
 
 1. 停止全节点进程 `start_abec.sh`
-2. 将下载的 mainnet.zip 或 testnet.zip 双击执行解压缩；
-3. 移动解压缩得到的 mainnet 或 testnet 目录并覆盖至**默认位置**；
+2. 将下载的 mainnet.zip 或 testnet.zip 双击执行解压缩
+3. 移动解压缩得到的 mainnet 或 testnet 目录并覆盖至 [数据默认位置](#数据目录默认位置-1)
 4. 重新运行全节点
 
 #### Linux 全节点
@@ -157,7 +157,7 @@ $ unzip mainnet.zip
 # 或 解压缩测试网压缩包
 $ unzip tentnet.zip
 ```
-3. 移动解压缩得到的 mainnet 或 testnet 目录并覆盖至**默认位置**
+3. 移动解压缩得到的 mainnet 或 testnet 目录并覆盖至 [数据默认位置](#数据目录默认位置-1) 
 ```bash
 # 将主网数据目录移动到 ~/.abec/data/ 下
 $ mv -f mainnet ~/.abec/data/
