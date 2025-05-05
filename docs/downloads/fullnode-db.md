@@ -151,8 +151,8 @@ Developers or individual Solo mining users of Abelian need to download the Abec 
 1. Stop the full node process `abec` or `abectl`.
 2. Execute the extraction command for the downloaded mainnet.zip or testnet.zip:
 
-# For Ubuntu or Debian, install the unzip package
 ```bash
+# For Ubuntu or Debian, install the unzip package
 $ apt install unzip
 # Extract the mainnet zip file
 $ unzip mainnet.zip
