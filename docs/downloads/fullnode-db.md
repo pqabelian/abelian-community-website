@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-# Abelian Mainnet Database
+# Abelian Full Node Database
 
 ## Description of Abelian Full Node Database
 
