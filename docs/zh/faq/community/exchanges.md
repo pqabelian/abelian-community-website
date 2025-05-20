@@ -12,7 +12,6 @@ outline: deep
 
 - [**MEXC Global**](https://www.mexc.com/zh-MY/exchange/ABEL_USDT)：支持 ABEL/USDT 交易对。
 - [**BitMart**](https://www.bitmart.com/trade/zh-CN?symbol=ABEL_USDT)：提供 ABEL/USDT 交易对。
-- [**DigiFinex**](https://www.digifinex.com/en-ww/trade/USDT/ABEL)：自 2023 年 1 月起支持 ABEL/USDT 交易对。
 - [**XT.COM**](https://www.xt.com/en/trade/abel_usdt)：提供 ABEL/USDT 交易对。
 
 :::

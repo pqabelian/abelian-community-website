@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-## Exchange Issues
+## Exchanges Issues
 
 ### <Badge type="warning" text="QUESTION" /> where is ABEL listed?
 
@@ -12,7 +12,6 @@ As of now, ABEL (Abelian) is listed on the following cryptocurrency exchanges:
 
 - [**MEXC Global**](https://www.mexc.com/zh-MY/exchange/ABEL_USDT): Supports the ABEL/USDT trading pair.
 - [**BitMart**](https://www.bitmart.com/trade/zh-CN?symbol=ABEL_USDT): Offers the ABEL/USDT trading pair.
-- [**DigiFinex**](https://www.digifinex.com/en-ww/trade/USDT/ABEL): Has supported the ABEL/USDT trading pair since January 2023.
 - [**XT.COM**](https://www.xt.com/en/trade/abel_usdt): Provides the ABEL/USDT trading pair.
 
 :::
