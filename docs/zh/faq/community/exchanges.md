@@ -16,6 +16,13 @@ outline: deep
 
 :::
 
+参考链接：
+  - [MEXC 现在支持提取到 Abelian 的 MLP 地址](https://www.pqabelian.io/blog/mexc-now-supports-withdrawals-to-abelians-mlp-addresses)
+  - [量子抗性与全球覆盖：Abelian 与 BitMart 合作](https://www.pqabelian.io/blog/quantum-resistant-meets-global-reach-abelian-partners-with-bitmart)
+  - [XT.COM 关于推出 ABEL（Abelian基金会）的公告](https://xtsupport.zendesk.com/hc/en-us/articles/25221298531865-XT-COM-Announcement-on-Launching-ABEL-Abelian-Foundation)
+  - 非小号 - [XT.COM 關於上線 ABEL（Abelian Foundation）交易的公告](https://www.feixiaohao.com/exchange/notice/11697520)
+  - 非小号 - [Abelian上所前夜，创始人详解项目愿景、技术、产品和生态](https://www.feixiaohao.com/news/11472628.html)
+
 ---
 
 ### <Badge type="warning" text="QUESTION" /> ABEL 是否登可在 CMC 和 Coingecko 中查询价格？
