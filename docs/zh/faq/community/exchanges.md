@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-## Exchange Issues
+## 交易所相关问题
 
 ### <Badge type="warning" text="QUESTION" /> ABEL 在哪里上市？
 
