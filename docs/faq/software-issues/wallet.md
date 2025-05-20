@@ -201,6 +201,5 @@ Steps to get the long address in the desktop wallet:
 ### <Badge type="warning" text="QUESTION" /> What is the difference between wallet Legacy and MLP address formats?
 
 ::: info <Badge type="tip" text="ANSWER" />
-The key difference between Legacy and MLP wallet long addresses is the number of characters. The short address is composed of the address prefix + address privacy type + HASH of the long address. The combination of the prefix and privacy type allows for an intuitive distinction. See the table below for details:
+The key difference between Legacy and MLP wallet long addresses is the number of characters. The short address is composed of the address prefix + address privacy type + HASH of the long address. The combination of the prefix and privacy type allows for an intuitive distinction. For detailed documentation, please check [this link](/guide/abel-address-format).
 :::
-![wallet address format](/excel/address-format-differences.png)

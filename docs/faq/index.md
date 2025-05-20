@@ -8,3 +8,4 @@
     - [AMD graphics card](/faq/hardware-issues/amd)
     - [NVIDIA graphics card](/faq/hardware-issues/nvidia)
 - [**Pool Issues**](/faq/pool-issues)
+- [**Exchanges**](/faq/community/exchanges)

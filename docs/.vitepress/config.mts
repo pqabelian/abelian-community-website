@@ -116,7 +116,8 @@ export default defineConfig({
                     { text: 'NVIDIA graphics card', link: '/faq/hardware-issues/nvidia'}
                   ]
                 },
-                { text: 'Pool Issues', link: '/faq/pool-issues' }
+                { text: 'Pool Issues', link: '/faq/pool-issues' },
+                { text: 'Exchanges Issues', link: '/faq/community/exchanges' }
               ]
             }
           ],
@@ -271,7 +272,7 @@ export default defineConfig({
                   ]
                 },
                 { text: '矿池问题', link: '/zh/faq/pool-issues' },
-                { text: '基础教程', link: '/zh/faq/basic-tutorial/' }
+                { text: '交易所问题', link: '/zh//faq/community/exchanges' }
               ]
             }
           ],

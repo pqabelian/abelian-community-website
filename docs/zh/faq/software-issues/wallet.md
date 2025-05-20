@@ -199,6 +199,5 @@ C:\Users\<USERNAME>\AppData\Roaming\Abelian Wallet\dist
 ### <Badge type="warning" text="QUESTION" /> 经典和MLP钱包地址的格式有何区别？
 
 ::: info <Badge type="tip" text="ANSWER" />
-经典（Legacy）和多层隐私（MLP）钱包的长地址主要区别为占用字符数不同，而短地址是由地址前缀+地址隐私类型+长地址 HASH 组成，通过前缀+隐私类型就能直观的做出区别，具体请参考下面的表格：
+经典（Legacy）和多层隐私（MLP）钱包的长地址主要区别为占用字符数不同，而短地址是由地址前缀+地址隐私类型+长地址 HASH 组成，通过前缀+隐私类型就能直观的做出区别，详细文档请查看[此链接](/zh/guide/abel-address-format)。
 :::
-![钱包地址格式](/excel/address-format-differences-zh.png)
