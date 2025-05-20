@@ -28,3 +28,23 @@ outline: deep
 - CoinGecko link: https://www.coingecko.com/en/coins/abelian
 
 :::
+
+---
+
+### <Badge type="warning" text="QUESTION" /> 哪些交易所已经支持 MLP 钱包地址？
+
+::: info <Badge type="tip" text="ANSWER" />
+
+目前 MEXC Global、BitMart、XT.COM 都已经支持 MLP 钱包地址的交易。
+
+:::
+
+---
+
+### <Badge type="warning" text="QUESTION" /> 哪些交易所已经支持 MLP 钱包地址？
+
+::: info <Badge type="tip" text="ANSWER" />
+
+目前 MEXC Global、BitMart、XT.COM 都已经支持多层隐私（MLP）钱包地址的交易。
+
+:::

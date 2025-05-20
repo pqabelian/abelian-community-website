@@ -28,3 +28,13 @@ Yes, ABEL Finance (ticker: ABEL) is listed on both CoinMarketCap and CoinGecko.
 - CoinGecko link: https://www.coingecko.com/en/coins/abelian
 
 :::
+
+---
+
+### <Badge type="warning" text="QUESTION" /> Which exchanges support MLP wallet addresses?
+
+::: info <Badge type="tip" text="ANSWER" />
+
+Currently, MEXC Global, BitMart, and XT.COM support trading with Multi-Layer Privacy (MLP) wallet addresses.
+
+:::
