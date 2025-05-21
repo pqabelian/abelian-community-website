@@ -7,11 +7,14 @@ export default defineConfig({
   lastUpdated: true,
 
   head: [
-    ['link', { rel: "icon", href: "/favicon.ico"}]
+    ['link', { rel: "icon", href: "/favicon.ico"}],
+    ['script', {
+      src: 'https://hako.pqabelian.io/api/application/embed?protocol=https&host=hako.pqabelian.io&token=632bf3ead0ebfee2'
+    }]
   ],
   
   locales: {
-    root: {
+    root: {Integrated Hako Testing
       label: 'English',
       lang: 'en',
       title: "Abelian-Community-FAQ",
