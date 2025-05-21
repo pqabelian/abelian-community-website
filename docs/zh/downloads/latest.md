@@ -164,7 +164,7 @@ outline: deep
     <span>下载我们最新的移动钱包</span>
   </div>
   <div class="btn-wrapper">
-    <a href="https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v2.0.0.apk" class="btn-apk">APK</a>
+    <a href="https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v2.1.0.apk" class="btn-apk">APK</a>
     <a href="https://play.google.com/store/apps/details?id=info.abelian.walletpro" class="btn-base btn-android"></a>
     <a href="https://apps.apple.com/us/app/abelian-pro/id6475756639" class="btn-base btn-ios"></a>
   </div>
@@ -173,7 +173,12 @@ outline: deep
 ::: info 特点介绍
 新的移动钱包是对之前移动钱包的全面重写，旨在更加用户友好和功能丰富。它可在 iOS 和 Android 平台上使用。
 
-v2.0.0 特点：
+**v2.1.0 升级说明:**
+
+1. 在转账发送界面添加了预计发送时间；
+2. 修复了一些错误。
+
+**v2.0.0 特点：**
 
 1. 同时支持钱包账户 Legacy 地址和新的 MLP 地址，MLP（多层隐私）账户的优势参考 [桌面钱包专业版 - 发布说明](/zh/downloads/latest#abelian-桌面钱包专业版-mlp)；
 2. 推荐升级到新版后创建新的钱包账户（MLP 地址），并在创建新的 MLP 钱包账户后，将所有旧账户的余额 ABEL 币从转账至 MLP 钱包账户；
