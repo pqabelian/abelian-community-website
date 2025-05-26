@@ -9,8 +9,8 @@ export default defineConfig({
   head: [
     ['link', { rel: "icon", href: "/favicon.ico"}],
     ['script', {
-      async: true,
-      defer: true,
+      async: 'true',
+      defer: 'true',
       src: 'https://hako.pqabelian.io/api/application/embed?protocol=https&host=hako.pqabelian.io&token=632bf3ead0ebfee2'
     }]
   ],

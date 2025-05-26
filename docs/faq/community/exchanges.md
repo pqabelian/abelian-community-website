@@ -29,7 +29,7 @@ Reference link:
 
 ::: info <Badge type="tip" text="ANSWER" />
 
-Yes, ABEL Finance (ticker: ABEL) is listed on both CoinMarketCap and CoinGecko.
+Yes, Abelian (ticker: ABEL) is listed on both CoinMarketCap and CoinGecko.
 
 - CoinMarketCap link: https://coinmarketcap.com/currencies/abelian/
 - CoinGecko link: https://www.coingecko.com/en/coins/abelian
