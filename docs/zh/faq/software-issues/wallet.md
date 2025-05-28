@@ -134,7 +134,7 @@ C:\Users\<USERNAME>\AppData\Roaming\Abelian Wallet\dist
 
 ---
 
-## 桌面钱包专业版（MLP）
+## 桌面钱包专业版（MLP）问题
 
 ### <Badge type="warning" text="QUESTION" /> 桌面钱包专业版生成的钱包地址支持 Maxpool 挖矿吗？
 
@@ -153,9 +153,9 @@ C:\Users\<USERNAME>\AppData\Roaming\Abelian Wallet\dist
 
 ---
 
-## 移动钱包（Pro）
+## 移动/手机钱包 Abelian Pro 问题
 
-### <Badge type="warning" text="QUESTION" /> 移动钱包 Pro 通过助记词导入账户后余额为零或者余额数字不对
+### <Badge type="warning" text="QUESTION" /> Abelian Pro 通过助记词导入账户后余额为零或者余额数字不对
 
 ::: info <Badge type="tip" text="ANSWER" />
 因为移动钱包 Pro 版本默认导入的钱包地址数量为 5 个，但是桌面钱包可能已经产生了多笔交易，地址数量已经超过了5个。
@@ -165,7 +165,7 @@ C:\Users\<USERNAME>\AppData\Roaming\Abelian Wallet\dist
 
 ---
 
-### <Badge type="warning" text="QUESTION" /> 移动钱包 Pro 更新后底部导航栏消失，切换钱包帐号的列表是空的
+### <Badge type="warning" text="QUESTION" /> Abelian Pro 更新后底部导航栏消失，切换钱包帐号的列表是空的
 
 ::: info <Badge type="tip" text="ANSWER" />
 此问题发生在 v1.0.5 版本，如果此后的版本仍有此问题，可以参考下面的解决方法。
@@ -196,8 +196,33 @@ C:\Users\<USERNAME>\AppData\Roaming\Abelian Wallet\dist
 4. 点击 **...** 之后的 **书页** 图标，在下拉菜单中选择已有的钱包地址，下面一行 **Adress:** 后面以 **00000000** 开头的这串字符就是长地址。
 :::
 
+---
+
 ### <Badge type="warning" text="QUESTION" /> 经典和MLP钱包地址的格式有何区别？
 
 ::: info <Badge type="tip" text="ANSWER" />
 经典（Legacy）和多层隐私（MLP）钱包的长地址主要区别为占用字符数不同，而短地址是由地址前缀+地址隐私类型+长地址 HASH 组成，通过前缀+隐私类型就能直观的做出区别，详细文档请查看[此链接](/zh/guide/abel-address-format)。
+:::
+
+---
+
+### <Badge type="warning" text="QUESTION" /> 移动钱包 Abelian Pro 相对于桌面钱包 Legacy/Pro 没有的功能有哪些？
+
+::: info <Badge type="tip" text="ANSWER" />
+移动钱包 Abelian Pro 相对与桌面钱包 Legacy/Pro 使用起来更加便捷，随时随地可以使用，无需同步数据，但仍然缺少一些重要的功能，包括如下三点：
+
+1. 完全私密的钱包地址
+   - 桌面钱包经典版仅支持创建 Legacy 地址；
+   - 桌面钱包专业版（MLP）支持创建 Abelian 多层隐私（Pseudo-Private 和 Fully-private）地址，其中 Fully-private 地址具有最高的隐私性，适合注重隐私交易的用户；
+   - 移动钱包 Abelian Pro 移动钱包支持 Pseudo-Private 地址，新版本也将逐渐推荐用户从 Legacy 地址迁移至 MLP 地址。
+
+2. 一键迁移功能
+   - 桌面钱包 Legacy 提供一键迁移功能，可以将账户中所有 ABEL 从 Legacy 账户转移到 MLP 账户，简化了账户管理；
+   - 移动钱包 Abelian Pro 没有一键迁移功能。
+
+3. 高级交易选项
+   - 桌面钱包专业版提供更高级的交易选项和设置，适合需要复杂交易的用户。
+   - 移动钱包 Abelian Pro 的交易选项较为基础，适合日常使用。
+
+这些功能差异使得桌面钱包更适合需要高级功能和更高隐私性的用户，而移动钱包则更适合日常便捷使用。
 :::

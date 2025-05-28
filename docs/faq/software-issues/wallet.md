@@ -150,9 +150,9 @@ We’re working on upgrades with exchanges, and updates will be announced on the
 
 ---
 
-## Mobile Wallet (Pro) Issues
+## Mobile/Phone Wallet (Abelian Pro) Issues
 
-### <Badge type="warning" text="QUESTION" /> Why is the balance zero or why doesn't the balance match after importing an account with a mnemonic phrase in Mobile Wallet Pro?
+### <Badge type="warning" text="QUESTION" /> Why is the balance zero or why doesn't the balance match after importing an account with a mnemonic phrase in Abelian Pro?
 
 ::: info <Badge type="tip" text="ANSWER" />
 Because the default number of wallet addresses imported by Mobile Wallet Pro is 5, the desktop wallet may have already conducted numerous transactions, exceeding this number of addresses.
@@ -162,7 +162,7 @@ Recommended solution: Transfer the balance from the desktop wallet to the mobile
 
 ---
 
-### <Badge type="warning" text="QUESTION" /> After updated Mobile Wallet Pro, the bottom navigation bar is gone and the wallet switch list is empty.
+### <Badge type="warning" text="QUESTION" /> After updated Abelian Pro, the bottom navigation bar is gone and the wallet switch list is empty.
 
 ::: info <Badge type="tip" text="ANSWER" />
 This issue occurs in version v1.0.5. If the problem persists in later versions, you can refer to the following solution.
@@ -202,4 +202,27 @@ Steps to get the long address in the desktop wallet:
 
 ::: info <Badge type="tip" text="ANSWER" />
 The key difference between Legacy and MLP wallet long addresses is the number of characters. The short address is composed of the address prefix + address privacy type + HASH of the long address. The combination of the prefix and privacy type allows for an intuitive distinction. For detailed documentation, please check [this link](/guide/abel-address-format).
+:::
+
+---
+
+### <Badge type="warning" text="QUESTION" /> What Features Are Missing in the Mobile Wallet (Abelian Pro) Compared to the Desktop Wallet Legacy/Pro?
+
+::: info <Badge type="tip" text="ANSWER" />
+The mobile wallet (Abelian Pro) is more convenient for use on the go, allowing access anytime without needing to sync data. However, it lacks some important features compared to the desktop versions, including the following:
+
+1. Fully Private Wallet Addresses
+   - Desktop Wallet Legacy Only supports creating Legacy wallet addresses.
+   - Desktop Wallet Pro (MLP) Supports creating Abelian Multi-Layer Privacy (Pseudo-Private and Fully-Private) addresses. Fully-Private addresses offer the highest level of privacy, ideal for users focused on private transactions.
+   - Mobile wallet (Abelian Pro) Supports Pseudo-Private addresses. New versions will gradually encourage users to migrate from Legacy to MLP addresses.
+
+2. One-Click Migration Function
+   - Desktop Wallet Legacy Offers a one-click migration function to transfer all ABEL from a Legacy account to an MLP account, simplifying account management.
+   - Mobile wallet (Abelian Pro) Does not have a one-click migration feature.
+
+3. Advanced Transaction Options
+   - Desktop Wallet Pro Provides more advanced transaction options and settings, suitable for users needing complex transactions.
+   - Mobile wallet (Abelian Pro) Offers more basic transaction options, suitable for everyday use.
+
+These differences make the desktop wallet more suitable for users requiring advanced features and higher privacy, while the mobile wallet is ideal for convenient daily use.
 :::
