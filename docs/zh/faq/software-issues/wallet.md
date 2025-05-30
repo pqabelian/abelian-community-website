@@ -69,6 +69,18 @@ Failed calling RPC: serviceGroup=abewallet, accountName=brac, networkName=mainne
 
 ---
 
+### <Badge type="warning" text="QUESTION" /> 升级桌面钱包 Legacy 后，出现 “service not ready” 的错误
+
+我有一个旧版本的桌面钱包，但当我升级到 桌面钱包 Legacy v4.2.2 并导入助记词到后，它运行的日志显示错误信息： "service not ready, please ensure the abewallet service is running and synced to the latest height."
+
+::: info <Badge type="tip" text="ANSWER" /> 
+要将桌面钱包 Legacy 从 v4.1.1 或更早版本升级到 v4.2.2，您应首先需要删除旧版桌面钱包的数据目录：`%USERPROFILE%\AppData\Roaming\Abelian Wallet`。
+
+然后再升级到 v4.2.2，在使用助记词导入钱包账户时，请务必查看 [用户手册文档中的注意事项部分](https://community.pqabelian.io/zh/guide/wallet/desktop-wallet-legacy.html#import-abel-wallet-account)。
+:::
+
+---
+
 ## 过期桌面钱包经典版问题
 
 ### <Badge type="warning" text="QUESTION" /> Windows桌面钱包无法启动，日志是：

@@ -88,6 +88,18 @@ C:\Users\<USERNAME>\AppData\Roaming\Abelian Wallet\dist
 
 ---
 
+### <Badge type="warning" text="QUESTION" /> After upgrading the Desktop Wallet Legacy, the error "service not ready" occurs.
+
+I have an old version of the desktop wallet, but after I upgraded to Desktop Wallet Legacy v4.2.2 and imported the mnemonic, its runtime log shows the error message: "service not ready, please ensure the abewallet service is running and synced to the latest height."
+
+::: info <Badge type="tip" text="ANSWER" /> 
+To upgrade the desktop wallet Legacy from version v4.1.1 or earlier to v4.2.2, you should first delete the old wallet data in the directory `%USERPROFILE%\AppData\Roaming\Abelian Wallet`.
+
+After that, upgrade to v4.2.2. Be sure to check the [notes section in the User Manual documentation](https://community.pqabelian.io/guide/wallet/desktop-wallet-legacy.html#import-abel-wallet-account) when importing your wallet account using the mnemonic phrase.
+:::
+
+---
+
 ## Expired Desktop Wallet Legacy Issues
 
 ### <Badge type="warning" text="QUESTION" /> The Windows desktop wallet cannot start, and the log is:

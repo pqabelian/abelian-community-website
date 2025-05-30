@@ -44,7 +44,8 @@ export default defineConfig({
               { text: 'AbelPool (Community)', link: 'https://www.abelpool.io/' },
               { text: 'zkProvers (Community)', link: 'https://www.zkprovers.com/' }
             ]
-          }
+          },
+          { text: 'Ask Hako', link: 'https://hako.pqabelian.io' }
         ],
 
         sidebar: {
@@ -199,7 +200,8 @@ export default defineConfig({
               { text: 'AbelPool（社区）', link: 'https://www.abelpool.io/' },
               { text: 'zkProvers（社区）', link: 'https://www.zkprovers.com/' }
             ]
-          }
+          },
+          { text: '询问 Hako', link: 'https://hako.pqabelian.io' }
         ],
 
         sidebar: {
