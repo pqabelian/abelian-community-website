@@ -211,25 +211,28 @@ outline: deep
 - 强烈建议现有桌面钱包经典版（Legacy）用户立即迁移到这个全新的桌面钱包专业版（MLP），这样他们不再需要记住最大可恢复的钱包数量。要进行迁移，我们需要在桌面钱包专业版（MLP）中创建一个新钱包，然后使用桌面钱包经典版将所有 ABEL 币转移到新钱包中。
 - 您可以首次创建一些完全私密的钱包以及其他匿名私密的钱包。
 
-**附注：** 1.0.2 版本仅更新专用应用图标。
+**v1.0.3 升级说明:**
+- 交易确认更快，一旦交易输出可用，就会被标记为可支配。
+- 优化可支配金额显示，在发送页面，输入框会精确显示可用金额，以便最大化后续转账，并新增“最大”按钮，在转账给一个收款人时可以自动计算并扣除交易费用。
+- 使用体验更友好直观，增加了更多提示信息。
 :::
 
 ---
 
 ### Abelian 桌面钱包经典版
-- **发布日期**： `2025-03-02`
-- **软件包**： `abelian-desktop-wallet-legacy-v4.2.2`
+- **发布日期**： `2025-06-04`
+- **软件包**： `abelian-desktop-wallet-legacy-v4.3.0`
 - **下载链接**：
 <div class="button-container">
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v4.2.2.zip" class="btn">Windows</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-amd64-v4.2.2.zip" class="btn">macOS</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-arm64-v4.2.2.zip" class="btn">macOS (Apple Silicon)</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-amd64-v4.2.2.zip" class="btn">Linux</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-arm64-v4.2.2.zip" class="btn">Linux (ARM)</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v4.3.0.zip" class="btn">Windows</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-amd64-v4.3.0.zip" class="btn">macOS</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-arm64-v4.3.0.zip" class="btn">macOS (Apple Silicon)</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-amd64-v4.3.0.zip" class="btn">Linux</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-arm64-v4.3.0.zip" class="btn">Linux (ARM)</a>
 </div>
 
 ::: warning 重要提示
-1. 桌面钱包经典版由 4.1.1 或更早版本升级到 4.2.0 版本后，需要重新导入钱包账户。详细操作步骤请查看 [桌面钱包经典版用户手册](/zh/guide/wallet/desktop-wallet-legacy#导入-abel-钱包账户)。
+1. 桌面钱包经典版由 4.1.1 或更早版本升级到 4.3.0 版本后，需要重新导入钱包账户。详细操作步骤请查看 [桌面钱包经典版用户手册](/zh/guide/wallet/desktop-wallet-legacy#导入-abel-钱包账户)。
 
 2. Abelian 桌面钱包经典版不支持迁移到移动钱包 Abelian Pro （MLP账户地址），但可以进行转账。
 :::
@@ -237,12 +240,21 @@ outline: deep
 ::: info 发布说明
 **有什么新功能？**
 - 一键迁移：我们强烈建议从旧版钱包迁移到 MLP 钱包。MLP 钱包不再需要用户记住最大可恢复的钱包数量，这大大提高了可用性。此外，我们将仅支持全新的 MLP 钱包，并逐步淘汰旧版钱包类型。
-- 您需要安装桌面钱包专业版 (MLP) v1.0.0 并创建一个新钱包（完全私密或匿名类型）。然后，使用桌面钱包经典版 4.2.0 的迁移功能，将每个旧版钱包中的所有 ABEL 币转移到新的 MLP 钱包。
+- 您需要安装桌面钱包专业版 (MLP) v1.0.3 并创建一个新钱包（完全私密或匿名类型）。然后，使用桌面钱包经典版 4.3.0 的迁移功能，将每个旧版钱包中的所有 ABEL 币转移到新的 MLP 钱包。
 
 **为什么要升级？**
 - MLP 钱包地址在无需记住任何序列号（即最大可恢复的钱包数量）的情况下显著更易于使用。此外，您可以首次选择创建多个具有不同隐私级别的 MLP 地址，包括完全私密或伪私密。
 
-**附注：** 4.2.2 版本仅更新专用应用图标。
+**v4.3.0 升级说明:**
+- macOS 变更为 DMG 安装程序；
+- 产品名称从 “Abelian Wallet” 更名为 “Abelian Wallet Legacy”；
+- 显示同步完成的预计时间，修复同步进度显示不一致的问题；
+- 更高效和优化的交易历史列表；
+- 支持一键迁移到 MLP 匿名地址（也称为半隐私地址）；
+- 对新手友好的钱包服务启动界面，清晰显示启动、停止和日志按钮；
+- UI/UX 优化：
+  - 移除不必要的滚动条显示；
+  - 在用户查看助记词时显示最大地址数（用于导入 Legacy 账户时填写恢复地址数），并支持输入主密码后按 Enter 键。
 :::
 
 ---

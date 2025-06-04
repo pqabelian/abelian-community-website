@@ -87,6 +87,24 @@ outline: deep
 ## Abelian 桌面钱包经典版（Legacy）
 `abelian-desktop-wallet / abelian-desktop-wallet-legacy`
 
+- **2025-06-04-v4.3.0**
+
+  - macOS 变更为 DMG 安装程序；
+  - 产品名称从 “Abelian Wallet” 更名为 “Abelian Wallet Legacy”；
+  - 显示同步完成的预计时间，修复同步进度显示不一致的问题；
+  - 更高效和优化的交易历史列表；
+  - 支持一键迁移到 MLP 匿名地址（也称为半隐私地址）；
+  - 对新手友好的钱包服务启动界面，清晰显示启动、停止和日志按钮；
+  - UI/UX 优化：
+    - 移除不必要的滚动条显示；
+    - 在用户查看助记词时显示最大地址数（用于导入 Legacy 账户时填写恢复地址数），并支持输入主密码后按 Enter 键。
+
+  [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v4.3.0.zip) | 
+  [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-amd64-v4.3.0.zip) | 
+  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-arm64-v4.3.0.zip) | 
+  [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-amd64-v4.3.0.zip) | 
+  [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-arm64-v4.3.0.zip)
+
 - **2025-03-02-v4.2.2**
 
   [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v4.2.2.zip) | 

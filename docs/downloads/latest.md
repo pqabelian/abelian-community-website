@@ -212,25 +212,28 @@ It is available on both iOS and Android platforms.
 - Existing users of Desktop Wallet Legacy are strongly recommended to migrate now to this brand new Desktop Wallet Pro (MLP) so that they no longer need to remember the maximum recoverable number of wallets. To migrate, we need to create a new wallet at the Desktop Wallet Pro (MLP) and then use the Desktop Wallet Legacy to transfer all the ABEL coins to the new wallet.
 - For the first time, you can create wallets, some of them are fully-private and some others are pseudo-private.
 
-**Note:** Version 1.0.2 only updates dedicated app icons.
+**v1.0.3 Upgrade Notes:**
+- Faster transaction confirmations: Outputs are marked as spendable once available.
+- Optimized display of spendable amounts: The input field on the send page accurately shows available amounts to maximize subsequent transfers, with a new "MAX" button that automatically calculates and deducts transaction fees for a single recipient.
+- More user-friendly experience: Added additional informative tips.
 :::
 
 ---
 
 ### Abelian Desktop Wallet Legacy
-- **Release Date**: `2025-03-02`
-- **Package**: `abelian-desktop-wallet-legacy-v4.2.2`
+- **Release Date**: `2025-06-04`
+- **Package**: `abelian-desktop-wallet-legacy-v4.3.0`
 - **Download Links**:
 <div class="button-container">
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v4.2.2.zip" class="btn">Windows</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-amd64-v4.2.2.zip" class="btn">macOS</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-arm64-v4.2.2.zip" class="btn">macOS (Apple Silicon)</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-amd64-v4.2.2.zip" class="btn">Linux</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-arm64-v4.2.2.zip" class="btn">Linux (ARM)</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v4.3.0.zip" class="btn">Windows</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-amd64-v4.3.0.zip" class="btn">macOS</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-arm64-v4.3.0.zip" class="btn">macOS (Apple Silicon)</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-amd64-v4.3.0.zip" class="btn">Linux</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-arm64-v4.3.0.zip" class="btn">Linux (ARM)</a>
 </div>
 
 ::: warning
-- After upgrading the Desktop Wallet Legacy version from 4.1.1 or earlier to version 4.2.0, you will need to re-import wallet accounts. Starting from version 4.2.0. Please refer to the [Desktop Wallet Legacy User Manual](/guide/wallet/desktop-wallet-legacy#import-abel-wallet-account) for detailed operating steps.
+- After upgrading the Desktop Wallet Legacy version from 4.1.1 or earlier to version 4.3.0, you will need to re-import wallet accounts. Starting from version 4.3.0. Please refer to the [Desktop Wallet Legacy User Manual](/guide/wallet/desktop-wallet-legacy#import-abel-wallet-account) for detailed operating steps.
 
 - The Abelian Desktop Wallet Legacy cannot migrate to the mobile wallet 'Abelian Pro' (MLP address), but transfers are allowed.
 :::
@@ -238,12 +241,21 @@ It is available on both iOS and Android platforms.
 ::: info Release Notes
 **What's New?**
 - One-Click Migration: We strongly recommend migrating from legacy wallets to MLP wallets. An MLP wallet no longer needs users to remember the maximum recoverable number of wallets. This enhances the usability greatly. Furthermore, we will only supports the brand-new MLP wallets and fades out the legacy wallet type.
-- You need to install the Desktop Wallet Pro v1.0.0 and create a new wallet (fully-private or pseudo-private type). Then, use the Abelian Desktop Wallet Legacy v4.2.0 and use the Migration function to transfer all the ABEL coins from each legacy wallet to the new MLP wallet.
+- You need to install the Desktop Wallet Pro v1.0.3 and create a new wallet (fully-private or pseudo-private type). Then, use the Abelian Desktop Wallet Legacy v4.3.0 and use the Migration function to transfer all the ABEL coins from each legacy wallet to the new MLP wallet.
 
 **Why Should You Upgrade?**
 - The MLP wallet address is significantly easier to use without remembering any sequence number (aka maximum recoverable number of wallets). Furthermore, for the first time, you can choose to create multiple MLP addresses, each with different privacy level, fully-private or pseudo-private.
 
-**Note:** Version 4.2.2 only updates dedicated app icons.
+**v4.3.0 Upgrade Notes:**
+- Change to DMG installer for macOS.
+- Renaming product name from 'Abelian Wallet' to 'Abelian Wallet Legacy'.
+- Show estimated time for synchronization completion, fix inconsistent synchronization progress display.
+- More efficient and optimized transaction history list.
+- Support one-click migrate to MLP pseudonymous addres (known as Semi-private address).
+- Newbie-friendly startup for wallet service with start/stop and log buttons clearly displayed.
+- UI/UX optimization:
+  - remove unnecessary scrollbar display
+  - show maximum sequence number when user views mnemonics (Used to fill in the number of recovery addresses when importing a Legacy account.), and support Enter after typed master password.
 :::
 
 ---

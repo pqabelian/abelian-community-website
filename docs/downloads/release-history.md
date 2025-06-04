@@ -87,6 +87,24 @@ We provide the packages of previous versions mainly for archive purposes. Please
 ## Abelian Desktop Wallet Legacy
 `abelian-desktop-wallet / abelian-desktop-wallet-legacy`
 
+- **2025-06-04-v4.3.0**
+
+  - Change to DMG installer for macOS.
+  - Renaming product name from 'Abelian Wallet' to 'Abelian Wallet Legacy'.
+  - Show estimated time for synchronization completion, fix inconsistent synchronization progress display.
+  - More efficient and optimized transaction history list.
+  - Support one-click migrate to MLP pseudonymous addres (known as Semi-private address).
+  - Newbie-friendly startup for wallet service with start/stop and log buttons clearly displayed.
+  - UI/UX optimization:
+    - remove unnecessary scrollbar display
+    - show maximum sequence number when user views mnemonics (Used to fill in the number of recovery addresses when importing a Legacy account.), and support Enter after typed master password.
+
+  [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v4.3.0.zip) | 
+  [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-amd64-v4.3.0.zip) | 
+  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-arm64-v4.3.0.zip) | 
+  [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-amd64-v4.3.0.zip) | 
+  [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-arm64-v4.3.0.zip)
+
 - **2025-03-02-v4.2.2**
 
   [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v4.2.2.zip) | 

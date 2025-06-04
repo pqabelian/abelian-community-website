@@ -115,6 +115,9 @@ Once the address is generated, you can utilize either the long wallet address or
 - A list of 24 words representing your wallet mnemonic (recovery phrase) will appear. Click “**Copy to Clipboard**” and paste it into a local text file for safekeeping.
   ![Copy wallet mnemonics](/desktop-wallet/legacy/copy-mnemonics.png)
 
+- Version 4.3.0 introduces a new text prompt: "Local maximum sequence number," which is used to specify the number of recovery addresses when importing a Legacy wallet account.
+  ![Local maximum sequence number](/desktop-wallet/legacy/local-max-sequence.png)
+
 ## Import ABEL Wallet Account
 
 :::tip
@@ -135,8 +138,10 @@ You need to estimate the number of addresses to recover. Here are three referenc
   a. If the desktop wallet is version 4.1.1, you can refer to the steps for [Receiving ABELs](#receive-abels) to create a new address, then check the newly created address name suffix in the “Select address” dropdown menu. The suffix `wallet name#m number` indicates the number you should fill in for the number of addresses to recover.
   
   b. If the desktop wallet is lower than version 4.1.1 and method a fails to create a new address, you can check the transaction count in the TXS tab. Multiply this number by 2, and if the wallet has been imported before, add the number of addresses filled in during the last recovery.
-  
-  c. If the wallet version is too old to run and check transaction records, you can estimate a number for the recovery address count, such as 100. However, avoid entering unrealistic or excessively large values to prevent the program from crashing
+
+  c.If the mnemonic phrase exported from version 4.3.0 contains the text "Local maximum sequence number," you can directly enter the value here.
+
+  d. If the wallet version is too old to run and check transaction records, you can estimate a number for the recovery address count, such as 100. However, avoid entering unrealistic or excessively large values to prevent the program from crashing
 :::
 
 3. The system will automatically generate the corresponding number in the recovery address instance count field. Click the “**IMPORT**” button, you will later see the message “**Account imported.**”. Click the “**DONE**” button to complete the wallet account import.
