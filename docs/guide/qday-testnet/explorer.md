@@ -2,6 +2,11 @@
 outline: deep
 ---
 
+::: warning
+The redesigned version of the QDay testnet is about to launch, and this tutorial and related links are now outdated!
+Stay tuned for the arrival of the new tutorial!
+:::
+
 # QDay Testnet Blockchain Explorer
 
 Welcome to the QDay Blockchain Explorer! This guide will detail how to use the search function to view detailed information on blocks, transactions, and wallet addresses.

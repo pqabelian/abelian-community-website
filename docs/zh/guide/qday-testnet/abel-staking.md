@@ -2,6 +2,11 @@
 outline: deep
 ---
 
+::: warning 提示
+QDay 测试网重新设计的版本即将上线，此教程和相关链接已经失效！
+敬请期待新版教程的到来！
+:::
+
 # ABEL Testnet 质押服务
 
 ABEL Testnet 质押服务允许用户通过质押 wAbel 代币，参与网络安全并获得奖励。

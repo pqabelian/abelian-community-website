@@ -2,6 +2,11 @@
 outline: deep
 ---
 
+::: warning
+The redesigned version of the QDay testnet is about to launch, and this tutorial and related links are now outdated!
+Stay tuned for the arrival of the new tutorial!
+:::
+
 # QDay Testnet Decentralized Exchange (DEX)
 
 ## QDay Testnet DEX

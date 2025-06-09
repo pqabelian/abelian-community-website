@@ -2,6 +2,11 @@
 outline: deep
 ---
 
+::: warning 提示
+QDay 测试网重新设计的版本即将上线，此教程和相关链接已经失效！
+敬请期待新版教程的到来！
+:::
+
 # QDay testnet 去中心化交易所（DEX）
 
 ## QDay Testnet DEX

@@ -2,6 +2,11 @@
 outline: deep
 ---
 
+::: warning 提示
+QDay 测试网重新设计的版本即将上线，此教程和相关链接已经失效！
+敬请期待新版教程的到来！
+:::
+
 # QDay Testnet 质押服务指南
 
 打开 QDay Testnet 质押服务网址：[QDay Staking](https://testnet-defi.qday.info/QDayStaking) 或 [QDay Staking 2](https://testnet-defi.abelqday.io/QDayStaking)。

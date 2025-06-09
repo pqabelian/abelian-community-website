@@ -2,6 +2,11 @@
 outline: deep
 ---
 
+::: warning 提示
+QDay 测试网重新设计的版本即将上线，此教程和相关链接已经失效！
+敬请期待新版教程的到来！
+:::
+
 # QDay Testnet 测试币
 
 通过 QDay Testnet 水龙头或者 Discord 社区申请两种方式可以获取 QDAY 测试币。
