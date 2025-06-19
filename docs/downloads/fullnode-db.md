@@ -37,7 +37,7 @@ Starting from version 4.2.0 of the Abelian Desktop Wallet Classic (Legacy), the 
 
 ### Data Package Download Link
 
-> Download link: [Mega](https://mega.nz/file/wikgSJiR#I6mFgg5dax_RSQrR9q6TpxF5OmkkVrmFkg76LvcXp-8)
+> Download link: [Mega](https://mega.nz/file/tzVAHbyR#UsDY4lKMhEn0W0O_XUimOngMzksuvnj1yGrCWDfI0mE)
 > 
 > File name: mainnet.zip
 > 

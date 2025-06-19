@@ -37,7 +37,7 @@ Abelian 桌面钱包经典版（Legacy） 4.2.0 版本开始已经不使用 Abec
 
 ### 数据包下载地址
 
-> 下载链接：[Mega](https://mega.nz/file/wikgSJiR#I6mFgg5dax_RSQrR9q6TpxF5OmkkVrmFkg76LvcXp-8)
+> 下载链接：[Mega](https://mega.nz/file/tzVAHbyR#UsDY4lKMhEn0W0O_XUimOngMzksuvnj1yGrCWDfI0mE)
 > 
 > 文件名：mainnet.zip
 > 
