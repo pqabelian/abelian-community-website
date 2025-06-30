@@ -221,15 +221,15 @@ It is available on both iOS and Android platforms.
 ---
 
 ### Abelian Desktop Wallet Legacy
-- **Release Date**: `2025-06-04`
-- **Package**: `abelian-desktop-wallet-legacy-v4.3.0`
+- **Release Date**: `2025-06-30`
+- **Package**: `abelian-desktop-wallet-legacy-v4.4.0`
 - **Download Links**:
 <div class="button-container">
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v4.3.0.zip" class="btn">Windows</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-amd64-v4.3.0.zip" class="btn">macOS</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-arm64-v4.3.0.zip" class="btn">macOS (Apple Silicon)</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-amd64-v4.3.0.zip" class="btn">Linux</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-arm64-v4.3.0.zip" class="btn">Linux (ARM)</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v4.4.0.zip" class="btn">Windows</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-amd64-v4.4.0.zip" class="btn">macOS</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-arm64-v4.4.0.zip" class="btn">macOS (Apple Silicon)</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-amd64-v4.4.0.zip" class="btn">Linux</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-arm64-v4.4.0.zip" class="btn">Linux (ARM)</a>
 </div>
 
 ::: warning
@@ -246,16 +246,12 @@ It is available on both iOS and Android platforms.
 **Why Should You Upgrade?**
 - The MLP wallet address is significantly easier to use without remembering any sequence number (aka maximum recoverable number of wallets). Furthermore, for the first time, you can choose to create multiple MLP addresses, each with different privacy level, fully-private or pseudo-private.
 
-**v4.3.0 Upgrade Notes:**
-- Change to DMG installer for macOS.
-- Renaming product name from 'Abelian Wallet' to 'Abelian Wallet Legacy'.
-- Show estimated time for synchronization completion, fix inconsistent synchronization progress display.
-- More efficient and optimized transaction history list.
-- Support one-click migrate to MLP pseudonymous addres (known as Semi-private address).
-- Newbie-friendly startup for wallet service with start/stop and log buttons clearly displayed.
-- UI/UX optimization:
-  - remove unnecessary scrollbar display
-  - show maximum sequence number when user views mnemonics (Used to fill in the number of recovery addresses when importing a Legacy account.), and support Enter after typed master password.
+**v4.4.0 Upgrade Notes:**
+- Enabled adaptive sync for various networks.
+- Improved sync time estimates on the Status Page.
+- Added color indicators for balance changes on the Tx Page.
+- Added status lights in Account Select.
+- Limited accounts to 100 for better multi-account sync stability.
 :::
 
 ---

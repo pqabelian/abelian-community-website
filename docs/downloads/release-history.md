@@ -87,8 +87,20 @@ We provide the packages of previous versions mainly for archive purposes. Please
 ## Abelian Desktop Wallet Legacy
 `abelian-desktop-wallet / abelian-desktop-wallet-legacy`
 
-- **2025-06-04-v4.3.0**
+- **2025-06-30-v4.4.0**
+  - Enabled adaptive sync for various networks.
+  - Improved sync time estimates on the Status Page.
+  - Added color indicators for balance changes on the Tx Page.
+  - Added status lights in Account Select.
+  - Limited accounts to 100 for better multi-account sync stability.
 
+  [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v4.4.0.zip) | 
+  [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-amd64-v4.4.0.zip) | 
+  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-arm64-v4.4.0.zip) | 
+  [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-amd64-v4.4.0.zip) | 
+  [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-arm64-v4.4.0.zip)
+
+- **2025-06-04-v4.3.0**
   - Change to DMG installer for macOS.
   - Renaming product name from 'Abelian Wallet' to 'Abelian Wallet Legacy'.
   - Show estimated time for synchronization completion, fix inconsistent synchronization progress display.

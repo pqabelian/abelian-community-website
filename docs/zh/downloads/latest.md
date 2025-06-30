@@ -220,15 +220,15 @@ outline: deep
 ---
 
 ### Abelian 桌面钱包经典版
-- **发布日期**： `2025-06-04`
-- **软件包**： `abelian-desktop-wallet-legacy-v4.3.0`
+- **发布日期**： `2025-06-30`
+- **软件包**： `abelian-desktop-wallet-legacy-v4.4.0`
 - **下载链接**：
 <div class="button-container">
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v4.3.0.zip" class="btn">Windows</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-amd64-v4.3.0.zip" class="btn">macOS</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-arm64-v4.3.0.zip" class="btn">macOS (Apple Silicon)</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-amd64-v4.3.0.zip" class="btn">Linux</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-arm64-v4.3.0.zip" class="btn">Linux (ARM)</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v4.4.0.zip" class="btn">Windows</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-amd64-v4.4.0.zip" class="btn">macOS</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-arm64-v4.4.0.zip" class="btn">macOS (Apple Silicon)</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-amd64-v4.4.0.zip" class="btn">Linux</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-arm64-v4.4.0.zip" class="btn">Linux (ARM)</a>
 </div>
 
 ::: warning 重要提示
@@ -245,16 +245,12 @@ outline: deep
 **为什么要升级？**
 - MLP 钱包地址在无需记住任何序列号（即最大可恢复的钱包数量）的情况下显著更易于使用。此外，您可以首次选择创建多个具有不同隐私级别的 MLP 地址，包括完全私密或伪私密。
 
-**v4.3.0 升级说明:**
-- macOS 变更为 DMG 安装程序；
-- 产品名称从 “Abelian Wallet” 更名为 “Abelian Wallet Legacy”；
-- 显示同步完成的预计时间，修复同步进度显示不一致的问题；
-- 更高效和优化的交易历史列表；
-- 支持一键迁移到 MLP 匿名地址（也称为半隐私地址）；
-- 对新手友好的钱包服务启动界面，清晰显示启动、停止和日志按钮；
-- UI/UX 优化：
-  - 移除不必要的滚动条显示；
-  - 在用户查看助记词时显示最大地址数（用于导入 Legacy 账户时填写恢复地址数），并支持输入主密码后按 Enter 键。
+**v4.4.0 升级说明:**
+- 启用自适应同步机制，适应不同网络环境；
+- 改进状态页面的同步时间估算；
+- 在交易页面添加余额变化颜色标识；
+- 账户选择中增加状态指示灯；
+- 限制账户数量至100个，优化多账户同步稳定性。
 :::
 
 ---

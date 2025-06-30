@@ -87,6 +87,19 @@ outline: deep
 ## Abelian 桌面钱包经典版（Legacy）
 `abelian-desktop-wallet / abelian-desktop-wallet-legacy`
 
+- **2025-06-30-v4.4.0**
+  - 启用自适应同步机制，适应不同网络环境；
+  - 改进状态页面的同步时间估算；
+  - 在交易页面添加余额变化颜色标识；
+  - 账户选择中增加状态指示灯；
+  - 限制账户数量至100个，优化多账户同步稳定性。
+
+  [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v4.4.0.zip) | 
+  [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-amd64-v4.4.0.zip) | 
+  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-arm64-v4.4.0.zip) | 
+  [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-amd64-v4.4.0.zip) | 
+  [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-arm64-v4.4.0.zip)
+
 - **2025-06-04-v4.3.0**
 
   - macOS 变更为 DMG 安装程序；
