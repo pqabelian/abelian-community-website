@@ -41,11 +41,11 @@ Abelian 桌面钱包经典版（Legacy） 4.2.0 版本开始已经不使用 Abec
 > 
 > 文件名：mainnet.zip
 > 
-> 文件大小：135.74 GB
+> 文件大小：140.83 GB
 > 
-> 区块高度：386062
+> 区块高度：400253
 > 
-> 上传日期：2024年05月02日
+> 上传日期：2024年06月16日
 
 ### 解压缩数据包
 
@@ -109,15 +109,15 @@ Abelian 开发者或个人 Solo 挖矿的用户需要下载 Abec Mainnet/Testnet
 
 #### （Mainnet）
 
-> 下载链接：[Mega](https://mega.nz/file/wydjFZxL#aVfZjBWQlYEnwiLkC4N95WOH60cbML-kEpKVZzZdjFY)
+> 下载链接：[Mega](https://mega.nz/file/YvkwgK4B#Lo3Q9WnD5WOP6CLUZjtRfzlYTCw0ikjHiuVchx5fxl4)
 > 
 > 文件名：mainnet.zip
 > 
-> 文件大小：195.86 GB
+> 文件大小：233.29 GB
 > 
-> 区块高度：385752
+> 区块高度：400002
 > 
-> 上传日期：2025年04月29日
+> 上传日期：2025年06月19日
 
 #### （Testnet）
 

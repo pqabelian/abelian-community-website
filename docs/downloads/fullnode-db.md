@@ -41,11 +41,11 @@ Starting from version 4.2.0 of the Abelian Desktop Wallet Classic (Legacy), the 
 > 
 > File name: mainnet.zip
 > 
-> File size: 135.74 GB
+> File size: 140.83 GB
 > 
-> Block height: 386062
+> Block height: 400253
 > 
-> Upload date: May 2, 2025
+> Upload date: June 16, 2025
 
 ### Extracting the Data Package
 
@@ -108,15 +108,15 @@ Developers or individual Solo mining users of Abelian need to download the Abec 
 
 #### (Mainnet)
 
-> Download link: [Mega](https://mega.nz/file/wydjFZxL#aVfZjBWQlYEnwiLkC4N95WOH60cbML-kEpKVZzZdjFY)
+> Download link: [Mega](https://mega.nz/file/YvkwgK4B#Lo3Q9WnD5WOP6CLUZjtRfzlYTCw0ikjHiuVchx5fxl4)
 > 
 > File name: mainnet.zip
 > 
-> File size: 195.86 GB
+> File size: 233.29 GB
 > 
-> Block height: 385752
+> Block height: 400002
 > 
-> Upload date: April 29, 2025
+> Upload date: June 19, 2025
 
 #### (Testnet)
 
