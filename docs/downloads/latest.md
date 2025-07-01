@@ -170,7 +170,7 @@ outline: deep
     </div>
 </section>
 
-::: info Features
+::: info <Badge type="warning" text="FEATURES" />
 The new mobile wallet is a complete rewrite of the previous mobile wallet and is designed to be more user-friendly and feature-rich.
 It is available on both iOS and Android platforms.
 
@@ -202,7 +202,7 @@ It is available on both iOS and Android platforms.
   <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v1.0.3.zip" class="btn">Linux (ARM)</a>
 </div>
 
-::: info Release Notes
+::: info  <Badge type="warning" text="RELEASE NOTES" />
 **What's New?**
 - Faster transaction confirmations: Outputs are marked as spendable once available.
 - Optimized display of spendable amounts: The input field on the send page accurately shows available amounts to maximize subsequent transfers, with a new "MAX" button that automatically calculates and deducts transaction fees for a single recipient.
@@ -232,13 +232,13 @@ It is available on both iOS and Android platforms.
   <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-arm64-v4.4.0.deb" class="btn">Linux (ARM)</a>
 </div>
 
-::: warning
+::: warning <Badge type="tip" text="WARNING" />
 - After upgrading the Desktop Wallet Legacy version from 4.1.1 or earlier to version 4.3.0, you will need to re-import wallet accounts. Starting from version 4.3.0. Please refer to the [Desktop Wallet Legacy User Manual](/guide/wallet/desktop-wallet-legacy#import-abel-wallet-account) for detailed operating steps.
 
 - The Abelian Desktop Wallet Legacy cannot migrate to the mobile wallet 'Abelian Pro' (MLP address), but transfers are allowed.
 :::
 
-::: info Release Notes
+::: info  <Badge type="warning" text="RELEASE NOTES" />
 **What's New?**
 - One-Click Migration: We strongly recommend migrating from legacy wallets to MLP wallets. An MLP wallet no longer needs users to remember the maximum recoverable number of wallets. This enhances the usability greatly. Furthermore, we will only supports the brand-new MLP wallets and fades out the legacy wallet type.
 - You need to install the Desktop Wallet Pro v1.0.3 and create a new wallet (fully-private or pseudo-private type). Then, use the Abelian Desktop Wallet Legacy v4.3.0 and use the Migration function to transfer all the ABEL coins from each legacy wallet to the new MLP wallet.
@@ -268,7 +268,7 @@ It is available on both iOS and Android platforms.
   <a href="https://download.pqabelian.io/release/abec/abec-linux-arm64-v2.0.1.tar.gz" class="btn">Linux (ARM)</a>
 </div>
 
-::: info Release Notes
+::: info <Badge type="warning" text="RELEASE NOTES" />
 1. Enable updated Token Release Schedule
 2. Add checkpoints with height 400,000
 3. Storage space requirements for running nodes: Normal Node = 250GB, Semi-Full Node = 150GB, Full Node = 1.2TB.
@@ -290,7 +290,7 @@ It is available on both iOS and Android platforms.
   <a href="https://download.pqabelian.io/release/pool/abelminer-linux-amd64-v2.0.3.tar.gz" class="btn">Linux</a>
 </div>
 
-::: info Guide for Miners:
+::: info <Badge type="warning" text="GUIDE FOR MINERS" />
 1. The Abelian graphics card mining client can be used for solo mining and pool mining.
 2. Mining Pool Website: https://maxpool.org/
 3. Please download the compressed package and then visit the mining pool website to read the [Quickstart Guide](https://maxpool.org/home/guide).
@@ -325,7 +325,7 @@ It is available on both iOS and Android platforms.
   <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-arm64-v2.0.0.tar.gz" class="btn">Linux (ARM)</a>
 </div>
 
-::: info Release Notes
+::: info <Badge type="warning" text="RELEASE NOTES" />
 **What's New?**
 - Unified Wallet Mnemonic Phrase: The new mnemonic phrases can be imported and exported across Desktop Wallet Pro v1.0.0 and CLI Wallet (MLP) v2.0.0. And it will be further unified across all of Abelian products in the future.
 
@@ -351,7 +351,7 @@ It is available on both iOS and Android platforms.
   <a href="https://download.pqabelian.io/release/abewallet/abewalletlegacy-linux-arm64-v1.0.0.tar.gz" class="btn">Linux (ARM)</a>
 </div>
 
-::: info Release Notes
+::: info <Badge type="warning" text="RELEASE NOTES" />
 1. Rename abewallet to abewalletlegacy, which only supports the old address format.
 2. We recommend all existing abewallet users to re-import all of their accounts after installed the new abewalletlegacy.
 :::

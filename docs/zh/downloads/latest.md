@@ -170,7 +170,7 @@ outline: deep
   </div>
 </section>
 
-::: info 特点介绍
+::: info <Badge type="warning" text="特点介绍" />
 新的移动钱包是对之前移动钱包的全面重写，旨在更加用户友好和功能丰富。它可在 iOS 和 Android 平台上使用。
 
 **v2.1.0 升级说明:**
@@ -201,7 +201,7 @@ outline: deep
   <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v1.0.3.zip" class="btn">Linux (ARM)</a>
 </div>
 
-::: info 发布说明
+::: info <Badge type="warning" text="发布说明" />
 **有什么新功能？**
 - 交易确认更快，一旦交易输出可用，就会被标记为可支配。
 - 优化可支配金额显示，在发送页面，输入框会精确显示可用金额，以便最大化后续转账，并新增“最大”按钮，在转账给一个收款人时可以自动计算并扣除交易费用。
@@ -231,13 +231,13 @@ outline: deep
   <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-arm64-v4.4.0.deb" class="btn">Linux (ARM)</a>
 </div>
 
-::: warning 重要提示
+::: warning <Badge type="tip" text="重要提示" />
 1. 桌面钱包经典版由 4.1.1 或更早版本升级到 4.3.0 版本后，需要重新导入钱包账户。详细操作步骤请查看 [桌面钱包经典版用户手册](/zh/guide/wallet/desktop-wallet-legacy#导入-abel-钱包账户)。
 
 2. Abelian 桌面钱包经典版不支持迁移到移动钱包 Abelian Pro （MLP账户地址），但可以进行转账。
 :::
 
-::: info 发布说明
+::: info <Badge type="warning" text="发布说明" />
 **有什么新功能？**
 - 一键迁移：我们强烈建议从旧版钱包迁移到 MLP 钱包。MLP 钱包不再需要用户记住最大可恢复的钱包数量，这大大提高了可用性。此外，我们将仅支持全新的 MLP 钱包，并逐步淘汰旧版钱包类型。
 - 您需要安装桌面钱包专业版 (MLP) v1.0.3 并创建一个新钱包（完全私密或匿名类型）。然后，使用桌面钱包经典版 4.3.0 的迁移功能，将每个旧版钱包中的所有 ABEL 币转移到新的 MLP 钱包。
@@ -267,7 +267,7 @@ outline: deep
   <a href="https://download.pqabelian.io/release/abec/abec-linux-arm64-v2.0.1.tar.gz" class="btn">Linux (ARM)</a>
 </div>
 
-::: info 发布说明
+::: info <Badge type="warning" text="发布说明" />
 1. 启用更新的代币释放计划
 2. 添加 400,000 高度的检查点
 3. 运行节点各模式存储空间需求：Normal Node = 250GB、Semi-Full Node = 150GB、Full Node = 1.2TB
@@ -289,7 +289,7 @@ outline: deep
   <a href="https://download.pqabelian.io/release/pool/abelminer-linux-amd64-v2.0.3.tar.gz" class="btn">Linux</a>
 </div>
 
-::: info 矿工指南
+::: info <Badge type="warning" text="矿工指南" />
 1. Abelian 显卡挖矿客户端可用于 Solo 挖矿和矿池挖矿。
 2. 矿池网站：https://maxpool.org/
 3. 请下载压缩包，然后访问矿池网站阅读 [快速入门指南](https://maxpool.org/home/guide)。
@@ -324,7 +324,7 @@ outline: deep
   <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-arm64-v2.0.0.tar.gz" class="btn">Linux (ARM)</a>
 </div>
 
-::: info 发布说明
+::: info <Badge type="warning" text="发布说明" />
 **有什么新功能？**
 - 统一钱包助记词：新的助记词可以在桌面钱包专业版 v1.0.0 和 多层隐私钱包 (CLI) v2.0.0 之间导入和导出。未来，它将进一步在所有 Abelian 产品中实现统一。
 
@@ -350,7 +350,7 @@ outline: deep
   <a href="https://download.pqabelian.io/release/abewallet/abewalletlegacy-linux-arm64-v1.0.0.tar.gz" class="btn">Linux (ARM)</a>
 </div>
 
-::: info 发布说明
+::: info <Badge type="warning" text="发布说明" />
 1. 将 `abewallet` 重命名为 `abewalletlegacy`，仅支持旧地址格式。
 2. 我们建议所有现有的 `abewallet` 用户在安装新的 `abewalletlegacy` 后重新导入他们的所有账户。
 :::
