@@ -270,7 +270,7 @@ outline: deep
 ::: info 发布说明
 1. 启用更新的代币释放计划
 2. 添加 400,000 高度的检查点
-3. 运行节点各模式存储空间需求：normalnode = 250GB, seminode = 150GB, fullnode = 1.2TB
+3. 运行节点各模式存储空间需求：Normal Node = 250GB、Semi-Full Node = 150GB、Full Node = 1.2TB
 
 **了解更多详情，请查看以下链接：**
 - https://www.pqabelian.io/blog/abelian-network-hard-fork-introducing-multi-level-privacy-and-user-token-protocol-at-block-height-300-000

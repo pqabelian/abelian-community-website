@@ -271,7 +271,7 @@ It is available on both iOS and Android platforms.
 ::: info Release Notes
 1. Enable updated Token Release Schedule
 2. Add checkpoints with height 400,000
-3. Storage space requirements for running nodes: normalnode = 250GB, seminode = 150GB, fullnode = 1.2TB.
+3. Storage space requirements for running nodes: Normal Node = 250GB, Semi-Full Node = 150GB, Full Node = 1.2TB.
 
 **For more details, Please view the link below:**
 - https://www.pqabelian.io/blog/abelian-network-hard-fork-introducing-multi-level-privacy-and-user-token-protocol-at-block-height-300-000
