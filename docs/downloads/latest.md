@@ -252,6 +252,7 @@ It is available on both iOS and Android platforms.
 - Added color indicators for balance changes on the Tx Page.
 - Added status lights in Account Select.
 - Limited accounts to 100 for better multi-account sync stability.
+- This legacy software is officially called "Abelian Wallet Legacy". For example, if you are a macOS user, you will find this software called "Abelian Wallet Legacy" rather than "Abelian Wallet" under the Applications folder.
 :::
 
 ---
