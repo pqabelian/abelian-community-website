@@ -217,6 +217,15 @@ We provide the packages of previous versions mainly for archive purposes. Please
 ## Abelian Full Node
 `[abec]`
 
+- **2025-07-03-v2.0.2**
+  - Add checkpoints with height 400,000 (Hash: 73a434b741b357e37587b1b0a39c0ef65832d403bfd4d91eb11d9d805c568022).
+
+  [Windows](https://download.pqabelian.io/release/abec/abec-windows-amd64-v2.0.2.zip) | 
+  [macOS](https://download.pqabelian.io/release/abec/abec-macos-amd64-v2.0.2.tar.gz) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abec/abec-macos-arm64-v2.0.2.tar.gz) | 
+  [Linux](https://download.pqabelian.io/release/abec/abec-linux-amd64-v2.0.2.tar.gz) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abec/abec-linux-arm64-v2.0.2.tar.gz)
+
 - **2025-04-02-v2.0.1**
   - Enable updated Token Release Schedule
   - Add checkpoints with height 300000,340000,360000

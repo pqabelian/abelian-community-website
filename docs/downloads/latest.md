@@ -259,21 +259,20 @@ It is available on both iOS and Android platforms.
 ---
 
 ### Abelian Full Node
-- **Release Date**: `2025-04-02`
-- **Package**: `abec-v2.0.1`
+- **Release Date**: `2025-07-03`
+- **Package**: `abec-v2.0.2`
 - **Download Links**:
 <div class="button-container">
-  <a href="https://download.pqabelian.io/release/abec/abec-windows-amd64-v2.0.1.zip" class="btn">Windows</a>
-  <a href="https://download.pqabelian.io/release/abec/abec-macos-amd64-v2.0.1.tar.gz" class="btn">macOS</a>
-  <a href="https://download.pqabelian.io/release/abec/abec-macos-arm64-v2.0.1.tar.gz" class="btn">macOS (Apple Silicon)</a>
-  <a href="https://download.pqabelian.io/release/abec/abec-linux-amd64-v2.0.1.tar.gz" class="btn">Linux</a>
-  <a href="https://download.pqabelian.io/release/abec/abec-linux-arm64-v2.0.1.tar.gz" class="btn">Linux (ARM)</a>
+  <a href="https://download.pqabelian.io/release/abec/abec-windows-amd64-v2.0.2.zip" class="btn">Windows</a>
+  <a href="https://download.pqabelian.io/release/abec/abec-macos-amd64-v2.0.2.tar.gz" class="btn">macOS</a>
+  <a href="https://download.pqabelian.io/release/abec/abec-macos-arm64-v2.0.2.tar.gz" class="btn">macOS (Apple Silicon)</a>
+  <a href="https://download.pqabelian.io/release/abec/abec-linux-amd64-v2.0.2.tar.gz" class="btn">Linux</a>
+  <a href="https://download.pqabelian.io/release/abec/abec-linux-arm64-v2.0.2.tar.gz" class="btn">Linux (ARM)</a>
 </div>
 
 ::: info <Badge type="warning" text="RELEASE NOTES" />
-1. Enable updated Token Release Schedule
-2. Add checkpoints with height 400,000
-3. Storage space requirements for running nodes: Normal Node = 250GB, Semi-Full Node = 150GB, Full Node = 1.2TB.
+- Add checkpoints with height 400,000 (Hash: 73a434b741b357e37587b1b0a39c0ef65832d403bfd4d91eb11d9d805c568022).
+- Storage space requirements for running nodes: Normal Node > 160GB, Semi-Full Node > 240G, Full Node > 1.2TB.
 
 **For more details, Please view the link below:**
 - https://www.pqabelian.io/blog/abelian-network-hard-fork-introducing-multi-level-privacy-and-user-token-protocol-at-block-height-300-000

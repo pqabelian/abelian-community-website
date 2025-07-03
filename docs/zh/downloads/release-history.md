@@ -218,6 +218,15 @@ outline: deep
 ## Abelian 全节点
 `[abec]`
 
+- **2025-07-03-v2.0.2**
+  - 添加 400,000 高度的检查点（哈希值：73a434b741b357e37587b1b0a39c0ef65832d403bfd4d91eb11d9d805c568022）
+
+  [Windows](https://download.pqabelian.io/release/abec/abec-windows-amd64-v2.0.2.zip) | 
+  [macOS](https://download.pqabelian.io/release/abec/abec-macos-amd64-v2.0.2.tar.gz) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abec/abec-macos-arm64-v2.0.2.tar.gz) | 
+  [Linux](https://download.pqabelian.io/release/abec/abec-linux-amd64-v2.0.2.tar.gz) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abec/abec-linux-arm64-v2.0.2.tar.gz)
+
 - **2025-04-02-v2.0.1**
   - 启用更新的代币释放计划
   - 添加 300000、340000、360000 高度的检查点
