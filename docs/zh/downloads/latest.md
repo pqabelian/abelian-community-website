@@ -220,15 +220,15 @@ outline: deep
 ---
 
 ### Abelian 桌面钱包经典版
-- **发布日期**： `2025-06-30`
-- **软件包**： `abelian-desktop-wallet-legacy-v4.4.0`
+- **发布日期**： `2025-07-03`
+- **软件包**： `abelian-desktop-wallet-legacy-v4.4.1`
 - **下载链接**：
 <div class="button-container">
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v4.4.0.exe" class="btn">Windows</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-amd64-v4.4.0.dmg" class="btn">macOS</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-arm64-v4.4.0.dmg" class="btn">macOS (Apple Silicon)</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-amd64-v4.4.0.deb" class="btn">Linux</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-arm64-v4.4.0.deb" class="btn">Linux (ARM)</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v4.4.1.exe" class="btn">Windows</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-amd64-v4.4.1.dmg" class="btn">macOS</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-arm64-v4.4.1.dmg" class="btn">macOS (Apple Silicon)</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-amd64-v4.4.1.deb" class="btn">Linux</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-arm64-v4.4.1.deb" class="btn">Linux (ARM)</a>
 </div>
 
 ::: warning <Badge type="tip" text="重要提示" />
@@ -245,13 +245,14 @@ outline: deep
 **为什么要升级？**
 - MLP 钱包地址在无需记住任何序列号（即最大可恢复的钱包数量）的情况下显著更易于使用。此外，您可以首次选择创建多个具有不同隐私级别的 MLP 地址，包括完全私密或伪私密。
 
-**v4.4.0 升级说明:**
+**v4.4.1 升级说明:**
 - 启用自适应同步机制，适应不同网络环境；
 - 改进状态页面的同步时间估算；
 - 在交易页面添加余额变化颜色标识；
 - 账户选择中增加状态指示灯；
 - 限制账户数量至100个，优化多账户同步稳定性;
-- 此 Legacy 软件的正式名称是 “Abelian Wallet Legacy”。例如，如果您是 macOS 用户，您会在应用程序文件夹中找到这个软件名称为 “Abelian Wallet Legacy”，而不是旧版本的 “Abelian Wallet”。
+- 此 Legacy 软件的正式名称是 “Abelian Wallet Legacy”。例如，如果您是 macOS 用户，您会在应用程序文件夹中找到这个软件名称为 “Abelian Wallet Legacy”，而不是旧版本的 “Abelian Wallet”；
+- 应用程序优化和修复一些 bug。
 :::
 
 ---

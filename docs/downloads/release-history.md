@@ -87,18 +87,19 @@ We provide the packages of previous versions mainly for archive purposes. Please
 ## Abelian Desktop Wallet Legacy
 `abelian-desktop-wallet / abelian-desktop-wallet-legacy`
 
-- **2025-06-30-v4.4.0**
+- **2025-07-03-v4.4.1**
   - Enabled adaptive sync for various networks.
   - Improved sync time estimates on the Status Page.
   - Added color indicators for balance changes on the Tx Page.
   - Added status lights in Account Select.
   - Limited accounts to 100 for better multi-account sync stability.
+  - This legacy software is officially called "Abelian Wallet Legacy". For example, if you are a macOS user, you will find this software called "Abelian Wallet Legacy" rather than "Abelian Wallet" under the Applications folder.
 
-  [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v4.4.0.exe) | 
-  [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-amd64-v4.4.0.dmg) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-arm64-v4.4.0.dmg) | 
-  [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-amd64-v4.4.0.deb) | 
-  [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-arm64-v4.4.0.deb)
+  [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v4.4.1.exe) | 
+  [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-amd64-v4.4.1.dmg) | 
+  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-arm64-v4.4.1.dmg) | 
+  [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-amd64-v4.4.1.deb) | 
+  [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-arm64-v4.4.1.deb)
 
 - **2025-06-04-v4.3.0**
   - Change to DMG installer for macOS.
