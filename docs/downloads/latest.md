@@ -192,7 +192,8 @@ It is available on both iOS and Android platforms.
 
 ### Abelian Desktop Wallet Pro (MLP)
 - **Release Date**: `2025-04-23`
-- **Package**: `abelian-desktop-wallet-pro-v1.0.3`
+- **Package Nanme**: `abelian-desktop-wallet-pro-v1.0.3`
+- **Package Size**: `≈ 128MB`
 - **Download Links**:
 <div class="button-container">
   <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v1.0.3.zip" class="btn">Windows</a>
@@ -222,7 +223,8 @@ It is available on both iOS and Android platforms.
 
 ### Abelian Desktop Wallet Legacy
 - **Release Date**: `2025-07-03`
-- **Package**: `abelian-desktop-wallet-legacy-v4.4.1`
+- **Package Name**: `abelian-desktop-wallet-legacy-v4.4.1`
+- **Package Size**: `≈ 120MB`
 - **Download Links**:
 <div class="button-container">
   <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v4.4.1.exe" class="btn">Windows</a>
@@ -260,7 +262,8 @@ It is available on both iOS and Android platforms.
 
 ### Abelian Full Node
 - **Release Date**: `2025-07-03`
-- **Package**: `abec-v2.0.2`
+- **Package Name**: `abec-v2.0.2`
+- **Package Size**: `≈ 20MB`
 - **Download Links**:
 <div class="button-container">
   <a href="https://download.pqabelian.io/release/abec/abec-windows-amd64-v2.0.2.zip" class="btn">Windows</a>
@@ -272,7 +275,7 @@ It is available on both iOS and Android platforms.
 
 ::: info <Badge type="warning" text="RELEASE NOTES" />
 - Add checkpoints with height 400,000 (Hash: 73a434b741b357e37587b1b0a39c0ef65832d403bfd4d91eb11d9d805c568022).
-- Storage space requirements for running nodes: Normal Node > 160GB, Semi-Full Node > 240G, Full Node > 1.2TB.
+- Storage space requirements for running nodes: Normal Node ≈ 160GB, Semi-Full Node ≈ 240G, Full Node ≈ 1.2TB.
 
 **For more details, Please view the link below:**
 - https://www.pqabelian.io/blog/abelian-network-hard-fork-introducing-multi-level-privacy-and-user-token-protocol-at-block-height-300-000
@@ -284,7 +287,8 @@ It is available on both iOS and Android platforms.
 
 ### Abelian GPU Mining Client
 - **Release Date**: `2023-05-31`
-- **Package**: `abelminer-v2.0.3`
+- **Package Name**: `abelminer-v2.0.3`
+- **Package Size**: `≈ 36MB`
 - **Download Links**:
 <div class="button-container">
   <a href="https://download.pqabelian.io/release/pool/abelminer-windows-amd64-v2.0.3.zip" class="btn">Windows</a>
@@ -302,7 +306,8 @@ It is available on both iOS and Android platforms.
 
 ### Abelian CPU Mining Client
 - **Release Date**: `2023-05-28`
-- **Package**: `abe-miningpool-client-v0.13.0`
+- **Package Name**: `abe-miningpool-client-v0.13.0`
+- **Package Size**: `≈ 5MB`
 - **Download Links**:
 <div class="button-container">
   <a href="https://download.pqabelian.io/release/pool/abe-miningpool-client-windows-amd64-v0.13.0.zip" class="btn">Windows</a>
@@ -316,7 +321,8 @@ It is available on both iOS and Android platforms.
 
 ### Abelian CLI Wallet (MLP)
 - **Release Date**: `2024-12-19`
-- **Package**: `abewalletmlp-v2.0.0`
+- **Package Name**: `abewalletmlp-v2.0.0`
+- **Package Size**: `≈ 16MB`
 - **Download Links**:
 <div class="button-container">
   <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-windows-amd64-v2.0.0.zip" class="btn">Windows</a>
@@ -342,7 +348,8 @@ It is available on both iOS and Android platforms.
 
 ### Abelian CLI Wallet Legacy
 - **Release Date**: `2024-08-04`
-- **Package**: `abewalletlegacy-v1.0.0`
+- **Package Name**: `abewalletlegacy-v1.0.0`
+- **Package Size**: `≈ 23MB`
 - **Download Links**:
 <div class="button-container">
   <a href="https://download.pqabelian.io/release/abewallet/abewalletlegacy-windows-amd64-v1.0.0.zip" class="btn">Windows</a>

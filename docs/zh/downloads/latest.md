@@ -191,7 +191,8 @@ outline: deep
 
 ### Abelian 桌面钱包专业版 (MLP)
 - **发布日期**: `2025-04-23`
-- **软件包**: `abelian-desktop-wallet-pro-v1.0.3`
+- **软件名称**: `abelian-desktop-wallet-pro-v1.0.3`
+- **软件大小**: `≈ 128MB`
 - **下载链接**:
 <div class="button-container">
   <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v1.0.3.zip" class="btn">Windows</a>
@@ -221,7 +222,8 @@ outline: deep
 
 ### Abelian 桌面钱包经典版
 - **发布日期**： `2025-07-03`
-- **软件包**： `abelian-desktop-wallet-legacy-v4.4.1`
+- **软件名称**： `abelian-desktop-wallet-legacy-v4.4.1`
+- **软件大小**： `≈ 120MB`
 - **下载链接**：
 <div class="button-container">
   <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v4.4.1.exe" class="btn">Windows</a>
@@ -259,7 +261,8 @@ outline: deep
 
 ### Abelian 全节点
 - **发布日期**： `2025-07-03`
-- **软件包**： `abec-v2.0.2`
+- **软件名称**： `abec-v2.0.2`
+- **软件大小**： `≈ 20MB`
 - **下载链接**：
 <div class="button-container">
   <a href="https://download.pqabelian.io/release/abec/abec-windows-amd64-v2.0.2.zip" class="btn">Windows</a>
@@ -271,7 +274,7 @@ outline: deep
 
 ::: info <Badge type="warning" text="发布说明" />
 - 添加 400,000 高度的检查点（哈希值：73a434b741b357e37587b1b0a39c0ef65832d403bfd4d91eb11d9d805c568022）
-- 运行节点各模式存储空间需求：Normal Node > 160GB、Semi-Full Node > 240GB、Full Node > 1.2TB
+- 运行节点各模式存储空间需求：Normal Node ≈ 160GB、Semi-Full Node ≈ 240GB、Full Node ≈ 1.2TB
 
 **了解更多详情，请查看以下链接：**
 - https://www.pqabelian.io/blog/abelian-network-hard-fork-introducing-multi-level-privacy-and-user-token-protocol-at-block-height-300-000
@@ -283,7 +286,8 @@ outline: deep
 
 ### Abelian 显卡挖矿客户端
 - **发布日期**： `2023-05-31`
-- **软件包**： `abelminer-v2.0.3`
+- **软件名称**： `abelminer-v2.0.3`
+- **软件大小**： `≈ 36MB`
 - **下载链接**：
 <div class="button-container">
   <a href="https://download.pqabelian.io/release/pool/abelminer-windows-amd64-v2.0.3.zip" class="btn">Windows</a>
@@ -301,7 +305,8 @@ outline: deep
 
 ### Abelian CPU 挖矿客户端
 - **发布日期**： `2023-05-28`
-- **软件包**： `abe-miningpool-client-v0.13.0`
+- **软件名称**： `abe-miningpool-client-v0.13.0`
+- **软件大小**： `≈ 23MB`
 - **下载链接**：
 <div class="button-container">
   <a href="https://download.pqabelian.io/release/pool/abe-miningpool-client-windows-amd64-v0.13.0.zip" class="btn">Windows</a>
@@ -315,7 +320,8 @@ outline: deep
 
 ### Abelian 多层隐私钱包 (CLI)
 - **发布日期**： `2024-12-19`
-- **软件包**： `abewalletmlp-v2.0.0`
+- **软件名称**： `abewalletmlp-v2.0.0`
+- **软件大小**： `≈ 16MB`
 - **下载链接**：
 <div class="button-container">
   <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-windows-amd64-v2.0.0.zip" class="btn">Windows</a>
@@ -341,7 +347,8 @@ outline: deep
 
 ### Abelian 经典钱包 (CLI)
 - **发布日期**： `2024-08-04`
-- **软件包**： `abewalletlegacy-v1.0.0`
+- **软件名称**： `abewalletlegacy-v1.0.0`
+- **软件大小**： `≈ 23MB`
 - **下载链接**：
 <div class="button-container">
   <a href="https://download.pqabelian.io/release/abewallet/abewalletlegacy-windows-amd64-v1.0.0.zip" class="btn">Windows</a>
