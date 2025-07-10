@@ -298,23 +298,23 @@ It is available on both iOS and Android platforms.
 ::: info <Badge type="warning" text="GUIDE FOR MINERS" />
 1. The Abelian graphics card mining client can be used for solo mining and pool mining.
 2. Mining Pool Website: https://maxpool.org/
-3. Please download the compressed package and then visit the mining pool website to read the [Quickstart Guide](https://maxpool.org/home/guide).
-4. Please join our [Discord Server](https://discord.com/invite/5rrDxP29hx) and go to the mining channel (under 'how-to-mine-abel' after 'verify-yourself') to get the latest guide for GPU solo mining.
+3. Please visit the mining pool website for the [Quick Start Guide](https://maxpool.org/home/guide) and select the suitable hardware and system platform to set up mining.
+4. Please join our [Discord community](https://discord.com/invite/5rrDxP29hx) and go to the mining channel (under 'how-to-mine-abel' after 'verify-yourself') to get the latest guide for GPU solo mining.
 :::
 
 ---
 
 ### Abelian CPU Mining Client
-- **Release Date**: `2023-05-28`
-- **Package Name**: `abe-miningpool-client-v0.13.0`
-- **Package Size**: `≈ 5MB`
+- **Release Date**: `2023-07-10`
+- **Package Name**: `abelminer-cpu-v0.13.1`
+- **Package Size**: `≈ 5.5MB`
 - **Download Links**:
 <div class="button-container">
-  <a href="https://download.pqabelian.io/release/pool/abe-miningpool-client-windows-amd64-v0.13.0.zip" class="btn">Windows</a>
-  <a href="https://download.pqabelian.io/release/pool/abe-miningpool-client-macos-amd64-v0.13.0.tar.gz" class="btn">macOS</a>
-  <a href="https://download.pqabelian.io/release/pool/abe-miningpool-client-macos-arm64-v0.13.0.tar.gz" class="btn">macOS (Apple Silicon)</a>
-  <a href="https://download.pqabelian.io/release/pool/abe-miningpool-client-linux-amd64-v0.13.0.tar.gz" class="btn">Linux</a>
-  <a href="https://download.pqabelian.io/release/pool/abe-miningpool-client-linux-arm64-v0.13.0.tar.gz" class="btn">Linux (ARM)</a>
+  <a href="https://download.pqabelian.io/release/pool/abelminer-cpu-windows-amd64-v0.13.1.zip" class="btn">Windows</a>
+  <a href="https://download.pqabelian.io/release/pool/abelminer-cpu-macos-amd64-v0.13.1.tar.gz" class="btn">macOS</a>
+  <a href="https://download.pqabelian.io/release/pool/abelminer-cpu-macos-arm64-v0.13.1.tar.gz" class="btn">macOS (Apple Silicon)</a>
+  <a href="https://download.pqabelian.io/release/pool/abelminer-cpu-linux-amd64-v0.13.1.tar.gz" class="btn">Linux</a>
+  <a href="https://download.pqabelian.io/release/pool/abelminer-cpu-linux-arm64-v0.13.1.tar.gz" class="btn">Linux (ARM)</a>
 </div>
 
 ---
@@ -341,7 +341,7 @@ It is available on both iOS and Android platforms.
 - Facilitate the import/export of mnemonic phrases across Desktop Wallet Pro v1.0.0 and Abelian CLI Wallet (MLP) v2.0.0.
 
 **For more details, Please view the link below:**
-- https://pqabelian.medium.com/abelian-multi-layer-privacy-wallet-cli-user-guide-0a6dfe3a937d
+- https://www.pqabelian.io/blog/abelian-multi-layer-privacy-wallet-cli-user-guide
 :::
 
 ---

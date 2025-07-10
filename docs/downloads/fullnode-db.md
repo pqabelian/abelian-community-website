@@ -69,6 +69,8 @@ Starting from version 4.2.0 of the Abelian Desktop Wallet Classic (Legacy), the 
 
 ### Default Data Directory Location
 
+The default for the Abec mainnet in Abelian Desktop Wallet Classic (Legacy) version 4.1.1 uses normal-fullnode, with the default data directory location as follows:
+
 Developers or individual Solo mining users of Abelian need to download the Abec Mainnet/Testnet (Normal-Full Node) data package, with the default data directory location as follows:
 
 #### (Mainnet)

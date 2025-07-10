@@ -5,6 +5,10 @@ outline: deep
 
 # 部署指南
 
+## 概述
+
+本指南旨在帮助您在您的计算机上安装和运行 Abelian 区块链程序。我们将一步步地引导你完成这个过程，确保你可以顺利开始使用 Abec 和 Abewallet。如果你有任何问题或需要进一步的指导，请随时在我们的 [Discord 社区](https://discord.com/invite/5rrDxP29hx) 的挖矿频道（在 “verify-yourself” 之后前往 “how-to-mine-abel” 子频道）中寻求帮助。让我们开始吧！
+
 ## 1. 安装
 
 有三个软件组件：**abec**、**abewallet** 和 **abectl**。它们被打包成两个压缩文件下载，例如对于运行在 x86 架构上的 macOS（例如 Intel 芯片），文件名类似于 **abec-macos-amd64-v1.0.0.tar.gz** 和 **abewalletmlp-macos-amd64-v1.0.1.tar.gz**。更多信息可以在 Discord 中找到。

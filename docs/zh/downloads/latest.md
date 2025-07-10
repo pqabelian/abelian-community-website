@@ -295,25 +295,25 @@ outline: deep
 </div>
 
 ::: info <Badge type="warning" text="矿工指南" />
-1. Abelian 显卡挖矿客户端可用于 Solo 挖矿和矿池挖矿。
+1. Abelian 显卡挖矿客户端可用于 Solo 挖矿和矿池挖矿；
 2. 矿池网站：https://maxpool.org/
-3. 请下载压缩包，然后访问矿池网站阅读 [快速入门指南](https://maxpool.org/home/guide)。
-4. 请加入我们的 [Discord 服务器](https://discord.com/invite/5rrDxP29hx)，并前往挖矿频道（在 “verify-yourself” 之后前往 “how-to-mine-abel” 子频道）获取 GPU Solo 挖矿的最新指南。
+3. 请访问矿池网站阅读 [快速入门指南](https://maxpool.org/home/guide)，选择适合您的硬件和系统平台按照步骤部署挖矿；
+4. 请加入我们的 [Discord 社区](https://discord.com/invite/5rrDxP29hx)，并前往挖矿频道（在 “verify-yourself” 之后前往 “how-to-mine-abel” 子频道）获取 GPU Solo 挖矿的最新指南。
 :::
 
 ---
 
 ### Abelian CPU 挖矿客户端
-- **发布日期**： `2023-05-28`
-- **软件名称**： `abe-miningpool-client-v0.13.0`
-- **软件大小**： `≈ 23MB`
+- **发布日期**： `2025-07-10`
+- **软件名称**： `abelminer-cpu-v0.13.1`
+- **软件大小**： `≈ 5.5MB`
 - **下载链接**：
 <div class="button-container">
-  <a href="https://download.pqabelian.io/release/pool/abe-miningpool-client-windows-amd64-v0.13.0.zip" class="btn">Windows</a>
-  <a href="https://download.pqabelian.io/release/pool/abe-miningpool-client-macos-amd64-v0.13.0.tar.gz" class="btn">macOS</a>
-  <a href="https://download.pqabelian.io/release/pool/abe-miningpool-client-macos-arm64-v0.13.0.tar.gz" class="btn">macOS (Apple Silicon)</a>
-  <a href="https://download.pqabelian.io/release/pool/abe-miningpool-client-linux-amd64-v0.13.0.tar.gz" class="btn">Linux</a>
-  <a href="https://download.pqabelian.io/release/pool/abe-miningpool-client-linux-arm64-v0.13.0.tar.gz" class="btn">Linux (ARM)</a>
+  <a href="https://download.pqabelian.io/release/pool/abelminer-cpu-windows-amd64-v0.13.1.zip" class="btn">Windows</a>
+  <a href="https://download.pqabelian.io/release/pool/abelminer-cpu-macos-amd64-v0.13.1.tar.gz" class="btn">macOS</a>
+  <a href="https://download.pqabelian.io/release/pool/abelminer-cpu-macos-arm64-v0.13.1.tar.gz" class="btn">macOS (Apple Silicon)</a>
+  <a href="https://download.pqabelian.io/release/pool/abelminer-cpu-linux-amd64-v0.13.1.tar.gz" class="btn">Linux</a>
+  <a href="https://download.pqabelian.io/release/pool/abelminer-cpu-linux-arm64-v0.13.1.tar.gz" class="btn">Linux (ARM)</a>
 </div>
 
 ---
@@ -340,7 +340,7 @@ outline: deep
 - 方便在桌面钱包专业版 v1.0.0 和 Abelian 多层隐私钱包 (CLI) v2.0.0 之间导入/导出助记词。
 
 **更多详情，请查看以下链接：**
-- https://pqabelian.medium.com/abelian-multi-layer-privacy-wallet-cli-user-guide-0a6dfe3a937d
+- https://www.pqabelian.io/blog/abelian-multi-layer-privacy-wallet-cli-user-guide
 :::
 
 ---

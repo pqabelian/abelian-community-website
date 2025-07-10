@@ -4,6 +4,10 @@ outline: deep
 
 # Get Started
 
+## Overview
+
+This guide aims to help you install and run the Abelian blockchain program on your computer. We will walk you through the process step by step to ensure you can smoothly start using Abec and Abewallet. If you have any questions or need further assistance, feel free to seek help in our [Discord community](https://discord.com/invite/5rrDxP29hx) in the mining channel (go to the "how-to-mine-abel" sub-channel after "verify-yourself"). Let's get started!
+
 ## 1. Installation
 There are three pieces of software: **abec**, **abewallet** and **abectl**. They are downloaded in two compressed files, something like **abec-macos-amd64-v1.0.0.tar.gz** and **abewalletmlp-macos-amd64-v1.0.1.tar.gz** for macOS running on an x86 architecture (e.g. Intel chips). More information can be found in the Discord.
 

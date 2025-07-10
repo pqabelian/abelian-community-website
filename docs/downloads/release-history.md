@@ -327,7 +327,15 @@ We provide the packages of previous versions mainly for archive purposes. Please
   [Linux](https://download.abelian.info/release/pool/abelminer-linux-amd64-v2.0.1.b.tar.gz)
 
 ## Abelian CPU Mining Client
-`abe-miningpool-client`
+`abe-miningpool-client`/`abelminer-cpu`
+
+- **2025-07-10-v0.13.1**
+
+  [Windows](https://download.abelian.info/release/pool/abelminer-cpu-windows-amd64-v0.13.1.zip) | 
+  [macOS](https://download.abelian.info/release/pool/abelminer-cpu-macos-amd64-v0.13.1.tar.gz) | 
+  [macOS (Apple silicon)](https://download.abelian.info/release/pool/abelminer-cpu-macos-arm64-v0.13.1.tar.gz) | 
+  [Linux](https://download.abelian.info/release/pool/abelminer-cpu-linux-amd64-v0.13.1.tar.gz) | 
+  [Linux (ARM)](https://download.abelian.info/release/pool/abelminer-cpu-linux-arm64-v0.13.1.tar.gz)
 
 - **2024-05-28-v0.13.0**
 
