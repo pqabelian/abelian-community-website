@@ -292,15 +292,15 @@ It is available on both iOS and Android platforms.
 
 ### Abelian GPU Mining Client
 - **Release Date**: `2023-05-31`
-- **Package Name**: `abelminer-v2.0.3`
+- **Package Name**: `abelminer-v2.0.4`
 - **Package Size**: `≈ 36MB`
 - **Download Links**:
 <div class="button-container">
-  <a href="https://download.pqabelian.io/release/pool/abelminer-windows-amd64-v2.0.3.zip" class="btn">Windows</a>
-  <a href="https://download.pqabelian.io/release/pool/abelminer-linux-amd64-v2.0.3.tar.gz" class="btn">Linux</a>
+  <a href="https://download.pqabelian.io/release/pool/abelminer-windows-amd64-v2.0.4.zip" class="btn">Windows</a>
+  <a href="https://download.pqabelian.io/release/pool/abelminer-linux-amd64-v2.0.4.tar.gz" class="btn">Linux</a>
 </div>
 
-::: info <Badge type="warning" text="GUIDE FOR MINERS" />
+::: info <Badge type="warning" text="GUIDE FOR GPU MINERS" />
 1. The Abelian graphics card mining client can be used for solo mining and pool mining.
 2. Mining Pool Website: https://maxpool.org/
 3. Please visit the mining pool website for the [Quick Start Guide](https://maxpool.org/home/guide) and select the suitable hardware and system platform to set up mining.
@@ -321,6 +321,13 @@ It is available on both iOS and Android platforms.
   <a href="https://download.pqabelian.io/release/pool/abelminer-cpu-linux-amd64-v0.13.1.tar.gz" class="btn">Linux</a>
   <a href="https://download.pqabelian.io/release/pool/abelminer-cpu-linux-arm64-v0.13.1.tar.gz" class="btn">Linux (ARM)</a>
 </div>
+
+::: info <Badge type="warning" text="GUIDE FOR CPU MINERS" />
+1. This Abelian CPU mining client can be used by everyone who has a PC/laptop for ABEL mining.
+2. This is optimized for pool mining.Mining Pool Website: https://maxpool.org/
+3. Mining Pool Website: https://maxpool.org/. Please visit [Account/Settings](https://maxpool.org/account/settings) to read the CPU mining guide.
+4. If you have GPU cards, please check out the section above titled ["Abelian GPU Mining Client"](#abelian-gpu-mining-client) for GPU pool mining. If you want to do GPU solo mining, please join our [Discord community](https://discord.com/invite/5rrDxP29hx) and go to the mining channel (under 'how-to-mine-abel' after 'verify-yourself') to get the latest guide.
+:::
 
 ---
 

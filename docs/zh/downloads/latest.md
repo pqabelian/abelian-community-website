@@ -291,15 +291,15 @@ outline: deep
 
 ### Abelian 显卡挖矿客户端
 - **发布日期**： `2023-05-31`
-- **软件名称**： `abelminer-v2.0.3`
+- **软件名称**： `abelminer-v2.0.4`
 - **软件大小**： `≈ 36MB`
 - **下载链接**：
 <div class="button-container">
-  <a href="https://download.pqabelian.io/release/pool/abelminer-windows-amd64-v2.0.3.zip" class="btn">Windows</a>
-  <a href="https://download.pqabelian.io/release/pool/abelminer-linux-amd64-v2.0.3.tar.gz" class="btn">Linux</a>
+  <a href="https://download.pqabelian.io/release/pool/abelminer-windows-amd64-v2.0.4.zip" class="btn">Windows</a>
+  <a href="https://download.pqabelian.io/release/pool/abelminer-linux-amd64-v2.0.4.tar.gz" class="btn">Linux</a>
 </div>
 
-::: info <Badge type="warning" text="矿工指南" />
+::: info <Badge type="warning" text="显卡矿工指南" />
 1. Abelian 显卡挖矿客户端可用于 Solo 挖矿和矿池挖矿；
 2. 矿池网站：https://maxpool.org/
 3. 请访问矿池网站阅读 [快速入门指南](https://maxpool.org/home/guide)，选择适合您的硬件和系统平台按照步骤部署挖矿；
@@ -320,6 +320,13 @@ outline: deep
   <a href="https://download.pqabelian.io/release/pool/abelminer-cpu-linux-amd64-v0.13.1.tar.gz" class="btn">Linux</a>
   <a href="https://download.pqabelian.io/release/pool/abelminer-cpu-linux-arm64-v0.13.1.tar.gz" class="btn">Linux (ARM)</a>
 </div>
+
+::: info <Badge type="warning" text="CPU 矿工指南" />
+1. 此 Abelian CPU 挖矿客户端可以被所有拥有 PC/笔记本电脑的人用于 ABEL 挖矿；
+2. 该客户端针对矿池挖矿进行了优化。矿池网站：https://maxpool.org/
+3. 矿池网站：https://maxpool.org/，请访问 [账户设置](https://maxpool.org/account/settings) 阅读 CPU 挖矿指南。
+4. 如果你有 GPU 显卡，请查看上面标题为 [“Abelian GPU 挖矿客户端”](#abelian-显卡挖矿客户端) 的部分以获取 GPU 矿池挖矿信息。如果你想进行 GPU 单独挖矿，请加入我们的 [Discord 社区](https://discord.com/invite/5rrDxP29hx)，并进入挖矿频道（在“verify-yourself”后面的“how-to-mine-abel”下）获取最新指南。
+:::
 
 ---
 
