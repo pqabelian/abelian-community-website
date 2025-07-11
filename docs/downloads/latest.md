@@ -324,7 +324,7 @@ It is available on both iOS and Android platforms.
 
 ::: info <Badge type="warning" text="GUIDE FOR CPU MINERS" />
 1. This Abelian CPU mining client can be used by everyone who has a PC/laptop for ABEL mining.
-2. This is optimized for pool mining.Mining Pool Website: https://maxpool.org/
+2. This is optimized for pool mining. Mining Pool Website: https://maxpool.org/
 3. Mining Pool Website: https://maxpool.org/. Please visit [Account/Settings](https://maxpool.org/account/settings) to read the CPU mining guide.
 4. If you have GPU cards, please check out the section above titled ["Abelian GPU Mining Client"](#abelian-gpu-mining-client) for GPU pool mining. If you want to do GPU solo mining, please join our [Discord community](https://discord.com/invite/5rrDxP29hx) and go to the mining channel (under 'how-to-mine-abel' after 'verify-yourself') to get the latest guide.
 :::
