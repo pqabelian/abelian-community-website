@@ -191,11 +191,9 @@ It is available on both iOS and Android platforms.
 3. After creating the new wallet account (MLP address), Backup the 24-word mnemonic (recovery phrase) in Account "Profile." This mnemonic can be imported using the Desktop Wallet Pro.
 :::
 
-## Abelian Desktop Applications
-
 ---
 
-### Abelian Desktop Wallet Pro (MLP)
+## Desktop Wallet Pro (MLP)
 - **Release Date**: `2025-04-23`
 - **Package Nanme**: `abelian-desktop-wallet-pro-v1.0.3`
 - **Package Size**: `≈ 128MB`
@@ -226,7 +224,7 @@ It is available on both iOS and Android platforms.
 
 ---
 
-### Abelian Desktop Wallet Legacy
+## Desktop Wallet Legacy
 - **Release Date**: `2025-07-03`
 - **Package Name**: `abelian-desktop-wallet-legacy-v4.4.1`
 - **Package Size**: `≈ 120MB`
@@ -265,7 +263,7 @@ It is available on both iOS and Android platforms.
 
 ---
 
-### Abelian Full Node
+## CLI Node
 - **Release Date**: `2025-07-03`
 - **Package Name**: `abec-v2.0.2`
 - **Package Size**: `≈ 20MB`
@@ -290,7 +288,7 @@ It is available on both iOS and Android platforms.
 
 ---
 
-### Abelian GPU Mining Client
+## GPU Mining Client
 - **Release Date**: `2023-05-31`
 - **Package Name**: `abelminer-v2.0.4`
 - **Package Size**: `≈ 36MB`
@@ -309,17 +307,17 @@ It is available on both iOS and Android platforms.
 
 ---
 
-### Abelian CPU Mining Client
-- **Release Date**: `2023-07-10`
-- **Package Name**: `abelminer-cpu-v0.13.1`
+## CPU Mining Client
+- **Release Date**: `2023-07-18`
+- **Package Name**: `abelminer-cpu-v0.13.2`
 - **Package Size**: `≈ 5.5MB`
 - **Download Links**:
 <div class="button-container">
-  <a href="https://download.pqabelian.io/release/pool/abelminer-cpu-windows-amd64-v0.13.1.zip" class="btn">Windows</a>
-  <a href="https://download.pqabelian.io/release/pool/abelminer-cpu-macos-amd64-v0.13.1.tar.gz" class="btn">macOS</a>
-  <a href="https://download.pqabelian.io/release/pool/abelminer-cpu-macos-arm64-v0.13.1.tar.gz" class="btn">macOS (Apple Silicon)</a>
-  <a href="https://download.pqabelian.io/release/pool/abelminer-cpu-linux-amd64-v0.13.1.tar.gz" class="btn">Linux</a>
-  <a href="https://download.pqabelian.io/release/pool/abelminer-cpu-linux-arm64-v0.13.1.tar.gz" class="btn">Linux (ARM)</a>
+  <a href="https://download.pqabelian.io/release/pool/abelminer-cpu-windows-amd64-v0.13.2.zip" class="btn">Windows</a>
+  <a href="https://download.pqabelian.io/release/pool/abelminer-cpu-macos-amd64-v0.13.2.tar.gz" class="btn">macOS</a>
+  <a href="https://download.pqabelian.io/release/pool/abelminer-cpu-macos-arm64-v0.13.2.tar.gz" class="btn">macOS (Apple Silicon)</a>
+  <a href="https://download.pqabelian.io/release/pool/abelminer-cpu-linux-amd64-v0.13.2.tar.gz" class="btn">Linux</a>
+  <a href="https://download.pqabelian.io/release/pool/abelminer-cpu-linux-arm64-v0.13.2.tar.gz" class="btn">Linux (ARM)</a>
 </div>
 
 ::: info <Badge type="warning" text="GUIDE FOR CPU MINERS" />
@@ -331,7 +329,7 @@ It is available on both iOS and Android platforms.
 
 ---
 
-### Abelian CLI Wallet (MLP)
+## CLI Wallet (MLP)
 - **Release Date**: `2024-12-19`
 - **Package Name**: `abewalletmlp-v2.0.0`
 - **Package Size**: `≈ 16MB`
@@ -358,7 +356,7 @@ It is available on both iOS and Android platforms.
 
 ---
 
-### Abelian CLI Wallet Legacy
+## CLI Wallet Legacy
 - **Release Date**: `2024-08-04`
 - **Package Name**: `abewalletlegacy-v1.0.0`
 - **Package Size**: `≈ 23MB`

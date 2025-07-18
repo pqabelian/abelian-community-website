@@ -330,13 +330,13 @@ outline: deep
 ## Abelian CPU 挖矿客户端
 `abe-miningpool-client`/`abelminer-cpu`
 
-- **2025-07-10-v0.13.1**
+- **2025-07-18-v0.13.2**
 
-  [Windows](https://download.abelian.info/release/pool/abelminer-cpu-windows-amd64-v0.13.1.zip) | 
-  [macOS](https://download.abelian.info/release/pool/abelminer-cpu-macos-amd64-v0.13.1.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/pool/abelminer-cpu-macos-arm64-v0.13.1.tar.gz) | 
-  [Linux](https://download.abelian.info/release/pool/abelminer-cpu-linux-amd64-v0.13.1.tar.gz) | 
-  [Linux (ARM)](https://download.abelian.info/release/pool/abelminer-cpu-linux-arm64-v0.13.1.tar.gz)
+  [Windows](https://download.abelian.info/release/pool/abelminer-cpu-windows-amd64-v0.13.2.zip) | 
+  [macOS](https://download.abelian.info/release/pool/abelminer-cpu-macos-amd64-v0.13.2.tar.gz) | 
+  [macOS (Apple silicon)](https://download.abelian.info/release/pool/abelminer-cpu-macos-arm64-v0.13.2.tar.gz) | 
+  [Linux](https://download.abelian.info/release/pool/abelminer-cpu-linux-amd64-v0.13.2.tar.gz) | 
+  [Linux (ARM)](https://download.abelian.info/release/pool/abelminer-cpu-linux-arm64-v0.13.2.tar.gz)
 
 - **2024-05-28-v0.13.0**
 

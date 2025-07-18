@@ -56,6 +56,18 @@ export default defineConfig({
               items: [
                 { text: 'What is Abelian', link: '/guide/what-is-abelian'},
                 { text: 'Get Started', link: '/guide/get-started'},
+                { text: 'Abelian User Guide',
+                  collapsed: true,  
+                  items: [
+                    { text: 'Abelian Apps Basics', link: '/guide/index' },
+                    { text: 'Desktop Wallet Pro (MLP)', link: '/guide/wallet/desktop-wallet-pro' },
+                    { text: 'Desktop Wallet Legacy', link: '/guide/wallet/desktop-wallet-legacy' },
+                    { text: 'CLI Full Node', link: '/guide/cli-full-node' },
+                    { text: 'CLI Wallet (MLP)', link: '/guide/wallet/cli-wallet-mlp' },
+                    { text: 'CLI Wallet Legacy', link: '/guide/wallet/cli-wallet-legacy' },
+                    { text: 'GPU Mining', link: '/guide/mining/gpu-pool' }
+                  ]
+                },
                 { text: 'Abelian Tech Docs',
                   collapsed: false,
                   items: [
@@ -72,18 +84,6 @@ export default defineConfig({
                   collapsed: false,
                   items: [
                     { text: 'Whitepaper', link: '/guide/qday-whitepaper'}
-                  ]
-                },
-                { text: 'Abelian User Guide',
-                  collapsed: true,  
-                  items: [
-                    { text: 'Abelian Apps Basics', link: '/guide/index' },
-                    { text: 'Desktop Wallet Pro (MLP)', link: '/guide/wallet/desktop-wallet-pro' },
-                    { text: 'Desktop Wallet Legacy', link: '/guide/wallet/desktop-wallet-legacy' },
-                    { text: 'CLI Full Node', link: '/guide/cli-full-node' },
-                    { text: 'CLI Wallet (MLP)', link: '/guide/wallet/cli-wallet-mlp' },
-                    { text: 'CLI Wallet Legacy', link: '/guide/wallet/cli-wallet-legacy' },
-                    { text: 'GPU Mining', link: '/guide/mining/gpu-pool' }
                   ]
                 },
                 { text: 'QDay Testnet User Guide',

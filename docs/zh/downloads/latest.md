@@ -190,11 +190,9 @@ outline: deep
 3. 创建新的钱包账户（MLP 地址）后，在 “账户资料” 中备份 24 个单词的助记词（恢复短语），可以使用桌面钱包专业版导入此助记词。
 :::
 
-## Abelian 桌面应用程序
-
 ---
 
-### Abelian 桌面钱包专业版 (MLP)
+## 桌面钱包专业版 (MLP)
 - **发布日期**: `2025-04-23`
 - **软件名称**: `abelian-desktop-wallet-pro-v1.0.3`
 - **软件大小**: `≈ 128MB`
@@ -225,7 +223,7 @@ outline: deep
 
 ---
 
-### Abelian 桌面钱包经典版
+## 桌面钱包经典版
 - **发布日期**： `2025-07-03`
 - **软件名称**： `abelian-desktop-wallet-legacy-v4.4.1`
 - **软件大小**： `≈ 120MB`
@@ -264,7 +262,7 @@ outline: deep
 
 ---
 
-### Abelian 全节点
+## 全节点（CLI2
 - **发布日期**： `2025-07-03`
 - **软件名称**： `abec-v2.0.2`
 - **软件大小**： `≈ 20MB`
@@ -289,7 +287,7 @@ outline: deep
 
 ---
 
-### Abelian 显卡挖矿客户端
+## 显卡挖矿客户端
 - **发布日期**： `2023-05-31`
 - **软件名称**： `abelminer-v2.0.4`
 - **软件大小**： `≈ 36MB`
@@ -308,17 +306,17 @@ outline: deep
 
 ---
 
-### Abelian CPU 挖矿客户端
-- **发布日期**： `2025-07-10`
-- **软件名称**： `abelminer-cpu-v0.13.1`
+## CPU 挖矿客户端
+- **发布日期**： `2025-07-18`
+- **软件名称**： `abelminer-cpu-v0.13.2`
 - **软件大小**： `≈ 5.5MB`
 - **下载链接**：
 <div class="button-container">
-  <a href="https://download.pqabelian.io/release/pool/abelminer-cpu-windows-amd64-v0.13.1.zip" class="btn">Windows</a>
-  <a href="https://download.pqabelian.io/release/pool/abelminer-cpu-macos-amd64-v0.13.1.tar.gz" class="btn">macOS</a>
-  <a href="https://download.pqabelian.io/release/pool/abelminer-cpu-macos-arm64-v0.13.1.tar.gz" class="btn">macOS (Apple Silicon)</a>
-  <a href="https://download.pqabelian.io/release/pool/abelminer-cpu-linux-amd64-v0.13.1.tar.gz" class="btn">Linux</a>
-  <a href="https://download.pqabelian.io/release/pool/abelminer-cpu-linux-arm64-v0.13.1.tar.gz" class="btn">Linux (ARM)</a>
+  <a href="https://download.pqabelian.io/release/pool/abelminer-cpu-windows-amd64-v0.13.2.zip" class="btn">Windows</a>
+  <a href="https://download.pqabelian.io/release/pool/abelminer-cpu-macos-amd64-v0.13.2.tar.gz" class="btn">macOS</a>
+  <a href="https://download.pqabelian.io/release/pool/abelminer-cpu-macos-arm64-v0.13.2.tar.gz" class="btn">macOS (Apple Silicon)</a>
+  <a href="https://download.pqabelian.io/release/pool/abelminer-cpu-linux-amd64-v0.13.2.tar.gz" class="btn">Linux</a>
+  <a href="https://download.pqabelian.io/release/pool/abelminer-cpu-linux-arm64-v0.13.2.tar.gz" class="btn">Linux (ARM)</a>
 </div>
 
 ::: info <Badge type="warning" text="CPU 矿工指南" />
@@ -330,7 +328,7 @@ outline: deep
 
 ---
 
-### Abelian 多层隐私钱包 (CLI)
+## 多层隐私钱包 (CLI)
 - **发布日期**： `2024-12-19`
 - **软件名称**： `abewalletmlp-v2.0.0`
 - **软件大小**： `≈ 16MB`
@@ -357,7 +355,7 @@ outline: deep
 
 ---
 
-### Abelian 经典钱包 (CLI)
+## 经典钱包 (CLI)
 - **发布日期**： `2024-08-04`
 - **软件名称**： `abewalletlegacy-v1.0.0`
 - **软件大小**： `≈ 23MB`
