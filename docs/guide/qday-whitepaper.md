@@ -169,7 +169,7 @@ In other words, quantum-resistant transactions are entirely independent of legac
 
 ---
 
-The total supply of QDAY is 225,179,981, mirroring the total supply of ABEL. The distribution of QDAY is designed to ensure network security, incentivize participation, and foster community growth. The QDay DAO (Decentralized Autonomous Organization) will be responsible for the allocation of QDAY after TGE (Token Generation Event).
+The total supply of QDAY is  22,517,998,100, mirroring the total supply of ABEL. The distribution of QDAY is designed to ensure network security, incentivize participation, and foster community growth. The QDay DAO (Decentralized Autonomous Organization) will be responsible for the allocation of QDAY after TGE (Token Generation Event).
 
 ### 3.1 Token Distribution
 
