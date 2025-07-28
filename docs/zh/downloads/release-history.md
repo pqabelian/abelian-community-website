@@ -37,7 +37,7 @@ outline: deep
 ## Abelian Pro (Mobile)
 `abelian-mobile-wallet-pro / info.abelian.walletpro`
 
-- **2025-04-23-v1.0.3**
+- **2025-07-25-v3.0.0**
 
 - 优化交易历史缓存；
 - 修复了一些错误。
