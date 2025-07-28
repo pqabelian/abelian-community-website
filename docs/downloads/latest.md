@@ -164,7 +164,7 @@ outline: deep
      <span>Download our latest mobile wallet</span>
     </div>
     <div class="btn-wrapper">
-      <a href="https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v2.2.0.apk" class="btn-apk">APK</a>
+      <a href="https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v3.0.0.apk" class="btn-apk">APK</a>
       <a href="https://play.google.com/store/apps/details?id=info.abelian.walletpro" class="btn-base btn-android"></a>
       <a href="https://apps.apple.com/us/app/abelian-pro/id6475756639" class="btn-base btn-ios"></a>
     </div>
@@ -174,14 +174,9 @@ outline: deep
 The new mobile wallet is a complete rewrite of the previous mobile wallet and is designed to be more user-friendly and feature-rich.
 It is available on both iOS and Android platforms.
 
-**v2.2.0 Upgrade Notes:**
+**v3.0.0 Upgrade Notes:**
 
-1. Support full-privacy MLP account.
-2. Bug fixes.
-
-**v2.1.0 Upgrade Notes:**
-
-1. Added estimated send time on the sending screen.
+1. Optimise tx history cache.
 2. Bug fixes.
 
 **v2.0.0 Features:**

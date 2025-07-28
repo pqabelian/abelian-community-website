@@ -34,10 +34,21 @@ outline: deep
 We provide the packages of previous versions mainly for archive purposes. Please **ALWAYS** use the latest version in a production environment.
 :::
 
-## Abelian Desktop Wallet Pro (MLP)
-`abelian-desktop-wallet-pro`
+## Abelian Pro (Mobile)
+`abelian-mobile-wallet-pro / info.abelian.walletpro`
 
 - **2025-04-23-v1.0.3**
+
+- Optimise tx history cache.
+- Bug fixes.
+
+  [Android](https://download.abelian.info/release/android/abelian-mobile-wallet-pro-v3.0.0.apk) | 
+  [iOS](https://download.abelian.info/release/ios/abelian-mobile-wallet-pro-v3.0.0.aab)
+
+## Desktop Wallet Pro (MLP)
+`abelian-desktop-wallet-pro`
+
+- **2025-07-25-v3.0.0**
 
   - Faster transaction confirmations: Outputs are marked as spendable once available.
   - Optimized display of spendable amounts: The input field on the send page accurately shows available amounts to maximize subsequent transfers, with a new "MAX" button that automatically calculates and deducts transaction fees for a single recipient.
@@ -84,7 +95,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
   [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v1.0.0.zip) | 
   [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v1.0.0.zip)
 
-## Abelian Desktop Wallet Legacy
+## Desktop Wallet Legacy
 `abelian-desktop-wallet / abelian-desktop-wallet-legacy`
 
 - **2025-07-03-v4.4.1**
@@ -214,7 +225,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
   [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-arm64-v0.1.3.tar.gz) | 
   [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-linux-amd64-v0.1.3.tar.gz)
 
-## Abelian Full Node
+## CLI Node
 `[abec]`
 
 - **2025-07-03-v2.0.2**
@@ -309,7 +320,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
   [macOS (Apple silicon)](https://download.abelian.info/release/abec/abec-macos-arm64-v0.11.1.tar.gz) | 
   [Linux](https://download.abelian.info/release/abec/abec-linux-amd64-v0.11.1.tar.gz)
 
-## Abelian GPU Mining Client
+## GPU Mining Client
 `abelminer`
 
 - **2023-05-31-v2.0.3**
@@ -326,7 +337,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Linux](https://download.abelian.info/release/pool/abelminer-linux-amd64-v2.0.1.b.tar.gz)
 
-## Abelian CPU Mining Client
+## CPU Mining Client
 `abe-miningpool-client`/`abelminer-cpu`
 
 - **2025-07-18-v0.13.2*
@@ -361,7 +372,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
   [macOS (Apple silicon)](https://download.abelian.info/release/pool/abe-miningpool-client-macos-arm64-v0.11.5.tar.gz) | 
   [Linux](https://download.abelian.info/release/pool/abe-miningpool-client-linux-amd64-v0.11.5.tar.gz)
 
-## Abelian CLI Wallet (MLP)
+## CLI Wallet (MLP)
 `abewalletmlp`
 
 - **2024-12-19-v2.0.0**
@@ -380,7 +391,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
   [Linux](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-amd64-v1.0.1.tar.gz) | 
   [Linux (ARM)](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-arm64-v1.0.1.tar.gz)
 
-## Abelian CLI Wallet Legacy
+## CLI Wallet Legacy
 `abewallet / abewalletlegacy`
 
 - **2024-08-04-v1.0.0**
