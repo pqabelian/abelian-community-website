@@ -39,8 +39,9 @@ outline: deep
 
 - **2025-07-25-v3.0.0**
 
-- 优化交易历史缓存；
-- 修复了一些错误。
+  - 现在可以使用USDT和USDC购买ABEL！
+  - 优化交易历史缓存；
+  - 修复了一些错误。
 
   [Android](https://download.abelian.info/release/android/abelian-mobile-wallet-pro-v3.0.0.apk) | 
   [iOS](https://download.abelian.info/release/ios/abelian-mobile-wallet-pro-v3.0.0.aab)

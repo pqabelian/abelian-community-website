@@ -176,8 +176,9 @@ It is available on both iOS and Android platforms.
 
 **v3.0.0 Upgrade Notes:**
 
-1. Optimise tx history cache.
-2. Bug fixes.
+1. Buy ABEL using USDT and USDC are now available!
+2. Optimise tx history cache.
+3. Bug fixes.
 
 **v2.0.0 Features:**
 

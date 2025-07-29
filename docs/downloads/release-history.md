@@ -39,8 +39,9 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
 - **2025-07-25-v3.0.0**
 
-- Optimise tx history cache.
-- Bug fixes.
+  - Buy ABEL using USDT and USDC are now available!
+  - Optimise tx history cache.
+  - Bug fixes.
 
   [Android](https://download.abelian.info/release/android/abelian-mobile-wallet-pro-v3.0.0.apk) | 
   [iOS](https://download.abelian.info/release/ios/abelian-mobile-wallet-pro-v3.0.0.aab)
