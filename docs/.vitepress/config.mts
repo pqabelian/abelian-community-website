@@ -65,7 +65,8 @@ export default defineConfig({
                     { text: 'CLI Full Node', link: '/guide/cli-full-node' },
                     { text: 'CLI Wallet (MLP)', link: '/guide/wallet/cli-wallet-mlp' },
                     { text: 'CLI Wallet Legacy', link: '/guide/wallet/cli-wallet-legacy' },
-                    { text: 'GPU Mining', link: '/guide/mining/gpu-pool' }
+                    { text: 'GPU Mining', link: '/guide/mining/gpu-mining' },
+                    { text: 'CPU Mining', link: '/guide/mining/cpu-mining' }
                   ]
                 },
                 { text: 'Abelian Tech Docs',
