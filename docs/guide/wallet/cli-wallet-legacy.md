@@ -1,47 +1,85 @@
 ---
 outline: deep
+version_abec: v2.0.2
+version_abewalletlegacy: v1.0.0
 ---
 
 # Abelian CLI Wallet Legacy User Manual
 
 This document describes how to run an Abelian CLI wallet.
 
-Please refer to **Abelian Software Basics** to understand the software architecture first.
+Please refer to the [Abelian Applications Guide](/guide/) to understand the software architecture first. The legacy
+wallet (`abewalletlegacy`) works with the legacy Abelian address format and is primarily maintained for existing
+users.
 
-The [Official Abelian Download Page](/downloads/latest). To interact with other miners, developers and users, visit the [Official Discord Server] (https://discord.com/invite/5rrDxP29hx).
+Visit the [Official Abelian Download Page](/downloads/latest#abelian-cli-wallet-legacy) to download the software. To
+interact with other miners, developers and users, visit
+the [Official Discord Server](https://discord.com/invite/5rrDxP29hx).
 
-All the operations are carried out via the Command Line Interface (CLI). For Linux or macOS, open Terminal; and for Windows, open PowerShell or any of your favorite shell application.
+All operations are carried out via the Command Line Interface (CLI). For Linux or macOS, open Terminal; for Windows,
+open PowerShell or your preferred shell application.
 
-Note: For upgrading from an old version to the latest one, please jump directly to section, 9. **Upgrade to the Latest Version**.
+> [!TIP]
+> For upgrading from an old version to the latest one, please jump directly
+> to [Upgrade to Latest Version](#_7-upgrade-to-latest-version).
+
+> [!WARNING] Migration Recommended
+> We strongly recommend migrating to the [Multi-Layer Privacy (MLP) Wallet](/guide/wallet/cli-wallet-mlp) for enhanced
+> features and simplified recovery. The legacy wallet will be phased out in future releases.
+
+## Prerequisites
+
+### System Requirements
+
+- **Storage**: 160B+ (for Abelian node) or minimal (for remote connection)
+- **RAM**: 8GB+ (with Abelian node) or 2GB+ (remote only)
+- **Network**: Stable internet connection
+
+### Required Components
+
+1. **Abelian Full Node** (`abec`) - Follow the [Full Node Manual](/guide/cli-full-node)
+2. **Legacy CLI Wallet** (`abewalletlegacy`) - This guide
+3. **Wallet Control Tool** (`abewalletlegacyctl`) - Included with wallet
 
 ## 1. Installation
 
-Download two compressed files, something like `abec-linux-amd64-v1.0.0.tar.gz` and `abewalletlegacy-linux-amd64-v1.0.0.tar.gz` for Linux running on an x86 architecture (e.g. Intel chips).
+### Download and Extract
 
-Unzip them and put them under the same folder `~/abel/`:
+Download the compressed files for your platform:
 
-```bash
-~/abel/abec-linux-amd64-v1.0.0/
-~/abel/abewalletlegacy-linux-amd64-v1.0.0/
+- `abec-linux-amd64-{{ $frontmatter.version_abec }}.tar.gz` (Abelian node)
+- `abewalletlegacy-linux-amd64-{{ $frontmatter.version_abewalletlegacy }}.tar.gz` (Legacy wallet)
+
+Extract and place them under the `~/abel/` folder:
+
+```txt-vue
+~/abel/abec-linux-amd64-{{ $frontmatter.version_abec }}/
+~/abel/abewalletlegacy-linux-amd64-{{ $frontmatter.version_abewalletlegacy }}/
 ```
 
-There are three executable files: `abec` and `abectl` are in `~/abel/abec-linux-amd64-v1.0.0/` and `abewalletlegacy` in `~/abel/abewalletlegacy-linux-amd64-v1.0.0/`.
+### Initial Setup
 
-Go to `~/abel/abec-linux-amd64-v1.0.0/`, and run:
+**Create `abec` configuration folder:**
+
+Navigate to `~/abel/abec-linux-amd64-{{ $frontmatter.version_abec }}/` and run:
 
 ::: code-group
 
 ```txt [Windows]
-abec
+.\abec.exe
 ```
 
-```txt [macOS and Linux]
-./start_abec.sh
+```txt [macOS]
+sh start_abec.sh
+```
+
+```txt [Linux]
+sh start_abec.sh
 ```
 
 :::
 
-Then press `control+C` to stop it. By doing this, we create a configuration folder for `abec` located at:
+Press `Ctrl+C` to stop. This creates the configuration folder:
 
 ::: code-group
 
@@ -59,21 +97,27 @@ Then press `control+C` to stop it. By doing this, we create a configuration fold
 
 :::
 
-Next, go to `~/abel/abewalletlegacy-linux-amd64-v1.0.0/`, and run:
+**Create `abewalletlegacy` configuration folder:**
+
+Navigate to `~/abel/abewalletlegacy-linux-amd64-{{ $frontmatter.version_abewalletlegacy }}/` and run:
 
 ::: code-group
 
-```txt [Windows]
-abewalletlegacy --create
+```shell [Windows]
+$ .\abewalletlegacy.exe --create
 ```
 
-```txt [macOS and Linux]
-./start_abewalletlegacy.sh --create
+```shell [macOS]
+$ sh start_abewalletlegacy.sh --create
+```
+
+```shell [Linux]
+$ sh start_abewalletlegacy.sh --create
 ```
 
 :::
 
-Then press `control+C` to stop it. By doing this, we create a configuration folder for `abewalletlegacy` located at:
+Press `Ctrl+C` to stop. This creates the wallet configuration folder:
 
 ::: code-group
 
@@ -91,31 +135,36 @@ Then press `control+C` to stop it. By doing this, we create a configuration fold
 
 :::
 
-Note: On macOS (M1/M2 chip / arm64), if it says `'xxx' is damaged and can't be opened`, run the command:
-
-```bash
-xattr -d com.apple.quarantine path/to/xxx
-```
-
-If it says `'xxx' cannot be opened because the developer cannot be verified`, go to `System Preferences -> Security & Privacy -> General` and click `allow anyway`.
+> [!TIP] Platform-Specific Notes
+> - **macOS/Linux**: You may need to run `chmod 777 xxx` if you get "xxx: Permission denied"
+> - **macOS (M-chips/ARM64)**: If you see "'xxx' is damaged and can't be opened", run:
+> ```shell
+> $ xattr -d com.apple.quarantine path/to/xxx
+> ```
+> - **macOS**: If you see "'xxx' cannot be opened because the developer cannot be verified", go to **System
+    Preferences → Security & Privacy → General** and click **Allow anyway**
 
 ## 2. Create a Wallet
 
-To create a wallet, go to `~/abel/abewalletlegacy-macos-amd64-v1.0.0/` and run:
+Navigate to `~/abel/abewalletlegacy-linux-amd64-{{ $frontmatter.version_abewalletlegacy }}/` and run:
 
 ::: code-group
 
-```txt [Windows]
-abewalletlegacy --create
+```shell [Windows]
+$ .\abewalletlegacy.exe --create
 ```
 
-```txt [macOS and Linux]
-./start_abewalletlegacy.sh --create
+```shell [macOS]
+$ sh start_abewalletlegacy.sh --create
+```
+
+```shell [Linux]
+$ sh start_abewalletlegacy.sh --create
 ```
 
 :::
 
-Here is an example:
+**Example wallet creation process:**
 
 ```bash
 $ ./start_abewalletlegacy.sh --create
@@ -146,206 +195,177 @@ Please remember the initial address:
 1ad7de4e...
 ```
 
-## 3. Configuration - abec
+> [!IMPORTANT] Critical Security Notes
+> **Save your mnemonic words** in a secure location
+> **Record the crypto version** (usually 0)
+> **Remember both passphrases** (private and public)
+> **Backup the configuration folder** before making changes
 
-You can let other Abelian nodes on the mainnet know your presence by broadcasting your IP address (e.g. `1.2.3.4`). This works only if you have a public IP or have some IP forwarding configured at your router:
+## 3. Configuration
 
-```plaintext
+### 3.1 Configure abec
+
+Edit the `abec.conf` file in the `abec` configuration folder:
+
+**Basic RPC configuration:**
+
+```ini
+# RPC server settings
+rpcuser=your_username
+rpcpass=your_secure_password
+```
+
+**Network configuration:**
+
+```ini
+# Public IP broadcasting (optional)
 externalip=1.2.3.4
 ```
 
-Allow `abelminer` to connect to `abec` for GPU mining:
+### 3.2 Configure abewalletlegacy
 
-```plaintext
-enablegetwork=1
+Copy the RPC credentials from `abec.conf` to `abewallet.conf`:
+
+```ini
+# RPC connection to abec
+abecrpcuser=[rpcuser in abec.conf]
+abecrpcpass=[rpcpass in abec.conf]
 ```
 
-If you have multiple GPU mining machines connecting remotely to this single `abec`, make sure that port `8668` is opened:
+### 3.3 Remote Configuration (Optional)
 
-```plaintext
-rpclistengetwork=:8668
+If running `abec` and `abewalletlegacy` on different machines:
+
+**In `abec.conf`:**
+
+```ini
+# Listen on all interfaces
+rpclisten=0.0.0.0:8667
 ```
 
-Set the initial address of your wallet to `miningaddr`:
+**In `abewallet.conf`:**
 
-```plaintext
-miningaddr = [your initial address]
-```
-
-## 4. Configuration - abewalletlegacy
-
-Copy the RPC values, namely `rpcuser` and `rpcpass`, from `abec.conf`:
-
-```plaintext
-rpcuser = [rpcuser]
-rpcpass = [rpcpass]
-```
-
-Paste them respectively to `abewallet.conf` in the configuration folder of `abewalletlegacy`:
-
-```plaintext
-abecrpcuser= [rpcuser in abec.conf]
-abecrpcpass= [rpcpass in abec.conf]
-```
-
-In addition, in order to let `abectl` (abewalletlegacy control console) interact with `abewalletlegacy` later, we need to set the following options in `abewallet.conf`:
-
-```plaintext
-rpcuser= [whatever_username]
-rpcpass= [whatever_password]
-```
-
-Suggestion: To simplify the username and password management, set the `rpcuser` and `rpcpass` in `abewallet.conf` to be the same as the `abecrpcuser` and `abecrpcpass`, respectively.
-
-If running `abec` and `abewalletlegacy` on different machines, additional configuration for IP and port may be required.
-
-### 4.1 abec and abewalletlegacy are running on different machines
-
-If you are running `abec` and `abewalletlegacy` on different machines, you need to configure them as follows:
-
-1. Add the following option in `abec.conf`:
-
-```plaintext
-rpclisten=[IP:PORT]
-```
-Or simply:
-
-```plaintext
-rpclisten=
-```
-
-This will make your `abec` listen to all interfaces on the default port number (i.e., 8667).
-
-1. In `abewallet.conf`, add the following option to specify the IP address and port of the remote full node (`abec`):
-
-```plaintext
-rpcconnect=[IP:PORT]
-```
-
-Where `[IP]` is the IP address of the machine running `abec`, and `[PORT]` is the listening port of `abec` (default is 8667 if not specified).
-
-2. Go to the configuration folder of `abec`, delete the two RPC files: `rpc.cert` and `rpc.key`. Then run `abec` again to generate a new pair of `rpc.cert`/`rpc.key` in the configuration folder.
-
-3. Copy `rpc.cert` from the configuration folder of `abec`, and store the file at `~/Documents/abel/rpc.cert` on the machine where `abewalletlegacy` is running. Set the `cafile` option in `abewallet.conf` as follows:
-
-```plaintext
+```ini
+# Connect to remote abec
+rpcconnect=[abec-ip]:8667
 cafile=~/abel/rpc.cert
 ```
 
-## 5. Run a Full Node - abec
+**Certificate setup:**
 
-To run a full node:
+1. Delete `rpc.cert` and `rpc.key` from `abec` configuration folder
+2. Restart `abec` to generate new certificates
+3. Copy `rpc.cert` to the wallet machine at `~/abel/rpc.cert`
+
+## 4. Running the Wallet
+
+### 4.1 Start the Abelian Node
+
+Navigate to `~/abel/abec-linux-amd64-{{ $frontmatter.version_abec }}/` and run:
 
 ::: code-group
 
-```txt [Windows]
-abec
+```shell [Windows]
+$ .\abec.exe
 ```
 
-```txt [macOS and Linux]
-./start_abec.sh
+```shell [macOS]
+$ sh start_abec.sh
+```
+
+```shell [Linux]
+$ sh start_abec.sh
 ```
 
 :::
 
-## 6. Run a Wallet - abewalletlegacy
+Wait for blockchain synchronization to complete.
 
-To run the wallet:
+## 4.2 Start the Wallet
+
+Navigate to `~/abel/abewalletlegacy-linux-amd64-{{ $frontmatter.version_abewalletlegacy }}/` and run:
 
 ::: code-group
 
-```txt [Windows]
-abewalletlegacy --walletpass=[your public passphrase]
+```shell [Windows]
+$ .\abewalletlegacy.exe --walletpass=[your public passphrase]
 ```
 
-```txt [macOS and Linux]
-./start_abewalletlegacy.sh --walletpass=[your public passphrase]
+```shell [macOS]
+$ sh start_abewalletlegacy.sh --walletpass=[your public passphrase]
+```
+
+```shell [Linux]
+$ sh start_abewalletlegacy.sh --walletpass=[your public passphrase]
 ```
 
 :::
 
-## 7. Use abectl to Operate on abec and abewalletlegacy
+## 5. Wallet Operations
 
-In the `abec` folder, there is another executable called `start_abectl.sh` (macOS and Linux) or `abectl` (Windows). This executable can be used for checking the balance of your wallet, make fund transfer, and so on.
+### 5.1 Using abewalletlegacyctl
 
-### 7.1 Check Balance
+The `abewalletlegacyctl` tool allows you to interact with your running wallet:
 
-Run the following to check the balance of your wallet where `username` and `password` should be the same as the options `rpcuser` and `rpcpass` we configured in `abewallet.conf`, respecitvely.
+### 5.2 Check Balance
 
 ::: code-group
 
-```txt [Windows]
-abectl --rpcuser=[username] --rpcpass=[password] --wallet getbalancesabe
+```shell [Windows]
+$ .\abewalletlegacyctl.exe --rpcuser=[username] --rpcpass=[password] getbalancesabe
 ```
 
-```txt [macOS and Linux]
-./start_abectl.sh --rpcuser=[username] --rpcpass=[password] --wallet getbalancesabe
+```shell [macOS]
+$ sh start_abewalletlegacyctl.sh --rpcuser=[username] --rpcpass=[password] getbalancesabe
+```
+
+```shell [Linux]
+$ sh start_abewalletlegacyctl.sh --rpcuser=[username] --rpcpass=[password] getbalancesabe
 ```
 
 :::
 
-### 7.2 Unlock
+### 5.3 Unlock
 
 Before sending a transaction or generating a new address, you need to unlock your wallet first:
 
 ::: code-group
 
-```txt [Windows]
-abectl --rpcuser=[rpc username] --rpcpass=[rpc password] --wallet walletunlock [private passphrase] [timeout]
+```shell [Windows]
+$ .\abewalletlegacyctl.exe --rpcuser=[username] --rpcpass=[password] walletunlock [private passphrase] [timeout]
 ```
 
-```txt [macOS and Linux]
-./start_abectl.sh --rpcuser=[rpc username] --rpcpass=[rpc password] --wallet walletunlock [private passphrase] [timeout]
+```shell [macOS]
+$ sh start_abewalletlegacyctl.sh --rpcuser=[username] --rpcpass=[password] walletunlock [private passphrase] [timeout]
 ```
 
-:::
+```shell [Linux]
+$ sh start_abewalletlegacyctl.sh --rpcuser=[username] --rpcpass=[password] walletunlock [private passphrase] [timeout]
+```
 
 The unit of timeout is in seconds.
 
 Example:
 
 ```bash
-./start_abectl.sh --rpcuser=abewalletrpcuser --rpcpass=abewalletrpcpass --wallet walletunlock
-123456 240
+sh start_abewalletlegacyctl.sh --rpcuser=[username] --rpcpass=[password] walletunlock 123456 240
 ```
 
-This unlocks the wallet with passphrase 123456 for 240 seconds.
+This unlocks the wallet with passphrase `123456` for 240 seconds.
 
-### 7.3 Generate a New Address
+### 5.4 Wallet Addresses
 
-After unlocking the wallet, you can generate a new address by running:
+**Get new address:**
 
-::: code-group
-
-```txt [Windows]
-abectl --rpcuser=[rpcuser] --rpcpass=[rpcpass] --wallet generateaddressabe
+```shell
+$ sh start_abewalletlegacyctl.sh --rpcuser=[username] --rpcpass=[password] generateaddressabe
 ```
 
-```txt [macOS and Linux]
-./start_abectl.sh --rpcuser=[rpcuser] --rpcpass=[rpcpass] --wallet generateaddressabe
-```
+### 5.5 Send Transactions
 
-:::
-
-### 7.4 Query the Maximum Number of Addresses
-
-Every time the wallet is recovered or a new transaction is initiated, a fresh wallet address is created. You can run the following command to find out the total number of addresses created:
-
-::: code-group
-
-```txt [Windows]
-abectl --rpcuser=[rpcuser] --rpcpass=[rpcpass] --wallet addressmaxsequencenumber
-```
-
-```txt [macOS and Linux]
-./start_abectl.sh --rpcuser=[rpcuser] --rpcpass=[rpcpass] --wallet addressmaxsequencenumber
-```
-
-:::
-
-### 7.5 Make a Transfer
-
-As an Abelian wallet address is long, it can be cumbersome to paste a wallet address directly into the command line. Instead, you can create a file called `arg1` in the configuration folder of `abec` and add the receiver's address and amount into it. The format is as follows:
+As an Abelian wallet address is long, it can be cumbersome to paste a wallet address directly into the command line.
+Instead, you can create a file called `arg1` in the configuration folder of `abec` and add the receiver's address and
+amount into it. The format is as follows:
 
 ```plaintext
 [
@@ -360,179 +380,238 @@ As an Abelian wallet address is long, it can be cumbersome to paste a wallet add
 ]
 ```
 
-Note that the unit of amount is **Neutrino** (1 ABE = 10,000,000 Neutrino).
+Note that the unit of amount is **Neutrino** (1 ABEL = 10,000,000 Neutrino).
 
-Then, you can send a transaction by running:
+**Send ABEL to an address:**
 
 ::: code-group
 
 ```txt [Windows]
-abectl --rpcuser=[rpcuser] --rpcpass=[rpcpass] --wallet sendtoaddressesabe -
+$ .\abewalletlegacyctl --rpcuser=[username] --rpcpass=[password] sendtoaddressesabe -
 ```
 
-```txt [macOS and Linux]
-./start_abectl.sh --rpcuser=[rpcuser] --rpcpass=[rpcpass] --wallet sendtoaddressesabe -
+```txt [macOS]
+$ sh start_abewalletlegacyctl.sh --rpcuser=[username] --rpcpass=[password] sendtoaddressesabe -
+```
+
+```txt [Linux]
+$ sh start_abewalletlegacyctl.sh --rpcuser=[username] --rpcpass=[password] sendtoaddressesabe -
 ```
 
 :::
-
 
 Example:
 
 ```bash
 $ cat /Users/username/Library/Application Support/Abec/arg1
  [{"address":"addr1", "amount":700000000},{"address":"addr2", "amount":500000000}]
-$ ./start_abectl.sh --rpcuser=[rpcuser] --rpcpass=[rpcpass] --wallet sendtoaddressesabe -
+$ sh start_abewalletlegacyctl.sh --rpcuser=[username] --rpcpass=[password] sendtoaddressesabe -
 ```
 
 This command sends **70 ABEL** to `addr1` and **50 ABEL** to `addr2`.
 
-## 8. Recover a wallet
+## 6. Wallet Recovery
 
-### 8.1 Prepare the Information
+### 6.1 Preparation for Recovery
 
+Before recovering a wallet, prepare the following information:
+
+1. **Wallet mnemonic words** (24-word list)
+2. **Crypto version** (usually 0)
+3. **Maximum number of addresses** used in the wallet
+4. **Current wallet balance** for verification
+5. **Backup of configuration folder** (as safety measure)
+
+**Query maximum address number:**
 If you want to recover a wallet, please first prepare the information as described below:
 
 1. **Please make sure your wallet mnemonics are available.**
 2. **Query the maximum number of addresses in the current wallet.**
 3. **Query the balance information of the current wallet.**
 4. **Backup the abewalletlegacy configuration folder.** Please copy the folder to somewhere else which is also
-safe. This, together with the public and private passphrase, may help rollback to the current wallet in case your mnemonics are not as you expected.
+   safe. This, together with the public and private passphrase, may help rollback to the current wallet in case your
+   mnemonics are not as you expected.
 
+**Query maximum address number:**
 
-### 8.2 Recover the Wallet
+```shell
+$ ./start_abewalletlegacyctl.sh --rpcuser=[username] --rpcpass=[password] getmaxaddressidsabe
+```
 
-1. Delete `logs/` and `mainnet/` folders in the configuration folder of `abewalletlegacy`, and run:
+### 6.2 Recovery Process
+
+1. **Stop the wallet** and delete `logs/` and `mainnet/` folders from the configuration directory
+2. **Start wallet creation:**
 
 ::: code-group
 
-```txt [Windows]
-abewalletlegacy --create
+```shell [Windows]
+$ .\abewalletlegacy.exe --create
 ```
 
-```txt [macOS and Linux]
-./start_abewalletlegacy.sh --create
+```shell [macOS]
+$ sh start_abewalletlegacy.sh --create
+```
+```shell [Linux]
+$ sh start_abewalletlegacy.sh --create
 ```
 
 :::
 
-Example:
+3. **Follow the recovery prompts:**
+    Example:
+    
+    ```bash
+    $ ./start_abewalletlegacy.sh --create
+    Enter the private passphrase for your new wallet:
+    Confirm passphrase:
+    Enter the public passphrase for your new wallet:
+    Confirm passphrase:
+    NOTE: Use the --walletpass option to configure your public passphrase.
+    Do you have an existing wallet seed you want to use? (n/no/y/yes) [no]: y
+    Enter the crypto version is:0
+    Enter existing wallet mnemonic: biology,hazard,sudden,dignity,drop,jealous,butter,believe,answer,enter,practice,scorpion,health,tunnel,rival,vault,neutral,season,proof,must,path,steel,final,female
+    Please input the max No. of address to recover :5
+    Creating the wallet...
+     [INF] WLLT: The addresses with No. in [0, 5] have been restored.
+     [INF] WLLT: Opened wallet
+    The wallet has been created successfully.
+    ```
+4. **Configure and connect** the wallet to `abec`
+5. **Wait for synchronization** to complete
+6. **Check balance** matches expected amount
 
-```bash
-$ ./start_abewalletlegacy.sh --create
-Enter the private passphrase for your new wallet:
-Confirm passphrase:
-Enter the public passphrase for your new wallet:
-Confirm passphrase:
-NOTE: Use the --walletpass option to configure your public passphrase.
-Do you have an existing wallet seed you want to use? (n/no/y/yes) [no]: y
-Enter the crypto version is:0
-Enter existing wallet mnemonic: biology,hazard,sudden,dignity,drop,jealous,butter,believe,answer,enter,practice,scorpion,health,tunnel,rival,vault,neutral,season,proof,must,path,steel,final,female
-Please input the max No. of address to recover :5
-Creating the wallet...
- [INF] WLLT: The addresses with No. in [0, 5] have been restored.
- [INF] WLLT: Opened wallet
-The wallet has been created successfully.
-```
-**Note**: For the `max No. of address to recover` here we should input **the number obtained in the preparation in 8.1**.
+## 7. Upgrade to Latest Version
 
-### 8.3 Check the Wallet
+### 7.1 Preparation
 
-After recovering the wallet, to ensure it is fully restored, follow these steps:
+Before upgrading, prepare the same information as for wallet recovery:
 
-1. **Configure the wallet** and connect it to an `abec` node, so that it can synchronize the Abelian blockchain and locate all ABEL coins.
-2. After the synchronization is complete, **query the balance** and check whether it matches your expected balance.
+1. **Wallet mnemonic words**
+2. **Maximum number of addresses**
+3. **Current balance**
+4. **Backup configuration folder**
 
-## 9. Upgrade to the Latest Version
+### 7.2 Upgrade Process
 
-If you already have an old version running (for example, v0.11.1), you can follow the steps below to upgrade to the latest version (v0.11.9 as of this writing):
+1. **Stop old version** of both `abec` and `abewalletlegacy`
+2. **Download and extract** new versions
+3. **Run new `abec`** (configuration is preserved)
+4. **Delete wallet configuration** `logs/` and `mainnet/` folders
+5. **Recover wallet** using new version (follow recovery steps above)
 
-1. **Stop running both `abec` and `abewalletlegacy`** from the old version.
-2. Download and unzip the two compressed files for `abec` and `abewalletlegacy`.
-3. To run the new `abec`, simply go to the new `abec` folder and run it.
-4. This part is a bit tricky as we need to **remove the old configuration folder** of `abewalletlegacy` first, then **recover your wallet** before running the new version.
+## 8. Troubleshooting
 
-### 9.1 Run the New Version of abewalletlegacy
+### Common Issues
 
-Please first prepare the information as described in **8.1**.
+**Connection Problems:**
 
-### 9.2.1 Prepare the Information
+- Verify `abec` is running and synchronized
+- Check RPC credentials match in both configuration files
+- Ensure firewall allows port 8667
 
-Before upgrading the wallet, ensure you have the following:
+**Wallet Won't Start:**
 
-1. Your **wallet mnemonics** available.
-2. **Query the maximum number of addresses** in the current wallet.
-3. **Query the balance** of the current wallet.
-4. **Backup the `abewalletlegacy` configuration folder** by copying it to a safe location. This, along with the public and private passphrases, may help you recover the current wallet in case your mnemonics are incorrect.
+- Check public passphrase is correct
+- Verify configuration file syntax
+- Review log files for error messages
 
-### 9.2.2 Upgrade the Wallet
+**Balance Not Showing:**
 
-1. After finishing the preparation, delete the `logs/` and `mainnet/` folders in the configuration folder of `abewalletlegacy`, and run:
+- Wait for blockchain synchronization to complete
+- Verify wallet addresses are correctly recovered
+- Check transaction history for confirmation
 
-::: code-group
+**Recovery Issues:**
 
-```txt [Windows]
-abewalletlegacy --create
-```
+- Ensure mnemonic words are entered correctly
+- Verify crypto version is correct
+- Use exact maximum address number from backup
 
-```txt [macOS and Linux]
-./start_abewalletlegacy.sh --create
-```
+### Log Files
 
-:::
-
-Press control+C. By doing this, we re-create the configuration folder.
-
-Then, do the configuration of abewalletlegacy as described in Section 4.
-
-After that, go to the new abewalletlegacy folder and recover your wallet:
-
-::: code-group
-
-```txt [Windows]
-abewalletlegacy --create
-```
-
-```txt [macOS and Linux]
-./start_abewalletlegacy.sh --create
-```
-
-:::
-
-Example:
-
-```bash
-$ ./start_abewalletlegacy.sh --create
-Enter the private passphrase for your new wallet:
-Confirm passphrase:
-Enter the public passphrase for your new wallet:
-Confirm passphrase:
-NOTE: Use the --walletpass option to configure your public passphrase.
-Do you have an existing wallet seed you want to use? (n/no/y/yes) [no]: y
-Run the new version of abewallet
-Prepare the information
-Upgrade the wallet
-Enter the crypto version is:0
-Enter existing wallet mnemonic: biology,hazard,sudden,dignity,drop,jealous,butter,believe,answer,enter,practice,scorpion,health,tunnel,rival,vault,neutral,season,proof,must,path,steel,final,female
-Please input the max No. of address to recover :5
-Creating the wallet...
- [INF] WLLT: The addresses with No. in [0, 5] have been restored.
- [INF] WLLT: Opened wallet
-The wallet has been created successfully.
-```
-
-**Note**: For the `max No. of address to recover` here we should input **the number obtained in the preparation in 9.2.1**.
-
-Finally, run the wallet (`abewalletlegacy`):
+Check log files for detailed error information:
 
 ::: code-group
 
 ```txt [Windows]
-abewallet --walletpass=[your public passphrase]
+%USERPROFILE%\AppData\Local\Abewallet\logs\
 ```
 
-```txt [macOS and Linux]
-./start_abewallet.sh --walletpass=[your public passphrase]
+```txt [macOS]
+~/Library/Application Support/Abewallet/logs/
+```
+
+```txt [Linux]
+~/.abewallet/logs/
 ```
 
 :::
+
+## 9. Security Best Practices
+
+### Wallet Security
+
+- **Backup mnemonic words** in multiple secure locations
+- **Use strong passphrases** for both private and public access
+- **Regular backups** of configuration folder
+- **Test recovery process** before relying on backups
+
+### Operational Security
+
+- **Keep software updated** to latest versions
+- **Monitor transactions** regularly
+- **Use dedicated addresses** for different purposes
+- **Secure RPC connections** when using remote setup
+
+### Network Security
+
+- **Firewall configuration** to restrict unnecessary access
+- **Secure certificate management** for remote connections
+- **Regular security audits** of configuration files
+
+## 10. Migration to MLP Wallet
+
+### Why Migrate?
+
+The Multi-Layer Privacy (MLP) wallet offers:
+
+- **Simplified recovery** - no maximum address number required
+- **Enhanced privacy** - multiple privacy levels
+- **Better functionality** - improved features and performance
+- **Future support** - legacy wallet will be phased out
+
+### Migration Process
+
+1. **Install MLP wallet** following the [MLP Wallet Manual](/guide/wallet/cli-wallet-mlp)
+2. **Create new MLP wallet** with enhanced privacy features
+3. **Transfer funds** from legacy wallet to MLP wallet
+4. **Verify transfer** completion and balances
+5. **Securely backup** new MLP wallet credentials
+
+::: tip Migration Assistance
+For detailed migration instructions, refer to
+the [Wallet Migration Guide](/guide/wallet/cli-wallet-mlp#wallet-migration) in the MLP wallet documentation.
+:::
+
+## Next Steps
+
+**New Users:**
+
+- Consider starting with the [MLP Wallet](/guide/wallet/cli-wallet-mlp) instead
+- Join the [Discord community](https://discord.com/invite/5rrDxP29hx) for support
+- Practice with small amounts before large transactions
+
+**Existing Users:**
+
+- Plan migration to MLP wallet for enhanced features
+- Ensure proper backups before any major changes
+- Stay updated with latest software releases
+
+**Advanced Users:**
+
+- Explore remote wallet configurations
+- Implement automated backup procedures
+- Consider contributing to network decentralization
+
+Welcome to the Abelian network! 🚀

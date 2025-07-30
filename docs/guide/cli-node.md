@@ -20,7 +20,7 @@ Windows, open PowerShell or any of your favorite shell application.
 
 Before starting, ensure you meet the system requirements:
 
-- **Storage**: At least 2TB (current blockchain ~120GB, growing)
+- **Storage**: At least 200GB+ (current blockchain ~120GB, growing)
 - **RAM**: Minimum 8GB (16GB+ recommended)
 - **CPU**: 2+ cores (4+ cores recommended)
 - **Network**: Stable broadband connection
