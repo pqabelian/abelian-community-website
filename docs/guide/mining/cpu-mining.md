@@ -157,55 +157,6 @@ Extract the client:
 
 Follow detailed instructions in Maxpool's [Quick Start Guide](https://maxpool.org/home/guide) for CPU mining.
 
-## Mining Client Configuration
-
-### Solo Mining Parameters
-
-**Built-in CPU miner configuration in `abec.conf`:**
-
-```ini
-# Enable CPU mining
-generate=1
-
-# Mining address for rewards
-miningaddr=your_wallet_address_here
-```
-
-### Pool Mining Parameters (#TODO)
-
-**Connection Options:**
-
-- `-P stratums://user:pass@host:port` - Secure stratum connection
-- `-t [threads]` - Number of CPU threads to use
-- `-i [intensity]` - Mining intensity (0.1 to 1.0)
-
-**Performance Tuning:**
-
-- `--cpu-affinity` - Set CPU core affinity
-- `--cpu-priority` - Set process priority
-
-### Example Configurations
-
-**Solo mining with 6 CPU cores:**
-
-```ini
-# In abec.conf
-generate=1
-miningaddr=your_address_here
-```
-
-**Pool mining with 4 threads:**
-
-```shell
-$ ./abelcpuminer -P stratums://user:pass@emily-service.abelian.info:27778 -t 4
-```
-
-**Pool mining with reduced intensity:**
-
-```shell
-$ ./abelcpuminer -P stratums://user:pass@emily-service.abelian.info:27778 -t 4 -i 0.7
-```
-
 ## Monitoring and Optimization
 
 ### Performance Metrics
