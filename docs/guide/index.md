@@ -137,7 +137,7 @@ Select the setup that best matches your needs:
     - **Storage**: At least 2TB (current blockchain ~120GB, growing)
     - **RAM**: Minimum 8GB
     - **Network**: Stable internet connection
-- **Manual**: [Abelian Node Manual](/guide/cli-full-node)
+- **Manual**: [Abelian Node Manual](/guide/cli-node)
 
 ### ⛏️ Miners
 
@@ -246,8 +246,8 @@ The Abelian blockchain grows over time. Current size is ~120GB, but plan for fut
 Now that you understand the Abelian ecosystem, choose your path:
 
 - **New to Abelian?** → Start with [Desktop Wallet Pro](/guide/wallet/desktop-wallet-pro)
-- **Want to mine?** → Check the [GPU Mining Manual](/guide/mining/gpu-pool)
-- **Need an Abelian node?** → Follow the [Abelian Node Manual](/guide/cli-full-node)
+- **Want to mine?** → Check the [GPU Mining Manual](/guide/mining/gpu-mining)
+- **Need an Abelian node?** → Follow the [Abelian Node Manual](/guide/cli-node)
 - **Prefer command line?** → Try the [CLI Wallet Manual](/guide/wallet/cli-wallet-mlp)
 
 Welcome to the Abelian community! 🚀
