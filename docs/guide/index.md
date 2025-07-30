@@ -17,24 +17,25 @@ tools you need for your specific requirements.
 
 ## 1. Application Architecture
 
-The Abelian ecosystem consists of several main applications that work together to provide a complete blockchain experience:
+The Abelian ecosystem consists of several main applications that work together to provide a complete blockchain
+experience:
 
 ### Core Applications
 
 - **abec** - The Abelian node running 24/7, communicating with other nodes to maintain the global Abelian network.
-  It stores the blockchain ledger and validates all transactions.
+  It stores the blockchain ledger and validates all data. **abectl**, distributed with **abec**, is the command-line
+  interface for managing the Abelian node, including query block, query transaction, and other node operations.
 
-- **abectl** - The command-line interface for managing the Abelian node, distributed with the corresponding node
-  software,including query block, query transaction, and other node operations.
+- **Desktop Wallet** - The GUI wallet software also available in two versions:
+    - **Desktop Wallet Legacy** - The wallet supporting legacy addresses.
+    - **Desktop Wallet Pro (MLP)** - The Multi-Layer Privacy wallet supporting fully-privacy and pseudo-privacy
+      addresses.
 
-- **abewallet** - The command-line wallet software available in two versions:
-    - **abewalletlegacy** - The legacy wallet supporting legacy addresses.
+- **abewallet** - The command-line wallet software also available in two versions:
+    - **abewalletlegacy** - The wallet supporting legacy addresses. **abewalletlegacyctl**, distributed with
+      **abewalletlegacy**, is the wallet control interface.
     - **abewalletmlp** - The Multi-Layer Privacy wallet supporting fully-privacy and pseudo-privacy addresses.
-
-- **abewalletctl** - The wallet control interface, distributed with the corresponding wallet software, also available in
-  two versions:
-    - **abewalletlegacyctl** - The legacy wallet control interface.
-    - **abewalletmlpctl** - The multi-layer privacy wallet control interface.
+      **abewalletmlpctl**, distributed with **abewalletlegacy**, is the wallet control interface.
 
 - **abelminer** - The GPU mining software that performs Proof-of-Work mining by receiving tasks from a node or pool,
   computing solutions, and submitting results.
@@ -78,14 +79,14 @@ Understanding the network ports helps you configure firewalls and troubleshoot c
 
 Select the setup that best matches your needs:
 
-### 🖥️ Desktop Wallet Users (Recommended for Most Users)
+### Abelian Wallet
 
 **For everyday users who want a simple, secure wallet with a graphical interface:**
 
-#### Option A: Desktop Wallet Pro (MLP) ⭐ **Recommended**
+⭐⭐⭐⭐⭐ **Desktop Wallet Pro (MLP)** 
 
 - **Best for**: Users who want the latest features and faster sync
-- **Download**: [Abelian Desktop Wallet Pro Edition (MLP)](/downloads/latest#abelian-desktop-wallet-pro-mlp)
+- **Download**: [Abelian Desktop Wallet Pro Edition (MLP)](/downloads/latest#desktop-wallet-pro-mlp)
 - **Features**:
     - Multi-layer privacy (fully-private and pseudo-private addresses)
     - Support for multiple recipients (up to 5 fully-private, 100 pseudo-private)
@@ -93,14 +94,36 @@ Select the setup that best matches your needs:
     - Fast sync (~45 minutes)
     - Minimal storage (~100MB)
 - **Manual**: [Desktop Wallet Pro Manual](/guide/wallet/desktop-wallet-pro)
-
-#### Option B: Desktop Wallet Legacy (#TODO)
+ 
+⭐⭐⭐ **Desktop Wallet Legacy** 
 
 - **Best for**: Users who prefer the proven, stable wallet
-- **Download**: [Abelian Desktop Wallet Legacy](/downloads/latest#abelian-desktop-wallet-legacy)
+- **Download**: [Abelian Desktop Wallet Legacy](/downloads/latest#desktop-wallet-legacy)
 - **Features**: Legacy privacy, proven stability, full blockchain sync
-- **Storage**: ~120GB for full blockchain
+- **Storage**: ~120GB for full blockchain (#TODO)
 - **Sync time**: Several hours to days (first time)
+
+**For advanced users, developers, or those who prefer CLI interfaces:**
+
+::: tip Requirement
+- **Applications**: `abec` + `abewallet` + `abewalletctl`
+- **Recommended**: Run both on the same machine for simplicity
+  :::
+
+⭐⭐⭐ **MLP CLI Wallet** 
+
+- **Applications**: `abec` + `abewalletmlp` + `abewalletmlpctl`
+- **Best for**: Users who want the latest privacy features
+- **Download**: [CLI Wallet (MLP)](/downloads/latest#cli-wallet-mlp)
+- **Features**: Multi-layer privacy, enhanced functionality
+- **Manual**: [CLI Wallet (MLP) Manual](/guide/wallet/cli-wallet-mlp)
+
+⭐ **Legacy CLI Wallet** 
+
+- **Applications**: `abec` + `abewalletlegacy` + `abewalletlegacyctl`
+- **Best for**: Users familiar with the legacy wallet
+- **Download**: [CLI Wallet Legacy](/downloads/latest#cli-wallet-legacy)
+- **Manual**: [CLI Wallet Legacy Manual](/guide/wallet/cli-wallet-legacy)
 
 ### 🖥️ Abelian Node Operators
 
@@ -110,36 +133,10 @@ Select the setup that best matches your needs:
 - **Purpose**: Maintain a complete copy of the Abelian blockchain
 - **Benefits**: Helps decentralize the network, provides local blockchain access
 - **Requirements**:
-    - **Storage**: At least 2TB (current blockchain ~120GB, growing)
-    - **RAM**: Minimum 8GB
-    - **Network**: Stable internet connection
+  - **Storage**: At least 2TB (current blockchain ~120GB, growing)
+  - **RAM**: Minimum 8GB
+  - **Network**: Stable internet connection
 - **Manual**: [Abelian Node Manual](/guide/cli-full-node)
-
-### 💻 Command-Line Wallet Users
-
-**For advanced users, developers, or those who prefer CLI interfaces:**
-
-#### Setup Requirements
-
-- **Applications**: `abec` + `abewallet` + `abewalletctl`
-- **Recommended**: Run both on the same machine for simplicity
-
-#### Wallet Options
-
-**MLP CLI Wallet:** ⭐ **Recommended**
-
-- **Applications**: `abec` + `abewalletmlp` + `abewalletmlpctl`
-- **Best for**: Users who want the latest privacy features
-- **Features**: Multi-layer privacy, enhanced functionality
-- **Manual**: [CLI Wallet (MLP) Manual](/guide/wallet/cli-wallet-mlp)
-
-**Legacy CLI Wallet:**
-
-- **Applications**: `abec` + `abewalletlegacy` + `abewalletlegacyctl`
-- **Best for**: Users familiar with the legacy wallet
-- **Manual**: [CLI Wallet Legacy Manual](/guide/wallet/cli-wallet-legacy)
-
-
 
 ### ⛏️ Miners
 
@@ -154,7 +151,8 @@ Select the setup that best matches your needs:
 
 - **Best for**: Miners with limited GPU/CPU power who want consistent rewards
 - **Application**: Mining pool client only
-- **Download**: [GPU Mining Pool Client](/downloads/latest#abelian-gpu-mining-pool-client) / [CPU Mining Pool Client](/downloads/latest#abelian-cpu-mining-pool-client)
+- **Download
+  **: [GPU Mining Pool Client](/downloads/latest#abelian-gpu-mining-pool-client) / [CPU Mining Pool Client](/downloads/latest#abelian-cpu-mining-pool-client)
 - **Benefits**: Share rewards with other miners, no need to run Abelian node
 
 #### CPU Solo Mining
@@ -190,27 +188,16 @@ The Abelian blockchain grows over time. Current size is ~120GB, but plan for fut
 
 ## 5. Getting Started
 
-### Quick Start Steps
-
 1. **Choose your setup** from the options above
 2. **Download** the required applications from the [official download page](/downloads/latest)
 3. **Follow the specific manual** for your chosen setup
 4. **Join the community** on [Discord](https://discord.com/invite/5rrDxP29hx) for support
 
-### First-Time Setup Checklist
-
-- [ ] Download and install required applications
-- [ ] Configure network settings and firewall
-- [ ] Create or recover your wallet
-- [ ] **Securely backup** your wallet seed and passphrases
-- [ ] Test basic operations (balance check, address generation)
-- [ ] Join the Discord community for ongoing support
-
 ## 6. Security Best Practices
 
 ### Wallet Security
 
-- **Backup your seed phrase** in multiple secure locations
+- **Backup your mnemonics** in multiple secure locations
 - **Use strong, unique passphrases** for wallet encryption
 - **Never share** your private keys or seed phrases
 - **Verify downloads** from official sources only
