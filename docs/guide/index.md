@@ -154,6 +154,8 @@ Select the setup that best matches your needs:
 - **Application**: Mining pool client only
 - **Download**:
   [GPU Mining Client](/downloads/latest#gpu-mining-client) / [CPU Mining Pool Client](/downloads/latest#cpu-mining-client)
+- **Manual**:
+  [GPU Mining Manual](/guide/mining/gpu-mining)/ [CPU Mining Manual](/guide/mining/cpu-mining)
 - **Benefits**: Share rewards with other miners, no need to run Abelian node
 
 #### CPU Solo Mining

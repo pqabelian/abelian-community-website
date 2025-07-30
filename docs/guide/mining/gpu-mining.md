@@ -160,7 +160,7 @@ specifically for pool mining.
 
 ### 4. Start Pool Mining
 
-Follow Maxpool's [Quick Start Guide](https://maxpool.org/home/guide).
+Follow detailed instructions in Maxpool's [Quick Start Guide](https://maxpool.org/home/guide) for GPU mining.
 
 ## Mining Client Configuration
 
