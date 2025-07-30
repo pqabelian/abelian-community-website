@@ -83,7 +83,7 @@ Select the setup that best matches your needs:
 
 **For everyday users who want a simple, secure wallet with a graphical interface:**
 
-⭐⭐⭐⭐⭐ **Desktop Wallet Pro (MLP)** 
+⭐⭐⭐⭐⭐ **Desktop Wallet Pro (MLP)**
 
 - **Best for**: Users who want the latest features and faster sync
 - **Download**: [Abelian Desktop Wallet Pro Edition (MLP)](/downloads/latest#desktop-wallet-pro-mlp)
@@ -94,8 +94,8 @@ Select the setup that best matches your needs:
     - Fast sync (~45 minutes)
     - Minimal storage (~100MB)
 - **Manual**: [Desktop Wallet Pro Manual](/guide/wallet/desktop-wallet-pro)
- 
-⭐⭐⭐ **Desktop Wallet Legacy** 
+
+⭐⭐⭐ **Desktop Wallet Legacy**
 
 - **Best for**: Users who prefer the proven, stable wallet
 - **Download**: [Abelian Desktop Wallet Legacy](/downloads/latest#desktop-wallet-legacy)
@@ -106,11 +106,12 @@ Select the setup that best matches your needs:
 **For advanced users, developers, or those who prefer CLI interfaces:**
 
 ::: tip Requirement
+
 - **Applications**: `abec` + `abewallet` + `abewalletctl`
 - **Recommended**: Run both on the same machine for simplicity
   :::
 
-⭐⭐⭐ **MLP CLI Wallet** 
+⭐⭐⭐ **MLP CLI Wallet**
 
 - **Applications**: `abec` + `abewalletmlp` + `abewalletmlpctl`
 - **Best for**: Users who want the latest privacy features
@@ -118,7 +119,7 @@ Select the setup that best matches your needs:
 - **Features**: Multi-layer privacy, enhanced functionality
 - **Manual**: [CLI Wallet (MLP) Manual](/guide/wallet/cli-wallet-mlp)
 
-⭐ **Legacy CLI Wallet** 
+⭐ **Legacy CLI Wallet**
 
 - **Applications**: `abec` + `abewalletlegacy` + `abewalletlegacyctl`
 - **Best for**: Users familiar with the legacy wallet
@@ -133,9 +134,9 @@ Select the setup that best matches your needs:
 - **Purpose**: Maintain a complete copy of the Abelian blockchain
 - **Benefits**: Helps decentralize the network, provides local blockchain access
 - **Requirements**:
-  - **Storage**: At least 2TB (current blockchain ~120GB, growing)
-  - **RAM**: Minimum 8GB
-  - **Network**: Stable internet connection
+    - **Storage**: At least 2TB (current blockchain ~120GB, growing)
+    - **RAM**: Minimum 8GB
+    - **Network**: Stable internet connection
 - **Manual**: [Abelian Node Manual](/guide/cli-full-node)
 
 ### ⛏️ Miners
@@ -144,15 +145,15 @@ Select the setup that best matches your needs:
 
 - **Best for**: Miners with significant GPU power who want full rewards
 - **Applications**: `abec` + `abelminer`
-- **Manual**: [GPU Mining Manual](/guide/mining/gpu-pool)
+- **Manual**: [GPU Mining Manual](/guide/mining/gpu-mining)
 - **Note**: Requires running an Abelian node
 
 #### GPU/CPU Pool Mining
 
 - **Best for**: Miners with limited GPU/CPU power who want consistent rewards
 - **Application**: Mining pool client only
-- **Download
-  **: [GPU Mining Pool Client](/downloads/latest#abelian-gpu-mining-pool-client) / [CPU Mining Pool Client](/downloads/latest#abelian-cpu-mining-pool-client)
+- **Download**:
+  [GPU Mining Client](/downloads/latest#gpu-mining-client) / [CPU Mining Pool Client](/downloads/latest#cpu-mining-client)
 - **Benefits**: Share rewards with other miners, no need to run Abelian node
 
 #### CPU Solo Mining
