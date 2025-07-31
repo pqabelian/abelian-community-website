@@ -27,24 +27,25 @@ experience:
   interface for managing the Abelian node, including query block, query transaction, and other node operations.
 
 - **Desktop Wallet** - The GUI wallet software also available in two versions:
-    - **Desktop Wallet Legacy** - The wallet supporting legacy addresses.
+    - **Desktop Wallet Legacy**<Badge type="warning" text="obsolete" /> - The wallet supporting legacy addresses.
     - **Desktop Wallet Pro (MLP)** - The Multi-Layer Privacy wallet supporting fully-privacy and pseudo-privacy
       addresses.
 
 - **abewallet** - The command-line wallet software also available in two versions:
-    - **abewalletlegacy** - The wallet supporting legacy addresses. **abewalletlegacyctl**, distributed with
-      **abewalletlegacy**, is the wallet control interface.
+    - **abewalletlegacy** <Badge type="warning" text="obsolete"/> - The wallet supporting legacy addresses.
+      **abewalletlegacyctl**, distributed with **abewalletlegacy**, is the wallet control interface.
     - **abewalletmlp** - The Multi-Layer Privacy wallet supporting fully-privacy and pseudo-privacy addresses.
       **abewalletmlpctl**, distributed with **abewalletlegacy**, is the wallet control interface.
 
-- **abelminer** - The GPU mining software that performs Proof-of-Work mining by receiving tasks from a node or pool,
+- **abelminer-gpu (a.k.a. abelminer)** - The GPU mining software that performs Proof-of-Work mining by receiving tasks
+  from a node or pool,
   computing solutions, and submitting results.
 
 ### Application Relationships
 
 ```             
 ┌─────────────┐    ┌───────────────┐    ┌──────────────┐
-│   abelminer │◄──►│     abec      │◄──►│   abewallet  │
+│abelminer-gpu│◄──►│     abec      │◄──►│   abewallet  │
 │(GPU Mining) │    │(Abelian Node) │    │   (Wallet)   │
 └─────────────┘    └───────────────┘    └──────────────┘
                            ▲                   ▲
@@ -60,13 +61,13 @@ experience:
 
 Understanding the network ports helps you configure firewalls and troubleshoot connectivity:
 
-| Connection               | Port | Purpose                                 |
-|--------------------------|------|-----------------------------------------|
-| **abec <-> abec**        | 8666 | Peer-to-peer blockchain synchronization |
-| **abec <-> abewallet**   | 8667 | Wallet synchronization with node        |
-| **abec <-> abectl**      | 8667 | Node control and queries                |
-| **abewallet <-> abectl** | 8665 | Wallet control and operations           |
-| **abec <-> abelminer**   | 8668 | Mining task distribution                |
+| Connection                 | Port | Purpose                                 |
+|----------------------------|------|-----------------------------------------|
+| **abec <-> abec**          | 8666 | Peer-to-peer blockchain synchronization |
+| **abec <-> abewallet**     | 8667 | Wallet synchronization with node        |
+| **abec <-> abectl**        | 8667 | Node control and queries                |
+| **abewallet <-> abectl**   | 8665 | Wallet control and operations           |
+| **abec <-> abelminer-gpu** | 8668 | Mining task distribution                |
 
 ::: tip Network Configuration
 
@@ -107,13 +108,13 @@ recommend everyone to have a copy of the Abelian Pro mobile app on their mobile 
     - Minimal storage (~100MB)
 - **Manual**: [Desktop Wallet Pro Manual](/guide/wallet/desktop-wallet-pro)
 
-⭐⭐⭐ **Desktop Wallet Legacy**
+⭐⭐⭐ **Desktop Wallet Legacy** <Badge type="warning" text="obsolete"/>
 
-- **Best for**: Users who prefer the proven, stable wallet
+- **Best for**: Users who need to transfer ABELs originally stored on their old legacy wallets to the new MLP wallets
 - **Download**: [Abelian Desktop Wallet Legacy](/downloads/latest#desktop-wallet-legacy)
-- **Features**: Legacy privacy, proven stability, full blockchain sync
-- **Storage**: ~120GB for full blockchain (#TODO)
+- **Features**: Legacy privacy
 - **Sync time**: Several hours to days (first time)
+- **Manual**: [Desktop Wallet Legacy Manual](/guide/wallet/desktop-wallet-legacy)
 
 **For advanced users, developers, or those who prefer CLI interfaces:**
 
@@ -131,7 +132,7 @@ recommend everyone to have a copy of the Abelian Pro mobile app on their mobile 
 - **Features**: Multi-layer privacy, enhanced functionality
 - **Manual**: [CLI Wallet (MLP) Manual](/guide/wallet/cli-wallet-mlp)
 
-⭐ **Legacy CLI Wallet**
+⭐ **Legacy CLI Wallet** <Badge type="warning" text="obsolete"/>
 
 - **Applications**: `abec` + `abewalletlegacy` + `abewalletlegacyctl`
 - **Best for**: Users familiar with the legacy wallet
@@ -143,10 +144,10 @@ recommend everyone to have a copy of the Abelian Pro mobile app on their mobile 
 **For users who want to support the network by running an Abelian node:**
 
 - **Application**: `abec` only
-- **Purpose**: Maintain a complete copy of the Abelian blockchain
+    - **Purpose**: Provide local blockchain access, maintain a complete copy of the Abelian blockchain
 - **Benefits**: Helps decentralize the network, provides local blockchain access
 - **Requirements**:
-    - **Storage**: At least 2TB (current blockchain ~120GB, growing)
+    - **Storage**: 2TB (current blockchain ~1.2TB for Full Node; ~240GB for Semi-Full Node; and ~160GB for Normal Node)
     - **RAM**: Minimum 8GB
     - **Network**: Stable internet connection
 - **Manual**: [Abelian Node Manual](/guide/abelian-node)
@@ -156,7 +157,7 @@ recommend everyone to have a copy of the Abelian Pro mobile app on their mobile 
 #### GPU Solo Mining
 
 - **Best for**: Miners with significant GPU power who want full rewards
-- **Applications**: `abec` + `abelminer`
+- **Applications**: `abec` + `abelminer-gpu`
 - **Manual**: [GPU Mining Manual](/guide/mining/gpu-mining)
 - **Note**: Requires running an Abelian node
 
@@ -164,10 +165,8 @@ recommend everyone to have a copy of the Abelian Pro mobile app on their mobile 
 
 - **Best for**: Miners with limited GPU/CPU power who want consistent rewards
 - **Application**: Mining pool client only
-- **Download**:
-  [GPU Mining Client](/downloads/latest#gpu-mining-client) / [CPU Mining Pool Client](/downloads/latest#cpu-mining-client)
 - **Manual**:
-  [GPU Mining Manual](/guide/mining/gpu-mining)/ [CPU Mining Manual](/guide/mining/cpu-mining)
+  [GPU Mining Manual](/guide/mining/gpu-mining#pool-mining-setup)/ [CPU Mining Manual](/guide/mining/cpu-mining#pool-mining-setup)
 - **Benefits**: Share rewards with other miners, no need to run Abelian node
 
 #### CPU Solo Mining
