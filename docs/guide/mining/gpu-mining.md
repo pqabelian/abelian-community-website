@@ -21,7 +21,7 @@ PowerShell or any shell application of your choice.
 
 GPU mining on Abelian can be performed in two ways:
 
-- **Solo Mining**: Mine independently using your own full node, keeping all block rewards
+- **Solo Mining**: Mine independently using your own Abelian node, keeping all block rewards
 - **Pool Mining**: Join a mining pool to share computational work and rewards with other miners
 
 ## Prerequisites
@@ -41,14 +41,14 @@ GPU mining on Abelian can be performed in two ways:
 
 - ✅ Keep 100% of block rewards
 - ✅ Support network decentralization
-- ❌ Requires running a full node
+- ❌ Requires running an Abelian node
 - ❌ Irregular rewards (high variance)
 - **Best for**: Miners with significant GPU power
 
 **Pool Mining:**
 
 - ✅ Regular, predictable rewards
-- ✅ No need to run a full node
+- ✅ No need to run an Abelian node
 - ✅ Lower hardware requirements
 - ❌ Share rewards with other miners
 - ❌ Pool fees (typically 1-3%)
@@ -56,13 +56,17 @@ GPU mining on Abelian can be performed in two ways:
 
 ## Solo Mining Setup
 
-### 1. Install Full Node
+### 1. Install Abelian Node
 
-First, you need a running Abelian full node. Follow the [Abelian Full Node Manual](/guide/cli-node) to set up `abec`.
+First, you need a running Abelian node. Follow the [Abelian Node (abec) Manual](/guide/abelian-node) to set up `abec`.
 
 **Key configuration for mining in `abec.conf`:**
 
 ```ini
+# Node Type
+# Note that the Normal Node is sufficient for mining
+nodetype=normalnode 
+
 # Enable mining support
 enablegetwork=1
 
@@ -114,7 +118,7 @@ $ ./abelminer -P http://localhost:8668
 
 :::
 
-**For remote full node connection:**
+**For remote Abelian node connection:**
 ::: code-group
 
 ```shell [Windows]
@@ -146,21 +150,10 @@ $ ./abelminer -P http://[node-ip]:8668
 > The original [Abelian Foundation Pool](https://legacy.maxpool.org/home) has ceased operations. All miners should
 > migrate to the new [Maxpool](https://maxpool.org/).
 
-### 2. Register with Pool
+### 2. Follow the Guide
 
-1. Visit [Maxpool Registration](https://maxpool.org/auth/register)
-2. Create an account with username and password
-3. Set your payout address (supports MLP addresses)
-4. Note your username and password for mining
-
-### 3. Download Pool Mining Client
-
-Download the [Abelian GPU Mining Pool Client](/downloads/latest#gpu-mining-client) - this is optimized
-specifically for pool mining.
-
-### 4. Start Pool Mining
-
-Follow detailed instructions in Maxpool's [Quick Start Guide](https://maxpool.org/home/guide) for GPU mining.
+Follow detailed instructions in Pool's Guide, such as [Quick Start Guide for Maxpool](https://maxpool.org/home/guide),
+starting your CPU mining.
 
 ## Mining Client Configuration
 
@@ -235,7 +228,7 @@ Monitor these key metrics while mining:
 
 **Connection Problems:**
 
-- Verify full node is running and make sure the synchronized completed (solo mining).
+- Verify Abelian node is running and make sure the synchronized completed (solo mining).
 - Check firewall settings for port 8668
 - Confirm pool server addresses and credentials
 

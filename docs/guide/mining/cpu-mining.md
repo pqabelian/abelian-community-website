@@ -21,7 +21,7 @@ PowerShell or any shell application of your choice.
 
 CPU mining on Abelian can be performed in two ways:
 
-- **Solo Mining**: Mine independently using your own full node with built-in CPU miner
+- **Solo Mining**: Mine independently using your own Abelian node with built-in CPU miner
 - **Pool Mining**: Join a mining pool using a dedicated CPU mining client
 
 ## Prerequisites
@@ -42,7 +42,7 @@ CPU mining on Abelian can be performed in two ways:
 - ✅ Keep 100% of block rewards
 - ✅ Support network decentralization
 - ✅ Uses built-in CPU miner in `abec`
-- ❌ Requires running a full node
+- ❌ Requires running an Abelian node
 - ❌ Irregular rewards (high variance)
 - ❌ Lower hashrate compared to GPU mining
 - **Best for**: Users who want to support the network while running a node
@@ -50,7 +50,7 @@ CPU mining on Abelian can be performed in two ways:
 **Pool Mining:**
 
 - ✅ Regular, predictable rewards
-- ✅ No need to run a full node
+- ✅ No need to run an Abelian node
 - ✅ Lower hardware requirements
 - ✅ Optimized CPU mining client
 - ❌ Share rewards with other miners
@@ -59,14 +59,18 @@ CPU mining on Abelian can be performed in two ways:
 
 ## Solo Mining Setup
 
-### 1. Install Full Node
+### 1. Install Abelian Node
 
-You need a running Abelian full node with CPU mining enabled. Follow
-the [Abelian Full Node Manual](/guide/cli-full-node) to set up `abec`.
+You need a running Abelian node with CPU mining enabled. Follow the [Abelian Node (abec) Manual](/guide/abelian-node)
+to set up `abec`.
 
 **Key configuration for CPU mining in `abec.conf`:**
 
 ```ini
+# Node Type
+# Note that the Normal Node is sufficient for mining
+nodetype=normalnode 
+
 # Enable CPU mining
 generate=1
 
@@ -132,30 +136,14 @@ $ sh start_abectl.sh setgenerate false
 - Comprehensive guides and scripts
 
 > [!IMPORTANT] Legacy Pool Notice
-> The original [Abelian Foundation Pool](https://legacy.maxpool.org/home) has ceased operations. All miners should migrate
+> The original [Abelian Foundation Pool](https://legacy.maxpool.org/home) has ceased operations. All miners should
+> migrate
 > to the new [Maxpool](https://maxpool.org/).
 
-### 2. Register with Pool
+### 2. Follow the Guide
 
-1. Visit [Maxpool Registration](https://maxpool.org/auth/register)
-2. Create an account with username and password
-3. Set your payout address (supports MLP addresses)
-4. Note your username and password for mining
-
-### 3. Download CPU Mining Client
-
-Download the [Abelian CPU Mining Pool Client](/downloads/latest#abelian-cpu-mining-pool-client) - this is optimized
-specifically for CPU pool mining.
-
-Extract the client:
-
-```txt-vue
-~/abel/abelcpuminer-linux-amd64-{{ $frontmatter.version_abelcpuminer }}/
-```
-
-### 4. Start Pool Mining
-
-Follow detailed instructions in Maxpool's [Quick Start Guide](https://maxpool.org/home/guide) for CPU mining.
+Follow detailed instructions in Pool's Guide, such as [Quick Start Guide for Maxpool](https://maxpool.org/home/guide),
+starting your CPU mining.
 
 ## Monitoring and Optimization
 

@@ -37,7 +37,7 @@ open PowerShell or your preferred shell application.
 
 ### Required Components
 
-1. **Abelian Full Node** (`abec`) - Follow the [Full Node Manual](/guide/cli-full-node)
+1. **Abelian Node** (`abec`) - Follow the [Abelian Node (abec) Manual](/guide/abelian-node)
 2. **Legacy CLI Wallet** (`abewalletlegacy`) - This guide
 3. **Wallet Control Tool** (`abewalletlegacyctl`) - Included with wallet
 

@@ -62,7 +62,7 @@ export default defineConfig({
                     { text: 'Abelian Apps Basics', link: '/guide/index' },
                     { text: 'Desktop Wallet Pro (MLP)', link: '/guide/wallet/desktop-wallet-pro' },
                     { text: 'Desktop Wallet Legacy', link: '/guide/wallet/desktop-wallet-legacy' },
-                    { text: 'CLI Node', link: '/guide/cli-node' },
+                    { text: 'Abelian Node (abec)', link: '/guide/abelian-node' },
                     { text: 'CLI Wallet (MLP)', link: '/guide/wallet/cli-wallet-mlp' },
                     { text: 'CLI Wallet Legacy', link: '/guide/wallet/cli-wallet-legacy' },
                     { text: 'GPU Mining', link: '/guide/mining/gpu-mining' },

@@ -72,7 +72,7 @@ privacy on your terms.
 
 ### Required Components
 
-1. **Abelian Full Node** (`abec`) - Package [abec-{{ $frontmatter.version_abec }}](/downloads/latest#cli-node)
+1. **Abelian Node** (`abec`) - Package [abec-{{ $frontmatter.version_abec }}](/downloads/latest#abelian-node)
 2. **MLP CLI Wallet** (`abewalletmlp`) -
    Package [abewalletmlp-{{ $frontmatter.version_abewalletmlp }}](/downloads/latest#cli-wallet-mlp)
 3. **Wallet Control Tool** (`abewalletmlpctl`) - Included with wallet

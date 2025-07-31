@@ -149,7 +149,7 @@ recommend everyone to have a copy of the Abelian Pro mobile app on their mobile 
     - **Storage**: At least 2TB (current blockchain ~120GB, growing)
     - **RAM**: Minimum 8GB
     - **Network**: Stable internet connection
-- **Manual**: [Abelian Node Manual](/guide/cli-node)
+- **Manual**: [Abelian Node Manual](/guide/abelian-node)
 
 ### ⛏️ Miners
 
@@ -259,7 +259,7 @@ Now that you understand the Abelian ecosystem, choose your path:
 
 - **New to Abelian?** → Start with [Desktop Wallet Pro](/guide/wallet/desktop-wallet-pro)
 - **Want to mine?** → Check the [GPU Mining Manual](/guide/mining/gpu-mining)
-- **Need an Abelian node?** → Follow the [Abelian Node Manual](/guide/cli-node)
+- **Need an Abelian node?** → Follow the [Abelian Node (abec) Manual](/guide/abelian-node)
 - **Prefer command line?** → Try the [CLI Wallet Manual](/guide/wallet/cli-wallet-mlp)
 
 Welcome to the Abelian community! 🚀
