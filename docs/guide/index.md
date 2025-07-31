@@ -81,6 +81,18 @@ Select the setup that best matches your needs:
 
 ### Abelian Wallet
 
+⭐⭐⭐⭐⭐ **Abelian Pro (Mobile)**
+
+Abelian Pro mobile app is a user-friendly crypto wallet supporting the post-quantum Abelian blockchain ecosystem. We do
+recommend everyone to have a copy of the Abelian Pro mobile app on their mobile devices.
+
+- **Best for**: All kinds of users who prefer mobile convenience
+- **Download**: [Abelian Pro (Mobile)](/downloads/latest#abelian-pro-mobile)
+- **Features**:
+    - Multi-layer privacy (fully-private and pseudo-private addresses)
+    - Automatic sync
+    - Cross-platform compatibility (iOS & Android)
+
 **For everyday users who want a simple, secure wallet with a graphical interface:**
 
 ⭐⭐⭐⭐⭐ **Desktop Wallet Pro (MLP)**
