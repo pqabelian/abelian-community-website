@@ -121,7 +121,7 @@ Once the address is generated, you can utilize either the long wallet address or
 ## Import ABEL Wallet Account
 
 :::tip
-After upgrading the desktop wallet legacy version from 4.1.1 or earlier to version 4.2.0, you will need to re-import wallet accounts. Starting from version 4.2.0, it is no longer necessary to synchronize Abec full node data, significantly improving synchronization speed and reducing disk space usage.
+After upgrading the desktop wallet legacy version from 4.1.1 or earlier to version 4.2.0, you will need to re-import wallet accounts. Starting from version 4.2.0, it is no longer necessary to synchronize Abelian node data, significantly improving synchronization speed and reducing disk space usage.
 :::
 
 To import an ABEL wallet created elsewhere, follow these steps:
