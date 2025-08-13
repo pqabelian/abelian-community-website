@@ -41,8 +41,7 @@ export default defineConfig({
             text: 'Pools',
             items: [
               { text: 'MaxPool (Official)', link: 'https://maxpool.org/' },
-              { text: 'AbelPool (Community)', link: 'https://www.abelpool.io/' },
-              //{ text: 'zkProvers (Community)', link: 'https://www.zkprovers.com/' }
+              { text: 'AbelPool (Community)', link: 'https://www.abelpool.io/' }
             ]
           },
           { text: 'Ask Hako', link: 'https://hako.pqabelian.io' }
@@ -75,7 +74,6 @@ export default defineConfig({
                     { text: 'Whitepaper', link: '/guide/abel-whitepaper'},
                     { text: 'PQZKBridge Yellowpaper', link: '/guide/abel-yellowpaper'},
                     { text: 'POW Difficulty Smooth Algorithm (DSA)', link: '/guide/abel-dsa-whitepaper'},
-                    //{ text: 'Abelian User Token (AUT) Protocol', link: '/guide/abel-user-token-protocol'},
                     { text: 'ABEL Address Formart', link: '/guide/abel-address-format'},
                     { text: 'Abelian Improvement Proposals (AIP)', link: 'https://github.com/pqabelian/aips'}
                   ]
@@ -172,7 +170,7 @@ export default defineConfig({
     },
 
     zh: {
-      label: '简体中文',
+      label: '简体',
       lang: 'zh',
       link: '/zh/',
       title: "Abelian 知识社区",
@@ -197,8 +195,7 @@ export default defineConfig({
             text: '矿池',
             items: [
               { text: 'MaxPool（官方）', link: 'https://maxpool.org/' },
-              { text: 'AbelPool（社区）', link: 'https://www.abelpool.io/' },
-              //{ text: 'zkProvers（社区）', link: 'https://www.zkprovers.com/' }
+              { text: 'AbelPool（社区）', link: 'https://www.abelpool.io/' }
             ]
           },
           { text: '询问 Hako', link: 'https://hako.pqabelian.io' }
@@ -219,7 +216,6 @@ export default defineConfig({
                     { text: '白皮书', link: '/zh/guide/abel-whitepaper'},
                     { text: '后量子跨链桥黄皮书', link: '/zh/guide/abel-yellowpaper'},
                     { text: 'POW 难度平滑算法 (DSA)', link: '/zh/guide/abel-dsa-whitepaper'},
-                    //{ text: 'Abelian 用户代币(AUT)协议', link: '/zh/guide/abel-user-token-protocol'},
                     { text: 'ABEL 地址格式', link: '/zh/guide/abel-address-format'},
                     { text: 'Abelian 改进提案 (AIP)', link: 'https://github.com/pqabelian/aips'}
                   ]
