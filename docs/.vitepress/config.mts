@@ -170,7 +170,7 @@ export default defineConfig({
     },
 
     zh: {
-      label: '简体',
+      label: '中文',
       lang: 'zh',
       link: '/zh/',
       title: "Abelian 知识社区",
