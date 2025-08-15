@@ -49,6 +49,20 @@ outline: deep
 ## 桌面钱包专业版 (MLP)
 `abelian-desktop-wallet-pro`
 
+- **2025-08-15-v1.1.0**
+
+  - **UTXO 币合并**：我们在每个账户的状态主页上添加了“颗粒度等级”功能。该值显示您的账户中有多少个币（即 UTXO）。可以将其视为账户的颗粒度，从 0 到 1，越接近 1 表示账户中小额币越多；越接近 0 表示账户中币的数量较少且每个币的金额较大。<br>
+    **为什么这很重要？** 因为交易输入的币（即 UTXO）数量有上限。伪隐私交易最多可以有 100 个币，而完全隐私交易最多只能有 5 个币。因此，如果您的账户中有很多币，即账户的颗粒度等级较高，您可能无法在一次交易中发送所有币。因此，我们为想要合并币的人引入了这个功能。此外，您可以通过鼠标悬停在粒度度旁边的圆圈“i”图标上查看您当前有多少个币。
+  - **同步状态指示器**：在右上角的账户下拉菜单中，我们现在可以直接查看哪个账户正在同步。绿色表示正在同步，红色表示未同步。
+  - **区块链同步时间估算**：同步不再是个谜——我们现在显示剩余时间估算（例如，“大约 30 分钟”）。通过清晰的倒计时更好地规划您的任务。
+  - **改进的交易历史加载时间**：加载过去的交易现在几乎是瞬时的。无需再等待页面加载——几秒钟内即可查看您的活动或检查最近的转账。
+
+  [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v1.1.0.exe) | 
+  [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v1.1.0.dmg) | 
+  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v1.1.0.dmg) | 
+  [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v1.1.0.deb) | 
+  [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v1.1.0.deb)
+
 - **2025-04-23-v1.0.3**
 
   - 交易确认更快，一旦交易输出可用，就会被标记为可支配。
@@ -227,7 +241,7 @@ outline: deep
   [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-arm64-v0.1.3.tar.gz) | 
   [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-linux-amd64-v0.1.3.tar.gz)
 
-## 全节点（CLI）
+## Abelian 节点（abec）
 `[abec]`
 
 - **2025-07-03-v2.0.2**
@@ -524,6 +538,6 @@ outline: deep
 - [Abelian 桌面钱包专业版手册](/guide/wallet/desktop-wallet-pro)
 - [Abelian 桌面钱包 (经典版) 手册](/guide/wallet/desktop-wallet-legacy)
 - [Abelian 显卡挖矿手册](/guide/mining/gpu-pool)
-- [Abelian 全节点 (CLI) 手册](/guide/cli-full-node)
+- [Abelian 节点 (abec) 手册](/guide/abelian-node)
 - [Abelian 多层隐私钱包 (CLI) 手册](/guide/wallet/cli-wallet-mlp)
 - [Abelian 经典钱包 (CLI) 手册](/guide/wallet/cli-wallet-legacy)

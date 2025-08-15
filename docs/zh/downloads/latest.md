@@ -189,16 +189,16 @@ outline: deep
 ---
 
 ## 桌面钱包专业版 (MLP)
-- **发布日期**: `2025-04-23`
-- **软件名称**: `abelian-desktop-wallet-pro-v1.0.3`
-- **软件大小**: `≈ 128MB`
+- **发布日期**: `2025-07-15`
+- **软件名称**: `abelian-desktop-wallet-pro-v1.1.0`
+- **软件大小**: `≈ 120MB`
 - **下载链接**:
 <div class="button-container">
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v1.0.3.zip" class="btn">Windows</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v1.0.3.zip" class="btn">macOS</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v1.0.3.zip" class="btn">macOS (Apple Silicon)</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v1.0.3.zip" class="btn">Linux</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v1.0.3.zip" class="btn">Linux (ARM)</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v1.1.0.exe" class="btn">Windows</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v1.1.0.dmg" class="btn">macOS</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v1.1.0.dmg" class="btn">macOS (Apple Silicon)</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v1.1.0.deb" class="btn">Linux</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v1.1.0.deb" class="btn">Linux (ARM)</a>
 </div>
 
 ::: info <Badge type="warning" text="发布说明" />
@@ -211,10 +211,12 @@ outline: deep
 - 强烈建议现有桌面钱包经典版（Legacy）用户立即迁移到这个全新的桌面钱包专业版（MLP），这样他们不再需要记住最大可恢复的钱包数量。要进行迁移，我们需要在桌面钱包专业版（MLP）中创建一个新钱包，然后使用桌面钱包经典版将所有 ABEL 币转移到新钱包中。
 - 您可以首次创建一些完全私密的钱包以及其他匿名私密的钱包。
 
-**v1.0.3 升级说明:**
-- 交易确认更快，一旦交易输出可用，就会被标记为可支配。
-- 优化可支配金额显示，在发送页面，输入框会精确显示可用金额，以便最大化后续转账，并新增“最大”按钮，在转账给一个收款人时可以自动计算并扣除交易费用。
-- 使用体验更友好直观，增加了更多提示信息。
+**v1.1.0 升级说明:**
+- **UTXO 币合并**：我们在每个账户的状态主页上添加了“颗粒度等级”功能。该值显示您的账户中有多少个币（即 UTXO）。可以将其视为账户的颗粒度，从 0 到 1，越接近 1 表示账户中小额币越多；越接近 0 表示账户中币的数量较少且每个币的金额较大。<br>
+  **为什么这很重要？** 因为交易输入的币（即 UTXO）数量有上限。伪隐私交易最多可以有 100 个币，而完全隐私交易最多只能有 5 个币。因此，如果您的账户中有很多币，即账户的颗粒度等级较高，您可能无法在一次交易中发送所有币。因此，我们为想要合并币的人引入了这个功能。此外，您可以通过鼠标悬停在粒度度旁边的圆圈“i”图标上查看您当前有多少个币。
+- **同步状态指示器**：在右上角的账户下拉菜单中，我们现在可以直接查看哪个账户正在同步。绿色表示正在同步，红色表示未同步。
+- **区块链同步时间估算**：同步不再是个谜——我们现在显示剩余时间估算（例如，“大约 30 分钟”）。通过清晰的倒计时更好地规划您的任务。
+- **改进的交易历史加载时间**：加载过去的交易现在几乎是瞬时的。无需再等待页面加载——几秒钟内即可查看您的活动或检查最近的转账。
 :::
 
 ---
@@ -258,7 +260,7 @@ outline: deep
 
 ---
 
-## 全节点（CLI）
+## Abelian 节点（abec）
 - **发布日期**： `2025-07-03`
 - **软件名称**： `abec-v2.0.2`
 - **软件大小**： `≈ 20MB`
@@ -381,6 +383,6 @@ outline: deep
 - [Abelian 桌面钱包专业版用户手册](/guide/wallet/desktop-wallet-pro)
 - [Abelian 桌面钱包经典版用户手册](/guide/wallet/desktop-wallet-legacy)
 - [Abelian Abelian 矿池用户手册](/guide/mining/gpu-pool)
-- [Abelian 全节点用户手册](/guide/cli-full-node)
+- [Abelian 节点（abec）用户手册](/guide/abelian-node)
 - [Abelian 多层隐私钱包 (CLI) 用户手册](/guide/wallet/cli-wallet-mlp)
 - [Abelian 经典钱包 (CLI) 用户手册](/guide/wallet/cli-wallet-legacy)

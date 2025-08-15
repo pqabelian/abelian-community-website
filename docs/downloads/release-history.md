@@ -49,7 +49,21 @@ We provide the packages of previous versions mainly for archive purposes. Please
 ## Desktop Wallet Pro (MLP)
 `abelian-desktop-wallet-pro`
 
-- **2025-07-25-v3.0.0**
+- **2025-08-15-v1.1.0**
+
+  - **UTXO Coin Consolidation**: We’ve added a "Granularity Degree" function on the Status main page for each account. This value shows how many coins (aka UTXOs) your account has. Think of it as how granular your account is from 0 to 1, where the closer to 1 means the more small-amount coins the account has; and the closer to 0 means your account has fewer coins and each coin has a bigger amount.<br>
+    **Why it matters?** Because there is an upper limit on the number of coins (namely UTXOs) a transaction’s input can have. A pseudo-private transaction can have up to 100 coins while a fully-private transaction can have up to 5 coins only. Hence if you have many coins in your account, namely, you account has a high granularity degree, you may not be able to send all the coins out in one single transaction. Therefore, we introduce this function for anyone who wants to consolidate the coins together. Also, you can find out how many coins you currently have by mousing over the circled “i” next to the Granularity Degree.
+  - **Sync Status Indicator**: At the top-right corner, there is an account drop-down menu. we can now check out which account is active in synchronization or not directly. Green means synchronizing and red means not.
+  - **Blockchain Synchronization Time Estimation**: Syncing no longer feels like a mystery—we now display estimated time left (e.g., "About 30 minutes"). Plan your tasks better with a clear countdown.
+  - **Improved Transaction History Loading Time**: Loading past transactions is now nearly instant. No more waiting for pages to load—review your activity or check recent transfers in seconds.
+
+  [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v1.1.0.exe) | 
+  [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v1.1.0.dmg) | 
+  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v1.1.0.dmg) | 
+  [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v1.1.0.deb) | 
+  [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v1.1.0.deb)
+
+- **2025-04-23-v1.0.3**
 
   - Faster transaction confirmations: Outputs are marked as spendable once available.
   - Optimized display of spendable amounts: The input field on the send page accurately shows available amounts to maximize subsequent transfers, with a new "MAX" button that automatically calculates and deducts transaction fees for a single recipient.
@@ -226,7 +240,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
   [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-arm64-v0.1.3.tar.gz) | 
   [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-linux-amd64-v0.1.3.tar.gz)
 
-## CLI Node
+## Abelian Node (abec)
 `[abec]`
 
 - **2025-07-03-v2.0.2**
@@ -523,6 +537,6 @@ More documentation for both users and developers can be found at [Abelian Docume
 - [Abelian Desktop Wallet Pro Manual](/guide/wallet/desktop-wallet-pro)
 - [Abelian Desktop Wallet (Legacy) Manual](/guide/wallet/desktop-wallet-legacy)
 - [Abelian GPU Mining Manual](/guide/mining/gpu-pool)
-- [Abelian Full Node (CLI) Manual](/guide/cli-full-node)
+- [Abelian Node (abec) Manual](/guide/abelian-node)
 - [Abelian Multi-layer Privacy Wallet (CLI) Manual](/guide/wallet/cli-wallet-mlp)
 - [Abelian Legacy Wallet (CLI) Manual](/guide/wallet/cli-wallet-legacy)
