@@ -14,7 +14,7 @@ hero:
   actions:
     - theme: alt
       text: 由此开始
-      link: /zh/guide/get-started
+      link: /zh/guide/
     - theme: alt
       text: 问答
       link: /zh/faq/

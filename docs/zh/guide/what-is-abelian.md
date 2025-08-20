@@ -35,6 +35,6 @@ Abelian 是开源的，并由社区驱动。除了设计、开发和部署Abelia
 
 将为支持各种 DeFi、元宇宙、web3 应用和倡议开发侧链、智能合约和互操作性。
 
-## 在10分钟内设置您的Abelian节点
+## 部署您的 Abelian
 
-请按照我们的[安装指南](/zh/guide/get-started)开始您的 Abelian 之旅。这将是简单而有趣的！
+请按照我们的 [Abelian 指南](/zh/guide/) 开始您的 Abelian 之旅。这将是简单而有趣的！

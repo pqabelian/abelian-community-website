@@ -14,7 +14,7 @@ hero:
   actions:
     - theme: alt
       text: Get Started
-      link: /guide/get-started
+      link: /guide/
     - theme: alt
       text: FAQ
       link: /faq/

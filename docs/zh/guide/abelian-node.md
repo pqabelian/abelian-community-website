@@ -80,7 +80,7 @@ $ sh start_abec.sh
 > - **macOS/Linux**：如果出现 "xxx: Permission denied" 错误，可能需要运行 `chmod 777 xxx`
 > - **macOS (M芯片/ARM64)**：如果看到 "'xxx' 已损坏，无法打开"，请运行：
 > ```shell
-> $ xattr -d com.apple.quarantine xxx 路径
+> $ xattr -d com.apple.quarantine 路径/xxx
 > ```
 > - **macOS**：如果看到 "无法打开 'xxx'，因为无法验证开发者"，请前往 **系统偏好设置 → 安全性与隐私 → 通用**，点击 **仍要打开**
 

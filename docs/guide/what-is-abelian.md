@@ -36,6 +36,6 @@ Abelian is open source, and community driven. In addition to designing, developi
 Side chains, smart contracts, and inter-operability will be developed for supporting
 various DeFi, Metaverse, web3 applications and initiatives.
 
-## Set up your Abelian node in 10 minutes
+## Deployment your Abelian
 
-Please follow our [installation guide](/guide/get-started) to start your Abelian journey. It would be easy and fun!
+Please follow our [Abelian guide](/guide/) to start your Abelian journey. It would be easy and fun!
