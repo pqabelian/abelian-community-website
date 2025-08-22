@@ -44,7 +44,7 @@ Upgrade to the Desktop Wallet Pro (MLP) v1.0.0 today and create a new wallet now
 
 ### Download and Installation
 
-Navigate to the [Abelian Official Website Download Page](/downloads/latest#abelian-desktop-wallet-pro-mlp) to acquire the installation package for Abelian Desktop Wallet Pro (MLP).  
+Navigate to the [Abelian Official Website Download Page](/downloads/latest#desktop-wallet-pro-mlp) to acquire the installation package for Abelian Desktop Wallet Pro (MLP).  
 ![Visit the Abelian official download page](/desktop-wallet/pro/download-page.png)
 (Download the Abelian Desktop Wallet Pro (MLP) according to your operating system and CPU architecture)
 

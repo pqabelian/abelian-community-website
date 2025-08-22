@@ -47,7 +47,7 @@ outline: deep
 
 ### 下载和安装
 
-前往 [Abelian 官方网站下载页面](/zh/downloads/latest#abelian-桌面钱包专业版-mlp)，下载 Abelian 桌面钱包专业版（MLP）的安装包。
+前往 [Abelian 官方网站下载页面](/zh/downloads/latest#桌面钱包专业版-mlp)，下载 Abelian 桌面钱包专业版（MLP）的安装包。
 ![访问 Abelian 官网下载页面](/desktop-wallet/pro/download-page.png)
 （根据您的操作系统和 CPU 架构下载 Abelian 桌面钱包专业版）
 

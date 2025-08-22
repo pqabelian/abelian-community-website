@@ -76,7 +76,7 @@ Failed calling RPC: serviceGroup=abewallet, accountName=brac, networkName=mainne
 ::: info <Badge type="tip" text="ANSWER" /> 
 要将桌面钱包 Legacy 从 v4.1.1 或更早版本升级到 v4.2.2，您应首先需要删除旧版桌面钱包的数据目录：`%USERPROFILE%\AppData\Roaming\Abelian Wallet`。
 
-然后再升级到 v4.2.2，在使用助记词导入钱包账户时，请务必查看 [用户手册文档中的注意事项部分](https://community.pqabelian.io/zh/guide/wallet/desktop-wallet-legacy.html#import-abel-wallet-account)。
+然后再升级到 v4.2.2，在使用助记词导入钱包账户时，请务必查看 [用户手册文档中的注意事项部分](/zh/guide/wallet/desktop-wallet-legacy.html#导入-abel-钱包账户)。
 :::
 
 ---

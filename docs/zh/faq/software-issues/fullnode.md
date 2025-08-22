@@ -38,7 +38,7 @@ ABEC: Shutdown complete
 ::: info <Badge type="tip" text="ANSWER" />
 这是 mainnet 数据库损坏。您需要删除 "/[用户目录]/.abec/data/mainnet/blocks_ffldb" 文件夹，然后重新同步。
 
-请[查看此页面](/zh/downloads/mainnet-db)，按照步骤下载最新的主网数据，然后重新同步。
+请[查看此页面](/zh/downloads/fullnode-db)，按照步骤下载最新的主网数据，然后重新同步。
 :::
 
 ---

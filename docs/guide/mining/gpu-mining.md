@@ -5,17 +5,13 @@ version_abelminer: v2.0.3
 
 # Abelian GPU Mining User Guide
 
-This document explains how to run GPU mining software for the Abelian blockchain, covering both solo mining and pool
-mining options.
+This document explains how to run GPU mining software for the Abelian blockchain, covering both solo mining and pool mining options.
 
-Please refer to the [Abelian Applications Guide](/guide/) to understand the software architecture and choose between
-solo mining or joining a mining pool.
+Please refer to the [Abelian Applications Guide](/guide/) to understand the software architecture and choose between solo mining or joining a mining pool.
 
-Visit the Abelian official website's download page to download the appropriate mining client. To interact with other
-miners, developers, and users, join the [official Discord server](https://discord.com/invite/5rrDxP29hx).
+Visit the Abelian official website's download page to download the appropriate mining client.
 
-All operations are performed via the Command Line Interface (CLI). For Linux, open the Terminal; for Windows, open
-PowerShell or any shell application of your choice.
+All operations are performed via the Command Line Interface (CLI). For Linux, open the Terminal; for Windows, open PowerShell or any shell application of your choice.
 
 ## Overview
 
@@ -89,8 +85,7 @@ Download the [Abelian GPU Mining Client](/downloads/latest#abelian-gpu-mining-cl
 
 ### 3. Create a Wallet Address
 
-You need a wallet address to receive mining rewards. The easiest way is to
-use [Abelian Pro](/downloads/latest#abelian-pro-mobile):
+You need a wallet address to receive mining rewards. The easiest way is to use [Abelian Pro](/downloads/latest#abelian-pro-mobile):
 
 1. Download and install Abelian Pro
 2. Create a new wallet or import existing one
@@ -108,14 +103,9 @@ Navigate to the mining client directory and run:
 $ .\abelminer.exe -P http://localhost:8668
 ```
 
-```shell [macOS]
+```shell [macOS/Linux]
 $ ./abelminer -P http://localhost:8668
 ```
-
-```shell [Linux]
-$ ./abelminer -P http://localhost:8668
-```
-
 :::
 
 **For remote Abelian node connection:**
@@ -125,14 +115,9 @@ $ ./abelminer -P http://localhost:8668
 $ .\abelminer.exe -P http://[node-ip]:8668
 ```
 
-```shell [macOS]
+```shell [macOS/Linux]
 $ ./abelminer -P http://[node-ip]:8668
 ```
-
-```shell [Linux]
-$ ./abelminer -P http://[node-ip]:8668
-```
-
 :::
 
 ## Pool Mining Setup
@@ -293,8 +278,7 @@ Monitor these key metrics while mining:
 - Rewards = Your Contribution × Pool Rewards × (1 - Pool Fee)
 - Lower variance - regular payouts
 
-Use online [Hashrate Calculator](https://maxpool.org/home/hash-rate-calculator) and monitor network statistics
-at [AbelScan](https://explorer.pqabelian.io)
+Use online [Hashrate Calculator](https://maxpool.org/home/hash-rate-calculator) and monitor network statistics at [AbelScan](https://explorer.pqabelian.io)
 
 ## Advanced Topics
 

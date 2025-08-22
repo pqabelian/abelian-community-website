@@ -93,14 +93,9 @@ miningaddr=[您的钱包地址]
 $ .\abec.exe
 ```
 
-```shell [macOS]
+```shell [macOS/Linux]
 $ sh start_abec.sh
 ```
-
-```shell [Linux]
-$ sh start_abec.sh
-```
-
 :::
 
 **替代方案：在运行中的节点上启用挖矿：**

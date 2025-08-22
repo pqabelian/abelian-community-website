@@ -19,7 +19,7 @@ This user guide is designed to provide comprehensive instructions for the instal
 
 ## Download and Installation
 
-Please visit the [Abelian official website download page](/downloads/latest#abelian-desktop-wallet-legacy) to obtain the installation package for the Abelian Desktop Wallet Legacy. It is essential to download the appropriate version based on your operating system and CPU architecture, as depicted in the figure below:
+Please visit the [Abelian official website download page](/downloads/latest#desktop-wallet-legacy) to obtain the installation package for the Abelian Desktop Wallet Legacy. It is essential to download the appropriate version based on your operating system and CPU architecture, as depicted in the figure below:
 
 ![Abelian's official download page](/desktop-wallet/legacy/download-page.png)
 
@@ -168,5 +168,5 @@ This migration process will transfer all balances from the legacy wallet to the 
 5. Navigate to the “**TXS**” tab to view the corresponding transaction record. When the final status shows “**Confirmed**,” it signifies that the migration was successful.
 
 :::tip
-After upgrading the desktop wallet legacy version to 4.2.0, it is recommended that users migrate to the [Desktop Wallet Pro (MLP)](/zh/guide/wallet/desktop-wallet-pro). The professional version does not require filling in the address count option during wallet import operations and is more user-friendly for large amount transfers, avoiding the “allowed max number 5” error in most cases.
+After upgrading the desktop wallet legacy version to 4.2.0, it is recommended that users migrate to the [Desktop Wallet Pro (MLP)](/guide/wallet/desktop-wallet-pro). The professional version does not require filling in the address count option during wallet import operations and is more user-friendly for large amount transfers, avoiding the “allowed max number 5” error in most cases.
 :::

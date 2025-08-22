@@ -19,7 +19,7 @@ Abelian 基金会推出的桌面版 Abelian 钱包，为用户提供了便捷的
 
 ## 下载与安装
 
-请访问 [Abelian 官方网站下载页面](/zh/downloads/latest#abelian-桌面钱包经典版) 下载 Abelian 桌面钱包经典版本的安装包。在该页面中，用户需要根据自己所使用的操作系统以及计算机的 CPU 架构来选择相应的 Abelian 桌面钱包经典版安装包进行下载.
+请访问 [Abelian 官方网站下载页面](/zh/downloads/latest#桌面钱包经典版) 下载 Abelian 桌面钱包经典版本的安装包。在该页面中，用户需要根据自己所使用的操作系统以及计算机的 CPU 架构来选择相应的 Abelian 桌面钱包经典版安装包进行下载.
 
 ![访问 Abelian 官网下载页面](/desktop-wallet/legacy/download-page.png)
 

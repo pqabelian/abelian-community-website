@@ -98,14 +98,9 @@ Navigate to your `abec` directory and start the node with CPU mining:
 $ .\abec.exe
 ```
 
-```shell [macOS]
+```shell [macOS/Linux]
 $ sh start_abec.sh
 ```
-
-```shell [Linux]
-$ sh start_abec.sh
-```
-
 :::
 
 **Alternative: Enable mining on running node:**

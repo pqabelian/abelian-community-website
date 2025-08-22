@@ -90,14 +90,9 @@ miningaddr=[您的钱包地址]
 $ .\abec.exe
 ```
 
-```shell [macOS]
+```shell [macOS/Linux]
 $ sh start_abec.sh
 ```
-
-```shell [Linux]
-$ sh start_abec.sh
-```
-
 :::
 
 **替代方案：在运行中的节点上启用挖矿：**
@@ -315,4 +310,4 @@ CPU 挖矿的算力通常远低于 GPU 挖矿。建议将其主要用于支持�
 2. 优化 CPU 散热和电源设置
 3. 探索 CPU+GPU 混合挖矿配置
 
-祝您挖矿愉快 ⛏，欢迎加入Abelian网络！ 🚀
+祝您挖矿愉快 ⛏，欢迎加入 Abelian 网络！ 🚀

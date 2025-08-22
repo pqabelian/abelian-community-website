@@ -348,7 +348,6 @@ export default defineConfig({
       }
     },
 
-    /*
     tw: {
       label: '繁體中文',
       selectText: '選擇語言',
@@ -527,7 +526,6 @@ export default defineConfig({
         darkModeSwitchTitle: '切換到深色模式'
       }
     }
-    */
   },
 
   themeConfig: {

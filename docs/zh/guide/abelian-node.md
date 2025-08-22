@@ -3,7 +3,7 @@ outline: deep
 version_abec: v2.0.2
 ---
 
-# Abelian节点用户手册
+# Abelian节点（abec）手册
 
 本文档介绍如何使用命令行界面运行 Abelian 节点。
 
@@ -24,7 +24,7 @@ version_abec: v2.0.2
 
 ## 1. 安装
 
-从 [官方下载页面](/downloads/latest#abelian-节点-abec) 下载对应平台的压缩包：
+从 [官方下载页面](/zh/downloads/latest#abelian-节点-abec) 下载对应平台的压缩包：
 
 - Linux x86：`abec-linux-amd64-{{ $frontmatter.version_abec }}.tar.gz`
 - Linux arm：`abec-linux-arm64-{{ $frontmatter.version_abec }}.tar.gz`
@@ -48,14 +48,9 @@ version_abec: v2.0.2
 $ .\abec.exe
 ```
 
-```shell [macOS]
+```shell [macOS/Linux]
 $ sh start_abec.sh
 ```
-
-```shell [Linux]
-$ sh start_abec.sh
-```
-
 :::
 
 按 `Ctrl+C` 停止运行。这将创建 `abec` 的配置文件夹：
@@ -78,7 +73,7 @@ $ sh start_abec.sh
 
 > [!TIP] 平台特定说明
 > - **macOS/Linux**：如果出现 "xxx: Permission denied" 错误，可能需要运行 `chmod 777 xxx`
-> - **macOS (M芯片/ARM64)**：如果看到 "'xxx' 已损坏，无法打开"，请运行：
+> - **macOS (M系列芯片/ARM64)**：如果看到 "'xxx' 已损坏，无法打开"，请运行：
 > ```shell
 > $ xattr -d com.apple.quarantine 路径/xxx
 > ```
@@ -165,14 +160,9 @@ rpcpass=您的安全密码
 $ .\abec.exe
 ```
 
-```shell [macOS]
+```shell [macOS/Linux]
 $ sh start_abec.sh
 ```
-
-```shell [Linux]
-$ sh start_abec.sh
-```
-
 :::
 
 ### 初始同步
@@ -211,10 +201,7 @@ $ sh start_abec.sh
 ```shell [Windows]
 $ ./abectl.exe getinfo
 ```
-```shell [macOS]
-$ sh start_abectl.sh getinfo
-```
-```shell [Linux]
+```shell [macOS/Linux]
 $ sh start_abectl.sh getinfo
 ```
 ::: 
@@ -225,10 +212,7 @@ $ sh start_abectl.sh getinfo
 ```shell [Windows]
 $ ./abectl.exe getpeerinfo
 ```
-```shell [macOS]
-$ sh start_abectl.sh getpeerinfo
-```
-```shell [Linux]
+```shell [macOS/Linux]
 $ sh start_abectl.sh getpeerinfo
 ```
 :::
@@ -243,10 +227,7 @@ $ sh start_abectl.sh getpeerinfo
 ```shell [Windows]
 $ ./abectl.exe stop
 ```
-```shell [macOS]
-$ sh start_abectl.sh stop
-```
-```shell [Linux]
+```shell [macOS/Linux]
 $ sh start_abectl.sh stop
 ```
 :::
@@ -321,7 +302,7 @@ $ sh start_abectl.sh stop
 ### 性能优化
 
 **高性能设置建议：**
-- 使用SSD存储
+- 使用 SSD 存储
 - 分配更多内存
 - 使用专用网络连接
 - 考虑在专用硬件上运行
@@ -330,8 +311,8 @@ $ sh start_abectl.sh stop
 
 节点运行后：
 
-- **设置钱包**：参考 [CLI钱包手册](/guide/wallet/cli-wallet-mlp)
-- **开始挖矿**：查看 [GPU挖矿手册](/guide/mining/gpu-pool)
-- **加入社区**：访问我们的 [Discord服务器](https://discord.com/invite/5rrDxP29hx)
+- **设置钱包**：参考 [多重隐私钱包（CLI）手册](/zh/guide/wallet/cli-wallet-mlp)
+- **开始挖矿**：查看 [GPU 挖矿手册](/zh/guide/mining/gpu-mining)
+- **加入社区**：访问我们的 [Discord 服务器](https://discord.com/invite/5rrDxP29hx)
 
 您的节点将帮助保护和去中心化 Abelian 网络。感谢您的贡献！🚀
