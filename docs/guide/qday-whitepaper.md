@@ -173,7 +173,7 @@ The total supply of QDAY is  22,517,998,100, mirroring the total supply of ABEL.
 
 ### 3.1 Token Distribution
 
- | **Category** | **%** | **Amount (M)** | **Lock Up** | **Vesting** |
+ | **Category** | **%** | **Amount (100M)** | **Lock Up** | **Vesting** |
  | ----------- | ----------- | ----------- | ----------- | ----------- |
  | Validators | 50% | 112.59 | | |
  | Community Growth | 4.5% | 10.13 | | |
