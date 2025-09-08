@@ -6,19 +6,18 @@ export default defineConfig({
   ignoreDeadLinks: true,
   lastUpdated: true,
 
-  head: [
-    ['link', { rel: "icon", href: "/favicon.ico"}],
-    ['script', {
-      async: 'true',
-      defer: 'true',
-      src: 'https://hako.pqabelian.io/api/application/embed?protocol=https&host=hako.pqabelian.io&token=632bf3ead0ebfee2'
-    }]
-  ],
-
   locales: {
     root: {
       label: 'English',
       lang: 'en',
+      head: [
+        ['link', { rel: "icon", href: "/favicon.ico"}],
+        ['script', {
+          async: 'true',
+          defer: 'true',
+          src: 'https://hako.pqabelian.io/api/application/embed?protocol=https&host=hako.pqabelian.io&token=632bf3ead0ebfee2'
+        }]
+      ],
       title: "Abelian-Community-FAQ",
       description: "Abelian is a quantum resistant blockchain ecosystem with layer 1 being GPU-based POW and layer 2 being EVM-compatible. Abelian-Community-FAQ is committed to integrating mining tutorials and Q&A for the Abelian Community Document repository.",
       keywords: ['quantum resistant blockchain', 'post quantum', 'quantum resistant', 'quantum safe', 'privacy coin', 'zero knowledge', 'EVM compatible', 'QDay', 'Abelian', 'Abelian Foundation', 'ABEL', 'QDAY'],
@@ -169,27 +168,36 @@ export default defineConfig({
       }
     },
 
-    tw: {
+    zh: {
       label: '中文',
       selectText: '選擇語言',
       lang: 'zh-TW',
-      link: '/tw/',
+      link: '/zh/',
+      head: [
+        ['link', { rel: "icon", href: "/favicon.ico"}],
+        ['script', {
+          async: 'true',
+          defer: 'true',
+          // src: 'https://hako.pqabelian.io/api/application/embed?protocol=https&host=hako.pqabelian.io&token=c9f446e578abcacc'
+          src: 'https://hako.pqabelian.io/api/application/embed?protocol=https&host=hako.pqabelian.io&token=632bf3ead0ebfee2'
+        }]
+      ],
       title: "Abelian 知識社區",
       description: "Abelian 是一個抗量子計算的區塊鏈生態系統，Layer 1 基於 GPU 的 POW，Layer 2 兼容 EVM。 Abelian 知識社區 - 致力於為 Abelian 區塊鏈集文檔庫、問答、教程和用戶經驗分享為一體的綜合型社區。",
       keywords: ['quantum resistant blockchain', 'post quantum', 'quantum resistant', 'quantum safe', 'privacy coin', 'zero knowledge', 'EVM compatible', 'QDay', 'Abelian', 'Abelian Foundation', 'ABEL', 'QDAY'],
       themeConfig: {
         nav: [
-          { text: '首頁', link: '/tw/' },
-          { text: '文檔', link: '/tw/guide/' },
-          { text: 'API/SDK', link: '/tw/apis/core-api' },
-          { text: '問答', link: '/tw/faq/' },
+          { text: '首頁', link: '/zh/' },
+          { text: '文檔', link: '/zh/guide/' },
+          { text: 'API/SDK', link: '/zh/apis/core-api' },
+          { text: '問答', link: '/zh/faq/' },
           { text: '下載',
             items: [
-              { text: 'Abelian 應用程式', link: '/tw/downloads/latest' },
-              { text: 'Abelian 應用歷史版本', link: '/tw/downloads/release-history' },
+              { text: 'Abelian 應用程式', link: '/zh/downloads/latest' },
+              { text: 'Abelian 應用歷史版本', link: '/zh/downloads/release-history' },
               { text: 'Abelian 開源代碼', link: 'https://github.com/pqabelian' },
-              { text: 'Abelian 全節點數據', link: '/tw/downloads/fullnode-db' },
-              { text: 'Abelian 生態工具', link: '/tw/downloads/ecosystem-tools' }
+              { text: 'Abelian 全節點數據', link: '/zh/downloads/fullnode-db' },
+              { text: 'Abelian 生態工具', link: '/zh/downloads/ecosystem-tools' }
             ]
           },
           {
@@ -199,63 +207,63 @@ export default defineConfig({
               { text: 'AbelPool（社區）', link: 'https://www.abelpool.io/' }
             ]
           },
-          { text: '詢問 Hako', link: 'https://hako.pqabelian.io' }
+          { text: '詢問 Hako', link: 'https://hako.pqabelian.io/zh/' }
         ],
 
         sidebar: {
-          '/tw/guide/': [
+          '/zh/guide/': [
             {
               text: '指南',
               collapsed: false,
               items: [
-                { text: 'Abelian 是什麼', link: '/tw/guide/what-is-abelian'},
+                { text: 'Abelian 是什麼', link: '/zh/guide/what-is-abelian'},
                 { text: 'Abelian 用戶指南',
                   collapsed: false,  
                   items: [
-                    { text: '應用程式常識', link: '/tw/guide/index' },
-                    { text: '桌面錢包專業版 (MLP)', link: '/tw/guide/wallet/desktop-wallet-pro' },
-                    { text: '桌面錢包經典版', link: '/tw/guide/wallet/desktop-wallet-legacy' },
-                    { text: 'Abelian 節點 (abec)', link: '/tw/guide/abelian-node' },
-                    { text: '多層隱私錢包 (CLI)', link: '/tw/guide/wallet/cli-wallet-mlp' },
-                    { text: '經典錢包（CLI）', link: '/tw/guide/wallet/cli-wallet-legacy' },
-                    { text: '顯卡挖礦', link: '/tw/guide/mining/gpu-mining' },
-                    { text: 'CPU 挖礦', link: '/tw/guide/mining/cpu-mining' }
+                    { text: '應用程式常識', link: '/zh/guide/index' },
+                    { text: '桌面錢包專業版 (MLP)', link: '/zh/guide/wallet/desktop-wallet-pro' },
+                    { text: '桌面錢包經典版', link: '/zh/guide/wallet/desktop-wallet-legacy' },
+                    { text: 'Abelian 節點 (abec)', link: '/zh/guide/abelian-node' },
+                    { text: '多層隱私錢包 (CLI)', link: '/zh/guide/wallet/cli-wallet-mlp' },
+                    { text: '經典錢包（CLI）', link: '/zh/guide/wallet/cli-wallet-legacy' },
+                    { text: '顯卡挖礦', link: '/zh/guide/mining/gpu-mining' },
+                    { text: 'CPU 挖礦', link: '/zh/guide/mining/cpu-mining' }
                   ]
                 },
                 { text: 'Abelian 技術文檔',
                   collapsed: false,
                   items: [
-                    { text: '經濟學', link: '/tw/guide/abel-tokenomics'},
-                    { text: '白皮書', link: '/tw/guide/abel-whitepaper'},
-                    { text: '後量子跨鏈橋黃皮書', link: '/tw/guide/abel-yellowpaper'},
-                    { text: 'POW 難度平滑算法 (DSA)', link: '/tw/guide/abel-dsa-whitepaper'},
-                    { text: 'ABEL 地址格式', link: '/tw/guide/abel-address-format'},
+                    { text: '經濟學', link: '/zh/guide/abel-tokenomics'},
+                    { text: '白皮書', link: '/zh/guide/abel-whitepaper'},
+                    { text: '後量子跨鏈橋黃皮書', link: '/zh/guide/abel-yellowpaper'},
+                    { text: 'POW 難度平滑算法 (DSA)', link: '/zh/guide/abel-dsa-whitepaper'},
+                    { text: 'ABEL 地址格式', link: '/zh/guide/abel-address-format'},
                     { text: 'Abelian 改進提案 (AIP)', link: 'https://github.com/pqabelian/aips'}
                   ]
                 },
                 { text: 'QDay 技術文檔',
                   collapsed: false,
                   items: [
-                    { text: '白皮書', link: '/tw/guide/qday-whitepaper'}
+                    { text: '白皮書', link: '/zh/guide/qday-whitepaper'}
                   ]
                 },
                 { text: 'QDay 測試網用戶指南',
                   collapsed: true,
                   items: [
-                    { text: 'QDay 測試網簡介', link: '/tw/guide/qday-testnet/' },
-                    { text: 'QDay 瀏覽器', link: '/tw/guide/qday-testnet/explorer' },
-                    { text: 'MetaMask 錢包', link: '/tw/guide/qday-testnet/metamask' },
-                    { text: 'QDay 水龍頭', link: '/tw/guide/qday-testnet/qday-faucet' },
-                    { text: 'QDay 質押', link: '/tw/guide/qday-testnet/qday-staking' },
-                    { text: 'ABEL 水龍頭', link: '/tw/guide/qday-testnet/abel-faucet' },
-                    { text: 'ABEL 質押', link: '/tw/guide/qday-testnet/abel-staking' },
-                    { text: 'QDay DEX', link: '/tw/guide/qday-testnet/dex' }
+                    { text: 'QDay 測試網簡介', link: '/zh/guide/qday-testnet/' },
+                    { text: 'QDay 瀏覽器', link: '/zh/guide/qday-testnet/explorer' },
+                    { text: 'MetaMask 錢包', link: '/zh/guide/qday-testnet/metamask' },
+                    { text: 'QDay 水龍頭', link: '/zh/guide/qday-testnet/qday-faucet' },
+                    { text: 'QDay 質押', link: '/zh/guide/qday-testnet/qday-staking' },
+                    { text: 'ABEL 水龍頭', link: '/zh/guide/qday-testnet/abel-faucet' },
+                    { text: 'ABEL 質押', link: '/zh/guide/qday-testnet/abel-staking' },
+                    { text: 'QDay DEX', link: '/zh/guide/qday-testnet/dex' }
                   ]
                 }
               ]
             }
           ],
-          '/tw/faq/': [
+          '/zh/faq/': [
             {
               text: '問答',
               collapsed: false,
@@ -263,51 +271,51 @@ export default defineConfig({
                 { text: '軟體問題',
                   collapsed: false,
                   items: [
-                    { text: '錢包問題', link: '/tw/faq/software-issues/wallet'},
-                    { text: 'Miner 問題', link: '/tw/faq/software-issues/miner'},
-                    { text: '全節點問題', link: '/tw/faq/software-issues/fullnode'}
+                    { text: '錢包問題', link: '/zh/faq/software-issues/wallet'},
+                    { text: 'Miner 問題', link: '/zh/faq/software-issues/miner'},
+                    { text: '全節點問題', link: '/zh/faq/software-issues/fullnode'}
                   ]
                 },
                 { text: '硬體問題',
                   collapsed: false,
                   items: [
-                    { text: 'AMD 顯卡問題', link: '/tw/faq/hardware-issues/amd' },
-                    { text: 'NVIDIA 顯卡問題', link: '/tw/faq/hardware-issues/nvidia'}
+                    { text: 'AMD 顯卡問題', link: '/zh/faq/hardware-issues/amd' },
+                    { text: 'NVIDIA 顯卡問題', link: '/zh/faq/hardware-issues/nvidia'}
                   ]
                 },
-                { text: '礦池問題', link: '/tw/faq/pool-issues' },
-                { text: '交易所問題', link: '/tw//faq/community/exchanges' }
+                { text: '礦池問題', link: '/zh/faq/pool-issues' },
+                { text: '交易所問題', link: '/zh//faq/community/exchanges' }
               ]
             }
           ],
-          '/tw/apis/': [
+          '/zh/apis/': [
             {
               text: 'API/SDK',
               collapsed: false,
               items: [
-                { text: '核心 API', link: '/tw/apis/core-api'},
-                { text: '錢包 API', link: '/tw/apis/wallet-api' },
-                { text: 'Ans API', link: '/tw/apis/ans-api' },
+                { text: '核心 API', link: '/zh/apis/core-api'},
+                { text: '錢包 API', link: '/zh/apis/wallet-api' },
+                { text: 'Ans API', link: '/zh/apis/ans-api' },
                 { text: 'Java SDK',
                   collapsed: false,
                   items: [
-                    { text: '指引', link: '/tw/apis/java-sdk/' },
-                    { text: '演示', link: '/tw/apis/java-sdk/demo'}
+                    { text: '指引', link: '/zh/apis/java-sdk/' },
+                    { text: '演示', link: '/zh/apis/java-sdk/demo'}
                   ]
                 }
               ]
             }
           ],
-          '/tw/downloads/': [
+          '/zh/downloads/': [
             {
               text: '下載',
               collapsed: false,
               items: [
-                { text: 'Abelian 應用程式', link: '/tw/downloads/latest' },
-                { text: 'Abelian 應用歷史版本', link: '/tw/downloads/release-history' },
+                { text: 'Abelian 應用程式', link: '/zh/downloads/latest' },
+                { text: 'Abelian 應用歷史版本', link: '/zh/downloads/release-history' },
                 { text: 'Abelian 開源代碼', link: 'https://github.com/pqabelian' },
-                { text: 'Abelian 全節點數據', link: '/tw/downloads/fullnode-db'},
-                { text: 'Abelian 生態工具', link: '/tw/downloads/ecosystem-tools' }
+                { text: 'Abelian 全節點數據', link: '/zh/downloads/fullnode-db'},
+                { text: 'Abelian 生態工具', link: '/zh/downloads/ecosystem-tools' }
               ]
             }
           ]
@@ -364,23 +372,6 @@ export default defineConfig({
       options: {
         locales: {
           zh: {
-            translations: {
-              button: {
-                buttonText: '搜索文档',
-                buttonAriaLabel: '搜索文档'
-              },
-              modal: {
-                noResultsText: '无法找到相关结果',
-                resetButtonTitle: '清除查询条件',
-                footer: {
-                  selectText: '选择',
-                  navigateText: '切换',
-                  closeText: '关闭'
-                }
-              }
-            }
-          },
-          tw: {
             translations: {
               button: {
                 buttonText: '搜尋文檔',

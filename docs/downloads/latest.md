@@ -174,13 +174,13 @@ outline: deep
 The new mobile wallet is a complete rewrite of the previous mobile wallet and is designed to be more user-friendly and feature-rich.
 It is available on both iOS and Android platforms.
 
-**v3.0.0 Upgrade Notes:**
+**v4.0.0 Upgrade Notes:**
 
-1. Buy ABEL using USDT and USDC are now available!
-2. Optimise tx history cache.
+1. Add UTXO consolidation feature for MLP accounts.
+2. Consolidated address book.
 3. Bug fixes.
 
-**v2.0.0 Features:**
+**New version Features:**
 
 1. Supports both Legacy wallet addresses and new MLP addresses. For the advantages of MLP (Multi-Layer Privacy) accounts, refer to the [Desktop Wallet Pro - Release Notes](/downloads/latest#abelian-desktop-wallet-pro-mlp).
 2. It is recommended to create a new wallet account (MLP address) after upgrading, and transfer all ABEL balances from old accounts to the new MLP wallet account.

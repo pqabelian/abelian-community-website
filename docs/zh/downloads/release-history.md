@@ -5,18 +5,18 @@ outline: deep
 <style>
 .button-container {
   display: flex;
-  gap: 8px; /* 确保有间距 */
+  gap: 8px; /* 確保有間距 */
 }
 
 .button-container .btn {
   display: inline-block;
   background-color: #007AFF;
-  color: white !important; /* 使用 !important 确保颜色应用 */
-  font-size: 16px !important; /* 同样使用 !important */
+  color: white !important; /* 使用 !important 確保顏色應用 */
+  font-size: 16px !important; /* 同樣使用 !important */
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-family: Arial, sans-serif !important;
   padding: 10px 20px;
-  border: 1px solid #666; /* 灰色边框 */
+  border: 1px solid #666; /* 灰色邊框 */
   border-radius: 5px;
   cursor: pointer;
   text-decoration: none !important;
@@ -24,47 +24,47 @@ outline: deep
 }
 
 .button-container .btn:hover {
-  background-color: #0056b3; /* 更深的蓝色 */
+  background-color: #0056b3; /* 更深的藍色 */
 }
 </style>
 
-# Abelian Applications Release History
+# Abelian 應用程式歷史版本
 
-::: warning CAUTION
-We provide the packages of previous versions mainly for archive purposes. Please **ALWAYS** use the latest version in a production environment.
+::: warning 注意
+我們提供以前版本的軟體套件主要用於存檔目的。請**務必**在生產環境中使用最新版本。
 :::
 
-## Abelian Pro (Mobile)
+## Abelian Pro (移動應用)
 `abelian-mobile-wallet-pro / info.abelian.walletpro`
 
 - **2025-09-06-v4.0.0**
 
-  - Add UTXO consolidation feature for MLP accounts.
-  - Consolidated address book.
-  - Bug fixes.
+  - 為 MLP 帳戶新增 UTXO 合併功能；
+  - 整合通訊錄；
+  - 修復了一些錯誤。
 
   [Android](https://download.abelian.info/release/android/abelian-mobile-wallet-pro-v4.0.0.apk) | 
   [iOS](https://download.abelian.info/release/ios/abelian-mobile-wallet-pro-v4.0.0.aab)
 
 - **2025-07-25-v3.0.0**
 
-  - Buy ABEL using USDT and USDC are now available!
-  - Optimise tx history cache.
-  - Bug fixes.
+  - 現在可以使用USDT和USDC購買ABEL！
+  - 優化交易歷史緩存；
+  - 修復了一些錯誤。
 
   [Android](https://download.abelian.info/release/android/abelian-mobile-wallet-pro-v3.0.0.apk) | 
   [iOS](https://download.abelian.info/release/ios/abelian-mobile-wallet-pro-v3.0.0.aab)
 
-## Desktop Wallet Pro (MLP)
+## 桌面錢包專業版 (MLP)
 `abelian-desktop-wallet-pro`
 
 - **2025-08-15-v1.1.0**
 
-  - **UTXO Coin Consolidation**: We’ve added a "Granularity Degree" function on the Status main page for each account. This value shows how many coins (aka UTXOs) your account has. Think of it as how granular your account is from 0 to 1, where the closer to 1 means the more small-amount coins the account has; and the closer to 0 means your account has fewer coins and each coin has a bigger amount.<br>
-    **Why it matters?** Because there is an upper limit on the number of coins (namely UTXOs) a transaction’s input can have. A pseudo-private transaction can have up to 100 coins while a fully-private transaction can have up to 5 coins only. Hence if you have many coins in your account, namely, you account has a high granularity degree, you may not be able to send all the coins out in one single transaction. Therefore, we introduce this function for anyone who wants to consolidate the coins together. Also, you can find out how many coins you currently have by mousing over the circled “i” next to the Granularity Degree.
-  - **Sync Status Indicator**: At the top-right corner, there is an account drop-down menu. we can now check out which account is active in synchronization or not directly. Green means synchronizing and red means not.
-  - **Blockchain Synchronization Time Estimation**: Syncing no longer feels like a mystery—we now display estimated time left (e.g., "About 30 minutes"). Plan your tasks better with a clear countdown.
-  - **Improved Transaction History Loading Time**: Loading past transactions is now nearly instant. No more waiting for pages to load—review your activity or check recent transfers in seconds.
+  - **UTXO 幣合併**：我們在每個帳戶的狀態主頁上添加了「顆粒度等級」功能。該值顯示您的帳戶中有多少個幣（即 UTXO）。可以將其視為帳戶的顆粒度，從 0 到 1，越接近 1 表示帳戶中小額幣越多；越接近 0 表示帳戶中幣的數量較少且每個幣的金額較大。<br>
+    **為什麼這很重要？** 因為交易輸入的幣（即 UTXO）數量有上限。偽隱私交易最多可以有 100 個幣，而完全隱私交易最多只能有 5 個幣。因此，如果您的帳戶中有很多幣，即帳戶的顆粒度等級較高，您可能無法在一次交易中發送所有幣。因此，我們為想要合併幣的人引入了這個功能。此外，您可以通過鼠標懸停在粒度度旁邊的圓圈「i」圖標上查看您當前有多少個幣。
+  - **同步狀態指示器**：在右上角的帳戶下拉菜單中，我們現在可以直接查看哪個帳戶正在同步。綠色表示正在同步，紅色表示未同步。
+  - **區塊鏈同步時間估算**：同步不再是個謎——我們現在顯示剩餘時間估算（例如，「大約 30 分鐘」）。通過清晰的倒計時更好地規劃您的任務。
+  - **改進的交易歷史加載時間**：加載過去的交易現在幾乎是瞬時的。無需再等待頁面加載——幾秒鐘內即可查看您的活動或檢查最近的轉賬。
 
   [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v1.1.0.exe) | 
   [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v1.1.0.dmg) | 
@@ -74,9 +74,9 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
 - **2025-04-23-v1.0.3**
 
-  - Faster transaction confirmations: Outputs are marked as spendable once available.
-  - Optimized display of spendable amounts: The input field on the send page accurately shows available amounts to maximize subsequent transfers, with a new "MAX" button that automatically calculates and deducts transaction fees for a single recipient.
-  - More user-friendly experience: Added additional informative tips.
+  - 交易確認更快，一旦交易輸出可用，就會被標記為可支配。
+  - 優化可支配金額顯示，在發送頁面，輸入框會精確顯示可用金額，以便最大化後續轉賬，並新增「最大」按鈕，在轉賬給一個收款人時可以自動計算並扣除交易費用。
+  - 使用體驗更友好直觀，增加了更多提示資訊。
 
   [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v1.0.3.zip) | 
   [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v1.0.3.zip) | 
@@ -86,8 +86,8 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
 - **2025-03-02-v1.0.2**
 
-  - Only updates dedicated app icons.
-
+  - 僅更新專用應用圖示。
+  
   [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v1.0.2.zip) | 
   [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v1.0.2.zip) | 
   [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v1.0.2.zip) | 
@@ -96,14 +96,14 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
 - **2025-01-04-v1.0.1**
 
-  - Support for multi-layer privacy:<br>
-    **a.** Fully-Private Address: Your transactions are encrypted and untraceable, and balances in your wallets remain hidden, ensuring maximum security and anonymity.<br>
-    **b.** Pseudonymous Address: The privacy level is comparable to that of Bitcoin, namely, publicly visible coin values and traceable transactions, while benefiting from much lower gas fees and much increased throughput.
-  - Support for multiple recipients:<br>
-    **a.** Fully-Private Recipient: Allows up to 5 recipients, ensuring secure and private transactions.<br>
-    **b.** Pseudo-Private Recipient: Allows up to 100 recipients with a maximum of 50 unique recipients, providing flexibility for larger transactions.
-  - Significant improvement in both speed and storage: the old, original Desktop Wallet Legacy requires users to spend hundreds of hours and even days to sync up the entire Abelian block-chain when running the desktop application for the first time. It also takes over 100GB of storage space. This brand new Desktop Wallet Pro (MLP) v1.0.0 takes only 45 minutes or less (depending on your network speed and bandwidth) to complete the one-time synchronization and less than 100MB of storage.
-  - Introduced the concept Memo, which allows users to write messages onto the post-quantum and immutable Abelian ledger. For the first time on Abelian, we can now write our personal notes onto the ledger permanently.
+  - 支援多層隱私：<br>
+    **a.** 完全私密地址：您的交易是加密且不可追蹤的，錢包中的餘額保持隱藏，確保最大程度的安全性和匿名性。<br>
+    **b.** 匿名地址：隱私級別與比特幣相當，即公開可見的幣值和可追蹤的交易，同時享受更低的手續費和更高的吞吐量。
+  - 支援多個接收者：<br>
+    **a.** 完全私密接收者：允許最多5個接收者，確保安全和私人交易。<br>
+    **b.** 匿名接收者：允許最多100個接收者，其中最多50個為獨特接收者，為較大規模交易提供靈活性。
+  - 速度和存儲顯著提升：舊版原始桌面錢包Legacy需要用戶花費數百小時甚至幾天時間來同步整個 Abelian 區塊鏈，並佔用超過 100GB 存儲空間。而這個全新的桌面錢包專業版（MLP）v1.0.0 僅需45分鐘或更少時間（取決於網路速度和頻寬）即可完成一次性同步，佔用不到100MB存儲空間。
+  - 引入了 Memo 概念，使用戶可以在後量子、不可變的 Abelian 帳本上寫訊息。在 Abelian 上，我們首次可以將個人筆記永久寫入帳本。
 
   [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v1.0.1.zip) | 
   [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v1.0.1.zip) | 
@@ -119,16 +119,16 @@ We provide the packages of previous versions mainly for archive purposes. Please
   [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v1.0.0.zip) | 
   [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v1.0.0.zip)
 
-## Desktop Wallet Legacy
+## 桌面錢包經典版（Legacy）
 `abelian-desktop-wallet / abelian-desktop-wallet-legacy`
 
 - **2025-07-03-v4.4.1**
-  - Enabled adaptive sync for various networks.
-  - Improved sync time estimates on the Status Page.
-  - Added color indicators for balance changes on the Tx Page.
-  - Added status lights in Account Select.
-  - Limited accounts to 100 for better multi-account sync stability.
-  - This legacy software is officially called "Abelian Wallet Legacy". For example, if you are a macOS user, you will find this software called "Abelian Wallet Legacy" rather than "Abelian Wallet" under the Applications folder.
+  - 啟用自適應同步機制，適應不同網路環境；
+  - 改進狀態頁面的同步時間估算；
+  - 在交易頁面添加餘額變化顏色標識；
+  - 帳戶選擇中增加狀態指示燈；
+  - 限制帳戶數量至100個，優化多帳戶同步穩定性;
+  - 此 Legacy 軟體的正規名稱是「Abelian Wallet Legacy」。例如，如果您是 macOS 用戶，您會在應用程式資料夾中找到這個軟體名稱為「Abelian Wallet Legacy」，而不是舊版本的「Abelian Wallet」。
 
   [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v4.4.1.exe) | 
   [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-amd64-v4.4.1.dmg) | 
@@ -137,15 +137,16 @@ We provide the packages of previous versions mainly for archive purposes. Please
   [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-arm64-v4.4.1.deb)
 
 - **2025-06-04-v4.3.0**
-  - Change to DMG installer for macOS.
-  - Renaming product name from 'Abelian Wallet' to 'Abelian Wallet Legacy'.
-  - Show estimated time for synchronization completion, fix inconsistent synchronization progress display.
-  - More efficient and optimized transaction history list.
-  - Support one-click migrate to MLP pseudonymous addres (known as Semi-private address).
-  - Newbie-friendly startup for wallet service with start/stop and log buttons clearly displayed.
-  - UI/UX optimization:
-    - remove unnecessary scrollbar display
-    - show maximum sequence number when user views mnemonics (Used to fill in the number of recovery addresses when importing a Legacy account.), and support Enter after typed master password.
+
+  - macOS 變更為 DMG 安裝程式；
+  - 產品名稱從「Abelian Wallet」更名為「Abelian Wallet Legacy」；
+  - 顯示同步完成的預計時間，修復同步進度顯示不一致的問題；
+  - 更高效和優化的交易歷史列表；
+  - 支援一鍵遷移到 MLP 匿名地址（也稱為半隱私地址）；
+  - 對新手友好的錢包服務啟動界面，清晰顯示啟動、停止和日誌按鈕；
+  - UI/UX 優化：
+    - 移除不必要的捲軸顯示；
+    - 在用戶查看助記詞時顯示最大地址數（用於導入 Legacy 帳戶時填寫恢復地址數），並支援輸入主密碼後按 Enter 鍵。
 
   [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v4.3.0.zip) | 
   [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-amd64-v4.3.0.zip) | 
@@ -194,7 +195,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
   [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-linux-arm64-v4.0.1.zip)
 
 - **2024-06-08-v4.0.0**
-  - Support hard fork.
+  - 支援硬分叉。
 
   [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-windows-amd64-v4.0.0.zip) | 
   [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-amd64-v4.0.0.zip) | 
@@ -218,8 +219,8 @@ We provide the packages of previous versions mainly for archive purposes. Please
   [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-linux-arm64-v0.3.1.zip)
 
 - **2023-11-04-v0.3.0**
-  - Syncing speed improved by 10x to 100x.
-  - Disk usage reduced by 80%.
+  - 同步速度提高了10倍至100倍。
+  - 磁碟使用量減少了80%。
 
   [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-windows-amd64-v0.3.0.zip) | 
   [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-amd64-v0.3.0.zip) | 
@@ -249,11 +250,11 @@ We provide the packages of previous versions mainly for archive purposes. Please
   [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-arm64-v0.1.3.tar.gz) | 
   [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-linux-amd64-v0.1.3.tar.gz)
 
-## Abelian Node (abec)
+## Abelian 節點（abec）
 `[abec]`
 
 - **2025-07-03-v2.0.2**
-  - Add checkpoints with height 400,000 (Hash: 73a434b741b357e37587b1b0a39c0ef65832d403bfd4d91eb11d9d805c568022).
+  - 新增 400,000 高度的檢查點（哈希值：73a434b741b357e37587b1b0a39c0ef65832d403bfd4d91eb11d9d805c568022）
 
   [Windows](https://download.pqabelian.io/release/abec/abec-windows-amd64-v2.0.2.zip) | 
   [macOS](https://download.pqabelian.io/release/abec/abec-macos-amd64-v2.0.2.tar.gz) | 
@@ -262,8 +263,8 @@ We provide the packages of previous versions mainly for archive purposes. Please
   [Linux (ARM)](https://download.pqabelian.io/release/abec/abec-linux-arm64-v2.0.2.tar.gz)
 
 - **2025-04-02-v2.0.1**
-  - Enable updated Token Release Schedule
-  - Add checkpoints with height 300000,340000,360000
+  - 啟用更新的代幣釋放計劃
+  - 新增 300000、340000、360000 高度的檢查點
 
   [Windows](https://download.pqabelian.io/release/abec/abec-windows-amd64-v2.0.1.zip) | 
   [macOS](https://download.pqabelian.io/release/abec/abec-macos-amd64-v2.0.1.tar.gz) | 
@@ -272,8 +273,8 @@ We provide the packages of previous versions mainly for archive purposes. Please
   [Linux (ARM)](https://download.pqabelian.io/release/abec/abec-linux-arm64-v2.0.1.tar.gz)
 
 - **2024-07-14-v1.0.0**
-  - For the MLPAUT hard fork: Multi-Level Privacy (MLP) and Abelian User Tokens (AUT) will be enabled at height 300000.
-  - After height 340000, version 1 transactions will no longer be included in blocks.
+  - 針對 MLPAUT 的硬分叉：多級隱私（MLP）與 Abelian 用戶令牌（AUT）將在高度 300000 啟用。
+  - 高度 340000 之後，版本 1 的交易不再被打包進區塊中。
 
   [Windows](https://download.pqabelian.io/release/abec/abec-windows-amd64-v1.0.0.zip) | 
   [macOS](https://download.pqabelian.io/release/abec/abec-macos-amd64-v1.0.0.tar.gz) | 
@@ -314,7 +315,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
   [Linux (ARM)](https://download.abelian.info/release/abec/abec-linux-arm64-v0.11.12.tar.gz)
 
 - **2023-06-02-v0.11.10**
-  - Enabled syncing blocks larger than 32MB.
+  - 已啟用同步大於32MB的區塊。
 
   [Windows](https://download.abelian.info/release/abec/abec-windows-amd64-v0.11.10.zip) | 
   [macOS](https://download.abelian.info/release/abec/abec-macos-amd64-v0.11.10.tar.gz) | 
@@ -323,7 +324,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
   [Linux (ARM)](https://download.abelian.info/release/abec/abec-linux-arm64-v0.11.10.tar.gz)
 
 - **2023-05-17-v0.11.9**
-  - Optimized RPC response format.
+  - 優化 RPC 響應格式。
 
   [Windows](https://download.abelian.info/release/abec/abec-windows-amd64-v0.11.9.zip) | 
   [macOS](https://download.abelian.info/release/abec/abec-macos-amd64-v0.11.9.tar.gz) | 
@@ -344,7 +345,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
   [macOS (Apple silicon)](https://download.abelian.info/release/abec/abec-macos-arm64-v0.11.1.tar.gz) | 
   [Linux](https://download.abelian.info/release/abec/abec-linux-amd64-v0.11.1.tar.gz)
 
-## GPU Mining Client
+## GPU 挖礦客戶端
 `abelminer`
 
 - **2023-05-31-v2.0.3**
@@ -361,10 +362,10 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Linux](https://download.abelian.info/release/pool/abelminer-linux-amd64-v2.0.1.b.tar.gz)
 
-## CPU Mining Client
+## CPU 挖礦客戶端
 `abe-miningpool-client`/`abelminer-cpu`
 
-- **2025-07-18-v0.13.2*
+- **2025-07-18-v0.13.2**
 
   [Windows](https://download.abelian.info/release/pool/abelminer-cpu-windows-amd64-v0.13.2.zip) | 
   [macOS](https://download.abelian.info/release/pool/abelminer-cpu-macos-amd64-v0.13.2.tar.gz) | 
@@ -381,7 +382,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
   [Linux (ARM)](https://download.abelian.info/release/pool/abe-miningpool-client-linux-arm64-v0.13.0.tar.gz)
 
 - **2023-06-24-v0.11.7**
-  - Enhancements: better authentication user experience and minor bug fixes.
+  - 增強功能：更好的認證用戶體驗和一些小的錯誤修復。
 
   [Windows](https://download.abelian.info/release/pool/abe-miningpool-client-windows-amd64-v0.11.7.zip) | 
   [macOS](https://download.abelian.info/release/pool/abe-miningpool-client-macos-amd64-v0.11.7.tar.gz) | 
@@ -396,7 +397,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
   [macOS (Apple silicon)](https://download.abelian.info/release/pool/abe-miningpool-client-macos-arm64-v0.11.5.tar.gz) | 
   [Linux](https://download.abelian.info/release/pool/abe-miningpool-client-linux-amd64-v0.11.5.tar.gz)
 
-## CLI Wallet (MLP)
+## 多層隱私錢包 (CLI)
 `abewalletmlp`
 
 - **2024-12-19-v2.0.0**
@@ -415,137 +416,137 @@ We provide the packages of previous versions mainly for archive purposes. Please
   [Linux](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-amd64-v1.0.1.tar.gz) | 
   [Linux (ARM)](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-arm64-v1.0.1.tar.gz)
 
-## CLI Wallet Legacy
+## 經典錢包 (CLI)
 `abewallet / abewalletlegacy`
 
 - **2024-08-04-v1.0.0**
-  - Support hard fork.
+  - 支持硬分叉。
 
   [Windows](https://download.abelian.info/release/abewallet/abewalletlegacy-windows-amd64-v1.0.0.zip) | 
-  [macOS](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-amd64-v1.0.0.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-arm64-v1.0.0.tar.gz) | 
-  [Linux](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-amd64-v1.0.0.tar.gz) | 
-  [Linux (ARM)](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-arm64-v1.0.0.tar.gz)
+  [macOS](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-amd64-v1.0.0.zip) | 
+  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-arm64-v1.0.0.zip) | 
+  [Linux](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-amd64-v1.0.0.zip) | 
+  [Linux (ARM)](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-arm64-v1.0.0.zip)
 
 - **2024-07-14-v0.13.9**
 
-  [Windows](https://download.abelian.info/release/abewallet/abewallet-windows-amd64-v0.13.9.zip) | 
-  [macOS](https://download.abelian.info/release/abewallet/abewallet-macos-amd64-v0.13.9.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewallet-macos-arm64-v0.13.9.tar.gz) | 
-  [Linux](https://download.abelian.info/release/abewallet/abewallet-linux-amd64-v0.13.9.tar.gz) | 
-  [Linux (ARM)](https://download.abelian.info/release/abewallet/abewallet-linux-arm64-v0.13.9.tar.gz)
+  [Windows](https://download.abelian.info/release/abewallet/abewalletlegacy-windows-amd64-v0.13.9.zip) | 
+  [macOS](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-amd64-v0.13.9.zip) | 
+  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-arm64-v0.13.9.zip) | 
+  [Linux](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-amd64-v0.13.9.zip) | 
+  [Linux (ARM)](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-arm64-v0.13.9.zip)
 
 - **2024-06-03-v0.13.1**
 
-  [Windows](https://download.abelian.info/release/abewallet/abewallet-windows-amd64-v0.13.1.zip) | 
-  [macOS](https://download.abelian.info/release/abewallet/abewallet-macos-amd64-v0.13.1.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewallet-macos-arm64-v0.13.1.tar.gz) | 
-  [Linux](https://download.abelian.info/release/abewallet/abewallet-linux-amd64-v0.13.1.tar.gz) | 
-  [Linux (ARM)](https://download.abelian.info/release/abewallet/abewallet-linux-arm64-v0.13.1.tar.gz)
+  [Windows](https://download.abelian.info/release/abewallet/abewalletlegacy-windows-amd64-v0.13.1.zip) | 
+  [macOS](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-amd64-v0.13.1.zip) | 
+  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-arm64-v0.13.1.zip) | 
+  [Linux](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-amd64-v0.13.1.zip) | 
+  [Linux (ARM)](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-arm64-v0.13.1.zip)
 
 - **2024-05-28-v0.13.0**
 
-  [Windows](https://download.abelian.info/release/abewallet/abewallet-windows-amd64-v0.13.0.zip) | 
-  [macOS](https://download.abelian.info/release/abewallet/abewallet-macos-amd64-v0.13.0.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewallet-macos-arm64-v0.13.0.tar.gz) | 
-  [Linux](https://download.abelian.info/release/abewallet/abewallet-linux-amd64-v0.13.0.tar.gz) | 
-  [Linux (ARM)](https://download.abelian.info/release/abewallet/abewallet-linux-arm64-v0.13.0.tar.gz)
+  [Windows](https://download.abelian.info/release/abewallet/abewalletlegacy-windows-amd64-v0.13.0.zip) | 
+  [macOS](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-amd64-v0.13.0.zip) | 
+  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-arm64-v0.13.0.zip) | 
+  [Linux](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-amd64-v0.13.0.zip) | 
+  [Linux (ARM)](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-arm64-v0.13.0.zip)
 
 - **2024-05-16-v0.12.8**
 
-  [Windows](https://download.abelian.info/release/abewallet/abewallet-windows-amd64-v0.12.8.zip) | 
-  [macOS](https://download.abelian.info/release/abewallet/abewallet-macos-amd64-v0.12.8.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewallet-macos-arm64-v0.12.8.tar.gz) | 
-  [Linux](https://download.abelian.info/release/abewallet/abewallet-linux-amd64-v0.12.8.tar.gz) | 
-  [Linux (ARM)](https://download.abelian.info/release/abewallet/abewallet-linux-arm64-v0.12.8.tar.gz)
+  [Windows](https://download.abelian.info/release/abewallet/abewalletlegacy-windows-amd64-v0.12.8.zip) | 
+  [macOS](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-amd64-v0.12.8.zip) | 
+  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-arm64-v0.12.8.zip) | 
+  [Linux](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-amd64-v0.12.8.zip) | 
+  [Linux (ARM)](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-arm64-v0.12.8.zip)
 
 - **2023-12-12-v0.12.5**
 
-  [Windows](https://download.abelian.info/release/abewallet/abewallet-windows-amd64-v0.12.5.zip) | 
-  [macOS](https://download.abelian.info/release/abewallet/abewallet-macos-amd64-v0.12.5.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewallet-macos-arm64-v0.12.5.tar.gz) | 
-  [Linux](https://download.abelian.info/release/abewallet/abewallet-linux-amd64-v0.12.5.tar.gz) | 
-  [Linux (ARM)](https://download.abelian.info/release/abewallet/abewallet-linux-arm64-v0.12.5.tar.gz)
+  [Windows](https://download.abelian.info/release/abewallet/abewalletlegacy-windows-amd64-v0.12.5.zip) | 
+  [macOS](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-amd64-v0.12.5.zip) | 
+  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-arm64-v0.12.5.zip) | 
+  [Linux](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-amd64-v0.12.5.zip) | 
+  [Linux (ARM)](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-arm64-v0.12.5.zip)
 
 - **2023-11-19-v0.12.3**
 
-  [Windows](https://download.abelian.info/release/abewallet/abewallet-windows-amd64-v0.12.3.zip) | 
-  [macOS](https://download.abelian.info/release/abewallet/abewallet-macos-amd64-v0.12.3.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewallet-macos-arm64-v0.12.3.tar.gz) | 
-  [Linux](https://download.abelian.info/release/abewallet/abewallet-linux-amd64-v0.12.3.tar.gz) | 
-  [Linux (ARM)](https://download.abelian.info/release/abewallet/abewallet-linux-arm64-v0.12.3.tar.gz)
+  [Windows](https://download.abelian.info/release/abewallet/abewalletlegacy-windows-amd64-v0.12.3.zip) | 
+  [macOS](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-amd64-v0.12.3.zip) | 
+  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-arm64-v0.12.3.zip) | 
+  [Linux](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-amd64-v0.12.3.zip) | 
+  [Linux (ARM)](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-arm64-v0.12.3.zip)
 
 - **2023-09-15-v0.11.13**
 
-  [Windows](https://download.abelian.info/release/abewallet/abewallet-windows-amd64-v0.11.13.zip) | 
-  [macOS](https://download.abelian.info/release/abewallet/abewallet-macos-amd64-v0.11.13.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewallet-macos-arm64-v0.11.13.tar.gz) | 
-  [Linux](https://download.abelian.info/release/abewallet/abewallet-linux-amd64-v0.11.13.tar.gz) | 
-  [Linux (ARM)](https://download.abelian.info/release/abewallet/abewallet-linux-arm64-v0.11.13.tar.gz)
+  [Windows](https://download.abelian.info/release/abewallet/abewalletlegacy-windows-amd64-v0.11.13.zip) | 
+  [macOS](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-amd64-v0.11.13.zip) | 
+  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-arm64-v0.11.13.zip) | 
+  [Linux](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-amd64-v0.11.13.zip) | 
+  [Linux (ARM)](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-arm64-v0.11.13.zip)
 
 - **2023-08-12-v0.11.12**
 
-  [Windows](https://download.abelian.info/release/abewallet/abewallet-windows-amd64-v0.11.12.zip) | 
-  [macOS](https://download.abelian.info/release/abewallet/abewallet-macos-amd64-v0.11.12.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewallet-macos-arm64-v0.11.12.tar.gz) | 
-  [Linux](https://download.abelian.info/release/abewallet/abewallet-linux-amd64-v0.11.12.tar.gz) | 
-  [Linux (ARM)](https://download.abelian.info/release/abewallet/abewallet-linux-arm64-v0.11.12.tar.gz)
+  [Windows](https://download.abelian.info/release/abewallet/abewalletlegacy-windows-amd64-v0.11.12.zip) | 
+  [macOS](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-amd64-v0.11.12.zip) | 
+  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-arm64-v0.11.12.zip) | 
+  [Linux](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-amd64-v0.11.12.zip) | 
+  [Linux (ARM)](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-arm64-v0.11.12.zip)
 
 - **2023-06-02-v0.11.10**
-  - Fixed a few known bugs.
+  - 修復了一些已知的錯誤。
 
-  [Windows](https://download.abelian.info/release/abewallet/abewallet-windows-amd64-v0.11.10.zip) | 
-  [macOS](https://download.abelian.info/release/abewallet/abewallet-macos-amd64-v0.11.10.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewallet-macos-arm64-v0.11.10.tar.gz) | 
-  [Linux](https://download.abelian.info/release/abewallet/abewallet-linux-amd64-v0.11.10.tar.gz) | 
-  [Linux (ARM)](https://download.abelian.info/release/abewallet/abewallet-linux-arm64-v0.11.10.tar.gz)
+  [Windows](https://download.abelian.info/release/abewallet/abewalletlegacy-windows-amd64-v0.11.10.zip) | 
+  [macOS](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-amd64-v0.11.10.zip) | 
+  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-arm64-v0.11.10.zip) | 
+  [Linux](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-amd64-v0.11.10.zip) | 
+  [Linux (ARM)](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-arm64-v0.11.10.zip)
 
 - **2023-05-17-v0.11.9**
-  - Optimized RPC response format.
+  - 優化 RPC 響應格式。
 
-  [Windows](https://download.abelian.info/release/abewallet/abewallet-windows-amd64-v0.11.9.zip) | 
-  [macOS](https://download.abelian.info/release/abewallet/abewallet-macos-amd64-v0.11.9.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewallet-macos-arm64-v0.11.9.tar.gz) | 
-  [Linux](https://download.abelian.info/release/abewallet/abewallet-linux-amd64-v0.11.9.tar.gz) | 
-  [Linux (ARM)](https://download.abelian.info/release/abewallet/abewallet-linux-arm64-v0.11.9.tar.gz)
+  [Windows](https://download.abelian.info/release/abewallet/abewalletlegacy-windows-amd64-v0.11.9.zip) | 
+  [macOS](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-amd64-v0.11.9.zip) | 
+  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-arm64-v0.11.9.zip) | 
+  [Linux](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-amd64-v0.11.9.zip) | 
+  [Linux (ARM)](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-arm64-v0.11.9.zip)
 
 - **2022-11-18-v0.11.5-b**
-  - A new API: query the current total number of wallet addresses generated; command change from addressnumber to addressmaxsequencenumber.
-  - Improved API: generate multiple addresses in batch.
-  - Added abewalletctl to access wallets directly rather than using abectl.
-  - Fixed known bugs.
-  - Support notification via websocket when the transaction status changed.
+  - 新增API：查詢當前生成的錢包地址總數；命令從 addressnumber 更改為 addressmaxsequencenumber。
+  - 改進的 API：批量生成多個地址。
+  - 新增了 abewalletctl 工具，可以直接訪問錢包，而不是使用 abectl。
+  - 修復了已知錯誤。
+  - 支援在交易狀態發生變化時通過 websocket 進行通知。
 
-  [Windows](https://download.abelian.info/release/abewallet/abewallet-windows-amd64-v0.11.5-b.zip) | 
-  [macOS](https://download.abelian.info/release/abewallet/abewallet-macos-amd64-v0.11.5-b.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewallet-macos-arm64-v0.11.5-b.tar.gz) | 
-  [Linux](https://download.abelian.info/release/abewallet/abewallet-linux-amd64-v0.11.5-b.tar.gz) | 
-  [Linux (ARM)](https://download.abelian.info/release/abewallet/abewallet-linux-arm64-v0.11.5-b.tar.gz)
+  [Windows](https://download.abelian.info/release/abewallet/abewalletlegacy-windows-amd64-v0.11.5-b.zip) | 
+  [macOS](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-amd64-v0.11.5-b.zip) | 
+  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-arm64-v0.11.5-b.zip) | 
+  [Linux](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-amd64-v0.11.5-b.zip) | 
+  [Linux (ARM)](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-arm64-v0.11.5-b.zip)
 
 - **2022-09-08-v0.11.1**
 
-  [Windows](https://download.abelian.info/release/abewallet/abewallet-windows-amd64-v0.11.1.zip) | 
-  [macOS](https://download.abelian.info/release/abewallet/abewallet-macos-amd64-v0.11.1.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewallet-macos-arm64-v0.11.1.tar.gz) | 
-  [Linux](https://download.abelian.info/release/abewallet/abewallet-linux-amd64-v0.11.1.tar.gz) | 
-  [Linux (ARM)](https://download.abelian.info/release/abewallet/abewallet-linux-arm64-v0.11.1.tar.gz)
+  [Windows](https://download.abelian.info/release/abewallet/abewalletlegacy-windows-amd64-v0.11.1.zip) | 
+  [macOS](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-amd64-v0.11.1.zip) | 
+  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-arm64-v0.11.1.zip) | 
+  [Linux](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-amd64-v0.11.1.zip) | 
+  [Linux (ARM)](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-arm64-v0.11.1.zip)
 
-## Abelian Mobile Wallet Legacy
+## 移动钱包 (经典版)
 
-- **2024-01-16-v1.02** <Badge type="danger" text="DISCONTINUED" />
+- **2024-01-16-v1.02** <Badge type="danger" text="停止维护" />
 
   [iOS](https://apps.apple.com/us/app/abelian/id6472198380) | 
   [Android](https://play.google.com/store/apps/details?id=info.abelian.wallet) | 
   [APK](https://download.abelian.info/release/android/abelian-mobile-wallet-v1.0.2.apk)
 
-## Abelian Manuals
+## Abelian 手冊
 
-More documentation for both users and developers can be found at [Abelian Documentation](/guide/get-started) website.
+用戶和開發者都可以在 [Abelian 社群文檔](/guide/get-started) 網站找到更多手冊。
 
-- [Abelian Apps Basics](/guide/index)
-- [Abelian Desktop Wallet Pro Manual](/guide/wallet/desktop-wallet-pro)
-- [Abelian Desktop Wallet (Legacy) Manual](/guide/wallet/desktop-wallet-legacy)
-- [Abelian GPU Mining Manual](/guide/mining/gpu-pool)
-- [Abelian Node (abec) Manual](/guide/abelian-node)
-- [Abelian Multi-layer Privacy Wallet (CLI) Manual](/guide/wallet/cli-wallet-mlp)
-- [Abelian Legacy Wallet (CLI) Manual](/guide/wallet/cli-wallet-legacy)
+- [Abelian 應用程式常識](/guide/index)
+- [Abelian 桌面錢包專業版手冊](/guide/wallet/desktop-wallet-pro)
+- [Abelian 桌面錢包 (經典版) 手冊](/guide/wallet/desktop-wallet-legacy)
+- [Abelian 顯示卡挖礦手冊](/guide/mining/gpu-pool)
+- [Abelian 節點 (abec) 手冊](/guide/abelian-node)
+- [Abelian 多層隱私錢包 (CLI) 手冊](/guide/wallet/cli-wallet-mlp)
+- [Abelian 經典錢包 (CLI) 手冊](/guide/wallet/cli-wallet-legacy)
