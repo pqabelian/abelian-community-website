@@ -280,7 +280,7 @@ It is available on both iOS and Android platforms.
 
 **For more details, Please view the link below:**
 - https://www.pqabelian.io/blog/abelian-network-hard-fork-introducing-multi-level-privacy-and-user-token-protocol-at-block-height-300-000
-- https://community.pqabelian.io/guide/get-started
+- https://community.pqabelian.io/guide/
 - https://community.pqabelian.io/guide/cli-full-node
 :::
 
@@ -378,7 +378,7 @@ More release history versions, Please visit [Abelian Applications Release Histor
 
 ## Abelian Manuals
 
-More documentation for both users and developers can be found at [Abelian Documentation](/guide/get-started) Page.
+More documentation for both users and developers can be found at [Abelian Documentation](/guide/) Page.
 
 - [Abelian Apps Basics](/guide/index)
 - [Abelian Desktop Wallet Pro Manual](/guide/wallet/desktop-wallet-pro)

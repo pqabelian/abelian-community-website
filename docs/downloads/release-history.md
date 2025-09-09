@@ -540,7 +540,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
 ## Abelian Manuals
 
-More documentation for both users and developers can be found at [Abelian Documentation](/guide/get-started) website.
+More documentation for both users and developers can be found at [Abelian Documentation](/guide/) website.
 
 - [Abelian Apps Basics](/guide/index)
 - [Abelian Desktop Wallet Pro Manual](/guide/wallet/desktop-wallet-pro)

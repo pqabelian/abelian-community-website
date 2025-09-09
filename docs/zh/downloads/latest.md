@@ -279,7 +279,7 @@ outline: deep
 
 **了解更多詳情，請查看以下連結：**
 - https://www.pqabelian.io/blog/abelian-network-hard-fork-introducing-multi-level-privacy-and-user-token-protocol-at-block-height-300-000
-- https://community.pqabelian.io/guide/get-started
+- https://community.pqabelian.io/guide/
 - https://community.pqabelian.io/guide/cli-full-node
 :::
 
@@ -377,12 +377,12 @@ outline: deep
 
 ## Abelian 用戶手冊
 
-查看用戶和開發者的更多文檔，請訪問 [Abelian 社群文檔](/guide/get-started) 頁面。
+查看用戶和開發者的更多文檔，請訪問 [Abelian 社群文檔](/guide/) 頁面。
 
-- [Abelian 應用程式常識](/guide/index)
-- [Abelian 桌面錢包專業版用戶手冊](/guide/wallet/desktop-wallet-pro)
-- [Abelian 桌面錢包經典版用戶手冊](/guide/wallet/desktop-wallet-legacy)
-- [Abelian 挖矿用戶手冊](/guide/mining/gpu-mining)
-- [Abelian 節點（abec）用戶手冊](/guide/abelian-node)
-- [Abelian 多層隱私錢包 (CLI) 用戶手冊](/guide/wallet/cli-wallet-mlp)
-- [Abelian 經典錢包 (CLI) 用戶手冊](/guide/wallet/cli-wallet-legacy)
+- [Abelian 應用程式常識](/zh/guide/index)
+- [Abelian 桌面錢包專業版用戶手冊](/zh/guide/wallet/desktop-wallet-pro)
+- [Abelian 桌面錢包經典版用戶手冊](/zh/guide/wallet/desktop-wallet-legacy)
+- [Abelian 挖矿用戶手冊](/zh/guide/mining/gpu-mining)
+- [Abelian 節點（abec）用戶手冊](/zh/guide/abelian-node)
+- [Abelian 多層隱私錢包 (CLI) 用戶手冊](/zh/guide/wallet/cli-wallet-mlp)
+- [Abelian 經典錢包 (CLI) 用戶手冊](/zh/guide/wallet/cli-wallet-legacy)

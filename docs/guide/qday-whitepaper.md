@@ -688,7 +688,7 @@ By combining quantum resistance, scalability, and practical usability, QDay repr
 
 \[1\] Abelian Official Website. <https://www.pqabelian.xyz/>
 
-\[2\] Abelian Documentation. <https://community.pqabelian.io/guide/get-started>
+\[2\] Abelian Documentation. <https://community.pqabelian.io/guide/>
 
 \[3\] Abelian Foundation. (2023, May). *Post-Quantum Zero-Knowledge (PQZK) Bridge*.<https://download.pqabelian.io/release/docs/Abelian%20PQZK%20Bridge.pdf>
 

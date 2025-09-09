@@ -541,12 +541,12 @@ outline: deep
 
 ## Abelian 手冊
 
-用戶和開發者都可以在 [Abelian 社群文檔](/guide/get-started) 網站找到更多手冊。
+用戶和開發者都可以在 [Abelian 社群文檔](/zh/guide/) 網站找到更多手冊。
 
-- [Abelian 應用程式常識](/guide/index)
-- [Abelian 桌面錢包專業版手冊](/guide/wallet/desktop-wallet-pro)
-- [Abelian 桌面錢包 (經典版) 手冊](/guide/wallet/desktop-wallet-legacy)
-- [Abelian 顯示卡挖礦手冊](/guide/mining/gpu-pool)
-- [Abelian 節點 (abec) 手冊](/guide/abelian-node)
-- [Abelian 多層隱私錢包 (CLI) 手冊](/guide/wallet/cli-wallet-mlp)
-- [Abelian 經典錢包 (CLI) 手冊](/guide/wallet/cli-wallet-legacy)
+- [Abelian 應用程式常識](/zh/guide/index)
+- [Abelian 桌面錢包專業版手冊](/zh/guide/wallet/desktop-wallet-pro)
+- [Abelian 桌面錢包 (經典版) 手冊](/zh/guide/wallet/desktop-wallet-legacy)
+- [Abelian 顯示卡挖礦手冊](/zh/guide/mining/gpu-pool)
+- [Abelian 節點 (abec) 手冊](/zh/guide/abelian-node)
+- [Abelian 多層隱私錢包 (CLI) 手冊](/zh/guide/wallet/cli-wallet-mlp)
+- [Abelian 經典錢包 (CLI) 手冊](/zh/guide/wallet/cli-wallet-legacy)
