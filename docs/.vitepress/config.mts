@@ -6,18 +6,14 @@ export default defineConfig({
   ignoreDeadLinks: true,
   lastUpdated: true,
 
+  head: [
+    ['link', { rel: "icon", href: "/favicon.ico"}]
+  ],
+
   locales: {
     root: {
       label: 'English',
       lang: 'en',
-      head: [
-        ['link', { rel: "icon", href: "/favicon.ico"}],
-        ['script', {
-          async: 'true',
-          defer: 'true',
-          src: 'https://hako.pqabelian.io/api/application/embed?protocol=https&host=hako.pqabelian.io&token=632bf3ead0ebfee2'
-        }]
-      ],
       title: "Abelian-Community-FAQ",
       description: "Abelian is a quantum resistant blockchain ecosystem with layer 1 being GPU-based POW and layer 2 being EVM-compatible. Abelian-Community-FAQ is committed to integrating mining tutorials and Q&A for the Abelian Community Document repository.",
       keywords: ['quantum resistant blockchain', 'post quantum', 'quantum resistant', 'quantum safe', 'privacy coin', 'zero knowledge', 'EVM compatible', 'QDay', 'Abelian', 'Abelian Foundation', 'ABEL', 'QDAY'],
@@ -173,15 +169,6 @@ export default defineConfig({
       selectText: '選擇語言',
       lang: 'zh-TW',
       link: '/zh/',
-      head: [
-        ['link', { rel: "icon", href: "/favicon.ico"}],
-        ['script', {
-          async: 'true',
-          defer: 'true',
-          // src: 'https://hako.pqabelian.io/api/application/embed?protocol=https&host=hako.pqabelian.io&token=c9f446e578abcacc'
-          src: 'https://hako.pqabelian.io/api/application/embed?protocol=https&host=hako.pqabelian.io&token=632bf3ead0ebfee2'
-        }]
-      ],
       title: "Abelian 知識社區",
       description: "Abelian 是一個抗量子計算的區塊鏈生態系統，Layer 1 基於 GPU 的 POW，Layer 2 兼容 EVM。 Abelian 知識社區 - 致力於為 Abelian 區塊鏈集文檔庫、問答、教程和用戶經驗分享為一體的綜合型社區。",
       keywords: ['quantum resistant blockchain', 'post quantum', 'quantum resistant', 'quantum safe', 'privacy coin', 'zero knowledge', 'EVM compatible', 'QDay', 'Abelian', 'Abelian Foundation', 'ABEL', 'QDAY'],

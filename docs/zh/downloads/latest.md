@@ -377,7 +377,7 @@ outline: deep
 
 ## Abelian 用戶手冊
 
-查看用戶和開發者的更多文檔，請訪問 [Abelian 社群文檔](/guide/) 頁面。
+查看用戶和開發者的更多文檔，請訪問 [Abelian 社群文檔](/zh/guide/) 頁面。
 
 - [Abelian 應用程式常識](/zh/guide/index)
 - [Abelian 桌面錢包專業版用戶手冊](/zh/guide/wallet/desktop-wallet-pro)

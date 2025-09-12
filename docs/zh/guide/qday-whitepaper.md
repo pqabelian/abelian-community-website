@@ -684,7 +684,7 @@ QDay 結合了量子抗性、可擴展性和實用性，不僅代表了區塊鏈
 
 \[1\] Abelian 官網. <https://www.pqabelian.xyz/>
 
-\[2\] Abelian 文件. <https://community.pqabelian.io/guide/>
+\[2\] Abelian 文檔. <https://community.pqabelian.io/zh/guide/>
 
 \[3\] Abelian 基金會. (2023 年 5 月). *後量子零知識 (PQZK) 橋*.<https://download.pqabelian.io/release/docs/Abelian%20PQZK%20Bridge.pdf>
 
@@ -706,4 +706,4 @@ QDay 結合了量子抗性、可擴展性和實用性，不僅代表了區塊鏈
 
 ---
 
-[下載 QDay 白皮書日語版本 PDF 文件](https://download.pqabelian.io/release/docs/QDay_Whitepaper_Japanese.pdf)
+[下載 QDay 白皮書日語版本 PDF 文檔](https://download.pqabelian.io/release/docs/QDay_Whitepaper_Japanese.pdf)
