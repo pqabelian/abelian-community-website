@@ -281,7 +281,7 @@ It is available on both iOS and Android platforms.
 **For more details, Please view the link below:**
 - https://www.pqabelian.io/blog/abelian-network-hard-fork-introducing-multi-level-privacy-and-user-token-protocol-at-block-height-300-000
 - https://community.pqabelian.io/guide/
-- https://community.pqabelian.io/guide/cli-full-node
+- https://community.pqabelian.io/guide/abelian-node
 :::
 
 ---

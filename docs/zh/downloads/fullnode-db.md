@@ -6,7 +6,7 @@ outline: deep
 
 ## Abelian 全節點資料說明
 
-Abelian 全節點資料包括三種類型：semi-fullnode、normal-fullnode 和 full node，相關參數的介紹和設定方法請查看 [Abelian 全節點用戶指引文件](/zh/guide/cli-full-node#_2-設定-abec)。
+Abelian 全節點資料包括三種類型：semi-fullnode、normal-fullnode 和 full node，相關參數的介紹和設定方法請查看 [Abelian 全節點用戶指引文件](/zh/guide/abelian-node#_2-配置-abec)。
 
 ## Semi-Full Node
 

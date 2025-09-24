@@ -6,7 +6,7 @@ outline: deep
 
 ## Description of Abelian Full Node Database
 
-Abelian full node database includes three types: semi-fullnode, normal-fullnode, and fullnode. For related parameters and configuration methods, please refer to the [Abelian Full Node User Guide Document](/guide/cli-full-node#_2-configuration-abec).
+Abelian full node database includes three types: semi-fullnode, normal-fullnode, and fullnode. For related parameters and configuration methods, please refer to the [Abelian Full Node User Guide Document](/guide/abelian-node#_2-configuration-abec).
 
 ## Semi-Full Node
 

@@ -280,7 +280,7 @@ outline: deep
 **了解更多詳情，請查看以下連結：**
 - https://www.pqabelian.io/blog/abelian-network-hard-fork-introducing-multi-level-privacy-and-user-token-protocol-at-block-height-300-000
 - https://community.pqabelian.io/guide/
-- https://community.pqabelian.io/guide/cli-full-node
+- https://community.pqabelian.io/guide/abelian-node
 :::
 
 ---
