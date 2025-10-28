@@ -37,6 +37,14 @@ We provide the packages of previous versions mainly for archive purposes. Please
 ## Abelian Pro (Mobile)
 `abelian-mobile-wallet-pro / info.abelian.walletpro`
 
+- **2025-10-28-v5.0.0**
+
+  - Support QDay (Layer 2).
+  - Bug fixes.
+
+  [Android](https://download.abelian.info/release/android/abelian-mobile-wallet-pro-v5.0.0.apk) | 
+  [iOS](https://download.abelian.info/release/ios/abelian-mobile-wallet-pro-v5.0.0.aab)
+
 - **2025-09-06-v4.0.0**
 
   - Add UTXO consolidation feature for MLP accounts.

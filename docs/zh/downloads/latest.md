@@ -164,7 +164,7 @@ outline: deep
     <span>下載我們最新的移動錢包</span>
   </div>
   <div class="btn-wrapper">
-    <a href="https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v4.0.0.apk" class="btn-apk">APK</a>
+    <a href="https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v5.0.0.apk" class="btn-apk">APK</a>
     <a href="https://play.google.com/store/apps/details?id=info.abelian.walletpro" class="btn-base btn-android"></a>
     <a href="https://apps.apple.com/us/app/abelian-pro/id6475756639" class="btn-base btn-ios"></a>
   </div>
@@ -173,14 +173,12 @@ outline: deep
 ::: info <Badge type="warning" text="特點介紹" />
 新的移動錢包是對之前移動錢包的全面重寫，旨在更加用戶友好和功能豐富。它可在 iOS 和 Android 平台上使用。
 
-**v4.0.0 升級說明:**
+**v5.0.0 升級說明:**
 
-1. 為 MLP 帳戶新增 UTXO 合併功能；
-2. 整合通訊錄；
-3. 修復了一些錯誤。
+1. 支持 QDay (二級網路)；
+2. 修復了一些錯誤。
 
 **新版本特點：**
-
 1. 同時支援錢包賬戶 Legacy 地址和新的 MLP 地址，MLP（多層隱私）賬戶的優勢參考 [桌面錢包專業版 - 發布說明](/zh/downloads/latest#abelian-桌面錢包專業版-mlp)；
 2. 推薦升級到新版後創建新的錢包賬戶（MLP 地址），並在創建新的 MLP 錢包賬戶後，將所有舊賬戶的餘額 ABEL 幣從轉賬至 MLP 錢包賬戶；
 3. 創建新的錢包賬戶（MLP 地址）後，在「賬戶資料」中備份 24 個單詞的助記詞（恢復短語），可以使用桌面錢包專業版導入此助記詞。

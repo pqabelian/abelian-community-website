@@ -37,6 +37,14 @@ outline: deep
 ## Abelian Pro (移動應用)
 `abelian-mobile-wallet-pro / info.abelian.walletpro`
 
+- **2025-10-28-v5.0.0**
+
+  - 支持 QDay (二級網路)；
+  - 修復了一些錯誤。
+
+  [Android](https://download.abelian.info/release/android/abelian-mobile-wallet-pro-v5.0.0.apk) | 
+  [iOS](https://download.abelian.info/release/ios/abelian-mobile-wallet-pro-v5.0.0.aab)
+
 - **2025-09-06-v4.0.0**
 
   - 為 MLP 帳戶新增 UTXO 合併功能；
