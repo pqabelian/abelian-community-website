@@ -77,7 +77,7 @@ miningaddr=[your wallet address]
 
 ### 2. Install GPU Mining Client
 
-Download the [Abelian GPU Mining Client](/downloads/latest#abelian-gpu-mining-client) and extract it:
+Download the [Abelian GPU Mining Client](/downloads/latest.html#abelian-gpu-mining-client) and extract it:
 
 ```txt-vue
 ~/abel/abelminer-linux-amd64-{{ $frontmatter.version_abelminer }}/
@@ -85,7 +85,7 @@ Download the [Abelian GPU Mining Client](/downloads/latest#abelian-gpu-mining-cl
 
 ### 3. Create a Wallet Address
 
-You need a wallet address to receive mining rewards. The easiest way is to use [Abelian Pro](/downloads/latest#abelian-pro-mobile):
+You need a wallet address to receive mining rewards. The easiest way is to use [Abelian Pro](/downloads/latest.html#abelian-pro-mobile):
 
 1. Download and install Abelian Pro
 2. Create a new wallet or import existing one

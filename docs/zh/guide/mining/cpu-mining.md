@@ -75,7 +75,7 @@ miningaddr=[您的錢包地址]
 
 ### 2. 建立錢包地址
 
-您需要一個錢包地址來接收挖礦獎勵。最簡單的方法是使用 [Abelian Pro](/zh/downloads/latest#abelian-pro-移動應用)：
+您需要一個錢包地址來接收挖礦獎勵。最簡單的方法是使用 [Abelian Pro](/zh/downloads/latest.html#abelian-pro-移動應用)：
 
 1. 下載並安裝 Abelian Pro 行動錢包
 2. 建立新錢包或匯入現有錢包

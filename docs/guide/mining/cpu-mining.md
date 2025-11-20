@@ -80,7 +80,7 @@ miningaddr=[your wallet address]
 ### 2. Create a Wallet Address
 
 You need a wallet address to receive mining rewards. The easiest way is to
-use [Abelian Pro](/downloads/latest#abelian-pro-mobile):
+use [Abelian Pro](/downloads/latest.html#abelian-pro-mobile):
 
 1. Download and install Abelian Pro mobile wallet
 2. Create a new wallet or import existing one
