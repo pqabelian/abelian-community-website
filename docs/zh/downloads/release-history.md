@@ -37,6 +37,15 @@ outline: deep
 ## Abelian Pro (移動應用)
 `abelian-mobile-wallet-pro / info.abelian.walletpro`
 
+- **2025-11-22-v5.1.0**
+
+  - 區分 MLP 帳戶類型；
+  - 15分鐘內無需重新輸入密碼；
+  - 修復了一些錯誤。
+
+  [Android](https://download.abelian.info/release/android/abelian-mobile-wallet-pro-v5.1.0.apk) | 
+  [iOS](https://download.abelian.info/release/ios/abelian-mobile-wallet-pro-v5.1.0.aab)
+
 - **2025-10-28-v5.0.0**
 
   - 支持 QDay (二級網路)；
