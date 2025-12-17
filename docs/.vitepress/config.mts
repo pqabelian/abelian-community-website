@@ -72,25 +72,6 @@ export default defineConfig({
                     { text: 'ABEL Address Formart', link: '/guide/abel-address-format'},
                     { text: 'Abelian Improvement Proposals (AIP)', link: 'https://github.com/pqabelian/aips'}
                   ]
-                },
-                { text: 'QDay Tech Docs',
-                  collapsed: false,
-                  items: [
-                    { text: 'Whitepaper', link: '/guide/qday-whitepaper'}
-                  ]
-                },
-                { text: 'QDay Testnet User Guide',
-                  collapsed: true,
-                  items: [
-                    { text: 'QDay Testnet Introduction', link: '/guide/qday-testnet/' },
-                    { text: 'QDay Explorer', link: '/guide/qday-testnet/explorer' },
-                    { text: 'MetaMask Wallet', link: '/guide/qday-testnet/metamask' },
-                    { text: 'QDay Faucet', link: '/guide/qday-testnet/qday-faucet' },
-                    { text: 'QDay Staking', link: '/guide/qday-testnet/qday-staking' },
-                    { text: 'ABEL Faucet', link: '/guide/qday-testnet/abel-faucet' },
-                    { text: 'ABEL Staking', link: '/guide/qday-testnet/abel-staking' },
-                    { text: 'QDay DEX', link: '/guide/qday-testnet/dex' }
-                  ]
                 }
               ]
             }
@@ -226,25 +207,6 @@ export default defineConfig({
                     { text: 'POW 難度平滑算法 (DSA)', link: '/zh/guide/abel-dsa-whitepaper'},
                     { text: 'ABEL 地址格式', link: '/zh/guide/abel-address-format'},
                     { text: 'Abelian 改進提案 (AIP)', link: 'https://github.com/pqabelian/aips'}
-                  ]
-                },
-                { text: 'QDay 技術文檔',
-                  collapsed: false,
-                  items: [
-                    { text: '白皮書', link: '/zh/guide/qday-whitepaper'}
-                  ]
-                },
-                { text: 'QDay 測試網用戶指南',
-                  collapsed: true,
-                  items: [
-                    { text: 'QDay 測試網簡介', link: '/zh/guide/qday-testnet/' },
-                    { text: 'QDay 瀏覽器', link: '/zh/guide/qday-testnet/explorer' },
-                    { text: 'MetaMask 錢包', link: '/zh/guide/qday-testnet/metamask' },
-                    { text: 'QDay 水龍頭', link: '/zh/guide/qday-testnet/qday-faucet' },
-                    { text: 'QDay 質押', link: '/zh/guide/qday-testnet/qday-staking' },
-                    { text: 'ABEL 水龍頭', link: '/zh/guide/qday-testnet/abel-faucet' },
-                    { text: 'ABEL 質押', link: '/zh/guide/qday-testnet/abel-staking' },
-                    { text: 'QDay DEX', link: '/zh/guide/qday-testnet/dex' }
                   ]
                 }
               ]
