@@ -16,10 +16,12 @@ Note: After changing the payout address, update the mining client command accord
 
 ---
 
-### <Badge type="warning" text="QUESTION" /> The official pool website is unable to load the dashboard.
+### <Badge type="warning" text="QUESTION" /> Maxpool website cannot display the rigs online status of Machines?
 
 ::: info <Badge type="tip" text="ANSWER" />
-Please clear your browser cache and then reopen the mining pool website.
+Maxpool relies on scripts to submit stats to the API for online status. Due to complex user networks, some miners still don’t show online status in the Dashboard.
+
+The DEV team is aware of the issue. For now, pls focus on checking the hashrate and also try to use abelminer, the official mining client for the best support. The team is working on an improvement for the issue but will take some time. 
 :::
 
 ---

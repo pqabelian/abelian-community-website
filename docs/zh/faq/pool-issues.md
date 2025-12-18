@@ -24,6 +24,24 @@ Maxpool 網站後端已經增加對多層隱私（MLP）錢包地址的支援，
 
 ---
 
+### <Badge type="warning" text="問題" /> Maxpool 網站無法顯示礦機線上狀態？
+
+::: info <Badge type="tip" text="答案" />
+Maxpool 依賴腳本將統計數據提交到 API 以顯示在線狀態。由於複雜的用戶網絡，部分礦工仍未在控制面板中顯示在線狀態。
+
+開發團隊已意識到此問題。目前，請專注於檢查算力，並嘗試使用 abelminer，這是官方挖礦客戶端，可提供最佳支援。團隊正在為此問題進行改進，但需要一些時間。
+:::
+
+---
+
+### <Badge type="warning" text="問題" /> 無法打開礦池網站控制台？
+
+::: info <Badge type="tip" text="答案" />
+請清除瀏覽器快取，然後再重新打開網站。
+:::
+
+---
+
 ### <Badge type="warning" text="問題" /> Maxpool 礦池已註冊但挖礦命令無法工作？
 
 ::: info <Badge type="tip" text="答案" />
