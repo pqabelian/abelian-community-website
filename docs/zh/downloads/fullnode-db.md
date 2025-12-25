@@ -8,13 +8,13 @@ outline: deep
 
 Abelian 全節點資料包括三種類型：semi-fullnode、normal-fullnode 和 full node，相關參數的介紹和設定方法請查看 [Abelian 全節點用戶指引文件](/zh/guide/abelian-node#_2-配置-abec)。
 
-## Semi-Full Node
+## Normal-FullNode
 
 ### 資料目錄預設位置
 
 #### （Mainnet）
 
-- Abelian 桌面錢包經典版（Legacy） 4.1.1 中的 Abec 主網預設採用 semi-fullnode，資料目錄預設位置如下：
+- Abelian 桌面錢包經典版（Legacy） 4.1.1 中的 Abec 主網預設採用 normal-fullnode，Solo 挖礦的用戶推薦使用該類型全節點，資料目錄預設位置如下：
 
 ::: code-group
 
@@ -66,11 +66,11 @@ Abelian 桌面錢包經典版（Legacy） 4.2.0 版本開始已經不使用 Abec
   3. 移動解壓縮得到的 mainnet 目錄並覆蓋至 [資料預設位置](#資料目錄預設位置)
   4. 重新執行桌面錢包，點擊同步（sync Mainnet），並確保同步完成 100%（到最新高度）
 
-## Normal-Full Node
+## Semi-FullNode
 
 ### 資料目錄預設位置
 
-Abelian 開發者或個人 Solo 挖礦的用戶需要下載 Abec Mainnet/Testnet (Normal-Full Node) 資料包，資料目錄預設位置如下：
+Abelian 開發者需要下載 Abec Mainnet/Testnet (Semi-Full Node) 資料包，資料目錄預設位置如下：
 
 #### （Mainnet）
 ::: code-group
@@ -109,15 +109,15 @@ Abelian 開發者或個人 Solo 挖礦的用戶需要下載 Abec Mainnet/Testnet
 
 #### （Mainnet）
 
-> 下載連結：[Mega](https://mega.nz/file/YvkwgK4B#Lo3Q9WnD5WOP6CLUZjtRfzlYTCw0ikjHiuVchx5fxl4)
+> 下載連結：[Mega](https://mega.nz/file/8y1GVCgD#AuskSFAk6nCbvfT6gQ3X_jZM8HgQFVu0iMmN0Mg5Jrk)
 > 
 > 檔案名稱：mainnet.zip
 > 
-> 檔案大小：233.29 GB
+> 檔案大小：320.86 GB
 > 
-> 區塊高度：400002
+> 區塊高度：461203
 > 
-> 上傳日期：2025年06月19日
+> 上傳日期：2025年12月25日
 
 #### （Testnet）
 
