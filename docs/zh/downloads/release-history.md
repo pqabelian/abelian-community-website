@@ -270,6 +270,18 @@ outline: deep
 ## Abelian 節點（abec）
 `[abec]`
 
+- **2025-12-26-v3.0.0**
+  - 新增支援阿貝爾用戶代幣 (AUT) 的新型地址 (偽CT)。
+  - 將交易版本升級到 3，以支援偽CT地址。
+  - 將區塊版本升級到 4，以支援新的交易版本。
+  - 在區塊高度 464,000 引入了「aconcagua」分叉，啟用 AUT 並支援結合 DSA 的混合 PoW；將承諾高度設定在 480,000。
+
+  [Windows](https://download.pqabelian.io/release/abec/abec-windows-amd64-3.0.0.zip) | 
+  [macOS](https://download.pqabelian.io/release/abec/abec-macos-amd64-v3.0.0.tar.gz) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abec/abec-macos-arm64-v3.0.0.tar.gz) | 
+  [Linux](https://download.pqabelian.io/release/abec/abec-linux-amd64-v3.0.0.tar.gz) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abec/abec-linux-arm64-v3.0.0.tar.gz)
+
 - **2025-07-03-v2.0.2**
   - 新增 400,000 高度的檢查點（哈希值：73a434b741b357e37587b1b0a39c0ef65832d403bfd4d91eb11d9d805c568022）
 

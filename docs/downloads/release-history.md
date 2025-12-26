@@ -269,6 +269,18 @@ We provide the packages of previous versions mainly for archive purposes. Please
 ## Abelian Node (abec)
 `[abec]`
 
+- **2025-12-26-v3.0.0**
+  - Added support for a new address type (pseudo-CT) for Abelian User Token (AUT).
+  - Upgraded transaction version to 3 to support pseudo-CT addresses.
+  - Upgraded block version to 4 to support the new transaction version.
+  - Introduced the "aconcagua" fork at height 464,000, enabling AUT and hybrid PoW with DSA; set commit height at 480,000.
+
+  [Windows](https://download.pqabelian.io/release/abec/abec-windows-amd64-3.0.0.zip) | 
+  [macOS](https://download.pqabelian.io/release/abec/abec-macos-amd64-v3.0.0.tar.gz) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abec/abec-macos-arm64-v3.0.0.tar.gz) | 
+  [Linux](https://download.pqabelian.io/release/abec/abec-linux-amd64-v3.0.0.tar.gz) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abec/abec-linux-arm64-v3.0.0.tar.gz)
+
 - **2025-07-03-v2.0.2**
   - Add checkpoints with height 400,000 (Hash: 73a434b741b357e37587b1b0a39c0ef65832d403bfd4d91eb11d9d805c568022).
 

@@ -261,21 +261,24 @@ outline: deep
 ---
 
 ## Abelian 節點（abec）
-- **發布日期**： `2025-07-03`
-- **軟體名稱**： `abec-v2.0.2`
-- **軟體大小**： `≈ 20MB`
+- **發布日期**： `2025-12-226`
+- **軟體名稱**： `abec-v3.0.0`
+- **軟體大小**： `≈ 23MB`
 - **下載連結**：
 <div class="button-container">
-  <a href="https://download.pqabelian.io/release/abec/abec-windows-amd64-v2.0.2.zip" class="btn">Windows</a>
-  <a href="https://download.pqabelian.io/release/abec/abec-macos-amd64-v2.0.2.tar.gz" class="btn">macOS</a>
-  <a href="https://download.pqabelian.io/release/abec/abec-macos-arm64-v2.0.2.tar.gz" class="btn">macOS (Apple Silicon)</a>
-  <a href="https://download.pqabelian.io/release/abec/abec-linux-amd64-v2.0.2.tar.gz" class="btn">Linux</a>
-  <a href="https://download.pqabelian.io/release/abec/abec-linux-arm64-v2.0.2.tar.gz" class="btn">Linux (ARM)</a>
+  <a href="https://download.pqabelian.io/release/abec/abec-windows-amd64-v3.0.0.zip" class="btn">Windows</a>
+  <a href="https://download.pqabelian.io/release/abec/abec-macos-amd64-v3.0.0.tar.gz" class="btn">macOS</a>
+  <a href="https://download.pqabelian.io/release/abec/abec-macos-arm64-v3.0.0.tar.gz" class="btn">macOS (Apple Silicon)</a>
+  <a href="https://download.pqabelian.io/release/abec/abec-linux-amd64-v3.0.0.tar.gz" class="btn">Linux</a>
+  <a href="https://download.pqabelian.io/release/abec/abec-linux-arm64-v3.0.0.tar.gz" class="btn">Linux (ARM)</a>
 </div>
 
 ::: info <Badge type="warning" text="發布說明" />
-- 添加 400,000 高度的檢查點（哈希值：73a434b741b357e37587b1b0a39c0ef65832d403bfd4d91eb11d9d805c568022）
-- 運行節點各模式儲存空間需求：Normal Node ≈ 160GB、Semi-Full Node ≈ 240GB、Full Node ≈ 1.2TB
+- 新增支援阿貝爾用戶代幣 (AUT) 的新型地址 (偽CT)。
+- 將交易版本升級到 3，以支援偽CT地址。
+- 將區塊版本升級到 4，以支援新的交易版本。
+- 在區塊高度 464,000 引入了「aconcagua」分叉，啟用 AUT 並支援結合 DSA 的混合 PoW；將承諾高度設定在 480,000。
+- 運行節點各模式儲存空間需求：Normal Node ≈ 170GB、Semi-Full Node ≈ 450GB、Full Node ≈ 1.4TB
 
 **了解更多詳情，請查看以下連結：**
 - https://www.pqabelian.io/blog/abelian-network-hard-fork-introducing-multi-level-privacy-and-user-token-protocol-at-block-height-300-000
