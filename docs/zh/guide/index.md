@@ -21,11 +21,11 @@ Abelian 生態系統由多個主要應用組成，共同提供完整的區塊鏈
 - **abec** - Abelian 節點，24/7 運行，與其他節點通信以維護全球 Abelian 網絡。它存儲區塊鏈賬本並驗證所有數據。**abectl** 隨 **abec** 分發，是用於管理 Abelian 節點的命令行界面，包括查詢區塊、查詢交易等操作。
 
 - **桌面錢包** - 圖形用戶界面錢包軟體，提供兩個版本：
-    - **桌面錢包經典版**<Badge type="warning" text="已過時" /> - 支援經典版地址的錢包。
+    - **桌面錢包經典版** - 支援經典版地址的錢包。
     - **桌面錢包專業版 (MLP)** - 支援完全隱私和偽隱私地址的多層隱私錢包。
 
 - **abewallet** - 命令行錢包軟體，提供兩個版本：
-    - **abewalletlegacy** <Badge type="warning" text="已過時"/> - 支援經典版地址的錢包。**abewalletlegacyctl** 隨 **abewalletlegacy** 分發，是錢包控制界面。
+    - **abewalletlegacy** - 支援經典版地址的錢包。**abewalletlegacyctl** 隨 **abewalletlegacy** 分發，是錢包控制界面。
     - **abewalletmlp** - 支援完全隱私和偽隱私地址的多層隱私錢包。**abewalletmlpctl** 隨 **abewalletlegacy** 分發，是錢包控制界面。
 
 - **abelminer-gpu (又名 abelminer)** - GPU 挖礦軟體，通過從節點或礦池接收任務、計算解決方案並提交結果來完成工作量證明挖礦。

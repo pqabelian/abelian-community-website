@@ -128,7 +128,7 @@ Choose the appropriate node type based on your storage and verification needs:
 
 **Configuration:**
 ```ini
-# Default: semi-full node (recommended for most users)
+# Default: SemiFull Node (recommended for most users)
 nodetype=semifullnode
 
 # Other options:
@@ -186,9 +186,9 @@ The node will begin synchronizing with the Abelian network:
 3. **Validation Phase**: Validating downloaded blocks
 
 **Expected sync times:**
-- **Full Node**: Several days (depending on connection)
-- **Semi-Full Node**: 1-3 days (recommended)
-- **Normal Node**: 1-2 days
+- **Abelian Full Node**: Several days (depending on connection)
+- **Abelian SemiFull Node**: 1-3 days (recommended)
+- **Abelian Normal Node**: 1-2 days
 
 #TODO add section for downloading backup data
 

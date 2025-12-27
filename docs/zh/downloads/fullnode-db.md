@@ -165,7 +165,7 @@ $ mv -f mainnet ~/.abec/data/
 # 或 將測試網数据目录移動到 ~/.abec/data/ 下
 $ mv -f testnet ~/.abec/data/
 ```
-4. 重新執行 Abelian 節點
+4. 重新執行 Abelian 節點。
 
 ## 注意事項
 

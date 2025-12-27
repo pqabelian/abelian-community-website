@@ -24,7 +24,7 @@ Abelian 節點（Abec）有以下三種類型：
 2. 系統屬性 -> 高級 -> 環境變數 -> 新建/系統環境變數
     變數名: ABELWALLET_HOME
     變數值: （選擇一個資料夾路徑）
-1. 將以下檔案從 C:\Users\\[用戶名稱]\AppData\Roaming\Abelian Wallet 路徑移動到新路徑包含 Abec, Abewallet, ans cache. json, config. json, state.json
+1. 將以下檔案從 C:\Users\\[用戶名稱]\AppData\Roaming\Abelian Wallet 路徑移動到新路徑包含 Abec, Abewallet, anscache.json, config.json, state.json
 2. 重新啟動系統
 :::
 
@@ -48,7 +48,7 @@ ABEC: Shutdown complete
 
 ---
 
-### <Badge type="warning" text="QUESTION" /> 运行標準節點（ABEC）有什么硬體要求？
+### <Badge type="warning" text="QUESTION" /> 运行標準節點（Abec）有什么硬體要求？
 
 ::: info <Badge type="tip" text="ANSWER" />
 Abelian 標準節點（`Abec`）目前發佈了幾乎所有常用硬體平臺的版本，硬體要求也沒有太多限制，但同步和讀取主網資料速度和儲存空間大小有最低要求，儲存空間不少於 180GB，建議使用 240G 的固態硬碟。

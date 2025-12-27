@@ -24,7 +24,7 @@ To change the folder, you can try this method (Windows only)
 2. System Properties ->Advanced ->Environment Variables ->New User/System Environment Variables
     Variable name: ABELWALLET_HOME
     Variable value: (Select a folder path)
-3. Move the following files from C:\Users\\[username]\AppData\Roaming\Abelian Wallet path to a new path, including Abec, Abewallet, ans cache. json, config. json, state.json
+3. Move the following files from C:\Users\\[username]\AppData\Roaming\Abelian Wallet path to a new path, including Abec, Abewallet, anscache.json, config.json, state.json
 4. Restart the system
 :::
 
@@ -42,15 +42,15 @@ ABEC: Shutdown complete
 ::: info <Badge type="tip" text="ANSWER" />
 This is mainnet database corruption. You need to delete the "/[user_home_dir]/.abec/data/mainnet/blocks_ffldb" folder, and then resync again.
 
-Please [view this page](/downloads/fullnode-db) and follow the steps to download the latest Abelian Standard Node and SemiFull Node mainnet data, then resync again.
+Please [view this page](/downloads/fullnode-db) and follow the steps to download the latest Abelian Normal Node and SemiFull Node mainnet data, then resync again.
 :::
 
 ---
 
-### <Badge type="warning" text="QUESTION" /> What are the hardware requirements for running a Standard Node (ABEC)?
+### <Badge type="warning" text="QUESTION" /> What are the hardware requirements for running a Normal Node (Abec)?
 
 ::: info <Badge type="tip" text="ANSWER" />
-Abelian Standard Node (`Abec`) has currently released versions for almost all commonly used hardware platforms, with minimal hardware requirements. However, there are minimum requirements for the speed of synchronizing and reading mainnet data as well as storage space size. The storage space should be no less than 180GB, and it is recommended to use a 240GB solid-state drive.
+Abelian Normal Node (`Abec`) has currently released versions for almost all commonly used hardware platforms, with minimal hardware requirements. However, there are minimum requirements for the speed of synchronizing and reading mainnet data as well as storage space size. The storage space should be no less than 180GB, and it is recommended to use a 240GB solid-state drive.
 :::
 
 ---

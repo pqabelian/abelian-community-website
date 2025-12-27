@@ -168,7 +168,7 @@ $ mv -f mainnet ~/.abec/data/
 $ mv -f testnet ~/.abec/data/
 ```
 
-1. Restart the Abelian Node.
+4. Restart the Abelian Node.
 
 ## Precautions
 

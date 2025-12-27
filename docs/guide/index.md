@@ -22,24 +22,20 @@ experience:
 
 ### Core Applications
 
-- **abec** - The Abelian node running 24/7, communicating with other nodes to maintain the global Abelian network.
-  It stores the blockchain ledger and validates all data. **abectl**, distributed with **abec**, is the command-line
-  interface for managing the Abelian node, including query block, query transaction, and other node operations.
+- **abec** - The Abelian node running 24/7, communicating with other nodes to maintain the global Abelian network. It stores the blockchain ledger and validates all data. **abectl**, distributed with **abec**, is the command-line interface for managing the Abelian node, including query block, query transaction, and other node operations.
 
 - **Desktop Wallet** - The GUI wallet software also available in two versions:
-    - **Desktop Wallet Legacy**<Badge type="warning" text="obsolete" /> - The wallet supporting legacy addresses.
+    - **Desktop Wallet Legacy** - The wallet supporting legacy addresses.
     - **Desktop Wallet Pro (MLP)** - The Multi-Layer Privacy wallet supporting fully-privacy and pseudo-privacy
       addresses.
 
 - **abewallet** - The command-line wallet software also available in two versions:
-    - **abewalletlegacy** <Badge type="warning" text="obsolete"/> - The wallet supporting legacy addresses.
+    - **abewalletlegacy** - The wallet supporting legacy addresses.
       **abewalletlegacyctl**, distributed with **abewalletlegacy**, is the wallet control interface.
     - **abewalletmlp** - The Multi-Layer Privacy wallet supporting fully-privacy and pseudo-privacy addresses.
       **abewalletmlpctl**, distributed with **abewalletlegacy**, is the wallet control interface.
 
-- **abelminer-gpu (a.k.a. abelminer)** - The GPU mining software that performs Proof-of-Work mining by receiving tasks
-  from a node or pool,
-  computing solutions, and submitting results.
+- **abelminer-gpu (a.k.a. abelminer)** - The GPU mining software that performs Proof-of-Work mining by receiving tasks from a node or pool, computing solutions, and submitting results.
 
 ### Application Relationships
 
