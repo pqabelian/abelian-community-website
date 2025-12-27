@@ -10,9 +10,12 @@ outline: deep
 
 ::: info <Badge type="tip" text="ANSWER" />
 Abelian Node (Abec) have the following 3 types:
+
 - **Abelian Full Node**: Stores and verifies all blockchain data since the genesis block, requiring the most storage space.
 - **Abelian SemiFull Node**: Optimized storage structure, retains complete data after the most recent checkpoint, with high verification capability.
 - **Abelian Standard Node**: Further reduces storage space, only stores complete data from retention blocks, suitable for resource-limited environments.
+
+For more information, please refer to: [Abelian Node User Guide Document](/guide/abelian-node#node-type-configuration)
 :::
 
 ### <Badge type="warning" text="QUESTION" /> How to move the Standard Node data of desktop wallet (Legacy) to another location?

@@ -84,9 +84,9 @@ export default defineConfig({
                 { text: 'Software Issues',
                   collapsed: false,
                   items: [
-                    { text: 'Wallet Issues', link: '/faq/software-issues/wallet'},
-                    { text: 'Miner Issues', link: '/faq/software-issues/miner'},
-                    { text: 'Fullnode Issues', link: '/faq/software-issues/fullnode'}
+                    { text: 'Wallet FAQ', link: '/faq/software-issues/wallet'},
+                    { text: 'Miner FAQ', link: '/faq/software-issues/miner'},
+                    { text: 'Abelian Node FAQ', link: '/faq/software-issues/fullnode'}
                   ]
                 },
                 { text: 'Hardware Issues',
@@ -220,9 +220,9 @@ export default defineConfig({
                 { text: '軟體問題',
                   collapsed: false,
                   items: [
-                    { text: '錢包問題', link: '/zh/faq/software-issues/wallet'},
-                    { text: 'Miner 問題', link: '/zh/faq/software-issues/miner'},
-                    { text: '全節點問題', link: '/zh/faq/software-issues/fullnode'}
+                    { text: '錢包問題解答', link: '/zh/faq/software-issues/wallet'},
+                    { text: '礦工問題解答', link: '/zh/faq/software-issues/miner'},
+                    { text: 'Abelian 節點問題解答', link: '/zh/faq/software-issues/fullnode'}
                   ]
                 },
                 { text: '硬體問題',
