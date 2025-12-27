@@ -2,19 +2,19 @@
 outline: deep
 ---
 
-# Abelian 全節點資料
+# Abelian 節點資料
 
-## Abelian 全節點資料說明
+## Abelian 節點資料說明
 
-Abelian 全節點資料包括三種類型：semi-fullnode、normal-fullnode 和 full node，相關參數的介紹和設定方法請查看 [Abelian 全節點用戶指引文件](/zh/guide/abelian-node#_2-配置-abec)。
+Abelian 節點資料包括三種類型：標準節點、半全節點和全節點，相關參數的介紹和設定方法請查看 [Abelian 節點用戶指引文檔](/zh/guide/abelian-node#_2-配置-abec)。
 
-## Normal-FullNode
+## Abelian 標準節點
 
 ### 資料目錄預設位置
 
 #### （Mainnet）
 
-- Abelian 桌面錢包經典版（Legacy） 4.1.1 中的 Abec 主網預設採用 normal-fullnode，Solo 挖礦的用戶推薦使用該類型全節點，資料目錄預設位置如下：
+- 在 Abelian 桌面錢包 (Legacy) 4.1.1 版本中，Abec 主網預設使用標準節點。建議單人挖礦使用者執行 Abelian 標準節點的 `normalnode` 類型，預設資料目錄位置如下：
 
 ::: code-group
 
@@ -66,11 +66,11 @@ Abelian 桌面錢包經典版（Legacy） 4.2.0 版本開始已經不使用 Abec
   3. 移動解壓縮得到的 mainnet 目錄並覆蓋至 [資料預設位置](#資料目錄預設位置)
   4. 重新執行桌面錢包，點擊同步（sync Mainnet），並確保同步完成 100%（到最新高度）
 
-## Semi-FullNode
+## 半全節點
 
 ### 資料目錄預設位置
 
-Abelian 開發者需要下載 Abec Mainnet/Testnet (Semi-Full Node) 資料包，資料目錄預設位置如下：
+Abelian 開發者磁碟空間充裕推薦下載主網/測試網 Abelian 半全節點 (`semifullnode`) 資料包，資料目錄預設位置如下：
 
 #### （Mainnet）
 ::: code-group
@@ -133,20 +133,21 @@ Abelian 開發者需要下載 Abec Mainnet/Testnet (Semi-Full Node) 資料包，
 
 ###  解壓縮資料包
 
-#### Windows 全节点
+#### Windows
 
 1. 停止全节点进程 `start_abec.bat`
 2. 將下載的 mainnet.zip 或 testnet.zip 解壓縮至 [資料預設位置](#資料目錄預設位置-1)
-3. 重新執行全節點
+3. 重新執行 `start_abec.bat`
 
-#### MacOS 全节点
+#### MacOS
 
 1. 停止全节点进程 `start_abec.sh`
 2. 將下載的 mainnet.zip 或 testnet.zip 雙擊執行解壓縮
 3. 移動解壓縮得到的 mainnet 或 testnet 目錄並覆蓋至 [資料預設位置](#資料目錄預設位置-1)
-4. 重新執行全節點
+4. 重新執行 `start_abec.sh`
 
-#### Linux 全节点
+#### Linux
+
 1. 停止全节点进程 `abec`或 `abectl`
 2. 將下載的 mainnet.zip 或 testnet.zip 執行解壓縮命令：
 ```bash

@@ -28,7 +28,7 @@ export default defineConfig({
               { text: 'Abelian Applications', link: '/downloads/latest' },
               { text: 'Abelian Release History', link: '/downloads/release-history' },
               { text: 'Abelian Source Codes', link: 'https://github.com/pqabelian' },
-              { text: 'Abelian Fullnode Dababase', link: '/downloads/fullnode-db' },
+              { text: 'Abelian Node Dababase', link: '/downloads/fullnode-db' },
               { text: 'Abelian Ecosystem Tools', link: '/downloads/ecosystem-tools' }
             ]
           },
@@ -127,7 +127,7 @@ export default defineConfig({
                 { text: 'Abelian Applications', link: '/downloads/latest' },
                 { text: 'Abelian Release History', link: '/downloads/release-history' },
                 { text: 'Abelian Source Codes', link: 'https://github.com/pqabelian' },
-                { text: 'Abelian Fullnode Database', link: '/downloads/fullnode-db'},
+                { text: 'Abelian Node Database', link: '/downloads/fullnode-db'},
                 { text: 'Abelian Ecosystem Tools', link: '/downloads/ecosystem-tools' }
               ]
             }
@@ -164,7 +164,7 @@ export default defineConfig({
               { text: 'Abelian 應用程式', link: '/zh/downloads/latest' },
               { text: 'Abelian 應用歷史版本', link: '/zh/downloads/release-history' },
               { text: 'Abelian 開源代碼', link: 'https://github.com/pqabelian' },
-              { text: 'Abelian 全節點數據', link: '/zh/downloads/fullnode-db' },
+              { text: 'Abelian 節點資料', link: '/zh/downloads/fullnode-db' },
               { text: 'Abelian 生態工具', link: '/zh/downloads/ecosystem-tools' }
             ]
           },
@@ -263,7 +263,7 @@ export default defineConfig({
                 { text: 'Abelian 應用程式', link: '/zh/downloads/latest' },
                 { text: 'Abelian 應用歷史版本', link: '/zh/downloads/release-history' },
                 { text: 'Abelian 開源代碼', link: 'https://github.com/pqabelian' },
-                { text: 'Abelian 全節點數據', link: '/zh/downloads/fullnode-db'},
+                { text: 'Abelian 節點資料', link: '/zh/downloads/fullnode-db'},
                 { text: 'Abelian 生態工具', link: '/zh/downloads/ecosystem-tools' }
               ]
             }

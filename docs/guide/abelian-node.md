@@ -98,18 +98,18 @@ Choose the appropriate node type based on your storage and verification needs:
 
 | Node Type          | Storage Requirements | Verification Level | Description                                          |
 |--------------------|----------------------|--------------------|------------------------------------------------------|
-| **Full Node**      | Highest (~1200GB+)   | Complete           | Stores and verifies all blockchain data from genesis |
-| **Semi-Full Node** | Medium (~240GB+)     | Standard           | Optimized storage with high verification capability  |
-| **Normal Node**    | Lowest (~160GB+)     | Safe               | Further optimized for resource-limited environments  |
+| **Abelian Full Node**      | Highest (~1400GB+)   | Complete           | Stores and verifies all blockchain data from genesis |
+| **Abellian SemiFull Node** | Medium (~450GB+)     | Standard           | Optimized storage with high verification capability  |
+| **Abelian Normal Node**    | Lowest (~160GB+)     | Safe               | Further optimized for resource-limited environments  |
 
-#### Full Node
+#### Abelian Full Node
 
 - **Definition**: A complete node that stores and verifies all data of the blockchain.
 - **Functionality**:
     - Stores the complete block (Content + Witness) data from the genesis block.
     - Verifies the validity of each block (transaction validity, block validity).
 
-#### **Semi-Full Node**
+#### **Abelian SemiFull Node**
 - **Definition**: A semi-complete node that optimizes storage requirements while maintaining high verification
   capability.
 - **Functionality**:
@@ -118,7 +118,7 @@ Choose the appropriate node type based on your storage and verification needs:
     - Verifies the header information of each block (including PoW) before the last checkpoint.
     - Verifies the validity of each block (transaction validity, block validity) from the last checkpoint onward.
 
-#### **Normal Node**
+#### **Abelian Normal Node**
 - **Definition**: A normal node that further optimizes storage, suitable for resource-limited environments.
 - **Functionality**:
     - Stores block (Content) data from the genesis block to the reserved block.
@@ -132,8 +132,8 @@ Choose the appropriate node type based on your storage and verification needs:
 nodetype=semifullnode
 
 # Other options:
-# nodetype=fullnode      # Complete node
-# nodetype=normalnode    # Normal node
+# nodetype=fullnode      # Abelian Complete Node
+# nodetype=normalnode    # Abelian Normal Node
 ```
 
 ### Network Configuration

@@ -121,7 +121,7 @@ Once the address is generated, you can utilize either the long wallet address or
 ## Import ABEL Wallet Account
 
 :::tip
-After upgrading the desktop wallet legacy version from 4.1.1 or earlier to version 4.2.0, you will need to re-import wallet accounts. Starting from version 4.2.0, it is no longer necessary to synchronize Abec full node data, significantly improving synchronization speed and reducing disk space usage.
+After upgrading the desktop wallet legacy version from 4.1.1 or earlier to version 4.2.0, you will need to re-import wallet accounts. Starting from version 4.2.0, it is no longer necessary to synchronize Abelian node (`Abec`) data, significantly improving synchronization speed and reducing disk space usage.
 :::
 
 To import an ABEL wallet created elsewhere, follow these steps:
@@ -129,7 +129,7 @@ To import an ABEL wallet created elsewhere, follow these steps:
 1. Click “**Select Account**” in the upper right corner, then select “**Import Account**，”as shown in the figure below:
 ![Select Import Wallet Account](/desktop-wallet/legacy/select-import-account.png)
 
-2. Enter the **wallet name**①, the **mnemonic phrase** of 24 words②, and click on the “**Number of Addresses to Recover**”③ field, which will prompt a dialog box. Click the “**OK**”④ button.
+1. Enter the **wallet name**①, the **mnemonic phrase** of 24 words②, and click on the “**Number of Addresses to Recover**”③ field, which will prompt a dialog box. Click the “**OK**”④ button.
 ![Input wallet name and mnemonic](/desktop-wallet/legacy/input-account-name-mnemonics.png)
 
 :::tip

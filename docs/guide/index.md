@@ -147,7 +147,7 @@ recommend everyone to have a copy of the Abelian Pro mobile app on their mobile 
     - **Purpose**: Provide local blockchain access, maintain a complete copy of the Abelian blockchain
 - **Benefits**: Helps decentralize the network, provides local blockchain access
 - **Requirements**:
-    - **Storage**: 2TB (current blockchain ~1.2TB for Full Node; ~240GB for Semi-Full Node; and ~160GB for Normal Node)
+    - **Storage**: 2TB (current blockchain ~1.4TB for Abelian Full Node; ~440GB for Abelian SemiFull Node; and ~160GB for Abelian Normal Node)
     - **RAM**: Minimum 8GB
     - **Network**: Stable internet connection
 - **Manual**: [Abelian Node (abec) Manual](/guide/abelian-node)
