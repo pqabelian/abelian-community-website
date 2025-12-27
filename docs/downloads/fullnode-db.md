@@ -6,15 +6,15 @@ outline: deep
 
 ## Description of Abelian Node Database
 
-Abelian node database includes three types: Standard Node, SemiFull Node, and Full Node. For related parameters and configuration methods, please refer to the [Abelian Full Node User Guide Document](/guide/abelian-node#_2-configuration-abec).
+Abelian node database includes three types: Normal Node, SemiFull Node, and Full Node. For related parameters and configuration methods, please refer to the [Abelian Node User Guide Document](/guide/abelian-node#_2-configuration-abec).
 
-## Standard Node
+## Abelian Normal Node
 
 ### Default Data Directory Location
 
 #### (Mainnet)
 
-- In Abelian Desktop Wallet (Legacy) version 4.1.1, the Abec mainnet defaults to using Standard Node. Solo mining users are recommended to run the `normalnode` type of Abelian Standard Node, with the default data directory location as follows:
+- In Abelian Desktop Wallet (Legacy) version 4.1.1, the Abec mainnet defaults to using Normal Node. Solo mining users are recommended to run the `normalnode` type of Abelian Normal Node, with the default data directory location as follows:
 
 ::: code-group
 
@@ -32,7 +32,7 @@ Abelian node database includes three types: Standard Node, SemiFull Node, and Fu
 :::
 
 ::: tip Note
-Starting from version 4.2.0 of the Abelian Desktop Wallet Classic (Legacy), the Abec synchronization of mainnet data is no longer used, and this data package does not need to be downloaded.
+Starting from version 4.2.0 of the Abelian Desktop Wallet (Legacy), the Abec synchronization of mainnet data is no longer used, and this data package does not need to be downloaded.
 :::
 
 ### Data Package Download Link
@@ -66,7 +66,7 @@ Starting from version 4.2.0 of the Abelian Desktop Wallet Classic (Legacy), the 
   3. Move the extracted mainnet directory to the [Default Location](#default-data-directory-location).
   4. Restart the Desktop Wallet and click sync (sync Mainnet), Start synchronization and ensure it reaches 100% (latest block height).
 
-## SemiFull Node
+## Abelian SemiFull Node
 
 ### Default Data Directory Location
 
@@ -135,20 +135,20 @@ Abelian developers with sufficient disk space are advised to download the Abelia
 
 #### Windows
 
-1. Stop the full node process `start_abec.bat`.
+1. Stop the node process `start_abec.bat`.
 2. Extract the downloaded mainnet.zip or testnet.zip to the  [Default Location](#default-data-directory-location-1).
 3. Execute `start_abec.bat`.
 
 #### macOS
 
-1. Stop the full node process `start_abec.sh`.
+1. Stop the node process `start_abec.sh`.
 2. Double-click the downloaded mainnet.zip or testnet.zip to extract it.
 3. Move the extracted mainnet or testnet directory to the  [Default Location](#default-data-directory-location-1).
 4. Execute `start_abec.sh`.
 
 #### Linux
 
-1. Stop the full node process `abec` or `abectl`.
+1. Stop the node process `abec` or `abectl`.
 2. Execute the extraction command for the downloaded mainnet.zip or testnet.zip:
 
 ```bash
@@ -168,7 +168,7 @@ $ mv -f mainnet ~/.abec/data/
 $ mv -f testnet ~/.abec/data/
 ```
 
-4. Restart the full node.
+1. Restart the Abelian Node.
 
 ## Precautions
 
