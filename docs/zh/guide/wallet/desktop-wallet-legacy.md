@@ -128,10 +128,10 @@ Abelian 基金會推出的桌面版 Abelian 錢包，為用戶提供了便捷的
 匯入其他地方建立的 ABEL 錢包，可按以下步驟進行：
 
 1. 點擊右上角的 “**Select Account（選擇帳戶）**”，然後選擇 “**Import Account（匯入帳戶）**”。
-![選擇匯入錢包帳戶](/desktop-wallet/legacy/select-import-account.png)
+  ![選擇匯入錢包帳戶](/desktop-wallet/legacy/select-import-account.png)
 
 2. 輸入**錢包名稱**①、24 個單字的**助記詞**②，點擊 “**Number of Addresses to Recover（恢復地址數量）**”③ 栏會彈出一個對話框，點擊 “**OK**”④ 按鈕。
-![輸入錢包名稱和助記詞](/desktop-wallet/legacy/input-account-name-mnemonics.png)
+  ![輸入錢包名稱和助記詞](/desktop-wallet/legacy/input-account-name-mnemonics.png)
 
 :::tip 提示
 恢復地址數需用戶自行估算，以下提供三個參考方法：
@@ -145,8 +145,8 @@ Abelian 基金會推出的桌面版 Abelian 錢包，為用戶提供了便捷的
   d. 如果錢包版本太舊無法運行並查詢交易記錄，恢復地址數可以預估填寫一個數值，例如：100，但不要填寫不切實際且過大的數值，以免導致程式崩潰。
 :::
 
-1. 系統會自動產生對應的數字到恢復地址實例數量欄，點擊 “**IMPORT（匯入）**” 按鈕，稍後會提示 “**Account imported.（帳戶已匯入。）**”，點擊 “**DONE（完成）**” 按鈕完成錢包帳戶匯入。
-![匯入錢包帳戶成功](/desktop-wallet/legacy/import-account-success.png)
+3. 系統會自動產生對應的數字到恢復地址實例數量欄，點擊 “**IMPORT（匯入）**” 按鈕，稍後會提示 “**Account imported.（帳戶已匯入。）**”，點擊 “**DONE（完成）**” 按鈕完成錢包帳戶匯入。
+  ![匯入錢包帳戶成功](/desktop-wallet/legacy/import-account-success.png)
 
 ## 遷移 ABEL 經典錢包至多層隱私錢包帳戶
 

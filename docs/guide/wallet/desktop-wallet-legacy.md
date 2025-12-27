@@ -127,10 +127,10 @@ After upgrading the desktop wallet legacy version from 4.1.1 or earlier to versi
 To import an ABEL wallet created elsewhere, follow these steps:
 
 1. Click “**Select Account**” in the upper right corner, then select “**Import Account**，”as shown in the figure below:
-![Select Import Wallet Account](/desktop-wallet/legacy/select-import-account.png)
+  ![Select Import Wallet Account](/desktop-wallet/legacy/select-import-account.png)
 
-1. Enter the **wallet name**①, the **mnemonic phrase** of 24 words②, and click on the “**Number of Addresses to Recover**”③ field, which will prompt a dialog box. Click the “**OK**”④ button.
-![Input wallet name and mnemonic](/desktop-wallet/legacy/input-account-name-mnemonics.png)
+2. Enter the **wallet name**①, the **mnemonic phrase** of 24 words②, and click on the “**Number of Addresses to Recover**”③ field, which will prompt a dialog box. Click the “**OK**”④ button.
+  ![Input wallet name and mnemonic](/desktop-wallet/legacy/input-account-name-mnemonics.png)
 
 :::tip
 You need to estimate the number of addresses to recover. Here are three reference methods:
