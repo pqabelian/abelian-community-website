@@ -390,9 +390,9 @@ Remove-Item .\logs\*.log.old
 
 If you encounter problems not covered in this document, you can:
 
-- Visit the  Abelian Nakamoto Pool official website: https://abel-nakamoto.xyz
-- Check detailed log files for error information
-- Contact the technical support team
+- Visit the  Abelian Nakamoto Pool official website: <https://abel-nakamoto.xyz>
+- Check detailed log files for error information;
+- Join the [Discord](https://discord.com/invite/5rrDxP29hx) community and Contact the technical support team.
 
 ---
 

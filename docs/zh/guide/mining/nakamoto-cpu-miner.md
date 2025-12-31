@@ -390,9 +390,9 @@ Remove-Item .\logs\*.log.old
 
 如果您遇到本文件未涵蓋的問題，可以：
 
-- 瀏覽 Abelian 中本礦池官方網站：https://abel-nakamoto.xyz
-- 查看詳細日誌檔案取得錯誤資訊
-- 聯絡技術支援團隊
+- 瀏覽 Abelian 中本礦池官方網站：<https://abel-nakamoto.xyz>；
+- 查看詳細日誌檔案取得錯誤資訊；
+- 加入 [Discord](https://discord.com/invite/5rrDxP29hx) 社群聯絡技術支援團隊。
 
 ---
 

@@ -59,7 +59,8 @@ export default defineConfig({
                     { text: 'CLI Wallet (MLP)', link: '/guide/wallet/cli-wallet-mlp' },
                     { text: 'CLI Wallet Legacy', link: '/guide/wallet/cli-wallet-legacy' },
                     { text: 'GPU Mining', link: '/guide/mining/gpu-mining' },
-                    { text: 'CPU Mining', link: '/guide/mining/cpu-mining' }
+                    { text: 'CPU Mining', link: '/guide/mining/cpu-mining' },
+                    { text: 'Nakamoto CPU Mining', link: '/guide/mining/nakamoto-cpu-miner' }
                   ]
                 },
                 { text: 'Abelian Tech Docs',
@@ -195,7 +196,8 @@ export default defineConfig({
                     { text: '多層隱私錢包 (CLI)', link: '/zh/guide/wallet/cli-wallet-mlp' },
                     { text: '經典錢包（CLI）', link: '/zh/guide/wallet/cli-wallet-legacy' },
                     { text: '顯卡挖礦', link: '/zh/guide/mining/gpu-mining' },
-                    { text: 'CPU 挖礦', link: '/zh/guide/mining/cpu-mining' }
+                    { text: 'CPU 挖礦', link: '/zh/guide/mining/cpu-mining' },
+                    { text: '中本 CPU 挖礦', link: '/zh/guide/mining/nakamoto-cpu-miner' }
                   ]
                 },
                 { text: 'Abelian 技術文檔',
