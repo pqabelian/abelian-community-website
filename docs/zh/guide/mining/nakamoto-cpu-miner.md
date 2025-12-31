@@ -8,13 +8,13 @@
 
 ### 什麼是 ABEL-Nakamoto CPU 挖礦客戶端？
 
-ABEL-Nakamoto CPU 挖礦客戶端是一款專為 CPU 挖礦設計的高效挖礦軟體，採用 ABEL-Nakamoto 和 ABEL-ETHash PoW 共識演算法，支援透過礦池進行挖礦。
+ABEL-Nakamoto CPU 挖礦客戶端是一款專為 CPU 挖礦設計的高效挖礦軟體，採用 ABEL-Nakamoto PoW 共識演算法，支援透過礦池進行挖礦。
 
 ### 核心功能特性
 
 | 功能特性         | 說明                                  |
 | ---------------- | ------------------------------------- |
-| **挖礦演算法** | 採用面向 CPU 的 ABEL-Nakamoto 和 ABEL-ETHash PoW 演算法 |
+| **挖礦演算法** | 採用面向 CPU 的 ABEL-Nakamoto PoW 演算法 |
 | **礦池協定**     | 基於 Stratum V1.0 標準協定            |
 | **多執行緒支援**   | 充分利用多核心 CPU 效能                 |
 | **守護程序模式** | 支援在 Linux/MacOS 後台執行           |

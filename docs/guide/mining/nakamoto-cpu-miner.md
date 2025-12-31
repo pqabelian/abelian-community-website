@@ -8,13 +8,13 @@ Welcome to ABEL-Nakamoto CPU Mining Client! This document will help you quickly 
 
 ### What is ABEL-Nakamoto CPU Mining Client?
 
-ABEL-Nakamoto CPU Mining Client is an efficient mining software specially designed for CPU mining, which uses the ABEL-Nakamoto and ABEL-ETHash PoW consensus algorithm and supports mining through mining pools.
+ABEL-Nakamoto CPU Mining Client is an efficient mining software specially designed for CPU mining, which uses the ABEL-Nakamoto PoW consensus algorithm and supports mining through mining pools.
 
 ### Core Features
 
 | Feature | Description |
 | ------- | ----------- |
-| **Mining Algorithm** | CPU-oriented ABEL-Nakamoto and ABEL-ETHash PoW algorithm |
+| **Mining Algorithm** | CPU-oriented ABEL-Nakamoto PoW algorithm |
 | **Mining Pool Protocol** | Based on Stratum V1.0 standard protocol |
 | **Multi-threading Support** | Fully utilizes multi-core CPU performance |
 | **Daemon Mode** | Supports background operation on Linux/MacOS |
