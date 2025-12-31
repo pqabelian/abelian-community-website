@@ -262,16 +262,16 @@ It is available on both iOS and Android platforms.
 ---
 
 ## Abelian Node (abec)
-- **Release Date**: `2025-12-26`
-- **Package Name**: `abec-v3.0.0`
+- **Release Date**: `2026-01-01`
+- **Package Name**: `abec-v3.0.1`
 - **Package Size**: `≈ 23MB`
 - **Download Links**:
 <div class="button-container">
-  <a href="https://download.pqabelian.io/release/abec/abec-windows-amd64-v3.0.0.zip" class="btn">Windows</a>
-  <a href="https://download.pqabelian.io/release/abec/abec-macos-amd64-v3.0.0.tar.gz" class="btn">macOS</a>
-  <a href="https://download.pqabelian.io/release/abec/abec-macos-arm64-v3.0.0.tar.gz" class="btn">macOS (Apple Silicon)</a>
-  <a href="https://download.pqabelian.io/release/abec/abec-linux-amd64-v3.0.0.tar.gz" class="btn">Linux</a>
-  <a href="https://download.pqabelian.io/release/abec/abec-linux-arm64-v3.0.0.tar.gz" class="btn">Linux (ARM)</a>
+  <a href="https://download.pqabelian.io/release/abec/abec-windows-amd64-v3.0.1.zip" class="btn">Windows</a>
+  <a href="https://download.pqabelian.io/release/abec/abec-macos-amd64-v3.0.1.tar.gz" class="btn">macOS</a>
+  <a href="https://download.pqabelian.io/release/abec/abec-macos-arm64-v3.0.1.tar.gz" class="btn">macOS (Apple Silicon)</a>
+  <a href="https://download.pqabelian.io/release/abec/abec-linux-amd64-v3.0.1.tar.gz" class="btn">Linux</a>
+  <a href="https://download.pqabelian.io/release/abec/abec-linux-arm64-v3.0.1.tar.gz" class="btn">Linux (ARM)</a>
 </div>
 
 ::: info <Badge type="warning" text="RELEASE NOTES" />
@@ -279,7 +279,7 @@ It is available on both iOS and Android platforms.
 - Upgraded transaction version to 3 to support pseudo-CT addresses.
 - Upgraded block version to 4 to support the new transaction version.
 - Introduced the "aconcagua" fork at height 464,000, enabling AUT and hybrid PoW with DSA; set commit height at 480,000.
-- To participate in Abel-Nakamoto solo CPU mining when starting Abec, simply add the `--generate` parameter.
+- To participate in ABEL-Nakamoto solo CPU mining when starting Abec, simply add the `--generate` parameter.
 - Storage space requirements for running nodes in different modes: Normal Node ≈ 190GB, SemiFull Node ≈ 450GB, Full Node ≈ 1.4TB.
 
 **For more details, Please view the link below:**
@@ -410,6 +410,8 @@ More documentation for both users and developers can be found at [Abelian Docume
 - [Abelian Desktop Wallet Pro Manual](/guide/wallet/desktop-wallet-pro)
 - [Abelian Desktop Wallet Legacy Manual](/guide/wallet/desktop-wallet-legacy)
 - [Abelian GPU Mining Manual](/guide/mining/gpu-pool)
+- [Abelian CPU Mining Manual](/guide/mining/cpu-pool)
+- [ABEL-Nakamoto CPU Mining Manual](/guide/mining/nakamoto-cpu-miner)
 - [Abelian Node (abec) Manual](/guide/abelian-node)
 - [Abelian CLI Wallet (MLP) Manual](/guide/wallet/cli-wallet-mlp)
 - [Abelian CLI Wallet Legacy Manual](/guide/wallet/cli-wallet-legacy)

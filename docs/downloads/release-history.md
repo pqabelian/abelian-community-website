@@ -269,18 +269,18 @@ We provide the packages of previous versions mainly for archive purposes. Please
 ## Abelian Node (abec)
 `[abec]`
 
-- **2025-12-26-v3.0.0**
+- **2026-01-01-v3.0.1**
   - Added support for a new address type (pseudo-CT) for Abelian User Token (AUT).
   - Upgraded transaction version to 3 to support pseudo-CT addresses.
   - Upgraded block version to 4 to support the new transaction version.
   - Introduced the "aconcagua" fork at height 464,000, enabling AUT and hybrid PoW with DSA; set commit height at 480,000.
-  - To participate in Abel-Nakamoto solo CPU mining when starting Abec, simply add the `--generate` parameter.
+  - To participate in ABEL-Nakamoto solo CPU mining when starting Abec, simply add the `--generate` parameter.
 
-  [Windows](https://download.pqabelian.io/release/abec/abec-windows-amd64-3.0.0.zip) | 
-  [macOS](https://download.pqabelian.io/release/abec/abec-macos-amd64-v3.0.0.tar.gz) | 
-  [macOS (Apple silicon)](https://download.pqabelian.io/release/abec/abec-macos-arm64-v3.0.0.tar.gz) | 
-  [Linux](https://download.pqabelian.io/release/abec/abec-linux-amd64-v3.0.0.tar.gz) | 
-  [Linux (ARM)](https://download.pqabelian.io/release/abec/abec-linux-arm64-v3.0.0.tar.gz)
+  [Windows](https://download.pqabelian.io/release/abec/abec-windows-amd64-3.0.1.zip) | 
+  [macOS](https://download.pqabelian.io/release/abec/abec-macos-amd64-v3.0.1.tar.gz) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abec/abec-macos-arm64-v3.0.1.tar.gz) | 
+  [Linux](https://download.pqabelian.io/release/abec/abec-linux-amd64-v3.0.1.tar.gz) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abec/abec-linux-arm64-v3.0.1.tar.gz)
 
 - **2025-07-03-v2.0.2**
   - Add checkpoints with height 400,000 (Hash: 73a434b741b357e37587b1b0a39c0ef65832d403bfd4d91eb11d9d805c568022).
@@ -592,6 +592,8 @@ More documentation for both users and developers can be found at [Abelian Docume
 - [Abelian Desktop Wallet Pro Manual](/guide/wallet/desktop-wallet-pro)
 - [Abelian Desktop Wallet (Legacy) Manual](/guide/wallet/desktop-wallet-legacy)
 - [Abelian GPU Mining Manual](/guide/mining/gpu-pool)
+- [Abelian CPU Mining Manual](/guide/mining/cpu-pool)
+- [ABEL-Nakamoto CPU Mining Manual](/guide/mining/nakamoto-cpu-miner)
 - [Abelian Node (abec) Manual](/guide/abelian-node)
 - [Abelian Multi-layer Privacy Wallet (CLI) Manual](/guide/wallet/cli-wallet-mlp)
 - [Abelian Legacy Wallet (CLI) Manual](/guide/wallet/cli-wallet-legacy)

@@ -261,16 +261,16 @@ outline: deep
 ---
 
 ## Abelian 節點（abec）
-- **發布日期**： `2025-12-226`
-- **軟體名稱**： `abec-v3.0.0`
+- **發布日期**： `2026-01-01`
+- **軟體名稱**： `abec-v3.0.1`
 - **軟體大小**： `≈ 23MB`
 - **下載連結**：
 <div class="button-container">
-  <a href="https://download.pqabelian.io/release/abec/abec-windows-amd64-v3.0.0.zip" class="btn">Windows</a>
-  <a href="https://download.pqabelian.io/release/abec/abec-macos-amd64-v3.0.0.tar.gz" class="btn">macOS</a>
-  <a href="https://download.pqabelian.io/release/abec/abec-macos-arm64-v3.0.0.tar.gz" class="btn">macOS (Apple Silicon)</a>
-  <a href="https://download.pqabelian.io/release/abec/abec-linux-amd64-v3.0.0.tar.gz" class="btn">Linux</a>
-  <a href="https://download.pqabelian.io/release/abec/abec-linux-arm64-v3.0.0.tar.gz" class="btn">Linux (ARM)</a>
+  <a href="https://download.pqabelian.io/release/abec/abec-windows-amd64-v3.0.1.zip" class="btn">Windows</a>
+  <a href="https://download.pqabelian.io/release/abec/abec-macos-amd64-v3.0.1.tar.gz" class="btn">macOS</a>
+  <a href="https://download.pqabelian.io/release/abec/abec-macos-arm64-v3.0.1.tar.gz" class="btn">macOS (Apple Silicon)</a>
+  <a href="https://download.pqabelian.io/release/abec/abec-linux-amd64-v3.0.1.tar.gz" class="btn">Linux</a>
+  <a href="https://download.pqabelian.io/release/abec/abec-linux-arm64-v3.0.1.tar.gz" class="btn">Linux (ARM)</a>
 </div>
 
 ::: info <Badge type="warning" text="發布說明" />
@@ -278,7 +278,7 @@ outline: deep
 - 將交易版本升級到 3，以支援偽CT地址；
 - 將區塊版本升級到 4，以支援新的交易版本；
 - 在區塊高度 464,000 引入了「aconcagua」分叉，啟用 AUT 並支援結合 DSA 的混合 PoW；將承諾高度設定在 480,000；
-- 啟動 Abec 時，只需新增 `--generate` 參數即可參與 Abel-Nakamoto Solo CPU 挖礦;
+- 啟動 Abec 時，只需新增 `--generate` 參數即可參與 ABEL-Nakamoto 單獨 CPU 挖礦;
 - 運行節點各模式儲存空間需求：Normal Node ≈ 190GB、SemiFull Node ≈ 450GB、Full Node ≈ 1.4TB
 
 **了解更多詳情，請查看以下連結：**
