@@ -37,15 +37,15 @@ Abelian 桌面錢包經典版（Legacy） 4.2.0 版本開始已經不使用 Abec
 
 ### 資料包下載地址
 
-> 下載連結：[Mega](https://mega.nz/file/tzVAHbyR#UsDY4lKMhEn0W0O_XUimOngMzksuvnj1yGrCWDfI0mE)
+> 下載連結：[Mega](https://mega.nz/file/0v1lQYwa#dE2TTBoVSt195UEMAaPiLWX8dHgVw6K6IpB9YxztiXI)
 > 
 > 檔案名稱：mainnet.zip
 > 
-> 檔案大小：140.83 GB
+> 檔案大小：166.47 GB
 > 
-> 區塊高度：400253
+> 區塊高度：463308
 > 
-> 上傳日期：2024年06月16日
+> 上傳日期：2025年12月29日
 
 ### 解壓縮資料包
 

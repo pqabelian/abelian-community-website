@@ -37,15 +37,15 @@ Starting from version 4.2.0 of the Abelian Desktop Wallet (Legacy), the Abec syn
 
 ### Data Package Download Link
 
-> Download link: [Mega](https://mega.nz/file/tzVAHbyR#UsDY4lKMhEn0W0O_XUimOngMzksuvnj1yGrCWDfI0mE)
+> Download link: [Mega](https://mega.nz/file/0v1lQYwa#dE2TTBoVSt195UEMAaPiLWX8dHgVw6K6IpB9YxztiXI)
 > 
 > File name: mainnet.zip
 > 
-> File size: 140.83 GB
+> File size: 166.47 GB
 > 
-> Block height: 400253
+> Block height: 463308
 > 
-> Upload date: June 16, 2024
+> Upload date: December 29, 2025
 
 ### Extracting the Data Package
 

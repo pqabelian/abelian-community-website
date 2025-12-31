@@ -69,7 +69,7 @@ ABEL-MINER version
 **預期輸出**：
 
 ```text
-Abel Nakamoto CPU Miner version <版本>
+Abel Nakamoto CPU Miner version 0.1.0
 ```
 
 如果顯示版本號，表示安裝成功！

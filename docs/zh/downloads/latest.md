@@ -406,9 +406,11 @@ outline: deep
 查看用戶和開發者的更多文檔，請訪問 [Abelian 社群文檔](/zh/guide/) 頁面。
 
 - [Abelian 應用程式常識](/zh/guide/index)
-- [Abelian 桌面錢包專業版用戶手冊](/zh/guide/wallet/desktop-wallet-pro)
-- [Abelian 桌面錢包經典版用戶手冊](/zh/guide/wallet/desktop-wallet-legacy)
-- [Abelian 挖矿用戶手冊](/zh/guide/mining/gpu-mining)
-- [Abelian 節點（abec）用戶手冊](/zh/guide/abelian-node)
-- [Abelian 多層隱私錢包 (CLI) 用戶手冊](/zh/guide/wallet/cli-wallet-mlp)
-- [Abelian 經典錢包 (CLI) 用戶手冊](/zh/guide/wallet/cli-wallet-legacy)
+- [Abelian 桌面錢包專業版使用者手冊](/zh/guide/wallet/desktop-wallet-pro)
+- [Abelian 桌面錢包經典版使用者手冊](/zh/guide/wallet/desktop-wallet-legacy)
+- [Abelian GPU 挖矿使用者手冊](/zh/guide/mining/gpu-mining)
+- [Abelian CPU 挖矿使用者手冊](/zh/guide/mining/cpu-mining)
+- [ABEL-Nakamoto CPU 挖礦客戶端使用者指南](/zh/guide/mining/nakamoto-cpu-miner)
+- [Abelian 節點（abec）使用者手冊](/zh/guide/abelian-node)
+- [Abelian 多層隱私錢包 (CLI) 使用者手冊](/zh/guide/wallet/cli-wallet-mlp)
+- [Abelian 經典錢包 (CLI) 使用者手冊](/zh/guide/wallet/cli-wallet-legacy)

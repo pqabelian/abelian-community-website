@@ -435,7 +435,7 @@ outline: deep
   - 此 ABEL-Nakamoto CPU 挖礦客戶端可以被所有擁有 PC/筆記型電腦的人用於 ABEL 挖礦；
   - 該客戶端針對礦池挖礦進行了優化，ABEL-Nakamoto 礦池網站：<https://abel-nakamoto.xyz>；
   - 請訪問 [帳戶/設定](https://abel-nakamoto.xyz/account/settings) 閱讀 CPU 挖礦指南；
-  - 請閱讀 [ABEL-Nakamoto  CPU 挖矿客户端用户指南](/zh/guide/mining/nakamoto-cpu-miner)，選擇適合您的硬體和系統平台按照步驟部署挖礦。
+  - 請閱讀 [ABEL-Nakamoto CPU 挖礦客戶端使用者指南](/zh/guide/mining/nakamoto-cpu-miner)，選擇適合您的硬體和系統平台按照步驟部署挖礦。
 
   [Windows](https://download.pqabelian.io/release/abel-nakamoto/abel-nakamoto-cpu-miner-windows-amd64-v0.1.0.zip) | 
   [macOS](https://download.pqabelian.io/release/abel-nakamoto/abel-nakamoto-cpu-miner-macos-amd64-v0.1.0.tar.gz) | 
@@ -590,9 +590,11 @@ outline: deep
 用戶和開發者都可以在 [Abelian 社群文檔](/zh/guide/) 網站找到更多手冊。
 
 - [Abelian 應用程式常識](/zh/guide/index)
-- [Abelian 桌面錢包專業版手冊](/zh/guide/wallet/desktop-wallet-pro)
-- [Abelian 桌面錢包 (經典版) 手冊](/zh/guide/wallet/desktop-wallet-legacy)
-- [Abelian 顯示卡挖礦手冊](/zh/guide/mining/gpu-pool)
-- [Abelian 節點 (abec) 手冊](/zh/guide/abelian-node)
-- [Abelian 多層隱私錢包 (CLI) 手冊](/zh/guide/wallet/cli-wallet-mlp)
-- [Abelian 經典錢包 (CLI) 手冊](/zh/guide/wallet/cli-wallet-legacy)
+- [Abelian 桌面錢包專業版使用者手冊](/zh/guide/wallet/desktop-wallet-pro)
+- [Abelian 桌面錢包經典版使用者手冊](/zh/guide/wallet/desktop-wallet-legacy)
+- [Abelian GPU 挖矿使用者手冊](/zh/guide/mining/gpu-mining)
+- [Abelian CPU 挖矿使用者手冊](/zh/guide/mining/cpu-mining)
+- [ABEL-Nakamoto CPU 挖礦客戶端使用者指南](/zh/guide/mining/nakamoto-cpu-miner)
+- [Abelian 節點（abec）使用者手冊](/zh/guide/abelian-node)
+- [Abelian 多層隱私錢包 (CLI) 使用者手冊](/zh/guide/wallet/cli-wallet-mlp)
+- [Abelian 經典錢包 (CLI) 使用者手冊](/zh/guide/wallet/cli-wallet-legacy)
