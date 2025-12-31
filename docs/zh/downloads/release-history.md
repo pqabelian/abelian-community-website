@@ -271,10 +271,11 @@ outline: deep
 `[abec]`
 
 - **2025-12-26-v3.0.0**
-  - 新增支援阿貝爾用戶代幣 (AUT) 的新型地址 (偽CT)。
-  - 將交易版本升級到 3，以支援偽CT地址。
-  - 將區塊版本升級到 4，以支援新的交易版本。
-  - 在區塊高度 464,000 引入了「aconcagua」分叉，啟用 AUT 並支援結合 DSA 的混合 PoW；將承諾高度設定在 480,000。
+  - 新增支援阿貝爾用戶代幣 (AUT) 的新型地址 (偽CT)；
+  - 將交易版本升級到 3，以支援偽CT地址；
+  - 將區塊版本升級到 4，以支援新的交易版本；
+  - 在區塊高度 464,000 引入了「aconcagua」分叉，啟用 AUT 並支援結合 DSA 的混合 PoW；將承諾高度設定在 480,000；
+  - 啟動 Abec 時，只需新增 `--generate` 參數即可參與 Abel-Nakamoto Solo CPU 挖礦。
 
   [Windows](https://download.pqabelian.io/release/abec/abec-windows-amd64-3.0.0.zip) | 
   [macOS](https://download.pqabelian.io/release/abec/abec-macos-amd64-v3.0.0.tar.gz) | 
@@ -425,6 +426,22 @@ outline: deep
   [macOS](https://download.abelian.info/release/pool/abe-miningpool-client-macos-amd64-v0.11.5.tar.gz) | 
   [macOS (Apple silicon)](https://download.abelian.info/release/pool/abe-miningpool-client-macos-arm64-v0.11.5.tar.gz) | 
   [Linux](https://download.abelian.info/release/pool/abe-miningpool-client-linux-amd64-v0.11.5.tar.gz)
+
+
+## 中本 CPU 挖礦客戶端
+`abel-nakamoto-cpu-miner`
+
+- **2025-12-31-v0.1.0**
+  - 此 Abelian 中本 CPU 挖礦客戶端可以被所有擁有 PC/筆記型電腦的人用於 ABEL 挖礦；
+  - 該客戶端針對礦池挖礦進行了優化，Abelian 中本礦池網站：<https://abel-nakamoto.xyz>；
+  - 請訪問 [帳戶/設定](https://abel-nakamoto.xyz/account/settings) 閱讀 CPU 挖礦指南；
+  - 請閱讀 [Abelian 中本 CPU 挖矿客户端用户指南](/zh/guide/mining/nakamoto-cpu-miner)，選擇適合您的硬體和系統平台按照步驟部署挖礦。
+
+  [Windows](https://download.pqabelian.io/release/abel-nakamoto/abel-nakamoto-cpu-miner-windows-amd64-v0.1.0.zip) | 
+  [macOS](https://download.pqabelian.io/release/abel-nakamoto/abel-nakamoto-cpu-miner-macos-amd64-v0.1.0.tar.gz) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abel-nakamoto/abel-nakamoto-cpu-miner-macos-arm64-v0.1.0.tar.gz) | 
+  [Linux](https://download.pqabelian.io/release/abel-nakamoto/abel-nakamoto-cpu-miner-linux-amd64-v0.1.0.tar.gz) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abel-nakamoto/abel-nakamoto-cpu-miner-linux-arm64-v0.1.0.tar.gz)
 
 ## 多層隱私錢包 (CLI)
 `abewalletmlp`

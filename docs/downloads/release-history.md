@@ -274,6 +274,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
   - Upgraded transaction version to 3 to support pseudo-CT addresses.
   - Upgraded block version to 4 to support the new transaction version.
   - Introduced the "aconcagua" fork at height 464,000, enabling AUT and hybrid PoW with DSA; set commit height at 480,000.
+  - To participate in Abel-Nakamoto solo CPU mining when starting Abec, simply add the `--generate` parameter.
 
   [Windows](https://download.pqabelian.io/release/abec/abec-windows-amd64-3.0.0.zip) | 
   [macOS](https://download.pqabelian.io/release/abec/abec-macos-amd64-v3.0.0.tar.gz) | 
@@ -393,7 +394,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 ## CPU Mining Client
 `abe-miningpool-client`/`abelminer-cpu`
 
-- **2025-07-18-v0.13.2*
+- **2025-07-18-v0.13.2**
 
   [Windows](https://download.abelian.info/release/pool/abelminer-cpu-windows-amd64-v0.13.2.zip) | 
   [macOS](https://download.abelian.info/release/pool/abelminer-cpu-macos-amd64-v0.13.2.tar.gz) | 
@@ -424,6 +425,22 @@ We provide the packages of previous versions mainly for archive purposes. Please
   [macOS](https://download.abelian.info/release/pool/abe-miningpool-client-macos-amd64-v0.11.5.tar.gz) | 
   [macOS (Apple silicon)](https://download.abelian.info/release/pool/abe-miningpool-client-macos-arm64-v0.11.5.tar.gz) | 
   [Linux](https://download.abelian.info/release/pool/abe-miningpool-client-linux-amd64-v0.11.5.tar.gz)
+
+## Nakamoto CPU Mining Client
+`abel-nakamoto-cpu-miner`
+
+- **2025-12-31-v0.1.0**
+  - This Abelian Nakamoto CPU mining client can be used by anyone with a PC/laptop for ABEL mining.
+  - This is optimized for Nakamoto pool mining. Abelian Nakamoto Pool Website: <https://abel-nakamoto.xyz>.
+  - Please visit [Account/Settings](https://abel-nakamoto.xyz/account/settings) to read the CPU mining guide.
+  - Please read the [Abelian Nakamoto CPU Miner User Guide](/guide/mining/nakamoto-cpu-miner) and follow the steps to deploy mining based on your hardware and system platform.
+
+  [Windows](https://download.pqabelian.io/release/abel-nakamoto/abel-nakamoto-cpu-miner-windows-amd64-v0.1.0.zip) | 
+  [macOS](https://download.pqabelian.io/release/abel-nakamoto/abel-nakamoto-cpu-miner-macos-amd64-v0.1.0.tar.gz) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abel-nakamoto/abel-nakamoto-cpu-miner-macos-arm64-v0.1.0.tar.gz) | 
+  [Linux](https://download.pqabelian.io/release/abel-nakamoto/abel-nakamoto-cpu-miner-linux-amd64-v0.1.0.tar.gz) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abel-nakamoto/abel-nakamoto-cpu-miner-linux-arm64-v0.1.0.tar.gz)
+
 
 ## CLI Wallet (MLP)
 `abewalletmlp`

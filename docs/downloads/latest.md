@@ -279,7 +279,8 @@ It is available on both iOS and Android platforms.
 - Upgraded transaction version to 3 to support pseudo-CT addresses.
 - Upgraded block version to 4 to support the new transaction version.
 - Introduced the "aconcagua" fork at height 464,000, enabling AUT and hybrid PoW with DSA; set commit height at 480,000.
-- Storage space requirements for running nodes in different modes: Normal Node ≈ 170GB, Semi-Full Node ≈ 450GB, Full Node ≈ 1.4TB.
+- To participate in Abel-Nakamoto solo CPU mining when starting Abec, simply add the `--generate` parameter.
+- Storage space requirements for running nodes in different modes: Normal Node ≈ 190GB, SemiFull Node ≈ 450GB, Full Node ≈ 1.4TB.
 
 **For more details, Please view the link below:**
 - https://www.pqabelian.io/blog/abelian-network-hard-fork-introducing-multi-level-privacy-and-user-token-protocol-at-block-height-300-000
@@ -323,9 +324,31 @@ It is available on both iOS and Android platforms.
 
 ::: info <Badge type="warning" text="GUIDE FOR CPU MINERS" />
 1. This Abelian CPU mining client can be used by everyone who has a PC/laptop for ABEL mining.
-2. This is optimized for pool mining. Mining Pool Website: https://maxpool.org/
-3. Mining Pool Website: https://maxpool.org/. Please visit [Account/Settings](https://maxpool.org/account/settings) to read the CPU mining guide.
+2. This is optimized for pool mining. Mining Pool Website: <https://maxpool.org>
+3. Mining Pool Website: https://maxpool.org. Please visit [Account/Settings](https://maxpool.org/account/settings) to read the CPU mining guide.
 4. If you have GPU cards, please check out the section above titled ["Abelian GPU Mining Client"](#abelian-gpu-mining-client) for GPU pool mining. If you want to do GPU solo mining, please join our [Discord community](https://discord.com/invite/5rrDxP29hx) and go to the mining channel (under 'how-to-mine-abel' after 'verify-yourself') to get the latest guide.
+:::
+
+---
+
+## Nakamoto CPU Mining Client
+- **Release Date**: `2025-12-31`
+- **Package Name**: `abel-nakamoto-cpu-miner-v0.1.0`
+- **Package Size**: `≈ 1.2MB`
+- **Download Links**:
+<div class="button-container">
+  <a href="https://download.pqabelian.io/release/abel-nakamoto/abel-nakamoto-cpu-miner-windows-amd64-v0.1.0.zip" class="btn">Windows</a>
+  <a href="https://download.pqabelian.io/release/abel-nakamoto/abel-nakamoto-cpu-miner-macos-amd64-v0.1.0.tar.gz" class="btn">macOS</a>
+  <a href="https://download.pqabelian.io/release/abel-nakamoto/abel-nakamoto-cpu-miner-macos-arm64-v0.1.0.tar.gz" class="btn">macOS (Apple Silicon)</a>
+  <a href="https://download.pqabelian.io/release/abel-nakamoto/abel-nakamoto-cpu-miner-linux-amd64-v0.1.0.tar.gz" class="btn">Linux</a>
+  <a href="https://download.pqabelian.io/release/abel-nakamoto/abel-nakamoto-cpu-miner-linux-arm64-v0.1.0.tar.gz" class="btn">Linux (ARM)</a>
+</div>
+
+::: info <Badge type="warning" text="GUIDE FOR NAKAMOTO CPU MINERS" />
+1. This Abelian Nakamoto CPU mining client can be used by anyone with a PC/laptop for ABEL mining.
+2. This is optimized for Nakamoto pool mining. Abelian Nakamoto Pool Website: <https://abel-nakamoto.xyz>.
+3. Please visit [Account/Settings](https://abel-nakamoto.xyz/account/settings) to read the CPU mining guide.
+4. Please read the [Abelian Nakamoto CPU Miner User Guide](/guide/mining/nakamoto-cpu-miner) and follow the steps to deploy mining based on your hardware and system platform.
 :::
 
 ---

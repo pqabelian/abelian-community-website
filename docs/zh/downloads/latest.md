@@ -274,11 +274,12 @@ outline: deep
 </div>
 
 ::: info <Badge type="warning" text="發布說明" />
-- 新增支援阿貝爾用戶代幣 (AUT) 的新型地址 (偽CT)。
-- 將交易版本升級到 3，以支援偽CT地址。
-- 將區塊版本升級到 4，以支援新的交易版本。
-- 在區塊高度 464,000 引入了「aconcagua」分叉，啟用 AUT 並支援結合 DSA 的混合 PoW；將承諾高度設定在 480,000。
-- 運行節點各模式儲存空間需求：Normal Node ≈ 170GB、Semi-Full Node ≈ 450GB、Full Node ≈ 1.4TB
+- 新增支援阿貝爾用戶代幣 (AUT) 的新型地址 (偽CT)；
+- 將交易版本升級到 3，以支援偽CT地址；
+- 將區塊版本升級到 4，以支援新的交易版本；
+- 在區塊高度 464,000 引入了「aconcagua」分叉，啟用 AUT 並支援結合 DSA 的混合 PoW；將承諾高度設定在 480,000；
+- 啟動 Abec 時，只需新增 `--generate` 參數即可參與 Abel-Nakamoto Solo CPU 挖礦;
+- 運行節點各模式儲存空間需求：Normal Node ≈ 190GB、SemiFull Node ≈ 450GB、Full Node ≈ 1.4TB
 
 **了解更多詳情，請查看以下連結：**
 - https://www.pqabelian.io/blog/abelian-network-hard-fork-introducing-multi-level-privacy-and-user-token-protocol-at-block-height-300-000
@@ -325,6 +326,28 @@ outline: deep
 2. 該客戶端針對礦池挖礦進行了優化，礦池網站：https://maxpool.org/
 3. 礦池網站：https://maxpool.org/，請訪問 [帳戶設定](https://maxpool.org/account/settings) 閱讀 CPU 挖礦指南。
 4. 如果你有 GPU 顯示卡，請查看上面標題為 [“Abelian GPU 挖礦客戶端”](#abelian-顯示卡挖礦客戶端) 的部分以獲取 GPU 礦池挖礦資訊。如果你想進行 GPU 單獨挖礦，請加入我們的 [Discord 社群](https://discord.com/invite/5rrDxP29hx)，並進入挖礦頻道（在“verify-yourself”後面的“how-to-mine-abel”下）獲取最新指南。
+:::
+
+---
+
+## 中本 CPU 挖礦客戶端
+- **Release Date**: `2025-12-31`
+- **Package Name**: `abel-nakamoto-cpu-miner-v0.1.0`
+- **Package Size**: `≈ 1.2MB`
+- **Download Links**:
+<div class="button-container">
+  <a href="https://download.pqabelian.io/release/abel-nakamoto/abel-nakamoto-cpu-miner-windows-amd64-v0.1.0.zip" class="btn">Windows</a>
+  <a href="https://download.pqabelian.io/release/abel-nakamoto/abel-nakamoto-cpu-miner-macos-amd64-v0.1.0.tar.gz" class="btn">macOS</a>
+  <a href="https://download.pqabelian.io/release/abel-nakamoto/abel-nakamoto-cpu-miner-macos-arm64-v0.1.0.tar.gz" class="btn">macOS (Apple Silicon)</a>
+  <a href="https://download.pqabelian.io/release/abel-nakamoto/abel-nakamoto-cpu-miner-linux-amd64-v0.1.0.tar.gz" class="btn">Linux</a>
+  <a href="https://download.pqabelian.io/release/abel-nakamoto/abel-nakamoto-cpu-miner-linux-arm64-v0.1.0.tar.gz" class="btn">Linux (ARM)</a>
+</div>
+
+::: info <Badge type="warning" text="GUIDE FOR NAKAMOTO CPU MINERS" />
+1. 此 Abelian CPU 挖礦客戶端可以被所有擁有 PC/筆記型電腦的人用於 ABEL 挖礦；
+2. 該客戶端針對礦池挖礦進行了優化，Abelian 中本礦池網站：<https://abel-nakamoto.xyz>；
+3. 請訪問 [帳戶/設定](https://abel-nakamoto.xyz/account/settings) 閱讀 CPU 挖礦指南；
+4. 請閱讀 [Abelian 中本 CPU 挖矿客户端用户指南](/zh/guide/mining/nakamoto-cpu-miner)，選擇適合您的硬體和系統平台按照步驟部署挖礦。
 :::
 
 ---
