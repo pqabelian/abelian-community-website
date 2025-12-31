@@ -330,7 +330,7 @@ outline: deep
 
 ---
 
-## 中本 CPU 挖礦客戶端
+## ABEL-Nakamoto CPU 挖礦客戶端
 - **Release Date**: `2025-12-31`
 - **Package Name**: `abel-nakamoto-cpu-miner-v0.1.0`
 - **Package Size**: `≈ 1.2MB`
@@ -344,10 +344,10 @@ outline: deep
 </div>
 
 ::: info <Badge type="warning" text="GUIDE FOR NAKAMOTO CPU MINERS" />
-1. 此 Abelian CPU 挖礦客戶端可以被所有擁有 PC/筆記型電腦的人用於 ABEL 挖礦；
-2. 該客戶端針對礦池挖礦進行了優化，Abelian 中本礦池網站：<https://abel-nakamoto.xyz>；
+1. 此 ABEL-Nakamoto CPU 挖礦客戶端可以被所有擁有 PC/筆記型電腦的人用於 ABEL 挖礦；
+2. 該客戶端針對礦池挖礦進行了優化，ABEL-Nakamoto 礦池網站：<https://abel-nakamoto.xyz>；
 3. 請訪問 [帳戶/設定](https://abel-nakamoto.xyz/account/settings) 閱讀 CPU 挖礦指南；
-4. 請閱讀 [Abelian 中本 CPU 挖矿客户端用户指南](/zh/guide/mining/nakamoto-cpu-miner)，選擇適合您的硬體和系統平台按照步驟部署挖礦。
+4. 請閱讀 [ABEL-Nakamoto CPU 挖矿客户端用户指南](/zh/guide/mining/nakamoto-cpu-miner)，選擇適合您的硬體和系統平台按照步驟部署挖礦。
 :::
 
 ---

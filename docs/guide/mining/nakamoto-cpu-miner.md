@@ -1,20 +1,20 @@
-# Abel-Nakamoto CPU Mining Client User Guide
+# ABEL-Nakamoto CPU Mining Client User Guide
 
-Welcome to Abel-Nakamoto CPU Mining Client! This document will help you quickly understand, install and use this mining software.
+Welcome to ABEL-Nakamoto CPU Mining Client! This document will help you quickly understand, install and use this mining software.
 
 ---
 
 ## 1. Product Introduction
 
-### What is Abel-Nakamoto CPU Mining Client?
+### What is ABEL-Nakamoto CPU Mining Client?
 
-Abel-Nakamoto CPU Mining Client is an efficient mining software specially designed for CPU mining, which uses the Abel-Nakamoto mining algorithm and supports mining through mining pools.
+ABEL-Nakamoto CPU Mining Client is an efficient mining software specially designed for CPU mining, which uses the ABEL-Nakamoto and ABEL-ETHash PoW consensus algorithm and supports mining through mining pools.
 
 ### Core Features
 
 | Feature | Description |
 | ------- | ----------- |
-| **CPU Mining Algorithm** | Uses Abel-Nakamoto algorithm, optimized for CPU |
+| **Mining Algorithm** | CPU-oriented ABEL-Nakamoto and ABEL-ETHash PoW algorithm |
 | **Mining Pool Protocol** | Based on Stratum V1.0 standard protocol |
 | **Multi-threading Support** | Fully utilizes multi-core CPU performance |
 | **Daemon Mode** | Supports background operation on Linux/MacOS |
@@ -87,7 +87,7 @@ Before starting mining, you need:
 - Your mining pool account username
 - Your mining pool account password
 
-> **Note**: You can visit the Abelian Nakamoto Pool official website https://abel-nakamoto.xyz to get mining pool information and register an account.
+> **Note**: You can visit the ABEL-Nakamoto Pool official website https://abel-nakamoto.xyz to get mining pool information and register an account.
 
 #### Step 2: Start Mining
 
@@ -390,7 +390,7 @@ Remove-Item .\logs\*.log.old
 
 If you encounter problems not covered in this document, you can:
 
-- Visit the  Abelian Nakamoto Pool official website: <https://abel-nakamoto.xyz>
+- Visit the  ABEL-Nakamoto Pool official website: <https://abel-nakamoto.xyz>
 - Check detailed log files for error information;
 - Join the [Discord](https://discord.com/invite/5rrDxP29hx) community and Contact the technical support team.
 

@@ -426,14 +426,14 @@ We provide the packages of previous versions mainly for archive purposes. Please
   [macOS (Apple silicon)](https://download.abelian.info/release/pool/abe-miningpool-client-macos-arm64-v0.11.5.tar.gz) | 
   [Linux](https://download.abelian.info/release/pool/abe-miningpool-client-linux-amd64-v0.11.5.tar.gz)
 
-## Nakamoto CPU Mining Client
+## ABEL-Nakamoto CPU Mining Client
 `abel-nakamoto-cpu-miner`
 
 - **2025-12-31-v0.1.0**
-  - This Abelian Nakamoto CPU mining client can be used by anyone with a PC/laptop for ABEL mining.
-  - This is optimized for Nakamoto pool mining. Abelian Nakamoto Pool Website: <https://abel-nakamoto.xyz>.
+  - This ABEL-Nakamoto CPU mining client can be used by anyone with a PC/laptop for ABEL mining.
+  - This is optimized for Nakamoto pool mining. ABEL-Nakamoto Pool Website: <https://abel-nakamoto.xyz>.
   - Please visit [Account/Settings](https://abel-nakamoto.xyz/account/settings) to read the CPU mining guide.
-  - Please read the [Abelian Nakamoto CPU Miner User Guide](/guide/mining/nakamoto-cpu-miner) and follow the steps to deploy mining based on your hardware and system platform.
+  - Please read the [ABEL-Nakamoto CPU Miner User Guide](/guide/mining/nakamoto-cpu-miner) and follow the steps to deploy mining based on your hardware and system platform.
 
   [Windows](https://download.pqabelian.io/release/abel-nakamoto/abel-nakamoto-cpu-miner-windows-amd64-v0.1.0.zip) | 
   [macOS](https://download.pqabelian.io/release/abel-nakamoto/abel-nakamoto-cpu-miner-macos-amd64-v0.1.0.tar.gz) | 
