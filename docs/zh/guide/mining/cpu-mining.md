@@ -3,9 +3,9 @@ outline: deep
 version_abelcpuminer: v0.13.2
 ---
 
-# Abelian CPU 挖礦用戶指南
+# ABEL-ETHash CPU 挖礦用戶指南
 
-本文檔詳細介紹了如何在 Abelian 區塊鏈上進行 CPU 挖礦，包括使用內建 CPU 礦工的獨立挖礦和礦池挖礦選項。
+本文檔詳細介紹了如何在 Abelian 區塊鏈上進行 ABEL-ETHash CPU 挖礦，包括使用內建 CPU 礦工的獨立挖礦和礦池挖礦選項。
 
 請參考 [Abelian 應用程式基礎常識](/zh/guide/) 了解軟體架構，並選擇適合您的挖礦方式（獨立挖礦或加入礦池）。
 

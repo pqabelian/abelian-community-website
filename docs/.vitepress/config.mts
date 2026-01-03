@@ -60,7 +60,7 @@ export default defineConfig({
                     { text: 'CLI Wallet (MLP)', link: '/guide/wallet/cli-wallet-mlp' },
                     { text: 'CLI Wallet Legacy', link: '/guide/wallet/cli-wallet-legacy' },
                     { text: 'GPU Mining', link: '/guide/mining/gpu-mining' },
-                    { text: 'CPU Mining', link: '/guide/mining/cpu-mining' },
+                    { text: 'ABEL-ETHash CPU Mining', link: '/guide/mining/cpu-mining' },
                     { text: 'ABEL-Nakamoto CPU Mining', link: '/guide/mining/nakamoto-cpu-miner' }
                   ]
                 },
@@ -198,7 +198,7 @@ export default defineConfig({
                     { text: '多層隱私錢包 (CLI)', link: '/zh/guide/wallet/cli-wallet-mlp' },
                     { text: '經典錢包（CLI）', link: '/zh/guide/wallet/cli-wallet-legacy' },
                     { text: '顯卡挖礦', link: '/zh/guide/mining/gpu-mining' },
-                    { text: 'CPU 挖礦', link: '/zh/guide/mining/cpu-mining' },
+                    { text: 'ABEL-ETHash CPU 挖礦', link: '/zh/guide/mining/cpu-mining' },
                     { text: 'ABEL-Nakamoto CPU 挖礦', link: '/zh/guide/mining/nakamoto-cpu-miner' }
                   ]
                 },

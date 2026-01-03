@@ -3,18 +3,15 @@ outline: deep
 version_abelcpuminer: v0.13.2
 ---
 
-# Abelian CPU Mining User Guide
+# ABEL-ETHash CPU Mining User Guide
 
-This document explains how to run CPU mining for the Abelian blockchain, covering both solo mining using the built-in
-CPU miner and pool mining options.
+This document explains how to run ABEL-ETHash CPU mining for the Abelian blockchain, covering both solo mining using the built-in CPU miner and pool mining options.
 
-Please refer to the [Abelian Applications Basics](/guide/) to understand the software architecture and choose between
-solo mining or joining a mining pool.
+Please refer to the [Abelian Applications Basics](/guide/) to understand the software architecture and choose between solo mining or joining a mining pool.
 
 Visit the Abelian official website's download page to download the appropriate mining client.
 
-All operations are performed via the Command Line Interface (CLI). For Linux, open the Terminal; for Windows, open
-PowerShell or any shell application of your choice.
+All operations are performed via the Command Line Interface (CLI). For Linux, open the Terminal; for Windows, open PowerShell or any shell application of your choice.
 
 ## Overview
 
@@ -130,9 +127,7 @@ $ sh start_abectl.sh setgenerate false
 - Comprehensive guides and scripts
 
 > [!IMPORTANT] Legacy Pool Notice
-> The original [Abelian Foundation Pool](https://legacy.maxpool.org/home) has ceased operations. All miners should
-> migrate
-> to the new [Maxpool](https://maxpool.org/).
+> The original [Abelian Foundation Pool](https://legacy.maxpool.org/home) has ceased operations. All miners should migrate to the new [Maxpool](https://maxpool.org/).
 
 ### 2. Follow the Guide
 
@@ -183,8 +178,7 @@ Monitor these key metrics while CPU mining:
 - **High-end (8+ cores)**: 2000-5000+ H/s
 
 ::: warning Performance Note
-CPU mining typically yields much lower hashrates compared to GPU mining. Consider it primarily for network support
-rather than profit maximization.
+CPU mining typically yields much lower hashrates compared to GPU mining. Consider it primarily for network support rather than profit maximization.
 :::
 
 ## Troubleshooting
@@ -274,8 +268,7 @@ rather than profit maximization.
 - Lower variance - small but regular payouts
 
 ::: tip Profitability Reality
-CPU mining is generally not profitable due to low hashrates and electricity costs. Consider it primarily as a way to
-support the network while learning about mining.
+CPU mining is generally not profitable due to low hashrates and electricity costs. Consider it primarily as a way to support the network while learning about mining.
 :::
 
 Use online calculators and monitor network statistics at [AbelScan](https://explorer.pqabelian.io)

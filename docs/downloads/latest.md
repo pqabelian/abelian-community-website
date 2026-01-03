@@ -278,7 +278,7 @@ It is available on both iOS and Android platforms.
 - Added support for a new address type (pseudo-CT) for Abelian User Token (AUT).
 - Upgraded transaction version to 3 to support pseudo-CT addresses.
 - Upgraded block version to 4 to support the new transaction version.
-- Introduced the "aconcagua" fork at height 464,000, enabling AUT and hybrid PoW with DSA; set commit height at 480,000.
+- Introduced the Aconcagua Fork at block height 464,000, enabled Cloaked AUT and hybrid PoW with DSA (namely ABEL-ETHash and ABEL-Nakamoto algorithms); and set commit height at block 480,000. The latter one implies that all abec nodes have to be upgraded to v3.0.0 or higher before block 480,000 in order to prevent interruption.
 - To participate in ABEL-Nakamoto solo CPU mining when starting Abec, simply add the `--generate` parameter.
 - Storage space requirements for running nodes in different modes: Normal Node ≈ 190GB, SemiFull Node ≈ 450GB, Full Node ≈ 1.4TB.
 
@@ -309,7 +309,7 @@ It is available on both iOS and Android platforms.
 
 ---
 
-## CPU Mining Client
+## ABEL-ETHash CPU Mining Client
 - **Release Date**: `2023-07-18`
 - **Package Name**: `abelminer-cpu-v0.13.2`
 - **Package Size**: `≈ 5.5MB`
@@ -323,7 +323,7 @@ It is available on both iOS and Android platforms.
 </div>
 
 ::: info <Badge type="warning" text="GUIDE FOR CPU MINERS" />
-1. This Abelian CPU mining client can be used by everyone who has a PC/laptop for ABEL mining.
+1. This ABEL-Nakamoto CPU mining client can be used by everyone who has a PC/laptop for ABEL mining.
 2. This is optimized for pool mining. Mining Pool Website: <https://maxpool.org>
 3. Mining Pool Website: https://maxpool.org. Please visit [Account/Settings](https://maxpool.org/account/settings) to read the CPU mining guide.
 4. If you have GPU cards, please check out the section above titled ["Abelian GPU Mining Client"](#abelian-gpu-mining-client) for GPU pool mining. If you want to do GPU solo mining, please join our [Discord community](https://discord.com/invite/5rrDxP29hx) and go to the mining channel (under 'how-to-mine-abel' after 'verify-yourself') to get the latest guide.
@@ -354,16 +354,16 @@ It is available on both iOS and Android platforms.
 ---
 
 ## CLI Wallet (MLP)
-- **Release Date**: `2024-12-19`
-- **Package Name**: `abewalletmlp-v2.0.0`
-- **Package Size**: `≈ 16MB`
+- **Release Date**: `2026-01-02`
+- **Package Name**: `abewalletmlp-v3.0.0`
+- **Package Size**: `≈ 24MB`
 - **Download Links**:
 <div class="button-container">
-  <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-windows-amd64-v2.0.0.zip" class="btn">Windows</a>
-  <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-macos-amd64-v2.0.0.tar.gz" class="btn">macOS</a>
-  <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-macos-arm64-v2.0.0.tar.gz" class="btn">macOS (Apple Silicon)</a>
-  <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-amd64-v2.0.0.tar.gz" class="btn">Linux</a>
-  <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-arm64-v2.0.0.tar.gz" class="btn">Linux (ARM)</a>
+  <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-windows-amd64-v3.0.0.zip" class="btn">Windows</a>
+  <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-macos-amd64-v3.0.0.tar.gz" class="btn">macOS</a>
+  <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-macos-arm64-v3.0.0.tar.gz" class="btn">macOS (Apple Silicon)</a>
+  <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-amd64-v3.0.0.tar.gz" class="btn">Linux</a>
+  <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-arm64-v3.0.0.tar.gz" class="btn">Linux (ARM)</a>
 </div>
 
 ::: info <Badge type="warning" text="RELEASE NOTES" />
@@ -371,8 +371,9 @@ It is available on both iOS and Android platforms.
 - Unified Wallet Mnemonic Phrase: The new mnemonic phrases can be imported and exported across Desktop Wallet Pro v1.0.0 and CLI Wallet (MLP) v2.0.0. And it will be further unified across all of Abelian products in the future.
 
 **Why should you upgrade?**
-- Full compatibility: Users can continue to use the Abelian CLI Wallet (MLP) v1.0.1, but all subsequent Abelian CLI Wallets will be based on the version of Abelian CLI Wallet (MLP) v2.0.0.
-- Facilitate the import/export of mnemonic phrases across Desktop Wallet Pro v1.0.0 and Abelian CLI Wallet (MLP) v2.0.0.
+- Full compatibility: Users can continue to use the Abelian CLI Wallet (MLP) v1.0.1, but all subsequent Abelian CLI Wallets will be based on the version of Abelian CLI Wallet (MLP) v3.0.0;
+- Facilitate the import/export of mnemonic phrases across Desktop Wallet Pro v1.0.0 and Abelian CLI Wallet (MLP) v3.0.0;
+- Support Abelian node Aconcagua fork (height 464,000).
 
 **For more details, Please view the link below:**
 - https://www.pqabelian.io/blog/abelian-multi-layer-privacy-wallet-cli-user-guide
@@ -381,16 +382,16 @@ It is available on both iOS and Android platforms.
 ---
 
 ## CLI Wallet Legacy
-- **Release Date**: `2024-08-04`
-- **Package Name**: `abewalletlegacy-v1.0.0`
-- **Package Size**: `≈ 23MB`
+- **Release Date**: `2026-01-02`
+- **Package Name**: `abewalletlegacy-v3.0.0`
+- **Package Size**: `≈ 24MB`
 - **Download Links**:
 <div class="button-container">
-  <a href="https://download.pqabelian.io/release/abewallet/abewalletlegacy-windows-amd64-v1.0.0.zip" class="btn">Windows</a>
-  <a href="https://download.pqabelian.io/release/abewallet/abewalletlegacy-macos-amd64-v1.0.0.tar.gz" class="btn">macOS</a>
-  <a href="https://download.pqabelian.io/release/abewallet/abewalletlegacy-macos-arm64-v1.0.0.tar.gz" class="btn">macOS (Apple Silicon)</a>
-  <a href="https://download.pqabelian.io/release/abewallet/abewalletlegacy-linux-amd64-v1.0.0.tar.gz" class="btn">Linux</a>
-  <a href="https://download.pqabelian.io/release/abewallet/abewalletlegacy-linux-arm64-v1.0.0.tar.gz" class="btn">Linux (ARM)</a>
+  <a href="https://download.pqabelian.io/release/abewallet/abewalletlegacy-windows-amd64-v3.0.0.zip" class="btn">Windows</a>
+  <a href="https://download.pqabelian.io/release/abewallet/abewalletlegacy-macos-amd64-v3.0.0.tar.gz" class="btn">macOS</a>
+  <a href="https://download.pqabelian.io/release/abewallet/abewalletlegacy-macos-arm64-v3.0.0.tar.gz" class="btn">macOS (Apple Silicon)</a>
+  <a href="https://download.pqabelian.io/release/abewallet/abewalletlegacy-linux-amd64-v3.0.0.tar.gz" class="btn">Linux</a>
+  <a href="https://download.pqabelian.io/release/abewallet/abewalletlegacy-linux-arm64-v3.0.0.tar.gz" class="btn">Linux (ARM)</a>
 </div>
 
 ::: info <Badge type="warning" text="RELEASE NOTES" />
@@ -410,7 +411,7 @@ More documentation for both users and developers can be found at [Abelian Docume
 - [Abelian Desktop Wallet Pro Manual](/guide/wallet/desktop-wallet-pro)
 - [Abelian Desktop Wallet Legacy Manual](/guide/wallet/desktop-wallet-legacy)
 - [Abelian GPU Mining Manual](/guide/mining/gpu-pool)
-- [Abelian CPU Mining Manual](/guide/mining/cpu-pool)
+- [ABEL-ETHash CPU Mining Manual](/guide/mining/cpu-pool)
 - [ABEL-Nakamoto CPU Mining Manual](/guide/mining/nakamoto-cpu-miner)
 - [Abelian Node (abec) Manual](/guide/abelian-node)
 - [Abelian CLI Wallet (MLP) Manual](/guide/wallet/cli-wallet-mlp)

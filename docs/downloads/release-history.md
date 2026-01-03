@@ -273,7 +273,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
   - Added support for a new address type (pseudo-CT) for Abelian User Token (AUT).
   - Upgraded transaction version to 3 to support pseudo-CT addresses.
   - Upgraded block version to 4 to support the new transaction version.
-  - Introduced the "aconcagua" fork at height 464,000, enabling AUT and hybrid PoW with DSA; set commit height at 480,000.
+  - Introduced the Aconcagua Fork at block height 464,000, enabled Cloaked AUT and hybrid PoW with DSA (namely ABEL-ETHash and ABEL-Nakamoto algorithms); and set commit height at block 480,000. The latter one implies that all abec nodes have to be upgraded to v3.0.0 or higher before block 480,000 in order to prevent interruption.
   - To participate in ABEL-Nakamoto solo CPU mining when starting Abec, simply add the `--generate` parameter.
 
   [Windows](https://download.pqabelian.io/release/abec/abec-windows-amd64-3.0.1.zip) | 
@@ -391,7 +391,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Linux](https://download.abelian.info/release/pool/abelminer-linux-amd64-v2.0.1.b.tar.gz)
 
-## CPU Mining Client
+## ABEL-ETHash CPU Mining Client
 `abe-miningpool-client`/`abelminer-cpu`
 
 - **2025-07-18-v0.13.2**
@@ -445,7 +445,20 @@ We provide the packages of previous versions mainly for archive purposes. Please
 ## CLI Wallet (MLP)
 `abewalletmlp`
 
+- **2026-01-02-v3.0.0**
+  - Support generating new address type named pseudo-CT;
+  - Support Abelian User Token (a.k.a. AUT);
+  - Use transaction version 3 to transfer ABEL to pseudo-CT address.
+
+  [Windows](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-windows-amd64-v3.0.0.zip) | 
+  [macOS](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-macos-amd64-v3.0.0.tar.gz) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-macos-arm64-v3.0.0.tar.gz) | 
+  [Linux](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-amd64-v3.0.0.tar.gz) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-arm64-v3.0.0.tar.gz)
+
 - **2024-12-19-v2.0.0**
+  - Using AIP-0011 as mnemonic scheme: mnemonics <-> entropy seed -> master seed -> account master seed;
+  - Provide compatibility options `--fromcliwallet` and `--cliwalletversion` for menmonic scheme and derivation.
 
   [Windows](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-windows-amd64-v2.0.0.zip) | 
   [macOS](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-macos-amd64-v2.0.0.tar.gz) | 
@@ -463,6 +476,16 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
 ## CLI Wallet Legacy
 `abewallet / abewalletlegacy`
+
+- **2026-01-02-v3.0.0**
+  - Support transaction version 3, and support transfer ABEL to new address type named pseudo-CT;
+  - Support Aconcagua hard fork.
+
+  [Windows](https://download.abelian.info/release/abewallet/abewalletlegacy-windows-amd64-v3.0.0.zip) | 
+  [macOS](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-amd64-v3.0.0.tar.gz) | 
+  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-arm64-v3.0.0.tar.gz) | 
+  [Linux](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-amd64-v3.0.0.tar.gz) | 
+  [Linux (ARM)](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-arm64-v3.0.0.tar.gz)
 
 - **2024-08-04-v1.0.0**
   - Support hard fork.
@@ -592,7 +615,7 @@ More documentation for both users and developers can be found at [Abelian Docume
 - [Abelian Desktop Wallet Pro Manual](/guide/wallet/desktop-wallet-pro)
 - [Abelian Desktop Wallet (Legacy) Manual](/guide/wallet/desktop-wallet-legacy)
 - [Abelian GPU Mining Manual](/guide/mining/gpu-pool)
-- [Abelian CPU Mining Manual](/guide/mining/cpu-pool)
+- [ABEL-ETHash CPU Mining Manual](/guide/mining/cpu-pool)
 - [ABEL-Nakamoto CPU Mining Manual](/guide/mining/nakamoto-cpu-miner)
 - [Abelian Node (abec) Manual](/guide/abelian-node)
 - [Abelian Multi-layer Privacy Wallet (CLI) Manual](/guide/wallet/cli-wallet-mlp)

@@ -277,9 +277,9 @@ outline: deep
 - 新增支援阿貝爾用戶代幣 (AUT) 的新型地址 (偽CT)；
 - 將交易版本升級到 3，以支援偽CT地址；
 - 將區塊版本升級到 4，以支援新的交易版本；
-- 在區塊高度 464,000 引入了「aconcagua」分叉，啟用 AUT 並支援結合 DSA 的混合 PoW；將承諾高度設定在 480,000；
+- 在區塊高度 464,000 引入了「aconcagua」分叉，啟用了隱蔽式 AUT 和帶有 DSA 的混合式 PoW（即 ABEL-ETHash 和 ABEL-Nakamoto 演算法）；並將提交高度設定在區塊 480,000。後者意味著所有 abec 節點必須在區塊 480,000 之前升級到 v3.0.0 或更高版本，以防止中斷；
 - 啟動 Abec 時，只需新增 `--generate` 參數即可參與 ABEL-Nakamoto 單獨 CPU 挖礦;
-- 運行節點各模式儲存空間需求：Normal Node ≈ 190GB、SemiFull Node ≈ 450GB、Full Node ≈ 1.4TB
+- 運行節點各模式儲存空間需求：Normal Node ≈ 190GB、SemiFull Node ≈ 450GB、Full Node ≈ 1.4TB。
 
 **了解更多詳情，請查看以下連結：**
 - https://www.pqabelian.io/blog/abelian-network-hard-fork-introducing-multi-level-privacy-and-user-token-protocol-at-block-height-300-000
@@ -308,7 +308,7 @@ outline: deep
 
 ---
 
-## CPU 挖礦客戶端
+## ABEL-ETHash CPU 挖礦客戶端
 - **發布日期**： `2025-07-18`
 - **軟體名稱**： `abelminer-cpu-v0.13.2`
 - **軟體大小**： `≈ 5.5MB`
@@ -322,7 +322,7 @@ outline: deep
 </div>
 
 ::: info <Badge type="warning" text="CPU 礦工指南" />
-1. 此 Abelian CPU 挖礦客戶端可以被所有擁有 PC/筆記型電腦的人用於 ABEL 挖礦；
+1. 此 ABEL-ETHash CPU 挖礦客戶端可以被所有擁有 PC/筆記型電腦的人用於 ABEL 挖礦；
 2. 該客戶端針對礦池挖礦進行了優化，礦池網站：https://maxpool.org/
 3. 礦池網站：https://maxpool.org/，請訪問 [帳戶設定](https://maxpool.org/account/settings) 閱讀 CPU 挖礦指南。
 4. 如果你有 GPU 顯示卡，請查看上面標題為 [“Abelian GPU 挖礦客戶端”](#abelian-顯示卡挖礦客戶端) 的部分以獲取 GPU 礦池挖礦資訊。如果你想進行 GPU 單獨挖礦，請加入我們的 [Discord 社群](https://discord.com/invite/5rrDxP29hx)，並進入挖礦頻道（在“verify-yourself”後面的“how-to-mine-abel”下）獲取最新指南。
@@ -353,16 +353,16 @@ outline: deep
 ---
 
 ## 多層隱私錢包 (CLI)
-- **發布日期**： `2024-12-19`
-- **軟體名稱**： `abewalletmlp-v2.0.0`
-- **軟體大小**： `≈ 16MB`
+- **發布日期**： `2026-01-02`
+- **軟體名稱**： `abewalletmlp-v3.0.0`
+- **軟體大小**： `≈ 24MB`
 - **下載連結**：
 <div class="button-container">
-  <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-windows-amd64-v2.0.0.zip" class="btn">Windows</a>
-  <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-macos-amd64-v2.0.0.tar.gz" class="btn">macOS</a>
-  <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-macos-arm64-v2.0.0.tar.gz" class="btn">macOS (Apple Silicon)</a>
-  <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-amd64-v2.0.0.tar.gz" class="btn">Linux</a>
-  <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-arm64-v2.0.0.tar.gz" class="btn">Linux (ARM)</a>
+  <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-windows-amd64-v3.0.0.zip" class="btn">Windows</a>
+  <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-macos-amd64-v3.0.0.tar.gz" class="btn">macOS</a>
+  <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-macos-arm64-v3.0.0.tar.gz" class="btn">macOS (Apple Silicon)</a>
+  <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-amd64-v3.0.0.tar.gz" class="btn">Linux</a>
+  <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-arm64-v3.0.0.tar.gz" class="btn">Linux (ARM)</a>
 </div>
 
 ::: info <Badge type="warning" text="發布說明" />
@@ -370,8 +370,9 @@ outline: deep
 - 統一錢包助記詞：新的助記詞可以在桌面錢包專業版 v1.0.0 和 多層隱私錢包 (CLI) v2.0.0 之間導入和導出。未來，它將進一步在所有 Abelian 產品中實現統一。
 
 **為什麼要升級？**
-- 完全相容性：用戶可以繼續使用 Abelian 多層隱私錢包 (CLI) v1.0.1，但所有後續的 Abelian 經典錢包 (CLI) 都將基於 Abelian 多層隱私錢包 (CLI) v2.0.0 的版本。
-- 方便在桌面錢包專業版 v1.0.0 和 Abelian 多層隱私錢包 (CLI) v2.0.0 之間導入/導出助記詞。
+- 完全相容性：用戶可以繼續使用 Abelian 多層隱私錢包 (CLI) v1.0.1，但所有後續的 Abelian 經典錢包 (CLI) 都將基於 Abelian 多層隱私錢包 (CLI) v3.0.0 的版本；
+- 方便在桌面錢包專業版 v1.0.0 和 Abelian 多層隱私錢包 (CLI) v3.0.0 之間導入/導出助記詞；
+- 支援 Abelian 節點「Aconcagua」分叉（高度 464,000）。
 
 **更多詳情，請查看以下連結：**
 - https://www.pqabelian.io/blog/abelian-multi-layer-privacy-wallet-cli-user-guide
@@ -380,16 +381,16 @@ outline: deep
 ---
 
 ## 經典錢包 (CLI)
-- **發布日期**： `2024-08-04`
-- **軟體名稱**： `abewalletlegacy-v1.0.0`
-- **軟體大小**： `≈ 23MB`
+- **發布日期**： `2026-01-02`
+- **軟體名稱**： `abewalletlegacy-v3.0.0`
+- **軟體大小**： `≈ 24MB`
 - **下載連結**：
 <div class="button-container">
-  <a href="https://download.pqabelian.io/release/abewallet/abewalletlegacy-windows-amd64-v1.0.0.zip" class="btn">Windows</a>
-  <a href="https://download.pqabelian.io/release/abewallet/abewalletlegacy-macos-amd64-v1.0.0.tar.gz" class="btn">macOS</a>
-  <a href="https://download.pqabelian.io/release/abewallet/abewalletlegacy-macos-arm64-v1.0.0.tar.gz" class="btn">macOS (Apple Silicon)</a>
-  <a href="https://download.pqabelian.io/release/abewallet/abewalletlegacy-linux-amd64-v1.0.0.tar.gz" class="btn">Linux</a>
-  <a href="https://download.pqabelian.io/release/abewallet/abewalletlegacy-linux-arm64-v1.0.0.tar.gz" class="btn">Linux (ARM)</a>
+  <a href="https://download.pqabelian.io/release/abewallet/abewalletlegacy-windows-amd64-v3.0.0.zip" class="btn">Windows</a>
+  <a href="https://download.pqabelian.io/release/abewallet/abewalletlegacy-macos-amd64-v3.0.0.tar.gz" class="btn">macOS</a>
+  <a href="https://download.pqabelian.io/release/abewallet/abewalletlegacy-macos-arm64-v3.0.0.tar.gz" class="btn">macOS (Apple Silicon)</a>
+  <a href="https://download.pqabelian.io/release/abewallet/abewalletlegacy-linux-amd64-v3.0.0.tar.gz" class="btn">Linux</a>
+  <a href="https://download.pqabelian.io/release/abewallet/abewalletlegacy-linux-arm64-v3.0.0.tar.gz" class="btn">Linux (ARM)</a>
 </div>
 
 ::: info <Badge type="warning" text="發布說明" />
@@ -409,7 +410,7 @@ outline: deep
 - [Abelian 桌面錢包專業版使用者手冊](/zh/guide/wallet/desktop-wallet-pro)
 - [Abelian 桌面錢包經典版使用者手冊](/zh/guide/wallet/desktop-wallet-legacy)
 - [Abelian GPU 挖矿使用者手冊](/zh/guide/mining/gpu-mining)
-- [Abelian CPU 挖矿使用者手冊](/zh/guide/mining/cpu-mining)
+- [ABEL-ETHash CPU 挖矿使用者手冊](/zh/guide/mining/cpu-mining)
 - [ABEL-Nakamoto CPU 挖礦客戶端使用者指南](/zh/guide/mining/nakamoto-cpu-miner)
 - [Abelian 節點（abec）使用者手冊](/zh/guide/abelian-node)
 - [Abelian 多層隱私錢包 (CLI) 使用者手冊](/zh/guide/wallet/cli-wallet-mlp)

@@ -274,7 +274,7 @@ outline: deep
   - 新增支援阿貝爾用戶代幣 (AUT) 的新型地址 (偽CT)；
   - 將交易版本升級到 3，以支援偽CT地址；
   - 將區塊版本升級到 4，以支援新的交易版本；
-  - 在區塊高度 464,000 引入了「aconcagua」分叉，啟用 AUT 並支援結合 DSA 的混合 PoW；將承諾高度設定在 480,000；
+  - 在區塊高度 464,000 引入了「aconcagua」分叉，啟用了隱蔽式 AUT 和帶有 DSA 的混合式 PoW（即 ABEL-ETHash 和 ABEL-Nakamoto 演算法）；並將提交高度設定在區塊 480,000。後者意味著所有 abec 節點必須在區塊 480,000 之前升級到 v3.0.0 或更高版本，以防止中斷；
   - 啟動 Abec 時，只需新增 `--generate` 參數即可參與 ABEL-Nakamoto 單獨 CPU 挖礦。
 
   [Windows](https://download.pqabelian.io/release/abec/abec-windows-amd64-3.0.1.zip) | 
@@ -392,7 +392,7 @@ outline: deep
 
   [Linux](https://download.abelian.info/release/pool/abelminer-linux-amd64-v2.0.1.b.tar.gz)
 
-## CPU 挖礦客戶端
+## ABEL-ETHash CPU 挖礦客戶端
 `abe-miningpool-client`/`abelminer-cpu`
 
 - **2025-07-18-v0.13.2**
@@ -446,7 +446,20 @@ outline: deep
 ## 多層隱私錢包 (CLI)
 `abewalletmlp`
 
+- **2026-01-02-v3.0.0**
+  - 支援產生名為偽 CT 的新地址類型；
+  - 支援 Abelian 用戶代幣（又稱AUT）；
+  - 使用交易版本 3 將 ABEL 轉移到偽 CT 地址。
+
+  [Windows](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-windows-amd64-v3.0.0.zip) | 
+  [macOS](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-macos-amd64-v3.0.0.tar.gz) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-macos-arm64-v3.0.0.tar.gz) | 
+  [Linux](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-amd64-v3.0.0.tar.gz) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-arm64-v3.0.0.tar.gz)
+
 - **2024-12-19-v2.0.0**
+  - 使用 AIP-0011 作為助記符方案：助記符 <-> 熵種子 -> 主種子 -> 帳戶主種子；
+  - 提供助記符方案和推導的相容性選項 `--fromcliwallet` 和 `--cliwalletversion`。
 
   [Windows](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-windows-amd64-v2.0.0.zip) | 
   [macOS](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-macos-amd64-v2.0.0.tar.gz) | 
@@ -465,8 +478,18 @@ outline: deep
 ## 經典錢包 (CLI)
 `abewallet / abewalletlegacy`
 
+- **2026-01-02-v3.0.0**
+  - 支援交易版本 3，並支援將ABEL轉移至名為 Pseudo-CT 的新位址類型；
+  - 支援「Aconcagua」硬分叉。
+
+  [Windows](https://download.abelian.info/release/abewallet/abewalletlegacy-windows-amd64-v3.0.0.zip) | 
+  [macOS](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-amd64-v3.0.0.tar.gz) | 
+  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-arm64-v3.0.0.tar.gz) | 
+  [Linux](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-amd64-v3.0.0.tar.gz) | 
+  [Linux (ARM)](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-arm64-v3.0.0.tar.gz)
+
 - **2024-08-04-v1.0.0**
-  - 支持硬分叉。
+  - 支援硬分叉。
 
   [Windows](https://download.abelian.info/release/abewallet/abewalletlegacy-windows-amd64-v1.0.0.zip) | 
   [macOS](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-amd64-v1.0.0.zip) | 
@@ -593,7 +616,7 @@ outline: deep
 - [Abelian 桌面錢包專業版使用者手冊](/zh/guide/wallet/desktop-wallet-pro)
 - [Abelian 桌面錢包經典版使用者手冊](/zh/guide/wallet/desktop-wallet-legacy)
 - [Abelian GPU 挖矿使用者手冊](/zh/guide/mining/gpu-mining)
-- [Abelian CPU 挖矿使用者手冊](/zh/guide/mining/cpu-mining)
+- [ABEL-ETHash CPU 挖矿使用者手冊](/zh/guide/mining/cpu-mining)
 - [ABEL-Nakamoto CPU 挖礦客戶端使用者指南](/zh/guide/mining/nakamoto-cpu-miner)
 - [Abelian 節點（abec）使用者手冊](/zh/guide/abelian-node)
 - [Abelian 多層隱私錢包 (CLI) 使用者手冊](/zh/guide/wallet/cli-wallet-mlp)
