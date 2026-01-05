@@ -36,7 +36,7 @@ export default defineConfig({
             text: 'Pools',
             items: [
               { text: 'MaxPool (Official)', link: 'https://maxpool.org/' },
-              { text: 'ABEL-Nakamoto (Official)', link: 'https://abel-nakamoto.xyz/' },
+              //{ text: 'ABEL-Nakamoto (Official)', link: 'https://abel-nakamoto.xyz/' },
               { text: 'AbelPool (Community)', link: 'https://www.abelpool.io/' }
             ]
           },
@@ -61,7 +61,7 @@ export default defineConfig({
                     { text: 'CLI Wallet Legacy', link: '/guide/wallet/cli-wallet-legacy' },
                     { text: 'GPU Mining', link: '/guide/mining/gpu-mining' },
                     { text: 'ABEL-ETHash CPU Mining', link: '/guide/mining/cpu-mining' },
-                    { text: 'ABEL-Nakamoto CPU Mining', link: '/guide/mining/nakamoto-cpu-miner' }
+                    //{ text: 'ABEL-Nakamoto CPU Mining', link: '/guide/mining/nakamoto-cpu-miner' }
                   ]
                 },
                 { text: 'Abelian Tech Docs',
@@ -174,7 +174,7 @@ export default defineConfig({
             text: '礦池',
             items: [
               { text: 'MaxPool（官方）', link: 'https://maxpool.org/' },
-              { text: 'ABEL-Nakamoto (官方)', link: 'https://abel-nakamoto.xyz/' },
+              //{ text: 'ABEL-Nakamoto (官方)', link: 'https://abel-nakamoto.xyz/' },
               { text: 'AbelPool（社區）', link: 'https://www.abelpool.io/' }
             ]
           },
@@ -199,7 +199,7 @@ export default defineConfig({
                     { text: '經典錢包（CLI）', link: '/zh/guide/wallet/cli-wallet-legacy' },
                     { text: '顯卡挖礦', link: '/zh/guide/mining/gpu-mining' },
                     { text: 'ABEL-ETHash CPU 挖礦', link: '/zh/guide/mining/cpu-mining' },
-                    { text: 'ABEL-Nakamoto CPU 挖礦', link: '/zh/guide/mining/nakamoto-cpu-miner' }
+                    //{ text: 'ABEL-Nakamoto CPU 挖礦', link: '/zh/guide/mining/nakamoto-cpu-miner' }
                   ]
                 },
                 { text: 'Abelian 技術文檔',

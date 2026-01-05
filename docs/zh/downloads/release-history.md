@@ -433,9 +433,7 @@ outline: deep
 
 - **2025-12-31-v0.1.0**
   - 此 ABEL-Nakamoto CPU 挖礦客戶端可以被所有擁有 PC/筆記型電腦的人用於 ABEL 挖礦；
-  - 該客戶端針對礦池挖礦進行了優化，ABEL-Nakamoto 礦池網站：<https://abel-nakamoto.xyz>；
-  - 請訪問 [帳戶/設定](https://abel-nakamoto.xyz/account/settings) 閱讀 CPU 挖礦指南；
-  - 請閱讀 [ABEL-Nakamoto CPU 挖礦客戶端使用者指南](/zh/guide/mining/nakamoto-cpu-miner)，選擇適合您的硬體和系統平台按照步驟部署挖礦。
+  - 這是為 ABEL-Nakamoto 礦池挖礦而設。礦池很快就會上線。請密切留意。我們會在礦池準備好時公佈其網域。
 
   [Windows](https://download.pqabelian.io/release/abel-nakamoto/abel-nakamoto-cpu-miner-windows-amd64-v0.1.0.zip) | 
   [macOS](https://download.pqabelian.io/release/abel-nakamoto/abel-nakamoto-cpu-miner-macos-amd64-v0.1.0.tar.gz) | 

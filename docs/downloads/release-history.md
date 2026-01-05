@@ -431,9 +431,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
 - **2025-12-31-v0.1.0**
   - This ABEL-Nakamoto CPU mining client can be used by anyone with a PC/laptop for ABEL mining.
-  - This is optimized for Nakamoto pool mining. ABEL-Nakamoto Pool Website: <https://abel-nakamoto.xyz>.
-  - Please visit [Account/Settings](https://abel-nakamoto.xyz/account/settings) to read the CPU mining guide.
-  - Please read the [ABEL-Nakamoto CPU Miner User Guide](/guide/mining/nakamoto-cpu-miner) and follow the steps to deploy mining based on your hardware and system platform.
+  - This is for ABEL-Nakamoto pool mining. The pool will be available very soon. Please stay tuned. We will announce the pool domain when it is ready.
 
   [Windows](https://download.pqabelian.io/release/abel-nakamoto/abel-nakamoto-cpu-miner-windows-amd64-v0.1.0.zip) | 
   [macOS](https://download.pqabelian.io/release/abel-nakamoto/abel-nakamoto-cpu-miner-macos-amd64-v0.1.0.tar.gz) | 

@@ -346,9 +346,7 @@ It is available on both iOS and Android platforms.
 
 ::: info <Badge type="warning" text="GUIDE FOR NAKAMOTO CPU MINERS" />
 1. This ABEL-Nakamoto CPU mining client can be used by anyone with a PC/laptop for ABEL mining.
-2. This is optimized for Nakamoto pool mining. ABEL-Nakamoto Pool Website: <https://abel-nakamoto.xyz>.
-3. Please visit [Account/Settings](https://abel-nakamoto.xyz/account/settings) to read the CPU mining guide.
-4. Please read the [ABEL-Nakamoto CPU Miner User Guide](/guide/mining/nakamoto-cpu-miner) and follow the steps to deploy mining based on your hardware and system platform.
+2. This is for ABEL-Nakamoto pool mining. The pool will be available very soon. Please stay tuned. We will announce the pool domain when it is ready.
 :::
 
 ---
