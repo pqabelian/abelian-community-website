@@ -37,8 +37,16 @@ We provide the packages of previous versions mainly for archive purposes. Please
 ## Abelian Pro (Mobile)
 `abelian-mobile-wallet-pro / info.abelian.walletpro`
 
-- **2025-11-22-v5.1.0**
+- **2026-01-12-v6.0.0**
+  - Support AUT (Abelian User Token) features.
+  - Support account upgrade to the new address format.
+  - Update terminologies for Transparent and Shielded Wallets.
+  - UI/UX enhancements and bug fixes.
 
+  [Android](https://download.abelian.info/release/android/abelian-mobile-wallet-pro-v6.0.0.apk) | 
+  [iOS](https://download.abelian.info/release/ios/abelian-mobile-wallet-pro-v6.0.0.aab)
+
+- **2025-11-22-v5.1.0**
   - Separated MLP accounts
   - No need to re-enter your password within 15 minutes
   - Bug fixes
@@ -47,7 +55,6 @@ We provide the packages of previous versions mainly for archive purposes. Please
   [iOS](https://download.abelian.info/release/ios/abelian-mobile-wallet-pro-v5.1.0.aab)
 
 - **2025-10-28-v5.0.0**
-
   - Support QDay (Layer 2).
   - Bug fixes.
 
@@ -55,7 +62,6 @@ We provide the packages of previous versions mainly for archive purposes. Please
   [iOS](https://download.abelian.info/release/ios/abelian-mobile-wallet-pro-v5.0.0.aab)
 
 - **2025-09-06-v4.0.0**
-
   - Add UTXO consolidation feature for MLP accounts.
   - Consolidated address book.
   - Bug fixes.
@@ -64,7 +70,6 @@ We provide the packages of previous versions mainly for archive purposes. Please
   [iOS](https://download.abelian.info/release/ios/abelian-mobile-wallet-pro-v4.0.0.aab)
 
 - **2025-07-25-v3.0.0**
-
   - Buy ABEL using USDT and USDC are now available!
   - Optimise tx history cache.
   - Bug fixes.
@@ -75,8 +80,17 @@ We provide the packages of previous versions mainly for archive purposes. Please
 ## Desktop Wallet Pro (MLP)
 `abelian-desktop-wallet-pro`
 
-- **2025-08-15-v1.1.0**
+- **2026-01-12-v2.0.0**
+  - Support transactin version (v3).
+  - Upgrade pseudo address to PseudoCT address.
 
+  [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v2.0.0.exe) | 
+  [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v2.0.0.dmg) | 
+  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v2.0.0.dmg) | 
+  [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v2.0.0.deb) | 
+  [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v2.0.0.deb)
+
+- **2025-08-15-v1.1.0**
   - **UTXO Coin Consolidation**: We’ve added a "Granularity Degree" function on the Status main page for each account. This value shows how many coins (aka UTXOs) your account has. Think of it as how granular your account is from 0 to 1, where the closer to 1 means the more small-amount coins the account has; and the closer to 0 means your account has fewer coins and each coin has a bigger amount.<br>
     **Why it matters?** Because there is an upper limit on the number of coins (namely UTXOs) a transaction’s input can have. A pseudo-private transaction can have up to 100 coins while a fully-private transaction can have up to 5 coins only. Hence if you have many coins in your account, namely, you account has a high granularity degree, you may not be able to send all the coins out in one single transaction. Therefore, we introduce this function for anyone who wants to consolidate the coins together. Also, you can find out how many coins you currently have by mousing over the circled “i” next to the Granularity Degree.
   - **Sync Status Indicator**: At the top-right corner, there is an account drop-down menu. we can now check out which account is active in synchronization or not directly. Green means synchronizing and red means not.
@@ -90,7 +104,6 @@ We provide the packages of previous versions mainly for archive purposes. Please
   [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v1.1.0.deb)
 
 - **2025-04-23-v1.0.3**
-
   - Faster transaction confirmations: Outputs are marked as spendable once available.
   - Optimized display of spendable amounts: The input field on the send page accurately shows available amounts to maximize subsequent transfers, with a new "MAX" button that automatically calculates and deducts transaction fees for a single recipient.
   - More user-friendly experience: Added additional informative tips.
@@ -102,7 +115,6 @@ We provide the packages of previous versions mainly for archive purposes. Please
   [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v1.0.3.zip)
 
 - **2025-03-02-v1.0.2**
-
   - Only updates dedicated app icons.
 
   [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v1.0.2.zip) | 
@@ -112,7 +124,6 @@ We provide the packages of previous versions mainly for archive purposes. Please
   [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v1.0.2.zip)
 
 - **2025-01-04-v1.0.1**
-
   - Support for multi-layer privacy:<br>
     **a.** Fully-Private Address: Your transactions are encrypted and untraceable, and balances in your wallets remain hidden, ensuring maximum security and anonymity.<br>
     **b.** Pseudonymous Address: The privacy level is comparable to that of Bitcoin, namely, publicly visible coin values and traceable transactions, while benefiting from much lower gas fees and much increased throughput.
@@ -138,6 +149,16 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
 ## Desktop Wallet Legacy
 `abelian-desktop-wallet / abelian-desktop-wallet-legacy`
+
+- **2026-01-12-v5.0.0**
+  - Support Aconcagua fork upgration: transfer ABEL to upgraded pseudo address. (i.e. PseudoCT address)
+
+  [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v5.0.0.exe) | 
+  [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-amd64-v5.0.0.dmg) | 
+  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-arm64-v5.0.0.dmg) | 
+  [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-amd64-v5.0.0.deb) | 
+  [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-arm64-v5.0.0.deb)
+
 
 - **2025-07-03-v4.4.1**
   - Enabled adaptive sync for various networks.
@@ -429,7 +450,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 ## ABEL-Nakamoto CPU Mining Client
 `abel-nakamoto-cpu-miner`
 
-- **2025-12-31-v0.1.0**
+- **2026-01-11-v0.1.0**
   - This ABEL-Nakamoto CPU mining client can be used by anyone with a PC/laptop for ABEL mining.
   - This is for ABEL-Nakamoto pool mining. The pool will be available very soon. Please stay tuned. We will announce the pool domain when it is ready.
 

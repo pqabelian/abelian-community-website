@@ -37,6 +37,16 @@ outline: deep
 ## Abelian Pro (移動應用)
 `abelian-mobile-wallet-pro / info.abelian.walletpro`
 
+- **2026-01-12-v6.0.0**
+
+  - 支援 AUT（Abelian User Token）功能；
+  - 支援帳戶升級為新的地址格式；
+  - 更新透明錢包與遮蔽錢包的術語；
+  - 使用者介面與使用者體驗的增強及錯誤修正。
+
+  [Android](https://download.abelian.info/release/android/abelian-mobile-wallet-pro-v6.0.0.apk) | 
+  [iOS](https://download.abelian.info/release/ios/abelian-mobile-wallet-pro-v6.0.0.aab)
+
 - **2025-11-22-v5.1.0**
 
   - 區分 MLP 帳戶類型；
@@ -75,8 +85,17 @@ outline: deep
 ## 桌面錢包專業版 (MLP)
 `abelian-desktop-wallet-pro`
 
-- **2025-08-15-v1.1.0**
+- **2026-01-12-v2.0.0**
+  - 支援交易版本（v3）；
+  - 將偽隱私地址升級為 PseudoCT 地址。
 
+  [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v2.0.0.exe) | 
+  [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v2.0.0.dmg) | 
+  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v2.0.0.dmg) | 
+  [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v2.0.0.deb) | 
+  [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v2.0.0.deb)
+
+- **2025-08-15-v1.1.0**
   - **UTXO 幣合併**：我們在每個帳戶的狀態主頁上添加了「顆粒度等級」功能。該值顯示您的帳戶中有多少個幣（即 UTXO）。可以將其視為帳戶的顆粒度，從 0 到 1，越接近 1 表示帳戶中小額幣越多；越接近 0 表示帳戶中幣的數量較少且每個幣的金額較大。<br>
     **為什麼這很重要？** 因為交易輸入的幣（即 UTXO）數量有上限。偽隱私交易最多可以有 100 個幣，而完全隱私交易最多只能有 5 個幣。因此，如果您的帳戶中有很多幣，即帳戶的顆粒度等級較高，您可能無法在一次交易中發送所有幣。因此，我們為想要合併幣的人引入了這個功能。此外，您可以通過鼠標懸停在粒度度旁邊的圓圈「i」圖標上查看您當前有多少個幣。
   - **同步狀態指示器**：在右上角的帳戶下拉菜單中，我們現在可以直接查看哪個帳戶正在同步。綠色表示正在同步，紅色表示未同步。
@@ -90,7 +109,6 @@ outline: deep
   [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v1.1.0.deb)
 
 - **2025-04-23-v1.0.3**
-
   - 交易確認更快，一旦交易輸出可用，就會被標記為可支配。
   - 優化可支配金額顯示，在發送頁面，輸入框會精確顯示可用金額，以便最大化後續轉賬，並新增「最大」按鈕，在轉賬給一個收款人時可以自動計算並扣除交易費用。
   - 使用體驗更友好直觀，增加了更多提示資訊。
@@ -102,7 +120,6 @@ outline: deep
   [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v1.0.3.zip)
 
 - **2025-03-02-v1.0.2**
-
   - 僅更新專用應用圖示。
   
   [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v1.0.2.zip) | 
@@ -112,7 +129,6 @@ outline: deep
   [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v1.0.2.zip)
 
 - **2025-01-04-v1.0.1**
-
   - 支援多層隱私：<br>
     **a.** 完全私密地址：您的交易是加密且不可追蹤的，錢包中的餘額保持隱藏，確保最大程度的安全性和匿名性。<br>
     **b.** 匿名地址：隱私級別與比特幣相當，即公開可見的幣值和可追蹤的交易，同時享受更低的手續費和更高的吞吐量。
@@ -138,6 +154,15 @@ outline: deep
 
 ## 桌面錢包經典版（Legacy）
 `abelian-desktop-wallet / abelian-desktop-wallet-legacy`
+
+- **2026-01-12-v5.0.0**
+  - 支援「aconcagua」分叉，將 ABEL 轉移至升級後的偽隱私地址（即 PseudoCT 地址）。
+
+  [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v5.0.0.exe) | 
+  [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-amd64-v5.0.0.dmg) | 
+  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-arm64-v5.0.0.dmg) | 
+  [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-amd64-v5.0.0.deb) | 
+  [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-arm64-v5.0.0.deb)
 
 - **2025-07-03-v4.4.1**
   - 啟用自適應同步機制，適應不同網路環境；
@@ -431,7 +456,7 @@ outline: deep
 ## ABEL-Nakamoto CPU 挖礦客戶端
 `abel-nakamoto-cpu-miner`
 
-- **2025-12-31-v0.1.0**
+- **2026-01-11-v0.1.0**
   - 此 ABEL-Nakamoto CPU 挖礦客戶端可以被所有擁有 PC/筆記型電腦的人用於 ABEL 挖礦；
   - 這是為 ABEL-Nakamoto 礦池挖礦而設。礦池很快就會上線。請密切留意。我們會在礦池準備好時公佈其網域。
 

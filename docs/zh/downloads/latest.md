@@ -164,7 +164,7 @@ outline: deep
     <span>下載我們最新的移動錢包</span>
   </div>
   <div class="btn-wrapper">
-    <a href="https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v5.1.0.apk" class="btn-apk">APK</a>
+    <a href="https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v6.0.0.apk" class="btn-apk">APK</a>
     <a href="https://play.google.com/store/apps/details?id=info.abelian.walletpro" class="btn-base btn-android"></a>
     <a href="https://apps.apple.com/us/app/abelian-pro/id6475756639" class="btn-base btn-ios"></a>
   </div>
@@ -173,11 +173,12 @@ outline: deep
 ::: info <Badge type="warning" text="特點介紹" />
 新的移動錢包是對之前移動錢包的全面重寫，旨在更加用戶友好和功能豐富。它可在 iOS 和 Android 平台上使用。
 
-**v5.1.0 升級說明:**
+**v6.0.0 升級說明:**
 
-1. 區分 MLP 帳戶類型；
-2. 15分鐘內無需重新輸入密碼；
-3. 修復了一些錯誤。
+1. 支援 AUT（Abelian User Token）功能；
+2. 支援帳戶升級為新的地址格式；
+3. 更新透明錢包與遮蔽錢包的術語；
+4. 使用者介面與使用者體驗的增強及錯誤修正。
 
 **新版本特點：**
 1. 支持 Abelian 二級網路 - QDay，允許用戶瀏覽區塊鏈數據、管理 ERC20 代幣、使用去中心化交易所、跨鏈質押 ABEL 代幣，以及訪問各種 DeFi 應用。
@@ -189,16 +190,16 @@ outline: deep
 ---
 
 ## 桌面錢包專業版 (MLP)
-- **發布日期**: `2025-07-15`
-- **軟體名稱**: `abelian-desktop-wallet-pro-v1.1.0`
+- **發布日期**: `2026-01-12`
+- **軟體名稱**: `abelian-desktop-wallet-pro-v2.0.0`
 - **軟體大小**: `≈ 120MB`
 - **下載連結**:
 <div class="button-container">
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v1.1.0.exe" class="btn">Windows</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v1.1.0.dmg" class="btn">macOS</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v1.1.0.dmg" class="btn">macOS (Apple Silicon)</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v1.1.0.deb" class="btn">Linux</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v1.1.0.deb" class="btn">Linux (ARM)</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v2.0.0.exe" class="btn">Windows</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v2.0.0.dmg" class="btn">macOS</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v2.0.0.dmg" class="btn">macOS (Apple Silicon)</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v2.0.0.deb" class="btn">Linux</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v2.0.0.deb" class="btn">Linux (ARM)</a>
 </div>
 
 ::: info <Badge type="warning" text="發布說明" />
@@ -211,27 +212,24 @@ outline: deep
 - 強烈建議現有桌面錢包經典版（Legacy）用戶立即遷移到這個全新的桌面錢包專業版（MLP），這樣他們不再需要記住最大可恢復的錢包數量。要進行遷移，我們需要在桌面錢包專業版（MLP）中創建一個新錢包，然後使用桌面錢包經典版將所有 ABEL 幣轉移到新錢包中。
 - 您可以首次創建一些完全私密的錢包以及其他匿名私密的錢包。
 
-**v1.1.0 升級說明:**
-- **UTXO 幣合併**：我們在每個帳戶的狀態主頁上添加了"顆粒度等級"功能。該值顯示您的帳戶中有多少個幣（即 UTXO）。可以將其視為帳戶的顆粒度，從 0 到 1，越接近 1 表示帳戶中小額幣越多；越接近 0 表示帳戶中幣的數量較少且每個幣的金額較大。<br>
-  **為什麼這很重要？** 因為交易輸入的幣（即 UTXO）數量有上限。偽隱私交易最多可以有 100 個幣，而完全隱私交易最多只能有 5 個幣。因此，如果您的帳戶中有很多幣，即帳戶的顆粒度等級較高，您可能無法在一次交易中發送所有幣。因此，我們為想要合併幣的人引入了這個功能。此外，您可以通過鼠標懸停在粒度度旁邊的圓圈"i"圖標上查看您當前有多少個幣。
-- **同步狀態指示器**：在右上角的帳戶下拉菜單中，我們現在可以直接查看哪個帳戶正在同步。綠色表示正在同步，紅色表示未同步。
-- **區塊鏈同步時間估算**：同步不再是個謎——我們現在顯示剩餘時間估算（例如，"大約 30 分鐘"）。通過清晰的倒計時更好地規劃您的任務。
-- **改進的交易歷史加載時間**：加載過去的交易現在幾乎是瞬時的。無需再等待頁面加載——幾秒鐘內即可查看您的活動或檢查最近的轉賬。
+**v2.0.0 升級說明:**
+1. 支援交易版本（v3）；
+2. 將偽隱私地址升級為 PseudoCT 地址。
 :::
 
 ---
 
 ## 桌面錢包經典版
-- **發布日期**： `2025-07-03`
-- **軟體名稱**： `abelian-desktop-wallet-legacy-v4.4.1`
+- **發布日期**： `2026-01-12`
+- **軟體名稱**： `abelian-desktop-wallet-legacy-v5.0.0`
 - **軟體大小**： `≈ 120MB`
 - **下載連結**：
 <div class="button-container">
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v4.4.1.exe" class="btn">Windows</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-amd64-v4.4.1.dmg" class="btn">macOS</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-arm64-v4.4.1.dmg" class="btn">macOS (Apple Silicon)</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-amd64-v4.4.1.deb" class="btn">Linux</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-arm64-v4.4.1.deb" class="btn">Linux (ARM)</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v5.0.0.exe" class="btn">Windows</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-amd64-v5.0.0.dmg" class="btn">macOS</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-arm64-v5.0.0.dmg" class="btn">macOS (Apple Silicon)</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-amd64-v5.0.0.deb" class="btn">Linux</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-arm64-v5.0.0.deb" class="btn">Linux (ARM)</a>
 </div>
 
 ::: warning <Badge type="tip" text="重要提示" />
@@ -248,14 +246,8 @@ outline: deep
 **為什麼要升級？**
 - MLP 錢包地址在無需記住任何序列號（即最大可恢復的錢包數量）的情況下顯著更易於使用。此外，您可以首次選擇創建多個具有不同隱私級別的 MLP 地址，包括完全私密或偽私密。
 
-**v4.4.1 升級說明:**
-- 啟用自適應同步機制，適應不同網路環境；
-- 改進狀態頁面的同步時間估算；
-- 在交易頁面添加餘額變化顏色標識；
-- 帳戶選擇中增加狀態指示燈；
-- 限制帳戶數量至100個，優化多帳戶同步穩定性;
-- 此 Legacy 軟體的正規名稱是 "Abelian Wallet Legacy"。例如，如果您是 macOS 用戶，您會在應用程式資料夾中找到這個軟體名稱為 "Abelian Wallet Legacy"，而不是舊版本的 "Abelian Wallet"；
-- 應用程式優化和修復一些 bug。
+**v5.0.0 升級說明:**
+- 支援「aconcagua」分叉，將 ABEL 轉移至升級後的偽隱私地址（即 PseudoCT 地址）。
 :::
 
 ---
@@ -331,9 +323,9 @@ outline: deep
 ---
 
 ## ABEL-Nakamoto CPU 挖礦客戶端
-- **Release Date**: `2025-12-31`
+- **Release Date**: `2026-01-11`
 - **Package Name**: `abel-nakamoto-cpu-miner-v0.1.0`
-- **Package Size**: `≈ 1.2MB`
+- **Package Size**: `≈ 1.3MB`
 - **Download Links**:
 <div class="button-container">
   <a href="https://download.pqabelian.io/release/abel-nakamoto/abel-nakamoto-cpu-miner-windows-amd64-v0.1.0.zip" class="btn">Windows</a>

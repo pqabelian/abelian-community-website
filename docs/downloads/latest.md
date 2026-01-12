@@ -164,7 +164,7 @@ outline: deep
      <span>Download our latest mobile wallet</span>
     </div>
     <div class="btn-wrapper">
-      <a href="https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v5.1.0.apk" class="btn-apk">APK</a>
+      <a href="https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v6.0.0.apk" class="btn-apk">APK</a>
       <a href="https://play.google.com/store/apps/details?id=info.abelian.walletpro" class="btn-base btn-android"></a>
       <a href="https://apps.apple.com/us/app/abelian-pro/id6475756639" class="btn-base btn-ios"></a>
     </div>
@@ -174,11 +174,12 @@ outline: deep
 The new mobile wallet is a complete rewrite of the previous mobile wallet and is designed to be more user-friendly and feature-rich.
 It is available on both iOS and Android platforms.
 
-**v5.1.0 Upgrade Notes:**
+**v6.0.0 Upgrade Notes:**
 
-1. Separated MLP accounts
-2. No need to re-enter your password within 15 minutes
-3. Bug fixes
+1. Support AUT (Abelian User Token) features.
+2. Support account upgrade to the new address format.
+3. Update terminologies for Transparent and Shielded Wallets.
+4. UI/UX enhancements and bug fixes.
 
 **New version Features:**
 1. Support Abelian Layer 2 network - QDay, allowing users to view blockchain data, manage ERC20 tokens, use decentralized exchanges, stake ABEL tokens across chains, and access various DeFi apps.
@@ -190,16 +191,16 @@ It is available on both iOS and Android platforms.
 ---
 
 ## Desktop Wallet Pro (MLP)
-- **Release Date**: `2025-08-15`
-- **Package Nanme**: `abelian-desktop-wallet-pro-v1.1.0`
+- **Release Date**: `2026-01-12`
+- **Package Nanme**: `abelian-desktop-wallet-pro-v2.0.0`
 - **Package Size**: `≈ 120MB`
 - **Download Links**:
 <div class="button-container">
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v1.1.0.exe" class="btn">Windows</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v1.1.0.dmg" class="btn">macOS</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v1.1.0.dmg" class="btn">macOS (Apple Silicon)</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v1.1.0.deb" class="btn">Linux</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v1.1.0.deb" class="btn">Linux (ARM)</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v2.0.0.exe" class="btn">Windows</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v2.0.0.dmg" class="btn">macOS</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v2.0.0.dmg" class="btn">macOS (Apple Silicon)</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v2.0.0.deb" class="btn">Linux</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v2.0.0.deb" class="btn">Linux (ARM)</a>
 </div>
 
 ::: info  <Badge type="warning" text="RELEASE NOTES" />
@@ -212,27 +213,24 @@ It is available on both iOS and Android platforms.
 - Existing users of Desktop Wallet Legacy are strongly recommended to migrate now to this brand new Desktop Wallet Pro (MLP) so that they no longer need to remember the maximum recoverable number of wallets. To migrate, we need to create a new wallet at the Desktop Wallet Pro (MLP) and then use the Desktop Wallet Legacy to transfer all the ABEL coins to the new wallet.
 - For the first time, you can create wallets, some of them are fully-private and some others are pseudo-private.
 
-**v1.1.0 Upgrade Notes:**
-- **UTXO Coin Consolidation**: We’ve added a "Granularity Degree" function on the Status main page for each account. This value shows how many coins (aka UTXOs) your account has. Think of it as how granular your account is from 0 to 1, where the closer to 1 means the more small-amount coins the account has; and the closer to 0 means your account has fewer coins and each coin has a bigger amount.<br>
-  **Why it matters?** Because there is an upper limit on the number of coins (namely UTXOs) a transaction’s input can have. A pseudo-private transaction can have up to 100 coins while a fully-private transaction can have up to 5 coins only. Hence if you have many coins in your account, namely, you account has a high granularity degree, you may not be able to send all the coins out in one single transaction. Therefore, we introduce this function for anyone who wants to consolidate the coins together. Also, you can find out how many coins you currently have by mousing over the circled “i” next to the Granularity Degree.
-- **Sync Status Indicator**: At the top-right corner, there is an account drop-down menu. we can now check out which account is active in synchronization or not directly. Green means synchronizing and red means not.
-- **Blockchain Synchronization Time Estimation**: Syncing no longer feels like a mystery—we now display estimated time left (e.g., "About 30 minutes"). Plan your tasks better with a clear countdown.
-- **Improved Transaction History Loading Time**: Loading past transactions is now nearly instant. No more waiting for pages to load—review your activity or check recent transfers in seconds.
+**v2.0.0 Upgrade Notes:**
+1. Support transactin version (v3).
+2. Upgrade pseudo address to PseudoCT address.
 :::
 
 ---
 
 ## Desktop Wallet Legacy
-- **Release Date**: `2025-07-03`
-- **Package Name**: `abelian-desktop-wallet-legacy-v4.4.1`
+- **Release Date**: `2026-01-12`
+- **Package Name**: `abelian-desktop-wallet-legacy-v5.0.0`
 - **Package Size**: `≈ 120MB`
 - **Download Links**:
 <div class="button-container">
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v4.4.1.exe" class="btn">Windows</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-amd64-v4.4.1.dmg" class="btn">macOS</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-arm64-v4.4.1.dmg" class="btn">macOS (Apple Silicon)</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-amd64-v4.4.1.deb" class="btn">Linux</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-arm64-v4.4.1.deb" class="btn">Linux (ARM)</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v5.0.0.exe" class="btn">Windows</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-amd64-v5.0.0.dmg" class="btn">macOS</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-arm64-v5.0.0.dmg" class="btn">macOS (Apple Silicon)</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-amd64-v5.0.0.deb" class="btn">Linux</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-arm64-v5.0.0.deb" class="btn">Linux (ARM)</a>
 </div>
 
 ::: warning <Badge type="tip" text="WARNING" />
@@ -249,14 +247,8 @@ It is available on both iOS and Android platforms.
 **Why Should You Upgrade?**
 - The MLP wallet address is significantly easier to use without remembering any sequence number (aka maximum recoverable number of wallets). Furthermore, for the first time, you can choose to create multiple MLP addresses, each with different privacy level, fully-private or pseudo-private.
 
-**v4.4.1 Upgrade Notes:**
-- Enabled adaptive sync for various networks.
-- Improved sync time estimates on the Status Page.
-- Added color indicators for balance changes on the Tx Page.
-- Added status lights in Account Select.
-- Limited accounts to 100 for better multi-account sync stability.
-- This legacy software is officially called "Abelian Wallet Legacy". For example, if you are a macOS user, you will find this software called "Abelian Wallet Legacy" rather than "Abelian Wallet" under the Applications folder.
-- Application optimization and fixing some bugs.
+**v5.0.0 Upgrade Notes:**
+- Support Aconcagua fork upgration: transfer ABEL to upgraded pseudo address. (i.e. PseudoCT address)
 :::
 
 ---
@@ -332,9 +324,9 @@ It is available on both iOS and Android platforms.
 ---
 
 ## ABEL-Nakamoto CPU Mining Client
-- **Release Date**: `2025-12-31`
+- **Release Date**: `2026-01-11`
 - **Package Name**: `abel-nakamoto-cpu-miner-v0.1.0`
-- **Package Size**: `≈ 1.2MB`
+- **Package Size**: `≈ 1.3MB`
 - **Download Links**:
 <div class="button-container">
   <a href="https://download.pqabelian.io/release/abel-nakamoto/abel-nakamoto-cpu-miner-windows-amd64-v0.1.0.zip" class="btn">Windows</a>
