@@ -80,15 +80,15 @@ We provide the packages of previous versions mainly for archive purposes. Please
 ## Desktop Wallet Pro (MLP)
 `abelian-desktop-wallet-pro`
 
-- **2026-01-12-v2.0.0**
+- **2026-01-15-v2.0.1**
   - Support transactin version (v3).
   - Upgrade pseudo address to PseudoCT address.
 
-  [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v2.0.0.exe) | 
-  [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v2.0.0.dmg) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v2.0.0.dmg) | 
-  [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v2.0.0.deb) | 
-  [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v2.0.0.deb)
+  [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v2.0.1.exe) | 
+  [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v2.0.1.dmg) | 
+  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v2.0.1.dmg) | 
+  [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v2.0.1.deb) | 
+  [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v2.0.1.deb)
 
 - **2025-08-15-v1.1.0**
   - **UTXO Coin Consolidation**: We’ve added a "Granularity Degree" function on the Status main page for each account. This value shows how many coins (aka UTXOs) your account has. Think of it as how granular your account is from 0 to 1, where the closer to 1 means the more small-amount coins the account has; and the closer to 0 means your account has fewer coins and each coin has a bigger amount.<br>
