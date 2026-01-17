@@ -3,9 +3,9 @@ outline: deep
 version_abelminer: v2.0.3
 ---
 
-# Abelian GPU 挖礦用戶指南
+# ABEL-ETHash GPU 挖礦用戶指南
 
-本文檔說明如何為 Abelian 區塊鏈運行 GPU 挖礦軟體，涵蓋了獨立挖礦和礦池挖礦兩種選項。
+本文檔說明如何為 Abelian 區塊鏈運行 ABEL-ETHash GPU 挖礦軟體，涵蓋了獨立挖礦和礦池挖礦兩種選項。
 
 請參考 [Abelian 應用程式指南](/zh/guide/) 以了解軟體架構，並選擇獨立挖礦或加入礦池。
 
@@ -15,7 +15,7 @@ version_abelminer: v2.0.3
 
 ## 概述
 
-在 Abelian 上進行 GPU 挖礦可以透過兩種方式進行：
+在 Abelian 上進行 ABEL-ETHash GPU 挖礦可以透過兩種方式進行：
 
 - **獨立挖礦**：使用您自己的 Abelian 節點獨立挖礦，保留所有區塊獎勵
 - **礦池挖礦**：加入礦池與其他礦工分享計算工作和獎勵
@@ -77,7 +77,7 @@ miningaddr=[your wallet address]
 
 ### 2. 安裝 GPU 挖礦客戶端
 
-下載 [Abelian GPU 挖礦客戶端](/zh/downloads/latest.html#顯示卡挖礦客戶端) 並解壓縮：
+下載 [ABEL-ETHash GPU 挖礦客戶端](/zh/downloads/latest.html#abel-ethash-顯示卡挖礦客戶端) 並解壓縮：
 
 ```txt-vue
 ~/abel/abelminer-linux-amd64-{{ $frontmatter.version_abelminer }}/

@@ -400,7 +400,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
   [macOS (Apple silicon)](https://download.abelian.info/release/abec/abec-macos-arm64-v0.11.1.tar.gz) | 
   [Linux](https://download.abelian.info/release/abec/abec-linux-amd64-v0.11.1.tar.gz)
 
-## GPU Mining Client
+## ABEL-ETHash GPU Mining Client
 `abelminer`
 
 - **2023-05-31-v2.0.3**
@@ -638,7 +638,7 @@ More documentation for both users and developers can be found at [Abelian Docume
 - [Abelian Apps Basics](/guide/index)
 - [Abelian Desktop Wallet Pro Manual](/guide/wallet/desktop-wallet-pro)
 - [Abelian Desktop Wallet (Legacy) Manual](/guide/wallet/desktop-wallet-legacy)
-- [Abelian GPU Mining Manual](/guide/mining/gpu-pool)
+- [ABEL-ETHash GPU Mining Manual](/guide/mining/gpu-pool)
 - [ABEL-ETHash CPU Mining Manual](/guide/mining/cpu-pool)
 - [ABEL-Nakamoto CPU Mining Manual](/guide/mining/nakamoto-cpu-miner)
 - [Abelian Node (abec) Manual](/guide/abelian-node)

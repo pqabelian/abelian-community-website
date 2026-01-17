@@ -59,7 +59,7 @@ export default defineConfig({
                     { text: 'Abelian Node (abec)', link: '/guide/abelian-node' },
                     { text: 'CLI Wallet (MLP)', link: '/guide/wallet/cli-wallet-mlp' },
                     { text: 'CLI Wallet Legacy', link: '/guide/wallet/cli-wallet-legacy' },
-                    { text: 'GPU Mining', link: '/guide/mining/gpu-mining' },
+                    { text: 'ABEL-ETHash GPU Mining', link: '/guide/mining/gpu-mining' },
                     { text: 'ABEL-ETHash CPU Mining', link: '/guide/mining/cpu-mining' },
                     //{ text: 'ABEL-Nakamoto CPU Mining', link: '/guide/mining/nakamoto-cpu-miner' }
                   ]
@@ -197,7 +197,7 @@ export default defineConfig({
                     { text: 'Abelian 節點 (abec)', link: '/zh/guide/abelian-node' },
                     { text: '多層隱私錢包 (CLI)', link: '/zh/guide/wallet/cli-wallet-mlp' },
                     { text: '經典錢包（CLI）', link: '/zh/guide/wallet/cli-wallet-legacy' },
-                    { text: '顯卡挖礦', link: '/zh/guide/mining/gpu-mining' },
+                    { text: 'ABEL-ETHash 顯卡挖礦', link: '/zh/guide/mining/gpu-mining' },
                     { text: 'ABEL-ETHash CPU 挖礦', link: '/zh/guide/mining/cpu-mining' },
                     //{ text: 'ABEL-Nakamoto CPU 挖礦', link: '/zh/guide/mining/nakamoto-cpu-miner' }
                   ]

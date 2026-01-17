@@ -405,7 +405,7 @@ outline: deep
   [macOS (Apple silicon)](https://download.abelian.info/release/abec/abec-macos-arm64-v0.11.1.tar.gz) | 
   [Linux](https://download.abelian.info/release/abec/abec-linux-amd64-v0.11.1.tar.gz)
 
-## GPU 挖礦客戶端
+## ABEL-ETHash GPU 挖礦客戶端
 `abelminer`
 
 - **2023-05-31-v2.0.3**
@@ -643,7 +643,7 @@ outline: deep
 - [Abelian 應用程式常識](/zh/guide/index)
 - [Abelian 桌面錢包專業版使用者手冊](/zh/guide/wallet/desktop-wallet-pro)
 - [Abelian 桌面錢包經典版使用者手冊](/zh/guide/wallet/desktop-wallet-legacy)
-- [Abelian GPU 挖矿使用者手冊](/zh/guide/mining/gpu-mining)
+- [ABEL-ETHash GPU 挖矿使用者手冊](/zh/guide/mining/gpu-mining)
 - [ABEL-ETHash CPU 挖矿使用者手冊](/zh/guide/mining/cpu-mining)
 - [ABEL-Nakamoto CPU 挖礦客戶端使用者指南](/zh/guide/mining/nakamoto-cpu-miner)
 - [Abelian 節點（abec）使用者手冊](/zh/guide/abelian-node)

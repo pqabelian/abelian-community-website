@@ -281,7 +281,7 @@ outline: deep
 
 ---
 
-## 顯示卡挖礦客戶端
+## ABEL-ETHash 顯示卡挖礦客戶端
 - **發布日期**： `2023-05-31`
 - **軟體名稱**： `abelminer-v2.0.4`
 - **軟體大小**： `≈ 36MB`
@@ -292,10 +292,10 @@ outline: deep
 </div>
 
 ::: info <Badge type="warning" text="顯示卡礦工指南" />
-1. Abelian 顯示卡挖礦客戶端可用於 Solo 挖礦和礦池挖礦；
+1. ABEL-ETHash 顯示卡挖礦客戶端可用於 Solo 挖礦和礦池挖礦；
 2. 礦池網站：https://maxpool.org/
 3. 請訪問礦池網站閱讀 [快速入門指南](https://maxpool.org/home/guide)，選擇適合您的硬體和系統平台按照步驟部署挖礦；
-4. 請加入我們的 [Discord 社群](https://discord.com/invite/5rrDxP29hx)，並前往挖礦頻道（在 “verify-yourself” 之後前往 “how-to-mine-abel” 子頻道）獲取 GPU Solo 挖礦的最新指南。
+4. 請加入我們的 [Discord 社群](https://discord.com/invite/5rrDxP29hx)，並前往挖礦頻道（在 “verify-yourself” 之後前往 “how-to-mine-abel” 子頻道）獲取 ABEL-ETHash GPU Solo 挖礦的最新指南。
 :::
 
 ---
@@ -317,7 +317,7 @@ outline: deep
 1. 此 ABEL-ETHash CPU 挖礦客戶端可以被所有擁有 PC/筆記型電腦的人用於 ABEL 挖礦；
 2. 該客戶端針對礦池挖礦進行了優化，礦池網站：https://maxpool.org/
 3. 礦池網站：https://maxpool.org/，請訪問 [帳戶設定](https://maxpool.org/account/settings) 閱讀 CPU 挖礦指南。
-4. 如果你有 GPU 顯示卡，請查看上面標題為 [“Abelian GPU 挖礦客戶端”](#abelian-顯示卡挖礦客戶端) 的部分以獲取 GPU 礦池挖礦資訊。如果你想進行 GPU 單獨挖礦，請加入我們的 [Discord 社群](https://discord.com/invite/5rrDxP29hx)，並進入挖礦頻道（在“verify-yourself”後面的“how-to-mine-abel”下）獲取最新指南。
+4. 如果你有 GPU 顯示卡，請查看上面標題為 [“Abelian GPU 挖礦客戶端”](#abel-ethash-顯示卡挖礦客戶端) 的部分以獲取 GPU 礦池挖礦資訊。如果你想進行 GPU 單獨挖礦，請加入我們的 [Discord 社群](https://discord.com/invite/5rrDxP29hx)，並進入挖礦頻道（在“verify-yourself”後面的“how-to-mine-abel”下）獲取最新指南。
 :::
 
 ---
@@ -399,7 +399,7 @@ outline: deep
 - [Abelian 應用程式常識](/zh/guide/index)
 - [Abelian 桌面錢包專業版使用者手冊](/zh/guide/wallet/desktop-wallet-pro)
 - [Abelian 桌面錢包經典版使用者手冊](/zh/guide/wallet/desktop-wallet-legacy)
-- [Abelian GPU 挖矿使用者手冊](/zh/guide/mining/gpu-mining)
+- [ABEL-ETHash GPU 挖矿使用者手冊](/zh/guide/mining/gpu-mining)
 - [ABEL-ETHash CPU 挖矿使用者手冊](/zh/guide/mining/cpu-mining)
 - [ABEL-Nakamoto CPU 挖礦客戶端使用者指南](/zh/guide/mining/nakamoto-cpu-miner)
 - [Abelian 節點（abec）使用者手冊](/zh/guide/abelian-node)

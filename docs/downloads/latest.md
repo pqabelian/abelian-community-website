@@ -282,7 +282,7 @@ It is available on both iOS and Android platforms.
 
 ---
 
-## GPU Mining Client
+## ABEL-ETHash GPU Mining Client
 - **Release Date**: `2023-05-31`
 - **Package Name**: `abelminer-v2.0.4`
 - **Package Size**: `≈ 36MB`
@@ -293,10 +293,10 @@ It is available on both iOS and Android platforms.
 </div>
 
 ::: info <Badge type="warning" text="GUIDE FOR GPU MINERS" />
-1. The Abelian graphics card mining client can be used for solo mining and pool mining.
+1. The ABEL-ETHash graphics card mining client can be used for solo mining and pool mining.
 2. Mining Pool Website: https://maxpool.org/
 3. Please visit the mining pool website for the [Quick Start Guide](https://maxpool.org/home/guide) and select the suitable hardware and system platform to set up mining.
-4. Please join our [Discord community](https://discord.com/invite/5rrDxP29hx) and go to the mining channel (under 'how-to-mine-abel' after 'verify-yourself') to get the latest guide for GPU solo mining.
+4. Please join our [Discord community](https://discord.com/invite/5rrDxP29hx) and go to the mining channel (under 'how-to-mine-abel' after 'verify-yourself') to get the latest guide for ABEL-ETHash GPU solo mining.
 :::
 
 ---
@@ -318,7 +318,7 @@ It is available on both iOS and Android platforms.
 1. This ABEL-ETHash CPU mining client can be used by everyone who has a PC/laptop for ABEL mining.
 2. This is optimized for pool mining. Mining Pool Website: <https://maxpool.org>
 3. Mining Pool Website: https://maxpool.org. Please visit [Account/Settings](https://maxpool.org/account/settings) to read the CPU mining guide.
-4. If you have GPU cards, please check out the section above titled ["Abelian GPU Mining Client"](#abelian-gpu-mining-client) for GPU pool mining. If you want to do GPU solo mining, please join our [Discord community](https://discord.com/invite/5rrDxP29hx) and go to the mining channel (under 'how-to-mine-abel' after 'verify-yourself') to get the latest guide.
+4. If you have GPU cards, please check out the section above titled ["Abelian GPU Mining Client"](#abel-ethash-gpu-mining-client) for GPU pool mining. If you want to do GPU solo mining, please join our [Discord community](https://discord.com/invite/5rrDxP29hx) and go to the mining channel (under 'how-to-mine-abel' after 'verify-yourself') to get the latest guide.
 :::
 
 ---
@@ -400,7 +400,7 @@ More documentation for both users and developers can be found at [Abelian Docume
 - [Abelian Apps Basics](/guide/index)
 - [Abelian Desktop Wallet Pro Manual](/guide/wallet/desktop-wallet-pro)
 - [Abelian Desktop Wallet Legacy Manual](/guide/wallet/desktop-wallet-legacy)
-- [Abelian GPU Mining Manual](/guide/mining/gpu-pool)
+- [ABEL-ETHash GPU Mining Manual](/guide/mining/gpu-pool)
 - [ABEL-ETHash CPU Mining Manual](/guide/mining/cpu-pool)
 - [ABEL-Nakamoto CPU Mining Manual](/guide/mining/nakamoto-cpu-miner)
 - [Abelian Node (abec) Manual](/guide/abelian-node)

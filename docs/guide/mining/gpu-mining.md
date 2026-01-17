@@ -3,9 +3,9 @@ outline: deep
 version_abelminer: v2.0.3
 ---
 
-# Abelian GPU Mining User Guide
+# ABEL-ETHash GPU Mining User Guide
 
-This document explains how to run GPU mining software for the Abelian blockchain, covering both solo mining and pool mining options.
+This document explains how to run ABEL-ETHash GPU mining software for the Abelian blockchain, covering both solo mining and pool mining options.
 
 Please refer to the [Abelian Applications Guide](/guide/) to understand the software architecture and choose between solo mining or joining a mining pool.
 
@@ -77,7 +77,7 @@ miningaddr=[your wallet address]
 
 ### 2. Install GPU Mining Client
 
-Download the [Abelian GPU Mining Client](/downloads/latest.html#abelian-gpu-mining-client) and extract it:
+Download the [ABEL-ETHash GPU Mining Client](/downloads/latest.html#abel-ethash-gpu-mining-client) and extract it:
 
 ```txt-vue
 ~/abel/abelminer-linux-amd64-{{ $frontmatter.version_abelminer }}/
