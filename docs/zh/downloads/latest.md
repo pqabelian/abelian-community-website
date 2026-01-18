@@ -337,7 +337,9 @@ outline: deep
 
 ::: info <Badge type="warning" text="GUIDE FOR NAKAMOTO CPU MINERS" />
 1. 此 ABEL-Nakamoto CPU 挖礦客戶端可以被所有擁有 PC/筆記型電腦的人用於 ABEL 挖礦；
-2. 這是為 ABEL-Nakamoto 礦池挖礦而設。礦池很快就會上線。請密切留意。我們會在礦池準備好時公佈其網域。
+2. ABEL-Nakamoto 礦池網站：<https://abel-nakamoto.xyz>；
+3. 請訪問礦池網站 [帳戶/設定](https://abel-nakamoto.xyz/account/settings) 取得您的挖礦命令；
+4. 請閱讀 [ABEL-Nakamoto CPU 挖矿客户端使用者指南](/zh/guide/mining/nakamoto-cpu-miner)，選擇適合您的硬體和系統平台按照步驟部署挖礦。
 :::
 
 ---
