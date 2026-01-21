@@ -9,3 +9,4 @@
     - [NVIDIA 顯示卡相關問題](/zh/faq/hardware-issues/nvidia)
 - [**礦池相關問題**](/zh/faq/pool-issues)
 - [**交易所相關問題**](/zh/faq/community/exchanges)
+- [**Abelian 工作量證明（PoW）挖礦**](/zh/faq/community/pow-mining)

@@ -9,3 +9,4 @@
     - [NVIDIA graphics card](/faq/hardware-issues/nvidia)
 - [**Pool Issues**](/faq/pool-issues)
 - [**Exchanges**](/faq/community/exchanges)
+- [**Abelian Proof-of-Work (PoW) Mining**](/faq/community/pow-mining)
