@@ -4,9 +4,9 @@ outline: deep
 
 ## Exchanges Issues
 
-### <Badge type="warning" text="QUESTION" /> where is ABEL listed?
+### where is ABEL listed? <sup style="font-size: 0.6em;">`QUESTION`</sup>
 
-::: info <Badge type="tip" text="ANSWER" />
+::: info <span style="font-size: 1.2em;">`Answer`</span>
 
 As of now, ABEL (Abelian) is listed on the following cryptocurrency exchanges:
 
@@ -25,9 +25,9 @@ Reference link:
 
 ---
 
-### <Badge type="warning" text="QUESTION" /> Is ABEL included in CMC and/or Coingecko?
+### Is ABEL included in CMC and/or Coingecko? <sup style="font-size: 0.6em;">`QUESTION`</sup>
 
-::: info <Badge type="tip" text="ANSWER" />
+::: info <span style="font-size: 1.2em;">`Answer`</span>
 
 Yes, Abelian (ticker: ABEL) is listed on both CoinMarketCap and CoinGecko.
 
@@ -38,9 +38,9 @@ Yes, Abelian (ticker: ABEL) is listed on both CoinMarketCap and CoinGecko.
 
 ---
 
-### <Badge type="warning" text="QUESTION" /> Which exchanges support MLP wallet addresses?
+### Which exchanges support MLP wallet addresses? <sup style="font-size: 0.6em;">`QUESTION`</sup>
 
-::: info <Badge type="tip" text="ANSWER" />
+::: info <span style="font-size: 1.2em;">`Answer`</span>
 
 Currently, MEXC Global, BitMart, and XT.COM support trading with Multi-Layer Privacy (MLP) wallet addresses.
 

@@ -18,9 +18,9 @@ To that end:
 
 ---
 
-### <Badge type="warning" text="QUESTION" /> Is FPGA mining a temporary engineering phase or a long-term mining approach?
+### Is FPGA mining a temporary engineering phase or a long-term mining approach? <sup style="font-size: 0.6em;">`QUESTION`</sup>
 
-::: info <Badge type="tip" text="ANSWER" />
+::: info <span style="font-size: 1.2em;">`Answer`</span>
 
 The project's FPGA/ASIC research and development efforts are focused exclusively on ABEL-Nakamoto mining. By open-sourcing the ABEL-Nakamoto code, we aim to support and encourage the community to develop quantum-resistant mining hardware for this algorithm. These efforts do not apply to ABEL-ETHash.
 
@@ -28,9 +28,9 @@ The project's FPGA/ASIC research and development efforts are focused exclusively
 
 ---
 
-### <Badge type="warning" text="QUESTION" /> Is the ABEL-Nakamoto algorithm locked in, or could it change for hardware compatibility?
+### Is the ABEL-Nakamoto algorithm locked in, or could it change for hardware compatibility? <sup style="font-size: 0.6em;">`QUESTION`</sup>
 
-::: info <Badge type="tip" text="ANSWER" />
+::: info <span style="font-size: 1.2em;">`Answer`</span>
 
 The ABEL-Nakamoto algorithm was successfully deployed during the Aconcagua Fork. As its name suggests, it is a quantum-resistant adaptation derived directly from Bitcoin's original Nakamoto PoW algorithm. As a result, existing Bitcoin mining hardware is not compatible with ABEL-Nakamoto. There are no plans to alter this incompatibility in the future—any change to the algorithm itself would require a hard fork and quantum resistance is the fundamental and mandatory requirement for Abelian.
 
@@ -40,9 +40,9 @@ The introduction of this hybrid/dual-mining approach is intentional: it allows t
 
 ---
 
-### <Badge type="warning" text="QUESTION" /> Will the project hand over mining operations to the community and third-party manufacturers?
+### Will the project hand over mining operations to the community and third-party manufacturers? <sup style="font-size: 0.6em;">`QUESTION`</sup>
 
-::: info <Badge type="tip" text="ANSWER" />
+::: info <span style="font-size: 1.2em;">`Answer`</span>
 
 Yes, we fully affirm our commitment to decentralization. The last thing the Abelian project wants is for the majority of computational power to come from the core team itself. Our mining roadmap is deliberately designed in the direction of maximizing decentralization and quantum-resistant security: we actively invite the community to contribute hash power and earn ABEL rewards in return.
 
@@ -54,9 +54,9 @@ For ABEL-Nakamoto, the dedicated mining pool server at <https://abel-nakamoto.xy
 
 ---
 
-### <Badge type="warning" text="QUESTION" /> Is there an officially recognized ASIC development pathway for ABEL-Nakamoto?
+### Is there an officially recognized ASIC development pathway for ABEL-Nakamoto? <sup style="font-size: 0.6em;">`QUESTION`</sup>
 
-::: info <Badge type="tip" text="ANSWER" />
+::: info <span style="font-size: 1.2em;">`Answer`</span>
 
 Builders interested in creating ASIC machines for ABEL-Nakamoto should refer to the reference implementation in our open-source repository:
 <https://github.com/pqabelian/abec/tree/main/blockchain/consensus>

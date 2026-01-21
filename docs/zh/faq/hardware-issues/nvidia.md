@@ -6,9 +6,9 @@ outline: deep
 
 ## NVIDIA 顯示卡硬體配置問題
 
-### <Badge type="warning" text="QUESTION" /> ABEL 所需要的 NVIDIA 顯示卡最低配置是什麼型號？
+### ABEL 所需要的 NVIDIA 顯示卡最低配置是什麼型號？ <sup style="font-size: 0.6em;">`問題`</sup>
 
-::: info <Badge type="tip" text="ANSWER" />
+::: info <span style="font-size: 1.2em;">`解答`</span>
 實際 ABEL 採礦過程中，隨著 4K 區塊高度成長相應的也會逐漸提高顯示卡顯存的佔用，當前 EPOCH 的計算公式為（單位位元組）：
 
 `epoch no. = (height - 56000)/4000`

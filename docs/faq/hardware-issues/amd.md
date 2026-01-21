@@ -6,9 +6,9 @@ outline: deep
 
 ## AMD Graphics Card Hardware Requirements Issue
 
-### <Badge type="warning" text="QUESTION" /> What is the minimum model of AMD graphics card required by ABEL?
+### What is the minimum model of AMD graphics card required by ABEL? <sup style="font-size: 0.6em;">`QUESTION`</sup>
 
-::: info <Badge type="tip" text="ANSWER" />
+::: info <span style="font-size: 1.2em;">`Answer`</span>
 In the actual ABEL mining process, as the 4K block height increases, the usage of GPU memory will gradually increase as well. The current formula for EPOCH calculation is (in bytes):
 
 `epoch no. = (height - 56000)/4000`
@@ -18,7 +18,7 @@ Starting from EPOCH 41, graphics cards with 6GB of VRAM have been practically fo
 
 ---
 
-### <Badge type="warning" text="QUESTION" /> AMD graphics card mining error: "No OpenCL platforms found"
+### AMD graphics card mining error: "No OpenCL platforms found" <sup style="font-size: 0.6em;">`QUESTION`</sup>
 When using AMD graphics cards for mining, the error log when running abelminer is:
 
 ```text
@@ -26,7 +26,7 @@ No OpenCL platforms found
 Error: No usable mining devices found
 ```
 
-::: info <Badge type="tip" text="ANSWER" />
+::: info <span style="font-size: 1.2em;">`Answer`</span>
 This issue generally occurs because abelminer cannot find the OpenCL driver for AMD graphics card. Try the following methods on various platforms to resolve it:
 
 **Windows**

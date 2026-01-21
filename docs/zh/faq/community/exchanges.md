@@ -4,9 +4,9 @@ outline: deep
 
 ## 交易所相關問題
 
-### <Badge type="warning" text="QUESTION" /> ABEL 在哪裡上市？
+### ABEL 在哪裡上市？ <sup style="font-size: 0.6em;">`問題`</sup>
 
-::: info <Badge type="tip" text="ANSWER" />
+::: info <span style="font-size: 1.2em;">`解答`</span>
 
 截至目前，ABEL（Abelian）已在以下加密貨幣交易所上市交易：
 
@@ -25,9 +25,9 @@ outline: deep
 
 ---
 
-### <Badge type="warning" text="QUESTION" /> ABEL 是否可在 CMC 和 Coingecko 中查詢價格？
+### ABEL 是否可在 CMC 和 Coingecko 中查詢價格？ <sup style="font-size: 0.6em;">`問題`</sup>
 
-::: info <Badge type="tip" text="ANSWER" />
+::: info <span style="font-size: 1.2em;">`解答`</span>
 
 是的，ABEL 在 CoinMarketCap 和 CoinGecko 上都可以查詢價格。
 
@@ -38,9 +38,9 @@ outline: deep
 
 ---
 
-### <Badge type="warning" text="QUESTION" /> 哪些交易所已經支援 MLP 錢包地址？
+### 哪些交易所已經支援 MLP 錢包地址？ <sup style="font-size: 0.6em;">`問題`</sup>
 
-::: info <Badge type="tip" text="ANSWER" />
+::: info <span style="font-size: 1.2em;">`解答`</span>
 
 目前 MEXC Global、BitMart、XT.COM 都已經支援 MLP 錢包地址的交易。
 
@@ -48,9 +48,9 @@ outline: deep
 
 ---
 
-### <Badge type="warning" text="QUESTION" /> 哪些交易所已經支援 MLP 錢包地址？
+### 哪些交易所已經支援 MLP 錢包地址？ <sup style="font-size: 0.6em;">`問題`</sup>
 
-::: info <Badge type="tip" text="ANSWER" />
+::: info <span style="font-size: 1.2em;">`解答`</span>
 
 目前 MEXC Global、BitMart、XT.COM 都已經支援多層隱私（MLP）錢包地址的交易。
 

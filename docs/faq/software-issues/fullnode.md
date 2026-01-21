@@ -6,9 +6,9 @@ outline: deep
 
 ## Abelian Node (Abec) Related Issues
 
-### <Badge type="warning" text="QUESTION" /> What types of Abelian Node (Abec)?
+### What types of Abelian Node (Abec)? <sup style="font-size: 0.6em;">`QUESTION`</sup>
 
-::: info <Badge type="tip" text="ANSWER" />
+::: info <span style="font-size: 1.2em;">`Answer`</span>
 Abelian Node (Abec) have the following 3 types:
 
 - **Abelian Full Node**: Stores and verifies all blockchain data since the genesis block, requiring the most storage space.
@@ -18,9 +18,9 @@ Abelian Node (Abec) have the following 3 types:
 For more information, please refer to: [Abelian Node User Guide Document](/guide/abelian-node#node-type-configuration)
 :::
 
-### <Badge type="warning" text="QUESTION" /> How to move the Standard Node data of desktop wallet (Legacy) to another location?
+### How to move the Standard Node data of desktop wallet (Legacy) to another location? <sup style="font-size: 0.6em;">`QUESTION`</sup>
 
-::: info <Badge type="tip" text="ANSWER" />
+::: info <span style="font-size: 1.2em;">`Answer`</span>
 To change the folder, you can try this method (Windows only)
 
 1. Close desktop wallet
@@ -33,7 +33,7 @@ To change the folder, you can try this method (Windows only)
 
 ---
 
-### <Badge type="warning" text="QUESTION" /> The error log is: "Database corruption detected"
+### The error log is: "Database corruption detected" <sup style="font-size: 0.6em;">`QUESTION`</sup>
 ```txt
 ABEC: Version 0.12.6
 ABEC: Loading block database from '/root/.abec/data/mainnet/blocks_ffldb'
@@ -42,7 +42,7 @@ ABEC: metadata claims file 37, offset 176759509, but witness data is at file 0, 
 ABEC: Shutdown complete
 ```
 
-::: info <Badge type="tip" text="ANSWER" />
+::: info <span style="font-size: 1.2em;">`Answer`</span>
 This is mainnet database corruption. You need to delete the "/[user_home_dir]/.abec/data/mainnet/blocks_ffldb" folder, and then resync again.
 
 Please [view this page](/downloads/fullnode-db) and follow the steps to download the latest Abelian Normal Node and SemiFull Node mainnet data, then resync again.
@@ -50,9 +50,9 @@ Please [view this page](/downloads/fullnode-db) and follow the steps to download
 
 ---
 
-### <Badge type="warning" text="QUESTION" /> What are the hardware requirements for running a Normal Node (Abec)?
+### What are the hardware requirements for running a Normal Node (Abec)? <sup style="font-size: 0.6em;">`QUESTION`</sup>
 
-::: info <Badge type="tip" text="ANSWER" />
+::: info <span style="font-size: 1.2em;">`Answer`</span>
 Abelian Normal Node (`Abec`) has currently released versions for almost all commonly used hardware platforms, with minimal hardware requirements. However, there are minimum requirements for the speed of synchronizing and reading mainnet data as well as storage space size. The storage space should be no less than 180GB, and it is recommended to use a 240GB solid-state drive.
 :::
 

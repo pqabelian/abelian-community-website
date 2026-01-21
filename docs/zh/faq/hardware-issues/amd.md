@@ -6,9 +6,9 @@ outline: deep
 
 ## AMD 顯示卡硬體配置問題
 
-### <Badge type="warning" text="問題" /> ABEL 所需要的 AMD 顯示卡最低配置是什麼型號？
+### ABEL 所需要的 AMD 顯示卡最低配置是什麼型號？ <sup style="font-size: 0.6em;">`問題`</sup>
 
-::: info <Badge type="tip" text="答案" />
+::: info <span style="font-size: 1.2em;">`解答`</span>
 實際 ABEL 採礦過程中，隨著 4K 區塊高度成長相應的也會逐漸提高顯示卡顯存的佔用，當前 EPOCH 的計算公式為（單位位元組）：
 
 `epoch no. = (height - 56000)/4000`
@@ -18,7 +18,7 @@ outline: deep
 
 ---
 
-### <Badge type="warning" text="問題" /> AMD 顯示卡挖礦時發生錯誤：“No OpenCL platforms found”
+### AMD 顯示卡挖礦時發生錯誤：“No OpenCL platforms found” <sup style="font-size: 0.6em;">`問題`</sup>
 使用 AMD 顯示卡挖礦時，執行 abelminer 報錯日誌為：
 
 ```text
@@ -26,7 +26,7 @@ No OpenCL platforms found
 Error: No usable mining devices found
 ```
 
-::: info <Badge type="tip" text="答案" />
+::: info <span style="font-size: 1.2em;">`解答`</span>
 出現這個問題通常是因為 abelminer 未找到 AMD 顯示卡的 OpenCL 驅動，在各平台嘗試以下方法解決：
 
 **Windows**

@@ -18,9 +18,9 @@ Abelian 團隊長期以來的目標一直是透過賦予社群共同建設、發
 
 ---
 
-### <Badge type="warning" text="QUESTION" /> FPGA 挖礦是暫時的工程階段還是長期的挖礦方式？
+### FPGA 挖礦是暫時的工程階段還是長期的挖礦方式？ <sup style="font-size: 0.6em;">`問題`</sup>
 
-::: info <Badge type="tip" text="ANSWER" />
+::: info <span style="font-size: 1.2em;">`解答`</span>
 
 專案的 FPGA/ASIC 研發工作專注於 ABEL-Nakamoto 挖礦。透過開源 ABEL-Nakamoto 程式碼，我們旨在支援並鼓勵社群為此演算法開發抗量子挖礦硬體。這些工作不適用於 ABEL-ETHash。
 
@@ -28,9 +28,9 @@ Abelian 團隊長期以來的目標一直是透過賦予社群共同建設、發
 
 ---
 
-### <Badge type="warning" text="QUESTION" /> ABEL-Nakamoto 演算法是否已經確定，還是可能為了硬體相容性而改變？
+### ABEL-Nakamoto 演算法是否已經確定，還是可能為了硬體相容性而改變？ <sup style="font-size: 0.6em;">`問題`</sup>
 
-::: info <Badge type="tip" text="ANSWER" />
+::: info <span style="font-size: 1.2em;">`解答`</span>
 
 ABEL-Nakamoto 演算法在 Aconcagua 分叉期間成功部署。如其名稱所示，它是直接從比特幣原始 Nakamoto PoW 演算法衍生而來的抗量子改良版本。因此，現有的比特幣挖礦硬體與 ABEL-Nakamoto 不相容。未來沒有計劃改變這種不相容性——任何對演算法本身的變更都需要硬分叉，而抗量子性是 Abelian 的基本且強制性要求。
 
@@ -40,9 +40,9 @@ ABEL-Nakamoto 演算法在 Aconcagua 分叉期間成功部署。如其名稱所�
 
 ---
 
-### <Badge type="warning" text="QUESTION" /> 專案是否會將挖礦營運交給社群和第三方製造商？
+### 專案是否會將挖礦營運交給社群和第三方製造商？ <sup style="font-size: 0.6em;">`問題`</sup>
 
-::: info <Badge type="tip" text="ANSWER" />
+::: info <span style="font-size: 1.2em;">`解答`</span>
 
 是的，我們完全確認我們對去中心化的承諾。Abelian 專案最不希望看到的就是大部分算力來自核心團隊本身。我們的挖礦路徑規劃刻意朝著最大化去中心化和抗量子安全性的方向設計：我們積極邀請社群貢獻算力並獲得 ABEL 獎勵作為回報。
 
@@ -54,9 +54,9 @@ ABEL-Nakamoto 演算法在 Aconcagua 分叉期間成功部署。如其名稱所�
 
 ---
 
-### <Badge type="warning" text="QUESTION" /> ABEL-Nakamoto 是否有官方認可的 ASIC 開發路徑？
+### ABEL-Nakamoto 是否有官方認可的 ASIC 開發路徑？ <sup style="font-size: 0.6em;">`問題`</sup>
 
-::: info <Badge type="tip" text="ANSWER" />
+::: info <span style="font-size: 1.2em;">`解答`</span>
 
 有興趣為 ABEL-Nakamoto 建造 ASIC 機器的建造者應參考我們開源儲存庫中的參考實作：
 <https://github.com/pqabelian/abec/tree/main/blockchain/consensus>

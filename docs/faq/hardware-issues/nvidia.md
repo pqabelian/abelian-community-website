@@ -6,9 +6,9 @@ outline: deep
 
 ## NVIDIA Graphics Card Hardware Requirements Issue
 
-### <Badge type="warning" text="QUESTION" /> What is the minimum model of NVIDIA graphics card required by ABEL?
+### What is the minimum model of NVIDIA graphics card required by ABEL? <sup style="font-size: 0.6em;">`QUESTION`</sup>
 
-::: info <Badge type="tip" text="ANSWER" />
+::: info <span style="font-size: 1.2em;">`Answer`</span>
 In the actual ABEL mining process, as the 4K block height increases, the usage of GPU memory will gradually increase as well. The current formula for EPOCH calculation is (in bytes):
 
 `epoch no. = (height - 56000)/4000`

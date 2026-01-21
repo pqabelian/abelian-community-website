@@ -6,9 +6,9 @@ outline: deep
 
 ## Abelian Official Pool Issues
 
-### <Badge type="warning" text="QUESTION" /> Does Maxpool support MLP addresses?
+### Does Maxpool support MLP addresses? <sup style="font-size: 0.6em;">`QUESTION`</sup>
 
-::: info <Badge type="tip" text="ANSWER" />
+::: info <span style="font-size: 1.2em;">`Answer`</span>
 Maxpool now supports Multi-Layer Privacy (MLP) wallet addresses. Miners can use either the full-privacy or pseudo-privacy address as their payout address.
 
 Note: After changing the payout address, update the mining client command accordingly.
@@ -16,9 +16,9 @@ Note: After changing the payout address, update the mining client command accord
 
 ---
 
-### <Badge type="warning" text="QUESTION" /> Maxpool website cannot display the rigs online status of Machines?
+### Maxpool website cannot display the rigs online status of Machines? <sup style="font-size: 0.6em;">`QUESTION`</sup>
 
-::: info <Badge type="tip" text="ANSWER" />
+::: info <span style="font-size: 1.2em;">`Answer`</span>
 Maxpool relies on scripts to submit stats to the API for online status. Due to complex user networks, some miners still don’t show online status in the Dashboard.
 
 The DEV team is aware of the issue. For now, pls focus on checking the hashrate and also try to use abelminer, the official mining client for the best support. The team is working on an improvement for the issue but will take some time. 
@@ -26,9 +26,9 @@ The DEV team is aware of the issue. For now, pls focus on checking the hashrate 
 
 ---
 
-### <Badge type="warning" text="QUESTION" /> The Maxpool is registered, but the mining command don't work?
+### The Maxpool is registered, but the mining command don't work? <sup style="font-size: 0.6em;">`QUESTION`</sup>
 
-::: info <Badge type="tip" text="ANSWER" />
+::: info <span style="font-size: 1.2em;">`Answer`</span>
 First, you need to ensure that you have registered with a Maxpool:
 ```
 
@@ -46,9 +46,9 @@ If everything looks good but you still get a `"failed"` login error, Please comp
 
 ---
 
-### <Badge type="warning" text="QUESTION" /> Unable to login a certain mining pool in the Maxpool dashboard?
+### Unable to login a certain mining pool in the Maxpool dashboard? <sup style="font-size: 0.6em;">`QUESTION`</sup>
 
-::: info <Badge type="tip" text="ANSWER" />
+::: info <span style="font-size: 1.2em;">`Answer`</span>
 Could try changing the DNS settings to 8.8.8.8 or 1.1.1.1, and clear the browser and system DNS cache.
 
 This will help verify if the DNS change has taken effect and what IP address the user's device is using.
@@ -73,9 +73,9 @@ curl --location 'https://pool-fiona.abelian.info/v1/pool/signin' \
 
 ---
 
-### <Badge type="warning" text="QUESTION" /> Unable to log in to the original Abelian Foundation pool (pool.abelian.info)?
+### Unable to log in to the original Abelian Foundation pool (pool.abelian.info)? <sup style="font-size: 0.6em;">`QUESTION`</sup>
 
-::: info <Badge type="tip" text="ANSWER" />
+::: info <span style="font-size: 1.2em;">`Answer`</span>
 The original Abelian Foundation mining pool (pool.abelian.info) has currently stopped providing services, but the website is still accessible, and the URL has changed to: [https://legacy.maxpool.org/home](https://legacy.maxpool.org/home). It is strongly recommended to migrate to the [Maxpool mining pool](https://maxpool.org/)!!!
 :::
 

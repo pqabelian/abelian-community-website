@@ -6,9 +6,9 @@ outline: deep
 
 ## Abelian 節點（Abec）相關問題
 
-### <Badge type="warning" text="QUESTION" /> Abelian 節點（Abec）有哪些类型？
+### Abelian 節點（Abec）有哪些类型？ <sup style="font-size: 0.6em;">`問題`</sup>
 
-::: info <Badge type="tip" text="ANSWER" />
+::: info <span style="font-size: 1.2em;">`解答`</span>
 Abelian 節點（Abec）有以下三種類型：
 - **Abelian 全節點**：自創世區塊以來儲存並驗證所有區塊鏈資料，所需儲存空間最大。
 - **Abelian 半全節點**：優化儲存結構，從最近的檢查點後保留完整資料，具備高度驗證能力。
@@ -17,9 +17,9 @@ Abelian 節點（Abec）有以下三種類型：
 更多內容請參考：[Abelian 節點用戶指引文檔](/zh/guide/abelian-node#節點類型配置)
 :::
 
-### <Badge type="warning" text="QUESTION" /> 如何將桌面錢包 (Legacy) 的標準節點資料移至另一個位置？
+### 如何將桌面錢包 (Legacy) 的標準節點資料移至另一個位置？ <sup style="font-size: 0.6em;">`問題`</sup>
 
-::: info <Badge type="tip" text="ANSWER" />
+::: info <span style="font-size: 1.2em;">`解答`</span>
 要變更資料夾，您可以嘗試以下方法（僅適用於 Windows 系統）
 
 1. 關閉桌面錢包
@@ -32,7 +32,7 @@ Abelian 節點（Abec）有以下三種類型：
 
 ---
 
-### <Badge type="warning" text="QUESTION" /> 日誌顯示錯誤訊息為："Database corruption detected"
+### 日誌顯示錯誤訊息為："Database corruption detected" <sup style="font-size: 0.6em;">`問題`</sup>
 
 ```txt
 ABEC: Version 0.12.6
@@ -42,7 +42,7 @@ ABEC: metadata claims file 37, offset 176759509, but witness data is at file 0, 
 ABEC: Shutdown complete
 ```
 
-::: info <Badge type="tip" text="ANSWER" />
+::: info <span style="font-size: 1.2em;">`解答`</span>
 這是 mainnet 數據庫損壞。您需要刪除 "/[用戶目錄]/.abec/data/mainnet/blocks_ffldb" 資料夾，然後重新同步。
 
 請[查看此頁面](/zh/downloads/fullnode-db)，按照步驟下載最新的 Abelian 標準節點和半全節點的主網數據，然後重新同步。
@@ -50,9 +50,9 @@ ABEC: Shutdown complete
 
 ---
 
-### <Badge type="warning" text="QUESTION" /> 运行標準節點（Abec）有什么硬體要求？
+### 运行標準節點（Abec）有什么硬體要求？ <sup style="font-size: 0.6em;">`問題`</sup>
 
-::: info <Badge type="tip" text="ANSWER" />
+::: info <span style="font-size: 1.2em;">`解答`</span>
 Abelian 標準節點（`Abec`）目前發佈了幾乎所有常用硬體平臺的版本，硬體要求也沒有太多限制，但同步和讀取主網資料速度和儲存空間大小有最低要求，儲存空間不少於 180GB，建議使用 240G 的固態硬碟。
 :::
 
