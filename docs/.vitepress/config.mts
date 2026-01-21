@@ -7,7 +7,7 @@ export default defineConfig({
   lastUpdated: true,
 
   head: [
-    ['link', { rel: "icon", href: "/favicon.ico"}]
+    ['link', { rel: "icon", href: "/favicon.ico" }]
   ],
 
   locales: {
@@ -23,7 +23,8 @@ export default defineConfig({
           { text: 'Docs', link: '/guide/' },
           { text: 'API/SDK', link: '/apis/core-api' },
           { text: 'FAQ', link: '/faq/' },
-          { text: 'Downloads',
+          {
+            text: 'Downloads',
             items: [
               { text: 'Abelian Applications', link: '/downloads/latest' },
               { text: 'Abelian Release History', link: '/downloads/release-history' },
@@ -49,9 +50,10 @@ export default defineConfig({
               text: 'Guide',
               collapsed: false,
               items: [
-                { text: 'What is Abelian', link: '/guide/what-is-abelian'},
-                { text: 'Abelian User Guide',
-                  collapsed: false,  
+                { text: 'What is Abelian', link: '/guide/what-is-abelian' },
+                {
+                  text: 'Abelian User Guide',
+                  collapsed: false,
                   items: [
                     { text: 'Abelian Apps Basics', link: '/guide/index' },
                     { text: 'Desktop Wallet Pro (MLP)', link: '/guide/wallet/desktop-wallet-pro' },
@@ -64,15 +66,16 @@ export default defineConfig({
                     { text: 'ABEL-Nakamoto CPU Mining', link: '/guide/mining/nakamoto-cpu-miner' }
                   ]
                 },
-                { text: 'Abelian Tech Docs',
+                {
+                  text: 'Abelian Tech Docs',
                   collapsed: false,
                   items: [
-                    { text: 'Tokenomics', link: '/guide/abel-tokenomics'},
-                    { text: 'Whitepaper', link: '/guide/abel-whitepaper'},
-                    { text: 'PQZKBridge Yellowpaper', link: '/guide/abel-yellowpaper'},
-                    { text: 'POW Difficulty Smooth Algorithm (DSA)', link: '/guide/abel-dsa-whitepaper'},
-                    { text: 'ABEL Address Formart', link: '/guide/abel-address-format'},
-                    { text: 'Abelian Improvement Proposals (AIP)', link: 'https://github.com/pqabelian/aips'}
+                    { text: 'Tokenomics', link: '/guide/abel-tokenomics' },
+                    { text: 'Whitepaper', link: '/guide/abel-whitepaper' },
+                    { text: 'PQZKBridge Yellowpaper', link: '/guide/abel-yellowpaper' },
+                    { text: 'POW Difficulty Smooth Algorithm (DSA)', link: '/guide/abel-dsa-whitepaper' },
+                    { text: 'ABEL Address Formart', link: '/guide/abel-address-format' },
+                    { text: 'Abelian Improvement Proposals (AIP)', link: 'https://github.com/pqabelian/aips' }
                   ]
                 }
               ]
@@ -83,23 +86,26 @@ export default defineConfig({
               text: 'FAQ',
               collapsed: false,
               items: [
-                { text: 'Software Issues',
+                {
+                  text: 'Software Issues',
                   collapsed: false,
                   items: [
-                    { text: 'Wallet FAQ', link: '/faq/software-issues/wallet'},
-                    { text: 'Miner FAQ', link: '/faq/software-issues/miner'},
-                    { text: 'Abelian Node FAQ', link: '/faq/software-issues/fullnode'}
+                    { text: 'Wallet FAQ', link: '/faq/software-issues/wallet' },
+                    { text: 'Miner FAQ', link: '/faq/software-issues/miner' },
+                    { text: 'Abelian Node FAQ', link: '/faq/software-issues/fullnode' }
                   ]
                 },
-                { text: 'Hardware Issues',
+                {
+                  text: 'Hardware Issues',
                   collapsed: false,
                   items: [
                     { text: 'AMD graphics card', link: '/faq/hardware-issues/amd' },
-                    { text: 'NVIDIA graphics card', link: '/faq/hardware-issues/nvidia'}
+                    { text: 'NVIDIA graphics card', link: '/faq/hardware-issues/nvidia' }
                   ]
                 },
                 { text: 'Pool Issues', link: '/faq/pool-issues' },
-                { text: 'Exchanges Issues', link: '/faq/community/exchanges' }
+                { text: 'Exchanges Issues', link: '/faq/community/exchanges' },
+                { text: 'PoW Mining FAQ', link: '/faq/community/pow-mining' }
               ]
             }
           ],
@@ -108,14 +114,15 @@ export default defineConfig({
               text: 'API/SDK',
               collapsed: false,
               items: [
-                { text: 'Core API', link: '/apis/core-api'},
+                { text: 'Core API', link: '/apis/core-api' },
                 { text: 'Wallet API', link: '/apis/wallet-api' },
                 { text: 'Ans API', link: '/apis/ans-api' },
-                { text: 'Java SDK',
+                {
+                  text: 'Java SDK',
                   collapsed: false,
                   items: [
                     { text: 'Guide', link: '/apis/java-sdk/' },
-                    { text: 'Demo', link: '/apis/java-sdk/demo'}
+                    { text: 'Demo', link: '/apis/java-sdk/demo' }
                   ]
                 }
               ]
@@ -129,7 +136,7 @@ export default defineConfig({
                 { text: 'Abelian Applications', link: '/downloads/latest' },
                 { text: 'Abelian Release History', link: '/downloads/release-history' },
                 { text: 'Abelian Source Codes', link: 'https://github.com/pqabelian' },
-                { text: 'Abelian Node Database', link: '/downloads/fullnode-db'},
+                { text: 'Abelian Node Database', link: '/downloads/fullnode-db' },
                 { text: 'Abelian Ecosystem Tools', link: '/downloads/ecosystem-tools' }
               ]
             }
@@ -140,7 +147,7 @@ export default defineConfig({
           pattern: 'https://github.com/pqabelian/abelian-community-website/edit/main/docs/:path',
           text: 'Edit this page on GitHub'
         },
-    
+
         footer: {
           copyright: '© 2024 <a href="https://pqabelian.io" target="_blank">Abelian</a> | All rights reserved'
         }
@@ -161,7 +168,8 @@ export default defineConfig({
           { text: '文檔', link: '/zh/guide/' },
           { text: 'API/SDK', link: '/zh/apis/core-api' },
           { text: '問答', link: '/zh/faq/' },
-          { text: '下載',
+          {
+            text: '下載',
             items: [
               { text: 'Abelian 應用程式', link: '/zh/downloads/latest' },
               { text: 'Abelian 應用歷史版本', link: '/zh/downloads/release-history' },
@@ -187,9 +195,10 @@ export default defineConfig({
               text: '指南',
               collapsed: false,
               items: [
-                { text: 'Abelian 是什麼', link: '/zh/guide/what-is-abelian'},
-                { text: 'Abelian 用戶指南',
-                  collapsed: false,  
+                { text: 'Abelian 是什麼', link: '/zh/guide/what-is-abelian' },
+                {
+                  text: 'Abelian 用戶指南',
+                  collapsed: false,
                   items: [
                     { text: '應用程式常識', link: '/zh/guide/index' },
                     { text: '桌面錢包專業版 (MLP)', link: '/zh/guide/wallet/desktop-wallet-pro' },
@@ -202,15 +211,16 @@ export default defineConfig({
                     { text: 'ABEL-Nakamoto CPU 挖礦', link: '/zh/guide/mining/nakamoto-cpu-miner' }
                   ]
                 },
-                { text: 'Abelian 技術文檔',
+                {
+                  text: 'Abelian 技術文檔',
                   collapsed: false,
                   items: [
-                    { text: '經濟學', link: '/zh/guide/abel-tokenomics'},
-                    { text: '白皮書', link: '/zh/guide/abel-whitepaper'},
-                    { text: '後量子跨鏈橋黃皮書', link: '/zh/guide/abel-yellowpaper'},
-                    { text: 'POW 難度平滑算法 (DSA)', link: '/zh/guide/abel-dsa-whitepaper'},
-                    { text: 'ABEL 地址格式', link: '/zh/guide/abel-address-format'},
-                    { text: 'Abelian 改進提案 (AIP)', link: 'https://github.com/pqabelian/aips'}
+                    { text: '經濟學', link: '/zh/guide/abel-tokenomics' },
+                    { text: '白皮書', link: '/zh/guide/abel-whitepaper' },
+                    { text: '後量子跨鏈橋黃皮書', link: '/zh/guide/abel-yellowpaper' },
+                    { text: 'POW 難度平滑算法 (DSA)', link: '/zh/guide/abel-dsa-whitepaper' },
+                    { text: 'ABEL 地址格式', link: '/zh/guide/abel-address-format' },
+                    { text: 'Abelian 改進提案 (AIP)', link: 'https://github.com/pqabelian/aips' }
                   ]
                 }
               ]
@@ -221,23 +231,26 @@ export default defineConfig({
               text: '問答',
               collapsed: false,
               items: [
-                { text: '軟體問題',
+                {
+                  text: '軟體問題',
                   collapsed: false,
                   items: [
-                    { text: '錢包問題解答', link: '/zh/faq/software-issues/wallet'},
-                    { text: '礦工問題解答', link: '/zh/faq/software-issues/miner'},
-                    { text: 'Abelian 節點問題解答', link: '/zh/faq/software-issues/fullnode'}
+                    { text: '錢包問題解答', link: '/zh/faq/software-issues/wallet' },
+                    { text: '礦工問題解答', link: '/zh/faq/software-issues/miner' },
+                    { text: 'Abelian 節點問題解答', link: '/zh/faq/software-issues/fullnode' }
                   ]
                 },
-                { text: '硬體問題',
+                {
+                  text: '硬體問題',
                   collapsed: false,
                   items: [
                     { text: 'AMD 顯卡問題', link: '/zh/faq/hardware-issues/amd' },
-                    { text: 'NVIDIA 顯卡問題', link: '/zh/faq/hardware-issues/nvidia'}
+                    { text: 'NVIDIA 顯卡問題', link: '/zh/faq/hardware-issues/nvidia' }
                   ]
                 },
                 { text: '礦池問題', link: '/zh/faq/pool-issues' },
-                { text: '交易所問題', link: '/zh//faq/community/exchanges' }
+                { text: '交易所問題', link: '/zh/faq/community/exchanges' },
+                { text: 'PoW 挖礦問題', link: '/zh/faq/community/pow-mining' }
               ]
             }
           ],
@@ -246,14 +259,15 @@ export default defineConfig({
               text: 'API/SDK',
               collapsed: false,
               items: [
-                { text: '核心 API', link: '/zh/apis/core-api'},
+                { text: '核心 API', link: '/zh/apis/core-api' },
                 { text: '錢包 API', link: '/zh/apis/wallet-api' },
                 { text: 'Ans API', link: '/zh/apis/ans-api' },
-                { text: 'Java SDK',
+                {
+                  text: 'Java SDK',
                   collapsed: false,
                   items: [
                     { text: '指引', link: '/zh/apis/java-sdk/' },
-                    { text: '演示', link: '/zh/apis/java-sdk/demo'}
+                    { text: '演示', link: '/zh/apis/java-sdk/demo' }
                   ]
                 }
               ]
@@ -267,7 +281,7 @@ export default defineConfig({
                 { text: 'Abelian 應用程式', link: '/zh/downloads/latest' },
                 { text: 'Abelian 應用歷史版本', link: '/zh/downloads/release-history' },
                 { text: 'Abelian 開源代碼', link: 'https://github.com/pqabelian' },
-                { text: 'Abelian 節點資料', link: '/zh/downloads/fullnode-db'},
+                { text: 'Abelian 節點資料', link: '/zh/downloads/fullnode-db' },
                 { text: 'Abelian 生態工具', link: '/zh/downloads/ecosystem-tools' }
               ]
             }
@@ -278,20 +292,20 @@ export default defineConfig({
           pattern: 'https://github.com/pqabelian/abelian-community-website/edit/main/docs/:path',
           text: '在 GitHub 上編輯此頁面'
         },
-    
+
         footer: {
           copyright: `© 2024 <a href="https://pqabelian.io" target="_blank">Abelian</a> | 版權所有`
         },
-    
+
         docFooter: {
           prev: '上一頁',
           next: '下一頁'
         },
-    
+
         outline: {
           label: '頁面導航'
         },
-    
+
         lastUpdated: {
           text: '最後更新於',
           formatOptions: {

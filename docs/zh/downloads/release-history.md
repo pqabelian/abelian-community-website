@@ -37,10 +37,10 @@ outline: deep
 ## Abelian Pro (移動應用)
 `abelian-mobile-wallet-pro / info.abelian.walletpro`
 
-- **2026-01-16-v6.0.1**
+- **2026-01-20-v6.0.2**
 
-  [Android](https://download.abelian.info/release/android/abelian-mobile-wallet-pro-v6.0.1.apk) | 
-  [iOS](https://download.abelian.info/release/ios/abelian-mobile-wallet-pro-v6.0.1.aab)
+  [Android](https://download.abelian.info/release/android/abelian-mobile-wallet-pro-v6.0.2.apk) | 
+  [iOS](https://download.abelian.info/release/ios/abelian-mobile-wallet-pro-v6.0.2.aab)
 
 - **2026-01-12-v6.0.0**
 
