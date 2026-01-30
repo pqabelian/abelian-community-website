@@ -34,7 +34,7 @@ export default {
         script.async = true;
         script.defer = true;
         script.setAttribute("data-maxkb", "true");
-        script.src = `https://hako.pqabelian.io/api/application/embed?protocol=https&host=hako.pqabelian.io&token=${token}`;
+        script.src = `https://hako.pqabelian.io/chat/api/embed?protocol=https&host=hako.pqabelian.io&token=${token}`;
         document.head.appendChild(script);
         console.log('[MaxKB] Script loaded with token:', token);
       };
