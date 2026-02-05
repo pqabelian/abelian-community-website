@@ -156,7 +156,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 `abelian-desktop-wallet / abelian-desktop-wallet-legacy`
 
 - **2026-01-12-v5.0.0**
-  - Support Aconcagua fork upgration: transfer ABEL to upgraded pseudo address. (i.e. PseudoCT address)
+  - Support Aconcagua fork upgration.
 
   [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v5.0.0.exe) | 
   [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-amd64-v5.0.0.dmg) | 

@@ -161,7 +161,7 @@ outline: deep
 `abelian-desktop-wallet / abelian-desktop-wallet-legacy`
 
 - **2026-01-12-v5.0.0**
-  - 支援「aconcagua」分叉，將 ABEL 轉移至升級後的偽隱私地址（即 PseudoCT 地址）。
+  - 支援「aconcagua」分叉。
 
   [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v5.0.0.exe) | 
   [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-amd64-v5.0.0.dmg) | 

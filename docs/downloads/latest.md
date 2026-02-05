@@ -220,7 +220,7 @@ It is available on both iOS and Android platforms.
 
 ---
 
-## Desktop Wallet Legacy
+## Desktop Wallet (Legacy)
 - **Release Date**: `2026-01-12`
 - **Package Name**: `abelian-desktop-wallet-legacy-v5.0.0`
 - **Package Size**: `≈ 120MB`
@@ -234,21 +234,20 @@ It is available on both iOS and Android platforms.
 </div>
 
 ::: warning <Badge type="tip" text="WARNING" />
-- After upgrading the Desktop Wallet Legacy version from 4.1.1 or earlier to version 4.3.0, you will need to re-import wallet accounts. Starting from version 4.3.0. Please refer to the [Desktop Wallet Legacy User Manual](/guide/wallet/desktop-wallet-legacy#import-abel-wallet-account) for detailed operating steps.
-
-- The Abelian Desktop Wallet Legacy cannot migrate to the mobile wallet 'Abelian Pro' (MLP address), but transfers are allowed.
+- After upgrading the Desktop Wallet (Legacy) from version 4.1.1 or earlier to the latest version, you need to re-import your wallet accounts. Please refer to [Desktop Wallet (Legacy) User Manual](/guide/wallet/desktop-wallet-legacy#import-abel-wallet-account) for detailed operating steps.
+- Accounts on the Desktop Wallet (Legacy) cannot be imported into the mobile wallet app `Abelian` (MLP addresses), but transfers are allowed.
 :::
 
 ::: info  <Badge type="warning" text="RELEASE NOTES" />
 **What's New?**
 - One-Click Migration: We strongly recommend migrating from legacy wallets to MLP wallets. An MLP wallet no longer needs users to remember the maximum recoverable number of wallets. This enhances the usability greatly. Furthermore, we will only supports the brand-new MLP wallets and fades out the legacy wallet type.
-- You need to install the Desktop Wallet Pro v1.0.3 and create a new wallet (fully-private or pseudo-private type). Then, use the Abelian Desktop Wallet Legacy v4.3.0 and use the Migration function to transfer all the ABEL coins from each legacy wallet to the new MLP wallet.
+- You need to install the Desktop Wallet Pro (MLP) version 2.0.0 or above, and create a new wallet account (shielded type or transparent type). Then, use the Migration Function of the Desktop Wallet (Legacy) to transfer all the ABEL tokens to the new MLP wallet account.
 
 **Why Should You Upgrade?**
 - The MLP wallet address is significantly easier to use without remembering any sequence number (aka maximum recoverable number of wallets). Furthermore, for the first time, you can choose to create multiple MLP addresses, each with different privacy level, fully-private or pseudo-private.
 
 **v5.0.0 Upgrade Notes:**
-- Support Aconcagua fork upgration: transfer ABEL to upgraded pseudo address. (i.e. PseudoCT address)
+- Support the Aconcagua Fork upgrade.
 :::
 
 ---
