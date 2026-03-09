@@ -34,8 +34,16 @@ outline: deep
 我們提供以前版本的軟體套件主要用於存檔目的。請**務必**在生產環境中使用最新版本。
 :::
 
-## Abelian Pro (移動應用)
+## Abelian (移動應用)
 `abelian-mobile-wallet-pro / info.abelian.walletpro`
+
+- **2026-03-07-v7.0.0**
+  - 應用程式名稱由「Abelian Pro」更新為「Abelian」。
+  - 支援「其他資產」（以太坊網路上的 ETH 和 USDT）。
+  - 其他 UI/UX 改進與錯誤修復。
+
+  [Android](https://download.abelian.info/release/android/abelian-mobile-wallet-pro-v7.0.0.apk) | 
+  [iOS](https://download.abelian.info/release/ios/abelian-mobile-wallet-pro-v7.0.0.aab)
 
 - **2026-01-20-v6.0.2**
 
@@ -89,6 +97,18 @@ outline: deep
 
 ## 桌面錢包專業版 (MLP)
 `abelian-desktop-wallet-pro`
+
+- **2026-03-09-v2.1.0**
+  - 支持（非隱藏式）AUT 操作
+  - 升級偽地址
+  - 支持短地址的二維碼
+  - 改善 UI 佈局並優化用戶體驗
+
+  [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v2.1.0.exe) | 
+  [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v2.1.0.dmg) | 
+  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v2.1.0.dmg) | 
+  [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v2.1.0.deb) | 
+  [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v2.1.0.deb)
 
 - **2026-01-15-v2.0.1**
   - 支援交易版本（v3）；

@@ -34,8 +34,16 @@ outline: deep
 We provide the packages of previous versions mainly for archive purposes. Please **ALWAYS** use the latest version in a production environment.
 :::
 
-## Abelian Pro (Mobile)
+## Abelian (Mobile)
 `abelian-mobile-wallet-pro / info.abelian.walletpro`
+
+- **2026-03-07-v7.0.0**
+  - App name updated from "Abelian Pro" to "Abelian".
+  - Support "Other Assets" (ETH and USDT on the Ethereum network).
+  - Other UI/UX enhancements and bug fixes.
+
+  [Android](https://download.abelian.info/release/android/abelian-mobile-wallet-pro-v7.0.0.apk) | 
+  [iOS](https://download.abelian.info/release/ios/abelian-mobile-wallet-pro-v7.0.0.aab)
 
 - **2026-01-20-v6.0.2**
 
@@ -84,6 +92,18 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
 ## Desktop Wallet Pro (MLP)
 `abelian-desktop-wallet-pro`
+
+- **2026-03-09-v2.1.0**
+  - Support (non-cloaked) AUT operations.
+  - Upgrade pseudo address.
+  - Support QR code for short address.
+  - Improve UI layout and optimize user experience.
+
+  [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v2.1.0.exe) | 
+  [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v2.1.0.dmg) | 
+  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v2.1.0.dmg) | 
+  [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v2.1.0.deb) | 
+  [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v2.1.0.deb)
 
 - **2026-01-15-v2.0.1**
   - Support transactin version (v3).

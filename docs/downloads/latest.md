@@ -154,7 +154,7 @@ outline: deep
 
 # Abelian Latest Applications
 
-## Abelian Pro (Mobile)
+## Abelian (Mobile)
 🔥 We are pleased to announce that the new mobile wallet, Abelian Pro, is now available for download.
 
 <section class="download-wrapper">
@@ -164,7 +164,7 @@ outline: deep
      <span>Download our latest mobile wallet</span>
     </div>
     <div class="btn-wrapper">
-      <a href="https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v6.0.2.apk" class="btn-apk">APK</a>
+      <a href="https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v7.0.0.apk" class="btn-apk">APK</a>
       <a href="https://play.google.com/store/apps/details?id=info.abelian.walletpro" class="btn-base btn-android"></a>
       <a href="https://apps.apple.com/us/app/abelian-pro/id6475756639" class="btn-base btn-ios"></a>
     </div>
@@ -174,12 +174,11 @@ outline: deep
 The new mobile wallet is a complete rewrite of the previous mobile wallet and is designed to be more user-friendly and feature-rich.
 It is available on both iOS and Android platforms.
 
-**v6.0.2 Upgrade Notes:**
+**v7.0.0 Upgrade Notes:**
 
-1. Support AUT (Abelian User Token) features.
-2. Support account upgrade to the new address format.
-3. Update terminologies for Transparent and Shielded Wallets.
-4. UI/UX enhancements and bug fixes.
+1. App name updated from "Abelian Pro" to "Abelian".
+2. Support "Other Assets" (ETH and USDT on the Ethereum network).
+3. Other UI/UX enhancements and bug fixes.
 
 **New version Features:**
 1. Support Abelian Layer 2 network - QDay, allowing users to view blockchain data, manage ERC20 tokens, use decentralized exchanges, stake ABEL tokens across chains, and access various DeFi apps.
@@ -191,16 +190,16 @@ It is available on both iOS and Android platforms.
 ---
 
 ## Desktop Wallet Pro (MLP)
-- **Release Date**: `2026-01-15`
-- **Package Nanme**: `abelian-desktop-wallet-pro-v2.0.1`
+- **Release Date**: `2026-03-09`
+- **Package Nanme**: `abelian-desktop-wallet-pro-v2.1.0`
 - **Package Size**: `≈ 120MB`
 - **Download Links**:
 <div class="button-container">
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v2.0.1.exe" class="btn">Windows</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v2.0.1.dmg" class="btn">macOS</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v2.0.1.dmg" class="btn">macOS (Apple Silicon)</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v2.0.1.deb" class="btn">Linux</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v2.0.1.deb" class="btn">Linux (ARM)</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v2.1.0.exe" class="btn">Windows</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v2.1.0.dmg" class="btn">macOS</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v2.1.0.dmg" class="btn">macOS (Apple Silicon)</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v2.1.0.deb" class="btn">Linux</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v2.1.0.deb" class="btn">Linux (ARM)</a>
 </div>
 
 ::: info  <Badge type="warning" text="RELEASE NOTES" />
@@ -213,9 +212,11 @@ It is available on both iOS and Android platforms.
 - Existing users of Desktop Wallet Legacy are strongly recommended to migrate now to this brand new Desktop Wallet Pro (MLP) so that they no longer need to remember the maximum recoverable number of wallets. To migrate, we need to create a new wallet at the Desktop Wallet Pro (MLP) and then use the Desktop Wallet Legacy to transfer all the ABEL coins to the new wallet.
 - For the first time, you can create wallets, some of them are fully-private and some others are pseudo-private.
 
-**v2.0.1 Upgrade Notes:**
-1. Support transactin version (v3).
-2. Upgrade pseudo address to PseudoCT address.
+**v2.1.0 Upgrade Notes:**
+1. Support (non-cloaked) AUT opertions
+2. upgrade pseudo address
+3. support QR Code for short address
+4. improve UI layout and optimize user experience
 :::
 
 ---
