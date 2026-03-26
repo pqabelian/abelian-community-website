@@ -164,7 +164,7 @@ outline: deep
     <span>下載我們最新的移動錢包</span>
   </div>
   <div class="btn-wrapper">
-    <a href="https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v7.0.0.apk" class="btn-apk">APK</a>
+    <a href="https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v7.1.0.apk" class="btn-apk">APK</a>
     <a href="https://play.google.com/store/apps/details?id=info.abelian.walletpro" class="btn-base btn-android"></a>
     <a href="https://apps.apple.com/us/app/abelian-pro/id6475756639" class="btn-base btn-ios"></a>
   </div>
@@ -173,10 +173,10 @@ outline: deep
 ::: info <Badge type="warning" text="特點介紹" />
 新的移動錢包是對之前移動錢包的全面重寫，旨在更加用戶友好和功能豐富。它可在 iOS 和 Android 平台上使用。
 
-**v7.0.0 升級說明:**
+**v7.1.0 升級說明:**
 
-1. 應用程式名稱由「Abelian Pro」更新為「Abelian」。
-2. 支援「其他資產」（以太坊網路上的 ETH 和 USDT）。
+1. 支援在購買 ABEL/USD8 時使用「其他資產」進行支付。
+2. 優化「發現」部分並新增「給我們評分」按鈕。
 3. 其他 UI/UX 改進與錯誤修復。
 
 **新版本特點：**

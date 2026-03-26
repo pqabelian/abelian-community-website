@@ -37,6 +37,14 @@ We provide the packages of previous versions mainly for archive purposes. Please
 ## Abelian (Mobile)
 `abelian-mobile-wallet-pro / info.abelian.walletpro`
 
+- **2026-03-27-v7.1.0**
+  - Support paying via "Other Assets" when buying ABEL/USD8.
+  - Optimize Discover section and add "Rate Us" button.
+  - Other UI/UX enhancements and bug fixes.
+
+  [Android](https://download.abelian.info/release/android/abelian-mobile-wallet-pro-v7.1.0.apk) | 
+  [iOS](https://download.abelian.info/release/ios/abelian-mobile-wallet-pro-v7.1.0.aab)
+
 - **2026-03-07-v7.0.0**
   - App name updated from "Abelian Pro" to "Abelian".
   - Support "Other Assets" (ETH and USDT on the Ethereum network).
