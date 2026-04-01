@@ -40,8 +40,7 @@ export default defineConfig({
               { text: 'ABEL-Nakamoto (Official)', link: 'https://abel-nakamoto.xyz/' },
               { text: 'AbelPool (Community)', link: 'https://www.abelpool.io/' }
             ]
-          },
-          { text: 'Ask Hako', link: 'https://hako.pqabelian.io' }
+          }
         ],
 
         sidebar: {
@@ -149,7 +148,7 @@ export default defineConfig({
         },
 
         footer: {
-          copyright: '© 2024 <a href="https://pqabelian.io" target="_blank">Abelian</a> | All rights reserved'
+          copyright: '© 2026 <a href="https://pqabelian.io" target="_blank">Abelian</a> | All rights reserved'
         }
       }
     },
@@ -185,8 +184,7 @@ export default defineConfig({
               { text: 'ABEL-Nakamoto (官方)', link: 'https://abel-nakamoto.xyz/' },
               { text: 'AbelPool（社區）', link: 'https://www.abelpool.io/' }
             ]
-          },
-          { text: '詢問 Hako', link: 'https://hako.pqabelian.io/zh/' }
+          }
         ],
 
         sidebar: {
