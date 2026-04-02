@@ -21,9 +21,6 @@ hero:
     - theme: alt
       text: 提問/糾錯
       link: https://github.com/pqabelian/abelian-community/issues/new
-    - theme: brand
-      text: 詢問 Hako
-      link: https://hako.pqabelian.io/zh/
 
 features:
   - title: 如何有效解決問題？

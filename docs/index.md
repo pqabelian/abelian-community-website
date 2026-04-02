@@ -21,9 +21,6 @@ hero:
     - theme: alt
       text: Question/Correction
       link: https://github.com/pqabelian/abelian-community/issues/new
-    - theme: brand
-      text: Ask Hako
-      link: https://hako.pqabelian.io
 
 features:
   - title: Documents Correction/Submission
