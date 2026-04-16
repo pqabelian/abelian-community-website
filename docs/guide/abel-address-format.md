@@ -10,13 +10,14 @@ This document introduces the Legacy (ABEL Address v1) and Multi-Layer Privacy (M
 
 The **Legacy Address** is the original format for Abelian wallet addresses. It was designed for early adopters and basic privacy use cases.
 
-The **MLP (Multi-Layer Privacy) Address** is an upgraded format designed to enhance privacy and functionality. It supports multiple privacy layers, such as fully-private and pseudo-private modes.
+The **MLP (Multi-Layer Privacy) Address** is an upgraded format designed to enhance privacy and functionality. It supports multiple privacy layers, such as fully-private, pseudo-private, and pseudo-private Confidential Transaction mode (abbreviated as CT, an upgraded version of pseudo-private, which falls under the Transparent category).
 
 The key difference between the Legacy long address and the Multi-Layer Privacy (MLP) long address is the number of characters they occupy. Below is a summary of the character lengths for different versions:
 
 -	**Legacy Long Address**: 21,458 characters
 -	**MLP Long Address (Fully-Private)**: 21,718 characters
 -	**MLP Long Address (Pseudo-Private)**: 462 characters
+-	**MLP Long Address (Pseudo-Private-CT)**: 2,838 characters
 
 ### Composition of Short Addresses
 
@@ -26,7 +27,7 @@ Short addresses are derived from long addresses using the following components:
 <Address Prefix> + <Privacy Type> + <Long Address Hash>
 ```
 
-- Network Prefix: Identifies the type of address (e.g., Legacy, Fully-Private, Pseudo-Private).
+- Network Prefix: Identifies the type of address (e.g., Legacy, Fully-Private, Pseudo-Private, Pseudo-Private-CT).
   -	**Legacy short Address (Mainnet)**: `abe1`
   -	**Legacy short Address (Testnet)**: `abe3`
   -	**MLP short Address (Mainnet)**: `abe010`
@@ -36,6 +37,7 @@ Short addresses are derived from long addresses using the following components:
   -	**Legacy**: `(NONE)`
   - **Fully-Private (MLP)**: `05`
   - **Pseudo-Private (MLP)**: `06`
+  - **Pseudo-Private-CT (MLP)**: `07`
 
 - Long Address Hash: This includes:
   - **Fingerprint**: 64 characters
@@ -56,6 +58,6 @@ Below is a visual breakdown of the short address structure:
 
 The upgrade to the MLP address format reflects Abelian’s commitment to improving user experience, security, and adaptability in a rapidly evolving blockchain environment. Key reasons for the upgrade include:
 
--	**Enhanced Privacy**: The MLP format introduces distinct layers of privacy, allowing users to choose between fully-private and pseudo-private options based on their needs.
+-	**Enhanced Privacy**: The MLP format introduces distinct layers of privacy, allowing users to choose between fully-private, pseudo-private, and pseudo-private-CT options based on their needs.
 -	**Future-Proofing**: The new format aligns with upcoming features and products in the Abelian ecosystem, ensuring compatibility and scalability.
 -	**Clearer Differentiation**: The structured prefix and privacy types make it easier for users to identify the address type and privacy mode at a glance.
