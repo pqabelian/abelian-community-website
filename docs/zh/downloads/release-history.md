@@ -37,6 +37,22 @@ outline: deep
 ## Abelian (移動應用)
 `abelian-mobile-wallet-pro / info.abelian.walletpro`
 
+- **2026-04-16-v8.0.1**
+  - 增強了 AUT 註冊表單，使其標籤、佔位符和選項更清晰。
+
+  [Android](https://download.abelian.info/release/android/abelian-mobile-wallet-pro-v8.0.1.apk) | 
+  [iOS](https://download.abelian.info/release/ios/abelian-mobile-wallet-pro-v8.0.1.aab)
+
+- **2026-04-09-v8.0.0**
+  - 支援 Abelian User Token (AUT)；
+  - 在「其他資產」中新增 BSC 和 Tron 鏈支援；
+  - 在帳戶建立期間新增助記詞備份驗證；
+  - 新增 QDay 代幣的轉帳功能；
+  - 其他 UI/UX 改進與錯誤修復。
+
+  [Android](https://download.abelian.info/release/android/abelian-mobile-wallet-pro-v8.0.0.apk) | 
+  [iOS](https://download.abelian.info/release/ios/abelian-mobile-wallet-pro-v8.0.0.aab)
+
 - **2026-03-27-v7.1.0**
   - 支援在購買 ABEL/USD8 時使用「其他資產」進行支付。
   - 優化「發現」部分並新增「給我們評分」按鈕。
