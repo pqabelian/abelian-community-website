@@ -37,6 +37,12 @@ We provide the packages of previous versions mainly for archive purposes. Please
 ## Abelian (Mobile)
 `abelian-mobile-wallet-pro / info.abelian.walletpro`
 
+- **2026-05-06-v8.0.2**
+  - Bug fixes.
+
+  [Android](https://download.abelian.info/release/android/abelian-mobile-wallet-pro-v8.0.2.apk) | 
+  [iOS](https://download.abelian.info/release/ios/abelian-mobile-wallet-pro-v8.0.2.aab)
+
 - **2026-04-16-v8.0.1**
   - Enhance the AUT registration form with clearer labels, placeholders, and refined options.
 

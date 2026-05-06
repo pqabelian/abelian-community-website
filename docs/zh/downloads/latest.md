@@ -164,7 +164,7 @@ outline: deep
     <span>下載我們最新的移動錢包</span>
   </div>
   <div class="btn-wrapper">
-    <a href="https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.0.1.apk" class="btn-apk">APK</a>
+    <a href="https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.0.2.apk" class="btn-apk">APK</a>
     <a href="https://play.google.com/store/apps/details?id=info.abelian.walletpro" class="btn-base btn-android"></a>
     <a href="https://apps.apple.com/us/app/abelian-pro/id6475756639" class="btn-base btn-ios"></a>
   </div>
@@ -173,9 +173,10 @@ outline: deep
 ::: info <Badge type="warning" text="特點介紹" />
 新的移動錢包是對之前移動錢包的全面重寫，旨在更加用戶友好和功能豐富。它可在 iOS 和 Android 平台上使用。
 
-**v8.0.1 升級說明:**
+**v8.0.2 升級說明:**
 
 - 增強了 AUT 註冊表單，使其標籤、佔位符和選項更清晰。
+- 錯誤修復。
 
 **新版本特點：**
 1. 支持 Abelian 二級網路 - QDay，允許用戶瀏覽區塊鏈數據、管理 ERC20 代幣、使用去中心化交易所、跨鏈質押 ABEL 代幣，以及訪問各種 DeFi 應用。

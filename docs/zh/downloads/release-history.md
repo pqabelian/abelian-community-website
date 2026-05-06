@@ -37,6 +37,12 @@ outline: deep
 ## Abelian (移動應用)
 `abelian-mobile-wallet-pro / info.abelian.walletpro`
 
+- **2026-05-06-v8.0.2**
+  - 錯誤修復。
+
+  [Android](https://download.abelian.info/release/android/abelian-mobile-wallet-pro-v8.0.2.apk) | 
+  [iOS](https://download.abelian.info/release/ios/abelian-mobile-wallet-pro-v8.0.2.aab)
+
 - **2026-04-16-v8.0.1**
   - 增強了 AUT 註冊表單，使其標籤、佔位符和選項更清晰。
 

@@ -36,9 +36,9 @@ export default defineConfig({
           {
             text: 'Pools',
             items: [
-              { text: 'MaxPool (Official)', link: 'https://maxpool.org/' },
-              { text: 'ABEL-Nakamoto (Official)', link: 'https://abel-nakamoto.xyz/' },
-              { text: 'AbelPool (Community)', link: 'https://www.abelpool.io/' }
+              { text: 'MaxPool', link: 'https://maxpool.org/' },
+              { text: 'ABEL-Nakamoto', link: 'https://abel-nakamoto.xyz/' },
+              { text: 'AbelPool', link: 'https://www.abelpool.io/' }
             ]
           }
         ],
@@ -180,9 +180,9 @@ export default defineConfig({
           {
             text: '礦池',
             items: [
-              { text: 'MaxPool（官方）', link: 'https://maxpool.org/' },
-              { text: 'ABEL-Nakamoto (官方)', link: 'https://abel-nakamoto.xyz/' },
-              { text: 'AbelPool（社區）', link: 'https://www.abelpool.io/' }
+              { text: 'MaxPool', link: 'https://maxpool.org/' },
+              { text: 'ABEL-Nakamoto', link: 'https://abel-nakamoto.xyz/' },
+              { text: 'AbelPool', link: 'https://www.abelpool.io/' }
             ]
           }
         ],
