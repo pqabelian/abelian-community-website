@@ -193,7 +193,7 @@ outline: deep
 - **軟體大小**: `≈ 120MB`
 - **下載連結**:
 <div class="button-container">
-  Windows (Coming soon) | 
+  Windows (Coming soon) 
   <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v2.2.0.dmg" class="btn">macOS</a>
   <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v2.2.0.dmg" class="btn">macOS (Apple Silicon)</a>
   <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v2.2.0.deb" class="btn">Linux</a>
