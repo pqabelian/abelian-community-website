@@ -188,16 +188,16 @@ outline: deep
 ---
 
 ## 桌面錢包專業版 (MLP)
-- **發布日期**: `2026-03-09`
-- **軟體名稱**: `abelian-desktop-wallet-pro-v2.1.0`
+- **發布日期**: `2026-05-07`
+- **軟體名稱**: `abelian-desktop-wallet-pro-v2.2.0`
 - **軟體大小**: `≈ 120MB`
 - **下載連結**:
 <div class="button-container">
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v2.1.0.exe" class="btn">Windows</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v2.1.0.dmg" class="btn">macOS</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v2.1.0.dmg" class="btn">macOS (Apple Silicon)</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v2.1.0.deb" class="btn">Linux</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v2.1.0.deb" class="btn">Linux (ARM)</a>
+  Windows (Coming soon) | 
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v2.2.0.dmg" class="btn">macOS</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v2.2.0.dmg" class="btn">macOS (Apple Silicon)</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v2.2.0.deb" class="btn">Linux</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v2.2.0.deb" class="btn">Linux (ARM)</a>
 </div>
 
 ::: info <Badge type="warning" text="發布說明" />
@@ -210,11 +210,11 @@ outline: deep
 - 強烈建議現有桌面錢包經典版（Legacy）用戶立即遷移到這個全新的桌面錢包專業版（MLP），這樣他們不再需要記住最大可恢復的錢包數量。要進行遷移，我們需要在桌面錢包專業版（MLP）中創建一個新錢包，然後使用桌面錢包經典版將所有 ABEL 幣轉移到新錢包中。
 - 您可以首次創建一些完全私密的錢包以及其他匿名私密的錢包。
 
-**v2.1.0 升級說明:**
-1. 支持（非隱藏式）AUT 操作
-2. 升級偽地址
-3. 支持短地址的二維碼
-4. 改善 UI 佈局並優化用戶體驗
+**v2.2.0 升級說明:**
+- 支持隱藏式 AUT 操作；
+- 統一 UI 佈局，包括統一術語、間距和有序的帳戶列表；
+- 優化 Send/AUT 表單的交互行為和單視圖操作；
+- 使用 Unix 域套接字以避免潛在的端口衝突。
 :::
 
 ---

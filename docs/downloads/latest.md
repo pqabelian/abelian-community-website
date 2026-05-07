@@ -189,16 +189,16 @@ It is available on both iOS and Android platforms.
 ---
 
 ## Desktop Wallet Pro (MLP)
-- **Release Date**: `2026-03-09`
-- **Package Nanme**: `abelian-desktop-wallet-pro-v2.1.0`
+- **Release Date**: `2026-05-07`
+- **Package Nanme**: `abelian-desktop-wallet-pro-v2.2.0`
 - **Package Size**: `≈ 120MB`
 - **Download Links**:
 <div class="button-container">
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v2.1.0.exe" class="btn">Windows</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v2.1.0.dmg" class="btn">macOS</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v2.1.0.dmg" class="btn">macOS (Apple Silicon)</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v2.1.0.deb" class="btn">Linux</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v2.1.0.deb" class="btn">Linux (ARM)</a>
+  Windows (Coming soon) | 
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v2.2.0.dmg" class="btn">macOS</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v2.2.0.dmg" class="btn">macOS (Apple Silicon)</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v2.2.0.deb" class="btn">Linux</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v2.2.0.deb" class="btn">Linux (ARM)</a>
 </div>
 
 ::: info  <Badge type="warning" text="RELEASE NOTES" />
@@ -211,11 +211,11 @@ It is available on both iOS and Android platforms.
 - Existing users of Desktop Wallet Legacy are strongly recommended to migrate now to this brand new Desktop Wallet Pro (MLP) so that they no longer need to remember the maximum recoverable number of wallets. To migrate, we need to create a new wallet at the Desktop Wallet Pro (MLP) and then use the Desktop Wallet Legacy to transfer all the ABEL coins to the new wallet.
 - For the first time, you can create wallets, some of them are fully-private and some others are pseudo-private.
 
-**v2.1.0 Upgrade Notes:**
-1. Support (non-cloaked) AUT opertions
-2. upgrade pseudo address
-3. support QR Code for short address
-4. improve UI layout and optimize user experience
+**v2.2.0 Upgrade Notes:**
+1. Improve UI consistency, including unified terminology, spacing and ordered account list.
+2. Enhanced Send/AUT form interactive behavior and operation on single view.
+3. Use Unix Domain socket to avoid potential port conflicts.
+4. Support cloaked AUT.
 :::
 
 ---

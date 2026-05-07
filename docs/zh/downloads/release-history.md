@@ -128,6 +128,18 @@ outline: deep
 ## 桌面錢包專業版 (MLP)
 `abelian-desktop-wallet-pro`
 
+- **2026-05-07-v2.2.0**
+  - 支持隱藏式 AUT 操作；
+  - 統一 UI 佈局，包括統一術語、間距和有序的帳戶列表；
+  - 優化 Send/AUT 表單的交互行為和單視圖操作；
+  - 使用 Unix 域套接字以避免潛在的端口衝突。
+
+  Windows (Coming soon) | 
+  [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v2.1.0.dmg) | 
+  [macOS (Apple Silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v2.1.0.dmg) | 
+  [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v2.1.0.deb) | 
+  [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v2.1.0.deb)
+
 - **2026-03-09-v2.1.0**
   - 支持（非隱藏式）AUT 操作
   - 升級偽地址

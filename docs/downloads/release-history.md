@@ -123,6 +123,18 @@ We provide the packages of previous versions mainly for archive purposes. Please
 ## Desktop Wallet Pro (MLP)
 `abelian-desktop-wallet-pro`
 
+- **2026-05-07-v2.2.0**
+  - Improve UI consistency, including unified terminology, spacing and ordered account list.
+  - Enhanced Send/AUT form interactive behavior and operation on single view.
+  - Use Unix Domain socket to avoid potential port conflicts.
+  - Support cloaked AUT.
+
+  Windows (Coming soon) | 
+  [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v2.2.0.dmg) | 
+  [macOS (Apple Silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v2.2.0.dmg) | 
+  [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v2.2.0.deb) | 
+  [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v2.2.0.deb)
+
 - **2026-03-09-v2.1.0**
   - Support (non-cloaked) AUT operations.
   - Upgrade pseudo address.
@@ -131,7 +143,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v2.1.0.exe) | 
   [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v2.1.0.dmg) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v2.1.0.dmg) | 
+  [macOS (Apple Silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v2.1.0.dmg) | 
   [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v2.1.0.deb) | 
   [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v2.1.0.deb)
 
@@ -141,7 +153,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v2.0.1.exe) | 
   [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v2.0.1.dmg) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v2.0.1.dmg) | 
+  [macOS (Apple Silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v2.0.1.dmg) | 
   [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v2.0.1.deb) | 
   [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v2.0.1.deb)
 
@@ -154,7 +166,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v1.1.0.exe) | 
   [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v1.1.0.dmg) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v1.1.0.dmg) | 
+  [macOS (Apple Silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v1.1.0.dmg) | 
   [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v1.1.0.deb) | 
   [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v1.1.0.deb)
 
@@ -165,7 +177,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v1.0.3.zip) | 
   [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v1.0.3.zip) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v1.0.3.zip) | 
+  [macOS (Apple Silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v1.0.3.zip) | 
   [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v1.0.3.zip) | 
   [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v1.0.3.zip)
 
@@ -174,7 +186,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v1.0.2.zip) | 
   [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v1.0.2.zip) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v1.0.2.zip) | 
+  [macOS (Apple Silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v1.0.2.zip) | 
   [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v1.0.2.zip) | 
   [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v1.0.2.zip)
 
@@ -190,7 +202,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v1.0.1.zip) | 
   [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v1.0.1.zip) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v1.0.1.zip) | 
+  [macOS (Apple Silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v1.0.1.zip) | 
   [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v1.0.1.zip) | 
   [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v1.0.1.zip)
 
@@ -198,7 +210,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v1.0.0.zip) | 
   [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v1.0.0.zip) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v1.0.0.zip) | 
+  [macOS (Apple Silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v1.0.0.zip) | 
   [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v1.0.0.zip) | 
   [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v1.0.0.zip)
 
@@ -210,7 +222,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v5.0.0.exe) | 
   [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-amd64-v5.0.0.dmg) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-arm64-v5.0.0.dmg) | 
+  [macOS (Apple Silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-arm64-v5.0.0.dmg) | 
   [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-amd64-v5.0.0.deb) | 
   [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-arm64-v5.0.0.deb)
 
@@ -225,7 +237,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v4.4.1.exe) | 
   [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-amd64-v4.4.1.dmg) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-arm64-v4.4.1.dmg) | 
+  [macOS (Apple Silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-arm64-v4.4.1.dmg) | 
   [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-amd64-v4.4.1.deb) | 
   [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-arm64-v4.4.1.deb)
 
@@ -242,7 +254,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v4.3.0.zip) | 
   [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-amd64-v4.3.0.zip) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-arm64-v4.3.0.zip) | 
+  [macOS (Apple Silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-arm64-v4.3.0.zip) | 
   [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-amd64-v4.3.0.zip) | 
   [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-arm64-v4.3.0.zip)
 
@@ -250,7 +262,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v4.2.2.zip) | 
   [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-amd64-v4.2.2.zip) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-arm64-v4.2.2.zip) | 
+  [macOS (Apple Silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-arm64-v4.2.2.zip) | 
   [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-amd64-v4.2.2.zip) | 
   [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-arm64-v4.2.2.zip)
 
@@ -258,7 +270,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v4.2.1.zip) | 
   [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-amd64-v4.2.1.zip) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-arm64-v4.2.1.zip) | 
+  [macOS (Apple Silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-arm64-v4.2.1.zip) | 
   [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-amd64-v4.2.1.zip) | 
   [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-arm64-v4.2.1.zip)
 
@@ -266,7 +278,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v4.2.0.zip) | 
   [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-amd64-v4.2.0.zip) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-arm64-v4.2.0.zip) | 
+  [macOS (Apple Silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-arm64-v4.2.0.zip) | 
   [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-amd64-v4.2.0.zip) | 
   [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-arm64-v4.2.0.zip)
 
@@ -274,7 +286,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-windows-amd64-v4.1.1.zip) | 
   [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-amd64-v4.1.1.zip) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-arm64-v4.1.1.zip) | 
+  [macOS (Apple Silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-arm64-v4.1.1.zip) | 
   [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-linux-amd64-v4.1.1.zip) | 
   [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-linux-arm64-v4.1.1.zip)
 
@@ -282,7 +294,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-windows-amd64-v4.0.1.zip) | 
   [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-amd64-v4.0.1.zip) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-arm64-v4.0.1.zip) | 
+  [macOS (Apple Silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-arm64-v4.0.1.zip) | 
   [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-linux-amd64-v4.0.1.zip) | 
   [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-linux-arm64-v4.0.1.zip)
 
@@ -291,14 +303,14 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-windows-amd64-v4.0.0.zip) | 
   [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-amd64-v4.0.0.zip) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-arm64-v4.0.0.zip) | 
+  [macOS (Apple Silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-arm64-v4.0.0.zip) | 
   [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-linux-arm64-v4.0.0.zip)
 
 - **2024-01-07-v0.3.2**
 
   [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-windows-amd64-v0.3.2.zip) | 
   [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-amd64-v0.3.2.zip) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-arm64-v0.3.2.zip) | 
+  [macOS (Apple Silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-arm64-v0.3.2.zip) | 
   [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-linux-amd64-v0.3.2.zip) | 
   [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-linux-arm64-v0.3.2.zip)
 
@@ -306,7 +318,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-windows-amd64-v0.3.1.zip) | 
   [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-amd64-v0.3.1.zip) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-arm64-v0.3.1.zip) | 
+  [macOS (Apple Silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-arm64-v0.3.1.zip) | 
   [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-linux-amd64-v0.3.1.zip) | 
   [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-linux-arm64-v0.3.1.zip)
 
@@ -316,7 +328,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-windows-amd64-v0.3.0.zip) | 
   [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-amd64-v0.3.0.zip) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-arm64-v0.3.0.zip) | 
+  [macOS (Apple Silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-arm64-v0.3.0.zip) | 
   [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-linux-amd64-v0.3.0.zip) | 
   [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-linux-arm64-v0.3.0.zip)
 
@@ -324,7 +336,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-windows-amd64-v0.2.1.zip) | 
   [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-amd64-v0.2.1.zip) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-arm64-v0.2.1.zip) | 
+  [macOS (Apple Silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-arm64-v0.2.1.zip) | 
   [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-linux-amd64-v0.2.1.zip) | 
   [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-linux-arm64-v0.2.1.zip)
 
@@ -332,14 +344,14 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-windows-amd64-v0.2.0.zip) | 
   [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-amd64-v0.2.0.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-arm64-v0.2.0.tar.gz) | 
+  [macOS (Apple Silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-arm64-v0.2.0.tar.gz) | 
   [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-linux-amd64-v0.2.0.tar.gz)
 
 - **2023-06-02-v0.1.3**
 
   [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-windows-amd64-v0.1.3.zip) | 
   [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-amd64-v0.1.3.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-arm64-v0.1.3.tar.gz) | 
+  [macOS (Apple Silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-arm64-v0.1.3.tar.gz) | 
   [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-linux-amd64-v0.1.3.tar.gz)
 
 ## Abelian Node (abec)
@@ -354,7 +366,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.pqabelian.io/release/abec/abec-windows-amd64-3.0.1.zip) | 
   [macOS](https://download.pqabelian.io/release/abec/abec-macos-amd64-v3.0.1.tar.gz) | 
-  [macOS (Apple silicon)](https://download.pqabelian.io/release/abec/abec-macos-arm64-v3.0.1.tar.gz) | 
+  [macOS (Apple Silicon)](https://download.pqabelian.io/release/abec/abec-macos-arm64-v3.0.1.tar.gz) | 
   [Linux](https://download.pqabelian.io/release/abec/abec-linux-amd64-v3.0.1.tar.gz) | 
   [Linux (ARM)](https://download.pqabelian.io/release/abec/abec-linux-arm64-v3.0.1.tar.gz)
 
@@ -363,7 +375,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.pqabelian.io/release/abec/abec-windows-amd64-v2.0.2.zip) | 
   [macOS](https://download.pqabelian.io/release/abec/abec-macos-amd64-v2.0.2.tar.gz) | 
-  [macOS (Apple silicon)](https://download.pqabelian.io/release/abec/abec-macos-arm64-v2.0.2.tar.gz) | 
+  [macOS (Apple Silicon)](https://download.pqabelian.io/release/abec/abec-macos-arm64-v2.0.2.tar.gz) | 
   [Linux](https://download.pqabelian.io/release/abec/abec-linux-amd64-v2.0.2.tar.gz) | 
   [Linux (ARM)](https://download.pqabelian.io/release/abec/abec-linux-arm64-v2.0.2.tar.gz)
 
@@ -373,7 +385,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.pqabelian.io/release/abec/abec-windows-amd64-v2.0.1.zip) | 
   [macOS](https://download.pqabelian.io/release/abec/abec-macos-amd64-v2.0.1.tar.gz) | 
-  [macOS (Apple silicon)](https://download.pqabelian.io/release/abec/abec-macos-arm64-v2.0.1.tar.gz) | 
+  [macOS (Apple Silicon)](https://download.pqabelian.io/release/abec/abec-macos-arm64-v2.0.1.tar.gz) | 
   [Linux](https://download.pqabelian.io/release/abec/abec-linux-amd64-v2.0.1.tar.gz) | 
   [Linux (ARM)](https://download.pqabelian.io/release/abec/abec-linux-arm64-v2.0.1.tar.gz)
 
@@ -383,7 +395,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.pqabelian.io/release/abec/abec-windows-amd64-v1.0.0.zip) | 
   [macOS](https://download.pqabelian.io/release/abec/abec-macos-amd64-v1.0.0.tar.gz) | 
-  [macOS (Apple silicon)](https://download.pqabelian.io/release/abec/abec-macos-arm64-v1.0.0.tar.gz) | 
+  [macOS (Apple Silicon)](https://download.pqabelian.io/release/abec/abec-macos-arm64-v1.0.0.tar.gz) | 
   [Linux](https://download.pqabelian.io/release/abec/abec-linux-amd64-v1.0.0.tar.gz) | 
   [Linux (ARM)](https://download.pqabelian.io/release/abec/abec-linux-arm64-v1.0.0.tar.gz)
 
@@ -391,7 +403,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.abelian.info/release/abec/abec-windows-amd64-v0.13.0.zip) | 
   [macOS](https://download.abelian.info/release/abec/abec-macos-amd64-v0.13.0.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abec/abec-macos-arm64-v0.13.0.tar.gz) | 
+  [macOS (Apple Silicon)](https://download.abelian.info/release/abec/abec-macos-arm64-v0.13.0.tar.gz) | 
   [Linux](https://download.abelian.info/release/abec/abec-linux-amd64-v0.13.0.tar.gz) | 
   [Linux (ARM)](https://download.abelian.info/release/abec/abec-linux-arm64-v0.13.0.tar.gz)
 
@@ -399,7 +411,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.abelian.info/release/abec/abec-windows-amd64-v0.12.3.zip) | 
   [macOS](https://download.abelian.info/release/abec/abec-macos-amd64-v0.12.3.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abec/abec-macos-arm64-v0.12.3.tar.gz) | 
+  [macOS (Apple Silicon)](https://download.abelian.info/release/abec/abec-macos-arm64-v0.12.3.tar.gz) | 
   [Linux](https://download.abelian.info/release/abec/abec-linux-amd64-v0.12.3.tar.gz) | 
   [Linux (ARM)](https://download.abelian.info/release/abec/abec-linux-arm64-v0.12.3.tar.gz)
 
@@ -407,7 +419,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.abelian.info/release/abec/abec-windows-amd64-v0.11.13.zip) | 
   [macOS](https://download.abelian.info/release/abec/abec-macos-amd64-v0.11.13.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abec/abec-macos-arm64-v0.11.13.tar.gz) | 
+  [macOS (Apple Silicon)](https://download.abelian.info/release/abec/abec-macos-arm64-v0.11.13.tar.gz) | 
   [Linux](https://download.abelian.info/release/abec/abec-linux-amd64-v0.11.13.tar.gz) | 
   [Linux (ARM)](https://download.abelian.info/release/abec/abec-linux-arm64-v0.11.13.tar.gz)
 
@@ -415,7 +427,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.abelian.info/release/abec/abec-windows-amd64-v0.11.12.zip) | 
   [macOS](https://download.abelian.info/release/abec/abec-macos-amd64-v0.11.12.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abec/abec-macos-arm64-v0.11.12.tar.gz) | 
+  [macOS (Apple Silicon)](https://download.abelian.info/release/abec/abec-macos-arm64-v0.11.12.tar.gz) | 
   [Linux](https://download.abelian.info/release/abec/abec-linux-amd64-v0.11.12.tar.gz) | 
   [Linux (ARM)](https://download.abelian.info/release/abec/abec-linux-arm64-v0.11.12.tar.gz)
 
@@ -424,7 +436,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.abelian.info/release/abec/abec-windows-amd64-v0.11.10.zip) | 
   [macOS](https://download.abelian.info/release/abec/abec-macos-amd64-v0.11.10.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abec/abec-macos-arm64-v0.11.10.tar.gz) | 
+  [macOS (Apple Silicon)](https://download.abelian.info/release/abec/abec-macos-arm64-v0.11.10.tar.gz) | 
   [Linux](https://download.abelian.info/release/abec/abec-linux-amd64-v0.11.10.tar.gz) | 
   [Linux (ARM)](https://download.abelian.info/release/abec/abec-linux-arm64-v0.11.10.tar.gz)
 
@@ -433,21 +445,21 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.abelian.info/release/abec/abec-windows-amd64-v0.11.9.zip) | 
   [macOS](https://download.abelian.info/release/abec/abec-macos-amd64-v0.11.9.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abec/abec-macos-arm64-v0.11.9.tar.gz) | 
+  [macOS (Apple Silicon)](https://download.abelian.info/release/abec/abec-macos-arm64-v0.11.9.tar.gz) | 
   [Linux](https://download.abelian.info/release/abec/abec-linux-amd64-v0.11.9.tar.gz)
 
 - **2022-11-18-v0.11.5-b**
 
   [Windows](https://download.abelian.info/release/abec/abec-windows-amd64-v0.11.5.zip) | 
   [macOS](https://download.abelian.info/release/abec/abec-macos-amd64-v0.11.5.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abec/abec-macos-arm64-v0.11.5.tar.gz) | 
+  [macOS (Apple Silicon)](https://download.abelian.info/release/abec/abec-macos-arm64-v0.11.5.tar.gz) | 
   [Linux](https://download.abelian.info/release/abec/abec-linux-amd64-v0.11.5.tar.gz)
 
 - **2022-09-08-v0.11.1**
 
   [Windows](https://download.abelian.info/release/abec/abec-windows-amd64-v0.11.1.zip) | 
   [macOS](https://download.abelian.info/release/abec/abec-macos-amd64-v0.11.1.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abec/abec-macos-arm64-v0.11.1.tar.gz) | 
+  [macOS (Apple Silicon)](https://download.abelian.info/release/abec/abec-macos-arm64-v0.11.1.tar.gz) | 
   [Linux](https://download.abelian.info/release/abec/abec-linux-amd64-v0.11.1.tar.gz)
 
 ## ABEL-ETHash GPU Mining Client
@@ -474,7 +486,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.abelian.info/release/pool/abelminer-cpu-windows-amd64-v0.13.2.zip) | 
   [macOS](https://download.abelian.info/release/pool/abelminer-cpu-macos-amd64-v0.13.2.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/pool/abelminer-cpu-macos-arm64-v0.13.2.tar.gz) | 
+  [macOS (Apple Silicon)](https://download.abelian.info/release/pool/abelminer-cpu-macos-arm64-v0.13.2.tar.gz) | 
   [Linux](https://download.abelian.info/release/pool/abelminer-cpu-linux-amd64-v0.13.2.tar.gz) | 
   [Linux (ARM)](https://download.abelian.info/release/pool/abelminer-cpu-linux-arm64-v0.13.2.tar.gz)
 
@@ -482,7 +494,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.abelian.info/release/pool/abe-miningpool-client-windows-amd64-v0.13.0.zip) | 
   [macOS](https://download.abelian.info/release/pool/abe-miningpool-client-macos-amd64-v0.13.0.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/pool/abe-miningpool-client-macos-arm64-v0.13.0.tar.gz) | 
+  [macOS (Apple Silicon)](https://download.abelian.info/release/pool/abe-miningpool-client-macos-arm64-v0.13.0.tar.gz) | 
   [Linux](https://download.abelian.info/release/pool/abe-miningpool-client-linux-amd64-v0.13.0.tar.gz) | 
   [Linux (ARM)](https://download.abelian.info/release/pool/abe-miningpool-client-linux-arm64-v0.13.0.tar.gz)
 
@@ -491,7 +503,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.abelian.info/release/pool/abe-miningpool-client-windows-amd64-v0.11.7.zip) | 
   [macOS](https://download.abelian.info/release/pool/abe-miningpool-client-macos-amd64-v0.11.7.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/pool/abe-miningpool-client-macos-arm64-v0.11.7.tar.gz) | 
+  [macOS (Apple Silicon)](https://download.abelian.info/release/pool/abe-miningpool-client-macos-arm64-v0.11.7.tar.gz) | 
   [Linux](https://download.abelian.info/release/pool/abe-miningpool-client-linux-amd64-v0.11.7.tar.gz) | 
   [Linux (ARM)](https://download.abelian.info/release/pool/abe-miningpool-client-linux-arm64-v0.11.7.tar.gz)
 
@@ -499,7 +511,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.abelian.info/release/pool/abe-miningpool-client-windows-amd64-v0.11.5.zip) | 
   [macOS](https://download.abelian.info/release/pool/abe-miningpool-client-macos-amd64-v0.11.5.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/pool/abe-miningpool-client-macos-arm64-v0.11.5.tar.gz) | 
+  [macOS (Apple Silicon)](https://download.abelian.info/release/pool/abe-miningpool-client-macos-arm64-v0.11.5.tar.gz) | 
   [Linux](https://download.abelian.info/release/pool/abe-miningpool-client-linux-amd64-v0.11.5.tar.gz)
 
 ## ABEL-Nakamoto CPU Mining Client
@@ -511,7 +523,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.pqabelian.io/release/abel-nakamoto/abel-nakamoto-cpu-miner-windows-amd64-v0.1.0.zip) | 
   [macOS](https://download.pqabelian.io/release/abel-nakamoto/abel-nakamoto-cpu-miner-macos-amd64-v0.1.0.tar.gz) | 
-  [macOS (Apple silicon)](https://download.pqabelian.io/release/abel-nakamoto/abel-nakamoto-cpu-miner-macos-arm64-v0.1.0.tar.gz) | 
+  [macOS (Apple Silicon)](https://download.pqabelian.io/release/abel-nakamoto/abel-nakamoto-cpu-miner-macos-arm64-v0.1.0.tar.gz) | 
   [Linux](https://download.pqabelian.io/release/abel-nakamoto/abel-nakamoto-cpu-miner-linux-amd64-v0.1.0.tar.gz) | 
   [Linux (ARM)](https://download.pqabelian.io/release/abel-nakamoto/abel-nakamoto-cpu-miner-linux-arm64-v0.1.0.tar.gz)
 
@@ -526,7 +538,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-windows-amd64-v3.0.0.zip) | 
   [macOS](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-macos-amd64-v3.0.0.tar.gz) | 
-  [macOS (Apple silicon)](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-macos-arm64-v3.0.0.tar.gz) | 
+  [macOS (Apple Silicon)](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-macos-arm64-v3.0.0.tar.gz) | 
   [Linux](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-amd64-v3.0.0.tar.gz) | 
   [Linux (ARM)](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-arm64-v3.0.0.tar.gz)
 
@@ -536,7 +548,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-windows-amd64-v2.0.0.zip) | 
   [macOS](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-macos-amd64-v2.0.0.tar.gz) | 
-  [macOS (Apple silicon)](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-macos-arm64-v2.0.0.tar.gz) | 
+  [macOS (Apple Silicon)](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-macos-arm64-v2.0.0.tar.gz) | 
   [Linux](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-amd64-v2.0.0.tar.gz) | 
   [Linux (ARM)](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-arm64-v2.0.0.tar.gz)
 
@@ -544,7 +556,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-windows-amd64-v1.0.1.zip) | 
   [macOS](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-macos-amd64-v1.0.1.tar.gz) | 
-  [macOS (Apple silicon)](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-macos-arm64-v1.0.1.tar.gz) | 
+  [macOS (Apple Silicon)](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-macos-arm64-v1.0.1.tar.gz) | 
   [Linux](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-amd64-v1.0.1.tar.gz) | 
   [Linux (ARM)](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-arm64-v1.0.1.tar.gz)
 
@@ -557,7 +569,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.abelian.info/release/abewallet/abewalletlegacy-windows-amd64-v3.0.0.zip) | 
   [macOS](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-amd64-v3.0.0.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-arm64-v3.0.0.tar.gz) | 
+  [macOS (Apple Silicon)](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-arm64-v3.0.0.tar.gz) | 
   [Linux](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-amd64-v3.0.0.tar.gz) | 
   [Linux (ARM)](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-arm64-v3.0.0.tar.gz)
 
@@ -566,7 +578,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.abelian.info/release/abewallet/abewalletlegacy-windows-amd64-v1.0.0.zip) | 
   [macOS](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-amd64-v1.0.0.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-arm64-v1.0.0.tar.gz) | 
+  [macOS (Apple Silicon)](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-arm64-v1.0.0.tar.gz) | 
   [Linux](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-amd64-v1.0.0.tar.gz) | 
   [Linux (ARM)](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-arm64-v1.0.0.tar.gz)
 
@@ -574,7 +586,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.abelian.info/release/abewallet/abewallet-windows-amd64-v0.13.9.zip) | 
   [macOS](https://download.abelian.info/release/abewallet/abewallet-macos-amd64-v0.13.9.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewallet-macos-arm64-v0.13.9.tar.gz) | 
+  [macOS (Apple Silicon)](https://download.abelian.info/release/abewallet/abewallet-macos-arm64-v0.13.9.tar.gz) | 
   [Linux](https://download.abelian.info/release/abewallet/abewallet-linux-amd64-v0.13.9.tar.gz) | 
   [Linux (ARM)](https://download.abelian.info/release/abewallet/abewallet-linux-arm64-v0.13.9.tar.gz)
 
@@ -582,7 +594,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.abelian.info/release/abewallet/abewallet-windows-amd64-v0.13.1.zip) | 
   [macOS](https://download.abelian.info/release/abewallet/abewallet-macos-amd64-v0.13.1.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewallet-macos-arm64-v0.13.1.tar.gz) | 
+  [macOS (Apple Silicon)](https://download.abelian.info/release/abewallet/abewallet-macos-arm64-v0.13.1.tar.gz) | 
   [Linux](https://download.abelian.info/release/abewallet/abewallet-linux-amd64-v0.13.1.tar.gz) | 
   [Linux (ARM)](https://download.abelian.info/release/abewallet/abewallet-linux-arm64-v0.13.1.tar.gz)
 
@@ -590,7 +602,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.abelian.info/release/abewallet/abewallet-windows-amd64-v0.13.0.zip) | 
   [macOS](https://download.abelian.info/release/abewallet/abewallet-macos-amd64-v0.13.0.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewallet-macos-arm64-v0.13.0.tar.gz) | 
+  [macOS (Apple Silicon)](https://download.abelian.info/release/abewallet/abewallet-macos-arm64-v0.13.0.tar.gz) | 
   [Linux](https://download.abelian.info/release/abewallet/abewallet-linux-amd64-v0.13.0.tar.gz) | 
   [Linux (ARM)](https://download.abelian.info/release/abewallet/abewallet-linux-arm64-v0.13.0.tar.gz)
 
@@ -598,7 +610,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.abelian.info/release/abewallet/abewallet-windows-amd64-v0.12.8.zip) | 
   [macOS](https://download.abelian.info/release/abewallet/abewallet-macos-amd64-v0.12.8.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewallet-macos-arm64-v0.12.8.tar.gz) | 
+  [macOS (Apple Silicon)](https://download.abelian.info/release/abewallet/abewallet-macos-arm64-v0.12.8.tar.gz) | 
   [Linux](https://download.abelian.info/release/abewallet/abewallet-linux-amd64-v0.12.8.tar.gz) | 
   [Linux (ARM)](https://download.abelian.info/release/abewallet/abewallet-linux-arm64-v0.12.8.tar.gz)
 
@@ -606,7 +618,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.abelian.info/release/abewallet/abewallet-windows-amd64-v0.12.5.zip) | 
   [macOS](https://download.abelian.info/release/abewallet/abewallet-macos-amd64-v0.12.5.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewallet-macos-arm64-v0.12.5.tar.gz) | 
+  [macOS (Apple Silicon)](https://download.abelian.info/release/abewallet/abewallet-macos-arm64-v0.12.5.tar.gz) | 
   [Linux](https://download.abelian.info/release/abewallet/abewallet-linux-amd64-v0.12.5.tar.gz) | 
   [Linux (ARM)](https://download.abelian.info/release/abewallet/abewallet-linux-arm64-v0.12.5.tar.gz)
 
@@ -614,7 +626,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.abelian.info/release/abewallet/abewallet-windows-amd64-v0.12.3.zip) | 
   [macOS](https://download.abelian.info/release/abewallet/abewallet-macos-amd64-v0.12.3.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewallet-macos-arm64-v0.12.3.tar.gz) | 
+  [macOS (Apple Silicon)](https://download.abelian.info/release/abewallet/abewallet-macos-arm64-v0.12.3.tar.gz) | 
   [Linux](https://download.abelian.info/release/abewallet/abewallet-linux-amd64-v0.12.3.tar.gz) | 
   [Linux (ARM)](https://download.abelian.info/release/abewallet/abewallet-linux-arm64-v0.12.3.tar.gz)
 
@@ -622,7 +634,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.abelian.info/release/abewallet/abewallet-windows-amd64-v0.11.13.zip) | 
   [macOS](https://download.abelian.info/release/abewallet/abewallet-macos-amd64-v0.11.13.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewallet-macos-arm64-v0.11.13.tar.gz) | 
+  [macOS (Apple Silicon)](https://download.abelian.info/release/abewallet/abewallet-macos-arm64-v0.11.13.tar.gz) | 
   [Linux](https://download.abelian.info/release/abewallet/abewallet-linux-amd64-v0.11.13.tar.gz) | 
   [Linux (ARM)](https://download.abelian.info/release/abewallet/abewallet-linux-arm64-v0.11.13.tar.gz)
 
@@ -630,7 +642,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.abelian.info/release/abewallet/abewallet-windows-amd64-v0.11.12.zip) | 
   [macOS](https://download.abelian.info/release/abewallet/abewallet-macos-amd64-v0.11.12.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewallet-macos-arm64-v0.11.12.tar.gz) | 
+  [macOS (Apple Silicon)](https://download.abelian.info/release/abewallet/abewallet-macos-arm64-v0.11.12.tar.gz) | 
   [Linux](https://download.abelian.info/release/abewallet/abewallet-linux-amd64-v0.11.12.tar.gz) | 
   [Linux (ARM)](https://download.abelian.info/release/abewallet/abewallet-linux-arm64-v0.11.12.tar.gz)
 
@@ -639,7 +651,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.abelian.info/release/abewallet/abewallet-windows-amd64-v0.11.10.zip) | 
   [macOS](https://download.abelian.info/release/abewallet/abewallet-macos-amd64-v0.11.10.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewallet-macos-arm64-v0.11.10.tar.gz) | 
+  [macOS (Apple Silicon)](https://download.abelian.info/release/abewallet/abewallet-macos-arm64-v0.11.10.tar.gz) | 
   [Linux](https://download.abelian.info/release/abewallet/abewallet-linux-amd64-v0.11.10.tar.gz) | 
   [Linux (ARM)](https://download.abelian.info/release/abewallet/abewallet-linux-arm64-v0.11.10.tar.gz)
 
@@ -648,7 +660,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.abelian.info/release/abewallet/abewallet-windows-amd64-v0.11.9.zip) | 
   [macOS](https://download.abelian.info/release/abewallet/abewallet-macos-amd64-v0.11.9.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewallet-macos-arm64-v0.11.9.tar.gz) | 
+  [macOS (Apple Silicon)](https://download.abelian.info/release/abewallet/abewallet-macos-arm64-v0.11.9.tar.gz) | 
   [Linux](https://download.abelian.info/release/abewallet/abewallet-linux-amd64-v0.11.9.tar.gz) | 
   [Linux (ARM)](https://download.abelian.info/release/abewallet/abewallet-linux-arm64-v0.11.9.tar.gz)
 
@@ -661,7 +673,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.abelian.info/release/abewallet/abewallet-windows-amd64-v0.11.5-b.zip) | 
   [macOS](https://download.abelian.info/release/abewallet/abewallet-macos-amd64-v0.11.5-b.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewallet-macos-arm64-v0.11.5-b.tar.gz) | 
+  [macOS (Apple Silicon)](https://download.abelian.info/release/abewallet/abewallet-macos-arm64-v0.11.5-b.tar.gz) | 
   [Linux](https://download.abelian.info/release/abewallet/abewallet-linux-amd64-v0.11.5-b.tar.gz) | 
   [Linux (ARM)](https://download.abelian.info/release/abewallet/abewallet-linux-arm64-v0.11.5-b.tar.gz)
 
@@ -669,7 +681,7 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
   [Windows](https://download.abelian.info/release/abewallet/abewallet-windows-amd64-v0.11.1.zip) | 
   [macOS](https://download.abelian.info/release/abewallet/abewallet-macos-amd64-v0.11.1.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewallet-macos-arm64-v0.11.1.tar.gz) | 
+  [macOS (Apple Silicon)](https://download.abelian.info/release/abewallet/abewallet-macos-arm64-v0.11.1.tar.gz) | 
   [Linux](https://download.abelian.info/release/abewallet/abewallet-linux-amd64-v0.11.1.tar.gz) | 
   [Linux (ARM)](https://download.abelian.info/release/abewallet/abewallet-linux-arm64-v0.11.1.tar.gz)
 
