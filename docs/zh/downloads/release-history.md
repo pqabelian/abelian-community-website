@@ -37,6 +37,16 @@ outline: deep
 ## Abelian (移動應用)
 `abelian-mobile-wallet-pro / info.abelian.walletpro`
 
+- **2026-05-16-v8.1.0**
+  - 改善應用程式設計和導航體驗。
+  - 增加了區塊鏈上傳輸交易的 "確認中（x/3）" 狀態。
+  - 重新設計的 Buy ABEL/USD8 流程，金額顯示更清晰，並支援 Ethereum 上的 ETH。
+  - 增加了挖礦標籤，支援 Nakamoto Pool，用於管理挖礦設定檔、工作者、貢獻歷史和 HAKO METAL Genesis ASIC 的設置。
+  - 改善了 QR 碼掃描、安全驗證、效能和錯誤修復。
+
+  [Android](https://download.abelian.info/release/android/abelian-mobile-wallet-pro-v8.1.0.apk) | 
+  [iOS](https://download.abelian.info/release/ios/abelian-mobile-wallet-pro-v8.1.0.aab)
+
 - **2026-05-06-v8.0.2**
   - 錯誤修復。
 

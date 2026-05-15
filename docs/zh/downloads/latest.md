@@ -164,7 +164,7 @@ outline: deep
     <span>下載我們最新的移動錢包</span>
   </div>
   <div class="btn-wrapper">
-    <a href="https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.0.2.apk" class="btn-apk">APK</a>
+    <a href="https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.1.0.apk" class="btn-apk">APK</a>
     <a href="https://play.google.com/store/apps/details?id=info.abelian.walletpro" class="btn-base btn-android"></a>
     <a href="https://apps.apple.com/us/app/abelian-pro/id6475756639" class="btn-base btn-ios"></a>
   </div>
@@ -173,10 +173,13 @@ outline: deep
 ::: info <Badge type="warning" text="特點介紹" />
 新的移動錢包是對之前移動錢包的全面重寫，旨在更加用戶友好和功能豐富。它可在 iOS 和 Android 平台上使用。
 
-**v8.0.2 升級說明:**
+**v8.1.0 升級說明:**
 
-- 增強了 AUT 註冊表單，使其標籤、佔位符和選項更清晰。
-- 錯誤修復。
+- 改善應用程式設計和導航體驗。
+- 增加了區塊鏈上傳輸交易的 "確認中（x/3）" 狀態。
+- 重新設計的 Buy ABEL/USD8 流程，金額顯示更清晰，並支援 Ethereum 上的 ETH。
+- 增加了挖礦標籤，支援 Nakamoto Pool，用於管理挖礦設定檔、工作者、貢獻歷史和 HAKO METAL Genesis ASIC 的設置。
+- 改善了 QR 碼掃描、安全驗證、效能和錯誤修復。
 
 **新版本特點：**
 1. 支持 Abelian 二級網路 - QDay，允許用戶瀏覽區塊鏈數據、管理 ERC20 代幣、使用去中心化交易所、跨鏈質押 ABEL 代幣，以及訪問各種 DeFi 應用。

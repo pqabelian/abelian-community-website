@@ -164,7 +164,7 @@ outline: deep
      <span>Download our latest mobile wallet</span>
     </div>
     <div class="btn-wrapper">
-      <a href="https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.0.2.apk" class="btn-apk">APK</a>
+      <a href="https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.1.0.apk" class="btn-apk">APK</a>
       <a href="https://play.google.com/store/apps/details?id=info.abelian.walletpro" class="btn-base btn-android"></a>
       <a href="https://apps.apple.com/us/app/abelian-pro/id6475756639" class="btn-base btn-ios"></a>
     </div>
@@ -174,10 +174,13 @@ outline: deep
 The new mobile wallet is a complete rewrite of the previous mobile wallet and is designed to be more user-friendly and feature-rich.
 It is available on both iOS and Android platforms.
 
-**v8.0.2 Upgrade Notes:**
+**v8.1.0 Upgrade Notes:**
 
-- Enhance the AUT registration form with clearer labels, placeholders, and refined options.
-- Bug fixes
+- Refreshed app design and navigation experience.
+- Added "Confirming (x/3)" status for incoming transactions awaiting full confirmation.
+- Redesigned Buy ABEL/USD8 flow with clearer charged amounts and ETH on Ethereum support.
+- Added Mining tab with Nakamoto Pool support for managing mining profiles, workers, contribution history, and HAKO METAL Genesis ASIC setup.
+- Improved QR scanning, security verification, performance, and bug fixes.
 
 **New version Features:**
 1. Support Abelian Layer 2 network - QDay, allowing users to view blockchain data, manage ERC20 tokens, use decentralized exchanges, stake ABEL tokens across chains, and access various DeFi apps.

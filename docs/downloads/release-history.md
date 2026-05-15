@@ -37,6 +37,16 @@ We provide the packages of previous versions mainly for archive purposes. Please
 ## Abelian (Mobile)
 `abelian-mobile-wallet-pro / info.abelian.walletpro`
 
+- **2026-05-16-v8.1.0**
+  - Refreshed app design and navigation experience.
+  - Added "Confirming (x/3)" status for incoming transactions awaiting full confirmation.
+  - Redesigned Buy ABEL/USD8 flow with clearer charged amounts and ETH on Ethereum support.
+  - Added Mining tab with Nakamoto Pool support for managing mining profiles, workers, contribution history, and HAKO METAL Genesis ASIC setup.
+  - Improved QR scanning, security verification, performance, and bug fixes.
+
+  [Android](https://download.abelian.info/release/android/abelian-mobile-wallet-pro-v8.1.0.apk) | 
+  [iOS](https://download.abelian.info/release/ios/abelian-mobile-wallet-pro-v8.1.0.aab)
+
 - **2026-05-06-v8.0.2**
   - Bug fixes.
 
