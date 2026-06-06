@@ -196,11 +196,11 @@ outline: deep
 - **軟體大小**: `≈ 120MB`
 - **下載連結**:
 <div class="button-container">
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v2.2.0.dmg" class="btn">macOS (Apple Silicon)</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v2.2.0.dmg" class="btn">macOS (Intel)</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v2.2.0.exe" class="btn">Windows</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v2.2.0.deb" class="btn">Linux</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v2.2.0.deb" class="btn">Linux (ARM)</a>
+  <a href="https://github.com/pqabelian/abelian-desktop-wallet-pro/releases/download/v2.2.0/abelian-desktop-wallet-pro-macos-arm64-v2.2.0.dmg" class="btn">macOS (Apple Silicon)</a>
+  <a href="https://github.com/pqabelian/abelian-desktop-wallet-pro/releases/download/v2.2.0/abelian-desktop-wallet-pro-macos-amd64-v2.2.0.dmg" class="btn">macOS (Intel)</a>
+  <a href="https://github.com/pqabelian/abelian-desktop-wallet-pro/releases/download/v2.2.0/abelian-desktop-wallet-pro-windows-amd64-v2.2.0.exe" class="btn">Windows</a>
+  <a href="https://github.com/pqabelian/abelian-desktop-wallet-pro/releases/download/v2.2.0/abelian-desktop-wallet-pro-linux-amd64-v2.2.0.deb" class="btn">Linux</a>
+  <a href="https://github.com/pqabelian/abelian-desktop-wallet-pro/releases/download/v2.2.0/abelian-desktop-wallet-pro-linux-arm64-v2.2.0.deb" class="btn">Linux (ARM)</a>
 </div>
 
 ::: info <Badge type="warning" text="發布說明" />
