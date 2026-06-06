@@ -164,7 +164,7 @@ outline: deep
     <span>下載我們最新的移動錢包</span>
   </div>
   <div class="btn-wrapper">
-    <a href="https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.1.0.apk" class="btn-apk">APK</a>
+    <a href="https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.1.1.apk" class="btn-apk">APK</a>
     <a href="https://play.google.com/store/apps/details?id=info.abelian.walletpro" class="btn-base btn-android"></a>
     <a href="https://apps.apple.com/us/app/abelian-pro/id6475756639" class="btn-base btn-ios"></a>
   </div>
@@ -173,7 +173,7 @@ outline: deep
 ::: info <Badge type="warning" text="特點介紹" />
 新的移動錢包是對之前移動錢包的全面重寫，旨在更加用戶友好和功能豐富。它可在 iOS 和 Android 平台上使用。
 
-**v8.1.0 升級說明:**
+**v8.1.1 升級說明:**
 
 - 改善應用程式設計和導航體驗。
 - 增加了區塊鏈上傳輸交易的 "確認中（x/3）" 狀態。
@@ -196,9 +196,9 @@ outline: deep
 - **軟體大小**: `≈ 120MB`
 - **下載連結**:
 <div class="button-container">
-  Windows (Coming soon) 
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v2.2.0.dmg" class="btn">macOS</a>
   <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v2.2.0.dmg" class="btn">macOS (Apple Silicon)</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v2.2.0.dmg" class="btn">macOS (Intel)</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v2.2.0.exe" class="btn">Windows</a>
   <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v2.2.0.deb" class="btn">Linux</a>
   <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v2.2.0.deb" class="btn">Linux (ARM)</a>
 </div>
@@ -228,9 +228,9 @@ outline: deep
 - **軟體大小**： `≈ 120MB`
 - **下載連結**：
 <div class="button-container">
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v5.0.0.exe" class="btn">Windows</a>
-  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-amd64-v5.0.0.dmg" class="btn">macOS</a>
   <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-arm64-v5.0.0.dmg" class="btn">macOS (Apple Silicon)</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-amd64-v5.0.0.dmg" class="btn">macOS (Intel)</a>
+  <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v5.0.0.exe" class="btn">Windows</a>
   <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-amd64-v5.0.0.deb" class="btn">Linux</a>
   <a href="https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-arm64-v5.0.0.deb" class="btn">Linux (ARM)</a>
 </div>
@@ -260,9 +260,9 @@ outline: deep
 - **軟體大小**： `≈ 23MB`
 - **下載連結**：
 <div class="button-container">
-  <a href="https://download.pqabelian.io/release/abec/abec-windows-amd64-v3.0.1.zip" class="btn">Windows</a>
-  <a href="https://download.pqabelian.io/release/abec/abec-macos-amd64-v3.0.1.tar.gz" class="btn">macOS</a>
   <a href="https://download.pqabelian.io/release/abec/abec-macos-arm64-v3.0.1.tar.gz" class="btn">macOS (Apple Silicon)</a>
+  <a href="https://download.pqabelian.io/release/abec/abec-macos-amd64-v3.0.1.tar.gz" class="btn">macOS (Intel)</a>
+  <a href="https://download.pqabelian.io/release/abec/abec-windows-amd64-v3.0.1.zip" class="btn">Windows</a>
   <a href="https://download.pqabelian.io/release/abec/abec-linux-amd64-v3.0.1.tar.gz" class="btn">Linux</a>
   <a href="https://download.pqabelian.io/release/abec/abec-linux-arm64-v3.0.1.tar.gz" class="btn">Linux (ARM)</a>
 </div>
@@ -308,9 +308,9 @@ outline: deep
 - **軟體大小**： `≈ 5.5MB`
 - **下載連結**：
 <div class="button-container">
-  <a href="https://download.pqabelian.io/release/pool/abelminer-cpu-windows-amd64-v0.13.2.zip" class="btn">Windows</a>
-  <a href="https://download.pqabelian.io/release/pool/abelminer-cpu-macos-amd64-v0.13.2.tar.gz" class="btn">macOS</a>
   <a href="https://download.pqabelian.io/release/pool/abelminer-cpu-macos-arm64-v0.13.2.tar.gz" class="btn">macOS (Apple Silicon)</a>
+  <a href="https://download.pqabelian.io/release/pool/abelminer-cpu-macos-amd64-v0.13.2.tar.gz" class="btn">macOS (Intel)</a>
+  <a href="https://download.pqabelian.io/release/pool/abelminer-cpu-windows-amd64-v0.13.2.zip" class="btn">Windows</a>
   <a href="https://download.pqabelian.io/release/pool/abelminer-cpu-linux-amd64-v0.13.2.tar.gz" class="btn">Linux</a>
   <a href="https://download.pqabelian.io/release/pool/abelminer-cpu-linux-arm64-v0.13.2.tar.gz" class="btn">Linux (ARM)</a>
 </div>
@@ -330,9 +330,9 @@ outline: deep
 - **Package Size**: `≈ 1.3MB`
 - **Download Links**:
 <div class="button-container">
-  <a href="https://download.pqabelian.io/release/abel-nakamoto/abel-nakamoto-cpu-miner-windows-amd64-v0.1.0.zip" class="btn">Windows</a>
-  <a href="https://download.pqabelian.io/release/abel-nakamoto/abel-nakamoto-cpu-miner-macos-amd64-v0.1.0.tar.gz" class="btn">macOS</a>
   <a href="https://download.pqabelian.io/release/abel-nakamoto/abel-nakamoto-cpu-miner-macos-arm64-v0.1.0.tar.gz" class="btn">macOS (Apple Silicon)</a>
+  <a href="https://download.pqabelian.io/release/abel-nakamoto/abel-nakamoto-cpu-miner-macos-amd64-v0.1.0.tar.gz" class="btn">macOS (Intel)</a>
+  <a href="https://download.pqabelian.io/release/abel-nakamoto/abel-nakamoto-cpu-miner-windows-amd64-v0.1.0.zip" class="btn">Windows</a>
   <a href="https://download.pqabelian.io/release/abel-nakamoto/abel-nakamoto-cpu-miner-linux-amd64-v0.1.0.tar.gz" class="btn">Linux</a>
   <a href="https://download.pqabelian.io/release/abel-nakamoto/abel-nakamoto-cpu-miner-linux-arm64-v0.1.0.tar.gz" class="btn">Linux (ARM)</a>
 </div>
@@ -352,9 +352,9 @@ outline: deep
 - **軟體大小**： `≈ 24MB`
 - **下載連結**：
 <div class="button-container">
-  <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-windows-amd64-v3.0.0.zip" class="btn">Windows</a>
-  <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-macos-amd64-v3.0.0.tar.gz" class="btn">macOS</a>
   <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-macos-arm64-v3.0.0.tar.gz" class="btn">macOS (Apple Silicon)</a>
+  <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-macos-amd64-v3.0.0.tar.gz" class="btn">macOS (Intel)</a>
+  <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-windows-amd64-v3.0.0.zip" class="btn">Windows</a>
   <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-amd64-v3.0.0.tar.gz" class="btn">Linux</a>
   <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-arm64-v3.0.0.tar.gz" class="btn">Linux (ARM)</a>
 </div>
@@ -380,9 +380,9 @@ outline: deep
 - **軟體大小**： `≈ 24MB`
 - **下載連結**：
 <div class="button-container">
-  <a href="https://download.pqabelian.io/release/abewallet/abewalletlegacy-windows-amd64-v3.0.0.zip" class="btn">Windows</a>
-  <a href="https://download.pqabelian.io/release/abewallet/abewalletlegacy-macos-amd64-v3.0.0.tar.gz" class="btn">macOS</a>
   <a href="https://download.pqabelian.io/release/abewallet/abewalletlegacy-macos-arm64-v3.0.0.tar.gz" class="btn">macOS (Apple Silicon)</a>
+  <a href="https://download.pqabelian.io/release/abewallet/abewalletlegacy-macos-amd64-v3.0.0.tar.gz" class="btn">macOS (Intel)</a>
+  <a href="https://download.pqabelian.io/release/abewallet/abewalletlegacy-windows-amd64-v3.0.0.zip" class="btn">Windows</a>
   <a href="https://download.pqabelian.io/release/abewallet/abewalletlegacy-linux-amd64-v3.0.0.tar.gz" class="btn">Linux</a>
   <a href="https://download.pqabelian.io/release/abewallet/abewalletlegacy-linux-arm64-v3.0.0.tar.gz" class="btn">Linux (ARM)</a>
 </div>

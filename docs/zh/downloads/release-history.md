@@ -37,6 +37,12 @@ outline: deep
 ## Abelian (移動應用)
 `abelian-mobile-wallet-pro / info.abelian.walletpro`
 
+- **2026-05-17-v8.1.1**
+  - 錯誤修復。
+
+  [Android](https://download.abelian.info/release/android/abelian-mobile-wallet-pro-v8.1.1.apk) | 
+  [iOS](https://download.abelian.info/release/ios/abelian-mobile-wallet-pro-v8.1.1.aab)
+
 - **2026-05-16-v8.1.0**
   - 改善應用程式設計和導航體驗。
   - 增加了區塊鏈上傳輸交易的 "確認中（x/3）" 狀態。
@@ -144,7 +150,7 @@ outline: deep
   - 優化 Send/AUT 表單的交互行為和單視圖操作；
   - 使用 Unix 域套接字以避免潛在的端口衝突。
 
-  Windows (Coming soon) | 
+  [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v2.2.0.exe) | 
   [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v2.1.0.dmg) | 
   [macOS (Apple Silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v2.1.0.dmg) | 
   [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v2.1.0.deb) | 
