@@ -37,6 +37,17 @@ outline: deep
 ## Abelian (移動應用)
 `abelian-mobile-wallet-pro / info.abelian.walletpro`
 
+- **2026-06-09-v8.2.0**
+  - 在其他資產中新增對 TRON 的支援。
+  - 在其他資產中新增 AUT 兌換功能。
+  - 新增 USCT 和 USDT 的免 gas 費傳輸。
+  - 新增 AUT 的免 gas 費傳輸。
+  - 優化多鏈地址簿功能。
+  - 錯誤修復。
+
+  [Android](https://download.abelian.info/release/android/abelian-mobile-wallet-pro-v8.2.0.apk) | 
+  [iOS](https://download.abelian.info/release/ios/abelian-mobile-wallet-pro-v8.2.0.aab)
+
 - **2026-05-17-v8.1.1**
   - 錯誤修復。
 

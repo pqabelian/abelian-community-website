@@ -37,6 +37,17 @@ We provide the packages of previous versions mainly for archive purposes. Please
 ## Abelian (Mobile)
 `abelian-mobile-wallet-pro / info.abelian.walletpro`
 
+- **2026-06-09-v8.2.0**
+  - Added TRON support in Other Assets.
+  - Added AUT Swap in Other Assets.
+  - Added gasless transfers for USDC and USDT.
+  - Added gasless transfers for AUT.
+  - Optimized the multi-chain Address Book.
+  - Bug fixes.
+
+  [Android](https://download.abelian.info/release/android/abelian-mobile-wallet-pro-v8.2.0.apk) | 
+  [iOS](https://download.abelian.info/release/ios/abelian-mobile-wallet-pro-v8.2.0.aab)
+
 - **2026-05-17-v8.1.1**
   - Bug fixes.
 
