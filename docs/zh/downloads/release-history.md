@@ -37,6 +37,13 @@ outline: deep
 ## Abelian (移動應用)
 `abelian-mobile-wallet-pro / info.abelian.walletpro`
 
+- **2026-07-02-v8.4.1**
+  - 修正了關於挖礦機購買的問題。
+  - 錯誤修復。
+
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.4.1.apk) | 
+  [iOS](https://download.pqabelian.io/release/ios/abelian-mobile-wallet-pro-v8.4.1.aab)
+
 - **2026-06-09-v8.2.0**
   - 在其他資產中新增對 TRON 的支援。
   - 在其他資產中新增 AUT 兌換功能。
@@ -45,14 +52,14 @@ outline: deep
   - 優化多鏈地址簿功能。
   - 錯誤修復。
 
-  [Android](https://download.abelian.info/release/android/abelian-mobile-wallet-pro-v8.2.0.apk) | 
-  [iOS](https://download.abelian.info/release/ios/abelian-mobile-wallet-pro-v8.2.0.aab)
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.2.0.apk) | 
+  [iOS](https://download.pqabelian.io/release/ios/abelian-mobile-wallet-pro-v8.2.0.aab)
 
 - **2026-05-17-v8.1.1**
   - 錯誤修復。
 
-  [Android](https://download.abelian.info/release/android/abelian-mobile-wallet-pro-v8.1.1.apk) | 
-  [iOS](https://download.abelian.info/release/ios/abelian-mobile-wallet-pro-v8.1.1.aab)
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.1.1.apk) | 
+  [iOS](https://download.pqabelian.io/release/ios/abelian-mobile-wallet-pro-v8.1.1.aab)
 
 - **2026-05-16-v8.1.0**
   - 改善應用程式設計和導航體驗。
@@ -61,20 +68,20 @@ outline: deep
   - 增加了挖礦標籤，支援 Nakamoto Pool，用於管理挖礦設定檔、工作者、貢獻歷史和 HAKO METAL Genesis ASIC 的設置。
   - 改善了 QR 碼掃描、安全驗證、效能和錯誤修復。
 
-  [Android](https://download.abelian.info/release/android/abelian-mobile-wallet-pro-v8.1.0.apk) | 
-  [iOS](https://download.abelian.info/release/ios/abelian-mobile-wallet-pro-v8.1.0.aab)
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.1.0.apk) | 
+  [iOS](https://download.pqabelian.io/release/ios/abelian-mobile-wallet-pro-v8.1.0.aab)
 
 - **2026-05-06-v8.0.2**
   - 錯誤修復。
 
-  [Android](https://download.abelian.info/release/android/abelian-mobile-wallet-pro-v8.0.2.apk) | 
-  [iOS](https://download.abelian.info/release/ios/abelian-mobile-wallet-pro-v8.0.2.aab)
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.0.2.apk) | 
+  [iOS](https://download.pqabelian.io/release/ios/abelian-mobile-wallet-pro-v8.0.2.aab)
 
 - **2026-04-16-v8.0.1**
   - 增強了 AUT 註冊表單，使其標籤、佔位符和選項更清晰。
 
-  [Android](https://download.abelian.info/release/android/abelian-mobile-wallet-pro-v8.0.1.apk) | 
-  [iOS](https://download.abelian.info/release/ios/abelian-mobile-wallet-pro-v8.0.1.aab)
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.0.1.apk) | 
+  [iOS](https://download.pqabelian.io/release/ios/abelian-mobile-wallet-pro-v8.0.1.aab)
 
 - **2026-04-09-v8.0.0**
   - 支援 Abelian User Token (AUT)；
@@ -83,29 +90,29 @@ outline: deep
   - 新增 QDay 代幣的轉帳功能；
   - 其他 UI/UX 改進與錯誤修復。
 
-  [Android](https://download.abelian.info/release/android/abelian-mobile-wallet-pro-v8.0.0.apk) | 
-  [iOS](https://download.abelian.info/release/ios/abelian-mobile-wallet-pro-v8.0.0.aab)
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.0.0.apk) | 
+  [iOS](https://download.pqabelian.io/release/ios/abelian-mobile-wallet-pro-v8.0.0.aab)
 
 - **2026-03-27-v7.1.0**
   - 支援在購買 ABEL/USD8 時使用「其他資產」進行支付。
   - 優化「發現」部分並新增「給我們評分」按鈕。
   - 其他 UI/UX 改進與錯誤修復。
 
-  [Android](https://download.abelian.info/release/android/abelian-mobile-wallet-pro-v7.1.0.apk) | 
-  [iOS](https://download.abelian.info/release/ios/abelian-mobile-wallet-pro-v7.1.0.aab)
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v7.1.0.apk) | 
+  [iOS](https://download.pqabelian.io/release/ios/abelian-mobile-wallet-pro-v7.1.0.aab)
 
 - **2026-03-07-v7.0.0**
   - 應用程式名稱由「Abelian Pro」更新為「Abelian」。
   - 支援「其他資產」（以太坊網路上的 ETH 和 USDT）。
   - 其他 UI/UX 改進與錯誤修復。
 
-  [Android](https://download.abelian.info/release/android/abelian-mobile-wallet-pro-v7.0.0.apk) | 
-  [iOS](https://download.abelian.info/release/ios/abelian-mobile-wallet-pro-v7.0.0.aab)
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v7.0.0.apk) | 
+  [iOS](https://download.pqabelian.io/release/ios/abelian-mobile-wallet-pro-v7.0.0.aab)
 
 - **2026-01-20-v6.0.2**
 
-  [Android](https://download.abelian.info/release/android/abelian-mobile-wallet-pro-v6.0.2.apk) | 
-  [iOS](https://download.abelian.info/release/ios/abelian-mobile-wallet-pro-v6.0.2.aab)
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v6.0.2.apk) | 
+  [iOS](https://download.pqabelian.io/release/ios/abelian-mobile-wallet-pro-v6.0.2.aab)
 
 - **2026-01-12-v6.0.0**
 
@@ -114,8 +121,8 @@ outline: deep
   - 更新透明錢包與遮蔽錢包的術語；
   - 使用者介面與使用者體驗的增強及錯誤修正。
 
-  [Android](https://download.abelian.info/release/android/abelian-mobile-wallet-pro-v6.0.0.apk) | 
-  [iOS](https://download.abelian.info/release/ios/abelian-mobile-wallet-pro-v6.0.0.aab)
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v6.0.0.apk) | 
+  [iOS](https://download.pqabelian.io/release/ios/abelian-mobile-wallet-pro-v6.0.0.aab)
 
 - **2025-11-22-v5.1.0**
 
@@ -123,16 +130,16 @@ outline: deep
   - 15分鐘內無需重新輸入密碼；
   - 修復了一些錯誤。
 
-  [Android](https://download.abelian.info/release/android/abelian-mobile-wallet-pro-v5.1.0.apk) | 
-  [iOS](https://download.abelian.info/release/ios/abelian-mobile-wallet-pro-v5.1.0.aab)
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v5.1.0.apk) | 
+  [iOS](https://download.pqabelian.io/release/ios/abelian-mobile-wallet-pro-v5.1.0.aab)
 
 - **2025-10-28-v5.0.0**
 
   - 支持 QDay (二級網路)；
   - 修復了一些錯誤。
 
-  [Android](https://download.abelian.info/release/android/abelian-mobile-wallet-pro-v5.0.0.apk) | 
-  [iOS](https://download.abelian.info/release/ios/abelian-mobile-wallet-pro-v5.0.0.aab)
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v5.0.0.apk) | 
+  [iOS](https://download.pqabelian.io/release/ios/abelian-mobile-wallet-pro-v5.0.0.aab)
 
 - **2025-09-06-v4.0.0**
 
@@ -140,8 +147,8 @@ outline: deep
   - 整合通訊錄；
   - 修復了一些錯誤。
 
-  [Android](https://download.abelian.info/release/android/abelian-mobile-wallet-pro-v4.0.0.apk) | 
-  [iOS](https://download.abelian.info/release/ios/abelian-mobile-wallet-pro-v4.0.0.aab)
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v4.0.0.apk) | 
+  [iOS](https://download.pqabelian.io/release/ios/abelian-mobile-wallet-pro-v4.0.0.aab)
 
 - **2025-07-25-v3.0.0**
 
@@ -149,8 +156,8 @@ outline: deep
   - 優化交易歷史緩存；
   - 修復了一些錯誤。
 
-  [Android](https://download.abelian.info/release/android/abelian-mobile-wallet-pro-v3.0.0.apk) | 
-  [iOS](https://download.abelian.info/release/ios/abelian-mobile-wallet-pro-v3.0.0.aab)
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v3.0.0.apk) | 
+  [iOS](https://download.pqabelian.io/release/ios/abelian-mobile-wallet-pro-v3.0.0.aab)
 
 ## 桌面錢包專業版 (MLP)
 `abelian-desktop-wallet-pro`
@@ -161,11 +168,11 @@ outline: deep
   - 優化 Send/AUT 表單的交互行為和單視圖操作；
   - 使用 Unix 域套接字以避免潛在的端口衝突。
 
-  [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v2.2.0.exe) | 
-  [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v2.1.0.dmg) | 
-  [macOS (Apple Silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v2.1.0.dmg) | 
-  [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v2.1.0.deb) | 
-  [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v2.1.0.deb)
+  [Windows](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v2.2.0.exe) | 
+  [macOS](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v2.1.0.dmg) | 
+  [macOS (Apple Silicon)](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v2.1.0.dmg) | 
+  [Linux](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v2.1.0.deb) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v2.1.0.deb)
 
 - **2026-03-09-v2.1.0**
   - 支持（非隱藏式）AUT 操作
@@ -173,21 +180,21 @@ outline: deep
   - 支持短地址的二維碼
   - 改善 UI 佈局並優化用戶體驗
 
-  [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v2.1.0.exe) | 
-  [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v2.1.0.dmg) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v2.1.0.dmg) | 
-  [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v2.1.0.deb) | 
-  [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v2.1.0.deb)
+  [Windows](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v2.1.0.exe) | 
+  [macOS](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v2.1.0.dmg) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v2.1.0.dmg) | 
+  [Linux](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v2.1.0.deb) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v2.1.0.deb)
 
 - **2026-01-15-v2.0.1**
   - 支援交易版本（v3）；
   - 將偽隱私地址升級為 PseudoCT 地址。
 
-  [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v2.0.1.exe) | 
-  [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v2.0.1.dmg) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v2.0.1.dmg) | 
-  [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v2.0.1.deb) | 
-  [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v2.0.1.deb)
+  [Windows](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v2.0.1.exe) | 
+  [macOS](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v2.0.1.dmg) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v2.0.1.dmg) | 
+  [Linux](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v2.0.1.deb) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v2.0.1.deb)
 
 - **2025-08-15-v1.1.0**
   - **UTXO 幣合併**：我們在每個帳戶的狀態主頁上添加了「顆粒度等級」功能。該值顯示您的帳戶中有多少個幣（即 UTXO）。可以將其視為帳戶的顆粒度，從 0 到 1，越接近 1 表示帳戶中小額幣越多；越接近 0 表示帳戶中幣的數量較少且每個幣的金額較大。<br>
@@ -196,31 +203,31 @@ outline: deep
   - **區塊鏈同步時間估算**：同步不再是個謎——我們現在顯示剩餘時間估算（例如，「大約 30 分鐘」）。通過清晰的倒計時更好地規劃您的任務。
   - **改進的交易歷史加載時間**：加載過去的交易現在幾乎是瞬時的。無需再等待頁面加載——幾秒鐘內即可查看您的活動或檢查最近的轉賬。
 
-  [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v1.1.0.exe) | 
-  [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v1.1.0.dmg) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v1.1.0.dmg) | 
-  [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v1.1.0.deb) | 
-  [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v1.1.0.deb)
+  [Windows](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v1.1.0.exe) | 
+  [macOS](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v1.1.0.dmg) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v1.1.0.dmg) | 
+  [Linux](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v1.1.0.deb) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v1.1.0.deb)
 
 - **2025-04-23-v1.0.3**
   - 交易確認更快，一旦交易輸出可用，就會被標記為可支配。
   - 優化可支配金額顯示，在發送頁面，輸入框會精確顯示可用金額，以便最大化後續轉賬，並新增「最大」按鈕，在轉賬給一個收款人時可以自動計算並扣除交易費用。
   - 使用體驗更友好直觀，增加了更多提示資訊。
 
-  [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v1.0.3.zip) | 
-  [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v1.0.3.zip) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v1.0.3.zip) | 
-  [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v1.0.3.zip) | 
-  [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v1.0.3.zip)
+  [Windows](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v1.0.3.zip) | 
+  [macOS](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v1.0.3.zip) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v1.0.3.zip) | 
+  [Linux](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v1.0.3.zip) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v1.0.3.zip)
 
 - **2025-03-02-v1.0.2**
   - 僅更新專用應用圖示。
   
-  [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v1.0.2.zip) | 
-  [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v1.0.2.zip) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v1.0.2.zip) | 
-  [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v1.0.2.zip) | 
-  [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v1.0.2.zip)
+  [Windows](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v1.0.2.zip) | 
+  [macOS](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v1.0.2.zip) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v1.0.2.zip) | 
+  [Linux](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v1.0.2.zip) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v1.0.2.zip)
 
 - **2025-01-04-v1.0.1**
   - 支援多層隱私：<br>
@@ -232,19 +239,19 @@ outline: deep
   - 速度和存儲顯著提升：舊版原始桌面錢包Legacy需要用戶花費數百小時甚至幾天時間來同步整個 Abelian 區塊鏈，並佔用超過 100GB 存儲空間。而這個全新的桌面錢包專業版（MLP）v1.0.0 僅需45分鐘或更少時間（取決於網路速度和頻寬）即可完成一次性同步，佔用不到100MB存儲空間。
   - 引入了 Memo 概念，使用戶可以在後量子、不可變的 Abelian 帳本上寫訊息。在 Abelian 上，我們首次可以將個人筆記永久寫入帳本。
 
-  [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v1.0.1.zip) | 
-  [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v1.0.1.zip) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v1.0.1.zip) | 
-  [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v1.0.1.zip) | 
-  [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v1.0.1.zip)
+  [Windows](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v1.0.1.zip) | 
+  [macOS](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v1.0.1.zip) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v1.0.1.zip) | 
+  [Linux](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v1.0.1.zip) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v1.0.1.zip)
 
 - **2024-12-19-v1.0.0**
 
-  [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v1.0.0.zip) | 
-  [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v1.0.0.zip) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v1.0.0.zip) | 
-  [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v1.0.0.zip) | 
-  [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v1.0.0.zip)
+  [Windows](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v1.0.0.zip) | 
+  [macOS](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v1.0.0.zip) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v1.0.0.zip) | 
+  [Linux](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v1.0.0.zip) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v1.0.0.zip)
 
 ## 桌面錢包經典版（Legacy）
 `abelian-desktop-wallet / abelian-desktop-wallet-legacy`
@@ -252,11 +259,11 @@ outline: deep
 - **2026-01-12-v5.0.0**
   - 支援「aconcagua」分叉。
 
-  [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v5.0.0.exe) | 
-  [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-amd64-v5.0.0.dmg) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-arm64-v5.0.0.dmg) | 
-  [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-amd64-v5.0.0.deb) | 
-  [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-arm64-v5.0.0.deb)
+  [Windows](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v5.0.0.exe) | 
+  [macOS](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-amd64-v5.0.0.dmg) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-arm64-v5.0.0.dmg) | 
+  [Linux](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-amd64-v5.0.0.deb) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-arm64-v5.0.0.deb)
 
 - **2025-07-03-v4.4.1**
   - 啟用自適應同步機制，適應不同網路環境；
@@ -266,11 +273,11 @@ outline: deep
   - 限制帳戶數量至100個，優化多帳戶同步穩定性;
   - 此 Legacy 軟體的正規名稱是「Abelian Wallet Legacy」。例如，如果您是 macOS 用戶，您會在應用程式資料夾中找到這個軟體名稱為「Abelian Wallet Legacy」，而不是舊版本的「Abelian Wallet」。
 
-  [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v4.4.1.exe) | 
-  [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-amd64-v4.4.1.dmg) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-arm64-v4.4.1.dmg) | 
-  [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-amd64-v4.4.1.deb) | 
-  [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-arm64-v4.4.1.deb)
+  [Windows](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v4.4.1.exe) | 
+  [macOS](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-amd64-v4.4.1.dmg) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-arm64-v4.4.1.dmg) | 
+  [Linux](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-amd64-v4.4.1.deb) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-arm64-v4.4.1.deb)
 
 - **2025-06-04-v4.3.0**
 
@@ -284,107 +291,107 @@ outline: deep
     - 移除不必要的捲軸顯示；
     - 在用戶查看助記詞時顯示最大地址數（用於導入 Legacy 帳戶時填寫恢復地址數），並支援輸入主密碼後按 Enter 鍵。
 
-  [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v4.3.0.zip) | 
-  [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-amd64-v4.3.0.zip) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-arm64-v4.3.0.zip) | 
-  [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-amd64-v4.3.0.zip) | 
-  [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-arm64-v4.3.0.zip)
+  [Windows](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v4.3.0.zip) | 
+  [macOS](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-amd64-v4.3.0.zip) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-arm64-v4.3.0.zip) | 
+  [Linux](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-amd64-v4.3.0.zip) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-arm64-v4.3.0.zip)
 
 - **2025-03-02-v4.2.2**
 
-  [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v4.2.2.zip) | 
-  [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-amd64-v4.2.2.zip) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-arm64-v4.2.2.zip) | 
-  [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-amd64-v4.2.2.zip) | 
-  [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-arm64-v4.2.2.zip)
+  [Windows](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v4.2.2.zip) | 
+  [macOS](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-amd64-v4.2.2.zip) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-arm64-v4.2.2.zip) | 
+  [Linux](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-amd64-v4.2.2.zip) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-arm64-v4.2.2.zip)
 
 - **2025-01-04-v4.2.1**
 
-  [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v4.2.1.zip) | 
-  [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-amd64-v4.2.1.zip) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-arm64-v4.2.1.zip) | 
-  [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-amd64-v4.2.1.zip) | 
-  [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-arm64-v4.2.1.zip)
+  [Windows](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v4.2.1.zip) | 
+  [macOS](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-amd64-v4.2.1.zip) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-arm64-v4.2.1.zip) | 
+  [Linux](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-amd64-v4.2.1.zip) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-arm64-v4.2.1.zip)
 
 - **2024-12-26-v4.2.0**
 
-  [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v4.2.0.zip) | 
-  [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-amd64-v4.2.0.zip) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-arm64-v4.2.0.zip) | 
-  [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-amd64-v4.2.0.zip) | 
-  [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-arm64-v4.2.0.zip)
+  [Windows](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-windows-amd64-v4.2.0.zip) | 
+  [macOS](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-amd64-v4.2.0.zip) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-macos-arm64-v4.2.0.zip) | 
+  [Linux](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-amd64-v4.2.0.zip) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-legacy-linux-arm64-v4.2.0.zip)
 
 - **2024-08-04-v4.1.1**
 
-  [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-windows-amd64-v4.1.1.zip) | 
-  [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-amd64-v4.1.1.zip) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-arm64-v4.1.1.zip) | 
-  [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-linux-amd64-v4.1.1.zip) | 
-  [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-linux-arm64-v4.1.1.zip)
+  [Windows](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-windows-amd64-v4.1.1.zip) | 
+  [macOS](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-macos-amd64-v4.1.1.zip) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-macos-arm64-v4.1.1.zip) | 
+  [Linux](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-linux-amd64-v4.1.1.zip) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-linux-arm64-v4.1.1.zip)
 
 - **2024-07-22-v4.0.1**
 
-  [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-windows-amd64-v4.0.1.zip) | 
-  [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-amd64-v4.0.1.zip) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-arm64-v4.0.1.zip) | 
-  [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-linux-amd64-v4.0.1.zip) | 
-  [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-linux-arm64-v4.0.1.zip)
+  [Windows](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-windows-amd64-v4.0.1.zip) | 
+  [macOS](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-macos-amd64-v4.0.1.zip) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-macos-arm64-v4.0.1.zip) | 
+  [Linux](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-linux-amd64-v4.0.1.zip) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-linux-arm64-v4.0.1.zip)
 
 - **2024-06-08-v4.0.0**
   - 支援硬分叉。
 
-  [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-windows-amd64-v4.0.0.zip) | 
-  [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-amd64-v4.0.0.zip) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-arm64-v4.0.0.zip) | 
-  [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-linux-arm64-v4.0.0.zip)
+  [Windows](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-windows-amd64-v4.0.0.zip) | 
+  [macOS](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-macos-amd64-v4.0.0.zip) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-macos-arm64-v4.0.0.zip) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-linux-arm64-v4.0.0.zip)
 
 - **2024-01-07-v0.3.2**
 
-  [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-windows-amd64-v0.3.2.zip) | 
-  [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-amd64-v0.3.2.zip) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-arm64-v0.3.2.zip) | 
-  [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-linux-amd64-v0.3.2.zip) | 
-  [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-linux-arm64-v0.3.2.zip)
+  [Windows](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-windows-amd64-v0.3.2.zip) | 
+  [macOS](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-macos-amd64-v0.3.2.zip) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-macos-arm64-v0.3.2.zip) | 
+  [Linux](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-linux-amd64-v0.3.2.zip) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-linux-arm64-v0.3.2.zip)
 
 - **2023-11-18-v0.3.1**
 
-  [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-windows-amd64-v0.3.1.zip) | 
-  [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-amd64-v0.3.1.zip) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-arm64-v0.3.1.zip) | 
-  [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-linux-amd64-v0.3.1.zip) | 
-  [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-linux-arm64-v0.3.1.zip)
+  [Windows](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-windows-amd64-v0.3.1.zip) | 
+  [macOS](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-macos-amd64-v0.3.1.zip) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-macos-arm64-v0.3.1.zip) | 
+  [Linux](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-linux-amd64-v0.3.1.zip) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-linux-arm64-v0.3.1.zip)
 
 - **2023-11-04-v0.3.0**
   - 同步速度提高了10倍至100倍。
   - 磁碟使用量減少了80%。
 
-  [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-windows-amd64-v0.3.0.zip) | 
-  [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-amd64-v0.3.0.zip) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-arm64-v0.3.0.zip) | 
-  [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-linux-amd64-v0.3.0.zip) | 
-  [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-linux-arm64-v0.3.0.zip)
+  [Windows](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-windows-amd64-v0.3.0.zip) | 
+  [macOS](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-macos-amd64-v0.3.0.zip) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-macos-arm64-v0.3.0.zip) | 
+  [Linux](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-linux-amd64-v0.3.0.zip) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-linux-arm64-v0.3.0.zip)
 
 - **2023-08-12-v0.2.1**
 
-  [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-windows-amd64-v0.2.1.zip) | 
-  [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-amd64-v0.2.1.zip) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-arm64-v0.2.1.zip) | 
-  [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-linux-amd64-v0.2.1.zip) | 
-  [Linux (ARM)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-linux-arm64-v0.2.1.zip)
+  [Windows](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-windows-amd64-v0.2.1.zip) | 
+  [macOS](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-macos-amd64-v0.2.1.zip) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-macos-arm64-v0.2.1.zip) | 
+  [Linux](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-linux-amd64-v0.2.1.zip) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-linux-arm64-v0.2.1.zip)
 
 - **2023-07-11-v0.2.0**
 
-  [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-windows-amd64-v0.2.0.zip) | 
-  [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-amd64-v0.2.0.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-arm64-v0.2.0.tar.gz) | 
-  [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-linux-amd64-v0.2.0.tar.gz)
+  [Windows](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-windows-amd64-v0.2.0.zip) | 
+  [macOS](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-macos-amd64-v0.2.0.tar.gz) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-macos-arm64-v0.2.0.tar.gz) | 
+  [Linux](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-linux-amd64-v0.2.0.tar.gz)
 
 - **2023-06-02-v0.1.3**
 
-  [Windows](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-windows-amd64-v0.1.3.zip) | 
-  [macOS](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-amd64-v0.1.3.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-macos-arm64-v0.1.3.tar.gz) | 
-  [Linux](https://download.abelian.info/release/abelwallet-desktop/abelian-desktop-wallet-linux-amd64-v0.1.3.tar.gz)
+  [Windows](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-windows-amd64-v0.1.3.zip) | 
+  [macOS](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-macos-amd64-v0.1.3.tar.gz) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-macos-arm64-v0.1.3.tar.gz) | 
+  [Linux](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-linux-amd64-v0.1.3.tar.gz)
 
 ## Abelian 節點（abec）
 `[abec]`
@@ -433,118 +440,118 @@ outline: deep
 
 - **2024-05-28-v0.13.0**
 
-  [Windows](https://download.abelian.info/release/abec/abec-windows-amd64-v0.13.0.zip) | 
-  [macOS](https://download.abelian.info/release/abec/abec-macos-amd64-v0.13.0.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abec/abec-macos-arm64-v0.13.0.tar.gz) | 
-  [Linux](https://download.abelian.info/release/abec/abec-linux-amd64-v0.13.0.tar.gz) | 
-  [Linux (ARM)](https://download.abelian.info/release/abec/abec-linux-arm64-v0.13.0.tar.gz)
+  [Windows](https://download.pqabelian.io/release/abec/abec-windows-amd64-v0.13.0.zip) | 
+  [macOS](https://download.pqabelian.io/release/abec/abec-macos-amd64-v0.13.0.tar.gz) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abec/abec-macos-arm64-v0.13.0.tar.gz) | 
+  [Linux](https://download.pqabelian.io/release/abec/abec-linux-amd64-v0.13.0.tar.gz) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abec/abec-linux-arm64-v0.13.0.tar.gz)
 
 - **2023-11-19-v0.12.3**
 
-  [Windows](https://download.abelian.info/release/abec/abec-windows-amd64-v0.12.3.zip) | 
-  [macOS](https://download.abelian.info/release/abec/abec-macos-amd64-v0.12.3.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abec/abec-macos-arm64-v0.12.3.tar.gz) | 
-  [Linux](https://download.abelian.info/release/abec/abec-linux-amd64-v0.12.3.tar.gz) | 
-  [Linux (ARM)](https://download.abelian.info/release/abec/abec-linux-arm64-v0.12.3.tar.gz)
+  [Windows](https://download.pqabelian.io/release/abec/abec-windows-amd64-v0.12.3.zip) | 
+  [macOS](https://download.pqabelian.io/release/abec/abec-macos-amd64-v0.12.3.tar.gz) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abec/abec-macos-arm64-v0.12.3.tar.gz) | 
+  [Linux](https://download.pqabelian.io/release/abec/abec-linux-amd64-v0.12.3.tar.gz) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abec/abec-linux-arm64-v0.12.3.tar.gz)
 
 - **2023-09-15-v0.11.13**
 
-  [Windows](https://download.abelian.info/release/abec/abec-windows-amd64-v0.11.13.zip) | 
-  [macOS](https://download.abelian.info/release/abec/abec-macos-amd64-v0.11.13.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abec/abec-macos-arm64-v0.11.13.tar.gz) | 
-  [Linux](https://download.abelian.info/release/abec/abec-linux-amd64-v0.11.13.tar.gz) | 
-  [Linux (ARM)](https://download.abelian.info/release/abec/abec-linux-arm64-v0.11.13.tar.gz)
+  [Windows](https://download.pqabelian.io/release/abec/abec-windows-amd64-v0.11.13.zip) | 
+  [macOS](https://download.pqabelian.io/release/abec/abec-macos-amd64-v0.11.13.tar.gz) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abec/abec-macos-arm64-v0.11.13.tar.gz) | 
+  [Linux](https://download.pqabelian.io/release/abec/abec-linux-amd64-v0.11.13.tar.gz) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abec/abec-linux-arm64-v0.11.13.tar.gz)
 
 - **2023-08-12-v0.11.12**
 
-  [Windows](https://download.abelian.info/release/abec/abec-windows-amd64-v0.11.12.zip) | 
-  [macOS](https://download.abelian.info/release/abec/abec-macos-amd64-v0.11.12.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abec/abec-macos-arm64-v0.11.12.tar.gz) | 
-  [Linux](https://download.abelian.info/release/abec/abec-linux-amd64-v0.11.12.tar.gz) | 
-  [Linux (ARM)](https://download.abelian.info/release/abec/abec-linux-arm64-v0.11.12.tar.gz)
+  [Windows](https://download.pqabelian.io/release/abec/abec-windows-amd64-v0.11.12.zip) | 
+  [macOS](https://download.pqabelian.io/release/abec/abec-macos-amd64-v0.11.12.tar.gz) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abec/abec-macos-arm64-v0.11.12.tar.gz) | 
+  [Linux](https://download.pqabelian.io/release/abec/abec-linux-amd64-v0.11.12.tar.gz) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abec/abec-linux-arm64-v0.11.12.tar.gz)
 
 - **2023-06-02-v0.11.10**
   - 已啟用同步大於32MB的區塊。
 
-  [Windows](https://download.abelian.info/release/abec/abec-windows-amd64-v0.11.10.zip) | 
-  [macOS](https://download.abelian.info/release/abec/abec-macos-amd64-v0.11.10.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abec/abec-macos-arm64-v0.11.10.tar.gz) | 
-  [Linux](https://download.abelian.info/release/abec/abec-linux-amd64-v0.11.10.tar.gz) | 
-  [Linux (ARM)](https://download.abelian.info/release/abec/abec-linux-arm64-v0.11.10.tar.gz)
+  [Windows](https://download.pqabelian.io/release/abec/abec-windows-amd64-v0.11.10.zip) | 
+  [macOS](https://download.pqabelian.io/release/abec/abec-macos-amd64-v0.11.10.tar.gz) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abec/abec-macos-arm64-v0.11.10.tar.gz) | 
+  [Linux](https://download.pqabelian.io/release/abec/abec-linux-amd64-v0.11.10.tar.gz) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abec/abec-linux-arm64-v0.11.10.tar.gz)
 
 - **2023-05-17-v0.11.9**
   - 優化 RPC 響應格式。
 
-  [Windows](https://download.abelian.info/release/abec/abec-windows-amd64-v0.11.9.zip) | 
-  [macOS](https://download.abelian.info/release/abec/abec-macos-amd64-v0.11.9.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abec/abec-macos-arm64-v0.11.9.tar.gz) | 
-  [Linux](https://download.abelian.info/release/abec/abec-linux-amd64-v0.11.9.tar.gz)
+  [Windows](https://download.pqabelian.io/release/abec/abec-windows-amd64-v0.11.9.zip) | 
+  [macOS](https://download.pqabelian.io/release/abec/abec-macos-amd64-v0.11.9.tar.gz) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abec/abec-macos-arm64-v0.11.9.tar.gz) | 
+  [Linux](https://download.pqabelian.io/release/abec/abec-linux-amd64-v0.11.9.tar.gz)
 
 - **2022-11-18-v0.11.5-b**
 
-  [Windows](https://download.abelian.info/release/abec/abec-windows-amd64-v0.11.5.zip) | 
-  [macOS](https://download.abelian.info/release/abec/abec-macos-amd64-v0.11.5.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abec/abec-macos-arm64-v0.11.5.tar.gz) | 
-  [Linux](https://download.abelian.info/release/abec/abec-linux-amd64-v0.11.5.tar.gz)
+  [Windows](https://download.pqabelian.io/release/abec/abec-windows-amd64-v0.11.5.zip) | 
+  [macOS](https://download.pqabelian.io/release/abec/abec-macos-amd64-v0.11.5.tar.gz) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abec/abec-macos-arm64-v0.11.5.tar.gz) | 
+  [Linux](https://download.pqabelian.io/release/abec/abec-linux-amd64-v0.11.5.tar.gz)
 
 - **2022-09-08-v0.11.1**
 
-  [Windows](https://download.abelian.info/release/abec/abec-windows-amd64-v0.11.1.zip) | 
-  [macOS](https://download.abelian.info/release/abec/abec-macos-amd64-v0.11.1.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abec/abec-macos-arm64-v0.11.1.tar.gz) | 
-  [Linux](https://download.abelian.info/release/abec/abec-linux-amd64-v0.11.1.tar.gz)
+  [Windows](https://download.pqabelian.io/release/abec/abec-windows-amd64-v0.11.1.zip) | 
+  [macOS](https://download.pqabelian.io/release/abec/abec-macos-amd64-v0.11.1.tar.gz) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abec/abec-macos-arm64-v0.11.1.tar.gz) | 
+  [Linux](https://download.pqabelian.io/release/abec/abec-linux-amd64-v0.11.1.tar.gz)
 
 ## ABEL-ETHash GPU 挖礦客戶端
 `abelminer`
 
 - **2023-05-31-v2.0.3**
 
-  [Windows](https://download.abelian.info/release/pool/abelminer-windows-amd64-v2.0.3.zip) | 
-  [Linux](https://download.abelian.info/release/pool/abelminer-linux-amd64-v2.0.3.tar.gz)
+  [Windows](https://download.pqabelian.io/release/pool/abelminer-windows-amd64-v2.0.3.zip) | 
+  [Linux](https://download.pqabelian.io/release/pool/abelminer-linux-amd64-v2.0.3.tar.gz)
 
 - **2023-05-17-v2.0.2**
 
-  [Windows](https://download.abelian.info/release/pool/abelminer-windows-amd64-v2.0.2.zip) | 
-  [Linux](https://download.abelian.info/release/pool/abelminer-linux-amd64-v2.0.2.tar.gz)
+  [Windows](https://download.pqabelian.io/release/pool/abelminer-windows-amd64-v2.0.2.zip) | 
+  [Linux](https://download.pqabelian.io/release/pool/abelminer-linux-amd64-v2.0.2.tar.gz)
 
 - **2023-03-03-v2.0.1b**
 
-  [Linux](https://download.abelian.info/release/pool/abelminer-linux-amd64-v2.0.1.b.tar.gz)
+  [Linux](https://download.pqabelian.io/release/pool/abelminer-linux-amd64-v2.0.1.b.tar.gz)
 
 ## ABEL-ETHash CPU 挖礦客戶端
 `abe-miningpool-client`/`abelminer-cpu`
 
 - **2025-07-18-v0.13.2**
 
-  [Windows](https://download.abelian.info/release/pool/abelminer-cpu-windows-amd64-v0.13.2.zip) | 
-  [macOS](https://download.abelian.info/release/pool/abelminer-cpu-macos-amd64-v0.13.2.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/pool/abelminer-cpu-macos-arm64-v0.13.2.tar.gz) | 
-  [Linux](https://download.abelian.info/release/pool/abelminer-cpu-linux-amd64-v0.13.2.tar.gz) | 
-  [Linux (ARM)](https://download.abelian.info/release/pool/abelminer-cpu-linux-arm64-v0.13.2.tar.gz)
+  [Windows](https://download.pqabelian.io/release/pool/abelminer-cpu-windows-amd64-v0.13.2.zip) | 
+  [macOS](https://download.pqabelian.io/release/pool/abelminer-cpu-macos-amd64-v0.13.2.tar.gz) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/pool/abelminer-cpu-macos-arm64-v0.13.2.tar.gz) | 
+  [Linux](https://download.pqabelian.io/release/pool/abelminer-cpu-linux-amd64-v0.13.2.tar.gz) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/pool/abelminer-cpu-linux-arm64-v0.13.2.tar.gz)
 
 - **2024-05-28-v0.13.0**
 
-  [Windows](https://download.abelian.info/release/pool/abe-miningpool-client-windows-amd64-v0.13.0.zip) | 
-  [macOS](https://download.abelian.info/release/pool/abe-miningpool-client-macos-amd64-v0.13.0.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/pool/abe-miningpool-client-macos-arm64-v0.13.0.tar.gz) | 
-  [Linux](https://download.abelian.info/release/pool/abe-miningpool-client-linux-amd64-v0.13.0.tar.gz) | 
-  [Linux (ARM)](https://download.abelian.info/release/pool/abe-miningpool-client-linux-arm64-v0.13.0.tar.gz)
+  [Windows](https://download.pqabelian.io/release/pool/abe-miningpool-client-windows-amd64-v0.13.0.zip) | 
+  [macOS](https://download.pqabelian.io/release/pool/abe-miningpool-client-macos-amd64-v0.13.0.tar.gz) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/pool/abe-miningpool-client-macos-arm64-v0.13.0.tar.gz) | 
+  [Linux](https://download.pqabelian.io/release/pool/abe-miningpool-client-linux-amd64-v0.13.0.tar.gz) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/pool/abe-miningpool-client-linux-arm64-v0.13.0.tar.gz)
 
 - **2023-06-24-v0.11.7**
   - 增強功能：更好的認證用戶體驗和一些小的錯誤修復。
 
-  [Windows](https://download.abelian.info/release/pool/abe-miningpool-client-windows-amd64-v0.11.7.zip) | 
-  [macOS](https://download.abelian.info/release/pool/abe-miningpool-client-macos-amd64-v0.11.7.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/pool/abe-miningpool-client-macos-arm64-v0.11.7.tar.gz) | 
-  [Linux](https://download.abelian.info/release/pool/abe-miningpool-client-linux-amd64-v0.11.7.tar.gz) | 
-  [Linux (ARM)](https://download.abelian.info/release/pool/abe-miningpool-client-linux-arm64-v0.11.7.tar.gz)
+  [Windows](https://download.pqabelian.io/release/pool/abe-miningpool-client-windows-amd64-v0.11.7.zip) | 
+  [macOS](https://download.pqabelian.io/release/pool/abe-miningpool-client-macos-amd64-v0.11.7.tar.gz) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/pool/abe-miningpool-client-macos-arm64-v0.11.7.tar.gz) | 
+  [Linux](https://download.pqabelian.io/release/pool/abe-miningpool-client-linux-amd64-v0.11.7.tar.gz) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/pool/abe-miningpool-client-linux-arm64-v0.11.7.tar.gz)
 
 - **2022-11-25-v0.11.5**
 
-  [Windows](https://download.abelian.info/release/pool/abe-miningpool-client-windows-amd64-v0.11.5.zip) | 
-  [macOS](https://download.abelian.info/release/pool/abe-miningpool-client-macos-amd64-v0.11.5.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/pool/abe-miningpool-client-macos-arm64-v0.11.5.tar.gz) | 
-  [Linux](https://download.abelian.info/release/pool/abe-miningpool-client-linux-amd64-v0.11.5.tar.gz)
+  [Windows](https://download.pqabelian.io/release/pool/abe-miningpool-client-windows-amd64-v0.11.5.zip) | 
+  [macOS](https://download.pqabelian.io/release/pool/abe-miningpool-client-macos-amd64-v0.11.5.tar.gz) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/pool/abe-miningpool-client-macos-arm64-v0.11.5.tar.gz) | 
+  [Linux](https://download.pqabelian.io/release/pool/abe-miningpool-client-linux-amd64-v0.11.5.tar.gz)
 
 
 ## ABEL-Nakamoto CPU 挖礦客戶端
@@ -599,102 +606,102 @@ outline: deep
   - 支援交易版本 3，並支援將ABEL轉移至名為 Pseudo-CT 的新位址類型；
   - 支援「Aconcagua」硬分叉。
 
-  [Windows](https://download.abelian.info/release/abewallet/abewalletlegacy-windows-amd64-v3.0.0.zip) | 
-  [macOS](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-amd64-v3.0.0.tar.gz) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-arm64-v3.0.0.tar.gz) | 
-  [Linux](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-amd64-v3.0.0.tar.gz) | 
-  [Linux (ARM)](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-arm64-v3.0.0.tar.gz)
+  [Windows](https://download.pqabelian.io/release/abewallet/abewalletlegacy-windows-amd64-v3.0.0.zip) | 
+  [macOS](https://download.pqabelian.io/release/abewallet/abewalletlegacy-macos-amd64-v3.0.0.tar.gz) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abewallet/abewalletlegacy-macos-arm64-v3.0.0.tar.gz) | 
+  [Linux](https://download.pqabelian.io/release/abewallet/abewalletlegacy-linux-amd64-v3.0.0.tar.gz) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abewallet/abewalletlegacy-linux-arm64-v3.0.0.tar.gz)
 
 - **2024-08-04-v1.0.0**
   - 支援硬分叉。
 
-  [Windows](https://download.abelian.info/release/abewallet/abewalletlegacy-windows-amd64-v1.0.0.zip) | 
-  [macOS](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-amd64-v1.0.0.zip) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-arm64-v1.0.0.zip) | 
-  [Linux](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-amd64-v1.0.0.zip) | 
-  [Linux (ARM)](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-arm64-v1.0.0.zip)
+  [Windows](https://download.pqabelian.io/release/abewallet/abewalletlegacy-windows-amd64-v1.0.0.zip) | 
+  [macOS](https://download.pqabelian.io/release/abewallet/abewalletlegacy-macos-amd64-v1.0.0.zip) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abewallet/abewalletlegacy-macos-arm64-v1.0.0.zip) | 
+  [Linux](https://download.pqabelian.io/release/abewallet/abewalletlegacy-linux-amd64-v1.0.0.zip) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abewallet/abewalletlegacy-linux-arm64-v1.0.0.zip)
 
 - **2024-07-14-v0.13.9**
 
-  [Windows](https://download.abelian.info/release/abewallet/abewalletlegacy-windows-amd64-v0.13.9.zip) | 
-  [macOS](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-amd64-v0.13.9.zip) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-arm64-v0.13.9.zip) | 
-  [Linux](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-amd64-v0.13.9.zip) | 
-  [Linux (ARM)](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-arm64-v0.13.9.zip)
+  [Windows](https://download.pqabelian.io/release/abewallet/abewalletlegacy-windows-amd64-v0.13.9.zip) | 
+  [macOS](https://download.pqabelian.io/release/abewallet/abewalletlegacy-macos-amd64-v0.13.9.zip) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abewallet/abewalletlegacy-macos-arm64-v0.13.9.zip) | 
+  [Linux](https://download.pqabelian.io/release/abewallet/abewalletlegacy-linux-amd64-v0.13.9.zip) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abewallet/abewalletlegacy-linux-arm64-v0.13.9.zip)
 
 - **2024-06-03-v0.13.1**
 
-  [Windows](https://download.abelian.info/release/abewallet/abewalletlegacy-windows-amd64-v0.13.1.zip) | 
-  [macOS](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-amd64-v0.13.1.zip) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-arm64-v0.13.1.zip) | 
-  [Linux](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-amd64-v0.13.1.zip) | 
-  [Linux (ARM)](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-arm64-v0.13.1.zip)
+  [Windows](https://download.pqabelian.io/release/abewallet/abewalletlegacy-windows-amd64-v0.13.1.zip) | 
+  [macOS](https://download.pqabelian.io/release/abewallet/abewalletlegacy-macos-amd64-v0.13.1.zip) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abewallet/abewalletlegacy-macos-arm64-v0.13.1.zip) | 
+  [Linux](https://download.pqabelian.io/release/abewallet/abewalletlegacy-linux-amd64-v0.13.1.zip) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abewallet/abewalletlegacy-linux-arm64-v0.13.1.zip)
 
 - **2024-05-28-v0.13.0**
 
-  [Windows](https://download.abelian.info/release/abewallet/abewalletlegacy-windows-amd64-v0.13.0.zip) | 
-  [macOS](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-amd64-v0.13.0.zip) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-arm64-v0.13.0.zip) | 
-  [Linux](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-amd64-v0.13.0.zip) | 
-  [Linux (ARM)](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-arm64-v0.13.0.zip)
+  [Windows](https://download.pqabelian.io/release/abewallet/abewalletlegacy-windows-amd64-v0.13.0.zip) | 
+  [macOS](https://download.pqabelian.io/release/abewallet/abewalletlegacy-macos-amd64-v0.13.0.zip) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abewallet/abewalletlegacy-macos-arm64-v0.13.0.zip) | 
+  [Linux](https://download.pqabelian.io/release/abewallet/abewalletlegacy-linux-amd64-v0.13.0.zip) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abewallet/abewalletlegacy-linux-arm64-v0.13.0.zip)
 
 - **2024-05-16-v0.12.8**
 
-  [Windows](https://download.abelian.info/release/abewallet/abewalletlegacy-windows-amd64-v0.12.8.zip) | 
-  [macOS](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-amd64-v0.12.8.zip) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-arm64-v0.12.8.zip) | 
-  [Linux](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-amd64-v0.12.8.zip) | 
-  [Linux (ARM)](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-arm64-v0.12.8.zip)
+  [Windows](https://download.pqabelian.io/release/abewallet/abewalletlegacy-windows-amd64-v0.12.8.zip) | 
+  [macOS](https://download.pqabelian.io/release/abewallet/abewalletlegacy-macos-amd64-v0.12.8.zip) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abewallet/abewalletlegacy-macos-arm64-v0.12.8.zip) | 
+  [Linux](https://download.pqabelian.io/release/abewallet/abewalletlegacy-linux-amd64-v0.12.8.zip) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abewallet/abewalletlegacy-linux-arm64-v0.12.8.zip)
 
 - **2023-12-12-v0.12.5**
 
-  [Windows](https://download.abelian.info/release/abewallet/abewalletlegacy-windows-amd64-v0.12.5.zip) | 
-  [macOS](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-amd64-v0.12.5.zip) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-arm64-v0.12.5.zip) | 
-  [Linux](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-amd64-v0.12.5.zip) | 
-  [Linux (ARM)](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-arm64-v0.12.5.zip)
+  [Windows](https://download.pqabelian.io/release/abewallet/abewalletlegacy-windows-amd64-v0.12.5.zip) | 
+  [macOS](https://download.pqabelian.io/release/abewallet/abewalletlegacy-macos-amd64-v0.12.5.zip) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abewallet/abewalletlegacy-macos-arm64-v0.12.5.zip) | 
+  [Linux](https://download.pqabelian.io/release/abewallet/abewalletlegacy-linux-amd64-v0.12.5.zip) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abewallet/abewalletlegacy-linux-arm64-v0.12.5.zip)
 
 - **2023-11-19-v0.12.3**
 
-  [Windows](https://download.abelian.info/release/abewallet/abewalletlegacy-windows-amd64-v0.12.3.zip) | 
-  [macOS](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-amd64-v0.12.3.zip) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-arm64-v0.12.3.zip) | 
-  [Linux](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-amd64-v0.12.3.zip) | 
-  [Linux (ARM)](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-arm64-v0.12.3.zip)
+  [Windows](https://download.pqabelian.io/release/abewallet/abewalletlegacy-windows-amd64-v0.12.3.zip) | 
+  [macOS](https://download.pqabelian.io/release/abewallet/abewalletlegacy-macos-amd64-v0.12.3.zip) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abewallet/abewalletlegacy-macos-arm64-v0.12.3.zip) | 
+  [Linux](https://download.pqabelian.io/release/abewallet/abewalletlegacy-linux-amd64-v0.12.3.zip) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abewallet/abewalletlegacy-linux-arm64-v0.12.3.zip)
 
 - **2023-09-15-v0.11.13**
 
-  [Windows](https://download.abelian.info/release/abewallet/abewalletlegacy-windows-amd64-v0.11.13.zip) | 
-  [macOS](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-amd64-v0.11.13.zip) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-arm64-v0.11.13.zip) | 
-  [Linux](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-amd64-v0.11.13.zip) | 
-  [Linux (ARM)](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-arm64-v0.11.13.zip)
+  [Windows](https://download.pqabelian.io/release/abewallet/abewalletlegacy-windows-amd64-v0.11.13.zip) | 
+  [macOS](https://download.pqabelian.io/release/abewallet/abewalletlegacy-macos-amd64-v0.11.13.zip) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abewallet/abewalletlegacy-macos-arm64-v0.11.13.zip) | 
+  [Linux](https://download.pqabelian.io/release/abewallet/abewalletlegacy-linux-amd64-v0.11.13.zip) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abewallet/abewalletlegacy-linux-arm64-v0.11.13.zip)
 
 - **2023-08-12-v0.11.12**
 
-  [Windows](https://download.abelian.info/release/abewallet/abewalletlegacy-windows-amd64-v0.11.12.zip) | 
-  [macOS](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-amd64-v0.11.12.zip) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-arm64-v0.11.12.zip) | 
-  [Linux](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-amd64-v0.11.12.zip) | 
-  [Linux (ARM)](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-arm64-v0.11.12.zip)
+  [Windows](https://download.pqabelian.io/release/abewallet/abewalletlegacy-windows-amd64-v0.11.12.zip) | 
+  [macOS](https://download.pqabelian.io/release/abewallet/abewalletlegacy-macos-amd64-v0.11.12.zip) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abewallet/abewalletlegacy-macos-arm64-v0.11.12.zip) | 
+  [Linux](https://download.pqabelian.io/release/abewallet/abewalletlegacy-linux-amd64-v0.11.12.zip) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abewallet/abewalletlegacy-linux-arm64-v0.11.12.zip)
 
 - **2023-06-02-v0.11.10**
   - 修復了一些已知的錯誤。
 
-  [Windows](https://download.abelian.info/release/abewallet/abewalletlegacy-windows-amd64-v0.11.10.zip) | 
-  [macOS](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-amd64-v0.11.10.zip) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-arm64-v0.11.10.zip) | 
-  [Linux](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-amd64-v0.11.10.zip) | 
-  [Linux (ARM)](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-arm64-v0.11.10.zip)
+  [Windows](https://download.pqabelian.io/release/abewallet/abewalletlegacy-windows-amd64-v0.11.10.zip) | 
+  [macOS](https://download.pqabelian.io/release/abewallet/abewalletlegacy-macos-amd64-v0.11.10.zip) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abewallet/abewalletlegacy-macos-arm64-v0.11.10.zip) | 
+  [Linux](https://download.pqabelian.io/release/abewallet/abewalletlegacy-linux-amd64-v0.11.10.zip) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abewallet/abewalletlegacy-linux-arm64-v0.11.10.zip)
 
 - **2023-05-17-v0.11.9**
   - 優化 RPC 響應格式。
 
-  [Windows](https://download.abelian.info/release/abewallet/abewalletlegacy-windows-amd64-v0.11.9.zip) | 
-  [macOS](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-amd64-v0.11.9.zip) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-arm64-v0.11.9.zip) | 
-  [Linux](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-amd64-v0.11.9.zip) | 
-  [Linux (ARM)](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-arm64-v0.11.9.zip)
+  [Windows](https://download.pqabelian.io/release/abewallet/abewalletlegacy-windows-amd64-v0.11.9.zip) | 
+  [macOS](https://download.pqabelian.io/release/abewallet/abewalletlegacy-macos-amd64-v0.11.9.zip) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abewallet/abewalletlegacy-macos-arm64-v0.11.9.zip) | 
+  [Linux](https://download.pqabelian.io/release/abewallet/abewalletlegacy-linux-amd64-v0.11.9.zip) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abewallet/abewalletlegacy-linux-arm64-v0.11.9.zip)
 
 - **2022-11-18-v0.11.5-b**
   - 新增API：查詢當前生成的錢包地址總數；命令從 addressnumber 更改為 addressmaxsequencenumber。
@@ -703,19 +710,19 @@ outline: deep
   - 修復了已知錯誤。
   - 支援在交易狀態發生變化時通過 websocket 進行通知。
 
-  [Windows](https://download.abelian.info/release/abewallet/abewalletlegacy-windows-amd64-v0.11.5-b.zip) | 
-  [macOS](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-amd64-v0.11.5-b.zip) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-arm64-v0.11.5-b.zip) | 
-  [Linux](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-amd64-v0.11.5-b.zip) | 
-  [Linux (ARM)](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-arm64-v0.11.5-b.zip)
+  [Windows](https://download.pqabelian.io/release/abewallet/abewalletlegacy-windows-amd64-v0.11.5-b.zip) | 
+  [macOS](https://download.pqabelian.io/release/abewallet/abewalletlegacy-macos-amd64-v0.11.5-b.zip) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abewallet/abewalletlegacy-macos-arm64-v0.11.5-b.zip) | 
+  [Linux](https://download.pqabelian.io/release/abewallet/abewalletlegacy-linux-amd64-v0.11.5-b.zip) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abewallet/abewalletlegacy-linux-arm64-v0.11.5-b.zip)
 
 - **2022-09-08-v0.11.1**
 
-  [Windows](https://download.abelian.info/release/abewallet/abewalletlegacy-windows-amd64-v0.11.1.zip) | 
-  [macOS](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-amd64-v0.11.1.zip) | 
-  [macOS (Apple silicon)](https://download.abelian.info/release/abewallet/abewalletlegacy-macos-arm64-v0.11.1.zip) | 
-  [Linux](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-amd64-v0.11.1.zip) | 
-  [Linux (ARM)](https://download.abelian.info/release/abewallet/abewalletlegacy-linux-arm64-v0.11.1.zip)
+  [Windows](https://download.pqabelian.io/release/abewallet/abewalletlegacy-windows-amd64-v0.11.1.zip) | 
+  [macOS](https://download.pqabelian.io/release/abewallet/abewalletlegacy-macos-amd64-v0.11.1.zip) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abewallet/abewalletlegacy-macos-arm64-v0.11.1.zip) | 
+  [Linux](https://download.pqabelian.io/release/abewallet/abewalletlegacy-linux-amd64-v0.11.1.zip) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abewallet/abewalletlegacy-linux-arm64-v0.11.1.zip)
 
 ## 移动钱包 (经典版)
 
@@ -723,7 +730,7 @@ outline: deep
 
   [iOS](https://apps.apple.com/us/app/abelian/id6472198380) | 
   [Android](https://play.google.com/store/apps/details?id=info.abelian.wallet) | 
-  [APK](https://download.abelian.info/release/android/abelian-mobile-wallet-v1.0.2.apk)
+  [APK](https://download.pqabelian.io/release/android/abelian-mobile-wallet-v1.0.2.apk)
 
 ## Abelian 手冊
 
