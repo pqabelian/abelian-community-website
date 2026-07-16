@@ -40,7 +40,8 @@ export default defineConfig({
               { text: 'ABEL-Nakamoto', link: 'https://abel-nakamoto.xyz/' },
               { text: 'AbelPool', link: 'https://www.abelpool.io/' }
             ]
-          }
+          },
+          { text: 'HAKO METAL Genesis', link: 'https://hakometal.xyz' }
         ],
 
         sidebar: {
@@ -184,7 +185,8 @@ export default defineConfig({
               { text: 'ABEL-Nakamoto', link: 'https://abel-nakamoto.xyz/' },
               { text: 'AbelPool', link: 'https://www.abelpool.io/' }
             ]
-          }
+          },
+          { text: 'HAKO METAL Genesis', link: 'https://hakometal.xyz' }
         ],
 
         sidebar: {

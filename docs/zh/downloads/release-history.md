@@ -37,12 +37,20 @@ outline: deep
 ## Abelian (移動應用)
 `abelian-mobile-wallet-pro / info.abelian.walletpro`
 
+- **2026-07-16-v8.5.0**
+  - 重新設計了 iCloud 備份。
+  - 重新設計了其他資產發送介面，支持快速切換帳戶。
+  - 更靈活的恢復短語匯入。
+  - 改進了 Swap，提供了更清晰的審查介面。
+  - 性能改進和錯誤修復。
+
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.5.0.apk)
+
 - **2026-07-02-v8.4.1**
   - 修正了關於挖礦機購買的問題。
   - 錯誤修復。
 
-  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.4.1.apk) | 
-  [iOS](https://download.pqabelian.io/release/ios/abelian-mobile-wallet-pro-v8.4.1.aab)
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.4.1.apk)
 
 - **2026-06-09-v8.2.0**
   - 在其他資產中新增對 TRON 的支援。
@@ -52,14 +60,12 @@ outline: deep
   - 優化多鏈地址簿功能。
   - 錯誤修復。
 
-  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.2.0.apk) | 
-  [iOS](https://download.pqabelian.io/release/ios/abelian-mobile-wallet-pro-v8.2.0.aab)
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.2.0.apk)
 
 - **2026-05-17-v8.1.1**
   - 錯誤修復。
 
-  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.1.1.apk) | 
-  [iOS](https://download.pqabelian.io/release/ios/abelian-mobile-wallet-pro-v8.1.1.aab)
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.1.1.apk)
 
 - **2026-05-16-v8.1.0**
   - 改善應用程式設計和導航體驗。
@@ -68,20 +74,17 @@ outline: deep
   - 增加了挖礦標籤，支援 Nakamoto Pool，用於管理挖礦設定檔、工作者、貢獻歷史和 HAKO METAL Genesis ASIC 的設置。
   - 改善了 QR 碼掃描、安全驗證、效能和錯誤修復。
 
-  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.1.0.apk) | 
-  [iOS](https://download.pqabelian.io/release/ios/abelian-mobile-wallet-pro-v8.1.0.aab)
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.1.0.apk)
 
 - **2026-05-06-v8.0.2**
   - 錯誤修復。
 
-  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.0.2.apk) | 
-  [iOS](https://download.pqabelian.io/release/ios/abelian-mobile-wallet-pro-v8.0.2.aab)
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.0.2.apk)
 
 - **2026-04-16-v8.0.1**
   - 增強了 AUT 註冊表單，使其標籤、佔位符和選項更清晰。
 
-  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.0.1.apk) | 
-  [iOS](https://download.pqabelian.io/release/ios/abelian-mobile-wallet-pro-v8.0.1.aab)
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.0.1.apk)
 
 - **2026-04-09-v8.0.0**
   - 支援 Abelian User Token (AUT)；
@@ -90,29 +93,25 @@ outline: deep
   - 新增 QDay 代幣的轉帳功能；
   - 其他 UI/UX 改進與錯誤修復。
 
-  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.0.0.apk) | 
-  [iOS](https://download.pqabelian.io/release/ios/abelian-mobile-wallet-pro-v8.0.0.aab)
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.0.0.apk)
 
 - **2026-03-27-v7.1.0**
   - 支援在購買 ABEL/USD8 時使用「其他資產」進行支付。
   - 優化「發現」部分並新增「給我們評分」按鈕。
   - 其他 UI/UX 改進與錯誤修復。
 
-  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v7.1.0.apk) | 
-  [iOS](https://download.pqabelian.io/release/ios/abelian-mobile-wallet-pro-v7.1.0.aab)
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v7.1.0.apk)
 
 - **2026-03-07-v7.0.0**
   - 應用程式名稱由「Abelian Pro」更新為「Abelian」。
   - 支援「其他資產」（以太坊網路上的 ETH 和 USDT）。
   - 其他 UI/UX 改進與錯誤修復。
 
-  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v7.0.0.apk) | 
-  [iOS](https://download.pqabelian.io/release/ios/abelian-mobile-wallet-pro-v7.0.0.aab)
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v7.0.0.apk)
 
 - **2026-01-20-v6.0.2**
 
-  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v6.0.2.apk) | 
-  [iOS](https://download.pqabelian.io/release/ios/abelian-mobile-wallet-pro-v6.0.2.aab)
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v6.0.2.apk)
 
 - **2026-01-12-v6.0.0**
 
@@ -121,8 +120,7 @@ outline: deep
   - 更新透明錢包與遮蔽錢包的術語；
   - 使用者介面與使用者體驗的增強及錯誤修正。
 
-  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v6.0.0.apk) | 
-  [iOS](https://download.pqabelian.io/release/ios/abelian-mobile-wallet-pro-v6.0.0.aab)
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v6.0.0.apk)
 
 - **2025-11-22-v5.1.0**
 
@@ -130,16 +128,14 @@ outline: deep
   - 15分鐘內無需重新輸入密碼；
   - 修復了一些錯誤。
 
-  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v5.1.0.apk) | 
-  [iOS](https://download.pqabelian.io/release/ios/abelian-mobile-wallet-pro-v5.1.0.aab)
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v5.1.0.apk)
 
 - **2025-10-28-v5.0.0**
 
   - 支持 QDay (二級網路)；
   - 修復了一些錯誤。
 
-  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v5.0.0.apk) | 
-  [iOS](https://download.pqabelian.io/release/ios/abelian-mobile-wallet-pro-v5.0.0.aab)
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v5.0.0.apk)
 
 - **2025-09-06-v4.0.0**
 
@@ -147,8 +143,7 @@ outline: deep
   - 整合通訊錄；
   - 修復了一些錯誤。
 
-  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v4.0.0.apk) | 
-  [iOS](https://download.pqabelian.io/release/ios/abelian-mobile-wallet-pro-v4.0.0.aab)
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v4.0.0.apk)
 
 - **2025-07-25-v3.0.0**
 
@@ -156,8 +151,7 @@ outline: deep
   - 優化交易歷史緩存；
   - 修復了一些錯誤。
 
-  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v3.0.0.apk) | 
-  [iOS](https://download.pqabelian.io/release/ios/abelian-mobile-wallet-pro-v3.0.0.aab)
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v3.0.0.apk)
 
 ## 桌面錢包專業版 (MLP)
 `abelian-desktop-wallet-pro`

@@ -37,12 +37,20 @@ We provide the packages of previous versions mainly for archive purposes. Please
 ## Abelian (Mobile)
 `abelian-mobile-wallet-pro / info.abelian.walletpro`
 
+- **2026-07-16-v8.5.0**
+  - Redesigned iCloud Backup.
+  - Redesigned Other Assets send screen with quick account switching.
+  - Flexible recovery phrase import.
+  - Improved Swap with a clearer review screen.
+  - Performance improvements and bug fixes.
+
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.5.0.apk)
+
 - **2026-07-02-v8.4.1**
   - Fixed an issue with mining machine purchases.
   - Bug fixes.
 
-  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.4.1.apk) | 
-  [iOS](https://download.pqabelian.io/release/ios/abelian-mobile-wallet-pro-v8.4.1.aab)
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.4.1.apk)
 
 - **2026-06-09-v8.2.0**
   - Added TRON support in Other Assets.
@@ -52,14 +60,12 @@ We provide the packages of previous versions mainly for archive purposes. Please
   - Optimized the multi-chain Address Book.
   - Bug fixes.
 
-  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.2.0.apk) | 
-  [iOS](https://download.pqabelian.io/release/ios/abelian-mobile-wallet-pro-v8.2.0.aab)
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.2.0.apk)
 
 - **2026-05-17-v8.1.1**
   - Bug fixes.
 
-  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.1.1.apk) | 
-  [iOS](https://download.pqabelian.io/release/ios/abelian-mobile-wallet-pro-v8.1.1.aab)
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.1.1.apk)
 
 - **2026-05-16-v8.1.0**
   - Refreshed app design and navigation experience.
@@ -68,20 +74,17 @@ We provide the packages of previous versions mainly for archive purposes. Please
   - Added Mining tab with Nakamoto Pool support for managing mining profiles, workers, contribution history, and HAKO METAL Genesis ASIC setup.
   - Improved QR scanning, security verification, performance, and bug fixes.
 
-  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.1.0.apk) | 
-  [iOS](https://download.pqabelian.io/release/ios/abelian-mobile-wallet-pro-v8.1.0.aab)
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.1.0.apk)
 
 - **2026-05-06-v8.0.2**
   - Bug fixes.
 
-  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.0.2.apk) | 
-  [iOS](https://download.pqabelian.io/release/ios/abelian-mobile-wallet-pro-v8.0.2.aab)
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.0.2.apk)
 
 - **2026-04-16-v8.0.1**
   - Enhance the AUT registration form with clearer labels, placeholders, and refined options.
 
-  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.0.1.apk) | 
-  [iOS](https://download.pqabelian.io/release/ios/abelian-mobile-wallet-pro-v8.0.1.aab)
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.0.1.apk)
 
 - **2026-04-09-v8.0.0**
   - Support for Abelian User Token (AUT).
@@ -90,29 +93,25 @@ We provide the packages of previous versions mainly for archive purposes. Please
   - Added transfer functionality for QDay Tokens.
   - Other UI/UX enhancements and bug fixes.
 
-  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.0.0.apk) | 
-  [iOS](https://download.pqabelian.io/release/ios/abelian-mobile-wallet-pro-v8.0.0.aab)
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.0.0.apk)
 
 - **2026-03-27-v7.1.0**
   - Support paying via "Other Assets" when buying ABEL/USD8.
   - Optimize Discover section and add "Rate Us" button.
   - Other UI/UX enhancements and bug fixes.
 
-  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v7.1.0.apk) | 
-  [iOS](https://download.pqabelian.io/release/ios/abelian-mobile-wallet-pro-v7.1.0.aab)
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v7.1.0.apk)
 
 - **2026-03-07-v7.0.0**
   - App name updated from "Abelian Pro" to "Abelian".
   - Support "Other Assets" (ETH and USDT on the Ethereum network).
   - Other UI/UX enhancements and bug fixes.
 
-  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v7.0.0.apk) | 
-  [iOS](https://download.pqabelian.io/release/ios/abelian-mobile-wallet-pro-v7.0.0.aab)
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v7.0.0.apk)
 
 - **2026-01-20-v6.0.2**
 
-  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v6.0.2.apk) | 
-  [iOS](https://download.pqabelian.io/release/ios/abelian-mobile-wallet-pro-v6.0.2.aab)
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v6.0.2.apk)
 
 - **2026-01-12-v6.0.0**
   - Support AUT (Abelian User Token) features.
@@ -120,39 +119,34 @@ We provide the packages of previous versions mainly for archive purposes. Please
   - Update terminologies for Transparent and Shielded Wallets.
   - UI/UX enhancements and bug fixes.
 
-  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v6.0.0.apk) | 
-  [iOS](https://download.pqabelian.io/release/ios/abelian-mobile-wallet-pro-v6.0.0.aab)
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v6.0.0.apk)
 
 - **2025-11-22-v5.1.0**
   - Separated MLP accounts
   - No need to re-enter your password within 15 minutes
   - Bug fixes
 
-  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v5.1.0.apk) | 
-  [iOS](https://download.pqabelian.io/release/ios/abelian-mobile-wallet-pro-v5.1.0.aab)
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v5.1.0.apk)
 
 - **2025-10-28-v5.0.0**
   - Support QDay (Layer 2).
   - Bug fixes.
 
-  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v5.0.0.apk) | 
-  [iOS](https://download.pqabelian.io/release/ios/abelian-mobile-wallet-pro-v5.0.0.aab)
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v5.0.0.apk)
 
 - **2025-09-06-v4.0.0**
   - Add UTXO consolidation feature for MLP accounts.
   - Consolidated address book.
   - Bug fixes.
 
-  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v4.0.0.apk) | 
-  [iOS](https://download.pqabelian.io/release/ios/abelian-mobile-wallet-pro-v4.0.0.aab)
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v4.0.0.apk)
 
 - **2025-07-25-v3.0.0**
   - Buy ABEL using USDT and USDC are now available!
   - Optimise tx history cache.
   - Bug fixes.
 
-  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v3.0.0.apk) | 
-  [iOS](https://download.pqabelian.io/release/ios/abelian-mobile-wallet-pro-v3.0.0.aab)
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v3.0.0.apk)
 
 ## Desktop Wallet Pro (MLP)
 `abelian-desktop-wallet-pro`
