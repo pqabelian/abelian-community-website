@@ -37,6 +37,11 @@ We provide the packages of previous versions mainly for archive purposes. Please
 ## Abelian (Mobile)
 `abelian-mobile-wallet-pro / info.abelian.walletpro`
 
+- **2026-08-06-v8.5.1**
+  - Bug fixes.
+
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.5.1.apk)
+
 - **2026-07-16-v8.5.0**
   - Redesigned iCloud Backup.
   - Redesigned Other Assets send screen with quick account switching.

@@ -37,6 +37,11 @@ outline: deep
 ## Abelian (移動應用)
 `abelian-mobile-wallet-pro / info.abelian.walletpro`
 
+- **2026-08-06-v8.5.1**
+  - 錯誤修復。
+
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.5.1.apk)
+
 - **2026-07-16-v8.5.0**
   - 重新設計了 iCloud 備份。
   - 重新設計了其他資產發送介面，支持快速切換帳戶。
