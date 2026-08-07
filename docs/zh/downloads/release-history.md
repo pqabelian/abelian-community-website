@@ -161,6 +161,19 @@ outline: deep
 ## 桌面錢包專業版 (MLP)
 `abelian-desktop-wallet-pro`
 
+- **2026-08-07-v3.0.0**
+  - 自動更新機制
+  - U9 批量發送（最多 500 個收款人）
+  - 統一隱私類型名稱：Shield、Transparent、Transparent/AUT
+  - 修復問題：重入合併、不穩定的交易歷史 UI 等
+  - 改善賬戶生命週期管理
+
+  [Windows](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v3.0.0.exe) | 
+  [macOS](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v3.0.0.dmg) | 
+  [macOS (Apple Silicon)](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v3.0.0.dmg) | 
+  [Linux](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v3.0.0.deb) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v3.0.0.deb)
+
 - **2026-05-07-v2.2.0**
   - 支持隱藏式 AUT 操作；
   - 統一 UI 佈局，包括統一術語、間距和有序的帳戶列表；
