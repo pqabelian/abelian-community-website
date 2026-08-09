@@ -156,12 +156,21 @@ We provide the packages of previous versions mainly for archive purposes. Please
 ## Desktop Wallet Pro (MLP)
 `abelian-desktop-wallet-pro`
 
+- **2026-08-10-v3.0.1**
+  - for batch-sending, using 4 columns in CSV, No., name, address, amount.
+
+  [Windows](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v3.0.1.exe) | 
+  [macOS](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v3.0.1.dmg) | 
+  [macOS (Apple Silicon)](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v3.0.1.dmg) | 
+  [Linux](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v3.0.1.deb) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v3.0.1.deb)
+
 - **2026-08-07-v3.0.0**
-  - introduce automatic update mechanism
-  - introduce U9 batch sending for no more than 500 recipients
-  - unified privacy type name: Shield,  Transparent, Transparent/AUT
-  - fix issues: reentrancy consolidation, unstable transaction history UI, etc
-  - improve account lifecycle management
+  - introduce automatic update mechanism.
+  - introduce U9 batch sending for no more than 500 recipients.
+  - unified privacy type name: Shield,  Transparent, Transparent/AUT.
+  - fix issues: reentrancy consolidation, unstable transaction history UI, etc.
+  - improve account lifecycle management.
 
   [Windows](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v3.0.0.exe) | 
   [macOS](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v3.0.0.dmg) | 

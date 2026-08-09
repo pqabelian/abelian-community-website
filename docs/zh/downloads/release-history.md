@@ -161,6 +161,15 @@ outline: deep
 ## 桌面錢包專業版 (MLP)
 `abelian-desktop-wallet-pro`
 
+- **2026-08-10-v3.0.1**
+  - 批量發送 CSV 文件使用4列格式：No., name, address, amount。
+
+  [Windows](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-windows-amd64-v3.0.1.exe) | 
+  [macOS](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-amd64-v3.0.1.dmg) | 
+  [macOS (Apple Silicon)](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-macos-arm64-v3.0.1.dmg) | 
+  [Linux](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-amd64-v3.0.1.deb) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abelwallet-desktop/abelian-desktop-wallet-pro-linux-arm64-v3.0.1.deb)
+
 - **2026-08-07-v3.0.0**
   - 自動更新機制
   - U9 批量發送（最多 500 個收款人）

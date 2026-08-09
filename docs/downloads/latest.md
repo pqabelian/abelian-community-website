@@ -188,16 +188,16 @@ It is available on both iOS and Android platforms.
 ---
 
 ## Desktop Wallet Pro (MLP)
-- **Release Date**: `2026-08-07`
-- **Package Name**: `abelian-desktop-wallet-pro-v3.0.0`
+- **Release Date**: `2026-08-10`
+- **Package Name**: `abelian-desktop-wallet-pro-v3.0.1`
 - **Package Size**: `≈ 120MB`
 - **Download Links**:
 <div class="button-container">
-  <a href="https://github.com/pqabelian/abelian-desktop-wallet-pro/releases/download/v3.0.0/abelian-desktop-wallet-pro-macos-arm64-v3.0.0.dmg" class="btn">macOS (Apple Silicon)</a>
-  <a href="https://github.com/pqabelian/abelian-desktop-wallet-pro/releases/download/v3.0.0/abelian-desktop-wallet-pro-macos-amd64-v3.0.0.dmg" class="btn">macOS (Intel)</a>
-  <a href="https://github.com/pqabelian/abelian-desktop-wallet-pro/releases/download/v3.0.0/abelian-desktop-wallet-pro-windows-amd64-v3.0.0.exe" class="btn">Windows</a>
-  <a href="https://github.com/pqabelian/abelian-desktop-wallet-pro/releases/download/v3.0.0/abelian-desktop-wallet-pro-linux-amd64-v3.0.0.deb" class="btn">Linux</a>
-  <a href="https://github.com/pqabelian/abelian-desktop-wallet-pro/releases/download/v3.0.0/abelian-desktop-wallet-pro-linux-arm64-v3.0.0.deb" class="btn">Linux (ARM)</a>
+  <a href="https://github.com/pqabelian/abelian-desktop-wallet-pro/releases/download/v3.0.1/abelian-desktop-wallet-pro-macos-arm64-v3.0.1.dmg" class="btn">macOS (Apple Silicon)</a>
+  <a href="https://github.com/pqabelian/abelian-desktop-wallet-pro/releases/download/v3.0.1/abelian-desktop-wallet-pro-macos-amd64-v3.0.1.dmg" class="btn">macOS (Intel)</a>
+  <a href="https://github.com/pqabelian/abelian-desktop-wallet-pro/releases/download/v3.0.1/abelian-desktop-wallet-pro-windows-amd64-v3.0.1.exe" class="btn">Windows</a>
+  <a href="https://github.com/pqabelian/abelian-desktop-wallet-pro/releases/download/v3.0.1/abelian-desktop-wallet-pro-linux-amd64-v3.0.1.deb" class="btn">Linux</a>
+  <a href="https://github.com/pqabelian/abelian-desktop-wallet-pro/releases/download/v3.0.1/abelian-desktop-wallet-pro-linux-arm64-v3.0.1.deb" class="btn">Linux (ARM)</a>
 </div>
 
 ::: info  <Badge type="warning" text="RELEASE NOTES" />
@@ -211,11 +211,12 @@ It is available on both iOS and Android platforms.
 - For the first time, you can create wallets, some of them are fully-private and some others are pseudo-private.
 
 **v3.0.0 Upgrade Notes:**
-1. introduce automatic update mechanism
-2. introduce U9 batch sending for no more than 500 recipients
-3. uinified privacy type name: Shield,  Transparent, Transparent/AUT
-4. fix issues: reentrancy consolidation, unstable transaction history UI, etc
-5. improve account lifecycle management
+1. introduce automatic update mechanism.
+2. introduce U9 batch sending for no more than 500 recipients.
+3. uinified privacy type name: Shield,  Transparent, Transparent/AUT.
+4. fix issues: reentrancy consolidation, unstable transaction history UI, etc.
+5. improve account lifecycle management.
+6. for batch-sending, using 4 columns in CSV, No., name, address, amount.
 :::
 
 ---
