@@ -37,6 +37,14 @@ We provide the packages of previous versions mainly for archive purposes. Please
 ## Abelian (Mobile)
 `abelian-mobile-wallet-pro / info.abelian.walletpro`
 
+- **2026-08-13-v8.6.0**
+  - Improved the Send and Swap experience, with a confirmation step before anything is executed;
+  - Automatic iCloud sync for accounts and the address book on iOS;
+  - Various interface and wording improvements;
+  - Bug fixes and stability improvements.
+
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.6.0.apk)
+
 - **2026-08-06-v8.5.1**
   - Bug fixes.
 

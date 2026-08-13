@@ -37,6 +37,14 @@ outline: deep
 ## Abelian (移動應用)
 `abelian-mobile-wallet-pro / info.abelian.walletpro`
 
+- **2026-08-13-v8.6.0**
+  - 改善了交易和兌換體驗，在執行任何操作前增加了確認步驟；
+  - iOS 上的賬戶和地址簿支援自動 iCloud 同步；
+  - 各類介面和文字描述改進；
+  - 錯誤修復和穩定性提升。
+
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.6.0.apk)
+
 - **2026-08-06-v8.5.1**
   - 錯誤修復。
 
