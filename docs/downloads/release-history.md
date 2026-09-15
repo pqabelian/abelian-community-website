@@ -37,6 +37,21 @@ We provide the packages of previous versions mainly for archive purposes. Please
 ## Abelian (Mobile)
 `abelian-mobile-wallet-pro / info.abelian.walletpro`
 
+- **2026-09-16-v9.0.1**
+  - Fixed several issues and improved stability.
+
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v9.0.1.apk)
+
+- **2026-08-30-v8.7.0**
+  - Unified the Buy and Swap entry points into a single flow.
+  - Added a Support shortcut to the Other Assets header.
+  - Consolidated Profile and Settings into one screen and removed the QDay account unbinding flow.
+  - Improved QR-code routing to open the corresponding Send flow automatically.
+  - Added the U9 swap airdrop campaign to the swap form.
+  - Additional performance improvements and bug fixes.
+
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.7.0.apk)
+
 - **2026-08-13-v8.6.0**
   - Improved the Send and Swap experience, with a confirmation step before anything is executed;
   - Automatic iCloud sync for accounts and the address book on iOS;

@@ -37,6 +37,21 @@ outline: deep
 ## Abelian (移動應用)
 `abelian-mobile-wallet-pro / info.abelian.walletpro`
 
+- **2026-09-16-v9.0.1**
+  - 修复了一些问题并提高了稳定性。
+
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v9.0.1.apk)
+
+- **2026-08-30-v8.7.0**
+  - 統一了購買和兌換的入口點到單一流程。
+  - 在“其他資產”標題中添加了支持快捷方式。
+  - 將“個人資料”和“設置”合併到一個屏幕，並刪除了 QDay 賬戶解綁流程。
+  - 改進了 QR 碼路由，以自動打開相應的發送流程。
+  - 在兌換表單中添加了 U9 兌換空投活動。
+  - 額外的性能改進和錯誤修復。
+
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.7.0.apk)
+
 - **2026-08-13-v8.6.0**
   - 改善了交易和兌換體驗，在執行任何操作前增加了確認步驟；
   - iOS 上的賬戶和地址簿支援自動 iCloud 同步；

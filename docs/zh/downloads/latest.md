@@ -164,7 +164,7 @@ outline: deep
     <span>下載我們最新的移動錢包</span>
   </div>
   <div class="btn-wrapper">
-    <a href="https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v8.6.0.apk" class="btn-apk">APK</a>
+    <a href="https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v9.0.1.apk" class="btn-apk">APK</a>
     <a href="https://play.google.com/store/apps/details?id=info.abelian.walletpro" class="btn-base btn-android"></a>
     <a href="https://apps.apple.com/us/app/abelian-pro/id6475756639" class="btn-base btn-ios"></a>
   </div>
@@ -173,14 +173,11 @@ outline: deep
 ::: info <Badge type="warning" text="特點介紹" />
 新的移動錢包是對之前移動錢包的全面重寫，旨在更加用戶友好和功能豐富。它可在 iOS 和 Android 平台上使用。
 
-**v8.6.0 升級說明:**
+**v9.0.1 升級說明:**
 
-- 改善了交易和兌換體驗，在執行任何操作前增加了確認步驟；
-- iOS 上的賬戶和地址簿支援自動 iCloud 同步；
-- 各類介面和文字描述改進；
-- 錯誤修復和穩定性提升。
+- 修复了一些问题并提高了稳定性。
 
-**新版本特點：**
+**新版本特性：**
 1. 支持 Abelian 二級網路 - QDay，允許用戶瀏覽區塊鏈數據、管理 ERC20 代幣、使用去中心化交易所、跨鏈質押 ABEL 代幣，以及訪問各種 DeFi 應用。
 2. 同時支援錢包賬戶 Legacy 地址和新的 MLP 地址，MLP（多層隱私）賬戶的優勢參考 [桌面錢包專業版 - 發布說明](/zh/downloads/latest#abelian-桌面錢包專業版-mlp)；
 3. 推薦升級到新版後創建新的錢包賬戶（MLP 地址），並在創建新的 MLP 錢包賬戶後，將所有舊賬戶的餘額 ABEL 幣從轉賬至 MLP 錢包賬戶；
