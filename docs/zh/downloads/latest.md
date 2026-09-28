@@ -164,7 +164,7 @@ outline: deep
     <span>下載我們最新的移動錢包</span>
   </div>
   <div class="btn-wrapper">
-    <a href="https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v9.0.1.apk" class="btn-apk">APK</a>
+    <a href="https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v9.1.0.apk" class="btn-apk">APK</a>
     <a href="https://play.google.com/store/apps/details?id=info.abelian.walletpro" class="btn-base btn-android"></a>
     <a href="https://apps.apple.com/us/app/abelian-pro/id6475756639" class="btn-base btn-ios"></a>
   </div>
@@ -173,9 +173,23 @@ outline: deep
 ::: info <Badge type="warning" text="特點介紹" />
 新的移動錢包是對之前移動錢包的全面重寫，旨在更加用戶友好和功能豐富。它可在 iOS 和 Android 平台上使用。
 
-**v9.0.1 升級說明:**
+**v9.1.0 升級說明:**
 
-- 修复了一些问题并提高了稳定性。
+- 自動建立並完善QDay與Other Assets錢包。
+- QDay和Other Assets共用綁定的ABEL賬號徽章，用戶可自由切換、查看並複製ABEL地址。
+- 錢包Abelian模塊新增客服入口。
+- 非主網環境新增App版本徽章顯示。
+- 新增用於手動構建APK、AAB和TestFlight的 GitHub Actions 工作流。
+- USDT-TRC20轉賬無需TRX：關閉後僅顯示一次黃色提示，離開轉賬流程後自動消失。
+- 鏈上異常：採用後端返回的數據作為前端備用，避免訂單長時間停留在“進行中”或“等待中”狀態。
+- 轉賬/導入助記詞交互調整：移除自動收鍵盤，並將付款頁向上移動。
+- 優化macOS界面適配。
+- 調整U9詳情頁操作按鈕的佈局和文字顯示。
+- 在弱網絡條件下， Abel/U9 傳輸大 Hex 數據；前端現已支持 SNP 新增的 ref 引用傳遞模式。
+- 調整訂單詳情頁付款提示的左右間距。
+- 調整Other Assets頁面交易過濾圖標的位置。
+- 增大了語言抽屜的高度。
+- 移除了Abelian頭部金額的自動收縮，防止金額顯示異常縮小。
 
 **新版本特性：**
 1. 支持 Abelian 二級網路 - QDay，允許用戶瀏覽區塊鏈數據、管理 ERC20 代幣、使用去中心化交易所、跨鏈質押 ABEL 代幣，以及訪問各種 DeFi 應用。
@@ -253,25 +267,24 @@ outline: deep
 ---
 
 ## Abelian 節點（abec）
-- **發布日期**： `2026-01-01`
-- **軟體名稱**： `abec-v3.0.1`
+- **發布日期**： `2026-09-28`
+- **軟體名稱**： `abec-v3.3.0`
 - **軟體大小**： `≈ 23MB`
 - **下載連結**：
 <div class="button-container">
-  <a href="https://download.pqabelian.io/release/abec/abec-macos-arm64-v3.0.1.tar.gz" class="btn">macOS (Apple Silicon)</a>
-  <a href="https://download.pqabelian.io/release/abec/abec-macos-amd64-v3.0.1.tar.gz" class="btn">macOS (Intel)</a>
-  <a href="https://download.pqabelian.io/release/abec/abec-windows-amd64-v3.0.1.zip" class="btn">Windows</a>
-  <a href="https://download.pqabelian.io/release/abec/abec-linux-amd64-v3.0.1.tar.gz" class="btn">Linux</a>
-  <a href="https://download.pqabelian.io/release/abec/abec-linux-arm64-v3.0.1.tar.gz" class="btn">Linux (ARM)</a>
+  <a href="https://download.pqabelian.io/release/abec/abec-macos-arm64-v3.3.0.tar.gz" class="btn">macOS (Apple Silicon)</a>
+  <a href="https://download.pqabelian.io/release/abec/abec-macos-amd64-v3.3.0.tar.gz" class="btn">macOS (Intel)</a>
+  <a href="https://download.pqabelian.io/release/abec/abec-windows-amd64-v3.3.0.zip" class="btn">Windows</a>
+  <a href="https://download.pqabelian.io/release/abec/abec-linux-amd64-v3.3.0.tar.gz" class="btn">Linux</a>
+  <a href="https://download.pqabelian.io/release/abec/abec-linux-arm64-v3.3.0.tar.gz" class="btn">Linux (ARM)</a>
 </div>
 
 ::: info <Badge type="warning" text="發布說明" />
-- 新增支援阿貝爾用戶代幣 (AUT) 的新型地址 (偽CT)；
-- 將交易版本升級到 3，以支援偽CT地址；
-- 將區塊版本升級到 4，以支援新的交易版本；
-- 在區塊高度 464,000 引入了「aconcagua」分叉，啟用了隱蔽式 AUT 和帶有 DSA 的混合式 PoW（即 ABEL-ETHash 和 ABEL-Nakamoto 演算法）；並將提交高度設定在區塊 480,000。後者意味著所有 abec 節點必須在區塊 480,000 之前升級到 v3.0.0 或更高版本，以防止中斷；
-- 啟動 Abec 時，只需新增 `--generate` 參數即可參與 ABEL-Nakamoto 單獨 CPU 挖礦;
-- 運行節點各模式儲存空間需求：Normal Node ≈ 190GB、SemiFull Node ≈ 450GB、Full Node ≈ 1.4TB。
+- 新增交易同步的請求-響應機制。
+- 為 getwork 協議新增認證和 TLS.
+- 使用並行交易請求而不是批量交易請求以減少響應主體大小.
+- 更新底層依賴.
+- 運行不同模式節點的存儲空間需求：常規節點約 190GB，半全節點約 450GB，全節點約 1.4TB.
 
 **了解更多詳情，請查看以下連結：**
 - https://www.pqabelian.io/blog/abelian-network-hard-fork-introducing-multi-level-privacy-and-user-token-protocol-at-block-height-300-000
@@ -345,21 +358,21 @@ outline: deep
 ---
 
 ## 多層隱私錢包 (CLI)
-- **發布日期**： `2026-01-02`
-- **軟體名稱**： `abewalletmlp-v3.0.0`
+- **發布日期**： `2026-09-28`
+- **軟體名稱**： `abewalletmlp-v3.1.0`
 - **軟體大小**： `≈ 24MB`
 - **下載連結**：
 <div class="button-container">
-  <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-macos-arm64-v3.0.0.tar.gz" class="btn">macOS (Apple Silicon)</a>
-  <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-macos-amd64-v3.0.0.tar.gz" class="btn">macOS (Intel)</a>
-  <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-windows-amd64-v3.0.0.zip" class="btn">Windows</a>
-  <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-amd64-v3.0.0.tar.gz" class="btn">Linux</a>
-  <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-arm64-v3.0.0.tar.gz" class="btn">Linux (ARM)</a>
+  <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-macos-arm64-v3.1.0.tar.gz" class="btn">macOS (Apple Silicon)</a>
+  <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-macos-amd64-v3.1.0.tar.gz" class="btn">macOS (Intel)</a>
+  <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-windows-amd64-v3.1.0.zip" class="btn">Windows</a>
+  <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-amd64-v3.1.0.tar.gz" class="btn">Linux</a>
+  <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-arm64-v3.1.0.tar.gz" class="btn">Linux (ARM)</a>
 </div>
 
 ::: info <Badge type="warning" text="發布說明" />
 **有什麼新功能？**
-- 統一錢包助記詞：新的助記詞可以在桌面錢包專業版 v1.0.0 和 多層隱私錢包 (CLI) v2.0.0 之間導入和導出。未來，它將進一步在所有 Abelian 產品中實現統一。
+- 禁止記錄種子和私密資訊。
 
 **為什麼要升級？**
 - 完全相容性：用戶可以繼續使用 Abelian 多層隱私錢包 (CLI) v1.0.1，但所有後續的 Abelian 經典錢包 (CLI) 都將基於 Abelian 多層隱私錢包 (CLI) v3.0.0 的版本；

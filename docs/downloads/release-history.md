@@ -37,6 +37,25 @@ We provide the packages of previous versions mainly for archive purposes. Please
 ## Abelian (Mobile)
 `abelian-mobile-wallet-pro / info.abelian.walletpro`
 
+- **2026-09-28-v9.1.0**
+  - Automatically create and complete QDay and Other Assets wallets.
+  - QDay and Other Assets share the linked ABEL account badge, allowing users to switch between them, view, and copy the ABEL address.
+  - Added a customer service entry in the Abelian module.
+  - Added an App version badge in non-mainnet environments.
+  - Added GitHub Actions workflows for manually building APK, AAB, and TestFlight.
+  - USDT-TRC20 transfer without TRX: the yellow warning is displayed only once after being closed and automatically disappears when leaving the transfer flow.
+  - On-chain exceptions: use backend-returned data for frontend fallback to prevent orders from remaining in “In Progress” or “Waiting” status.
+  - Transfer/import mnemonic interaction adjustments: removed automatic keyboard dismissal, and moved the payment page upward.
+  - macOS UI adaptation optimization.
+  - Optimized the layout and copy of action buttons on the U9 details page.
+  - Under weak network conditions, ABEL/U9 transfers transmit large Hex data; the frontend now supports the new ref reference-passing mode added by SNP.
+  - Adjusted the left and right spacing of the payment prompt on the order details page.
+  - Aligned the position of the Transactions filter icon on the Other Assets page.
+  - Increased the height of the Language drawer.
+  - Removed automatic font shrinking for the Abelian Header amount to prevent the amount from becoming abnormally small.
+
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v9.1.0.apk)
+
 - **2026-09-16-v9.0.1**
   - Fixed several issues and improved stability.
 
@@ -435,6 +454,18 @@ We provide the packages of previous versions mainly for archive purposes. Please
 ## Abelian Node (abec)
 `[abec]`
 
+- **2026-09-28-v3.3.0**
+  - Add request-response mechanism for data synchronization.
+  - Add authentication and TLS for getwork protocol.
+  - Use parallel transaction requests instead of batched transactions requests to reduce response body size.
+  - Update underlying dependencies.
+
+  [Windows](https://download.pqabelian.io/release/abec/abec-windows-amd64-v3.3.0.zip) | 
+  [macOS (Apple Silicon)](https://download.pqabelian.io/release/abec/abec-macos-arm64-v3.3.0.tar.gz) | 
+  [macOS (Intel)](https://download.pqabelian.io/release/abec/abec-macos-amd64-v3.3.0.tar.gz) | 
+  [Linux](https://download.pqabelian.io/release/abec/abec-linux-amd64-v3.3.0.tar.gz) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abec/abec-linux-arm64-v3.3.0.tar.gz)
+
 - **2026-01-01-v3.0.1**
   - Added support for a new address type (pseudo-CT) for Abelian User Token (AUT).
   - Upgraded transaction version to 3 to support pseudo-CT addresses.
@@ -608,6 +639,15 @@ We provide the packages of previous versions mainly for archive purposes. Please
 
 ## CLI Wallet (MLP)
 `abewalletmlp`
+
+- **2026-09-28-v3.1.0**
+  - Disable to log seed and secret information.
+
+  [Windows](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-windows-amd64-v3.1.0.zip) | 
+  [macOS](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-macos-amd64-v3.1.0.tar.gz) | 
+  [macOS (Apple Silicon)](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-macos-arm64-v3.1.0.tar.gz) | 
+  [Linux](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-amd64-v3.1.0.tar.gz) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-arm64-v3.1.0.tar.gz)
 
 - **2026-01-02-v3.0.0**
   - Support generating new address type named pseudo-CT;

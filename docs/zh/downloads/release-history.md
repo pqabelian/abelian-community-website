@@ -37,6 +37,24 @@ outline: deep
 ## Abelian (移動應用)
 `abelian-mobile-wallet-pro / info.abelian.walletpro`
 
+- **2026-09-29-v9.1.0**
+  - 自动创建和完成 QDay 和 Other Assets 钱包。
+  - QDay 和 Other Assets 共享关联的 ABEL 账户徽章，允许用户在它们之间切换、查看和复制 ABEL 地址。
+  - 在 Abelian 模块中添加了客户服务条目。
+  - 在非主网环境中添加了 App 版本徽章。
+  - 为手动构建 APK、AAB 和 TestFlight 添加了 GitHub Actions 工作流。
+  - USDT-TRC20 传输无需 TRX：仅显示一次黄色警告，关闭后自动消失，并在离开传输流程时自动消失。
+  - 上链异常：使用后端返回的数据进行前端回退，以防止订单长时间保持“进行中”或“等待”状态。
+  - 传输/导入助记词交互调整：移除了自动键盘隐藏，并将付款页面向上移动。
+  - 优化了 U9 详情页的操作按钮的布局和复制。
+  - 在弱网络条件下，ABEL/U9 传输传输大的 Hex 数据；前端现在支持 SNP 添加的新 ref 引用传递模式。
+  - 调整了订单详情页面上付款提示的左右间距。
+  - 调整了“其他资产”页面上“交易”筛选图标的位置。
+  - 增加了语言抽屉的高度。
+  - 移除了 Abelian Header 金额的自动字体缩小，以防止金额变得异常小。
+
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v9.1.0.apk)
+
 - **2026-09-16-v9.0.1**
   - 修复了一些问题并提高了稳定性。
 
@@ -440,6 +458,18 @@ outline: deep
 ## Abelian 節點（abec）
 `[abec]`
 
+- **2026-09-28-v3.3.0**
+  - 新增交易同步的請求-響應機制。
+  - 為 getwork 協議新增認證和 TLS.
+  - 使用並行交易請求而不是批量交易請求以減少響應主體大小.
+  - 更新底層依賴.
+
+  [Windows](https://download.pqabelian.io/release/abec/abec-windows-amd64-v3.3.0.zip) | 
+  [macOS](https://download.pqabelian.io/release/abec/abec-macos-amd64-v3.3.0.tar.gz) | 
+  [macOS (Apple silicon)](https://download.pqabelian.io/release/abec/abec-macos-arm64-v3.3.0.tar.gz) | 
+  [Linux](https://download.pqabelian.io/release/abec/abec-linux-amd64-v3.3.0.tar.gz) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abec/abec-linux-arm64-v3.3.0.tar.gz)
+
 - **2026-01-01-v3.0.1**
   - 新增支援阿貝爾用戶代幣 (AUT) 的新型地址 (偽CT)；
   - 將交易版本升級到 3，以支援偽CT地址；
@@ -613,6 +643,15 @@ outline: deep
 
 ## 多層隱私錢包 (CLI)
 `abewalletmlp`
+
+- **2026-09-28-v3.1.0**
+  - 禁止記錄種子和私密資訊。
+
+  [Windows](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-windows-amd64-v3.1.0.zip) | 
+  [macOS](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-macos-amd64-v3.1.0.tar.gz) | 
+  [macOS (Apple Silicon)](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-macos-arm64-v3.1.0.tar.gz) | 
+  [Linux](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-amd64-v3.1.0.tar.gz) | 
+  [Linux (ARM)](https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-arm64-v3.1.0.tar.gz)
 
 - **2026-01-02-v3.0.0**
   - 支援產生名為偽 CT 的新地址類型；

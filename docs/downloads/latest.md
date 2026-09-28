@@ -164,7 +164,7 @@ outline: deep
      <span>Download our latest mobile wallet</span>
     </div>
     <div class="btn-wrapper">
-      <a href="https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v9.0.1.apk" class="btn-apk">APK</a>
+      <a href="https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v9.1.0.apk" class="btn-apk">APK</a>
       <a href="https://play.google.com/store/apps/details?id=info.abelian.walletpro" class="btn-base btn-android"></a>
       <a href="https://apps.apple.com/us/app/abelian-pro/id6475756639" class="btn-base btn-ios"></a>
     </div>
@@ -174,9 +174,31 @@ outline: deep
 The new mobile wallet is a complete rewrite of the previous mobile wallet and is designed to be more user-friendly and feature-rich.
 It is available on both iOS and Android platforms.
 
-**v9.0.1 Upgrade Notes:**
+**v9.1.0 Upgrade Notes:**
 
-- Fixed several issues and improved stability.
+**New Features**
+- Automatically create and complete QDay and Other Assets wallets.
+- QDay and Other Assets share the linked ABEL account badge, allowing users to switch between them, view, and copy the ABEL address.
+- Added a customer service entry in the Abelian module.
+- Added an App version badge in non-mainnet environments.
+- Added GitHub Actions workflows for manually building APK, AAB, and TestFlight.
+
+**Experience Improvements**
+- USDT-TRC20 transfer without TRX: the yellow warning is displayed only once after being closed and automatically disappears when leaving the transfer flow.
+- On-chain exceptions: use backend-returned data for frontend fallback to prevent orders from remaining in “In Progress” or “Waiting” status.
+- Transfer/import mnemonic interaction adjustments: removed automatic keyboard dismissal, and moved the payment page upward.
+- macOS UI adaptation optimization.
+- Optimized the layout and copy of action buttons on the U9 details page.
+- Under weak network conditions, ABEL/U9 transfers transmit large Hex data; the frontend now supports the new ref reference-passing mode added by SNP.
+- Adjusted the left and right spacing of the payment prompt on the order details page.
+- Aligned the position of the Transactions filter icon on the Other Assets page.
+- Increased the height of the Language drawer.
+- Removed automatic font shrinking for the Abelian Header amount to prevent the amount from becoming abnormally small.
+
+**Bug Fixes**
+- Fixed an issue on Android devices where the soft keyboard could not pop up, preventing users from entering their password, blocking transaction confirmation, and completely blocking the flow.
+- Fixed an issue in the Other Assets transfer module where transaction history filtering incorrectly displayed transfer records of fake tokens forged by attackers (e.g., U5DT).
+- Fixed an issue where the app did not return to the homepage after importing an account for the first time.
 
 **New version Features:**
 1. Support Abelian Layer 2 network - QDay, allowing users to view blockchain data, manage ERC20 tokens, use decentralized exchanges, stake ABEL tokens across chains, and access various DeFi apps.
@@ -254,24 +276,23 @@ It is available on both iOS and Android platforms.
 ---
 
 ## Abelian Node (abec)
-- **Release Date**: `2026-01-01`
-- **Package Name**: `abec-v3.0.1`
+- **Release Date**: `2026-09-28`
+- **Package Name**: `abec-v3.3.0`
 - **Package Size**: `≈ 23MB`
 - **Download Links**:
 <div class="button-container">
-  <a href="https://download.pqabelian.io/release/abec/abec-macos-arm64-v3.0.1.tar.gz" class="btn">macOS (Apple Silicon)</a>
-  <a href="https://download.pqabelian.io/release/abec/abec-macos-amd64-v3.0.1.tar.gz" class="btn">macOS (Intel)</a>
-  <a href="https://download.pqabelian.io/release/abec/abec-windows-amd64-v3.0.1.zip" class="btn">Windows</a>
-  <a href="https://download.pqabelian.io/release/abec/abec-linux-amd64-v3.0.1.tar.gz" class="btn">Linux</a>
-  <a href="https://download.pqabelian.io/release/abec/abec-linux-arm64-v3.0.1.tar.gz" class="btn">Linux (ARM)</a>
+  <a href="https://download.pqabelian.io/release/abec/abec-macos-arm64-v3.3.0.tar.gz" class="btn">macOS (Apple Silicon)</a>
+  <a href="https://download.pqabelian.io/release/abec/abec-macos-amd64-v3.3.0.tar.gz" class="btn">macOS (Intel)</a>
+  <a href="https://download.pqabelian.io/release/abec/abec-windows-amd64-v3.3.0.zip" class="btn">Windows</a>
+  <a href="https://download.pqabelian.io/release/abec/abec-linux-amd64-v3.3.0.tar.gz" class="btn">Linux</a>
+  <a href="https://download.pqabelian.io/release/abec/abec-linux-arm64-v3.3.0.tar.gz" class="btn">Linux (ARM)</a>
 </div>
 
 ::: info <Badge type="warning" text="RELEASE NOTES" />
-- Added support for a new address type (pseudo-CT) for Abelian User Token (AUT).
-- Upgraded transaction version to 3 to support pseudo-CT addresses.
-- Upgraded block version to 4 to support the new transaction version.
-- Introduced the Aconcagua Fork at block height 464,000, enabled Cloaked AUT and hybrid PoW with DSA (namely ABEL-ETHash and ABEL-Nakamoto algorithms); and set commit height at block 480,000. The latter one implies that all abec nodes have to be upgraded to v3.0.0 or higher before block 480,000 in order to prevent interruption.
-- To participate in ABEL-Nakamoto solo CPU mining when starting Abec, simply add the `--generate` parameter.
+- Add request-response mechanism for data synchronization.
+- Add authentication and TLS for getwork protocol.
+- Use parallel transaction requests instead of batched transactions requests to reduce response body size.
+- Update underlying dependencies.
 - Storage space requirements for running nodes in different modes: Normal Node ≈ 190GB, SemiFull Node ≈ 450GB, Full Node ≈ 1.4TB.
 
 **For more details, Please view the link below:**
@@ -346,21 +367,21 @@ It is available on both iOS and Android platforms.
 ---
 
 ## CLI Wallet (MLP)
-- **Release Date**: `2026-01-02`
-- **Package Name**: `abewalletmlp-v3.0.0`
+- **Release Date**: `2026-09-28`
+- **Package Name**: `abewalletmlp-v3.1.0`
 - **Package Size**: `≈ 24MB`
 - **Download Links**:
 <div class="button-container">
-  <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-macos-arm64-v3.0.0.tar.gz" class="btn">macOS (Apple Silicon)</a>
-  <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-macos-amd64-v3.0.0.tar.gz" class="btn">macOS (Intel)</a>
-  <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-windows-amd64-v3.0.0.zip" class="btn">Windows</a>
-  <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-amd64-v3.0.0.tar.gz" class="btn">Linux</a>
-  <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-arm64-v3.0.0.tar.gz" class="btn">Linux (ARM)</a>
+  <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-macos-arm64-v3.1.0.tar.gz" class="btn">macOS (Apple Silicon)</a>
+  <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-macos-amd64-v3.1.0.tar.gz" class="btn">macOS (Intel)</a>
+  <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-windows-amd64-v3.1.0.zip" class="btn">Windows</a>
+  <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-amd64-v3.1.0.tar.gz" class="btn">Linux</a>
+  <a href="https://download.pqabelian.io/release/abewalletmlp/abewalletmlp-linux-arm64-v3.1.0.tar.gz" class="btn">Linux (ARM)</a>
 </div>
 
 ::: info <Badge type="warning" text="RELEASE NOTES" />
 **What's New?**
-- Unified Wallet Mnemonic Phrase: The new mnemonic phrases can be imported and exported across Desktop Wallet Pro v1.0.0 and CLI Wallet (MLP) v2.0.0. And it will be further unified across all of Abelian products in the future.
+- Disable to log seed and secret information.
 
 **Why should you upgrade?**
 - Full compatibility: Users can continue to use the Abelian CLI Wallet (MLP) v1.0.1, but all subsequent Abelian CLI Wallets will be based on the version of Abelian CLI Wallet (MLP) v3.0.0;
