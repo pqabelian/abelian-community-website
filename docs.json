@@ -40,19 +40,19 @@
         ]
       },
       {
-        "tab": "Build"
-      },
-      {
         "tab": "Wallet"
       },
       {
-        "tab": "Mining"
+        "tab": "Build"
+      },
+      {
+        "tab": "Operate"
       }
     ]
   },
   "logo": {
-    "light": "/images/abelian-logo-dark.png",
-    "dark": "/images/abelian-logo-light.png"
+    "light": "/images/abelian-logo-light.png",
+    "dark": "/images/abelian-logo-dark.png"
   },
   "navbar": {
     "primary": {
