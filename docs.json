@@ -26,27 +26,38 @@
         }
       ]
     },
-    "tabs": [
+    "languages": [
       {
-        "tab": "Learn",
-        "pages": [
+        "language": "en",
+        "tabs": [
           {
-            "group": "Getting Started",
+            "tab": "Learn",
             "pages": [
-              "index",
-              "quickstart"
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "index",
+                  "quickstart"
+                ]
+              }
             ]
+          },
+          {
+            "tab": "Wallet"
+          },
+          {
+            "tab": "Build"
+          },
+          {
+            "tab": "Operate"
+          },
+          {
+            "tab": "Tutorials"
           }
         ]
       },
       {
-        "tab": "Wallet"
-      },
-      {
-        "tab": "Build"
-      },
-      {
-        "tab": "Operate"
+        "language": "zh-Hant"
       }
     ]
   },
