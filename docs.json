@@ -43,6 +43,102 @@
             ]
           },
           {
+            "tab": "Wallet",
+            "groups": [
+              {
+                "group": "Desktop Wallet",
+                "pages": []
+              },
+              {
+                "group": "Mobile Wallet",
+                "pages": []
+              },
+              {
+                "group": "CLI Wallet",
+                "pages": []
+              }
+            ]
+          },
+          {
+            "tab": "Build",
+            "groups": [
+              {
+                "group": "Core API",
+                "pages": []
+              },
+              {
+                "group": "Wallet API",
+                "pages": []
+              },
+              {
+                "group": "Ans API",
+                "pages": []
+              },
+              {
+                "group": "Java SDK",
+                "pages": []
+              }
+            ]
+          },
+          {
+            "tab": "Operate",
+            "groups": [
+              {
+                "group": "Nodes",
+                "pages": []
+              },
+              {
+                "group": "Miners",
+                "pages": []
+              }
+            ]
+          },
+          {
+            "tab": "Tutorials"
+          },
+          {
+            "tab": "Downloads"
+          },
+          {
+            "tab": "FAQ",
+            "groups": [
+              {
+                "group": "Software Issues",
+                "pages": []
+              },
+              {
+                "group": "Hardware Issues",
+                "pages": []
+              },
+              {
+                "group": "Pool Issues",
+                "pages": []
+              },
+              {
+                "group": "Exchange Issues",
+                "pages": []
+              },
+              {
+                "group": "Mining Issues",
+                "pages": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "language": "zh-Hant",
+        "tabs": [
+          {
+            "tab": "Learn",
+            "groups": [
+              {
+                "group": "Getting Started",
+                "pages": []
+              }
+            ]
+          },
+          {
             "tab": "Wallet"
           },
           {
@@ -53,11 +149,14 @@
           },
           {
             "tab": "Tutorials"
+          },
+          {
+            "tab": "Downloads"
+          },
+          {
+            "tab": "FAQ"
           }
         ]
-      },
-      {
-        "language": "zh-Hant"
       }
     ]
   },
