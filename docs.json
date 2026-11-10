@@ -238,7 +238,7 @@
     "timestamp": true
   },
   "fonts": {
-    "family": "Rubik",
-    "weight": 400
+    "family": "Inter",
+    "weight": 500
   }
 }
