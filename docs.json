@@ -217,7 +217,7 @@
       "grok",
       "add-mcp"
     ],
-    "display": "toc"
+    "display": "header"
   },
   "footer": {
     "socials": {
@@ -238,7 +238,7 @@
     "timestamp": true
   },
   "fonts": {
-    "family": "Inter",
+    "family": "Rubik",
     "weight": 500
   }
 }
