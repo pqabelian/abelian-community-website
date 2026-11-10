@@ -125,7 +125,7 @@
           },
           {
             "tab": "FAQ",
-            "groups": [
+            "pages": [
               {
                 "group": "Software Issues",
                 "pages": [
@@ -155,7 +155,8 @@
                 "pages": [
                   "untitled-page-13"
                 ]
-              }
+              },
+              "po-w-mining-faq"
             ]
           }
         ]
