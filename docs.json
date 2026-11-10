@@ -47,7 +47,9 @@
             "groups": [
               {
                 "group": "Desktop Wallet",
-                "pages": []
+                "pages": [
+                  "index-2"
+                ]
               },
               {
                 "group": "Mobile Wallet",
@@ -64,7 +66,9 @@
             "groups": [
               {
                 "group": "Core API",
-                "pages": []
+                "pages": [
+                  "untitled-page-2"
+                ]
               },
               {
                 "group": "Wallet API",
