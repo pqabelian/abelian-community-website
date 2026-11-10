@@ -210,11 +210,14 @@
       "view",
       "chatgpt",
       "claude",
-      "perplexity",
       "mcp",
       "cursor",
-      "vscode"
-    ]
+      "vscode",
+      "download-pdf",
+      "grok",
+      "add-mcp"
+    ],
+    "display": "toc"
   },
   "footer": {
     "socials": {
