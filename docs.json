@@ -36,8 +36,8 @@
               {
                 "group": "Getting Started",
                 "pages": [
-                  "content/english/index",
-                  "content/english/learn/quickstart"
+                  "index",
+                  "en/learn/quickstart"
                 ]
               }
             ]
@@ -48,19 +48,19 @@
               {
                 "group": "Desktop Wallet",
                 "pages": [
-                  "content/english/wallet/desktop-wallet"
+                  "en/wallet/desktop-wallet"
                 ]
               },
               {
                 "group": "Mobile Wallet",
                 "pages": [
-                  "content/english/wallet/mobile-wallet"
+                  "en/wallet/mobile-wallet"
                 ]
               },
               {
                 "group": "CLI Wallet",
                 "pages": [
-                  "content/english/wallet/cli-wallet"
+                  "en/wallet/cli-wallet"
                 ]
               }
             ]
@@ -71,25 +71,25 @@
               {
                 "group": "Core API",
                 "pages": [
-                  "content/english/build/core-api"
+                  "en/build/core-api"
                 ]
               },
               {
                 "group": "Wallet API",
                 "pages": [
-                  "content/english/build/wallet-api"
+                  "en/build/wallet-api"
                 ]
               },
               {
                 "group": "Ans API",
                 "pages": [
-                  "content/english/build/ans-api"
+                  "en/build/ans-api"
                 ]
               },
               {
                 "group": "Java SDK",
                 "pages": [
-                  "content/english/build/java-sdk"
+                  "en/build/java-sdk"
                 ]
               }
             ]
@@ -100,13 +100,13 @@
               {
                 "group": "Nodes",
                 "pages": [
-                  "content/english/operate/nodes"
+                  "en/operate/nodes"
                 ]
               },
               {
                 "group": "Miners",
                 "pages": [
-                  "content/english/operate/miners"
+                  "en/operate/miners"
                 ]
               }
             ]
@@ -114,13 +114,13 @@
           {
             "tab": "Tutorials",
             "pages": [
-              "content/english/tutorials/tutorials"
+              "en/tutorials/tutorials"
             ]
           },
           {
             "tab": "Downloads",
             "pages": [
-              "content/english/downloads/downloads"
+              "en/downloads/downloads"
             ]
           },
           {
@@ -129,34 +129,34 @@
               {
                 "group": "Software Issues",
                 "pages": [
-                  "content/english/faq/software-issues"
+                  "en/faq/software-issues"
                 ]
               },
               {
                 "group": "Hardware Issues",
                 "pages": [
-                  "content/english/faq/hardware-issues"
+                  "en/faq/hardware-issues"
                 ]
               },
               {
                 "group": "Pool Issues",
                 "pages": [
-                  "content/english/faq/pool-issues"
+                  "en/faq/pool-issues"
                 ]
               },
               {
                 "group": "Exchange Issues",
                 "pages": [
-                  "content/english/faq/exchange-issues"
+                  "en/faq/exchange-issues"
                 ]
               },
               {
                 "group": "Mining Issues",
                 "pages": [
-                  "content/english/faq/mining-issues"
+                  "en/faq/mining-issues"
                 ]
               },
-              "content/english/faq/pow-mining-faq"
+              "en/faq/pow-mining-faq"
             ]
           }
         ]
@@ -170,8 +170,8 @@
               {
                 "group": "開始使用",
                 "pages": [
-                  "content/chinese/index",
-                  "content/chinese/learn/quickstart"
+                  "zh/index",
+                  "zh/learn/quickstart"
                 ]
               }
             ]
@@ -182,19 +182,19 @@
               {
                 "group": "桌面錢包",
                 "pages": [
-                  "content/chinese/wallet/desktop-wallet"
+                  "zh/wallet/desktop-wallet"
                 ]
               },
               {
                 "group": "行動錢包",
                 "pages": [
-                  "content/chinese/wallet/mobile-wallet"
+                  "zh/wallet/mobile-wallet"
                 ]
               },
               {
                 "group": "命令列錢包",
                 "pages": [
-                  "content/chinese/wallet/cli-wallet"
+                  "zh/wallet/cli-wallet"
                 ]
               }
             ]
@@ -205,25 +205,25 @@
               {
                 "group": "核心 API",
                 "pages": [
-                  "content/chinese/build/core-api"
+                  "zh/build/core-api"
                 ]
               },
               {
                 "group": "錢包 API",
                 "pages": [
-                  "content/chinese/build/wallet-api"
+                  "zh/build/wallet-api"
                 ]
               },
               {
                 "group": "ANS API",
                 "pages": [
-                  "content/chinese/build/ans-api"
+                  "zh/build/ans-api"
                 ]
               },
               {
                 "group": "Java SDK",
                 "pages": [
-                  "content/chinese/build/java-sdk"
+                  "zh/build/java-sdk"
                 ]
               }
             ]
@@ -234,13 +234,13 @@
               {
                 "group": "節點",
                 "pages": [
-                  "content/chinese/operate/nodes"
+                  "zh/operate/nodes"
                 ]
               },
               {
                 "group": "礦工",
                 "pages": [
-                  "content/chinese/operate/miners"
+                  "zh/operate/miners"
                 ]
               }
             ]
@@ -248,13 +248,13 @@
           {
             "tab": "教學指南",
             "pages": [
-              "content/chinese/tutorials/tutorials"
+              "zh/tutorials/tutorials"
             ]
           },
           {
             "tab": "下載",
             "pages": [
-              "content/chinese/downloads/downloads"
+              "zh/downloads/downloads"
             ]
           },
           {
@@ -263,34 +263,34 @@
               {
                 "group": "軟體問題",
                 "pages": [
-                  "content/chinese/faq/software-issues"
+                  "zh/faq/software-issues"
                 ]
               },
               {
                 "group": "硬體問題",
                 "pages": [
-                  "content/chinese/faq/hardware-issues"
+                  "zh/faq/hardware-issues"
                 ]
               },
               {
                 "group": "礦池問題",
                 "pages": [
-                  "content/chinese/faq/pool-issues"
+                  "zh/faq/pool-issues"
                 ]
               },
               {
                 "group": "交易所問題",
                 "pages": [
-                  "content/chinese/faq/exchange-issues"
+                  "zh/faq/exchange-issues"
                 ]
               },
               {
                 "group": "挖礦問題",
                 "pages": [
-                  "content/chinese/faq/mining-issues"
+                  "zh/faq/mining-issues"
                 ]
               },
-              "content/chinese/faq/pow-mining-faq"
+              "zh/faq/pow-mining-faq"
             ]
           }
         ]
