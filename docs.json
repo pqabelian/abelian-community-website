@@ -89,7 +89,8 @@
               {
                 "group": "Java SDK",
                 "pages": [
-                  "en/build/java-sdk"
+                  "en/build/java-sdk/index",
+                  "en/build/java-sdk/demo"
                 ]
               }
             ]
@@ -126,37 +127,30 @@
           {
             "tab": "FAQ",
             "pages": [
+              "en/faq/index",
               {
-                "group": "Software Issues",
+                "group": "Community",
                 "pages": [
-                  "en/faq/software-issues"
+                  "en/faq/community/exchanges",
+                  "en/faq/community/pow-mining"
                 ]
               },
               {
                 "group": "Hardware Issues",
                 "pages": [
-                  "en/faq/hardware-issues"
+                  "en/faq/hardware-issues/amd",
+                  "en/faq/hardware-issues/nvidia"
                 ]
               },
               {
-                "group": "Pool Issues",
+                "group": "Software Issues",
                 "pages": [
-                  "en/faq/pool-issues"
+                  "en/faq/software-issues/fullnode",
+                  "en/faq/software-issues/miner",
+                  "en/faq/software-issues/wallet"
                 ]
               },
-              {
-                "group": "Exchange Issues",
-                "pages": [
-                  "en/faq/exchange-issues"
-                ]
-              },
-              {
-                "group": "Mining Issues",
-                "pages": [
-                  "en/faq/mining-issues"
-                ]
-              },
-              "en/faq/pow-mining-faq"
+              "en/faq/pool-issues"
             ]
           }
         ]
@@ -223,7 +217,8 @@
               {
                 "group": "Java SDK",
                 "pages": [
-                  "zh/build/java-sdk"
+                  "zh/build/java-sdk/index",
+                  "zh/build/java-sdk/demo"
                 ]
               }
             ]
@@ -260,37 +255,30 @@
           {
             "tab": "常見問題",
             "pages": [
+              "zh/faq/index",
               {
-                "group": "軟體問題",
+                "group": "社群",
                 "pages": [
-                  "zh/faq/software-issues"
+                  "zh/faq/community/exchanges",
+                  "zh/faq/community/pow-mining"
                 ]
               },
               {
                 "group": "硬體問題",
                 "pages": [
-                  "zh/faq/hardware-issues"
+                  "zh/faq/hardware-issues/amd",
+                  "zh/faq/hardware-issues/nvidia"
                 ]
               },
               {
-                "group": "礦池問題",
+                "group": "軟體問題",
                 "pages": [
-                  "zh/faq/pool-issues"
+                  "zh/faq/software-issues/fullnode",
+                  "zh/faq/software-issues/miner",
+                  "zh/faq/software-issues/wallet"
                 ]
               },
-              {
-                "group": "交易所問題",
-                "pages": [
-                  "zh/faq/exchange-issues"
-                ]
-              },
-              {
-                "group": "挖礦問題",
-                "pages": [
-                  "zh/faq/mining-issues"
-                ]
-              },
-              "zh/faq/pow-mining-faq"
+              "zh/faq/pool-issues"
             ]
           }
         ]
