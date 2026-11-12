@@ -1,0 +1,363 @@
+---
+title: "Abelian Node (abec) Guide"
+description: "Install and configure abec, choose a node type, synchronize with the Abelian network, manage the node, and troubleshoot common problems."
+keywords: ["Abelian node", "abec", "full node", "node configuration"]
+---
+
+Use this guide to install and configure `abec`, select a node type, synchronize with the network, and manage the node from the command line.
+
+For application setup context, start with [Abelian Applications Basics](/en/learn/applications-basics).
+
+To interact with other miners, developers and users, join
+[Official Discord Server](https://discord.com/invite/5rrDxP29hx).
+
+All the operations are carried out via the Command Line Interface (CLI). For Linux or macOS, open Terminal; and for
+Windows, open PowerShell or any of your favorite shell application.
+
+## Prerequisites
+
+Before starting, ensure you meet the system requirements:
+
+- **Storage**: At least 200GB+ (current blockchain ~120GB, growing)
+- **RAM**: Minimum 8GB (16GB+ recommended)
+- **CPU**: 2+ cores (4+ cores recommended)
+- **Network**: Stable broadband connection
+
+## 1. Installation
+
+Download the compressed file for your platform from [Latest Abelian Applications](/en/downloads/latest#abelian-node-abec):
+
+- Linux x86: `abec-linux-amd64-v3.3.0.tar.gz`
+- Linux ARM: `abec-linux-arm64-v3.3.0.tar.gz`
+- macOS (Intel): `abec-macos-amd64-v3.3.0.tar.gz`
+- macOS (Apple Silicon): `abec-macos-arm64-v3.3.0.tar.gz`
+- Windows: `abec-windows-amd64-v3.3.0.zip`
+
+Extract and place it under the `~/abel/` folder:
+
+```text
+~/abel/abec-linux-amd64-v3.3.0/
+```
+
+### Initial Setup
+
+Navigate to `~/abel/abec-linux-amd64-v3.3.0/` and run:
+
+
+**Windows**
+
+```powershell
+$ .\abec.exe
+```
+
+**macOS**
+
+```shell
+$ sh start_abec.sh
+```
+
+**Linux**
+
+```shell
+$ sh start_abec.sh
+```
+
+
+Press `Ctrl+C` to stop it. This creates the configuration folder for `abec`:
+
+
+**Windows**
+
+```powershell
+%USERPROFILE%\\AppData\Local\Abec
+```
+
+**macOS**
+
+```text
+~/Library/Application Support/Abec
+```
+
+**Linux**
+
+```text
+~/.abec
+```
+
+
+> [!TIP] Platform-Specific Notes
+> - **macOS/Linux**: You may need to run `chmod 777 xxx` if you get "xxx: Permission denied"
+> - **macOS (M-chips/ARM64)**: If you see "'xxx' is damaged and can't be opened", run:
+> ```shell
+> $ xattr -d com.apple.quarantine path/to/xxx
+> ```
+> - **macOS**: If you see "'xxx' cannot be opened because the developer cannot be verified", go to **System
+    Preferences → Security & Privacy → General** and click **Allow anyway**
+
+## 2. Configuration - abec
+
+Navigate to the `abec` configuration folder and modify `abec.conf` with the following settings:
+
+### Node Type Configuration
+
+Choose the appropriate node type based on your storage and verification needs:
+
+| Node Type          | Storage Requirements | Verification Level | Description                                          |
+|--------------------|----------------------|--------------------|------------------------------------------------------|
+| **Abelian Full Node**      | Highest (~1400GB+)   | Complete           | Stores and verifies all blockchain data from genesis |
+| **Abellian SemiFull Node** | Medium (~450GB+)     | Standard           | Optimized storage with high verification capability  |
+| **Abelian Normal Node**    | Lowest (~160GB+)     | Safe               | Further optimized for resource-limited environments  |
+
+#### Abelian Full Node
+
+- **Definition**: A complete node that stores and verifies all data of the blockchain.
+- **Functionality**:
+    - Stores the complete block (Content + Witness) data from the genesis block.
+    - Verifies the validity of each block (transaction validity, block validity).
+
+#### **Abelian SemiFull Node**
+- **Definition**: A semi-complete node that optimizes storage requirements while maintaining high verification
+  capability.
+- **Functionality**:
+    - Stores block (Content) data from the genesis block up to the last checkpoint.
+    - Stores complete block (Content + Witness) data from the last checkpoint onward.
+    - Verifies the header information of each block (including PoW) before the last checkpoint.
+    - Verifies the validity of each block (transaction validity, block validity) from the last checkpoint onward.
+
+#### **Abelian Normal Node**
+- **Definition**: A normal node that further optimizes storage, suitable for resource-limited environments.
+- **Functionality**:
+    - Stores block (Content) data from the genesis block to the reserved block.
+    - Stores complete block (Content + Witness) data starting from the reserved block.
+    - Verifies the header information of each block (including PoW) before the last checkpoint.
+    - Verifies the validity of each block (transaction validity, block validity) after the last checkpoint.
+
+**Configuration:**
+```ini
+# Default: SemiFull Node (recommended for most users)
+nodetype=semifullnode
+
+# Other options:
+# nodetype=fullnode      # Abelian Complete Node
+# nodetype=normalnode    # Abelian Normal Node
+```
+
+### Network Configuration
+
+If you have a public IP or configured port forwarding, you can broadcast your presence:
+```ini
+externalip=1.2.3.4
+```
+
+### Security Configuration
+For production environments, consider additional RPC security settings:
+
+```ini
+# Restrict RPC access to specific IPs
+rpclisten=127.0.0.1:8667
+
+# Set strong RPC credentials
+rpcuser=your_secure_username
+rpcpass=your_secure_password
+```
+
+## 3.  Running the Abelian Node
+
+### Start the Node
+Navigate to `~/abel/abec-linux-amd64-v3.3.0/` and start the node:
+
+
+**Windows**
+
+```powershell
+$ .\abec.exe
+```
+
+**macOS**
+
+```shell
+$ sh start_abec.sh
+```
+
+**Linux**
+
+```shell
+$ sh start_abec.sh
+```
+
+
+
+### Initial Synchronization
+
+The node will begin synchronizing with the Abelian network:
+
+1. **Connection Phase**: Connecting to peer nodes
+2. **Sync Phase**: Downloading and verifying blockchain data
+3. **Validation Phase**: Validating downloaded blocks
+
+**Expected sync times:**
+- **Abelian Full Node**: Several days (depending on connection)
+- **Abelian SemiFull Node**: 1-3 days (recommended)
+- **Abelian Normal Node**: 1-2 days
+
+### Monitoring Progress
+
+Monitor synchronization progress through the console output:
+
+```text
+[INF] SYNC: Processed 1000 blocks in the last 10.02s (100 transactions, height 50000, 2023-01-01 12:00:00 +0000 UTC)
+```
+
+Check latest network height at: https://explorer.pqabelian.io
+
+## 4. Node Management
+
+### Using abectl
+
+The `abectl` command-line tool allows you to interact with your running node:
+
+**Check node info:**
+**Windows**
+
+```powershell
+$ ./abectl.exe getinfo
+```
+**macOS**
+
+```shell
+$ sh start_abectl.sh getinfo
+```
+**Linux**
+
+```shell
+$ sh start_abectl.sh getinfo
+```
+
+
+**Check peer connections:**
+
+**Windows**
+
+```powershell
+$ ./abectl.exe getpeerinfo
+```
+**macOS**
+
+```shell
+$ sh start_abectl.sh getpeerinfo
+```
+**Linux**
+
+```shell
+$ sh start_abectl.sh getpeerinfo
+```
+
+### Stopping the Node
+
+To safely stop the node:
+- Press `Ctrl+C` in the terminal
+- Or use:
+
+**Windows**
+
+```powershell
+$ ./abectl.exe stop
+```
+**macOS**
+
+```shell
+$ sh start_abectl.sh stop
+```
+**Linux**
+
+```shell
+$ sh start_abectl.sh stop
+```
+
+### Restarting After Updates
+When updating to a new version:
+1. Stop the current node
+2. Replace the binary files
+3. Restart using the same configuration
+
+## 5. Troubleshooting
+
+### Common Issues
+
+**Slow Synchronization:**
+- Check Internet connection stability
+- Ensure sufficient disk space
+- Consider using SSD for better performance
+
+**Connection Issues:**
+- Verify firewall settings (port 8666 should be accessible)
+- Check network connectivity
+- Try different DNS servers
+
+**High Resource Usage:**
+- Consider switching to `normalnode` type
+- Increase available RAM
+- Monitor disk space regularly
+
+### Log Files
+
+Check log files for detailed error information:
+
+**Windows**
+
+```powershell
+%USERPROFILE%\AppData\Local\Abec\logs\
+```
+**macOS**
+
+```text
+~/Library/Application Support/Abec/logs/
+```
+**Linux**
+
+```text
+~/.abec/logs/
+```
+
+## 6. Security Best Practices
+
+### Network Security
+- **Firewall Configuration**: Only open necessary ports
+- **RPC Security**: Use strong credentials and restrict access
+- **Regular Updates**: Keep software updated to latest versions
+
+### Operational Security
+- **Backup Configuration**: Save your `abec.conf` file
+- **Monitor Resources**: Watch disk space and memory usage
+- **Log Monitoring**: Regularly check logs for unusual activity
+
+## 7. Advanced Configuration
+
+### Multi-Machine Setup
+
+For running wallets or miners on different machines:
+
+1. **Configure RPC listening:**
+ ```ini
+ rpclisten=0.0.0.0:8667
+ ```
+2. **Set up certificates** for secure communication
+3. **Configure firewall rules** for RPC ports
+
+### Performance Optimization
+
+**For high-performance setups:**
+- Use SSD storage
+- Allocate more RAM
+- Use dedicated network connection
+- Consider running on dedicated hardware
+
+## Next Steps
+
+Once your node is running:
+
+- **Set up a wallet**: Follow the [CLI wallet guide](/en/wallet/cli-wallet)
+- **Start mining**: Check the [GPU mining guide](/en/operate/miners/gpu-mining)
+- **Join the community**: Visit our [Discord Server](https://discord.com/invite/5rrDxP29hx)
+
+Your node will help secure and decentralize the Abelian network. Thank you for contributing! 🚀

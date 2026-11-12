@@ -37,7 +37,25 @@
                 "group": "Getting Started",
                 "pages": [
                   "index",
-                  "en/learn/quickstart"
+                  "en/learn/applications-basics",
+                  "en/learn/get-started"
+                ]
+              },
+              {
+                "group": "Core Concepts",
+                "pages": [
+                  "en/learn/what-is-abelian",
+                  "en/learn/abel-address-format",
+                  "en/learn/abel-tokenomics",
+                  "en/learn/abelian-improvement-proposals"
+                ]
+              },
+              {
+                "group": "Whitepapers",
+                "pages": [
+                  "en/learn/abel-whitepaper",
+                  "en/learn/abel-dsa-whitepaper",
+                  "en/learn/abel-yellowpaper"
                 ]
               }
             ]
@@ -48,19 +66,22 @@
               {
                 "group": "Desktop Wallet",
                 "pages": [
-                  "en/wallet/desktop-wallet"
+                  "en/wallet/desktop/desktop-wallet-legacy",
+                  "en/wallet/desktop/desktop-wallet-pro"
                 ]
               },
               {
                 "group": "Mobile Wallet",
                 "pages": [
-                  "en/wallet/mobile-wallet"
+                  "en/wallet/mobile/mobile-wallet"
                 ]
               },
               {
                 "group": "CLI Wallet",
                 "pages": [
-                  "en/wallet/cli-wallet"
+                  "en/wallet/cli/cli-wallet-legacy",
+                  "en/wallet/cli/cli-wallet-lite",
+                  "en/wallet/cli/cli-wallet-mlp"
                 ]
               }
             ]
@@ -81,7 +102,7 @@
                 ]
               },
               {
-                "group": "Ans API",
+                "group": "ANS API",
                 "pages": [
                   "en/build/ans-api"
                 ]
@@ -101,13 +122,37 @@
               {
                 "group": "Nodes",
                 "pages": [
-                  "en/operate/nodes"
+                  "en/operate/nodes/abelian-node"
                 ]
               },
               {
                 "group": "Miners",
                 "pages": [
-                  "en/operate/miners"
+                  "en/operate/miners/cpu-mining",
+                  "en/operate/miners/gpu-mining",
+                  "en/operate/miners/nakamoto-cpu-miner",
+                  "en/operate/miners/hako-metal",
+                  {
+                    "group": "Mining Pools",
+                    "expanded": true,
+                    "pages": [
+                      {
+                        "type": "link",
+                        "title": "MaxPool",
+                        "href": "https://maxpool.org/"
+                      },
+                      {
+                        "type": "link",
+                        "title": "ABEL-Nakamoto",
+                        "href": "https://abel-nakamoto.xyz/"
+                      },
+                      {
+                        "type": "link",
+                        "title": "AbelPool",
+                        "href": "https://www.abelpool.io/"
+                      }
+                    ]
+                  }
                 ]
               }
             ]
@@ -121,7 +166,10 @@
           {
             "tab": "Downloads",
             "pages": [
-              "en/downloads/downloads"
+              "en/downloads/latest",
+              "en/downloads/release-history",
+              "en/downloads/fullnode-db",
+              "en/downloads/ecosystem-tools"
             ]
           },
           {
@@ -165,7 +213,24 @@
                 "group": "開始使用",
                 "pages": [
                   "zh/index",
-                  "zh/learn/quickstart"
+                  "zh/learn/applications-basics"
+                ]
+              },
+              {
+                "group": "概念",
+                "pages": [
+                  "zh/learn/what-is-abelian",
+                  "zh/learn/abel-address-format",
+                  "zh/learn/abel-tokenomics",
+                  "zh/learn/abelian-improvement-proposals"
+                ]
+              },
+              {
+                "group": "白皮書",
+                "pages": [
+                  "zh/learn/abel-whitepaper",
+                  "zh/learn/abel-dsa-whitepaper",
+                  "zh/learn/abel-yellowpaper"
                 ]
               }
             ]
@@ -176,19 +241,15 @@
               {
                 "group": "桌面錢包",
                 "pages": [
-                  "zh/wallet/desktop-wallet"
-                ]
-              },
-              {
-                "group": "行動錢包",
-                "pages": [
-                  "zh/wallet/mobile-wallet"
+                  "zh/wallet/desktop/desktop-wallet-legacy",
+                  "zh/wallet/desktop/desktop-wallet-pro"
                 ]
               },
               {
                 "group": "命令列錢包",
                 "pages": [
-                  "zh/wallet/cli-wallet"
+                  "zh/wallet/cli/cli-wallet-legacy",
+                  "zh/wallet/cli/cli-wallet-mlp"
                 ]
               }
             ]
@@ -229,13 +290,37 @@
               {
                 "group": "節點",
                 "pages": [
-                  "zh/operate/nodes"
+                  "zh/operate/nodes/abelian-node"
                 ]
               },
               {
                 "group": "礦工",
                 "pages": [
-                  "zh/operate/miners"
+                  "zh/operate/miners/cpu-mining",
+                  "zh/operate/miners/gpu-mining",
+                  "zh/operate/miners/nakamoto-cpu-miner",
+                  "zh/operate/miners/hako-metal",
+                  {
+                    "group": "礦池",
+                    "expanded": true,
+                    "pages": [
+                      {
+                        "type": "link",
+                        "title": "MaxPool",
+                        "href": "https://maxpool.org/"
+                      },
+                      {
+                        "type": "link",
+                        "title": "ABEL-Nakamoto",
+                        "href": "https://abel-nakamoto.xyz/"
+                      },
+                      {
+                        "type": "link",
+                        "title": "AbelPool",
+                        "href": "https://www.abelpool.io/"
+                      }
+                    ]
+                  }
                 ]
               }
             ]
@@ -249,7 +334,10 @@
           {
             "tab": "下載",
             "pages": [
-              "zh/downloads/downloads"
+              "zh/downloads/latest",
+              "zh/downloads/release-history",
+              "zh/downloads/fullnode-db",
+              "zh/downloads/ecosystem-tools"
             ]
           },
           {
