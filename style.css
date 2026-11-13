@@ -1,0 +1,38 @@
+#sidebar-content a {
+  color: #9b9b9b;
+  font-size: 0.85rem;
+}
+
+.sidebar-title {
+  font-size: 0.8rem;
+  color: #5d5d5d;
+}
+
+
+#sidebar-content a:hover {
+  color: #27272a;
+}
+
+#sidebar-content li[data-active] a {
+  color: #3329ff;
+}
+
+#table-of-contents {
+  color: #9b9b9b;
+}
+
+.dark #sidebar-content a {
+  color: #88888d;
+}
+
+.dark .sidebar-title {
+  color: #f2f2f3;
+}
+
+.dark #sidebar-content a:hover {
+  color: #f2f2f3;
+}
+
+.dark #sidebar-content li[data-active] a {
+  color: #b6a9ff;
+}

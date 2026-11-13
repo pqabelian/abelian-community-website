@@ -45,8 +45,17 @@
                 "group": "Core Concepts",
                 "pages": [
                   "en/learn/what-is-abelian",
+                  "en/learn/post-quantum-signatures",
+                  "en/learn/multi-level-privacy",
+                  "en/learn/cryptographic-agility"
+                ]
+              },
+              {
+                "group": "Network Fundamentals",
+                "pages": [
                   "en/learn/abel-address-format",
                   "en/learn/abel-tokenomics",
+                  "en/learn/abelian-user-token",
                   "en/learn/abelian-improvement-proposals"
                 ]
               },
@@ -62,7 +71,8 @@
           },
           {
             "tab": "Wallet",
-            "groups": [
+            "pages": [
+              "en/wallet/index",
               {
                 "group": "Desktop Wallet",
                 "pages": [
@@ -88,7 +98,8 @@
           },
           {
             "tab": "Build",
-            "groups": [
+            "pages": [
+              "en/build/index",
               {
                 "group": "Core API",
                 "pages": [
@@ -118,7 +129,8 @@
           },
           {
             "tab": "Operate",
-            "groups": [
+            "pages": [
+              "en/operate/index",
               {
                 "group": "Nodes",
                 "pages": [
@@ -217,11 +229,20 @@
                 ]
               },
               {
-                "group": "概念",
+                "group": "核心概念",
                 "pages": [
                   "zh/learn/what-is-abelian",
+                  "zh/learn/post-quantum-signatures",
+                  "zh/learn/multi-level-privacy",
+                  "zh/learn/cryptographic-agility"
+                ]
+              },
+              {
+                "group": "網路基礎",
+                "pages": [
                   "zh/learn/abel-address-format",
                   "zh/learn/abel-tokenomics",
+                  "zh/learn/abelian-user-token",
                   "zh/learn/abelian-improvement-proposals"
                 ]
               },
@@ -237,7 +258,8 @@
           },
           {
             "tab": "錢包",
-            "groups": [
+            "pages": [
+              "zh/wallet/index",
               {
                 "group": "桌面錢包",
                 "pages": [
@@ -256,7 +278,8 @@
           },
           {
             "tab": "建置",
-            "groups": [
+            "pages": [
+              "zh/build/index",
               {
                 "group": "核心 API",
                 "pages": [
@@ -286,7 +309,8 @@
           },
           {
             "tab": "營運",
-            "groups": [
+            "pages": [
+              "zh/operate/index",
               {
                 "group": "節點",
                 "pages": [
