@@ -2,6 +2,10 @@
 outline: deep
 ---
 
+::: warning Historical document
+Note: this page describes an earlier design of QDay. For the current network, see [https://qday.io/about](https://qday.io/about).
+:::
+
 # QDay: The World\'s First Quantum-Resistant EVM-Compatible Layer 2
 
 ---

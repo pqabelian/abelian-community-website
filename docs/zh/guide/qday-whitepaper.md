@@ -2,6 +2,10 @@
 outline: deep
 ---
 
+::: warning 歷史版本
+本頁描述的是 QDay 的早期設計。關於現行網路，請參閱 [https://qday.io/about](https://qday.io/about)。
+:::
+
 # QDay：全球首個EVM 相容的抗量子2層公鏈系統
 
 ---
