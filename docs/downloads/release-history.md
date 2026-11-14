@@ -37,6 +37,14 @@ We provide the packages of previous versions mainly for archive purposes. Please
 ## Abelian (Mobile)
 `abelian-mobile-wallet-pro / info.abelian.walletpro`
 
+- **2026-11-14-v9.1.3**
+  - Expanded Multi-chain Assets: Added support for BTC, SOL, and ZEC.
+  - PIN Modification: You can now change your PIN code in Settings.
+  - Real-time Balance Updates: Added a "Receiving `<amount>`" status on the Abelian page, making U9 and ABEL balance changes clear at a glance.
+  - Bug Fixes & Optimizations: Fixed known issues across multiple modules and optimized the UI and user experience.
+
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v9.1.3.apk)
+
 - **2026-11-06-v9.1.2**
   - Two-factor authentication (2FA): Supports Passkeys and Google Authenticator.
   - UTXO auto-consolidation and splitting.

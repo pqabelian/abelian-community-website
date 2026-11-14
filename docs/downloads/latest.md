@@ -164,7 +164,7 @@ outline: deep
      <span>Download our latest mobile wallet</span>
     </div>
     <div class="btn-wrapper">
-      <a href="https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v9.1.2.apk" class="btn-apk">APK</a>
+      <a href="https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v9.1.3.apk" class="btn-apk">APK</a>
       <a href="https://play.google.com/store/apps/details?id=info.abelian.walletpro" class="btn-base btn-android"></a>
       <a href="https://apps.apple.com/us/app/abelian-pro/id6475756639" class="btn-base btn-ios"></a>
     </div>
@@ -174,10 +174,11 @@ outline: deep
 The new mobile wallet is a complete rewrite of the previous mobile wallet and is designed to be more user-friendly and feature-rich.
 It is available on both iOS and Android platforms.
 
-**v9.1.2 Upgrade Notes:**
-- Two-factor authentication (2FA): SupportsPasskeys and Google Authenticator.UTXO auto-consolidation and splitting.
-- Improvements & Fixes:the page UI and experience.
-- Fixed bugs across multiple modules and optimized.
+**v9.1.3 Upgrade Notes:**
+- Expanded Multi-chain Assets: Added support for BTC, SOL, and ZEC.
+- PIN Modification: You can now change your PIN code in Settings.
+- Real-time Balance Updates: Added a "Receiving `<amount>`" status on the Abelian page, making U9 and ABEL balance changes clear at a glance.
+- Bug Fixes & Optimizations: Fixed known issues across multiple modules and optimized the UI and user experience.
 
 **New version Features:**
 1. Support Abelian Layer 2 network - QDay, allowing users to view blockchain data, manage ERC20 tokens, use decentralized exchanges, stake ABEL tokens across chains, and access various DeFi apps.

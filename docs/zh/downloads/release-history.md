@@ -37,6 +37,14 @@ outline: deep
 ## Abelian (移動應用)
 `abelian-mobile-wallet-pro / info.abelian.walletpro`
 
+- **2026-11-14-v9.1.3**
+  - 擴展多鏈資產：新增支援 BTC、SOL 和 ZEC。
+  - 修改 PIN 碼：現在可以在「設置」中更改您的 PIN 碼。
+  - 餘額即時更新：在 Abelian 頁面新增「接收中 `<amount>`」狀態，讓 U9 與 ABEL 的餘額變動一目了然。
+  - 錯誤修復與優化：修復多個模組中的已知問題，並優化頁面 UI 與使用體驗。
+
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v9.1.3.apk)
+
 - **2026-11-06-v9.1.2**
   - 雙重認證（2FA）：支援通行密鑰（Passkeys）與 Google Authenticator。
   - 支援 UTXO 自動合併與拆分。
