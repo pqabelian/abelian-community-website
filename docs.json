@@ -67,7 +67,8 @@
                   "en/learn/abel-yellowpaper"
                 ]
               }
-            ]
+            ],
+            "icon": "book-open-cover"
           },
           {
             "tab": "Wallet",
@@ -94,7 +95,8 @@
                   "en/wallet/cli/cli-wallet-mlp"
                 ]
               }
-            ]
+            ],
+            "icon": "wallet"
           },
           {
             "tab": "Build",
@@ -125,7 +127,8 @@
                   "en/build/java-sdk/demo"
                 ]
               }
-            ]
+            ],
+            "icon": "tools"
           },
           {
             "tab": "Operate",
@@ -167,13 +170,15 @@
                   }
                 ]
               }
-            ]
+            ],
+            "icon": "gear-code"
           },
           {
             "tab": "Tutorials",
             "pages": [
               "en/tutorials/tutorials"
-            ]
+            ],
+            "icon": "chalkboard-teacher"
           },
           {
             "tab": "Downloads",
@@ -182,7 +187,8 @@
               "en/downloads/release-history",
               "en/downloads/fullnode-db",
               "en/downloads/ecosystem-tools"
-            ]
+            ],
+            "icon": "download"
           },
           {
             "tab": "FAQ",
@@ -211,7 +217,8 @@
                 ]
               },
               "en/faq/pool-issues"
-            ]
+            ],
+            "icon": "comment-question"
           }
         ]
       },
@@ -254,7 +261,8 @@
                   "zh/learn/abel-yellowpaper"
                 ]
               }
-            ]
+            ],
+            "icon": "book-open-cover"
           },
           {
             "tab": "錢包",
@@ -274,7 +282,8 @@
                   "zh/wallet/cli/cli-wallet-mlp"
                 ]
               }
-            ]
+            ],
+            "icon": "wallet"
           },
           {
             "tab": "建置",
@@ -305,7 +314,8 @@
                   "zh/build/java-sdk/demo"
                 ]
               }
-            ]
+            ],
+            "icon": "tools"
           },
           {
             "tab": "營運",
@@ -347,13 +357,15 @@
                   }
                 ]
               }
-            ]
+            ],
+            "icon": "gear-code"
           },
           {
             "tab": "教學指南",
             "pages": [
               "zh/tutorials/tutorials"
-            ]
+            ],
+            "icon": "chalkboard-teacher"
           },
           {
             "tab": "下載",
@@ -362,7 +374,8 @@
               "zh/downloads/release-history",
               "zh/downloads/fullnode-db",
               "zh/downloads/ecosystem-tools"
-            ]
+            ],
+            "icon": "download"
           },
           {
             "tab": "常見問題",
@@ -391,7 +404,8 @@
                 ]
               },
               "zh/faq/pool-issues"
-            ]
+            ],
+            "icon": "comment-question"
           }
         ]
       }
