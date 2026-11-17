@@ -17,7 +17,7 @@
   color: #3329ff;
 }
 
-#table-of-contents {
+[data-layout-item="toc-item-link"]:not([data-active="true"]) {
   color: #9b9b9b;
 }
 

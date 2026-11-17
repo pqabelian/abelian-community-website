@@ -1,5 +1,101 @@
 ---
 title: "Abelian User Token (AUT)"
 sidebarTitle: "Abelian User Token"
-description: ""
+description: "Learn how Abelian User Tokens let you issue and transfer native assets with post-quantum protection and a choice of public or hidden amounts."
 ---
+
+# Abelian User Tokens
+
+Create and transfer native assets on Abelian, with post-quantum protection and options for public or confidential amounts.
+
+## What Are AUTs?
+
+Abelian User Tokens (AUTs) are tokens that individuals, businesses, and developers can issue on the Abelian blockchain. They let you create an asset of your own while using the existing network to record and validate its transactions.
+
+ABEL is the network’s native coin. An AUT is a separate asset issued through Abelian’s token protocol, with its own supply and purpose.
+
+For example, a community could issue a token for its members, or a business could use tokens to represent an asset. The token’s meaning comes from its issuer; Abelian provides the blockchain infrastructure for issuing and transferring it.
+
+## Native to the Network
+
+AUTs are supported at the protocol level. Their issuance and transfers are processed on the Abelian blockchain, rather than maintained in a separate database operated by the issuer.
+
+Abelian introduced the AUT protocol through its network upgrade at block 300,000 in August 2024. The Aconcagua upgrade, activated at block 464,000 in January 2026, added support for Cloaked AUT.
+
+AUTs use Transparent host addresses, formerly called pseudo-private CT addresses. Current mainnet addresses of this type begin with `abe01007`.
+
+The host address is important: even when an AUT hides amounts, its participating addresses remain visible.
+
+## Two Types of Token Privacy
+
+AUTs have two privacy types: Transparent and Cloaked. The difference is whether amounts and balances are publicly visible—not whether the participating addresses are hidden.
+
+### Transparent AUT
+
+Transparent AUT transfers expose the sender’s address, the recipient’s address, and the amount transferred. Observers can follow the token’s movements and calculate address balances.
+
+Addresses are pseudonymous: they do not directly display someone’s name, but their activity can be associated with that person if their identity becomes linked to the address.
+
+Transparent AUT can suit situations where public visibility is useful, such as a community allocation that participants should be able to inspect.
+
+### Cloaked AUT
+
+Cloaked AUT hides transfer amounts and token balances from public view. The sender’s and recipient’s addresses remain visible.
+
+An observer can see which addresses participated in a transfer, but not how many tokens moved or the balances held at those addresses.
+
+According to Abelian’s technical overview, this confidentiality is enforced within the protocol using zero-knowledge proofs. These allow the network to validate transactions without requiring the hidden amounts to be published.
+
+Cloaked privacy is therefore about concealing financial quantities, not concealing the transaction’s participants.
+
+## An Example
+
+Suppose Alice issues 5,000 tokens called HELLOWORLD and sends 2,000 to Bob.
+
+With Transparent AUT, someone inspecting the chain can see the transfer amount and calculate the resulting token balances from their public activity.
+
+With Cloaked AUT, the participating addresses remain visible, but the 2,000-token transfer amount and their token balances are hidden from public view.
+
+In both cases, the transfer is recorded and validated on the Abelian blockchain. What changes is the information available to an outside observer.
+
+## Cloaked AUT vs. Shielded ABEL
+
+Cloaked AUT and Shielded ABEL provide different privacy protections.
+
+Both hide balances and transfer amounts. Shielded ABEL additionally conceals the sender among possible senders using linkable ring signatures and protects the recipient’s reusable wallet address through one-time addresses.
+
+Cloaked AUT does not provide those address-hiding protections. Both sender and recipient addresses remain public because AUTs operate on Transparent host addresses.
+
+“Cloaked” and “Shielded” should not be used interchangeably. A confidential amount does not necessarily mean an anonymous payment.
+
+## Post-Quantum Protection
+
+Both Transparent and Cloaked AUT use Abelian’s post-quantum cryptographic infrastructure. Making a token’s amounts public does not remove its post-quantum protection.
+
+Abelian uses custom lattice-based protocols built on the same lattice (MLWE/MSIS) foundations as NIST’s ML-KEM and ML-DSA. It does not simply implement those standards unchanged.
+
+Security and privacy serve different purposes: security protects against unauthorized spending, while privacy determines what others can learn about a transaction.
+
+## Creating and Managing AUTs
+
+Abelian’s official introduction describes token issuance through the mobile app and Desktop Wallet Pro, allowing users to create tokens without writing code.
+
+The basic process is to issue a token with a defined supply and then distribute it through transfers. Available issuance and management options depend on the wallet and version being used.
+
+Desktop Wallet Pro’s release history records support for non-cloaked AUT operations from March 2026 and Cloaked AUT from May 2026.
+
+## What Can AUTs Represent?
+
+Possible applications include community assets, contractor payments, ownership interests, and asset-backed tokens.
+
+Cloaked AUT can help where payment amounts or holdings should not be public. For example, a business could transfer tokens without publishing individual payment amounts, although the participating addresses would still be visible.
+
+A token representing shares, currency, or a physical asset also requires arrangements outside the blockchain. Its backing, redemption rights, and legal meaning depend on the issuer. Creating an AUT does not automatically establish those rights or guarantee its value.
+
+## Sources and Version
+
+Updated 17 November 2026. This page follows current product clarifications on Transparent and Cloaked AUT, including the visibility of both sender and recipient addresses, rather than the article’s broader privacy wording.
+
+- [Privacy by Design: Introducing the Quantum-Resistant Privacy Token on Abelian](https://pqabelian.io/blog/privacy-by-design-introducing-the-quantum-resistant-privacy-token-on-abelian), 3 April 2026.
+- [MLP and AUT network upgrade announcement](https://www.pqabelian.io/blog/abelian-network-hard-fork-introducing-multi-level-privacy-and-user-token-protocol-at-block-height-300-000), 29 July 2024.
+- [Official release history](https://community.pqabelian.io/downloads/release-history), for Aconcagua and wallet support milestones.

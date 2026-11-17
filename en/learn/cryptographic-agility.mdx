@@ -3,3 +3,67 @@ title: "Understanding Cryptographic Agility"
 sidebarTitle: "Cryptographic Agility"
 description: ""
 ---
+
+## What is Cryptographic Agility?
+
+Cryptographic agility is the ability to add, replace, or combine cryptographic algorithms as security needs change. For a blockchain, it means having a way to upgrade the technology protecting transactions without rebuilding the entire network.
+
+Abelian was built with post-quantum cryptography from its first block. The planned Blanc Fork will take that approach further by introducing support for multiple post-quantum signature schemes and a framework for adopting new ones over time.
+
+## Why Quantum Resistance Is Only the Beginning
+
+Post-quantum cryptography is designed to withstand attacks from both classical and quantum computers. But no cryptographic algorithm comes with a guarantee that it will remain secure forever.
+
+Researchers may discover a weakness in an algorithm, improve existing attacks, or find that different parameters are needed. A network that depends on a single cryptographic approach needs a plan for responding to those changes.
+
+Abelian co-founder Duncan Wong argues that long-term security requires more than choosing a strong algorithm today. It also requires the ability to change that choice tomorrow.
+
+## More Than Adding Another Algorithm
+
+Supporting several algorithms and being cryptographically agile are related, but they are not the same thing.
+
+Algorithm diversification means having more than one cryptographic approach available. Different schemes can rely on different mathematical foundations, reducing dependence on any single approach.
+
+Cryptographic agility means having a practical way to introduce, update, combine, or retire those schemes as the technology develops.
+
+Adding a second algorithm once is not enough if the network has no clear way to adopt a third later. Agility makes that ability to evolve part of the design.
+
+## How Blanc Fork Will Extend Abelian
+
+Abelian’s existing cryptographic suite is lattice-based. The planned Blanc Fork will introduce a multi-algorithm protocol engine so the network will be able to verify signatures from multiple post-quantum schemes.
+
+The proposed options will include:
+
+- Abelian’s existing SIS/module-lattice suite.
+- Falcon, which will provide an additional approach based on NTRU-style lattices.
+- SPHINCS+, which will introduce a hash-based signature option.
+
+Falcon and the existing suite will both belong to the broad lattice category, while SPHINCS+ will provide a different foundation based on cryptographic hash functions. Different foundations will offer alternatives, although they will not guarantee protection against every possible shared weakness.
+
+Blanc Fork will also establish a framework for adding further signature schemes and parameter sets through future consensus upgrades.
+
+## Choice at the Wallet and Transaction Level
+
+This change will extend cryptographic choice beyond the network itself. Wallets and applications will be able to select from the signature schemes supported by the protocol.
+
+The Blanc Fork also proposes Multi-Algorithm Dual Shielding, which will allow more than one post-quantum scheme to protect the same wallet or transfer. Proposed combinations will pair Abelian’s existing lattice suite with Falcon or SPHINCS+.
+
+This will be a cryptographic security feature, not another privacy level alongside Transparent, Shielded, or Auditable. Privacy determines what others can see; cryptographic agility concerns how the underlying protection can evolve.
+
+## Responding to New Threats
+
+If researchers discover a weakness in a supported scheme, an agile network has more options: adopt stronger parameters, introduce a replacement, or shift toward another supported approach.
+
+For Abelian, Duncan’s stated goal is to make that response possible without requiring holders to manually move their ABEL or AUT holdings. How that goal will be achieved will depend on the final Blanc Fork implementation.
+
+## Security That Can Evolve
+
+Cryptographic agility does not make a blockchain immune to future attacks. It gives the network a way to respond when assumptions change.
+
+For Abelian, the planned Blanc Fork will build on its existing post-quantum foundation with more cryptographic options and a framework for future upgrades. The aim is not to predict which algorithm will last forever, but to avoid depending on any one algorithm lasting forever.
+
+---
+
+## Extra Resources
+
+- [Twitter](https://x.com/DrDuncanWong/status/2079711301115535493): Abelian's Post-Quantum Cryptographic Agility (Blanc Fork) by Duncan Wong

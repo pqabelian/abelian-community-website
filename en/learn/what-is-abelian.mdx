@@ -3,40 +3,69 @@ title: "What is Abelian?"
 description: "Explore the Abelian blockchain's post-quantum security, privacy features, and community-driven ecosystem."
 ---
 
-Abelian is a **quantum-resistant** blockchain infrastructure which enables digital gold 2.0 and empowers the post-quantum crypto ecosystem.
+<iframe
+  className="w-full aspect-video rounded-xl"
+  src="https://www.youtube.com/embed/cR4jMVtqgV0?si=EXH3ktW0p9MTVDOp"
+  title="YouTube video player"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+></iframe>
 
-### Cryptographically proven to be quantum-resistant
+### What is Abelian?
 
-Abelian is intricately designed, mathematically proven and carefully reviewed to be secure against attacks from quantum computers.
-It applies post-quantum cryptographic algorithms to ensure long-term security and privacy of your digital gold, ABEL.
+Abelian is a Layer 1 blockchain built to keep your money safe and private, even after quantum computers arrive. It runs on its own network with its own coin, ABEL. Every transaction on it has been protected by post-quantum cryptography from the very first block.
 
-### Privacy enhancing — wallet address and amount hiding
+<Accordion title="Where does the term, abelian, come from?">
+    In math, "Abelian" means commutative: the order of an operation doesn't matter, so a + b = b + a. An Abelian group is a set with an operation like addition where swapping the order always gives the same result. The term is named after the Norwegian mathematician Niels Henrik Abel.
+</Accordion>
 
-Abelian ensures that your wallet address is hidden and untraceable, while also securing that the amount in your transactions is hidden by using lattice-based linkable ring signature schemes.
+### Why Abelian Exists
 
-### Industry leading encryption
+Most blockchains today, including Bitcoin and Ethereum, rely on cryptography that a powerful enough quantum computer could break. If that happens, the keys protecting people's funds and the records of their transactions could be exposed. Some networks plan to upgrade later. Abelian took a different path: it was built quantum-resistant from day one, so there's nothing to migrate and no old cryptography left behind.
 
-Everything going on in Abelian is encrypted. Just like how you don't always want anyone to know the amount of money you have in each of your bank accounts, or how you don't always want anyone to know your monetary transactions.
+Abelian also believes privacy should be a choice, not an afterthought. On a public chain, anyone can follow your balances and payments. Abelian lets you decide how much of each transaction others can see.
 
-### Privacy Preservation
+### The Technology
 
-On Abelian, your wallet address is hidden among a set of wallet addresses in every transaction you make, bringing about a new level of privacy preservation to the blockchain.
+Post-quantum security. Abelian is built entirely on lattice-based cryptography. It uses the same lattice (MLWE/MSIS) foundations as NIST's ML-KEM and ML-DSA, the math many experts consider a leading candidate for withstanding quantum attacks. There are no elliptic-curve parts anywhere in the system.
 
-### Security and true ownership to your ABEL
+Multi-Layer Privacy. Every time you send ABEL, you choose how private it is:
+- Transparent: fast, low-cost transfers that are visible on-chain, much like a regular blockchain.
+- Shielded: the sender, the recipient, and the amount are all kept confidential.
+- Auditable: privacy toward the public, with the option to share visibility with someone you trust, like an auditor.
 
-Your Abelian wallet address changes every time you use it, bringing your privacy to the next level of untraceability and unlinkability; on Bitcoin network, prying eyes can always trace and link your transactions.
+Abelian's privacy is quantum-resistant too, so private data recorded today can't simply be decrypted years from now once quantum computers exist.
 
-### Secure ecosystem driven by community
+Proof-of-Work mining. Abelian is secured by miners, not validators. Since the Aconcagua upgrade in January 2026, it has used a hybrid Proof-of-Work that lets both GPUs and CPU or ASIC-style hardware mine, which opens the network to a wider range of participants.
 
-Abelian is open source, and community driven. In addition to designing, developing and deploying the Abelian platform, we are building up an open community for Abelian. It is a journey that we collaboratively use as a truly decentralized and quantum-resistant Blockchain ecosystem with privacy-preserving functionalities.
+Tokens and smart contracts. The Abelian network supports user-issued tokens (AUT). For smart contracts, there's QDay, an EVM-compatible Layer 2 built for the Abelian ecosystem.
 
-Side chains, smart contracts, and inter-operability will be developed for supporting
-various DeFi, Metaverse, web3 applications and initiatives.
+### A Brief History
 
-## Deployment your Abelian
+- 2022: The Abelian whitepaper is published in February, and mainnet goes live in April.
+- 2023: Abelian raises a US$3 million round led by Draper Dragon and releases its first desktop wallet.
+- 2024: A major network upgrade introduces Multi-Layer Privacy and user-issued tokens.
+- 2025: Abelian launches the Desktop Wallet Pro, the QDay Layer 2, and a new issuance schedule designed to spread rewards over roughly six decades.
+- 2026: The Aconcagua upgrade brings hybrid mining. In March, a Google Quantum AI research paper names Abelian among the few blockchains that rely exclusively on post-quantum cryptography. In October, Abelian becomes a founding member of the Quantum Alliance, an industry group defining what "quantum-ready" means for blockchains.
 
-Please follow our [Abelian guide](/en/learn/applications-basics) to start your Abelian journey. It would be easy and fun!
+### The People Behind Abelian
+
+Abelian was co-founded by Duncan Wong and Huaxiong Wang, both cryptographers with deep academic roots. Duncan Wong, a former professor of computer science at City University of Hong Kong, is one of the original authors of linkable ring signatures. That 2004 research is part of the foundation of private transactions in crypto today. The team has also published peer-reviewed research on lattice-based ring signatures, the technology that powers Abelian's privacy.
+
+<Info>
+    In 2004, Abelian co-founder Duncan Wong co-authored the paper that introduced linkable ring signatures, a way to sign for a group without revealing who signed while still catching anyone who tries to spend the same coins twice. That idea later became a building block for Monero's private transactions. [[source: "Linkable Spontaneous Anonymous Group Signature for Ad Hoc Groups"](https://eprint.iacr.org/2004/027.pdf)]
+</Info>
+
+### What's Next
+
+Abelian is working toward what it calls crypto agility. The upcoming Blanc Fork will let the network support multiple post-quantum signature families side by side, adding Falcon and SPHINCS+ alongside its lattice suite. In Duncan Wong's words, Blanc Fork will make Abelian "the world's first cryptographically agile blockchain." If any single algorithm is ever weakened, the network will be able to switch without users needing to move their funds.
+
+Abelian's mission is to give everyone digital money that stays secure, stays private, and stays theirs, no matter what tomorrow's computers can do. As Duncan Wong puts it, that rests on three pillars: quantum resistance, privacy, and cryptographic agility.
+
+---
 
 ## Extra Resources
 
+- [PQBD2025 Panel](https://www.youtube.com/watch?v=LDEQMxvw4bE): Fortifying the Future: Post-Quantum Cryptography and Global Digital Infrastructure
 - [The Post-Quantum Experience](https://x.com/NaoXprotocol/status/2100549662985867583): Richard Lee (CBO) gives a live breakdown of the history of the Abelian project.
+- [The Jame DiBiasio Report](https://www.youtube.com/watch?v=mxDUWhAUk0I): Is money "quantum safe"? with Duncan Wong

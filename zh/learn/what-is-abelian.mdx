@@ -1,42 +1,71 @@
 ---
 title: "Abelian 是什麼？"
-description: "認識 Abelian 的抗量子區塊鏈基礎、隱私特性與社群生態系統。"
+description: "了解 Abelian 的後量子安全、隱私功能、混合挖礦模式與生態系統。"
 keywords: ["Abelian", "抗量子區塊鏈", "隱私"]
 ---
 
-Abelian 是一個**抗量子**區塊鏈基礎設施，致力於實現數位黃金 2.0，並支援後量子加密生態系統。
+<iframe
+	className="w-full aspect-video rounded-xl"
+	src="https://www.youtube.com/embed/cR4jMVtqgV0?si=EXH3ktW0p9MTVDOp"
+	title="YouTube video player"
+	allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+	allowFullScreen
+></iframe>
 
-### 經過密碼學驗證的抗量子能力
+### 什麼是 Abelian？
 
-Abelian 經過精心設計、數學證明與審慎檢視，以確保能抵禦量子電腦的攻擊。
-它採用後量子加密演算法，保障 ABEL 的長期安全與隱私。
+Abelian 是一條 Layer 1 區塊鏈，旨在讓你的資金即使在量子電腦問世後仍保持安全與隱私。它運作於自己的網路並使用原生代幣 ABEL，從第一個區塊起便以後量子密碼學保護每筆交易。
 
-### 強化隱私：隱藏錢包地址與交易金額
+<Accordion title="Abelian 這個名稱的由來？">
+在數學中，Abelian 指的是交換性：運算順序不影響結果，因此 a + b = b + a。Abelian 群是一種帶有類似加法運算的集合，交換運算順序後結果仍相同。這個名稱來自挪威數學家 Niels Henrik Abel。
+</Accordion>
 
-Abelian 讓錢包地址保持隱藏且難以追蹤，並使用基於格的可連結環簽章方案隱藏交易金額。
+### Abelian 為何存在
 
-### 加密技術
+目前許多區塊鏈，包括 Bitcoin 和 Ethereum，都依賴可能被足夠強大的量子電腦破解的密碼學。如果這種情況發生，保護資金的金鑰和交易紀錄都可能暴露。有些網路計畫日後升級；Abelian 則從一開始便以抗量子能力建構，無需遷移，也沒有沿用舊式密碼學。
 
-Abelian 上的操作會受到加密保護。就像你不一定希望別人知道銀行帳戶餘額或每筆金融交易，你也可以在 Abelian 上保護這些資訊的隱私。
+Abelian 也認為隱私應由使用者選擇，而不是事後補上的功能。在公有區塊鏈上，任何人都可以追蹤你的餘額與付款；Abelian 讓你決定每筆交易有多少資訊可供他人查看。
 
-### 隱私保護機制
+### 核心技術
 
-在 Abelian 上，每筆交易的錢包地址都會隱藏在一組地址之中，為區塊鏈帶來更高程度的隱私保護。
+**後量子安全。** Abelian 完全以格密碼學為基礎，採用與 NIST ML-KEM 和 ML-DSA 相同的格（MLWE/MSIS）基礎。許多專家認為這類數學問題是抵禦量子攻擊的重要候選方案。Abelian 使用基於這些基礎自行設計的密碼學建構，而非原樣實作上述標準。
 
-### 資產安全與自主掌控
+**多層隱私。** 每次傳送 ABEL 時，你都可以選擇隱私層級：
 
-Abelian 錢包地址會在使用時更換，進一步降低交易被追蹤和關聯的可能性。相較之下，Bitcoin 網路上的交易通常可以被追蹤並彼此關聯。
+- **Transparent（透明）**：快速、低成本且可在鏈上公開查看的轉帳，類似一般區塊鏈交易。
+- **Shielded（遮蔽）**：對發送者、接收者和金額保密。
+- **Auditable（可稽核）**：對公眾保持隱私，也可選擇與信任的人（例如稽核人員）分享交易資訊。
 
-### 由社群推動的安全生態系統
+Abelian 的隱私功能同樣具備抗量子能力，因此今天記錄的私人資料不會在未來量子電腦出現後就能被輕易解密。
 
-Abelian 是開源並由社群推動的專案。社群共同設計、開發和部署 Abelian 平台，也持續建立開放的 Abelian 社群，推進兼具去中心化、抗量子能力與隱私保護功能的區塊鏈生態系統。
+**工作量證明挖礦。** Abelian 由礦工而非驗證者維護安全。自 2026 年 1 月 Aconcagua 升級後，網路採用混合工作量證明，讓 GPU 與 CPU 或 ASIC 類型硬體都能參與挖礦，擴大網路參與者的範圍。
 
-Abelian 生態系統也將發展側鏈、智慧合約與互通性，以支援各種 DeFi、元宇宙和 Web3 應用及計畫。
+**代幣與智慧合約。** Abelian 網路支援使用者發行代幣（AUT）。智慧合約則由與 EVM 相容、專為 Abelian 生態系統打造的 Layer 2 QDay 提供。
 
-## 開始使用 Abelian
+### 簡要歷史
 
-請先閱讀 [Abelian 應用程式基礎](/zh/learn/applications-basics)，開始你的 Abelian 之旅。
+- **2022 年：** Abelian 白皮書於 2 月發布，主網於 4 月上線。
+- **2023 年：** Abelian 完成由 Draper Dragon 領投的 300 萬美元募資，並推出首款桌面錢包。
+- **2024 年：** 重大網路升級推出多層隱私與使用者代幣。
+- **2025 年：** Abelian 推出 Desktop Wallet Pro、QDay Layer 2，以及旨在約六十年內逐步發放獎勵的新發行計畫。
+- **2026 年：** Aconcagua 升級引入混合挖礦。3 月，Google Quantum AI 研究論文將 Abelian 列為少數完全採用後量子密碼學的區塊鏈之一。10 月，Abelian 成為制定區塊鏈「量子就緒」定義之 Quantum Alliance 產業組織的創始成員。
+
+### Abelian 的創辦者
+
+Abelian 由密碼學家 Duncan Wong 和 Huaxiong Wang 共同創辦，兩人皆有深厚的學術背景。Duncan Wong 曾任香港城市大學電腦科學教授，也是可連結環簽章原始論文的共同作者之一。該研究於 2004 年發表，後來成為加密貨幣隱私交易的基礎之一。團隊也發表了格基環簽章的同儕審查研究，這項技術支援 Abelian 的隱私功能。
+
+<Info>
+2004 年，Abelian 共同創辦人 Duncan Wong 與他人共同發表論文，介紹可連結自發匿名群組簽章。這種簽章可讓使用者代表一個群組簽署，而不透露簽署者身分，同時能偵測重複支出。此概念後來成為 Monero 私密交易的基礎技術之一。[[來源：「Linkable Spontaneous Anonymous Group Signature for Ad Hoc Groups」](https://eprint.iacr.org/2004/027.pdf)]
+</Info>
+
+### 未來發展
+
+Abelian 正在推進名為密碼學敏捷性的方向。預計中的 Blanc Fork 將讓網路能同時支援多種後量子簽章家族，在既有格密碼學套件之外加入 Falcon 與 SPHINCS+。Duncan Wong 表示，Blanc Fork 將使 Abelian 成為「全球第一個具密碼學敏捷性的區塊鏈」。若任何單一演算法日後被削弱，網路便可切換，而使用者無需轉移資金。
+
+Abelian 的使命是提供人人可用的數位貨幣，讓資金無論面對未來何種運算能力，都能維持安全、隱私並由使用者掌控。Duncan Wong 將此使命歸納為三大支柱：抗量子能力、隱私與密碼學敏捷性。
 
 ## 其他資源
 
+- [PQBD2025 座談](https://www.youtube.com/watch?v=LDEQMxvw4bE)：強化未來：後量子密碼學與全球數位基礎設施。
 - [後量子體驗](https://x.com/NaoXprotocol/status/2100549662985867583)：Abelian 商務長 Richard Lee 分享 Abelian 專案的發展歷程。
+- [The Jame DiBiasio Report](https://www.youtube.com/watch?v=mxDUWhAUk0I)：Duncan Wong 談「金錢是否能抗量子？」

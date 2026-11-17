@@ -1,5 +1,184 @@
 ---
-title: "What are Post-Quantum Signatures"
+title: "What are Post-Quantum (PQ) Signatures"
 sidebarTitle: "Post-Quantum Signatures"
-description: ""
+description: "Explore how Abelian’s lattice-based signatures authorize transactions, protect sender privacy, and help defend against quantum attacks."
 ---
+
+# Post-Quantum Signatures
+
+Digital signatures let a blockchain verify that someone authorized a transaction without asking them to reveal their secret key. Abelian uses custom lattice-based cryptography for this authorization, with linkable ring signatures providing sender privacy for Shielded ABEL transactions.
+
+This page explains the mathematical foundations and construction described in Abelian’s February 2022 whitepaper. It distinguishes signatures from the encryption, commitments, and proofs that work alongside them.
+
+## Why Post-Quantum Signatures Matter
+
+Many blockchains use signatures based on elliptic-curve mathematics. A sufficiently capable quantum computer running Shor’s algorithm could recover a signing key from its public key, allowing an attacker to forge signatures.
+
+Post-quantum signatures use different mathematical problems for which no efficient classical or quantum solution is currently known.
+
+Abelian’s documented design uses lattice-based cryptography. Its foundations are Module Learning With Errors (MLWE) and Module Short Integer Solution (MSIS), the same lattice foundations underlying NIST’s ML-KEM and ML-DSA.
+
+That does not mean Abelian simply uses ML-DSA, or its predecessor Dilithium, unchanged. Abelian’s design combines custom signature and privacy mechanisms to support private transactions.
+
+## The Mathematics Behind the Design
+
+Lattice-based cryptography works with structured systems of equations where finding a sufficiently small secret solution is computationally difficult.
+
+The whitepaper performs arithmetic in polynomial rings:
+
+$$
+R = \mathbb{Z}[X]/(X^n+1), \qquad R_q = \mathbb{Z}_q[X]/(X^n+1).
+$$
+
+Elements are polynomials with degree below $(n)$. Coefficients are reduced modulo $(q)$, and polynomial multiplication is reduced using $(X^n=-1)$.
+
+Vectors and matrices contain these polynomials. A “short” vector has coefficients bounded by a small value, rather than arbitrary values modulo $(q)$.
+
+### Module Learning With Errors
+
+A typical MLWE relation has the form:
+
+$$
+b = As + e \pmod q,
+$$
+
+where $(A)$ is public, $(s)$ is a short secret vector, and $(e)$ is a short error vector.
+
+The error prevents ordinary linear algebra from recovering the secret. Informally, the underlying problems concern recovering the secret or distinguishing these noisy samples from uniformly random ones.
+
+### Module Short Integer Solution
+
+MSIS concerns finding a nonzero short vector satisfying a public modular linear relation. The whitepaper also describes an inhomogeneous version: finding a short vector $(x)$ for a specified target $(t)$, such that:
+
+$$
+[A \mid I]x = t \pmod q.
+$$
+
+The shortness requirement is essential. Finding just any modular solution is not the security problem.
+
+These assumptions support different parts of Abelian’s design, including public-key relations, commitments, and proofs of knowledge. Their security depends on the construction and parameter choices—not merely on using the word “lattice.”
+
+## From a Secret Key to a Signature
+
+Section 3.2.2 of the whitepaper describes a signature-key relation:
+
+$$
+t = As_1 + s_2 \pmod q,
+$$
+
+where $(A)$ is a public matrix, $((s_1,s_2))$ is a pair of short secret vectors, and $(t)$ is the public key.
+
+To authorize a message, the signer proves knowledge of a valid short secret corresponding to the public key without disclosing that secret.
+
+The whitepaper points to Lyubashevsky’s Fiat–Shamir-with-aborts approach, also used in the design lineage of Dilithium.
+
+The Fiat–Shamir transformation replaces an interactive verifier’s challenge with a hash-derived challenge, allowing a proof to be checked without an interactive exchange. The abort or rejection-sampling step controls the distribution of responses so they do not leak information about the secret.
+
+These describe the design approach. The whitepaper does not supply a complete production signing transcript, exact hash inputs, or all rejection thresholds.
+
+## One-Time Keys Protect the Recipient
+
+Abelian’s signature design works with one-time keys so payments do not directly expose the recipient’s reusable wallet address.
+
+The whitepaper combines a lattice signature-key relation with a key-encapsulation mechanism, or KEM. A KEM lets the sender establish a shared secret that the recipient can recover using their secret decapsulation key.
+
+The sender uses that shared secret to derive a short offset pair $((s_{1,1},s_{2,1}))$. Given the recipient’s long-term signature public key $(t_0)$, the sender calculates:
+
+$$
+t_1 = As_{1,1}+s_{2,1}, \qquad t=t_0+t_1.
+$$
+
+The resulting $(t)$ is the one-time public key for the payment.
+
+The recipient recovers the shared secret, regenerates the offset, and combines it with their long-term secret:
+
+$$
+s_1=s_{1,0}+s_{1,1}, \qquad s_2=s_{2,0}+s_{2,1}.
+$$
+
+The derived keys satisfy the same public-key relation:
+
+$$
+t=As_1+s_2.
+$$
+
+The sender can construct the destination public key, but cannot derive its complete spending secret without the recipient’s long-term secret.
+
+The whitepaper uses Kyber as an example KEM for this construction. Kyber’s job here is shared-secret establishment—not transaction signing. Describing Kyber as Abelian’s signature algorithm would be incorrect.
+
+## Linkable Ring Signatures Protect the Sender
+
+An ordinary signature identifies the public key that authorized a message. A ring signature instead proves that one member of a set of public keys authorized it, without identifying which member.
+
+For a Shielded spend, this allows the actual spent output to be concealed among possible outputs.
+
+Privacy introduces a second requirement: the network must still detect double-spending. Abelian’s design addresses this through linkability.
+
+### Serial Numbers and Double-Spend Detection
+
+The whitepaper describes a deterministic tag associated with the secret signing information. In the payment protocol, this appears as a coin serial number. Related systems call such a tag a key image.
+
+A valid spend reveals the serial number while proving that it corresponds to an authorized spend from the ring. If another transaction tries to spend the same coin, its repeated serial number lets the network detect the conflict.
+
+The intended result is that observers can recognize a repeated spend without learning which ring member was spent from the serial number alone.
+
+This is anonymity within a set of possibilities, not a guarantee against every form of transaction analysis.
+
+### Abelian’s Documented Ring-Signature Approach
+
+Section 3.2.5 describes Abelian’s approach as combining Libert and colleagues’ blueprint with Lyubashevsky’s zero-knowledge techniques.
+
+The discussion considers Merkle-tree-based ring-membership proofs alongside lattice proof techniques based on Module-SIS and Module-LWE. However, it does not give a complete specification of Abelian’s ring-membership protocol.
+
+It would therefore be inaccurate to present a particular Merkle-tree layout, signature size, or signing algorithm as the current implementation based on this whitepaper alone.
+
+## Signatures Work Alongside Amount-Hiding Proofs
+
+Signatures establish authorization. They do not, by themselves, hide amounts or prove that a transaction balances.
+
+Abelian’s documented private-payment construction combines several components:
+
+- One-time keys protect the recipient’s reusable address.
+- Linkable ring signatures conceal the sender while enabling double-spend detection.
+- Lattice commitments hide amounts.
+- Range proofs show that hidden amounts lie within an allowed interval.
+- Balance proofs establish that input value equals output value plus the transaction fee.
+
+The commitments are additively homomorphic: adding commitments produces a commitment to the sum of their values, with the corresponding combined opening. This makes it possible to express balance relations without publishing the amounts.
+
+In Section 4, the whitepaper represents a transaction as its public content plus a combined authorization, authentication, and balance proof, called `abpf`. This proof is intended to bind authorization and value conservation to the transaction being submitted.
+
+## How This Relates to Multi-Level Privacy
+
+The full-privacy construction explains the roles needed for Shielded ABEL: hidden amounts, recipient protection through one-time keys, and sender hiding through linkable ring signatures.
+
+Transparent ABEL still requires post-quantum authorization, but does not provide the same privacy properties. The 2022 construction should not be treated as a complete specification of the later Transparent wallet formats or their exact signing paths.
+
+Likewise, Cloaked AUT hides amounts and balances but leaves sender and recipient addresses visible. Amount privacy alone does not imply ring-signature sender anonymity.
+
+## Future Signature Options
+
+According to Duncan Wong’s Blanc Fork proposal, Abelian will add support for further signature families, including Falcon and SPHINCS+, alongside its existing lattice suite.
+
+Those planned options will extend cryptographic choice and agility. They are separate from the construction described in the 2022 whitepaper and are not presented here as currently deployed features.
+
+## References and Technical Scope
+
+Reviewed 17 November 2026. Mathematical relations and construction details above come from the [Abelian whitepaper, v1.0, 18 February 2022](https://download.pqabelian.io/release/docs/whitepaper.pdf), particularly:
+
+- Section 3.1: cryptographic framework.
+- Section 3.2.1: Module-SIS and Module-LWE.
+- Section 3.2.2: one-time keys and signature-key relations.
+- Sections 3.2.3–3.2.4: commitments and range proofs.
+- Section 3.2.5: linkable ring signatures.
+- Sections 4.2.3 and 4.4.7: transaction proofs and serial numbers.
+
+The related research paper [A Lattice-Based Linkable Ring Signature Supporting Stealth Addresses](https://doi.org/10.1007/978-3-030-29959-0_35), co-authored by Abelian researchers and published at ESORICS 2019, provides additional background. It should not be assumed to describe the deployed implementation unchanged.
+
+Future signature plans are described in [Duncan Wong’s Blanc Fork article](https://x.com/DrDuncanWong/status/2079711301115535493), published 22 July 2026.
+
+---
+
+## Extra Resources
+
+- [Abelian Youtube](https://www.youtube.com/watch?v=0Gzr2XdBflo): Exploring Post-Quantum Cryptography: Insights from Abelian Foundation Co-founder

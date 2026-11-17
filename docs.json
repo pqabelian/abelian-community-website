@@ -38,7 +38,9 @@
                 "pages": [
                   "index",
                   "en/learn/applications-basics",
-                  "en/learn/get-started"
+                  "en/learn/get-started",
+                  "en/learn/use-cases",
+                  "en/learn/glossary"
                 ]
               },
               {
@@ -232,7 +234,9 @@
                 "group": "開始使用",
                 "pages": [
                   "zh/index",
-                  "zh/learn/applications-basics"
+                  "zh/learn/applications-basics",
+                  "zh/learn/use-cases",
+                  "zh/learn/glossary"
                 ]
               },
               {

@@ -1,5 +1,123 @@
 ---
 title: "Multi-Level Privacy (MLP) Explained"
-sidebarTitle: "Multi-Level Privacy"
-description: ""
+sidebarTitle: "Multi-Level Privacy (MLP)"
+description: "Understand what’s public, what stays private, and what you can choose to share when using ABEL and Abelian User Tokens."
 ---
+
+## What is Multi-Level Privacy?
+
+Your transaction history can reveal a lot about you: who you pay, how much you receive, and how much you hold. Not every payment needs to share all that information.
+
+Abelian’s Multi-Level Privacy (MLP) gives you different ways to hold and transfer assets, depending on what you want to keep private and what you need to share. For ABEL, there are three privacy levels: 
+
+- **[Transparent (aka pseudo-private CT)](#transparent-public-activity-pseudonymous-addresses):** Publishes ABEL amounts and participating addresses so anyone can inspect payments and balances.
+- **[Shielded (aka fully-private)](#shielded-private-balances-and-payments):** Hides ABEL balances and amounts while obscuring the sender and protecting the recipient's reusable address.
+- **[Auditable (aka accountable)](#auditable-private-to-the-public-visible-by-permission):** Keeps ABEL balances and amounts private from the public while letting a viewing-key holder inspect them without spending funds.
+
+Abelian User Tokens (AUT) also have two options of their own: [Transparent and Cloaked](#privacy-for-abelian-user-tokens).
+
+This page explains what each option protects, what remains visible, and where each is available.
+
+## Privacy and Security Are Different
+
+Security protects your funds from unauthorized spending. Privacy controls what other people can learn about your financial activity.
+
+Abelian uses post-quantum cryptography at every privacy level, including Transparent. Choosing a public transaction does not mean giving up post-quantum protection. Its cryptography is built on the same lattice (MLWE/MSIS) foundations as NIST’s ML-KEM and ML-DSA. Abelian uses its own cryptographic constructions on those foundations, rather than implementing those standards unchanged.
+
+## Transparent: Public Activity, Pseudonymous Addresses
+
+Transparent is the most open ABEL privacy level. Transfer amounts and participating addresses are publicly visible, allowing observers to follow activity and calculate balances.
+
+An address does not directly display its owner’s name. This is called pseudonymity, not anonymity. If someone connects an address to a person or organization, they can associate its public activity with that identity.
+
+Transparent can be useful when visibility is part of the purpose, such as a public donation address where contributors should be able to check incoming payments.
+
+Current Transparent mainnet addresses start with `abe01007`. Older documentation uses two names for Transparent wallets:
+
+- Pseudo-private, with addresses starting with `abe01006`.
+- Pseudo-private CT, with addresses starting with `abe01007`.
+
+The original `abe01006` wallet type is obsolete and is being replaced by `abe01007`. Despite their different names and underlying wallet versions, both have the same privacy level. The current name for both is Transparent.
+
+## Shielded: Private Balances and Payments
+
+Shielded provides privacy for ABEL balances and transfer amounts. It also obscures the sender and protects the recipient’s reusable wallet address. Several cryptographic components work together to provide these protections.
+
+### Hiding the sender
+
+Abelian uses lattice-based linkable ring signatures to hide the sender among a set of possible senders. The network can verify that a spend is authorized without publicly identifying which member of the set authorized it.
+
+The “linkable” property allows the network to detect an attempt to spend the same coins twice without revealing the legitimate sender’s identity. This is a specific privacy mechanism, not a promise of unlimited anonymity. The sender is concealed within a set of possibilities, rather than among every user on the network.
+
+### Protecting the recipient
+
+One-time addresses help prevent payments from being publicly linked to the recipient’s reusable wallet address. This complements the sender protection provided by ring signatures.
+
+### Hiding amounts and balances
+
+Cryptographic commitments and zero-knowledge proofs allow the network to check transaction validity without publishing the payment amount. Shielded wallet balances are also hidden from public view.
+
+Shielded is suited to situations where financial details should remain private, such as personal savings and confidential payments.
+
+Shielded mainnet addresses start with `abe01005`. Older documentation calls this wallet type fully-private.
+
+## Auditable: Private to the Public, Visible by Permission
+
+<Info>
+    Auditable privacy mode is currently not yet supported in the mobile app or desktop/CLI wallet. Support in those products is planned for the future.
+</Info>
+
+Auditable keeps ABEL balances and transfer amounts hidden from the public while allowing the owner to give a third party visibility through a viewing key.
+
+With that viewing key, an auditor can see:
+
+- The wallet’s balance.
+- The amount in all of the wallet’s transfers.
+
+The viewing key cannot authorize transfers or spend funds. It grants visibility, not control. For example, a team could keep its operating balance and payment amounts out of public view while sharing a viewing key with its accountant. The accountant could review the figures without gaining permission to move the funds.
+
+Sharing a viewing key is broader than showing someone a single payment: it reveals the wallet’s balance and amounts across its transfers. Share it only with someone who should have that access.
+
+## Privacy for Abelian User Tokens
+
+Abelian User Tokens, or AUT, are assets issued on the Abelian network. Their privacy options differ from those available for ABEL.
+
+AUT use Transparent host addresses, formerly called pseudo-private CT addresses. Both the sender’s and recipient’s addresses remain publicly visible, whether the AUT is Transparent or Cloaked.
+
+### Transparent AUT
+
+For Transparent AUT, transfer amounts are public alongside the participating addresses. Observers can follow transfers and calculate token balances.
+
+### Cloaked AUT
+
+For Cloaked AUT, transfer amounts and token balances are hidden. The sender’s and recipient’s addresses remain public.
+
+The term Cloaked is dedicated to this AUT privacy option. It should not be used interchangeably with Shielded.
+
+<Accordion title="Cloaked AUT Is Not Shielded ABEL">
+The distinction is straightforward: Cloaked AUT hides how much is held or transferred, but does not hide the participating addresses.
+
+Shielded ABEL hides balances and amounts, conceals the sender among possible senders using linkable ring signatures, and protects the recipient’s reusable address through one-time addresses.
+
+If you send a Cloaked AUT, an observer can still see the addresses involved, even though they cannot see the amount. Do not assume that hidden amounts also mean hidden participants.    
+</Accordion>
+
+## Choosing the Right Privacy Level
+
+Use this guide to match the asset and visibility you need with an MLP privacy level.
+
+| Asset | If you want to… | Choose | What remains visible |
+| --- | --- | --- | --- |
+| ABEL | Make payments and balances publicly inspectable | **Transparent** | Amounts and participating addresses |
+| ABEL | Hide balances and amounts, and obscure the sender and recipient's reusable address | **Shielded** | Transaction validity is verified without publishing these details |
+| ABEL | Keep balances and amounts private from the public, but let a trusted reviewer inspect them | **Auditable** | A viewing-key holder can see the balance and transfer amounts, but cannot spend funds. Currently available through the developer CLI only. |
+| AUT | Keep amounts and balances public | **Transparent AUT** | Sender and recipient addresses, amounts, and balances |
+| AUT | Hide amounts and balances | **Cloaked AUT** | Sender and recipient addresses |
+
+MLP gives you options rather than a single privacy setting for every situation. The important step is understanding exactly what your chosen wallet or token type reveals.
+
+---
+
+## Extra Resources:
+
+- [Blog](https://pqabelian.io/blog/mlp101-inside-abelians-multi-layer-privacy-and-quantum-security): Multi-Layer Privacy, Quantum Defense: Blockchain’s Shift in the Web3 Era

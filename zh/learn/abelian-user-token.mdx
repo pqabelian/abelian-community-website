@@ -1,5 +1,100 @@
 ---
 title: "Abelian 使用者代幣（AUT）"
 sidebarTitle: "Abelian 使用者代幣"
-description: ""
+description: "了解如何在 Abelian 上發行和轉移原生資產，並選擇公開或隱藏金額，同時享有後量子保護。"
+keywords: ["Abelian 使用者代幣", "AUT", "Cloaked AUT", "Transparent AUT"]
 ---
+
+在 Abelian 上發行和轉移原生資產，並享有後量子保護，以及公開或隱藏金額的選項。
+
+## 什麼是 AUT？
+
+Abelian 使用者代幣（Abelian User Token，AUT）是個人、企業和開發者可在 Abelian 區塊鏈上發行的代幣。你可以建立自己的資產，並使用既有網路記錄和驗證相關交易。
+
+ABEL 是網路的原生貨幣；AUT 則是透過 Abelian 代幣協定發行、具有自身供應量與用途的獨立資產。
+
+例如，社群可以發行會員代幣，企業也可以用代幣代表某種資產。代幣的意義由發行者決定，Abelian 則提供發行和轉移代幣的區塊鏈基礎設施。
+
+## 網路原生資產
+
+AUT 在協定層級受到支援，其發行和轉移會由 Abelian 區塊鏈處理，而非由發行者維護的獨立資料庫記錄。
+
+Abelian 於 2024 年 8 月區塊高度 300,000 的網路升級中引入 AUT 協定。2026 年 1 月啟用的 Aconcagua 升級，則加入 Cloaked AUT 支援。
+
+AUT 使用 Transparent 主地址，這種地址過去稱為 pseudo-private CT。目前此類主網地址以 `abe01007` 開頭。
+
+主地址類型很重要：即使 AUT 隱藏金額，參與交易的地址仍然可見。
+
+## 兩種代幣隱私類型
+
+AUT 有 Transparent 與 Cloaked 兩種隱私類型。兩者差別在於金額和餘額是否公開，而不是參與地址是否隱藏。
+
+### Transparent AUT
+
+Transparent AUT 會公開發送者地址、接收者地址與轉帳金額。旁觀者可追蹤代幣流向並計算各地址的餘額。
+
+地址具有偽匿名性：地址本身不會直接顯示持有者姓名，但若有人將地址與某個身分連結，就能將其活動與該身分關聯。
+
+如果公開透明有其用途，例如讓社群成員檢視代幣分配，Transparent AUT 可能適合這類情況。
+
+### Cloaked AUT
+
+Cloaked AUT 會對公眾隱藏轉帳金額和代幣餘額，但發送者與接收者地址仍會公開。
+
+旁觀者可以看到哪些地址參與交易，但無法得知轉移的代幣數量或這些地址持有的餘額。
+
+根據 Abelian 技術概述，協定使用零知識證明在不公開隱藏金額的情況下驗證交易。
+
+因此，Cloaked 隱藏的是金融數量，而不是交易參與者。
+
+## 範例
+
+假設 Alice 發行名為 HELLOWORLD 的 5,000 枚代幣，並轉帳 2,000 枚給 Bob。
+
+使用 Transparent AUT 時，鏈上觀察者可以看到轉帳金額，並根據公開活動計算代幣餘額。
+
+使用 Cloaked AUT 時，參與地址仍會公開，但 2,000 枚代幣的轉帳金額及其餘額會對公眾隱藏。
+
+兩種情況下，交易都會記錄在 Abelian 區塊鏈上並經過驗證；差別在於外部觀察者能取得哪些資訊。
+
+## Cloaked AUT 與 Shielded ABEL
+
+Cloaked AUT 和 Shielded ABEL 提供不同的隱私保護。
+
+兩者都會隱藏餘額和轉帳金額。Shielded ABEL 還會透過可連結環簽章將發送者隱藏在可能的發送者之中，並使用一次性地址保護接收者可重複使用的錢包地址。
+
+Cloaked AUT 不提供這些地址隱藏保護。由於 AUT 使用 Transparent 主地址，發送者與接收者地址都會公開。
+
+「Cloaked」和「Shielded」不可互換使用。金額保密不一定代表付款具有匿名性。
+
+## 後量子保護
+
+Transparent 與 Cloaked AUT 都使用 Abelian 的後量子密碼學基礎架構。公開代幣金額不會移除其後量子保護。
+
+Abelian 使用以 MLWE/MSIS 格基礎建立的自訂密碼學協定；這些基礎也用於 NIST 的 ML-KEM 和 ML-DSA，但 Abelian 並非直接原樣實作這些標準。
+
+安全性與隱私用途不同：安全性防止未經授權的支出，隱私則決定他人能從交易中得知什麼。
+
+## 建立與管理 AUT
+
+Abelian 官方介紹指出，使用者可以透過行動應用程式和 Desktop Wallet Pro 發行代幣，無需撰寫程式碼。
+
+基本流程是發行具有指定供應量的代幣，再透過轉帳進行分配。實際可用的發行與管理選項取決於所使用的錢包和版本。
+
+Desktop Wallet Pro 發布紀錄顯示，2026 年 3 月開始支援非 Cloaked AUT 操作，並於 2026 年 5 月加入 Cloaked AUT 支援。
+
+## AUT 可代表什麼？
+
+AUT 可用於社群資產、承包商付款、所有權權益及資產支持型代幣等用途。
+
+若需要隱藏付款金額或持有量，Cloaked AUT 可能有所幫助。例如，企業可以轉移代幣而不公開個別付款金額，但參與地址仍會公開。
+
+代表股份、貨幣或實體資產的代幣，也需要區塊鏈以外的安排。其資產支持、贖回權利和法律意義由發行者決定。建立 AUT 本身不會自動確立這些權利，也不保證代幣價值。
+
+## 資料來源與版本
+
+本頁於 2026 年 11 月 17 日更新。內容依據 Transparent 與 Cloaked AUT 的產品說明，包含發送者和接收者地址都會公開的資訊，而非沿用文章中較廣泛的隱私描述。
+
+- [以隱私為設計核心：介紹 Abelian 上的抗量子隱私代幣](https://pqabelian.io/blog/privacy-by-design-introducing-the-quantum-resistant-privacy-token-on-abelian)，2026 年 4 月 3 日。
+- [MLP 與 AUT 網路升級公告](https://www.pqabelian.io/blog/abelian-network-hard-fork-introducing-multi-level-privacy-and-user-token-protocol-at-block-height-300-000)，2024 年 7 月 29 日。
+- [官方發布紀錄](https://community.pqabelian.io/downloads/release-history)，包含 Aconcagua 與錢包支援時程。

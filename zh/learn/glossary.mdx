@@ -1,0 +1,44 @@
+---
+title: "Abelian 隱私術語表"
+sidebarTitle: "術語表"
+description: "查閱 Abelian 錢包隱私層級、地址格式，以及 Transparent 和 Cloaked AUT 的術語定義。"
+keywords: ["Abelian 術語表", "Transparent", "Shielded", "Auditable Privacy", "AUT"]
+---
+
+本術語表說明 Abelian 錢包的隱私名稱、舊地址術語與目前名稱的對應關係，以及 Transparent 和 Cloaked AUT 會公開哪些資訊。
+
+## ABEL 錢包隱私層級
+
+### Auditable Privacy（可稽核隱私）
+
+可稽核隱私介於 Transparent 與 Shielded 之間。錢包持有人可將檢視金鑰分享給稽核人員等第三方，讓對方查看餘額與轉帳金額；檢視金鑰不能用來轉帳或支出資金。
+
+### Shielded（遮蔽）
+
+Shielded 是 ABEL 的完全私密層級。它會隱藏 ABEL 餘額與轉帳金額，並使用可連結環簽章，讓發送者隱藏在一組可能的發送者之中。Shielded 地址以 `abe01005` 開頭。
+
+### Transparent（透明）
+
+Transparent 是 MLP 隱私層級目前使用的名稱，過去稱為 pseudo-private 或 pseudo-private CT。較早的 pseudo-private 格式已由 pseudo-private CT 取代，但隱私層級相同。目前 Transparent 地址以 `abe01007` 開頭；舊版 pseudo-private 地址以 `abe01006` 開頭。
+
+## AUT 隱私類型
+
+AUT 使用 Transparent 主地址並沿用其偽匿名特性。Cloaked 隱私類型專用於 AUT，只改變金額的可見性，不會隱藏地址。
+
+### Cloaked AUT
+
+Cloaked AUT 會隱藏代幣餘額與轉帳金額，但發送者和接收者地址仍會公開顯示。
+
+### Transparent AUT
+
+Transparent AUT 會公開顯示發送者與接收者地址及轉帳金額，因此餘額也可由公開資料查看或計算。
+
+## 相關術語
+
+### AUT（Abelian User Token，Abelian 使用者代幣）
+
+AUT 是使用 Abelian 地址與隱私模型的使用者代幣。AUT 使用 Transparent 地址並沿用其偽匿名特性。
+
+### Linkable ring signature（可連結環簽章）
+
+Shielded ABEL 交易使用的密碼學方案，可將發送者隱藏在一組可能的發送者之中，同時保留協定所需的可連結性。
