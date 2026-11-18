@@ -7,38 +7,94 @@ keywords: ["Abelian 術語表", "Transparent", "Shielded", "Auditable Privacy", 
 
 本術語表說明 Abelian 錢包的隱私名稱、舊地址術語與目前名稱的對應關係，以及 Transparent 和 Cloaked AUT 會公開哪些資訊。
 
-## ABEL 錢包隱私層級
+### ABEL
+
+ABEL 是 Abelian 網路的原生貨幣，透過區塊獎勵發行，與使用者發行的 Abelian 使用者代幣（AUT）不同。
+
+### ABEL-ETHash
+
+ABEL-ETHash 是 Abelian 的其中一種工作量證明挖礦演算法，主要針對 GPU 設計，CPU 也可以用來挖礦。
+
+### ABEL-Nakamoto
+
+ABEL-Nakamoto 是 Abelian 對 Nakamoto 工作量證明挖礦演算法所做的抗量子改編，設計上適用於 FPGA 和 ASIC；現有 Bitcoin 挖礦硬體與此演算法不相容。
+
+### Abelian 改進提案（AIP）
+
+AIP 是用來提出、討論和記錄 Abelian 生態系統改進的結構化文件，可分為標準類、資訊類或流程類提案。提案獲得接受並不會自動成為網路標準，是否採用仍取決於社群共識。
+
+### Abelian 名稱服務（ANS）
+
+ANS 是用來註冊 ABEL 地址，並透過短地址查詢或驗證地址的服務。
 
 ### Auditable Privacy（可稽核隱私）
 
 可稽核隱私介於 Transparent 與 Shielded 之間。錢包持有人可將檢視金鑰分享給稽核人員等第三方，讓對方查看餘額與轉帳金額；檢視金鑰不能用來轉帳或支出資金。
 
-### Shielded（遮蔽）
+### AUT（Abelian User Token，Abelian 使用者代幣）
 
-Shielded 是 ABEL 的完全私密層級。它會隱藏 ABEL 餘額與轉帳金額，並使用可連結環簽章，讓發送者隱藏在一組可能的發送者之中。Shielded 地址以 `abe01005` 開頭。
-
-### Transparent（透明）
-
-Transparent 是 MLP 隱私層級目前使用的名稱，過去稱為 pseudo-private 或 pseudo-private CT。較早的 pseudo-private 格式已由 pseudo-private CT 取代，但隱私層級相同。目前 Transparent 地址以 `abe01007` 開頭；舊版 pseudo-private 地址以 `abe01006` 開頭。
-
-## AUT 隱私類型
-
-AUT 使用 Transparent 主地址並沿用其偽匿名特性。Cloaked 隱私類型專用於 AUT，只改變金額的可見性，不會隱藏地址。
+AUT 是使用 Abelian 地址與隱私模型的使用者代幣。AUT 使用 Transparent 主地址並沿用其偽匿名特性。
 
 ### Cloaked AUT
 
 Cloaked AUT 會隱藏代幣餘額與轉帳金額，但發送者和接收者地址仍會公開顯示。
 
+### Difficulty Smoothing Algorithm（難度平滑演算法，DSA）
+
+DSA 是 Abelian 的挖礦難度調整演算法，每 200 個區塊調整一次難度，並根據前 20 個時槽的加權平均算力計算，較近期的時槽權重較高。
+
+### Hash rate（算力）
+
+算力是每秒執行的挖礦工作量。Abelian 的 DSA 使用估算算力調整挖礦難度。
+
+### Hybrid Proof of Work（混合工作量證明）
+
+Abelian 的混合工作量證明設計同時執行 ABEL-ETHash 和 ABEL-Nakamoto 挖礦演算法，支援適用於 GPU 以及 FPGA 或 ASIC 的挖礦方式。
+
+### Linkable ring signature（可連結環簽章）
+
+Shielded ABEL 交易使用的密碼學方案，可將發送者隱藏在一組可能的發送者之中，同時讓網路偵測重複支出。
+
+### Mining pool（礦池）
+
+礦池會協調多位參與者的挖礦工作，並依照各自貢獻的工作量計算獎勵。礦池營運者會訂定發放和手續費規則。
+
+### Multi-Level Privacy（多層隱私，MLP）
+
+MLP 是 Abelian 用來選擇交易資訊揭露程度的架構。ABEL 有 Transparent、Shielded 和 Auditable 層級；AUT 則有 Transparent 和 Cloaked 選項。
+
+### One-time address（一次性地址）
+
+一次性地址是每筆付款使用的專屬地址，有助於避免交易被公開連結到接收者可重複使用的錢包地址。
+
+### Post-quantum cryptography（後量子密碼學）
+
+後量子密碼學是旨在抵禦古典和量子電腦攻擊的密碼學方法。Abelian 文件所述的密碼學以格密碼學為基礎。
+
+### Proof of Work（工作量證明，PoW）
+
+工作量證明是一種共識方式，礦工透過執行計算工作產生區塊。Abelian 使用 ABEL-ETHash 和 ABEL-Nakamoto 兩種工作量證明演算法。
+
+### Shielded（遮蔽）
+
+Shielded 是 ABEL 的完全私密層級。它會隱藏 ABEL 餘額與轉帳金額，並使用可連結環簽章，讓發送者隱藏在一組可能的發送者之中。Shielded 地址以 `abe01005` 開頭。
+
+### Slot（時槽）
+
+時槽是 Abelian 現行 DSA 排程中的 200 個區塊週期。每個時槽結束時，DSA 會根據近期時槽的算力資料計算下一個難度。
+
+### Transparent（透明）
+
+Transparent 是 MLP 隱私層級目前使用的名稱，過去稱為 pseudo-private 或 pseudo-private CT。較早的 pseudo-private 格式已由 pseudo-private CT 取代，但隱私層級相同。目前 Transparent 地址以 `abe01007` 開頭；舊版 pseudo-private 地址以 `abe01006` 開頭。
+
 ### Transparent AUT
 
 Transparent AUT 會公開顯示發送者與接收者地址及轉帳金額，因此餘額也可由公開資料查看或計算。
 
-## 相關術語
+### UTXO（未花費交易輸出）
 
-### AUT（Abelian User Token，Abelian 使用者代幣）
+UTXO 是尚未花費的交易輸出，可作為後續交易的輸入。Abelian 使用 UTXO 交易模型。
 
-AUT 是使用 Abelian 地址與隱私模型的使用者代幣。AUT 使用 Transparent 地址並沿用其偽匿名特性。
+### Zero-knowledge proof（零知識證明）
 
-### Linkable ring signature（可連結環簽章）
-
-Shielded ABEL 交易使用的密碼學方案，可將發送者隱藏在一組可能的發送者之中，同時保留協定所需的可連結性。
+零知識證明讓網路能驗證某項陳述（例如交易有效性），而無需揭露底層的私密資訊，例如轉帳金額。

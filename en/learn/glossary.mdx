@@ -8,21 +8,69 @@ Whether you're building on the Abelian network or simply exploring, these defini
 
 ---
 
+### ABEL
+
+ABEL is the native coin of the Abelian network. It is issued through block rewards and is distinct from user-issued Abelian User Tokens (AUTs).
+
+### ABEL-ETHash
+
+ABEL-ETHash is one of Abelian's proof-of-work mining algorithms. It is designed to be GPU-friendly, although CPUs can also mine it.
+
+### ABEL-Nakamoto
+
+ABEL-Nakamoto is Abelian's quantum-resistant adaptation of Nakamoto proof-of-work mining. It is designed with FPGA and ASIC mining in mind; existing Bitcoin mining hardware is not compatible with it.
+
+### Abelian Improvement Proposal (AIP)
+
+An AIP is a structured document for proposing, discussing, and documenting an improvement to the Abelian ecosystem. AIPs can be standards-track, informational, or process proposals. Acceptance alone does not make an AIP a network standard; adoption depends on community consensus.
+
+### Abelian Name Service (ANS)
+
+ANS is a service for registering ABEL addresses and looking up or verifying an address using its short address.
+
 ### Auditable Privacy
 
 Auditable Privacy is a level between Transparent and Shielded. A wallet's viewing key can be shared with a third party, such as an auditor, to reveal its balance and transfer amounts. The viewing key does not allow its holder to transfer funds.
 
 ### AUT (Abelian User Token)
 
-An AUT is a user token that uses the Abelian address and privacy model. AUTs use Transparent addresses and inherit their pseudonymity.
+An AUT is a user-issued token on the Abelian blockchain. AUTs use Transparent host addresses and inherit their pseudonymity.
 
 ### Cloaked AUT
 
 Cloaked AUT hides the token balance and transfer amount. Sender and recipient addresses remain publicly visible.
 
+### Difficulty Smoothing Algorithm (DSA)
+
+DSA is Abelian's mining difficulty adjustment algorithm. It adjusts difficulty every 200 blocks using a weighted average of hash rate across the previous 20 slots, giving more weight to recent slots.
+
+### Hash rate
+
+Hash rate is the amount of mining work performed per second. Abelian's DSA uses estimated hash rates to adjust mining difficulty.
+
+### Hybrid Proof of Work
+
+Abelian's hybrid proof-of-work design runs the ABEL-ETHash and ABEL-Nakamoto mining algorithms concurrently, supporting GPU-friendly and FPGA- or ASIC-oriented mining.
+
 ### Linkable ring signature
 
-A cryptographic scheme used by Shielded ABEL transactions to obscure the sender among a set of possible senders while retaining linkability where required by the protocol.
+A cryptographic scheme used by Shielded ABEL transactions to obscure the sender among a set of possible senders while allowing the network to detect a repeated spend.
+
+### Mining pool
+
+A mining pool coordinates mining work from multiple participants and accounts for their contributed work when calculating rewards. Pool operators set the pool's payout and fee rules.
+
+### Multi-Level Privacy (MLP)
+
+MLP is Abelian's framework for choosing how much transaction information to reveal. ABEL has Transparent, Shielded, and Auditable levels; AUT has Transparent and Cloaked options.
+
+### One-time address
+
+A one-time address is a payment-specific destination that helps prevent a transaction from being publicly linked to the recipient's reusable wallet address.
+
+### Post-quantum cryptography
+
+Post-quantum cryptography refers to cryptographic methods designed to resist attacks from both classical and quantum computers. Abelian's documented cryptography is lattice-based.
 
 ### Shielded
 
@@ -30,8 +78,16 @@ Shielded is the full-private ABEL wallet privacy level. It hides the ABEL balanc
 
 ### Transparent
 
-Transparent is the current name for the MLP wallet privacy level historically called pseudo-private or pseudo-private CT. The older pseudo-private format has been superseded by pseudo-private CT without changing the privacy level. Current Transparent addresses start with `abe01007`; legacy pseudo-private addresses start with `abe01006`.
+Transparent is the current name for the MLP privacy level historically called pseudo-private or pseudo-private CT. The older pseudo-private format has been superseded by pseudo-private CT without changing the privacy level. Current Transparent addresses start with `abe01007`; legacy pseudo-private addresses start with `abe01006`.
 
 ### Transparent AUT
 
 Transparent AUT transfers publicly reveal sender and recipient addresses and transfer amounts, so the balance is also publicly visible or calculable.
+
+### UTXO (Unspent Transaction Output)
+
+A UTXO is an unspent transaction output that can be used as an input to a later transaction. Abelian uses the UTXO transaction model.
+
+### Zero-knowledge proof
+
+A zero-knowledge proof lets a network verify that a statement, such as a transaction's validity, is true without revealing the underlying private information, such as a transfer amount.

@@ -4,10 +4,6 @@ sidebarTitle: "Abelian User Token"
 description: "Learn how Abelian User Tokens let you issue and transfer native assets with post-quantum protection and a choice of public or hidden amounts."
 ---
 
-# Abelian User Tokens
-
-Create and transfer native assets on Abelian, with post-quantum protection and options for public or confidential amounts.
-
 ## What Are AUTs?
 
 Abelian User Tokens (AUTs) are tokens that individuals, businesses, and developers can issue on the Abelian blockchain. They let you create an asset of your own while using the existing network to record and validate its transactions.
@@ -42,9 +38,7 @@ Transparent AUT can suit situations where public visibility is useful, such as a
 
 Cloaked AUT hides transfer amounts and token balances from public view. The sender’s and recipient’s addresses remain visible.
 
-An observer can see which addresses participated in a transfer, but not how many tokens moved or the balances held at those addresses.
-
-According to Abelian’s technical overview, this confidentiality is enforced within the protocol using zero-knowledge proofs. These allow the network to validate transactions without requiring the hidden amounts to be published.
+An observer can see which addresses participated in a transfer, but not how many tokens moved or the balances held at those addresses. This confidentiality is enforced within the protocol using zero-knowledge proofs. These allow the network to validate transactions without requiring the hidden amounts to be published.
 
 Cloaked privacy is therefore about concealing financial quantities, not concealing the transaction’s participants.
 
@@ -78,11 +72,13 @@ Security and privacy serve different purposes: security protects against unautho
 
 ## Creating and Managing AUTs
 
-Abelian’s official introduction describes token issuance through the mobile app and Desktop Wallet Pro, allowing users to create tokens without writing code.
+<Info>
+Desktop Wallet Pro’s release history records support for non-cloaked AUT operations from March 2026 and Cloaked AUT from May 2026.
+</Info>
+
+AUT token issuance can be done through the mobile app and Desktop Wallet Pro, allowing users to create tokens without writing code.
 
 The basic process is to issue a token with a defined supply and then distribute it through transfers. Available issuance and management options depend on the wallet and version being used.
-
-Desktop Wallet Pro’s release history records support for non-cloaked AUT operations from March 2026 and Cloaked AUT from May 2026.
 
 ## What Can AUTs Represent?
 
@@ -92,10 +88,9 @@ Cloaked AUT can help where payment amounts or holdings should not be public. For
 
 A token representing shares, currency, or a physical asset also requires arrangements outside the blockchain. Its backing, redemption rights, and legal meaning depend on the issuer. Creating an AUT does not automatically establish those rights or guarantee its value.
 
-## Sources and Version
+---
 
-Updated 17 November 2026. This page follows current product clarifications on Transparent and Cloaked AUT, including the visibility of both sender and recipient addresses, rather than the article’s broader privacy wording.
+## Extra Resources
 
 - [Privacy by Design: Introducing the Quantum-Resistant Privacy Token on Abelian](https://pqabelian.io/blog/privacy-by-design-introducing-the-quantum-resistant-privacy-token-on-abelian), 3 April 2026.
 - [MLP and AUT network upgrade announcement](https://www.pqabelian.io/blog/abelian-network-hard-fork-introducing-multi-level-privacy-and-user-token-protocol-at-block-height-300-000), 29 July 2024.
-- [Official release history](https://community.pqabelian.io/downloads/release-history), for Aconcagua and wallet support milestones.

@@ -1,7 +1,113 @@
 ---
 title: "Abelian 難度平滑調整演算法白皮書"
-description: "Abelian 難度平滑演算法（DSA）白皮書 PDF。"
+description: "了解 Abelian 的難度平滑演算法如何調整挖礦難度，讓區塊時間維持穩定。"
 keywords: ["DSA 白皮書", "Abelian", "難度平滑演算法"]
 ---
 
-下載 PDF 文件: [Abelian 難度平滑調整演算法白皮書](https://download.pqabelian.io/release/docs/abelian_difficulty_smoothing_algorithm_whitepaper.pdf)
+<Info>
+在此下載 Abelian [難度平滑演算法（DSA）白皮書](https://download.pqabelian.io/release/docs/abelian_difficulty_smoothing_algorithm_whitepaper.pdf)。
+</Info>
+
+## 簡介
+
+難度平滑演算法（DSA）用來調整 Abelian 網路的挖礦難度，讓新區塊的產生時間接近 256 秒的目標。DSA 於 2024 年 6 月 3 日、區塊高度 284,000 啟用，取代原本每 4,000 個區塊調整一次難度的週期。
+
+#### 為什麼需要調整難度
+
+Abelian 使用工作量證明（PoW）。礦工競爭產生下一個區塊，而難度決定完成這項工作的難度。若加入更多算力，區塊會過快產生，因此需要提高難度；若礦工離開，區塊速度會變慢，因此需要降低難度。網路的目標平均區塊時間為 256 秒。
+
+#### 原本的調整方式
+
+Abelian 啟動時，每 4,000 個區塊調整一次難度。基金會將此週期稱為一個 epoch，依目標區塊時間約為 12 天。每個 epoch 結束時，網路會估算近期算力，並據此提高或降低下一個 epoch 的難度。
+
+如果一個 epoch 超過約 12 天才完成，網路便降低難度，讓後續區塊更快產生；如果提早完成，網路則提高難度，讓後續區塊放慢。目標仍是每 256 秒產生一個區塊，但網路每幾千個區塊才能修正一次。
+
+#### 為什麼網路需要改變
+
+截至 2024 年 6 月，算力經常在不同 epoch 之間大幅波動。基金會將此歸因於礦工隨著難度及獲利變化，在 Abelian 與其他可使用 GPU 挖礦的網路之間移動。
+
+這些波動反映在區塊時間上。2024 年 4 月 25 日至 6 月 3 日的兩個 epoch 中，第一個 epoch 的平均區塊時間一度達約 1,300 秒，第二個則曾降至約 80 秒。
+
+這兩種極端都會造成問題。大量礦工加入時，區塊時間縮短、吞吐量上升，但連線品質較差的節點可能難以跟上；基金會指出，這可能造成頻繁的軟分叉與算力浪費。礦工離開時，區塊時間拉長，交易確認也會變慢，影響使用體驗。
+
+## DSA 的運作方式
+
+DSA 更頻繁地更新難度，並更重視近期網路狀況。
+
+目前網路每 200 個區塊調整一次。基金會將此週期稱為一個 slot，以目標區塊時間計算約為 14 小時。為決定下一個 slot 的難度，DSA 會檢視最近 20 個 slot 的算力並計算加權平均，較近期的 slot 權重較高。
+
+接著，DSA 設定下一個難度，讓算力若維持在估算值附近，平均區塊時間便會回到 256 秒。簡單來說，近期區塊若快於 256 秒，難度就會提高；若慢於 256 秒，難度就會降低。
+
+單次難度調整也設有上限。加權平均算力與最近一個 slot 算力的比值會限制在 $\frac{1}{4}$ 到 $4$ 之間。若下一個 slot 的算力與上一個 slot 相同，此上限會讓推算出的平均區塊時間維持在 64 至 1,024 秒之間，避免算力突然變化時難度一次跳動過大。
+
+#### 啟用後基金會觀察到的結果
+
+Abelian 基金會在 2024 年 7 月的白皮書中指出，DSA 啟用後，區塊時間迅速回到 256 秒目標附近。2024 年 6 月 24 日至 7 月 5 日期間，基金會記錄的平均區塊時間介於 166 至 334 秒，比升級前的波動範圍窄得多。
+
+<Accordion title="DSA 的計算方式">
+	每個 200 區塊 slot 結束時，DSA 會估算網路完成的工作量與該 slot 所花時間，再用這些數據設定下一個目標。
+
+	有效區塊的雜湊值必須低於稱為目標的 256 位元門檻 $T$。區塊標頭的 `bits` 欄位是此目標的緊湊編碼。由於共有 $2^{256}$ 種可能的雜湊值，單次雜湊符合目標的機率約為 $T/2^{256}$。白皮書稱找到有效區塊所需的預期雜湊次數為工作量 $W$：
+
+	$$
+	W \approx \frac{2^{256}}{T+1}
+	$$
+
+	加上 $1$ 可避免除以零。算力是每秒完成的工作量。
+
+	一個 slot 有 200 個區塊，因此首末區塊之間有 199 個時間間隔。Slot 時間 $S$ 是兩個區塊時間戳的差值。此 slot 的算力 $H$ 為：
+
+	$$
+	H = \frac{\left(\frac{2^{256}}{T+1}\right)\times 199}{S}
+	$$
+
+	等價地說，就是末區塊與首區塊的總工作量差，再除以相同的時間差。
+
+	DSA 會取前 20 個 slot 的算力計算加權平均。令最舊 slot 的 $i=0$、最新 slot 的 $i=19$，slot $i$ 的權重為：
+
+	$$
+	\alpha_i = \frac{1}{400}+\frac{i}{200}
+	$$
+
+	所有權重加總為 $1$。最舊 slot 對平均值的貢獻為 $0.0025$，最新 slot 則為 $0.0975$。
+
+	接著，DSA 比較加權平均算力 $\bar{H}$ 與最近一個 slot 的算力 $H_{i-1}$：
+
+	$$
+	r = \frac{\bar{H}}{H_{i-1}}
+	$$
+
+	用於下一個 slot 的目標算力 $H_{\text{target}}$ 為：
+
+	- 若 $r>4$，採用最近 slot 算力的 $4$ 倍。
+	- 若 $\frac{1}{4}\leq r\leq 4$，採用加權平均算力。
+	- 若 $r<\frac{1}{4}$，採用最近 slot 算力的 $\frac{1}{4}$。
+
+	DSA 設定新的目標 $T_{\text{new}}$，讓下一個 slot 若以目標算力執行，預計需時 $199\times256$ 秒：
+
+	$$
+	T_{\text{new}} = \frac{2^{256}}{256\times H_{\text{target}}}-1
+	$$
+
+	此目標會轉回緊湊的 `bits` 格式，供下一個 slot 使用。區塊瀏覽器以 $M/T$ 顯示難度，其中 $M$ 是最大難度，其 `bits` 值為 `1d017c38`。
+
+	白皮書以區塊 284,800 至 284,999 的 slot 示範此計算。在該範例中，比值約為 $4.16$，因此套用 $4$ 倍上限，算出的難度約為 $235{,}676.38$。
+</Accordion>
+
+## DSA 啟用時間
+
+DSA 自 2024 年 6 月 3 日、區塊高度 284,000 起啟用。若要在該高度之後繼續同步區塊鏈，使用者需升級至 Abec v0.13.0、Desktop Wallet v4.0.0 或 Android／iOS 版 Abelian Pro。基金會於 2024 年 7 月表示，礦池、交易所和主要個人節點已完成升級。
+
+### 閱讀 DSA 白皮書
+
+<iframe
+	src="https://download.pqabelian.io/release/docs/abelian_difficulty_smoothing_algorithm_whitepaper.pdf"
+	title="Abelian 難度平滑演算法白皮書"
+	className="w-full h-[80vh] rounded-xl"
+></iframe>
+
+## 其他資源
+
+- [Abelian Foundation 公告，2024 年 7 月 11 日](https://pqabelian.io/blog/abelian-foundation-releases-white-paper-on-new-difficulty-smoothing-algorithm)
+- [ABEL 難度平滑演算法（DSA）白皮書，2024 年 7 月 12 日](https://download.pqabelian.io/release/docs/abelian_difficulty_smoothing_algorithm_whitepaper.pdf)
+- [Abelian 難度平滑演算法（DSA）介紹](https://pqabelian.io/blog/exploring-the-abelian-difficulty-smoothing-algorithm-dsa)

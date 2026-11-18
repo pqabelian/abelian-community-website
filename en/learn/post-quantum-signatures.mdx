@@ -1,10 +1,10 @@
 ---
-title: "What are Post-Quantum (PQ) Signatures"
-sidebarTitle: "Post-Quantum Signatures"
+title: "Post-Quantum (PQ) Signatures Explained"
+sidebarTitle: "Post-Quantum (PQ) Signatures"
 description: "Explore how Abelian’s lattice-based signatures authorize transactions, protect sender privacy, and help defend against quantum attacks."
 ---
 
-# Post-Quantum Signatures
+# Intro
 
 Digital signatures let a blockchain verify that someone authorized a transaction without asking them to reveal their secret key. Abelian uses custom lattice-based cryptography for this authorization, with linkable ring signatures providing sender privacy for Shielded ABEL transactions.
 
@@ -126,6 +126,8 @@ This is anonymity within a set of possibilities, not a guarantee against every f
 
 ### Abelian’s Documented Ring-Signature Approach
 
+<GitHub.Repo repo="pqabelian/pqringctx" variant="inset" />
+
 Section 3.2.5 describes Abelian’s approach as combining Libert and colleagues’ blueprint with Lyubashevsky’s zero-knowledge techniques.
 
 The discussion considers Merkle-tree-based ring-membership proofs alongside lattice proof techniques based on Module-SIS and Module-LWE. However, it does not give a complete specification of Abelian’s ring-membership protocol.
@@ -164,7 +166,7 @@ Those planned options will extend cryptographic choice and agility. They are sep
 
 ## References and Technical Scope
 
-Reviewed 17 November 2026. Mathematical relations and construction details above come from the [Abelian whitepaper, v1.0, 18 February 2022](https://download.pqabelian.io/release/docs/whitepaper.pdf), particularly:
+Mathematical relations and construction details above come from the [Abelian whitepaper, v1.0, 18 February 2022](https://download.pqabelian.io/release/docs/whitepaper.pdf), particularly:
 
 - Section 3.1: cryptographic framework.
 - Section 3.2.1: Module-SIS and Module-LWE.

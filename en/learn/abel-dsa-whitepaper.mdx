@@ -1,7 +1,116 @@
 ---
 title: "Difficulty Smoothing Algorithm Whitepaper"
 sidebarTitle: "DSA Whitepaper"
-description: "Download the whitepaper describing Abelian's Difficulty Smoothing Algorithm and its approach to adjusting mining difficulty."
+description: "Less turbulence. More consistent block times."
 ---
 
-Download PDF: [Abelian Difficulty Smoothing Algorithm Whitepaper](https://download.pqabelian.io/release/docs/abelian_difficulty_smoothing_algorithm_whitepaper.pdf)
+<Info>
+Download the whitepaper of Abelian’s Difficulty Smoothing Algorithm [here](https://download.pqabelian.io/release/docs/abelian_difficulty_smoothing_algorithm_whitepaper.pdf).    
+</Info>
+
+## Introduction
+
+The Difficulty Smoothing Algorithm (DSA) is how the Abelian network adjusts mining difficulty so that new blocks stay close to the target time of 256 seconds. It took effect at block 284,000 on 3 June 2024, replacing the original adjustment cycle of 4,000 blocks.
+
+#### Why difficulty adjustment matters
+
+Abelian uses Proof-of-Work. Miners compete to produce the next block, and difficulty controls how hard that work is. If more mining power joins the network, blocks would arrive too quickly unless difficulty rises. If miners leave, blocks would slow down unless difficulty falls. The network’s target is an average of 256 seconds per block.
+
+#### The original adjustment method
+
+At launch, Abelian updated difficulty once every 4,000 blocks, a period the Foundation calls an epoch. That is about 12 days at the target block time. At the end of each epoch, the network estimated recent hash rate and scaled the next epoch’s difficulty up or down.
+
+If an epoch took longer than about 12 days, difficulty was reduced so the next blocks would come in faster. If an epoch finished early, difficulty was increased so the next blocks would take longer. The aim was still 256 seconds per block, but the network could only correct course once every few thousand blocks.
+
+#### Why the network needed a change
+
+Until June 2024, hash rate often swung sharply from one epoch to the next. The Foundation attributed this to miners moving between Abelian and other GPU-minable networks as difficulty, and therefore profitability, changed.
+
+Those swings showed up in block times. In the two epochs from 25 April to 3 June 2024, average block times in the first epoch peaked at about 1,300 seconds, while the second epoch fell as low as about 80 seconds.
+
+Both extremes created problems. When many miners joined, block times shortened and throughput rose, but poorly connected nodes could struggle to keep up, which the Foundation said could cause frequent soft forks and wasted work. When miners left, block times stretched out and transactions took longer to confirm, which hurt usability.
+
+## How DSA works
+
+DSA updates difficulty much more often, and it pays more attention to recent conditions.
+
+The network now adjusts every 200 blocks. The Foundation calls this period a slot, which is about 14 hours at the target block time. To choose the next slot’s difficulty, DSA looks at the most recent 20 slots and computes a weighted average hash rate, giving more weight to later slots than to earlier ones.
+
+It then sets the next difficulty so that, if hash rate stays near that estimate, average block time should return to 256 seconds. In simple terms, difficulty rises when recent blocks have been faster than 256 seconds, and falls when they have been slower.
+
+A single adjustment is also capped. The ratio between the weighted average hash rate and the most recent slot’s hash rate is limited to the range from ¼ to 4. If the next slot’s hash rate stayed the same as the last slot, that cap keeps the implied average block time between 64 and 1,024 seconds. The cap stops difficulty from jumping too far in one step when hash rate changes suddenly.
+
+#### What the Foundation reported after launch
+
+In its July 2024 whitepaper, the Abelian Foundation said that after DSA activated, block times quickly moved back toward the 256-second target. For the period from 24 June to 5 July 2024, it reported average block times between 166 and 334 seconds, a much narrower range than the swings seen just before the upgrade.
+
+<Accordion title="How does the DSA calculation works?">
+  At the end of each 200-block slot, DSA estimates how much work the network did and how long that slot took, then uses those figures to set the next target.
+
+  A valid block must have a hash below a 256-bit threshold called the $\text{target}$. The `bits` field in a block header is a compact encoding of that target. Because there are $2^{256}$ possible hash values, the chance of a single hash meeting the target is about $\text{target} / 2^{256}$. The expected number of hashes needed to find a valid block, which the paper calls $\text{work}$, is therefore:
+
+  $$
+  	ext{work} \approx \frac{2^{256}}{\text{target} + 1}
+  $$
+
+  The $+1$ avoids dividing by zero. $\text{Hash rate}$ is the amount of work done per second.
+
+  A slot contains 200 blocks, so there are 199 intervals between the first and last block. $\text{Slot time}$ is the difference between those two timestamps. The slot’s hash rate is:
+
+  $$
+  	ext{hash rate} = \frac{\left(\frac{2^{256}}{\text{target} + 1}\right) \times 199}{\text{slot time}}
+  $$
+
+  Equivalently, it is the difference in total work between the last and first block, divided by that same time difference.
+
+  DSA then takes the hash rates of the previous 20 slots and computes a weighted average. The weight for slot $i$, with $i = 0$ for the oldest slot and $i = 19$ for the newest, is:
+
+  $$
+  \alpha_i = \frac{1}{400} + \frac{i}{200}
+  $$
+
+  These weights add up to $1$. The oldest slot contributes $0.0025$ of the average, and the newest contributes $0.0975$.
+
+  Next, DSA compares that weighted average with the most recent slot’s hash rate:
+
+  $$
+  	ext{ratio} = \frac{\text{average hash rate}}{\text{hash rate}_{i-1}}
+  $$
+
+  The $\text{target hash rate}$ used for the next slot is:
+
+  - $4 \times$ the most recent slot’s hash rate, if the $\text{ratio}$ is greater than $4$
+  - the weighted average, if the $\text{ratio}$ is between $\frac{1}{4}$ and $4$ inclusive
+  - $\frac{1}{4} \times$ the most recent slot’s hash rate, if the $\text{ratio}$ is less than $\frac{1}{4}$
+
+  DSA then chooses a new target so that, if the next slot runs at that target hash rate, the slot should take $199 \times 256$ seconds:
+
+  $$
+  	ext{target} = \frac{2^{256}}{256 \times \text{target hash rate}} - 1
+  $$
+
+  That target is converted back into compact `bits` form and used for the next slot. Explorer difficulty is reported as $M / \text{target}$, where $M$ is the maximum difficulty, whose `bits` value is `1d017c38`.
+
+  The whitepaper walks through this calculation for the slot from block 284,800 to 284,999. In that example, the $\text{ratio}$ was about $4.16$, so the $4\times$ cap was applied, and the resulting difficulty was about $235{,}676.38$.
+</Accordion>
+
+## When DSA took effect
+
+DSA has been in use since block 284,000, on 3 June 2024. To follow the chain past that height, users needed to upgrade to at least Abec v0.13.0, Desktop Wallet v4.0.0, or Abelian Pro on Android and iOS. The Foundation wrote in July 2024 that mining pools, exchanges, and major individual nodes had already completed that upgrade.
+
+---
+
+### View the DSA Whitepaper
+<iframe
+  src="https://download.pqabelian.io/release/docs/abelian_difficulty_smoothing_algorithm_whitepaper.pdf"
+  title="Abelian Blockchain Whitepaper"
+  className="w-full h-[80vh] rounded-xl"
+></iframe>
+
+---
+
+## Extra Resources
+
+- [Abelian Foundation announcement, 11 July 2024](https://pqabelian.io/blog/abelian-foundation-releases-white-paper-on-new-difficulty-smoothing-algorithm)
+- [ABEL’s Difficulty Smoothing Algorithm (DSA) whitepaper, 12 July 2024](https://download.pqabelian.io/release/docs/abelian_difficulty_smoothing_algorithm_whitepaper.pdf)
+- [Exploring the Abelian ‘Difficulty Smoothing Algorithm’ (DSA)](https://pqabelian.io/blog/exploring-the-abelian-difficulty-smoothing-algorithm-dsa)
